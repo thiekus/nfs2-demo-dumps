@@ -1,0 +1,36 @@
+  Name:  _topFileID
+    address      = 0002:0006A898
+    module index = 430
+    kind:          (static pubdef) (data)
+  Name:  __NTAtMaxFiles_
+    address      = 0001:000BC083
+    module index = 430
+    kind:          (code)
+  Name:  __NTAddFileHandle_
+    address      = 0001:000BC0C8
+    module index = 430
+    kind:          (code)
+  Name:  __NTAddSpecificFileHandle_
+    address      = 0001:000BC141
+    module index = 430
+    kind:          (code)
+  Name:  __NTRemoveFileHandle_
+    address      = 0001:000BC1DD
+    module index = 430
+    kind:          (code)
+  Name:  __NTInitFileHandles_
+    address      = 0001:000BC209
+    module index = 430
+    kind:          (code)
+  Name:  __NTGetFakeHandle_
+    address      = 0001:000BC240
+    module index = 430
+    kind:          (code)
+  Name:  _fakeHandle
+    address      = 0002:00016F50
+    module index = 430
+    kind:          (static pubdef) (data)
+  Name:  ___FileHandleIDs
+    address      = 0002:0006A89C
+    module index = 430
+    kind:          (data)

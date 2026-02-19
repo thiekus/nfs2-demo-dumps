@@ -1,0 +1,8 @@
+  Name:  _upl
+    address      = 0001:000C7C30
+    module index = 589
+    kind:          (code)
+  Name:  _uplsetstate
+    address      = 0001:000C7CB8
+    module index = 589
+    kind:          (code)

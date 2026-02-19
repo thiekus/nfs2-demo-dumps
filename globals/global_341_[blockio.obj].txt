@@ -1,0 +1,48 @@
+  Name:  _openblockhandlea
+    address      = 0001:000AFF30
+    module index = 341
+    kind:          (code)
+  Name:  _openblockhandle
+    address      = 0001:000B0024
+    module index = 341
+    kind:          (code)
+  Name:  _openblockhandlez
+    address      = 0001:000B0050
+    module index = 341
+    kind:          (code)
+  Name:  _blockhandlefile
+    address      = 0001:000B007C
+    module index = 341
+    kind:          (code)
+  Name:  _closeblockhandle
+    address      = 0001:000B00A4
+    module index = 341
+    kind:          (code)
+  Name:  _readblockhandlea
+    address      = 0001:000B00B4
+    module index = 341
+    kind:          (code)
+  Name:  _readblockhandle
+    address      = 0001:000B0138
+    module index = 341
+    kind:          (code)
+  Name:  _readblockhandlez
+    address      = 0001:000B0154
+    module index = 341
+    kind:          (code)
+  Name:  _seekblockhandlea
+    address      = 0001:000B0170
+    module index = 341
+    kind:          (code)
+  Name:  _seekblockhandle
+    address      = 0001:000B01C8
+    module index = 341
+    kind:          (code)
+  Name:  _seekblockhandlez
+    address      = 0001:000B0218
+    module index = 341
+    kind:          (code)
+  Name:  _useblockiomirror
+    address      = 0002:000157C4
+    module index = 341
+    kind:          (data)

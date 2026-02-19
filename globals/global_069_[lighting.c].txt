@@ -1,0 +1,76 @@
+  Name:  Lighting_LightFilter_
+    address      = 0001:00059B11
+    module index = 69
+    kind:          (code)
+  Name:  Lighting_HSVLightFilter_
+    address      = 0001:00059C61
+    module index = 69
+    kind:          (code)
+  Name:  Lighting_GetLightTable_
+    address      = 0001:00059D78
+    module index = 69
+    kind:          (code)
+  Name:  Lighing_SetLightTable_
+    address      = 0001:00059DA5
+    module index = 69
+    kind:          (code)
+  Name:  Lighting_SetLightValues_
+    address      = 0001:00059DE8
+    module index = 69
+    kind:          (code)
+  Name:  Lighting_CalcLighting_
+    address      = 0001:00059E25
+    module index = 69
+    kind:          (code)
+  Name:  Lighting_CreateShadowTable_
+    address      = 0001:00059EF9
+    module index = 69
+    kind:          (code)
+  Name:  Lighting_InitLUTColors_
+    address      = 0001:00059F41
+    module index = 69
+    kind:          (code)
+  Name:  Lighting_MarkLUTColors_
+    address      = 0001:00059F7B
+    module index = 69
+    kind:          (code)
+  Name:  Lighting_CreateAdditiveLUT_
+    address      = 0001:00059FC2
+    module index = 69
+    kind:          (code)
+  Name:  Lighting_KillAdditiveLUT_
+    address      = 0001:0005A1E3
+    module index = 69
+    kind:          (code)
+  Name:  _gLUTdestmask
+    address      = 0002:0004CD00
+    module index = 69
+    kind:          (data)
+  Name:  _gLutpointers
+    address      = 0002:0004CE00
+    module index = 69
+    kind:          (data)
+  Name:  _gLightTable
+    address      = 0002:0004D200
+    module index = 69
+    kind:          (data)
+  Name:  _gL_av
+    address      = 0002:0004E200
+    module index = 69
+    kind:          (data)
+  Name:  _gL_bv
+    address      = 0002:0004E204
+    module index = 69
+    kind:          (data)
+  Name:  _gL_cv
+    address      = 0002:0004E208
+    module index = 69
+    kind:          (data)
+  Name:  _gL_sys
+    address      = 0002:0004E20C
+    module index = 69
+    kind:          (data)
+  Name:  _gLUTtbl
+    address      = 0002:0004E210
+    module index = 69
+    kind:          (data)

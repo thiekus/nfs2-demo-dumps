@@ -1,0 +1,4 @@
+  Name:  _movftxy
+    address      = 0001:000B9330
+    module index = 394
+    kind:          (code)

@@ -1,0 +1,32 @@
+  Name:  _putm
+    address      = 0001:000A21BC
+    module index = 290
+    kind:          (code)
+  Name:  _gputi
+    address      = 0001:000A21DF
+    module index = 290
+    kind:          (code)
+  Name:  _ggetm
+    address      = 0001:000A218C
+    module index = 290
+    kind:          (code)
+  Name:  _gputm
+    address      = 0001:000A21BC
+    module index = 290
+    kind:          (code)
+  Name:  _geti
+    address      = 0001:000A21A4
+    module index = 290
+    kind:          (code)
+  Name:  _puti
+    address      = 0001:000A21DF
+    module index = 290
+    kind:          (code)
+  Name:  _getm
+    address      = 0001:000A218C
+    module index = 290
+    kind:          (code)
+  Name:  _ggeti
+    address      = 0001:000A21A4
+    module index = 290
+    kind:          (code)

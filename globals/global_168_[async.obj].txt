@@ -1,0 +1,76 @@
+  Name:  _async
+    address      = 0002:000512E8
+    module index = 168
+    kind:          (static pubdef) (data)
+  Name:  cancelasyncoperation_
+    address      = 0001:000866D0
+    module index = 168
+    kind:          (code)
+  Name:  _setasyncspeed
+    address      = 0001:00086728
+    module index = 168
+    kind:          (code)
+  Name:  _defaultasyncspeed
+    address      = 0001:0008672C
+    module index = 168
+    kind:          (code)
+  Name:  _setasyncspeeda
+    address      = 0001:0008672C
+    module index = 168
+    kind:          (code)
+  Name:  _initasync
+    address      = 0001:00086730
+    module index = 168
+    kind:          (code)
+  Name:  _delasync
+    address      = 0001:00086888
+    module index = 168
+    kind:          (code)
+  Name:  _asyncloadfile
+    address      = 0001:000869EC
+    module index = 168
+    kind:          (code)
+  Name:  _asyncloadfileat
+    address      = 0001:00086AB4
+    module index = 168
+    kind:          (code)
+  Name:  _setasyncfile
+    address      = 0001:00086B7C
+    module index = 168
+    kind:          (code)
+  Name:  _asyncloadchunk
+    address      = 0001:00086C44
+    module index = 168
+    kind:          (code)
+  Name:  _asyncloadsegment
+    address      = 0001:00086C6C
+    module index = 168
+    kind:          (code)
+  Name:  _asyncread
+    address      = 0001:00086D10
+    module index = 168
+    kind:          (code)
+  Name:  _cancelasyncload
+    address      = 0001:00086D58
+    module index = 168
+    kind:          (code)
+  Name:  _asyncreader
+    address      = 0001:00086DFC
+    module index = 168
+    kind:          (code)
+  Name:  _getasyncreadblock
+    address      = 0001:00086E00
+    module index = 168
+    kind:          (code)
+  Name:  _getasyncreadstatus
+    address      = 0001:00086E74
+    module index = 168
+    kind:          (code)
+  Name:  _asyncthreadfunc
+    address      = 0001:00086F04
+    module index = 168
+    kind:          (static pubdef) (code)
+  Name:  _asyncthread
+    address      = 0002:000512EC
+    module index = 168
+    kind:          (data)

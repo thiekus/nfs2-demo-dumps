@@ -1,0 +1,8 @@
+  Name:  _savefont
+    address      = 0001:0009D2A0
+    module index = 252
+    kind:          (code)
+  Name:  _restorefont
+    address      = 0001:0009D2B8
+    module index = 252
+    kind:          (code)

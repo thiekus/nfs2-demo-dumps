@@ -1,0 +1,56 @@
+  Name:  linclipx_
+    address      = 0001:000B45E0
+    module index = 381
+    kind:          (static pubdef) (code)
+  Name:  linclipy_
+    address      = 0001:000B46B0
+    module index = 381
+    kind:          (static pubdef) (code)
+  Name:  leftlinclippoly2_
+    address      = 0001:000B4780
+    module index = 381
+    kind:          (code)
+  Name:  rightlinclippoly2_
+    address      = 0001:000B48E0
+    module index = 381
+    kind:          (code)
+  Name:  toplinclippoly2_
+    address      = 0001:000B4A38
+    module index = 381
+    kind:          (code)
+  Name:  bottomlinclippoly2_
+    address      = 0001:000B4B90
+    module index = 381
+    kind:          (code)
+  Name:  _asUVtop
+    address      = 0002:00067C00
+    module index = 381
+    kind:          (static pubdef) (data)
+  Name:  _asUVbottom
+    address      = 0002:00067E00
+    module index = 381
+    kind:          (static pubdef) (data)
+  Name:  _asXYleft
+    address      = 0002:00068000
+    module index = 381
+    kind:          (static pubdef) (data)
+  Name:  _asXYright
+    address      = 0002:00068200
+    module index = 381
+    kind:          (static pubdef) (data)
+  Name:  _asUVright
+    address      = 0002:00068400
+    module index = 381
+    kind:          (static pubdef) (data)
+  Name:  _asXYtop
+    address      = 0002:00068600
+    module index = 381
+    kind:          (static pubdef) (data)
+  Name:  _asUVleft
+    address      = 0002:00068800
+    module index = 381
+    kind:          (static pubdef) (data)
+  Name:  _asXYbottom
+    address      = 0002:00068A00
+    module index = 381
+    kind:          (static pubdef) (data)

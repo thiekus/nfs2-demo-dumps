@@ -1,0 +1,84 @@
+  Name:  _iSNDwaveoutcallback@20
+    address      = 0001:000AD540
+    module index = 330
+    kind:          (static pubdef) (code)
+  Name:  iSNDwaveoutcaps_
+    address      = 0001:000AD560
+    module index = 330
+    kind:          (code)
+  Name:  iSNDwaveoutbufsize_
+    address      = 0001:000AD654
+    module index = 330
+    kind:          (static pubdef) (code)
+  Name:  iSNDwaveoutstart_
+    address      = 0001:000ADA10
+    module index = 330
+    kind:          (code)
+  Name:  iSNDwaveoutstop_
+    address      = 0001:000ADF0C
+    module index = 330
+    kind:          (code)
+  Name:  iSNDwaveoutserve_
+    address      = 0001:000AE044
+    module index = 330
+    kind:          (code)
+  Name:  _wb
+    address      = 0002:000149D8
+    module index = 330
+    kind:          (static pubdef) (data)
+  Name:  _waveoutopen
+    address      = 0002:00014A58
+    module index = 330
+    kind:          (static pubdef) (data)
+  Name:  _waveoutactive
+    address      = 0002:00014A5A
+    module index = 330
+    kind:          (static pubdef) (data)
+  Name:  _lpbuffer
+    address      = 0002:00055630
+    module index = 330
+    kind:          (static pubdef) (data)
+  Name:  _lpwavehdr
+    address      = 0002:000556B0
+    module index = 330
+    kind:          (static pubdef) (data)
+  Name:  _hbuffer
+    address      = 0002:00055730
+    module index = 330
+    kind:          (static pubdef) (data)
+  Name:  _hwavehdr
+    address      = 0002:000557B0
+    module index = 330
+    kind:          (static pubdef) (data)
+  Name:  _outstandingbufs
+    address      = 0002:00055830
+    module index = 330
+    kind:          (static pubdef) (data)
+  Name:  _retrycurrentbuf
+    address      = 0002:00055834
+    module index = 330
+    kind:          (static pubdef) (data)
+  Name:  _latency
+    address      = 0002:00055838
+    module index = 330
+    kind:          (static pubdef) (data)
+  Name:  _hwaveout
+    address      = 0002:0005583C
+    module index = 330
+    kind:          (static pubdef) (data)
+  Name:  _numbufs
+    address      = 0002:00055840
+    module index = 330
+    kind:          (static pubdef) (data)
+  Name:  _framesperbuf
+    address      = 0002:00055844
+    module index = 330
+    kind:          (static pubdef) (data)
+  Name:  _curbuf
+    address      = 0002:00055848
+    module index = 330
+    kind:          (static pubdef) (data)
+  Name:  _wf
+    address      = 0002:0005584C
+    module index = 330
+    kind:          (static pubdef) (data)

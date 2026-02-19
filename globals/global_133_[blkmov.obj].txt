@@ -1,0 +1,4 @@
+  Name:  _blockmove
+    address      = 0001:000832D0
+    module index = 133
+    kind:          (code)

@@ -1,0 +1,4 @@
+  Name:  _copysftomf
+    address      = 0001:000BFCE0
+    module index = 483
+    kind:          (code)

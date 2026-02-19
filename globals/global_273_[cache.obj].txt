@@ -1,0 +1,40 @@
+  Name:  _cachememadr
+    address      = 0001:000A0570
+    module index = 273
+    kind:          (code)
+  Name:  _cachememblock
+    address      = 0001:000A058C
+    module index = 273
+    kind:          (code)
+  Name:  _prioritycachememadr
+    address      = 0001:000A059C
+    module index = 273
+    kind:          (code)
+  Name:  _prioritycachememblock
+    address      = 0001:000A05BC
+    module index = 273
+    kind:          (code)
+  Name:  _findnamedpurgeableblockinclass
+    address      = 0001:000A069C
+    module index = 273
+    kind:          (code)
+  Name:  _findnamedpurgeableblock
+    address      = 0001:000A0704
+    module index = 273
+    kind:          (code)
+  Name:  _cacheone
+    address      = 0001:000A0714
+    module index = 273
+    kind:          (code)
+  Name:  _cacheonei
+    address      = 0001:000A0748
+    module index = 273
+    kind:          (code)
+  Name:  _checkcacheadr
+    address      = 0001:000A0874
+    module index = 273
+    kind:          (code)
+  Name:  _checkcacheblock
+    address      = 0001:000A0888
+    module index = 273
+    kind:          (code)

@@ -1,0 +1,4 @@
+  Name:  ___heap_enabled
+    address      = 0002:00016F64
+    module index = 445
+    kind:          (data)

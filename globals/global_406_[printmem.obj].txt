@@ -1,0 +1,8 @@
+  Name:  _printmemclass
+    address      = 0001:000BA020
+    module index = 406
+    kind:          (code)
+  Name:  _printmem
+    address      = 0001:000BA190
+    module index = 406
+    kind:          (code)

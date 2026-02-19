@@ -1,0 +1,309 @@
+ 27) Name:   C:\nfs2\game\common\MinFront.c
+     Language is C
+     Locals: num = 1, offset = 0000007EH
+     Types:  num = 1, offset = 0000021AH
+     Lines:  num = 1, offset = 000003AEH
+
+   *** Locals ***
+   ==============
+      Data 0:  offset 0000D5E3
+        0000: MODULE_386
+          "MinFront_gPrefsFile" addr = 0002:0000D824,  type = 62
+        001C: MODULE_386
+          "MinFront_gParamList" addr = 0002:0000D404,  type = 65
+        0038: MODULE_386
+          "MinFront_gList" addr = 0002:0000D004,  type = 66
+        004F: SET_BASE_386
+          base = 0001:0002B11D
+        0057: NEAR_RTN_386
+          start off = 00000000, code size = 00000099, parent off = 0000
+          prologue size = 11,  epilogue size = 6
+          return address offset (from bp) = 0000000C
+          return type:  68
+          return value: REG: AX
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Parm 3: MULTI_REG(1): ECX
+          Name = "MinFront_Scan"
+        0081: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "s",  type = 67
+        0087: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "endchar",  type = 4
+        0093: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "size",  type = 7
+        009C: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "d",  type = 13
+        00A2: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "i",  type = 7
+        00A8: NEAR_RTN_386
+          start off = 00000099, code size = 000000AC, parent off = 0000
+          prologue size = 11,  epilogue size = 6
+          return address offset (from bp) = 0000000C
+          return type:  69
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Parm 3: MULTI_REG(1): ECX
+          Name = "MinFront_BackScan"
+        00D6: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "s",  type = 67
+        00DC: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "endchar",  type = 4
+        00E8: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "size",  type = 7
+        00F1: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "d",  type = 13
+        00F7: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "i",  type = 7
+        00FD: BLOCK_386
+          start off = 00000302, code size = 00000040, parent off = 010F
+        0109: LOCAL
+          address: BP_OFFSET_BYTE( DC )
+          name = "p",  type = 70
+        010F: NEAR_RTN_386
+          start off = 00000145, code size = 0000021D, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  71
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Name = "MinFront_LookupParam"
+        013B: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "s",  type = 13
+        0141: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "count",  type = 9
+        014B: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "acc",  type = 9
+        0153: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "high",  type = 9
+        015C: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "base",  type = 9
+        0165: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "sign",  type = 9
+        016E: NEAR_RTN_386
+          start off = 00000362, code size = 00000062, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  71
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Name = "MinFront_LookupDevice"
+        019B: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "devicename",  type = 13
+        01AA: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "d",  type = 75
+        01B0: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "i",  type = 9
+        01B6: NEAR_RTN_386
+          start off = 000003C4, code size = 0000009D, parent off = 0000
+          prologue size = 12,  epilogue size = 7
+          return address offset (from bp) = 00000010
+          return type:  76
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Name = "MinFront_LookupHandler"
+        01E8: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "s",  type = 67
+        01EE: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "adr",  type = 13
+        01F6: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "len",  type = 9
+        01FE: LOCAL
+          address: BP_OFFSET_BYTE( AC )
+          name = "name",  type = 77
+        0207: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "r",  type = 9
+        020D: BLOCK_386
+          start off = 000004FB, code size = 00000208, parent off = 026F
+        0219: LOCAL
+          address: BP_OFFSET_BYTE( 80 )
+          name = "i",  type = 9
+        021F: LOCAL
+          address: BP_OFFSET_WORD( 007C )
+          name = "first",  type = 9
+        022A: LOCAL
+          address: BP_OFFSET_BYTE( 84 )
+          name = "last",  type = 9
+        0233: LOCAL
+          address: BP_OFFSET_WORD( 0068 )
+          name = "value",  type = 9
+        023E: BLOCK_386
+          start off = 00000753, code size = 00000112, parent off = 026F
+        024A: LOCAL
+          address: BP_OFFSET_WORD( 0064 )
+          name = "count",  type = 78
+        0255: BLOCK_386
+          start off = 00000905, code size = 0000007F, parent off = 026F
+        0261: LOCAL
+          address: BP_OFFSET_WORD( 0044 )
+          name = "filename",  type = 79
+        026F: NEAR_RTN_386
+          start off = 00000461, code size = 0000057D, parent off = 0000
+          prologue size = 11,  epilogue size = 6
+          return address offset (from bp) = 0000000C
+          return type:  81
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Parm 3: MULTI_REG(1): ECX
+          Name = "MinFront_Evaluate"
+        029D: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "s",  type = 67
+        02A3: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "adr",  type = 13
+        02AB: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "len",  type = 9
+        02B3: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "stream",  type = 80
+        02BE: LOCAL
+          address: BP_OFFSET_BYTE( 98 )
+          name = "name",  type = 82
+        02C7: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "n",  type = 13
+        02CD: LOCAL
+          address: BP_OFFSET_BYTE( D8 )
+          name = "v",  type = 83
+        02D3: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "p",  type = 70
+        02D9: NEAR_RTN_386
+          start off = 000009DE, code size = 000000DA, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  84
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Name = "MinFront_ParseFile"
+        0304: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "filename",  type = 13
+        0311: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "stream",  type = 80
+        031C: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "mapfile",  type = 85
+        0328: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "s",  type = 13
+        032E: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "adr",  type = 13
+        0336: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "len",  type = 9
+        033E: NEAR_RTN_386
+          start off = 00000AB8, code size = 00000080, parent off = 0000
+          prologue size = 12,  epilogue size = 7
+          return address offset (from bp) = 00000010
+          return type:  87
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Name = "MinFront_ParseCommandLine"
+        0372: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "argc",  type = 9
+        037B: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "argv",  type = 86
+        0384: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "stream",  type = 80
+        038F: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "s",  type = 13
+        0395: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "adr",  type = 13
+        039D: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "len",  type = 9
+        03A5: NEAR_RTN_386
+          start off = 00000B38, code size = 000000CA, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  88
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "MinFront_ParseArgv"
+        03CE: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "stream",  type = 80
+        03D9: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "argv",  type = 85
+        03E2: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "s",  type = 13
+        03E8: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "adr",  type = 13
+        03F0: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "len",  type = 9
+        03F8: BLOCK_386
+          start off = 00000C56, code size = 00000035, parent off = 0416
+        0404: LOCAL
+          address: BP_OFFSET_WORD( 00EC )
+          name = "fullFileName",  type = 89
+        0416: NEAR_RTN_386
+          start off = 00000C02, code size = 000000CA, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  90
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Name = "MinFront_ParseOptions"
+        0445: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "argc",  type = 9
+        044E: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "argv",  type = 86
+        0457: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "filename",  type = 67
+        0464: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "stream",  type = 78
+        046F: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "d",  type = 78
+

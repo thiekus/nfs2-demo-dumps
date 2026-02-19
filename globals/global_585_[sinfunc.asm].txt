@@ -1,0 +1,16 @@
+  Name:  _intsin
+    address      = 0001:000C79A8
+    module index = 585
+    kind:          (code)
+  Name:  _intcos
+    address      = 0001:000C79CA
+    module index = 585
+    kind:          (code)
+  Name:  _fastintsin
+    address      = 0001:000C79A8
+    module index = 585
+    kind:          (code)
+  Name:  _fastintcos
+    address      = 0001:000C79CA
+    module index = 585
+    kind:          (code)

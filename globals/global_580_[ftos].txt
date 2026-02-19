@@ -1,0 +1,24 @@
+  Name:  _SetMaxPrec_
+    address      = 0001:000C71B7
+    module index = 580
+    kind:          (code)
+  Name:  DoEFormat_
+    address      = 0001:000C71BD
+    module index = 580
+    kind:          (static pubdef) (code)
+  Name:  DoFFormat_
+    address      = 0001:000C7260
+    module index = 580
+    kind:          (static pubdef) (code)
+  Name:  AdjField_
+    address      = 0001:000C72C3
+    module index = 580
+    kind:          (static pubdef) (code)
+  Name:  _FtoS_
+    address      = 0001:000C7334
+    module index = 580
+    kind:          (code)
+  Name:  _MaxPrec
+    address      = 0002:000171B4
+    module index = 580
+    kind:          (static pubdef) (data)

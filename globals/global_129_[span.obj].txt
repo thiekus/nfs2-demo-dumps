@@ -1,0 +1,4 @@
+  Name:  SNDpan_
+    address      = 0001:00082DD0
+    module index = 129
+    kind:          (code)

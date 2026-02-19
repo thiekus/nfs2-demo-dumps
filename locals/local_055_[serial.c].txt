@@ -1,0 +1,84 @@
+ 55) Name:   C:\nfs2\game\common\serial.c
+     Language is C
+     Locals: num = 1, offset = 000000EEH
+     Types:  num = 1, offset = 0000028AH
+     Lines:  num = 1, offset = 00000416H
+
+   *** Locals ***
+   ==============
+      Data 0:  offset 00015CDD
+        0000: MODULE_386
+          "asyncPickHost" addr = 0002:000468BC,  type = 41
+        0016: SET_BASE_386
+          base = 0001:00049B8A
+        001E: BLOCK_386
+          start off = 00000065, code size = 00000063, parent off = 0036
+        002A: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "portNum",  type = 42
+        0036: NEAR_RTN_386
+          start off = 00000000, code size = 00000278, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  57
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Serial_Connect"
+        005C: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "settings",  type = 56
+        0069: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "success",  type = 9
+        0075: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "savedWin",  type = 67
+        0082: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "oldCommPort",  type = 9
+        0092: NEAR_RTN_386
+          start off = 00000278, code size = 00000037, parent off = 0000
+          prologue size = 12,  epilogue size = 7
+          return address offset (from bp) = 00000010
+          return type:  87
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Name = "Serial_PickHost_CALLBACK"
+        00C5: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "pktConn",  type = 86
+        00D1: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "data",  type = 80
+        00DA: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "length",  type = 10
+        00E5: NEAR_RTN_386
+          start off = 000002AF, code size = 000001C6, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  88
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Serial_InitConn"
+        010B: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "s",  type = 56
+        0111: BLOCK_386
+          start off = 0000053B, code size = 00000065, parent off = 0125
+        011D: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "num",  type = 9
+        0125: NEAR_RTN_386
+          start off = 00000475, code size = 00000166, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  89
+          return value: MULTI_REG(1): EAX
+          Name = "Serial_PickHost"
+        014A: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "pkt",  type = 41
+

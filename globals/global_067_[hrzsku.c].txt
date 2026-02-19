@@ -1,0 +1,104 @@
+  Name:  _gHorizonPixmap
+    address      = 0002:00048848
+    module index = 67
+    kind:          (data)
+  Name:  _gRngCoordTentPoleBottom
+    address      = 0002:00048868
+    module index = 67
+    kind:          (data)
+  Name:  _gHinfo_ShouldDrawBlack
+    address      = 0002:00048874
+    module index = 67
+    kind:          (data)
+  Name:  _gHorizonTopFlatIndex
+    address      = 0002:00048878
+    module index = 67
+    kind:          (data)
+  Name:  _gHinfo_Angle
+    address      = 0002:0004887C
+    module index = 67
+    kind:          (data)
+  Name:  _gRngCoordTentPoleTop
+    address      = 0002:00048880
+    module index = 67
+    kind:          (data)
+  Name:  _gHorizonBotFlatIndex
+    address      = 0002:0004888C
+    module index = 67
+    kind:          (data)
+  Name:  _gHinfo_PixmapBottomPercentage
+    address      = 0002:00048890
+    module index = 67
+    kind:          (data)
+  Name:  Hrz_ReadHorizonData_
+    address      = 0001:00055548
+    module index = 67
+    kind:          (code)
+  Name:  Hrz_GetHorizonPixMap_
+    address      = 0001:0005578E
+    module index = 67
+    kind:          (code)
+  Name:  Hrz_InitTextures_
+    address      = 0001:000557D3
+    module index = 67
+    kind:          (code)
+  Name:  Hrz_KillTextures_
+    address      = 0001:00055885
+    module index = 67
+    kind:          (code)
+  Name:  Hrz_Init2DRing_
+    address      = 0001:0005589A
+    module index = 67
+    kind:          (code)
+  Name:  Hrz_InitHorizon_
+    address      = 0001:00055A05
+    module index = 67
+    kind:          (code)
+  Name:  Hrz_KillHorizon_
+    address      = 0001:00055A85
+    module index = 67
+    kind:          (code)
+  Name:  Hrz_ParallelProjectVertex_
+    address      = 0001:00055ABB
+    module index = 67
+    kind:          (code)
+  Name:  Hrz_ToggleHorizon_
+    address      = 0001:00055B60
+    module index = 67
+    kind:          (code)
+  Name:  Hrz_SetClipping_
+    address      = 0001:00055B7C
+    module index = 67
+    kind:          (code)
+  Name:  Hrz_Build2DRing_
+    address      = 0001:00055BFF
+    module index = 67
+    kind:          (code)
+  Name:  _gHinfo_BotYOff
+    address      = 0002:00048894
+    module index = 67
+    kind:          (data)
+  Name:  _gHinfo_Mirror
+    address      = 0002:00048898
+    module index = 67
+    kind:          (data)
+  Name:  _gHinfo_FlatDist
+    address      = 0002:0004889C
+    module index = 67
+    kind:          (data)
+  Name:  _Hrz_gToggleID
+    address      = 0002:000488A0
+    module index = 67
+    kind:          (data)
+  Name:  _gHinfo_Radius
+    address      = 0002:000488A4
+    module index = 67
+    kind:          (data)
+  Name:  _gHinfo_Height
+    address      = 0002:000488A8
+    module index = 67
+    kind:          (data)
+  Name:  _gRngFlatFacet
+    address      = 0002:000488AC
+    module index = 67
+    kind:          (data)

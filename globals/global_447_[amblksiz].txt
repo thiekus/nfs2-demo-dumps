@@ -1,0 +1,4 @@
+  Name:  __amblksiz
+    address      = 0002:00016F68
+    module index = 447
+    kind:          (data)

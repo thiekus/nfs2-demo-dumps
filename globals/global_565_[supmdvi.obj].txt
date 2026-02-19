@@ -1,0 +1,12 @@
+  Name:  _upmdviframe
+    address      = 0001:000C5B50
+    module index = 565
+    kind:          (code)
+  Name:  _upmdvi
+    address      = 0001:000C5B58
+    module index = 565
+    kind:          (code)
+  Name:  _upmdvisetstate
+    address      = 0001:000C5BD4
+    module index = 565
+    kind:          (code)

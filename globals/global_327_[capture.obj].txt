@@ -1,0 +1,40 @@
+  Name:  _capturemutex
+    address      = 0002:0001480C
+    module index = 327
+    kind:          (static pubdef) (data)
+  Name:  _buffer
+    address      = 0002:00014810
+    module index = 327
+    kind:          (static pubdef) (data)
+  Name:  _initcapture
+    address      = 0001:000AA960
+    module index = 327
+    kind:          (code)
+  Name:  _restorecapture
+    address      = 0001:000AA9E4
+    module index = 327
+    kind:          (code)
+  Name:  _capture
+    address      = 0001:000AACE0
+    module index = 327
+    kind:          (code)
+  Name:  _print_capture
+    address      = 0002:00014814
+    module index = 327
+    kind:          (data)
+  Name:  _print_capturemode
+    address      = 0002:00014818
+    module index = 327
+    kind:          (data)
+  Name:  _buflen
+    address      = 0002:000555F4
+    module index = 327
+    kind:          (static pubdef) (data)
+  Name:  _first
+    address      = 0002:000555F8
+    module index = 327
+    kind:          (static pubdef) (data)
+  Name:  _count
+    address      = 0002:000555FC
+    module index = 327
+    kind:          (static pubdef) (data)

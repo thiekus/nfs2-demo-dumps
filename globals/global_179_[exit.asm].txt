@@ -1,0 +1,8 @@
+  Name:  _eacexit
+    address      = 0001:000893CD
+    module index = 179
+    kind:          (code)
+  Name:  _addexit
+    address      = 0001:000893C4
+    module index = 179
+    kind:          (code)

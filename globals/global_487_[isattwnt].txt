@@ -1,0 +1,4 @@
+  Name:  isatty_
+    address      = 0001:000C0265
+    module index = 487
+    kind:          (code)

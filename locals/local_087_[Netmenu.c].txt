@@ -1,0 +1,123 @@
+ 87) Name:   C:\nfs2\frontend\common\Netmenu.c
+     Language is C
+     Locals: num = 1, offset = 0000016EH
+     Types:  num = 1, offset = 0000030AH
+     Lines:  num = 1, offset = 0000048EH
+
+   *** Locals ***
+   ==============
+      Data 0:  offset 00021C08
+        0000: MODULE_386
+          "gStaticIndex" addr = 0002:000503C8,  type = 60
+        0015: SET_BASE_386
+          base = 0001:00068367
+        001D: NEAR_RTN_386
+          start off = 00000000, code size = 000000CB, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  72
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "NetMenu_EnterCommsMode"
+        004A: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "menu",  type = 71
+        0053: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "i",  type = 9
+        0059: NEAR_RTN_386
+          start off = 000000CB, code size = 0000005C, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  23
+          return value: <none>
+          Name = "NetMenu_LeaveCommsMode"
+        0084: NEAR_RTN_386
+          start off = 00000127, code size = 00000054, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  72
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "NetMenu_UpdateDisplay"
+        00B0: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "menu",  type = 71
+        00B9: NEAR_RTN_386
+          start off = 0000017B, code size = 00000033, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  23
+          return value: <none>
+          Name = "NetMenu_SaveTouryStateInfo"
+        00E8: BLOCK_386
+          start off = 0000027B, code size = 0000007F, parent off = 010D
+        00F4: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "tmpShort",  type = 7
+        0101: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "tmpChar",  type = 4
+        010D: BLOCK_386
+          start off = 00000219, code size = 000000F2, parent off = 0131
+        0119: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "humanInfoToShiftOut",  type = 9
+        0131: NEAR_RTN_386
+          start off = 000001AE, code size = 0000016B, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  23
+          return value: <none>
+          Name = "NetMenu_UpdateTouryStateInfo"
+        0162: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "i",  type = 9
+        0168: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "j",  type = 9
+        016E: NEAR_RTN_386
+          start off = 00000319, code size = 00000556, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  73
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Name = "NetMenu_NetMenu"
+        0195: LOCAL
+          address: BP_OFFSET_BYTE( D0 )
+          name = "menu",  type = 71
+        019E: LOCAL
+          address: BP_OFFSET_BYTE( E0 )
+          name = "i",  type = 9
+        01A4: LOCAL
+          address: BP_OFFSET_BYTE( D4 )
+          name = "result",  type = 9
+        01AF: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "update",  type = 7
+        01BA: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "keyVal",  type = 7
+        01C5: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "oldKeyVal",  type = 7
+        01D3: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "ticksDebounce",  type = 16
+        01E5: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "ticksTotal",  type = 16
+        01F4: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "touryWasInited",  type = 9
+        0207: LOCAL
+          address: BP_OFFSET_BYTE( D8 )
+          name = "netFile",  type = 13
+        0213: LOCAL
+          address: BP_OFFSET_BYTE( DC )
+          name = "modemFile",  type = 13
+        0221: LOCAL
+          address: BP_OFFSET_BYTE( C4 )
+          name = "lapconv",  type = 74
+

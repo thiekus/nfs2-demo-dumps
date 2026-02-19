@@ -1,0 +1,4 @@
+  Name:  _ss8tof
+    address      = 0001:000C7CFC
+    module index = 590
+    kind:          (code)

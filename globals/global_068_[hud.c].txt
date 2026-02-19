@@ -1,0 +1,232 @@
+  Name:  _Hud_gPreviousNumber
+    address      = 0002:0004892C
+    module index = 68
+    kind:          (static pubdef) (data)
+  Name:  _gDigits
+    address      = 0002:00048AEC
+    module index = 68
+    kind:          (static pubdef) (data)
+  Name:  _gTach
+    address      = 0002:00048D5C
+    module index = 68
+    kind:          (static pubdef) (data)
+  Name:  _gFontMaps
+    address      = 0002:00048E4C
+    module index = 68
+    kind:          (static pubdef) (data)
+  Name:  _gHud
+    address      = 0002:000492FC
+    module index = 68
+    kind:          (static pubdef) (data)
+  Name:  _Hud_gPreviousTach
+    address      = 0002:0004935C
+    module index = 68
+    kind:          (static pubdef) (data)
+  Name:  _gFont
+    address      = 0002:00049374
+    module index = 68
+    kind:          (static pubdef) (data)
+  Name:  _g1Player
+    address      = 0002:000496F4
+    module index = 68
+    kind:          (static pubdef) (data)
+  Name:  _g2Player
+    address      = 0002:00049764
+    module index = 68
+    kind:          (static pubdef) (data)
+  Name:  _gMarkers
+    address      = 0002:00049844
+    module index = 68
+    kind:          (static pubdef) (data)
+  Name:  _gCFacet
+    address      = 0002:000499C4
+    module index = 68
+    kind:          (static pubdef) (data)
+  Name:  _gFacet
+    address      = 0002:000499E4
+    module index = 68
+    kind:          (static pubdef) (data)
+  Name:  _hud_mapangle
+    address      = 0002:0004A7F4
+    module index = 68
+    kind:          (data)
+  Name:  _Hud_gHudMask
+    address      = 0002:0004A7F8
+    module index = 68
+    kind:          (static pubdef) (data)
+  Name:  _Hud_gMapDotsFile
+    address      = 0002:0004A8AC
+    module index = 68
+    kind:          (static pubdef) (data)
+  Name:  _gReplayMap
+    address      = 0002:0004A8B0
+    module index = 68
+    kind:          (static pubdef) (data)
+  Name:  _Hud_gHudMaskFile
+    address      = 0002:0004AA6C
+    module index = 68
+    kind:          (static pubdef) (data)
+  Name:  _Hud_gDashMaskFile
+    address      = 0002:0004AA70
+    module index = 68
+    kind:          (static pubdef) (data)
+  Name:  _Hud_gDashMask
+    address      = 0002:0004AA74
+    module index = 68
+    kind:          (static pubdef) (data)
+  Name:  _Hud_gPreviousHud
+    address      = 0002:0004AAD8
+    module index = 68
+    kind:          (data)
+  Name:  _Hud_gLocalizedFile
+    address      = 0002:0004AADC
+    module index = 68
+    kind:          (static pubdef) (data)
+  Name:  _gFontMaxWidth
+    address      = 0002:0004AAE0
+    module index = 68
+    kind:          (static pubdef) (data)
+  Name:  _Hud_gPreviousReplay
+    address      = 0002:0004AAE4
+    module index = 68
+    kind:          (data)
+  Name:  _Hud_gPreviousNextCar
+    address      = 0002:0004AAE8
+    module index = 68
+    kind:          (data)
+  Name:  _gIndex
+    address      = 0002:0000F6C8
+    module index = 68
+    kind:          (static pubdef) (data)
+  Name:  Hud_AddFacet_
+    address      = 0001:00056386
+    module index = 68
+    kind:          (code)
+  Name:  Hud_SetPosition_
+    address      = 0001:00056439
+    module index = 68
+    kind:          (code)
+  Name:  Hud_InitTables_
+    address      = 0001:000565CF
+    module index = 68
+    kind:          (code)
+  Name:  Hud_ResetHud_
+    address      = 0001:00056832
+    module index = 68
+    kind:          (code)
+  Name:  Hud_ModuleRegister_
+    address      = 0001:000568F2
+    module index = 68
+    kind:          (code)
+  Name:  Hud_InitTextures_
+    address      = 0001:000569D8
+    module index = 68
+    kind:          (code)
+  Name:  Hud_ResetEnv_
+    address      = 0001:000571C3
+    module index = 68
+    kind:          (code)
+  Name:  Hud_KillTextures_
+    address      = 0001:000571E2
+    module index = 68
+    kind:          (code)
+  Name:  Hud_GetBankMask_
+    address      = 0001:00057246
+    module index = 68
+    kind:          (code)
+  Name:  GetTextureInfo_
+    address      = 0001:00057430
+    module index = 68
+    kind:          (code)
+  Name:  Hud_BuildSplitBackGround_
+    address      = 0001:0005759D
+    module index = 68
+    kind:          (code)
+  Name:  Hud_ChatString_
+    address      = 0001:000577B2
+    module index = 68
+    kind:          (code)
+  Name:  Hud_BuildNextCarBackground_
+    address      = 0001:00057AC4
+    module index = 68
+    kind:          (code)
+  Name:  Hud_BuildWholeHUD_
+    address      = 0001:00057B78
+    module index = 68
+    kind:          (code)
+  Name:  Hud_BuildNumber_
+    address      = 0001:00057E80
+    module index = 68
+    kind:          (code)
+  Name:  Hud_ToUpper_
+    address      = 0001:000580D8
+    module index = 68
+    kind:          (code)
+  Name:  Hud_BuildString_
+    address      = 0001:00058249
+    module index = 68
+    kind:          (code)
+  Name:  Hud_BuildMessage_
+    address      = 0001:00058523
+    module index = 68
+    kind:          (code)
+  Name:  Hud_BuildDivider_
+    address      = 0001:000585E3
+    module index = 68
+    kind:          (code)
+  Name:  Hud_BuildTach_
+    address      = 0001:00058616
+    module index = 68
+    kind:          (code)
+  Name:  Hud_BuildBackGround_
+    address      = 0001:00058857
+    module index = 68
+    kind:          (code)
+  Name:  Hud_InitMap_
+    address      = 0001:000589B1
+    module index = 68
+    kind:          (code)
+  Name:  Hud_BuildClip_
+    address      = 0001:00058B42
+    module index = 68
+    kind:          (code)
+  Name:  Hud_BuildMapBackGround_
+    address      = 0001:00058BC2
+    module index = 68
+    kind:          (code)
+  Name:  Hud_GetMapAngle_
+    address      = 0001:00058D63
+    module index = 68
+    kind:          (code)
+  Name:  Hud_BuildMapMarkers_
+    address      = 0001:00058E58
+    module index = 68
+    kind:          (code)
+  Name:  Hud_BuildMap_
+    address      = 0001:000591DA
+    module index = 68
+    kind:          (code)
+  Name:  Hud_AssignShapeFacetType_
+    address      = 0001:0005969D
+    module index = 68
+    kind:          (code)
+  Name:  Hud_BuildReplayBack_
+    address      = 0001:0005971B
+    module index = 68
+    kind:          (code)
+  Name:  Hud_BuildReplay_
+    address      = 0001:00059763
+    module index = 68
+    kind:          (code)
+  Name:  _hud_trackx
+    address      = 0002:0000F7D5
+    module index = 68
+    kind:          (data)
+  Name:  _hud_trackz
+    address      = 0002:0000F9D5
+    module index = 68
+    kind:          (data)
+  Name:  _gLFacet
+    address      = 0002:0004AAEC
+    module index = 68
+    kind:          (static pubdef) (data)

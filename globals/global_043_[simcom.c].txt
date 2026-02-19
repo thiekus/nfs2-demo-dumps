@@ -1,0 +1,72 @@
+  Name:  SimCom_StartUp_
+    address      = 0001:00043103
+    module index = 43
+    kind:          (code)
+  Name:  SimCom_Restart_
+    address      = 0001:0004312C
+    module index = 43
+    kind:          (code)
+  Name:  SimCom_CleanUp_
+    address      = 0001:00043155
+    module index = 43
+    kind:          (code)
+  Name:  SimCom_Pause_
+    address      = 0001:000431A0
+    module index = 43
+    kind:          (code)
+  Name:  SimCom_PauseLogic_
+    address      = 0001:00043303
+    module index = 43
+    kind:          (code)
+  Name:  SimCom_PauseAction_CALLBACK_
+    address      = 0001:000436C9
+    module index = 43
+    kind:          (code)
+  Name:  SimCom_DisplaySyncMsg_
+    address      = 0001:000437E3
+    module index = 43
+    kind:          (code)
+  Name:  SimCom_SynchSetup_
+    address      = 0001:0004385C
+    module index = 43
+    kind:          (code)
+  Name:  SimCom_SynchSetup_CALLBACK_
+    address      = 0001:00043A06
+    module index = 43
+    kind:          (code)
+  Name:  SimCom_SendInput_
+    address      = 0001:00043A4A
+    module index = 43
+    kind:          (code)
+  Name:  SimCom_SimInput_CALLBACK_
+    address      = 0001:00043B24
+    module index = 43
+    kind:          (code)
+  Name:  _acceptInput
+    address      = 0002:0000EF04
+    module index = 43
+    kind:          (static pubdef) (data)
+  Name:  _simcom_dataIndex
+    address      = 0002:00043548
+    module index = 43
+    kind:          (static pubdef) (data)
+  Name:  _simcom_dataPtr
+    address      = 0002:0004354C
+    module index = 43
+    kind:          (static pubdef) (data)
+  Name:  _endPauseRequested
+    address      = 0002:00043550
+    module index = 43
+    kind:          (static pubdef) (data)
+  Name:  _nextPauseTime
+    address      = 0002:00043554
+    module index = 43
+    kind:          (static pubdef) (data)
+  Name:  _lastPauseTime
+    address      = 0002:00043558
+    module index = 43
+    kind:          (static pubdef) (data)
+  Name:  _sim_input_mutex
+    address      = 0002:0004355C
+    module index = 43
+    kind:          (static pubdef) (data)

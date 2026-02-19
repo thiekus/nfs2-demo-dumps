@@ -1,0 +1,8 @@
+  Name:  __ModF
+    address      = 0001:000CA07A
+    module index = 607
+    kind:          (code)
+  Name:  __ZBuf2F
+    address      = 0001:000CA10A
+    module index = 607
+    kind:          (code)

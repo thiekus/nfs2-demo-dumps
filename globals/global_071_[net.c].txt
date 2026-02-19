@@ -1,0 +1,148 @@
+  Name:  _net_gRejectNewPlayers
+    address      = 0002:0000FBEC
+    module index = 71
+    kind:          (data)
+  Name:  _gNetHostConnectionTimeout
+    address      = 0002:0000FBF0
+    module index = 71
+    kind:          (data)
+  Name:  _NFSID
+    address      = 0001:0005A7D3
+    module index = 71
+    kind:          (static pubdef) (code)
+  Name:  NET_FindNextService_
+    address      = 0001:0005A7F0
+    module index = 71
+    kind:          (code)
+  Name:  NET_GetGameList_
+    address      = 0001:0005A8A2
+    module index = 71
+    kind:          (code)
+  Name:  NET_HostGame_
+    address      = 0001:0005AA6E
+    module index = 71
+    kind:          (code)
+  Name:  NET_JoinGame_
+    address      = 0001:0005AC7D
+    module index = 71
+    kind:          (code)
+  Name:  NET_AddNewPlayers_
+    address      = 0001:0005AEAD
+    module index = 71
+    kind:          (code)
+  Name:  NET_DropDeadPlayers_
+    address      = 0001:0005B043
+    module index = 71
+    kind:          (code)
+  Name:  NET_DropPlayer_
+    address      = 0001:0005B0A6
+    module index = 71
+    kind:          (code)
+  Name:  NET_ForFeitPlayer_
+    address      = 0001:0005B0F9
+    module index = 71
+    kind:          (code)
+  Name:  NET_Forfeit_CALLBACK_
+    address      = 0001:0005B1A8
+    module index = 71
+    kind:          (code)
+  Name:  NET_EnableGameAccess_
+    address      = 0001:0005B1DD
+    module index = 71
+    kind:          (code)
+  Name:  NET_DisableGameAccess_
+    address      = 0001:0005B238
+    module index = 71
+    kind:          (code)
+  Name:  NET_EndGame_
+    address      = 0001:0005B295
+    module index = 71
+    kind:          (code)
+  Name:  NET_InitConn_
+    address      = 0001:0005B353
+    module index = 71
+    kind:          (static pubdef) (code)
+  Name:  NET_GetServices_
+    address      = 0001:0005B3F1
+    module index = 71
+    kind:          (static pubdef) (code)
+  Name:  _NET_CreateServiceList_CALLBACK
+    address      = 0001:0005B4B6
+    module index = 71
+    kind:          (code)
+  Name:  _NET_MakeGameList_CALLBACK
+    address      = 0001:0005B592
+    module index = 71
+    kind:          (code)
+  Name:  _NET_AddNewPlayer_CALLBACK
+    address      = 0001:0005B69A
+    module index = 71
+    kind:          (code)
+  Name:  NET_InitConnQueue_
+    address      = 0001:0005B6EF
+    module index = 71
+    kind:          (static pubdef) (code)
+  Name:  NET_IsConnQueueEmpty_
+    address      = 0001:0005B722
+    module index = 71
+    kind:          (code)
+  Name:  NET_PushOnQueue_
+    address      = 0001:0005B755
+    module index = 71
+    kind:          (static pubdef) (code)
+  Name:  NET_PopOffQueue_
+    address      = 0001:0005B7CB
+    module index = 71
+    kind:          (static pubdef) (code)
+  Name:  DEBUG_net_connect_
+    address      = 0001:0005B827
+    module index = 71
+    kind:          (code)
+  Name:  _serviceIndex
+    address      = 0002:0000FBF4
+    module index = 71
+    kind:          (static pubdef) (data)
+  Name:  _ServiceInitialized
+    address      = 0002:0000FBF8
+    module index = 71
+    kind:          (static pubdef) (data)
+  Name:  _ServiceList
+    address      = 0002:0000FBFC
+    module index = 71
+    kind:          (static pubdef) (data)
+  Name:  _GameList
+    address      = 0002:0000FC00
+    module index = 71
+    kind:          (static pubdef) (data)
+  Name:  _netGameOpen
+    address      = 0002:0000FC06
+    module index = 71
+    kind:          (static pubdef) (data)
+  Name:  _drop_player_mutex
+    address      = 0002:0000FC0A
+    module index = 71
+    kind:          (static pubdef) (data)
+  Name:  _NetGame
+    address      = 0002:0004E214
+    module index = 71
+    kind:          (static pubdef) (data)
+  Name:  _NetGameDesc
+    address      = 0002:0004E2C0
+    module index = 71
+    kind:          (static pubdef) (data)
+  Name:  _netOpenConnQueue
+    address      = 0002:0004E2F4
+    module index = 71
+    kind:          (static pubdef) (data)
+  Name:  _NumClients_WaitingOrConnected
+    address      = 0002:0004E3E8
+    module index = 71
+    kind:          (static pubdef) (data)
+  Name:  _numServices
+    address      = 0002:0004E3EC
+    module index = 71
+    kind:          (static pubdef) (data)
+  Name:  _GameListItems
+    address      = 0002:0004E3F0
+    module index = 71
+    kind:          (static pubdef) (data)

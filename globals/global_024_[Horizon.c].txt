@@ -1,0 +1,56 @@
+  Name:  Horizon_TransformVertex_
+    address      = 0001:000299E1
+    module index = 24
+    kind:          (code)
+  Name:  Horizon_TransformHorizon_
+    address      = 0001:00029A5F
+    module index = 24
+    kind:          (code)
+  Name:  Horizon_ProjectVertex_
+    address      = 0001:00029AC1
+    module index = 24
+    kind:          (code)
+  Name:  Horizon_QuadInView_
+    address      = 0001:00029B64
+    module index = 24
+    kind:          (code)
+  Name:  Horizon_InitHorizon_
+    address      = 0001:00029CA8
+    module index = 24
+    kind:          (code)
+  Name:  Horizon_KillHorizon_
+    address      = 0001:00029CC2
+    module index = 24
+    kind:          (code)
+  Name:  Horizon_InterpolateLineSCoords_
+    address      = 0001:00029CDC
+    module index = 24
+    kind:          (code)
+  Name:  Horizon_BuildHorizon_
+    address      = 0001:00029E28
+    module index = 24
+    kind:          (code)
+  Name:  _gHrz_CRgt
+    address      = 0002:00023B9C
+    module index = 24
+    kind:          (data)
+  Name:  _gRngCoordTop
+    address      = 0002:00023BA0
+    module index = 24
+    kind:          (data)
+  Name:  _gHrz_CLft
+    address      = 0002:00023BA4
+    module index = 24
+    kind:          (data)
+  Name:  _gHrz_CTop
+    address      = 0002:00023BA8
+    module index = 24
+    kind:          (data)
+  Name:  _gRngCoordBottom
+    address      = 0002:00023BAC
+    module index = 24
+    kind:          (data)
+  Name:  _gHrz_CBot
+    address      = 0002:00023BB0
+    module index = 24
+    kind:          (data)

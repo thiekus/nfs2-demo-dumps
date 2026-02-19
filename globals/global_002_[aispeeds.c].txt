@@ -1,0 +1,48 @@
+  Name:  AISpeeds_SetupSpeeds_
+    address      = 0001:0000A0A9
+    module index = 2
+    kind:          (code)
+  Name:  AISpeeds_ScaleSpeeds_
+    address      = 0001:0000A221
+    module index = 2
+    kind:          (code)
+  Name:  AISpeeds_StartUp_
+    address      = 0001:0000A2A7
+    module index = 2
+    kind:          (code)
+  Name:  AISpeeds_CleanUp_
+    address      = 0001:0000A2E9
+    module index = 2
+    kind:          (code)
+  Name:  AISpeeds_SaveSpeeds_
+    address      = 0001:0000A308
+    module index = 2
+    kind:          (code)
+  Name:  AISpeeds_SaveLines_
+    address      = 0001:0000A33E
+    module index = 2
+    kind:          (code)
+  Name:  AISpeeds_ScaleAcceleration_
+    address      = 0001:0000A374
+    module index = 2
+    kind:          (code)
+  Name:  _AISpeeds_gSpeedTable
+    address      = 0002:0000BF64
+    module index = 2
+    kind:          (data)
+  Name:  _AISpeeds_gLineTable
+    address      = 0002:0000BF68
+    module index = 2
+    kind:          (data)
+  Name:  _AISpeeds_SpeedExt
+    address      = 0002:0000BF6C
+    module index = 2
+    kind:          (data)
+  Name:  _AISpeeds_LineExt
+    address      = 0002:0000BF76
+    module index = 2
+    kind:          (data)
+  Name:  _AISpeeds_PhysicsMode
+    address      = 0002:0001C3D0
+    module index = 2
+    kind:          (data)

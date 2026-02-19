@@ -1,0 +1,12 @@
+  Name:  _getshapeclut
+    address      = 0001:0008F120
+    module index = 199
+    kind:          (code)
+  Name:  _getshapehotspots
+    address      = 0001:0008F1B0
+    module index = 199
+    kind:          (code)
+  Name:  _getshapecomment
+    address      = 0001:0008F224
+    module index = 199
+    kind:          (code)

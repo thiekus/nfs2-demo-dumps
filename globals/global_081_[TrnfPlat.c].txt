@@ -1,0 +1,12 @@
+  Name:  TrnfPlat_SetLightContext_
+    address      = 0001:00061257
+    module index = 81
+    kind:          (code)
+  Name:  TrnfPlat_BuildFacetlist_
+    address      = 0001:00061271
+    module index = 81
+    kind:          (code)
+  Name:  _gTempPixMap
+    address      = 0002:0004FD64
+    module index = 81
+    kind:          (data)

@@ -1,0 +1,12 @@
+  Name:  __math1err_
+    address      = 0001:000CAE03
+    module index = 620
+    kind:          (code)
+  Name:  __math2err_
+    address      = 0001:000CAE0D
+    module index = 620
+    kind:          (code)
+  Name:  _MathFuncNames
+    address      = 0002:00018D48
+    module index = 620
+    kind:          (static pubdef) (data)

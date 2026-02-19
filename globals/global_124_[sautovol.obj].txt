@@ -1,0 +1,4 @@
+  Name:  SNDautovol_
+    address      = 0001:00082BB0
+    module index = 124
+    kind:          (code)

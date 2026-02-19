@@ -1,0 +1,12 @@
+  Name:  _togglefullscreen
+    address      = 0001:000BA1A0
+    module index = 407
+    kind:          (static pubdef) (code)
+  Name:  _snaptga
+    address      = 0001:000BA1D0
+    module index = 407
+    kind:          (static pubdef) (code)
+  Name:  _debugkeys
+    address      = 0001:000BA210
+    module index = 407
+    kind:          (code)

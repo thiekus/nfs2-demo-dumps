@@ -1,0 +1,8 @@
+  Name:  _upmxas
+    address      = 0001:000C3E40
+    module index = 555
+    kind:          (static pubdef) (code)
+  Name:  _upmxassetstate
+    address      = 0001:000C3FCC
+    module index = 555
+    kind:          (code)

@@ -1,0 +1,16 @@
+  Name:  _getpalcolour
+    address      = 0001:00086200
+    module index = 164
+    kind:          (code)
+  Name:  _getcolour
+    address      = 0001:0008629C
+    module index = 164
+    kind:          (code)
+  Name:  _inversetbl
+    address      = 0002:00013448
+    module index = 164
+    kind:          (data)
+  Name:  _destcolourmask
+    address      = 0002:0001344C
+    module index = 164
+    kind:          (data)

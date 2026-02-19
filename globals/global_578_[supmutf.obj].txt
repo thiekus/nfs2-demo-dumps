@@ -1,0 +1,16 @@
+  Name:  _upmutfframe
+    address      = 0001:000C6E90
+    module index = 578
+    kind:          (code)
+  Name:  _transfersamplesf
+    address      = 0001:000C6E9C
+    module index = 578
+    kind:          (code)
+  Name:  _upmutf
+    address      = 0001:000C6EC4
+    module index = 578
+    kind:          (code)
+  Name:  _upmutfsetstate
+    address      = 0001:000C7030
+    module index = 578
+    kind:          (code)

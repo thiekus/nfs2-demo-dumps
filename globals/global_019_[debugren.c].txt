@@ -1,0 +1,20 @@
+  Name:  Debugren_TestFacet_
+    address      = 0001:00028EA2
+    module index = 19
+    kind:          (code)
+  Name:  _gTestCoord
+    address      = 0002:0000CC68
+    module index = 19
+    kind:          (data)
+  Name:  _g2DTestCoord
+    address      = 0002:0000CC98
+    module index = 19
+    kind:          (data)
+  Name:  _gTestVertex
+    address      = 0002:00023564
+    module index = 19
+    kind:          (data)
+  Name:  _gTestFacet
+    address      = 0002:000235E4
+    module index = 19
+    kind:          (data)

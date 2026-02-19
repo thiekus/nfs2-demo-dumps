@@ -1,0 +1,4 @@
+  Name:  stackavail_
+    address      = 0001:000C1DFF
+    module index = 518
+    kind:          (code)

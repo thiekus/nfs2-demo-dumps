@@ -1,0 +1,8 @@
+  Name:  _mapf
+    address      = 0001:00092970
+    module index = 210
+    kind:          (code)
+  Name:  _mapfi
+    address      = 0001:00092A54
+    module index = 210
+    kind:          (code)

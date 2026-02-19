@@ -1,0 +1,12 @@
+  Name:  _upmdvifframe
+    address      = 0001:000C6410
+    module index = 571
+    kind:          (code)
+  Name:  _upmdvif
+    address      = 0001:000C6418
+    module index = 571
+    kind:          (code)
+  Name:  _upmdvifsetstate
+    address      = 0001:000C6498
+    module index = 571
+    kind:          (code)

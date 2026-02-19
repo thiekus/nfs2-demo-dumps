@@ -1,0 +1,16 @@
+  Name:  upmxafresidual_
+    address      = 0001:000C4BF0
+    module index = 560
+    kind:          (code)
+  Name:  _upmxafloopsection
+    address      = 0001:000C4C4C
+    module index = 560
+    kind:          (code)
+  Name:  _upmxalf
+    address      = 0001:000C4E40
+    module index = 560
+    kind:          (code)
+  Name:  _upmxalfsetstate
+    address      = 0001:000C4FDC
+    module index = 560
+    kind:          (code)

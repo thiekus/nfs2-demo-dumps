@@ -1,0 +1,60 @@
+  Name:  cget_
+    address      = 0001:000BA857
+    module index = 413
+    kind:          (static pubdef) (code)
+  Name:  uncget_
+    address      = 0001:000BA85E
+    module index = 413
+    kind:          (static pubdef) (code)
+  Name:  __scnf_
+    address      = 0001:000BA866
+    module index = 413
+    kind:          (code)
+  Name:  get_opt_
+    address      = 0001:000BAAAD
+    module index = 413
+    kind:          (static pubdef) (code)
+  Name:  scan_white_
+    address      = 0001:000BABA2
+    module index = 413
+    kind:          (static pubdef) (code)
+  Name:  scan_char_
+    address      = 0001:000BABE1
+    module index = 413
+    kind:          (static pubdef) (code)
+  Name:  scan_string_
+    address      = 0001:000BAC76
+    module index = 413
+    kind:          (static pubdef) (code)
+  Name:  report_scan_
+    address      = 0001:000BAD99
+    module index = 413
+    kind:          (static pubdef) (code)
+  Name:  makelist_
+    address      = 0001:000BADF7
+    module index = 413
+    kind:          (static pubdef) (code)
+  Name:  scan_arb_
+    address      = 0001:000BAE3A
+    module index = 413
+    kind:          (static pubdef) (code)
+  Name:  scan_float_
+    address      = 0001:000BAF34
+    module index = 413
+    kind:          (static pubdef) (code)
+  Name:  scan_int_
+    address      = 0001:000BB24B
+    module index = 413
+    kind:          (static pubdef) (code)
+  Name:  radix_value_
+    address      = 0001:000BB43B
+    module index = 413
+    kind:          (static pubdef) (code)
+  Name:  cgetw_
+    address      = 0001:000BB462
+    module index = 413
+    kind:          (static pubdef) (code)
+  Name:  _lst_mask
+    address      = 0002:0000BBE4
+    module index = 413
+    kind:          (static pubdef) (data)

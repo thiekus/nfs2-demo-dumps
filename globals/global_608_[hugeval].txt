@@ -1,0 +1,4 @@
+  Name:  __HugeValue
+    address      = 0002:0000BC40
+    module index = 608
+    kind:          (data)

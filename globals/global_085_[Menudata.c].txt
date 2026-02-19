@@ -1,0 +1,1168 @@
+  Name:  _nullIB
+    address      = 0002:00010600
+    module index = 85
+    kind:          (data)
+  Name:  _IBCom
+    address      = 0002:00010604
+    module index = 85
+    kind:          (data)
+  Name:  _itemComPort
+    address      = 0002:0001060E
+    module index = 85
+    kind:          (data)
+  Name:  _itemDial
+    address      = 0002:0001061F
+    module index = 85
+    kind:          (data)
+  Name:  _itemCancel4
+    address      = 0002:00010630
+    module index = 85
+    kind:          (data)
+  Name:  _itemTitleSerialLink
+    address      = 0002:00010641
+    module index = 85
+    kind:          (data)
+  Name:  _menuSerialLinkSetup
+    address      = 0002:00010652
+    module index = 85
+    kind:          (data)
+  Name:  _itemModemType
+    address      = 0002:00010672
+    module index = 85
+    kind:          (data)
+  Name:  _itemDeleteNumber
+    address      = 0002:00010683
+    module index = 85
+    kind:          (data)
+  Name:  _itemNumber2
+    address      = 0002:00010694
+    module index = 85
+    kind:          (data)
+  Name:  _itemDial2
+    address      = 0002:000106A5
+    module index = 85
+    kind:          (data)
+  Name:  _itemAnswer2
+    address      = 0002:000106B6
+    module index = 85
+    kind:          (data)
+  Name:  _itemCancel5a
+    address      = 0002:000106C7
+    module index = 85
+    kind:          (data)
+  Name:  _itemTitleModem
+    address      = 0002:000106D8
+    module index = 85
+    kind:          (data)
+  Name:  _menuModemSetup
+    address      = 0002:000106E9
+    module index = 85
+    kind:          (data)
+  Name:  _itemNetwork2
+    address      = 0002:00010715
+    module index = 85
+    kind:          (data)
+  Name:  _itemCreateGame
+    address      = 0002:00010726
+    module index = 85
+    kind:          (data)
+  Name:  _itemJoinGame
+    address      = 0002:00010737
+    module index = 85
+    kind:          (data)
+  Name:  _itemCancel6a
+    address      = 0002:00010748
+    module index = 85
+    kind:          (data)
+  Name:  _itemTitleNetwork
+    address      = 0002:00010759
+    module index = 85
+    kind:          (data)
+  Name:  _menuNetworkSetup
+    address      = 0002:0001076A
+    module index = 85
+    kind:          (data)
+  Name:  _IBOne
+    address      = 0002:0001078E
+    module index = 85
+    kind:          (data)
+  Name:  _itemGameMode
+    address      = 0002:0001079A
+    module index = 85
+    kind:          (data)
+  Name:  _IBRace
+    address      = 0002:000107AB
+    module index = 85
+    kind:          (data)
+  Name:  _itemRaceType
+    address      = 0002:000107B3
+    module index = 85
+    kind:          (data)
+  Name:  _IBSim
+    address      = 0002:000107C4
+    module index = 85
+    kind:          (data)
+  Name:  _itemStyle
+    address      = 0002:000107CA
+    module index = 85
+    kind:          (data)
+  Name:  _IBOn
+    address      = 0002:000107DB
+    module index = 85
+    kind:          (data)
+  Name:  _IBOff
+    address      = 0002:000107E1
+    module index = 85
+    kind:          (data)
+  Name:  _itemCatchup
+    address      = 0002:000107E7
+    module index = 85
+    kind:          (data)
+  Name:  _itemDone1
+    address      = 0002:000107F8
+    module index = 85
+    kind:          (data)
+  Name:  _itemCancel1
+    address      = 0002:00010809
+    module index = 85
+    kind:          (data)
+  Name:  _menuGameSetup
+    address      = 0002:0001081A
+    module index = 85
+    kind:          (data)
+  Name:  _itemNextTrack0
+    address      = 0002:00010842
+    module index = 85
+    kind:          (data)
+  Name:  _itemDone11
+    address      = 0002:00010853
+    module index = 85
+    kind:          (data)
+  Name:  _menuTrackInfo
+    address      = 0002:00010864
+    module index = 85
+    kind:          (data)
+  Name:  _itemNextTrack1
+    address      = 0002:0001087C
+    module index = 85
+    kind:          (data)
+  Name:  _itemLaps1
+    address      = 0002:0001088D
+    module index = 85
+    kind:          (data)
+  Name:  _itemClearRecords
+    address      = 0002:0001089E
+    module index = 85
+    kind:          (data)
+  Name:  _itemDone12
+    address      = 0002:000108AF
+    module index = 85
+    kind:          (data)
+  Name:  _menuTrackRecords
+    address      = 0002:000108C0
+    module index = 85
+    kind:          (data)
+  Name:  _IBTrack
+    address      = 0002:000108E0
+    module index = 85
+    kind:          (data)
+  Name:  _IBTrackBonus
+    address      = 0002:000108EE
+    module index = 85
+    kind:          (data)
+  Name:  _itemTrack
+    address      = 0002:000108FE
+    module index = 85
+    kind:          (data)
+  Name:  _IBNormal
+    address      = 0002:0001090F
+    module index = 85
+    kind:          (data)
+  Name:  _itemLaps
+    address      = 0002:00010917
+    module index = 85
+    kind:          (data)
+  Name:  _itemTrackInfo
+    address      = 0002:00010928
+    module index = 85
+    kind:          (data)
+  Name:  _itemTrackRecords
+    address      = 0002:00010939
+    module index = 85
+    kind:          (data)
+  Name:  _itemDone2
+    address      = 0002:0001094A
+    module index = 85
+    kind:          (data)
+  Name:  _itemCancel2
+    address      = 0002:0001095B
+    module index = 85
+    kind:          (data)
+  Name:  _menuLocation
+    address      = 0002:0001096C
+    module index = 85
+    kind:          (data)
+  Name:  _IBLow1
+    address      = 0002:00010994
+    module index = 85
+    kind:          (data)
+  Name:  _itemSteeringSens
+    address      = 0002:0001099C
+    module index = 85
+    kind:          (data)
+  Name:  _IBStock
+    address      = 0002:000109AD
+    module index = 85
+    kind:          (data)
+  Name:  _itemDownForceFront
+    address      = 0002:000109B5
+    module index = 85
+    kind:          (data)
+  Name:  _itemDownForceRear
+    address      = 0002:000109C6
+    module index = 85
+    kind:          (data)
+  Name:  _IBFront
+    address      = 0002:000109D7
+    module index = 85
+    kind:          (data)
+  Name:  _itemBrakeBias
+    address      = 0002:000109DF
+    module index = 85
+    kind:          (data)
+  Name:  _IBShort
+    address      = 0002:000109F0
+    module index = 85
+    kind:          (data)
+  Name:  _itemGearRatios
+    address      = 0002:000109F8
+    module index = 85
+    kind:          (data)
+  Name:  _itemDefault
+    address      = 0002:00010A09
+    module index = 85
+    kind:          (data)
+  Name:  _itemDone9
+    address      = 0002:00010A1A
+    module index = 85
+    kind:          (data)
+  Name:  _itemCancel9
+    address      = 0002:00010A2B
+    module index = 85
+    kind:          (data)
+  Name:  _itemTitleSettings
+    address      = 0002:00010A3C
+    module index = 85
+    kind:          (data)
+  Name:  _itemTitleSettings3
+    address      = 0002:00010A4D
+    module index = 85
+    kind:          (data)
+  Name:  _menuSettings1
+    address      = 0002:00010A5E
+    module index = 85
+    kind:          (data)
+  Name:  _itemColor2
+    address      = 0002:00010A92
+    module index = 85
+    kind:          (data)
+  Name:  _itemSteeringSens2
+    address      = 0002:00010AA3
+    module index = 85
+    kind:          (data)
+  Name:  _itemDownForceFront2
+    address      = 0002:00010AB4
+    module index = 85
+    kind:          (data)
+  Name:  _itemDownForceRear2
+    address      = 0002:00010AC5
+    module index = 85
+    kind:          (data)
+  Name:  _itemBrakeBias2
+    address      = 0002:00010AD6
+    module index = 85
+    kind:          (data)
+  Name:  _itemGearRatios2
+    address      = 0002:00010AE7
+    module index = 85
+    kind:          (data)
+  Name:  _itemTitleSettings2
+    address      = 0002:00010AF8
+    module index = 85
+    kind:          (data)
+  Name:  _menuSettings2
+    address      = 0002:00010B09
+    module index = 85
+    kind:          (data)
+  Name:  _itemNextCar2
+    address      = 0002:00010B3D
+    module index = 85
+    kind:          (data)
+  Name:  _itemNextSlide
+    address      = 0002:00010B4E
+    module index = 85
+    kind:          (data)
+  Name:  _itemDone13
+    address      = 0002:00010B5F
+    module index = 85
+    kind:          (data)
+  Name:  _menuSlideShow
+    address      = 0002:00010B70
+    module index = 85
+    kind:          (data)
+  Name:  _credits
+    address      = 0002:00010B8C
+    module index = 85
+    kind:          (data)
+  Name:  _itemHNextCar
+    address      = 0002:00010BA0
+    module index = 85
+    kind:          (data)
+  Name:  _itemDone17
+    address      = 0002:00010BB1
+    module index = 85
+    kind:          (data)
+  Name:  _menuHistory
+    address      = 0002:00010BC2
+    module index = 85
+    kind:          (data)
+  Name:  _itemNextCar
+    address      = 0002:00010BDA
+    module index = 85
+    kind:          (data)
+  Name:  _itemMoreStats
+    address      = 0002:00010BEB
+    module index = 85
+    kind:          (data)
+  Name:  _itemHistory
+    address      = 0002:00010BFC
+    module index = 85
+    kind:          (data)
+  Name:  _itemSlideShow
+    address      = 0002:00010C0D
+    module index = 85
+    kind:          (data)
+  Name:  _itemVideo
+    address      = 0002:00010C1E
+    module index = 85
+    kind:          (data)
+  Name:  _itemDone10
+    address      = 0002:00010C2F
+    module index = 85
+    kind:          (data)
+  Name:  _itemShow0
+    address      = 0002:00010C40
+    module index = 85
+    kind:          (data)
+  Name:  _itemShow1
+    address      = 0002:00010C51
+    module index = 85
+    kind:          (data)
+  Name:  _itemShow2
+    address      = 0002:00010C62
+    module index = 85
+    kind:          (data)
+  Name:  _itemShow3
+    address      = 0002:00010C73
+    module index = 85
+    kind:          (data)
+  Name:  _itemShow4
+    address      = 0002:00010C84
+    module index = 85
+    kind:          (data)
+  Name:  _itemShow5
+    address      = 0002:00010C95
+    module index = 85
+    kind:          (data)
+  Name:  _itemShow6
+    address      = 0002:00010CA6
+    module index = 85
+    kind:          (data)
+  Name:  _itemShow7
+    address      = 0002:00010CB7
+    module index = 85
+    kind:          (data)
+  Name:  _itemShow8
+    address      = 0002:00010CC8
+    module index = 85
+    kind:          (data)
+  Name:  _itemShow9
+    address      = 0002:00010CD9
+    module index = 85
+    kind:          (data)
+  Name:  _itemShow10
+    address      = 0002:00010CEA
+    module index = 85
+    kind:          (data)
+  Name:  _itemShow11
+    address      = 0002:00010CFB
+    module index = 85
+    kind:          (data)
+  Name:  _itemShow12
+    address      = 0002:00010D0C
+    module index = 85
+    kind:          (data)
+  Name:  _itemShow13
+    address      = 0002:00010D1D
+    module index = 85
+    kind:          (data)
+  Name:  _itemShow14
+    address      = 0002:00010D2E
+    module index = 85
+    kind:          (data)
+  Name:  _menuShowcase
+    address      = 0002:00010D3F
+    module index = 85
+    kind:          (data)
+  Name:  _IBCar
+    address      = 0002:00010DA3
+    module index = 85
+    kind:          (data)
+  Name:  _IBCarBonus
+    address      = 0002:00010DB5
+    module index = 85
+    kind:          (data)
+  Name:  _itemCar1
+    address      = 0002:00010DC9
+    module index = 85
+    kind:          (data)
+  Name:  _IBAuto
+    address      = 0002:00010DDA
+    module index = 85
+    kind:          (data)
+  Name:  _itemTransmission
+    address      = 0002:00010DE0
+    module index = 85
+    kind:          (data)
+  Name:  _itemColor
+    address      = 0002:00010DF1
+    module index = 85
+    kind:          (data)
+  Name:  _IBNo2
+    address      = 0002:00010E02
+    module index = 85
+    kind:          (data)
+  Name:  _itemGraph
+    address      = 0002:00010E08
+    module index = 85
+    kind:          (data)
+  Name:  _itemAdvancedSettings
+    address      = 0002:00010E19
+    module index = 85
+    kind:          (data)
+  Name:  _itemShowcase
+    address      = 0002:00010E2A
+    module index = 85
+    kind:          (data)
+  Name:  _itemDone3
+    address      = 0002:00010E3B
+    module index = 85
+    kind:          (data)
+  Name:  _itemCancel3
+    address      = 0002:00010E4C
+    module index = 85
+    kind:          (data)
+  Name:  _itemTitlePlayerCar1
+    address      = 0002:00010E5D
+    module index = 85
+    kind:          (data)
+  Name:  _menuPlayerCar1
+    address      = 0002:00010E6E
+    module index = 85
+    kind:          (data)
+  Name:  _itemCar2
+    address      = 0002:00010EA2
+    module index = 85
+    kind:          (data)
+  Name:  _itemColor2a
+    address      = 0002:00010EB3
+    module index = 85
+    kind:          (data)
+  Name:  _itemTransmission2
+    address      = 0002:00010EC4
+    module index = 85
+    kind:          (data)
+  Name:  _itemAdvancedSettings2
+    address      = 0002:00010ED5
+    module index = 85
+    kind:          (data)
+  Name:  _itemTitlePlayerCar2
+    address      = 0002:00010EE6
+    module index = 85
+    kind:          (data)
+  Name:  _menuPlayerCar2
+    address      = 0002:00010EF7
+    module index = 85
+    kind:          (data)
+  Name:  _IBOCar
+    address      = 0002:00010F2B
+    module index = 85
+    kind:          (data)
+  Name:  _IBBlanks
+    address      = 0002:00010F3F
+    module index = 85
+    kind:          (data)
+  Name:  _itemCarOpp
+    address      = 0002:00010F53
+    module index = 85
+    kind:          (data)
+  Name:  _itemTraffic
+    address      = 0002:00010F64
+    module index = 85
+    kind:          (data)
+  Name:  _IBTime
+    address      = 0002:00010F75
+    module index = 85
+    kind:          (data)
+  Name:  _itemNumber
+    address      = 0002:00010F7D
+    module index = 85
+    kind:          (data)
+  Name:  _IBBegin
+    address      = 0002:00010F8E
+    module index = 85
+    kind:          (data)
+  Name:  _itemSkillLevel
+    address      = 0002:00010F94
+    module index = 85
+    kind:          (data)
+  Name:  _itemDone
+    address      = 0002:00010FA5
+    module index = 85
+    kind:          (data)
+  Name:  _itemCancel
+    address      = 0002:00010FB6
+    module index = 85
+    kind:          (data)
+  Name:  _menuOpponents
+    address      = 0002:00010FC7
+    module index = 85
+    kind:          (data)
+  Name:  _itemMenuMusic
+    address      = 0002:00010FEF
+    module index = 85
+    kind:          (data)
+  Name:  _itemRacingMusic
+    address      = 0002:00011000
+    module index = 85
+    kind:          (data)
+  Name:  _itemSoundEffects
+    address      = 0002:00011011
+    module index = 85
+    kind:          (data)
+  Name:  _IBStandard
+    address      = 0002:00011022
+    module index = 85
+    kind:          (data)
+  Name:  _itemEngineSounds
+    address      = 0002:00011028
+    module index = 85
+    kind:          (data)
+  Name:  _itemInteractive
+    address      = 0002:00011039
+    module index = 85
+    kind:          (data)
+  Name:  _IBQuality
+    address      = 0002:0001104A
+    module index = 85
+    kind:          (data)
+  Name:  _itemAudioQuality
+    address      = 0002:00011050
+    module index = 85
+    kind:          (data)
+  Name:  _IBStero
+    address      = 0002:00011061
+    module index = 85
+    kind:          (data)
+  Name:  _itemAudioMode
+    address      = 0002:00011067
+    module index = 85
+    kind:          (data)
+  Name:  _itemDone5
+    address      = 0002:00011078
+    module index = 85
+    kind:          (data)
+  Name:  _itemCancel5
+    address      = 0002:00011089
+    module index = 85
+    kind:          (data)
+  Name:  _itemTitleAudio
+    address      = 0002:0001109A
+    module index = 85
+    kind:          (data)
+  Name:  _menuAudio
+    address      = 0002:000110AB
+    module index = 85
+    kind:          (data)
+  Name:  _itemKeyLeft
+    address      = 0002:000110E3
+    module index = 85
+    kind:          (data)
+  Name:  _itemKeyRight
+    address      = 0002:000110F4
+    module index = 85
+    kind:          (data)
+  Name:  _itemKeyGas
+    address      = 0002:00011105
+    module index = 85
+    kind:          (data)
+  Name:  _itemKeyBrake
+    address      = 0002:00011116
+    module index = 85
+    kind:          (data)
+  Name:  _itemKeyLookBehind
+    address      = 0002:00011127
+    module index = 85
+    kind:          (data)
+  Name:  _itemKeyCamera
+    address      = 0002:00011138
+    module index = 85
+    kind:          (data)
+  Name:  _itemKeyHandBrake
+    address      = 0002:00011149
+    module index = 85
+    kind:          (data)
+  Name:  _itemKeyHorn
+    address      = 0002:0001115A
+    module index = 85
+    kind:          (data)
+  Name:  _itemKeyShiftUp
+    address      = 0002:0001116B
+    module index = 85
+    kind:          (data)
+  Name:  _itemKeyShiftDown
+    address      = 0002:0001117C
+    module index = 85
+    kind:          (data)
+  Name:  _itemResetDefault
+    address      = 0002:0001118D
+    module index = 85
+    kind:          (data)
+  Name:  _itemDone14
+    address      = 0002:0001119E
+    module index = 85
+    kind:          (data)
+  Name:  _itemCancel14
+    address      = 0002:000111AF
+    module index = 85
+    kind:          (data)
+  Name:  _itemTitleControlRemap1
+    address      = 0002:000111C0
+    module index = 85
+    kind:          (data)
+  Name:  _menuControlRemap1
+    address      = 0002:000111D1
+    module index = 85
+    kind:          (data)
+  Name:  _itemKeyLeft1
+    address      = 0002:00011219
+    module index = 85
+    kind:          (data)
+  Name:  _itemKeyRight1
+    address      = 0002:0001122A
+    module index = 85
+    kind:          (data)
+  Name:  _itemKeyGas1
+    address      = 0002:0001123B
+    module index = 85
+    kind:          (data)
+  Name:  _itemKeyBrake1
+    address      = 0002:0001124C
+    module index = 85
+    kind:          (data)
+  Name:  _itemKeyLookBehind1
+    address      = 0002:0001125D
+    module index = 85
+    kind:          (data)
+  Name:  _itemKeyCamera1
+    address      = 0002:0001126E
+    module index = 85
+    kind:          (data)
+  Name:  _itemKeyHandBrake1
+    address      = 0002:0001127F
+    module index = 85
+    kind:          (data)
+  Name:  _itemKeyHorn1
+    address      = 0002:00011290
+    module index = 85
+    kind:          (data)
+  Name:  _itemKeyShiftUp1
+    address      = 0002:000112A1
+    module index = 85
+    kind:          (data)
+  Name:  _itemKeyShiftDown1
+    address      = 0002:000112B2
+    module index = 85
+    kind:          (data)
+  Name:  _itemTitleControlRemap2
+    address      = 0002:000112C3
+    module index = 85
+    kind:          (data)
+  Name:  _itemTitlePlayer1
+    address      = 0002:000112D4
+    module index = 85
+    kind:          (data)
+  Name:  _itemTitlePlayer2
+    address      = 0002:000112E5
+    module index = 85
+    kind:          (data)
+  Name:  _menuControlRemap2
+    address      = 0002:000112F6
+    module index = 85
+    kind:          (data)
+  Name:  _itemTitleCalibrate
+    address      = 0002:00011346
+    module index = 85
+    kind:          (data)
+  Name:  _IBSens
+    address      = 0002:00011357
+    module index = 85
+    kind:          (data)
+  Name:  _itemSensitivity2
+    address      = 0002:00011361
+    module index = 85
+    kind:          (data)
+  Name:  _itemDone15
+    address      = 0002:00011372
+    module index = 85
+    kind:          (data)
+  Name:  _itemCancel15
+    address      = 0002:00011383
+    module index = 85
+    kind:          (data)
+  Name:  _itemTitleSensitivity
+    address      = 0002:00011394
+    module index = 85
+    kind:          (data)
+  Name:  _menuSensitivity
+    address      = 0002:000113A5
+    module index = 85
+    kind:          (data)
+  Name:  _itemEffects
+    address      = 0002:000113C5
+    module index = 85
+    kind:          (data)
+  Name:  _itemDone16
+    address      = 0002:000113D6
+    module index = 85
+    kind:          (data)
+  Name:  _itemCancel16
+    address      = 0002:000113E7
+    module index = 85
+    kind:          (data)
+  Name:  _itemTitleFeedback1
+    address      = 0002:000113F8
+    module index = 85
+    kind:          (data)
+  Name:  _itemTitleFeedback2
+    address      = 0002:00011409
+    module index = 85
+    kind:          (data)
+  Name:  _menuFeedback
+    address      = 0002:0001141A
+    module index = 85
+    kind:          (data)
+  Name:  _itemTitleControllers
+    address      = 0002:0001143E
+    module index = 85
+    kind:          (data)
+  Name:  _itemSetup
+    address      = 0002:0001144F
+    module index = 85
+    kind:          (data)
+  Name:  _IBAnalogDigital
+    address      = 0002:00011460
+    module index = 85
+    kind:          (data)
+  Name:  _itemPlayerOneCont
+    address      = 0002:00011466
+    module index = 85
+    kind:          (data)
+  Name:  _itemPlayerTwoCont
+    address      = 0002:00011477
+    module index = 85
+    kind:          (data)
+  Name:  _itemSensitivity
+    address      = 0002:00011488
+    module index = 85
+    kind:          (data)
+  Name:  _itemForceFeedback
+    address      = 0002:00011499
+    module index = 85
+    kind:          (data)
+  Name:  _itemDone6
+    address      = 0002:000114AA
+    module index = 85
+    kind:          (data)
+  Name:  _itemCancel6
+    address      = 0002:000114BB
+    module index = 85
+    kind:          (data)
+  Name:  _menuControllers
+    address      = 0002:000114CC
+    module index = 85
+    kind:          (data)
+  Name:  _IBFull
+    address      = 0002:000114F8
+    module index = 85
+    kind:          (data)
+  Name:  _itemWindowSize
+    address      = 0002:00011500
+    module index = 85
+    kind:          (data)
+  Name:  _IBHigh1
+    address      = 0002:00011511
+    module index = 85
+    kind:          (data)
+  Name:  _itemImageQuality
+    address      = 0002:0001151D
+    module index = 85
+    kind:          (data)
+  Name:  _IBFar
+    address      = 0002:0001152E
+    module index = 85
+    kind:          (data)
+  Name:  _itemViewDistance
+    address      = 0002:00011536
+    module index = 85
+    kind:          (data)
+  Name:  _IBNoH
+    address      = 0002:00011547
+    module index = 85
+    kind:          (data)
+  Name:  _itemHorizon
+    address      = 0002:0001154D
+    module index = 85
+    kind:          (data)
+  Name:  _itemDone7
+    address      = 0002:0001155E
+    module index = 85
+    kind:          (data)
+  Name:  _itemCancel7
+    address      = 0002:0001156F
+    module index = 85
+    kind:          (data)
+  Name:  _itemTitleDisplay
+    address      = 0002:00011580
+    module index = 85
+    kind:          (data)
+  Name:  _menuDisplay
+    address      = 0002:00011591
+    module index = 85
+    kind:          (data)
+  Name:  _itemSaveTournament
+    address      = 0002:000115BD
+    module index = 85
+    kind:          (data)
+  Name:  _itemLoadTournament
+    address      = 0002:000115CE
+    module index = 85
+    kind:          (data)
+  Name:  _itemDeleteTournament
+    address      = 0002:000115DF
+    module index = 85
+    kind:          (data)
+  Name:  _itemSaveReplay
+    address      = 0002:000115F0
+    module index = 85
+    kind:          (data)
+  Name:  _itemViewReplay
+    address      = 0002:00011601
+    module index = 85
+    kind:          (data)
+  Name:  _itemDeleteReplay
+    address      = 0002:00011612
+    module index = 85
+    kind:          (data)
+  Name:  _itemDone8
+    address      = 0002:00011623
+    module index = 85
+    kind:          (data)
+  Name:  _itemTitleMemory
+    address      = 0002:00011634
+    module index = 85
+    kind:          (data)
+  Name:  _menuMemory
+    address      = 0002:00011645
+    module index = 85
+    kind:          (data)
+  Name:  _IBDisplay
+    address      = 0002:00011675
+    module index = 85
+    kind:          (data)
+  Name:  _itemDisplay
+    address      = 0002:0001167B
+    module index = 85
+    kind:          (data)
+  Name:  _itemAudio
+    address      = 0002:0001168C
+    module index = 85
+    kind:          (data)
+  Name:  _itemControllers
+    address      = 0002:0001169D
+    module index = 85
+    kind:          (data)
+  Name:  _itemGraphics
+    address      = 0002:000116AE
+    module index = 85
+    kind:          (data)
+  Name:  _itemMemory
+    address      = 0002:000116BF
+    module index = 85
+    kind:          (data)
+  Name:  _itemCredits
+    address      = 0002:000116D0
+    module index = 85
+    kind:          (data)
+  Name:  _itemDone4
+    address      = 0002:000116E1
+    module index = 85
+    kind:          (data)
+  Name:  _menuOptions
+    address      = 0002:000116F2
+    module index = 85
+    kind:          (data)
+  Name:  _itemKOSUNext
+    address      = 0002:0001171E
+    module index = 85
+    kind:          (data)
+  Name:  _itemKOSUBack
+    address      = 0002:0001172F
+    module index = 85
+    kind:          (data)
+  Name:  _itemKOSUReplay
+    address      = 0002:00011740
+    module index = 85
+    kind:          (data)
+  Name:  _itemKOSUQuit
+    address      = 0002:00011751
+    module index = 85
+    kind:          (data)
+  Name:  _menuKnockoutSummary
+    address      = 0002:00011762
+    module index = 85
+    kind:          (data)
+  Name:  _itemKOSTNext
+    address      = 0002:0001177E
+    module index = 85
+    kind:          (data)
+  Name:  _itemKOSTBack
+    address      = 0002:0001178F
+    module index = 85
+    kind:          (data)
+  Name:  _itemKOSTReplay
+    address      = 0002:000117A0
+    module index = 85
+    kind:          (data)
+  Name:  _itemKOSTQuit
+    address      = 0002:000117B1
+    module index = 85
+    kind:          (data)
+  Name:  _menuKnockoutStandings
+    address      = 0002:000117C2
+    module index = 85
+    kind:          (data)
+  Name:  _itemTSUNext
+    address      = 0002:000117E2
+    module index = 85
+    kind:          (data)
+  Name:  _itemTSUBack
+    address      = 0002:000117F3
+    module index = 85
+    kind:          (data)
+  Name:  _itemTSUReplay
+    address      = 0002:00011804
+    module index = 85
+    kind:          (data)
+  Name:  _itemTSUQuit
+    address      = 0002:00011815
+    module index = 85
+    kind:          (data)
+  Name:  _menuTournamentSummary
+    address      = 0002:00011826
+    module index = 85
+    kind:          (data)
+  Name:  _itemTSTNext
+    address      = 0002:00011842
+    module index = 85
+    kind:          (data)
+  Name:  _itemTSTBack
+    address      = 0002:00011853
+    module index = 85
+    kind:          (data)
+  Name:  _itemTSTReplay
+    address      = 0002:00011864
+    module index = 85
+    kind:          (data)
+  Name:  _itemTSTQuit
+    address      = 0002:00011875
+    module index = 85
+    kind:          (data)
+  Name:  _menuTournamentStandings
+    address      = 0002:00011886
+    module index = 85
+    kind:          (data)
+  Name:  _itemLTNext
+    address      = 0002:000118A2
+    module index = 85
+    kind:          (data)
+  Name:  _itemLTBack
+    address      = 0002:000118B3
+    module index = 85
+    kind:          (data)
+  Name:  _itemLTRestart
+    address      = 0002:000118C4
+    module index = 85
+    kind:          (data)
+  Name:  _itemLTReplay
+    address      = 0002:000118D5
+    module index = 85
+    kind:          (data)
+  Name:  _itemLTBackArrow
+    address      = 0002:000118E6
+    module index = 85
+    kind:          (data)
+  Name:  _itemLTFwdArrow
+    address      = 0002:000118F1
+    module index = 85
+    kind:          (data)
+  Name:  _itemLTQuit
+    address      = 0002:000118FC
+    module index = 85
+    kind:          (data)
+  Name:  _menuLapTimes
+    address      = 0002:0001190D
+    module index = 85
+    kind:          (data)
+  Name:  _itemNext1
+    address      = 0002:00011935
+    module index = 85
+    kind:          (data)
+  Name:  _itemRestart1
+    address      = 0002:00011946
+    module index = 85
+    kind:          (data)
+  Name:  _itemReplay1
+    address      = 0002:00011957
+    module index = 85
+    kind:          (data)
+  Name:  _itemRSBackArrow
+    address      = 0002:00011968
+    module index = 85
+    kind:          (data)
+  Name:  _itemRSFwdArrow
+    address      = 0002:00011973
+    module index = 85
+    kind:          (data)
+  Name:  _menuRaceSummary
+    address      = 0002:0001197E
+    module index = 85
+    kind:          (data)
+  Name:  _menuVictoryScreen
+    address      = 0002:000119A2
+    module index = 85
+    kind:          (data)
+  Name:  _itemContinue2
+    address      = 0002:000119B6
+    module index = 85
+    kind:          (data)
+  Name:  _itemReplay2
+    address      = 0002:000119C7
+    module index = 85
+    kind:          (data)
+  Name:  _itemQuit
+    address      = 0002:000119D8
+    module index = 85
+    kind:          (data)
+  Name:  _menuNetworkStandings
+    address      = 0002:000119E9
+    module index = 85
+    kind:          (data)
+  Name:  _itemGameSetup
+    address      = 0002:00011A05
+    module index = 85
+    kind:          (data)
+  Name:  _itemLocation
+    address      = 0002:00011A16
+    module index = 85
+    kind:          (data)
+  Name:  _itemPlayerCar
+    address      = 0002:00011A27
+    module index = 85
+    kind:          (data)
+  Name:  _itemOpponents
+    address      = 0002:00011A38
+    module index = 85
+    kind:          (data)
+  Name:  _itemRace
+    address      = 0002:00011A49
+    module index = 85
+    kind:          (data)
+  Name:  _itemOptions
+    address      = 0002:00011A5A
+    module index = 85
+    kind:          (data)
+  Name:  _itemExit
+    address      = 0002:00011A6B
+    module index = 85
+    kind:          (data)
+  Name:  _menuMain
+    address      = 0002:00011A7C
+    module index = 85
+    kind:          (data)
+  Name:  _itemNRaceType
+    address      = 0002:00011AA8
+    module index = 85
+    kind:          (data)
+  Name:  _itemNLocation
+    address      = 0002:00011AB9
+    module index = 85
+    kind:          (data)
+  Name:  _itemNLaps
+    address      = 0002:00011ACA
+    module index = 85
+    kind:          (data)
+  Name:  _itemNTraffic
+    address      = 0002:00011ADB
+    module index = 85
+    kind:          (data)
+  Name:  _itemNStyle
+    address      = 0002:00011AEC
+    module index = 85
+    kind:          (data)
+  Name:  _IBNOCar
+    address      = 0002:00011AFD
+    module index = 85
+    kind:          (data)
+  Name:  _IBNBlanks
+    address      = 0002:00011B13
+    module index = 85
+    kind:          (data)
+  Name:  _itemNOpponentCar
+    address      = 0002:00011B29
+    module index = 85
+    kind:          (data)
+  Name:  _itemNCar
+    address      = 0002:00011B3A
+    module index = 85
+    kind:          (data)
+  Name:  _itemNTransmission
+    address      = 0002:00011B4B
+    module index = 85
+    kind:          (data)
+  Name:  _IBNo
+    address      = 0002:00011B5C
+    module index = 85
+    kind:          (data)
+  Name:  _itemNRace
+    address      = 0002:00011B62
+    module index = 85
+    kind:          (data)
+  Name:  _itemNQuit
+    address      = 0002:00011B73
+    module index = 85
+    kind:          (data)
+  Name:  _menuNetwork
+    address      = 0002:00011B84
+    module index = 85
+    kind:          (data)

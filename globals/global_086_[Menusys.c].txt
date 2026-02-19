@@ -1,0 +1,84 @@
+  Name:  _shpPre
+    address      = 0002:00011BBC
+    module index = 86
+    kind:          (static pubdef) (data)
+  Name:  MenuSys_Initialize_
+    address      = 0001:0006618C
+    module index = 86
+    kind:          (code)
+  Name:  leaveTournCheck_
+    address      = 0001:00066338
+    module index = 86
+    kind:          (code)
+  Name:  MenuSys_ProcessInput_
+    address      = 0001:000663C5
+    module index = 86
+    kind:          (code)
+  Name:  ShowSensitivity_
+    address      = 0001:00066E6F
+    module index = 86
+    kind:          (code)
+  Name:  MenuSys_Generic_
+    address      = 0001:00066F24
+    module index = 86
+    kind:          (code)
+  Name:  Slider_RGBColorChangePal_
+    address      = 0001:000670BA
+    module index = 86
+    kind:          (code)
+  Name:  ShowSwatch_
+    address      = 0001:000671F1
+    module index = 86
+    kind:          (code)
+  Name:  MenuSys_Display_
+    address      = 0001:000672A9
+    module index = 86
+    kind:          (code)
+  Name:  MenuSys_Menu_
+    address      = 0001:000678A4
+    module index = 86
+    kind:          (code)
+  Name:  MenuSys_FindFreeSelection_
+    address      = 0001:00067E55
+    module index = 86
+    kind:          (code)
+  Name:  MenuSys_CopyFromMenu_
+    address      = 0001:00067F28
+    module index = 86
+    kind:          (code)
+  Name:  MenuSys_CopyToMenu_
+    address      = 0001:00068346
+    module index = 86
+    kind:          (code)
+  Name:  _shapeFile
+    address      = 0002:00011BD4
+    module index = 86
+    kind:          (data)
+  Name:  _networkService
+    address      = 0002:00011BD8
+    module index = 86
+    kind:          (data)
+  Name:  _menuDrivers
+    address      = 0002:00011BDC
+    module index = 86
+    kind:          (data)
+  Name:  _swatchColors
+    address      = 0002:00011C30
+    module index = 86
+    kind:          (data)
+  Name:  _playerTwo
+    address      = 0002:0004FE7C
+    module index = 86
+    kind:          (data)
+  Name:  _previousFileName
+    address      = 0002:0004FE80
+    module index = 86
+    kind:          (data)
+  Name:  _frontEndSave2
+    address      = 0002:0004FE94
+    module index = 86
+    kind:          (data)
+  Name:  _frontEndSave1
+    address      = 0002:0005012D
+    module index = 86
+    kind:          (data)

@@ -1,0 +1,104 @@
+  Name:  __psp
+    address      = 0002:00013DD4
+    module index = 264
+    kind:          (data)
+  Name:  __osmajor
+    address      = 0002:00013DFF
+    module index = 264
+    kind:          (data)
+  Name:  __osminor
+    address      = 0002:00013E00
+    module index = 264
+    kind:          (data)
+  Name:  __osbuild
+    address      = 0002:00013E01
+    module index = 264
+    kind:          (data)
+  Name:  __Extender
+    address      = 0002:00013DF6
+    module index = 264
+    kind:          (data)
+  Name:  __ExtenderSubtype
+    address      = 0002:00013DF7
+    module index = 264
+    kind:          (data)
+  Name:  __X32VM
+    address      = 0002:00013DF8
+    module index = 264
+    kind:          (data)
+  Name:  __x386_stacklow
+    address      = 0002:00013DD8
+    module index = 264
+    kind:          (data)
+  Name:  __LpCmdLine
+    address      = 0002:00013DC8
+    module index = 264
+    kind:          (data)
+  Name:  __LpPgmName
+    address      = 0002:00013DCC
+    module index = 264
+    kind:          (data)
+  Name:  __LpDllName
+    address      = 0002:00013DD0
+    module index = 264
+    kind:          (data)
+  Name:  __dynend
+    address      = 0002:00013DC0
+    module index = 264
+    kind:          (data)
+  Name:  __curbrk
+    address      = 0002:00013DC4
+    module index = 264
+    kind:          (data)
+  Name:  __STACKLOW
+    address      = 0002:00013DD8
+    module index = 264
+    kind:          (data)
+  Name:  __STACKTOP
+    address      = 0002:00013DDC
+    module index = 264
+    kind:          (data)
+  Name:  __ASTACKSIZ
+    address      = 0002:00013DE0
+    module index = 264
+    kind:          (data)
+  Name:  __ASTACKPTR
+    address      = 0002:00013DE4
+    module index = 264
+    kind:          (data)
+  Name:  __cbyte
+    address      = 0002:00013DE8
+    module index = 264
+    kind:          (data)
+  Name:  __cbyte2
+    address      = 0002:00013DEC
+    module index = 264
+    kind:          (data)
+  Name:  __child
+    address      = 0002:00013DF0
+    module index = 264
+    kind:          (data)
+  Name:  __Envptr
+    address      = 0002:00013DF9
+    module index = 264
+    kind:          (data)
+  Name:  __Envseg
+    address      = 0002:00013DFD
+    module index = 264
+    kind:          (data)
+  Name:  __no87
+    address      = 0002:00013DF4
+    module index = 264
+    kind:          (data)
+  Name:  __FPE_handler
+    address      = 0002:00013E03
+    module index = 264
+    kind:          (data)
+  Name:  ___FPE_handler
+    address      = 0002:00013E03
+    module index = 264
+    kind:          (data)
+  Name:  __null_FPE_rtn
+    address      = 0001:000A007B
+    module index = 264
+    kind:          (static pubdef) (code)

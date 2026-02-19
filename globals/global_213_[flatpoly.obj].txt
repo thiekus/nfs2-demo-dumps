@@ -1,0 +1,40 @@
+  Name:  normalfill_
+    address      = 0001:00092F20
+    module index = 213
+    kind:          (static pubdef) (code)
+  Name:  shadowfill_
+    address      = 0001:00092F74
+    module index = 213
+    kind:          (static pubdef) (code)
+  Name:  CalcEdge_
+    address      = 0001:00092F84
+    module index = 213
+    kind:          (static pubdef) (code)
+  Name:  FillRL_
+    address      = 0001:00092FE8
+    module index = 213
+    kind:          (static pubdef) (code)
+  Name:  FillLR_
+    address      = 0001:0009315C
+    module index = 213
+    kind:          (static pubdef) (code)
+  Name:  _flatpoly
+    address      = 0001:000932D0
+    module index = 213
+    kind:          (code)
+  Name:  _flatpolyp
+    address      = 0001:00093594
+    module index = 213
+    kind:          (code)
+  Name:  _fillfn
+    address      = 0002:00013854
+    module index = 213
+    kind:          (static pubdef) (data)
+  Name:  _aFillFns
+    address      = 0002:00013858
+    module index = 213
+    kind:          (static pubdef) (data)
+  Name:  _flatcolour
+    address      = 0002:000523C0
+    module index = 213
+    kind:          (static pubdef) (data)

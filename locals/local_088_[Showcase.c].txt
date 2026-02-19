@@ -1,0 +1,339 @@
+ 88) Name:   C:\nfs2\frontend\common\Showcase.c
+     Language is C
+     Locals: num = 1, offset = 00000172H
+     Types:  num = 1, offset = 0000030EH
+     Lines:  num = 1, offset = 00000492H
+
+   *** Locals ***
+   ==============
+      Data 0:  offset 00021E35
+        0000: MODULE_386
+          "textHistory" addr = 0002:00011C70,  type = 60
+        0014: MODULE_386
+          "returningFromSlideshow" addr = 0002:00011C88,  type = 9
+        0033: MODULE_386
+          "sldname" addr = 0002:000503D8,  type = 61
+        0043: MODULE_386
+          "gMaxCar" addr = 0002:000503E2,  type = 7
+        0053: SET_BASE_386
+          base = 0001:00068D76
+        005B: NEAR_RTN_386
+          start off = 00000000, code size = 00000039, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  73
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Name = "SetHistoryFile"
+        0082: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "menu",  type = 72
+        008B: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "car",  type = 9
+        0093: LOCAL
+          address: BP_OFFSET_BYTE( D4 )
+          name = "showCaseFiles",  type = 74
+        00A5: NEAR_RTN_386
+          start off = 00000039, code size = 00000039, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  73
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Name = "SetShowCaseFile"
+        00CD: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "menu",  type = 72
+        00D6: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "car",  type = 9
+        00DE: LOCAL
+          address: BP_OFFSET_BYTE( D4 )
+          name = "showCaseFiles",  type = 75
+        00F0: NEAR_RTN_386
+          start off = 00000072, code size = 0000006E, parent off = 0000
+          prologue size = 12,  epilogue size = 7
+          return address offset (from bp) = 00000010
+          return type:  76
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Name = "SetSlideShowFile"
+        011B: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "menu",  type = 72
+        0124: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "car",  type = 9
+        012C: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "slide",  type = 9
+        0136: LOCAL
+          address: BP_OFFSET_BYTE( D0 )
+          name = "slideShowFiles",  type = 77
+        0149: NEAR_RTN_386
+          start off = 000000E0, code size = 00000318, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  78
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Name = "SetShowCaseText"
+        0171: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "which",  type = 9
+        017B: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "car",  type = 9
+        0183: LOCAL
+          address: BP_OFFSET_BYTE( 8C )
+          name = "generalText",  type = 79
+        0193: LOCAL
+          address: BP_OFFSET_BYTE( B0 )
+          name = "performanceText",  type = 80
+        01A7: LOCAL
+          address: BP_OFFSET_BYTE( D4 )
+          name = "mechanicalText",  type = 81
+        01BA: NEAR_RTN_386
+          start off = 000003F8, code size = 00000094, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  82
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "SpinBigShowCaseIcon"
+        01E4: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "spinCount",  type = 7
+        01F2: LOCAL
+          address: BP_OFFSET_BYTE( C4 )
+          name = "spinFrames",  type = 83
+        0201: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "string",  type = 84
+        020C: NEAR_RTN_386
+          start off = 0000048C, code size = 0000054C, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  85
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Name = "ShowCase_ShowCase"
+        0235: LOCAL
+          address: BP_OFFSET_BYTE( CC )
+          name = "menu",  type = 72
+        023E: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "bTriggerVoiceover",  type = 7
+        0254: LOCAL
+          address: BP_OFFSET_BYTE( D0 )
+          name = "showing",  type = 9
+        0260: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "car",  type = 9
+        0268: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "result",  type = 9
+        0273: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "iconSpin",  type = 7
+        0280: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "update",  type = 7
+        028B: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "keyVal",  type = 7
+        0296: LOCAL
+          address: BP_OFFSET_BYTE( E0 )
+          name = "ticksDebounce",  type = 16
+        02A8: LOCAL
+          address: BP_OFFSET_BYTE( D8 )
+          name = "ticksTotal",  type = 16
+        02B7: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "string",  type = 86
+        02C2: LOCAL
+          address: BP_OFFSET_BYTE( 80 )
+          name = "tempname",  type = 87
+        02CF: LOCAL
+          address: BP_OFFSET_WORD( 0084 )
+          name = "sMovieName",  type = 88
+        02DF: LOCAL
+          address: BP_OFFSET_BYTE( D4 )
+          name = "movieTimer",  type = 9
+        02EE: LOCAL
+          address: BP_OFFSET_BYTE( A8 )
+          name = "sCarMovies",  type = 89
+        02FD: NEAR_RTN_386
+          start off = 000009D8, code size = 00000302, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  85
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Name = "ShowCase_SlideShow"
+        0327: LOCAL
+          address: BP_OFFSET_BYTE( E0 )
+          name = "menu",  type = 72
+        0330: LOCAL
+          address: BP_OFFSET_BYTE( D8 )
+          name = "shape",  type = 93
+        033A: LOCAL
+          address: BP_OFFSET_BYTE( DC )
+          name = "slide",  type = 9
+        0344: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "result",  type = 9
+        034F: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "update",  type = 7
+        035A: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "keyVal",  type = 7
+        0365: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "ticksDebounce",  type = 16
+        0377: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "ticksTotal",  type = 16
+        0386: LOCAL
+          address: BP_OFFSET_BYTE( B0 )
+          name = "string",  type = 94
+        0391: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "car",  type = 9
+        0399: NEAR_RTN_386
+          start off = 00000CDA, code size = 000000AD, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  95
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Name = "s_removelastword"
+        03C2: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "string",  type = 13
+        03CD: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "tempbuf",  type = 13
+        03D9: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "len",  type = 9
+        03E1: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "i",  type = 9
+        03E7: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "lastwordspc",  type = 9
+        03F7: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "n",  type = 9
+        03FD: NEAR_RTN_386
+          start off = 00000D87, code size = 00000068, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  95
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Name = "s_insertlastword"
+        0426: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "string",  type = 13
+        0431: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "tempbuf",  type = 13
+        043D: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "len",  type = 9
+        0445: LOCAL
+          address: BP_OFFSET_BYTE( A4 )
+          name = "newbuf",  type = 96
+        0450: BLOCK_386
+          start off = 00000FF4, code size = 00000154, parent off = 049F
+        045C: LOCAL
+          address: BP_OFFSET_WORD( 007C )
+          name = "string",  type = 97
+        0468: LOCAL
+          address: BP_OFFSET_WORD( 00D0 )
+          name = "string2",  type = 98
+        0475: LOCAL
+          address: BP_OFFSET_WORD( 0024 )
+          name = "tempbuf",  type = 99
+        0482: LOCAL
+          address: BP_OFFSET_WORD( 0074 )
+          name = "width",  type = 9
+        048D: LOCAL
+          address: BP_OFFSET_WORD( 0078 )
+          name = "x",  type = 9
+        0494: LOCAL
+          address: BP_OFFSET_WORD( 00CC )
+          name = "strID",  type = 9
+        049F: BLOCK_386
+          start off = 00000EA9, code size = 00000494, parent off = 04B3
+        04AB: LOCAL
+          address: BP_OFFSET_WORD( 0020 )
+          name = "et",  type = 16
+        04B3: NEAR_RTN_386
+          start off = 00000DEF, code size = 00000591, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  85
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Name = "ShowCase_History"
+        04DB: LOCAL
+          address: BP_OFFSET_BYTE( D0 )
+          name = "menu",  type = 72
+        04E4: LOCAL
+          address: BP_OFFSET_WORD( 006C )
+          name = "tempname",  type = 100
+        04F2: LOCAL
+          address: BP_OFFSET_BYTE( BC )
+          name = "heading1",  type = 101
+        04FF: LOCAL
+          address: BP_OFFSET_BYTE( A8 )
+          name = "heading2",  type = 102
+        050C: LOCAL
+          address: BP_OFFSET_BYTE( 94 )
+          name = "heading3",  type = 103
+        0519: LOCAL
+          address: BP_OFFSET_BYTE( D8 )
+          name = "result",  type = 9
+        0524: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "update",  type = 7
+        052F: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "bTriggerVoiceover",  type = 7
+        0545: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "keyVal",  type = 7
+        0550: LOCAL
+          address: BP_OFFSET_BYTE( E0 )
+          name = "ticksDebounce",  type = 16
+        0562: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "ticksTotal",  type = 16
+        0571: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "waitSpeech",  type = 16
+        0580: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "car",  type = 9
+        0588: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "k",  type = 9
+        058E: LOCAL
+          address: BP_OFFSET_BYTE( D4 )
+          name = "y",  type = 9
+        0594: LOCAL
+          address: BP_OFFSET_WORD( 0024 )
+          name = "historyId",  type = 105
+

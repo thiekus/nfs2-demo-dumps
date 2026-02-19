@@ -1,0 +1,12 @@
+  Name:  _fixedxformx
+    address      = 0001:00083AF0
+    module index = 140
+    kind:          (code)
+  Name:  _fixedxformy
+    address      = 0001:00083B58
+    module index = 140
+    kind:          (code)
+  Name:  _fixedxformz
+    address      = 0001:00083BC0
+    module index = 140
+    kind:          (code)

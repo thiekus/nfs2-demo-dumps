@@ -1,0 +1,20 @@
+  Name:  _initxatable
+    address      = 0001:000BF930
+    module index = 479
+    kind:          (code)
+  Name:  SNDinitcodecxa_
+    address      = 0001:000BF988
+    module index = 479
+    kind:          (code)
+  Name:  _filter1
+    address      = 0002:00016F94
+    module index = 479
+    kind:          (data)
+  Name:  _filter2
+    address      = 0002:00016FA4
+    module index = 479
+    kind:          (data)
+  Name:  _xatable
+    address      = 0002:0006AA0C
+    module index = 479
+    kind:          (data)

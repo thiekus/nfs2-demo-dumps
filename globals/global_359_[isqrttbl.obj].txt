@@ -1,0 +1,4 @@
+  Name:  _isqrttbl
+    address      = 0002:000157CC
+    module index = 359
+    kind:          (data)

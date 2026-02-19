@@ -1,0 +1,654 @@
+ 83) Name:   C:\nfs2\frontend\common\Mainmenu.c
+     Language is C
+     Locals: num = 1, offset = 0000015EH
+     Types:  num = 1, offset = 000002FAH
+     Lines:  num = 1, offset = 00000482H
+
+   *** Locals ***
+   ==============
+      Data 0:  offset 0001EEC4
+        0000: MODULE_386
+          "iconDeltaY" addr = 0002:000105C8,  type = 60
+        0013: MODULE_386
+          "sideBuffer" addr = 0002:0001052C,  type = 70
+        0026: MODULE_386
+          "gSFXlevelHandle" addr = 0002:0004FD70,  type = 9
+        003E: MODULE_386
+          "gDemoMovieNumber" addr = 0002:00010538,  type = 9
+        0057: MODULE_386
+          "backScreenFadeValue" addr = 0002:00010562,  type = 9
+        0073: MODULE_386
+          "buildBuffer" addr = 0002:00010534,  type = 69
+        0087: MODULE_386
+          "overRide" addr = 0002:0004FD74,  type = 9
+        0098: MODULE_386
+          "sideReady" addr = 0002:0001052A,  type = 7
+        00AA: MODULE_386
+          "iconsOn" addr = 0002:0004FD78,  type = 7
+        00BA: MODULE_386
+          "valueShowing" addr = 0002:0004FD7A,  type = 7
+        00CF: MODULE_386
+          "firstTime" addr = 0002:0001053C,  type = 7
+        00E1: MODULE_386
+          "sideShow" addr = 0002:00010528,  type = 7
+        00F2: MODULE_386
+          "prevKey" addr = 0002:0004FD7C,  type = 7
+        0102: MODULE_386
+          "statHandling" addr = 0002:00010550,  type = 71
+        0117: MODULE_386
+          "statTopSpeed" addr = 0002:00010547,  type = 72
+        012C: MODULE_386
+          "statAccel" addr = 0002:0001053E,  type = 73
+        013E: MODULE_386
+          "statBraking" addr = 0002:00010559,  type = 74
+        0152: SET_BASE_386
+          base = 0001:00061C35
+        015A: NEAR_RTN_386
+          start off = 00000000, code size = 00000097, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  75
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Mainmenu_checkTournamentTrack"
+        018E: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "direction",  type = 9
+        019C: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "start",  type = 9
+        01A6: NEAR_RTN_386
+          start off = 00000097, code size = 000007BD, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  87
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Name = "MainMenu_MainMenu"
+        01CF: LOCAL
+          address: BP_OFFSET_BYTE( B4 )
+          name = "menu",  type = 86
+        01D8: LOCAL
+          address: BP_OFFSET_BYTE( AC )
+          name = "result",  type = 9
+        01E3: LOCAL
+          address: BP_OFFSET_BYTE( B0 )
+          name = "vroomHandle",  type = 9
+        01F3: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "x",  type = 7
+        01F9: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "dx",  type = 7
+        0200: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "update",  type = 7
+        020B: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "keyVal",  type = 7
+        0216: LOCAL
+          address: BP_OFFSET_BYTE( C4 )
+          name = "autoRaceStarting",  type = 9
+        022B: LOCAL
+          address: BP_OFFSET_BYTE( C8 )
+          name = "ticksDebounce",  type = 16
+        023D: LOCAL
+          address: BP_OFFSET_BYTE( D4 )
+          name = "ticksTotal",  type = 16
+        024C: LOCAL
+          address: BP_OFFSET_BYTE( D0 )
+          name = "ticksAtLastInput",  type = 16
+        0261: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "bDemoFlag",  type = 7
+        026F: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "i",  type = 7
+        0275: LOCAL
+          address: BP_OFFSET_BYTE( DC )
+          name = "sliderWindow",  type = 69
+        0286: LOCAL
+          address: BP_OFFSET_BYTE( CC )
+          name = "side",  type = 64
+        028F: LOCAL
+          address: BP_OFFSET_BYTE( B8 )
+          name = "xMouseInitial",  type = 9
+        02A1: LOCAL
+          address: BP_OFFSET_BYTE( BC )
+          name = "xMouseCheck",  type = 9
+        02B1: LOCAL
+          address: BP_OFFSET_BYTE( C0 )
+          name = "yMouseInitial",  type = 9
+        02C3: LOCAL
+          address: BP_OFFSET_BYTE( D8 )
+          name = "yMouseCheck",  type = 9
+        02D3: LOCAL
+          address: BP_OFFSET_BYTE( E0 )
+          name = "nMouseButton",  type = 9
+        02E4: LOCAL
+          address: BP_OFFSET_WORD( 005C )
+          name = "sDemoMovieName",  type = 88
+        02F8: NEAR_RTN_386
+          start off = 00000854, code size = 000000EF, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  89
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Name = "CrossFadeSlider"
+        0320: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "menu",  type = 86
+        0329: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "slider",  type = 7
+        0334: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "x",  type = 9
+        033A: NEAR_RTN_386
+          start off = 00000943, code size = 0000010E, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  90
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Name = "MainMenu_trackRaced"
+        0365: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "t",  type = 9
+        036B: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "r",  type = 9
+        0371: NEAR_RTN_386
+          start off = 00000A51, code size = 000002B3, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  91
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Name = "DrawSlider"
+        0394: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "menu",  type = 86
+        039D: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "x",  type = 9
+        03A3: LOCAL
+          address: BP_OFFSET_BYTE( BC )
+          name = "trackImages",  type = 92
+        03B3: LOCAL
+          address: BP_OFFSET_BYTE( 94 )
+          name = "carImages",  type = 93
+        03C1: LOCAL
+          address: BP_OFFSET_BYTE( D8 )
+          name = "completeImages",  type = 94
+        03D4: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "image",  type = 13
+        03DE: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "i",  type = 9
+        03E4: BLOCK_386
+          start off = 00001297, code size = 00000027, parent off = 03FD
+        03F0: LOCAL
+          address: BP_OFFSET_BYTE( C0 )
+          name = "oldTrack",  type = 9
+        03FD: NEAR_RTN_386
+          start off = 00000D04, code size = 0000093A, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  87
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Name = "MainMenu_SubMenu"
+        0425: LOCAL
+          address: BP_OFFSET_BYTE( C4 )
+          name = "menu",  type = 86
+        042E: LOCAL
+          address: BP_OFFSET_BYTE( C8 )
+          name = "result",  type = 9
+        0439: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "update",  type = 7
+        0444: LOCAL
+          address: BP_OFFSET_BYTE( E0 )
+          name = "x",  type = 7
+        044A: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "x2",  type = 7
+        0451: LOCAL
+          address: BP_OFFSET_BYTE( D8 )
+          name = "i",  type = 7
+        0457: LOCAL
+          address: BP_OFFSET_BYTE( DC )
+          name = "dx",  type = 7
+        045E: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "keyVal",  type = 7
+        0469: LOCAL
+          address: BP_OFFSET_BYTE( D4 )
+          name = "ticksDebounce",  type = 16
+        047B: LOCAL
+          address: BP_OFFSET_BYTE( CC )
+          name = "ticksTotal",  type = 16
+        048A: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "prevCar",  type = 7
+        0496: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "prevGraph",  type = 7
+        04A4: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "selectSave",  type = 7
+        04B3: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "slider",  type = 7
+        04BE: NEAR_RTN_386
+          start off = 0000163E, code size = 00000057, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  75
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "DemoMessage"
+        04E0: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "i",  type = 9
+        04E6: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "t",  type = 95
+        04EC: NEAR_RTN_386
+          start off = 00001695, code size = 0000005A, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  96
+          return value: <none>
+          Name = "showTheCurrentlyHighlightedOptionFromTheMainMenuWhenTheSubMenuIsBeingDisplayed"
+        054F: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "current",  type = 83
+        055B: NEAR_RTN_386
+          start off = 000016EF, code size = 00000598, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  97
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Name = "MainMenu_BackgroundMotion"
+        058E: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "menu",  type = 86
+        0597: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "forceUpdate",  type = 7
+        05A7: LOCAL
+          address: BP_OFFSET_BYTE( E0 )
+          name = "t1",  type = 16
+        05AE: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "t2",  type = 16
+        05B5: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "i",  type = 7
+        05BB: LOCAL
+          address: CONST_ADDR386( 0002:00010566 )
+          name = "motionTicks",  type = 16
+        05D0: LOCAL
+          address: CONST_ADDR386( 0002:0001056A )
+          name = "logoCycle",  type = 16
+        05E3: LOCAL
+          address: CONST_ADDR386( 0002:0001056E )
+          name = "fadeCount",  type = 98
+        05F6: LOCAL
+          address: CONST_ADDR386( 0002:00010578 )
+          name = "fadeDelta",  type = 99
+        0609: LOCAL
+          address: CONST_ADDR386( 0002:00010580 )
+          name = "fadeX",  type = 100
+        0618: LOCAL
+          address: CONST_ADDR386( 0002:00010588 )
+          name = "fadeY",  type = 101
+        0627: LOCAL
+          address: CONST_ADDR386( 0002:00010590 )
+          name = "fadeImage",  type = 102
+        063A: LOCAL
+          address: CONST_ADDR386( 0002:00010598 )
+          name = "images",  type = 103
+        064A: LOCAL
+          address: BP_OFFSET_BYTE( CC )
+          name = "logoNames",  type = 104
+        0658: LOCAL
+          address: CONST_ADDR386( 0002:0004FD7E )
+          name = "oldX",  type = 9
+        0666: LOCAL
+          address: CONST_ADDR386( 0002:0004FD82 )
+          name = "oldY",  type = 9
+        0674: LOCAL
+          address: BP_OFFSET_BYTE( DC )
+          name = "newX",  type = 9
+        067D: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "newY",  type = 9
+        0686: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "newB",  type = 9
+        068F: NEAR_RTN_386
+          start off = 00001C87, code size = 0000043D, parent off = 0000
+          prologue size = 11,  epilogue size = 6
+          return address offset (from bp) = 0000000C
+          return type:  105
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Parm 3: MULTI_REG(1): ECX
+          Name = "SpinIcons"
+        06B5: LOCAL
+          address: BP_OFFSET_BYTE( E0 )
+          name = "refresh",  type = 7
+        06C1: LOCAL
+          address: BP_OFFSET_BYTE( D8 )
+          name = "fadeIndex",  type = 7
+        06CF: LOCAL
+          address: BP_OFFSET_BYTE( DC )
+          name = "stopSpin",  type = 7
+        06DC: LOCAL
+          address: BP_OFFSET_BYTE( D0 )
+          name = "menu",  type = 86
+        06E5: LOCAL
+          address: CONST_ADDR386( 0002:000105E0 )
+          name = "highlight",  type = 7
+        06F8: LOCAL
+          address: CONST_ADDR386( 0002:000105E2 )
+          name = "prevCurrent",  type = 7
+        070D: LOCAL
+          address: CONST_ADDR386( 0002:000105E4 )
+          name = "frame",  type = 7
+        071C: LOCAL
+          address: CONST_ADDR386( 0002:000105E6 )
+          name = "spinTicks",  type = 16
+        072F: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "x",  type = 7
+        0735: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "y",  type = 7
+        073B: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "i",  type = 7
+        0741: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "i2",  type = 7
+        0748: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "fadeIndex2",  type = 7
+        0757: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "newhighlight",  type = 7
+        0768: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "frame2",  type = 7
+        0773: LOCAL
+          address: BP_OFFSET_BYTE( D4 )
+          name = "iconShape",  type = 64
+        0781: LOCAL
+          address: BP_OFFSET_WORD( 00DC )
+          name = "icons",  type = 107
+        078C: LOCAL
+          address: BP_OFFSET_BYTE( 9C )
+          name = "string",  type = 108
+        0797: LOCAL
+          address: BP_OFFSET_BYTE( C4 )
+          name = "settings",  type = 109
+        07A4: NEAR_RTN_386
+          start off = 000020C4, code size = 00000088, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  110
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "SpinInfoIcon"
+        07C7: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "refresh",  type = 7
+        07D3: LOCAL
+          address: CONST_ADDR386( 0002:000105EA )
+          name = "frame",  type = 7
+        07E2: LOCAL
+          address: CONST_ADDR386( 0002:000105EC )
+          name = "spinTicks",  type = 16
+        07F5: LOCAL
+          address: BP_OFFSET_BYTE( D4 )
+          name = "string",  type = 111
+        0800: NEAR_RTN_386
+          start off = 0000214C, code size = 000004EB, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  87
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Name = "MainMenu_ForceFeedback"
+        082E: LOCAL
+          address: BP_OFFSET_BYTE( A8 )
+          name = "menu",  type = 86
+        0837: LOCAL
+          address: BP_OFFSET_BYTE( AC )
+          name = "oldvol",  type = 9
+        0842: LOCAL
+          address: BP_OFFSET_BYTE( B0 )
+          name = "result",  type = 9
+        084D: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "keyVal",  type = 7
+        0858: LOCAL
+          address: BP_OFFSET_BYTE( B8 )
+          name = "ticksDebounce",  type = 16
+        086A: LOCAL
+          address: BP_OFFSET_BYTE( BC )
+          name = "ticksTotal",  type = 16
+        0879: LOCAL
+          address: BP_OFFSET_BYTE( C0 )
+          name = "nextJolt",  type = 16
+        0886: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "update",  type = 7
+        0891: LOCAL
+          address: BP_OFFSET_BYTE( C8 )
+          name = "forceVolume",  type = 9
+        08A1: LOCAL
+          address: BP_OFFSET_BYTE( CC )
+          name = "slideVal",  type = 9
+        08AE: LOCAL
+          address: BP_OFFSET_BYTE( D0 )
+          name = "f1",  type = 9
+        08B5: LOCAL
+          address: BP_OFFSET_BYTE( D4 )
+          name = "e1",  type = 9
+        08BC: LOCAL
+          address: BP_OFFSET_BYTE( D8 )
+          name = "shape",  type = 64
+        08C6: LOCAL
+          address: BP_OFFSET_BYTE( DC )
+          name = "leftX",  type = 9
+        08D0: LOCAL
+          address: BP_OFFSET_BYTE( B4 )
+          name = "rightX",  type = 9
+        08DB: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "baseY",  type = 9
+        08E5: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "width",  type = 9
+        08EF: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "height",  type = 9
+        08FA: LOCAL
+          address: BP_OFFSET_BYTE( C4 )
+          name = "mouseSelect",  type = 9
+        090A: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "oldSelect",  type = 9
+        0918: LOCAL
+          address: BP_OFFSET_BYTE( E0 )
+          name = "oldCurrent",  type = 9
+        0927: NEAR_RTN_386
+          start off = 00002637, code size = 00000E24, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  87
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Name = "MainMenu_Audio"
+        094D: LOCAL
+          address: BP_OFFSET_BYTE( 8C )
+          name = "menu",  type = 86
+        0956: LOCAL
+          address: BP_OFFSET_BYTE( 90 )
+          name = "result",  type = 9
+        0961: LOCAL
+          address: BP_OFFSET_BYTE( 94 )
+          name = "f1",  type = 9
+        0968: LOCAL
+          address: BP_OFFSET_BYTE( 98 )
+          name = "f2",  type = 9
+        096F: LOCAL
+          address: BP_OFFSET_BYTE( 9C )
+          name = "f3",  type = 9
+        0976: LOCAL
+          address: BP_OFFSET_BYTE( A0 )
+          name = "e1",  type = 9
+        097D: LOCAL
+          address: BP_OFFSET_BYTE( A4 )
+          name = "e2",  type = 9
+        0984: LOCAL
+          address: BP_OFFSET_BYTE( A8 )
+          name = "e3",  type = 9
+        098B: LOCAL
+          address: BP_OFFSET_BYTE( AC )
+          name = "sfxvoltemp",  type = 9
+        099A: LOCAL
+          address: BP_OFFSET_BYTE( B0 )
+          name = "simmustemp",  type = 9
+        09A9: LOCAL
+          address: BP_OFFSET_BYTE( B4 )
+          name = "femustemp",  type = 9
+        09B7: LOCAL
+          address: BP_OFFSET_BYTE( B8 )
+          name = "modetemp",  type = 9
+        09C4: LOCAL
+          address: BP_OFFSET_BYTE( BC )
+          name = "qualitytemp",  type = 9
+        09D4: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "update",  type = 7
+        09DF: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "keyVal",  type = 7
+        09EA: LOCAL
+          address: BP_OFFSET_BYTE( C8 )
+          name = "ticksDebounce",  type = 16
+        09FC: LOCAL
+          address: BP_OFFSET_BYTE( CC )
+          name = "ticksTotal",  type = 16
+        0A0B: LOCAL
+          address: BP_OFFSET_BYTE( D0 )
+          name = "shape",  type = 64
+        0A15: LOCAL
+          address: BP_OFFSET_BYTE( D4 )
+          name = "leftX",  type = 9
+        0A1F: LOCAL
+          address: BP_OFFSET_BYTE( D8 )
+          name = "rightX",  type = 9
+        0A2A: LOCAL
+          address: BP_OFFSET_BYTE( DC )
+          name = "baseY",  type = 9
+        0A34: LOCAL
+          address: BP_OFFSET_BYTE( E0 )
+          name = "width",  type = 9
+        0A3E: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "height",  type = 9
+        0A49: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "mouseSelect",  type = 9
+        0A59: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "oldSelect",  type = 9
+        0A67: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "oldCurrent",  type = 9
+        0A76: LOCAL
+          address: CONST_ADDR386( 0002:000105F0 )
+          name = "playingSFXlev",  type = 4
+        0A8D: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "driverCaps",  type = 9
+        0A9C: LOCAL
+          address: BP_OFFSET_BYTE( C0 )
+          name = "interactState",  type = 9
+        0AAE: NEAR_RTN_386
+          start off = 0000345B, code size = 000003D7, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  87
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Name = "MainMenu_Credits"
+        0AD6: LOCAL
+          address: BP_OFFSET_BYTE( BC )
+          name = "menu",  type = 86
+        0ADF: LOCAL
+          address: BP_OFFSET_BYTE( A8 )
+          name = "buffer",  type = 112
+        0AEA: LOCAL
+          address: BP_OFFSET_BYTE( 90 )
+          name = "heading",  type = 113
+        0AF6: LOCAL
+          address: BP_OFFSET_BYTE( C0 )
+          name = "key",  type = 9
+        0AFE: LOCAL
+          address: BP_OFFSET_BYTE( C4 )
+          name = "ticksTotal",  type = 16
+        0B0D: LOCAL
+          address: BP_OFFSET_BYTE( C8 )
+          name = "left",  type = 9
+        0B16: LOCAL
+          address: BP_OFFSET_BYTE( CC )
+          name = "length",  type = 9
+        0B21: LOCAL
+          address: BP_OFFSET_BYTE( D0 )
+          name = "y",  type = 9
+        0B27: LOCAL
+          address: BP_OFFSET_BYTE( D4 )
+          name = "y2",  type = 9
+        0B2E: LOCAL
+          address: BP_OFFSET_BYTE( D8 )
+          name = "t",  type = 9
+        0B34: LOCAL
+          address: BP_OFFSET_BYTE( DC )
+          name = "b",  type = 9
+        0B3A: LOCAL
+          address: BP_OFFSET_BYTE( E0 )
+          name = "x",  type = 9
+        0B40: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "zoomy",  type = 9
+        0B4A: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "volsave",  type = 9
+        0B56: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "zoomb",  type = 9
+        0B60: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "exit",  type = 9
+        0B69: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "tKey",  type = 9
+        0B72: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "result",  type = 9
+

@@ -1,0 +1,68 @@
+  Name:  _libreadmouse
+    address      = 0001:0009B6A0
+    module index = 236
+    kind:          (code)
+  Name:  _libshowmouse
+    address      = 0001:0009B6C4
+    module index = 236
+    kind:          (code)
+  Name:  _libhidemouse
+    address      = 0001:0009B6CC
+    module index = 236
+    kind:          (code)
+  Name:  _initsysmouse
+    address      = 0001:0009B6D4
+    module index = 236
+    kind:          (code)
+  Name:  _setmousebounds
+    address      = 0001:0009B734
+    module index = 236
+    kind:          (code)
+  Name:  _getmousepos
+    address      = 0001:0009B77C
+    module index = 236
+    kind:          (code)
+  Name:  _readmousebuttons
+    address      = 0001:0009B7AC
+    module index = 236
+    kind:          (code)
+  Name:  _setmousepos
+    address      = 0001:0009B7B4
+    module index = 236
+    kind:          (code)
+  Name:  _seteacmouse
+    address      = 0001:0009B87C
+    module index = 236
+    kind:          (code)
+  Name:  _winmousey
+    address      = 0002:000538E0
+    module index = 236
+    kind:          (static pubdef) (data)
+  Name:  _winmousex
+    address      = 0002:000538E4
+    module index = 236
+    kind:          (static pubdef) (data)
+  Name:  _winmousemaxy
+    address      = 0002:000538E8
+    module index = 236
+    kind:          (static pubdef) (data)
+  Name:  _winmousemaxx
+    address      = 0002:000538EC
+    module index = 236
+    kind:          (static pubdef) (data)
+  Name:  _winmousevisible
+    address      = 0002:000538F0
+    module index = 236
+    kind:          (static pubdef) (data)
+  Name:  _winmouseminx
+    address      = 0002:000538F4
+    module index = 236
+    kind:          (static pubdef) (data)
+  Name:  _winmouseminy
+    address      = 0002:000538F8
+    module index = 236
+    kind:          (static pubdef) (data)
+  Name:  _winmousebuttons
+    address      = 0002:000538FC
+    module index = 236
+    kind:          (static pubdef) (data)

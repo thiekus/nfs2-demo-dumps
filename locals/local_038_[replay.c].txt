@@ -1,0 +1,279 @@
+ 38) Name:   C:\nfs2\game\common\replay.c
+     Language is C
+     Locals: num = 1, offset = 000000AAH
+     Types:  num = 1, offset = 00000246H
+     Lines:  num = 1, offset = 000003D6H
+
+   *** Locals ***
+   ==============
+      Data 0:  offset 00011943
+        0000: MODULE_386
+          "uncompressed_data" addr = 0002:00024944,  type = 66
+        001A: MODULE_386
+          "Replay_ReplayCounter" addr = 0002:00024964,  type = 67
+        0037: MODULE_386
+          "Replay_ReplayBuffer" addr = 0002:00024984,  type = 88
+        0053: MODULE_386
+          "controlData" addr = 0002:00042EFC,  type = 96
+        0067: MODULE_386
+          "DirectorsCameraList" addr = 0002:0000EDF8,  type = 97
+        0083: MODULE_386
+          "Replay_ReplayCamera" addr = 0002:000432FC,  type = 101
+        009F: MODULE_386
+          "ReplayCameraList" addr = 0002:0000EDD4,  type = 102
+        00B8: MODULE_386
+          "Replay_ReplayStorePtr" addr = 0002:00043324,  type = 9
+        00D6: MODULE_386
+          "Replay_ReplayGetPtr" addr = 0002:00043328,  type = 9
+        00F2: MODULE_386
+          "Replay_ReplayInterface" addr = 0002:0004332C,  type = 105
+        0111: MODULE_386
+          "Replay_ReplayMode" addr = 0002:00043348,  type = 9
+        012B: MODULE_386
+          "Replay_Size" addr = 0002:0000EDD0,  type = 9
+        013F: MODULE_386
+          "compressed_data" addr = 0002:0004334C,  type = 106
+        0157: SET_BASE_386
+          base = 0001:0003E3E8
+        015F: NEAR_RTN_386
+          start off = 00000000, code size = 00000100, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  107
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Replay_Compress"
+        0186: LOCAL
+          address: BP_OFFSET_BYTE( DC )
+          name = "uncompressed_data",  type = 18
+        019C: LOCAL
+          address: BP_OFFSET_BYTE( E0 )
+          name = "i",  type = 9
+        01A2: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "done",  type = 9
+        01AB: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "count",  type = 9
+        01B5: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "u_pointer",  type = 9
+        01C3: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "c_pointer",  type = 9
+        01D1: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "begin_byte",  type = 4
+        01E0: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "current_byte",  type = 4
+        01F1: NEAR_RTN_386
+          start off = 00000100, code size = 000000C9, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  107
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Replay_Decompress"
+        021A: LOCAL
+          address: BP_OFFSET_BYTE( E0 )
+          name = "compressed_data",  type = 18
+        022E: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "i",  type = 9
+        0234: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "data_size",  type = 9
+        0242: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "count",  type = 9
+        024C: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "u_pointer",  type = 9
+        025A: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "c_pointer",  type = 9
+        0268: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "current_byte",  type = 4
+        0279: BLOCK_386
+          start off = 000001EA, code size = 00000048, parent off = 028E
+        0285: LOCAL
+          address: BP_OFFSET_BYTE( D8 )
+          name = "temp",  type = 70
+        028E: NEAR_RTN_386
+          start off = 000001C9, code size = 00000072, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  27
+          return value: <none>
+          Name = "Replay_InitReplay"
+        02B4: NEAR_RTN_386
+          start off = 0000023B, code size = 0000014D, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  27
+          return value: <none>
+          Name = "Replay_ResetReplay"
+        02DB: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "i",  type = 9
+        02E1: NEAR_RTN_386
+          start off = 00000388, code size = 00000041, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  27
+          return value: <none>
+          Name = "Replay_StoringReplay"
+        030A: NEAR_RTN_386
+          start off = 000003C9, code size = 00000154, parent off = 0000
+          prologue size = 14,  epilogue size = 11
+          return address offset (from bp) = 00000018
+          return type:  108
+          return value: <none>
+          Name = "Replay_StoringControllerData"
+        033B: LOCAL
+          address: BP_OFFSET_BYTE( 1C )
+          name = "controllerdata",  type = 95
+        034E: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "i",  type = 9
+        0354: LOCAL
+          address: BP_OFFSET_BYTE( D8 )
+          name = "packeddata",  type = 109
+        0363: NEAR_RTN_386
+          start off = 0000051D, code size = 0000015C, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  110
+          return value: IND_REG_CALLOC_NEAR( ESI )
+          Name = "Replay_RetreivingControllerData"
+        0398: LOCAL
+          address: BP_OFFSET_WORD( 00D8 )
+          name = "controllerdata",  type = 95
+        03AC: LOCAL
+          address: BP_OFFSET_BYTE( D8 )
+          name = "packeddata",  type = 111
+        03BB: NEAR_RTN_386
+          start off = 00000679, code size = 00000120, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  112
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Replay_SaveInput"
+        03E2: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "car",  type = 9
+        03EA: NEAR_RTN_386
+          start off = 00000799, code size = 000001AF, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  112
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Replay_GetInput"
+        0410: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "car",  type = 9
+        0418: NEAR_RTN_386
+          start off = 00000948, code size = 00000017, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  27
+          return value: <none>
+          Name = "Replay_SaveReplay"
+        043E: LOCAL
+          address: BP_OFFSET_BYTE( C4 )
+          name = "string",  type = 113
+        0449: NEAR_RTN_386
+          start off = 0000095F, code size = 0000007C, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  27
+          return value: <none>
+          Name = "Replay_LoadReplay"
+        046F: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "handle",  type = 9
+        047A: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "offset",  type = 21
+        0485: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "fsize",  type = 21
+        048F: LOCAL
+          address: BP_OFFSET_BYTE( A4 )
+          name = "string",  type = 114
+        049A: NEAR_RTN_386
+          start off = 000009DB, code size = 0000004A, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  233
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Replay_DoReplay"
+        04C1: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "carObj",  type = 232
+        04CD: NEAR_RTN_386
+          start off = 00000A25, code size = 000002BF, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  27
+          return value: <none>
+          Name = "Replay_GetInterfaceKey"
+        04F8: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "i",  type = 9
+        04FE: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "Cameras",  type = 9
+        050A: NEAR_RTN_386
+          start off = 00000CE4, code size = 0000001A, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  233
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Replay_TrackEvents"
+        0534: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "carObj",  type = 232
+        0540: NEAR_RTN_386
+          start off = 00000CFE, code size = 000000CB, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  112
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Replay_SetCamera"
+        0567: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "player",  type = 9
+        0572: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "i",  type = 9
+        0578: BLOCK_386
+          start off = 00000E86, code size = 00000054, parent off = 058E
+        0584: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "temp",  type = 232
+        058E: NEAR_RTN_386
+          start off = 00000DC9, code size = 00000150, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  112
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Replay_ReplayChooseCamera"
+        05BE: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "player",  type = 9
+        05C9: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "time",  type = 9
+        05D2: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "ViewLength",  type = 9
+

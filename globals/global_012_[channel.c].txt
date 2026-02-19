@@ -1,0 +1,64 @@
+  Name:  Channel_StartChannel_
+    address      = 0001:00021461
+    module index = 12
+    kind:          (code)
+  Name:  Channel_StopChannel_
+    address      = 0001:00021476
+    module index = 12
+    kind:          (code)
+  Name:  Channel_SetUserTo_
+    address      = 0001:0002148B
+    module index = 12
+    kind:          (code)
+  Name:  Channel_BindChannelToDevice_
+    address      = 0001:000214A5
+    module index = 12
+    kind:          (code)
+  Name:  Channel_UnbindChannelToDevice_
+    address      = 0001:000214C1
+    module index = 12
+    kind:          (code)
+  Name:  Channel_UnbindChannel_
+    address      = 0001:000214DD
+    module index = 12
+    kind:          (code)
+  Name:  Channel_BinaryOut_
+    address      = 0001:000214F8
+    module index = 12
+    kind:          (code)
+  Name:  Channel_Manager_
+    address      = 0001:00021515
+    module index = 12
+    kind:          (code)
+  Name:  Virtual_StartVirtual_
+    address      = 0001:00021531
+    module index = 12
+    kind:          (code)
+  Name:  Virtual_StopVirtual_
+    address      = 0001:00021546
+    module index = 12
+    kind:          (code)
+  Name:  Virtual_CreateScrollingSubDevice_
+    address      = 0001:0002155B
+    module index = 12
+    kind:          (code)
+  Name:  Virtual_CreateWindowSubDevice_
+    address      = 0001:00021584
+    module index = 12
+    kind:          (code)
+  Name:  Virtual_CreateBinarySubDevice_
+    address      = 0001:000215AD
+    module index = 12
+    kind:          (code)
+  Name:  Virtual_Output_
+    address      = 0001:000215D6
+    module index = 12
+    kind:          (code)
+  Name:  SyncMark_
+    address      = 0001:000215F1
+    module index = 12
+    kind:          (code)
+  Name:  SyncRecord_
+    address      = 0001:00021606
+    module index = 12
+    kind:          (code)

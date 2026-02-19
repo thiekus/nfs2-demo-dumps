@@ -1,0 +1,52 @@
+  Name:  tmaskmove4_
+    address      = 0001:00092BA0
+    module index = 211
+    kind:          (static pubdef) (code)
+  Name:  tmaskmove8_
+    address      = 0001:00092C14
+    module index = 211
+    kind:          (static pubdef) (code)
+  Name:  tmaskmove16_
+    address      = 0001:00092C28
+    module index = 211
+    kind:          (static pubdef) (code)
+  Name:  tmaskmove24_
+    address      = 0001:00092C40
+    module index = 211
+    kind:          (static pubdef) (code)
+  Name:  tmaskmove32_
+    address      = 0001:00092C80
+    module index = 211
+    kind:          (static pubdef) (code)
+  Name:  _tmaskfxya
+    address      = 0001:00092C9C
+    module index = 211
+    kind:          (code)
+  Name:  _tmaskf
+    address      = 0001:00092D48
+    module index = 211
+    kind:          (code)
+  Name:  _tmaskfxy
+    address      = 0001:00092D64
+    module index = 211
+    kind:          (code)
+  Name:  _tmaskcfxya
+    address      = 0001:00092D90
+    module index = 211
+    kind:          (code)
+  Name:  _tmaskcf
+    address      = 0001:00092DAC
+    module index = 211
+    kind:          (code)
+  Name:  _tmaskcfxy
+    address      = 0001:00092DC8
+    module index = 211
+    kind:          (code)
+  Name:  _tmaskfdfl
+    address      = 0002:0001380C
+    module index = 211
+    kind:          (static pubdef) (data)
+  Name:  _tmaskclutptr
+    address      = 0002:000523B0
+    module index = 211
+    kind:          (data)

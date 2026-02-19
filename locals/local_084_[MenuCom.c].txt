@@ -1,0 +1,183 @@
+ 84) Name:   C:\nfs2\frontend\common\MenuCom.c
+     Language is C
+     Locals: num = 1, offset = 00000162H
+     Types:  num = 1, offset = 000002FEH
+     Lines:  num = 1, offset = 00000486H
+
+   *** Locals ***
+   ==============
+      Data 0:  offset 0001FA41
+        0000: MODULE_386
+          "asyncPlayerData" addr = 0002:0004FD88,  type = 44
+        0018: MODULE_386
+          "menucom_gamedata_mutex" addr = 0002:000105F8,  type = 9
+        0037: MODULE_386
+          "gMenuCom_DeleteTourny" addr = 0002:000105FC,  type = 9
+        0055: MODULE_386
+          "gMenuCom_NoInput" addr = 0002:000105F4,  type = 9
+        006E: MODULE_386
+          "localPlayerData" addr = 0002:0004FE58,  type = 43
+        0086: MODULE_386
+          "asyncGameData" addr = 0002:0004FE72,  type = 46
+        009C: SET_BASE_386
+          base = 0001:00065467
+        00A4: NEAR_RTN_386
+          start off = 00000000, code size = 00000050, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  27
+          return value: <none>
+          Name = "MenuCom_Init"
+        00C5: NEAR_RTN_386
+          start off = 00000050, code size = 0000006D, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  27
+          return value: <none>
+          Name = "MenuCom_DeInit"
+        00E8: BLOCK_386
+          start off = 000000E4, code size = 000000A9, parent off = 00FD
+        00F4: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "indx",  type = 9
+        00FD: NEAR_RTN_386
+          start off = 000000BD, code size = 00000281, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  47
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Name = "MenuCom_SyncData"
+        0125: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "chatInput",  type = 9
+        0133: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "updateRequired",  type = 9
+        0146: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "playersAddedOrDropped",  type = 9
+        0160: NEAR_RTN_386
+          start off = 0000033E, code size = 000000F9, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  27
+          return value: <none>
+          Name = "MenuCom_SendPlayerData"
+        018B: NEAR_RTN_386
+          start off = 00000437, code size = 0000007F, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  27
+          return value: <none>
+          Name = "MenuCom_SendGameData"
+        01B4: BLOCK_386
+          start off = 000004E8, code size = 00000081, parent off = 01EB
+        01C0: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "indx",  type = 9
+        01C9: BLOCK_386
+          start off = 00000614, code size = 0000013F, parent off = 01EB
+        01D5: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "staticPlayerIndex",  type = 9
+        01EB: NEAR_RTN_386
+          start off = 000004B6, code size = 000002B5, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  48
+          return value: MULTI_REG(1): EAX
+          Name = "MenuCom_ReadyToRace"
+        0214: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "i",  type = 9
+        021A: NEAR_RTN_386
+          start off = 0000076B, code size = 000000C0, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  27
+          return value: <none>
+          Name = "MenuCom_OffToRaceDataHouseKeeping"
+        0250: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "i",  type = 9
+        0256: BLOCK_386
+          start off = 00000B45, code size = 00000025, parent off = 026B
+        0262: LOCAL
+          address: BP_OFFSET_BYTE( C4 )
+          name = "indx",  type = 9
+        026B: BLOCK_386
+          start off = 00000B21, code size = 000000A5, parent off = 0284
+        0277: LOCAL
+          address: BP_OFFSET_BYTE( C8 )
+          name = "numReady",  type = 9
+        0284: NEAR_RTN_386
+          start off = 0000082B, code size = 000003BE, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  27
+          return value: <none>
+          Name = "MenuCom_Display"
+        02A8: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "i",  type = 7
+        02AE: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "y",  type = 7
+        02B4: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "selected",  type = 7
+        02C1: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "numSlots",  type = 7
+        02CE: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "localStaticIndex",  type = 7
+        02E3: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "tmpStatic",  type = 7
+        02F1: NEAR_RTN_386
+          start off = 00000BE9, code size = 0000007F, parent off = 0000
+          prologue size = 12,  epilogue size = 7
+          return address offset (from bp) = 00000010
+          return type:  69
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Name = "MenuCom_RecvGameData_CALLBACK"
+        0329: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "pktConn",  type = 68
+        0335: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "data",  type = 62
+        033E: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "length",  type = 10
+        0349: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "pkt",  type = 70
+        0351: NEAR_RTN_386
+          start off = 00000C68, code size = 000000B1, parent off = 0000
+          prologue size = 12,  epilogue size = 7
+          return address offset (from bp) = 00000010
+          return type:  69
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Name = "MenuCom_RecvPlayerData_CALLBACK"
+        038B: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "pktConn",  type = 68
+        0397: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "data",  type = 62
+        03A0: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "length",  type = 10
+        03AB: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "pkt",  type = 71
+

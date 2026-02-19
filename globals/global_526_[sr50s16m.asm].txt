@@ -1,0 +1,4 @@
+  Name:  _rs50s16upmmx
+    address      = 0001:000C2358
+    module index = 526
+    kind:          (code)

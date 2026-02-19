@@ -1,0 +1,4 @@
+  Name:  __qread_
+    address      = 0001:000C0D96
+    module index = 504
+    kind:          (code)

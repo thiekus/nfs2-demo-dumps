@@ -1,0 +1,12 @@
+  Name:  _initfinvtable
+    address      = 0001:000B3C20
+    module index = 378
+    kind:          (code)
+  Name:  _finvtblflag
+    address      = 0002:0001627C
+    module index = 378
+    kind:          (data)
+  Name:  _finvtbl
+    address      = 0002:00066020
+    module index = 378
+    kind:          (data)

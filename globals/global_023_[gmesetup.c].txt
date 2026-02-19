@@ -1,0 +1,24 @@
+  Name:  _GameSetup_gCarNames
+    address      = 0002:0000CCF0
+    module index = 23
+    kind:          (data)
+  Name:  _AInames
+    address      = 0002:0000CE90
+    module index = 23
+    kind:          (static pubdef) (data)
+  Name:  GameSetup_StartUp_
+    address      = 0001:0002971A
+    module index = 23
+    kind:          (code)
+  Name:  GameSetup_CleanUp_
+    address      = 0001:000299B4
+    module index = 23
+    kind:          (code)
+  Name:  _GameSetup_gList
+    address      = 0002:0000CEBC
+    module index = 23
+    kind:          (data)
+  Name:  _GameSetup_gData
+    address      = 0002:00023628
+    module index = 23
+    kind:          (data)

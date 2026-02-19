@@ -1,0 +1,4 @@
+  Name:  fgets_
+    address      = 0001:0009BC54
+    module index = 241
+    kind:          (code)

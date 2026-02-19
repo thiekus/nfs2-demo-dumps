@@ -1,0 +1,24 @@
+  Name:  _createwindowblocka
+    address      = 0001:00093EB0
+    module index = 216
+    kind:          (code)
+  Name:  _createwindowblock
+    address      = 0001:000941B0
+    module index = 216
+    kind:          (code)
+  Name:  _createwindowblockz
+    address      = 0001:000941D4
+    module index = 216
+    kind:          (code)
+  Name:  _createwindowadra
+    address      = 0001:000941F8
+    module index = 216
+    kind:          (code)
+  Name:  _createwindowadr
+    address      = 0001:00094228
+    module index = 216
+    kind:          (code)
+  Name:  _createwindowadrz
+    address      = 0001:00094250
+    module index = 216
+    kind:          (code)

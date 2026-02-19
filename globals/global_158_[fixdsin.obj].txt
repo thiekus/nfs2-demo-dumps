@@ -1,0 +1,8 @@
+  Name:  _fixedsin
+    address      = 0001:00085280
+    module index = 158
+    kind:          (code)
+  Name:  _fixedcos
+    address      = 0001:000852F0
+    module index = 158
+    kind:          (code)

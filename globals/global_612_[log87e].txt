@@ -1,0 +1,4 @@
+  Name:  __log87_err_
+    address      = 0001:000CA3A3
+    module index = 612
+    kind:          (code)

@@ -1,0 +1,220 @@
+ 44) Name:   C:\nfs2\game\common\simqueue.c
+     Language is C
+     Locals: num = 1, offset = 000000C2H
+     Types:  num = 1, offset = 0000025EH
+     Lines:  num = 1, offset = 000003EEH
+
+   *** Locals ***
+   ==============
+      Data 0:  offset 000134D3
+        0000: MODULE_386
+          "output" addr = 0002:00043570,  type = 64
+        000F: MODULE_386
+          "maxBuildupTolerance" addr = 0002:00043590,  type = 9
+        002B: MODULE_386
+          "inputQueue" addr = 0002:00043594,  type = 74
+        003E: MODULE_386
+          "maxLineLatency" addr = 0002:000449B8,  type = 9
+        0055: MODULE_386
+          "maxTicksPerFrame" addr = 0002:000449BC,  type = 9
+        006E: MODULE_386
+          "gSimQueue_BlockSelf" addr = 0002:0000EF10,  type = 38
+        008A: MODULE_386
+          "gSimQueue_Ticker" addr = 0002:0000EF0C,  type = 9
+        00A3: MODULE_386
+          "gSimQueue_BlockOther" addr = 0002:0000EF14,  type = 38
+        00C0: MODULE_386
+          "ticksAheadOfRemoteOnRemote" addr = 0002:000449C0,  type = 4
+        00E3: SET_BASE_386
+          base = 0001:00043C16
+        00EB: NEAR_RTN_386
+          start off = 00000000, code size = 0000003C, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  26
+          return value: <none>
+          Name = "SimQueue_StartUp"
+        0110: NEAR_RTN_386
+          start off = 0000003C, code size = 00000153, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  26
+          return value: <none>
+          Name = "SimQueue_Reset"
+        0133: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "i",  type = 9
+        0139: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "j",  type = 9
+        013F: NEAR_RTN_386
+          start off = 0000018F, code size = 00000037, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  26
+          return value: <none>
+          Name = "SimQueue_CleanUp"
+        0164: BLOCK_386
+          start off = 000002E6, code size = 0000002F, parent off = 017E
+        0170: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "p1",  type = 9
+        0177: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "p2",  type = 9
+        017E: NEAR_RTN_386
+          start off = 000001C6, code size = 00000177, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  76
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Name = "SimQueue_Put"
+        01A4: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "pIndex",  type = 9
+        01AF: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "val",  type = 75
+        01B7: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "tail",  type = 9
+        01C0: BLOCK_386
+          start off = 000003AB, code size = 00000080, parent off = 01D2
+        01CC: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "i",  type = 9
+        01D2: NEAR_RTN_386
+          start off = 0000033D, code size = 00000134, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  77
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Name = "SimQueue_HostPutClient"
+        0201: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "pIndex",  type = 9
+        020C: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "val",  type = 75
+        0214: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "tail",  type = 9
+        021D: NEAR_RTN_386
+          start off = 00000471, code size = 000000AE, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  78
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "SimQueue_SetCurrentInput"
+        024C: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "time",  type = 9
+        0255: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "i",  type = 9
+        025B: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "pIndex",  type = 9
+        0266: NEAR_RTN_386
+          start off = 0000051F, code size = 00000035, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  77
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Name = "SimQueue_GetCurrentInput"
+        0297: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "pIndex",  type = 9
+        02A2: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "out",  type = 75
+        02AA: NEAR_RTN_386
+          start off = 00000554, code size = 000000F8, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  79
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "SimQueue_ServerPeek"
+        02D4: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "out",  type = 75
+        02DC: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "i",  type = 9
+        02E2: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "tail",  type = 9
+        02EB: NEAR_RTN_386
+          start off = 0000064C, code size = 0000003B, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  80
+          return value: MULTI_REG(1): EAX
+          Name = "SimQueue_CalcPauseTime"
+        0317: NEAR_RTN_386
+          start off = 00000687, code size = 00000022, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  80
+          return value: MULTI_REG(1): EAX
+          Name = "SimQueue_GetHeadTime"
+        0341: NEAR_RTN_386
+          start off = 000006A9, code size = 00000022, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  80
+          return value: MULTI_REG(1): EAX
+          Name = "SimQueue_GetHostTailTime"
+        036F: NEAR_RTN_386
+          start off = 000006CB, code size = 0000006A, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  81
+          return value: REG: AL
+          Name = "SimQueue_GetRemoteTicksAhead"
+        03A0: NEAR_RTN_386
+          start off = 00000735, code size = 00000040, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  78
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "SimQueue_SetLocalTicksAhead"
+        03D2: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "ticksAhead",  type = 9
+        03E1: NEAR_RTN_386
+          start off = 00000775, code size = 000000AD, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  26
+          return value: <none>
+          Name = "SimQueue_SetLag"
+        0405: BLOCK_386
+          start off = 0000094A, code size = 0000003F, parent off = 041F
+        0411: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "t0",  type = 9
+        0418: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "t1",  type = 9
+        041F: NEAR_RTN_386
+          start off = 00000822, code size = 000001D9, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  82
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Name = "SimQueue_IsBlocking"
+        044A: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "pIndex",  type = 9
+

@@ -1,0 +1,4 @@
+  Name:  strrchr_
+    address      = 0001:00089CF3
+    module index = 187
+    kind:          (code)

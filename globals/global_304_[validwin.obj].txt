@@ -1,0 +1,16 @@
+  Name:  checkwindowfield_
+    address      = 0001:000A6E80
+    module index = 304
+    kind:          (static pubdef) (code)
+  Name:  _checkwindowa
+    address      = 0001:000A6EE8
+    module index = 304
+    kind:          (code)
+  Name:  _checkwindow
+    address      = 0001:000A6FE4
+    module index = 304
+    kind:          (code)
+  Name:  _checkwindowz
+    address      = 0001:000A6FF4
+    module index = 304
+    kind:          (code)

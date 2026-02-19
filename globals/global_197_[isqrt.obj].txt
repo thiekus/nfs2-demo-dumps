@@ -1,0 +1,4 @@
+  Name:  _isqrt
+    address      = 0001:0008EF50
+    module index = 197
+    kind:          (code)

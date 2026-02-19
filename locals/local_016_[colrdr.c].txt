@@ -1,0 +1,111 @@
+ 16) Name:   C:\nfs2\game\common\colrdr.c
+     Language is C
+     Locals: num = 1, offset = 00000052H
+     Types:  num = 1, offset = 000001EEH
+     Lines:  num = 1, offset = 00000386H
+
+   *** Locals ***
+   ==============
+      Data 0:  offset 0000C065
+        0000: MODULE_386
+          "sColFileHeader" addr = 0002:000234B4,  type = 41
+        0017: MODULE_386
+          "sColHandle" addr = 0002:000234C4,  type = 9
+        002A: SET_BASE_386
+          base = 0001:00027818
+        0032: NEAR_RTN_386
+          start off = 00000000, code size = 000000FB, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  42
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Col_OpenColFile"
+        0059: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "filename",  type = 13
+        0066: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "offset",  type = 16
+        0071: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "size",  type = 16
+        007A: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "pchType",  type = 13
+        0086: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "rc",  type = 9
+        008D: NEAR_RTN_386
+          start off = 000000FB, code size = 00000063, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  43
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Col_CloseColFile"
+        00B4: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "colHandle",  type = 9
+        00C2: NEAR_RTN_386
+          start off = 0000015E, code size = 00000058, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  44
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Col_GetFileSize"
+        00E9: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "colHandle",  type = 9
+        00F7: NEAR_RTN_386
+          start off = 000001B6, code size = 00000082, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  46
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Name = "Col_ReadFile"
+        011D: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "colHandle",  type = 9
+        012B: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "aBuffer",  type = 45
+        0137: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "count",  type = 9
+        0141: NEAR_RTN_386
+          start off = 00000238, code size = 00000058, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  44
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Col_GetNumCollections"
+        016E: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "colHandle",  type = 9
+        017C: NEAR_RTN_386
+          start off = 00000290, code size = 00000070, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  51
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Name = "Col_GetCollection"
+        01A7: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "aBuffer",  type = 45
+        01B3: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "iIndex",  type = 9
+        01BE: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "lptr",  type = 52
+        01C7: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "cptr",  type = 13
+

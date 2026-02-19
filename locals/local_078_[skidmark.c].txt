@@ -1,0 +1,172 @@
+ 78) Name:   C:\nfs2\game\pc\skidmark.c
+     Language is C
+     Locals: num = 1, offset = 0000014AH
+     Types:  num = 1, offset = 000002E6H
+     Lines:  num = 1, offset = 0000046EH
+
+   *** Locals ***
+   ==============
+      Data 0:  offset 0001E1F9
+        0000: MODULE_386
+          "gUseSm" addr = 0002:0004FC20,  type = 9
+        000F: MODULE_386
+          "gSm" addr = 0002:0004FC24,  type = 51
+        001B: MODULE_386
+          "gCountSm" addr = 0002:0004FC28,  type = 9
+        002C: SET_BASE_386
+          base = 0001:000600D2
+        0034: BLOCK_386
+          start off = 00000017, code size = 000000A5, parent off = 0058
+        0040: LOCAL
+          address: BP_OFFSET_BYTE( DC )
+          name = "dx",  type = 9
+        0047: LOCAL
+          address: BP_OFFSET_BYTE( E0 )
+          name = "dz",  type = 9
+        004E: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "angle",  type = 9
+        0058: NEAR_RTN_386
+          start off = 00000000, code size = 000001D9, parent off = 0000
+          prologue size = 11,  epilogue size = 6
+          return address offset (from bp) = 0000000C
+          return type:  54
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Parm 3: MULTI_REG(1): ECX
+          Name = "CalcSmQuad16"
+        0081: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "result",  type = 52
+        008C: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "cp",  type = 53
+        0093: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "pt1",  type = 53
+        009B: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "pt2",  type = 53
+        00A3: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "pxp",  type = 9
+        00AB: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "pzp",  type = 9
+        00B3: BLOCK_386
+          start off = 0000020F, code size = 000001B4, parent off = 00CC
+        00BF: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "NewChunk",  type = 9
+        00CC: BLOCK_386
+          start off = 000001FA, code size = 000001C9, parent off = 00DF
+        00D8: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "sm",  type = 51
+        00DF: NEAR_RTN_386
+          start off = 000001D9, code size = 000001F2, parent off = 0000
+          prologue size = 11,  epilogue size = 8
+          return address offset (from bp) = 0000000C
+          return type:  55
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Parm 3: MULTI_REG(1): ECX
+          Name = "Skidmark_Add"
+        0108: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "car",  type = 9
+        0110: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "wheel",  type = 9
+        011A: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "pskidpt",  type = 53
+        0126: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "skidpt",  type = 53
+        0131: LOCAL
+          address: BP_OFFSET_BYTE( 10 )
+          name = "status",  type = 9
+        013C: BLOCK_386
+          start off = 000004D3, code size = 000000A0, parent off = 014E
+        0148: LOCAL
+          address: BP_OFFSET_BYTE( C0 )
+          name = "f",  type = 83
+        014E: BLOCK_386
+          start off = 000004A5, code size = 000000D3, parent off = 0172
+        015A: LOCAL
+          address: BP_OFFSET_BYTE( C4 )
+          name = "count",  type = 9
+        0164: LOCAL
+          address: BP_OFFSET_BYTE( C8 )
+          name = "rndpixmap",  type = 13
+        0172: BLOCK_386
+          start off = 0000042B, code size = 0000014D, parent off = 019A
+        017E: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "vx",  type = 68
+        0185: LOCAL
+          address: BP_OFFSET_BYTE( CC )
+          name = "td",  type = 42
+        018C: LOCAL
+          address: BP_OFFSET_BYTE( D8 )
+          name = "ts",  type = 42
+        0193: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "nv",  type = 9
+        019A: BLOCK_386
+          start off = 000003FF, code size = 00000179, parent off = 01C0
+        01A6: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "sm",  type = 51
+        01AD: BLOCK_386
+          start off = 0000057D, code size = 00000035, parent off = 01C0
+        01B9: LOCAL
+          address: BP_OFFSET_BYTE( B8 )
+          name = "lf",  type = 87
+        01C0: NEAR_RTN_386
+          start off = 000003CB, code size = 000001F0, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  99
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Skidmark_InsertFacet"
+        01EB: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "Vi",  type = 98
+        01F2: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "ccount",  type = 9
+        01FD: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "FirstFacet",  type = 83
+        020C: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "LastFacet",  type = 83
+        021A: NEAR_RTN_386
+          start off = 000005BB, code size = 00000063, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  21
+          return value: <none>
+          Name = "Skidmark_InitSkidmark"
+        0244: NEAR_RTN_386
+          start off = 0000061E, code size = 0000001F, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  21
+          return value: <none>
+          Name = "Skidmark_RestartSkidmark"
+        0271: NEAR_RTN_386
+          start off = 0000063D, code size = 00000023, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  21
+          return value: <none>
+          Name = "Skidmark_KillSkidmark"
+

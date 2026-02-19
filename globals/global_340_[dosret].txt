@@ -1,0 +1,20 @@
+  Name:  _dosret0_
+    address      = 0001:000AFEC2
+    module index = 340
+    kind:          (code)
+  Name:  _dosretax_
+    address      = 0001:000AFEC9
+    module index = 340
+    kind:          (code)
+  Name:  __set_errno_dos_
+    address      = 0001:000AFECD
+    module index = 340
+    kind:          (code)
+  Name:  __set_errno_nt_
+    address      = 0001:000AFF1E
+    module index = 340
+    kind:          (code)
+  Name:  _xlat
+    address      = 0002:000157B0
+    module index = 340
+    kind:          (static pubdef) (data)

@@ -1,0 +1,4 @@
+  Name:  _sintbl
+    address      = 0002:00012A54
+    module index = 109
+    kind:          (data)

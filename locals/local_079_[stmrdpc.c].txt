@@ -1,0 +1,121 @@
+ 79) Name:   C:\nfs2\game\pc\stmrdpc.c
+     Language is C
+     Locals: num = 1, offset = 0000014EH
+     Types:  num = 1, offset = 000002EAH
+     Lines:  num = 1, offset = 00000472H
+
+   *** Locals ***
+   ==============
+      Data 0:  offset 0001E494
+        0000: MODULE_386
+          "Stm_readOffset" addr = 0002:0004FC2C,  type = 9
+        0017: MODULE_386
+          "Stm_baseWinAddress" addr = 0002:0004FC30,  type = 13
+        0032: MODULE_386
+          "sQueHandle" addr = 0002:00010520,  type = 9
+        0045: SET_BASE_386
+          base = 0001:00060732
+        004D: NEAR_RTN_386
+          start off = 00000000, code size = 0000004A, parent off = 0000
+          prologue size = 12,  epilogue size = 7
+          return address offset (from bp) = 00000010
+          return type:  40
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Name = "readMemCopy"
+        0074: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "handle",  type = 9
+        007F: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "ptr",  type = 39
+        0087: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "size",  type = 9
+        0090: NEAR_RTN_386
+          start off = 0000004A, code size = 000001F0, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  41
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Stm_OpenTrackStream"
+        00BB: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "trackName",  type = 13
+        00C9: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "pchType",  type = 13
+        00D5: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "rc",  type = 9
+        00DC: NEAR_RTN_386
+          start off = 0000023A, code size = 000000D2, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  42
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Stm_CloseTrackStream"
+        0107: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "trackHandle",  type = 9
+        0117: NEAR_RTN_386
+          start off = 0000030C, code size = 0000004E, parent off = 0000
+          prologue size = 11,  epilogue size = 6
+          return address offset (from bp) = 0000000C
+          return type:  45
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Parm 3: MULTI_REG(1): ECX
+          Name = "Stm_QueueMetaChunk"
+        0147: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "trkHandle",  type = 9
+        0155: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "iMetaChunkNum",  type = 9
+        0167: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "aBuffer",  type = 39
+        0173: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "dir",  type = 43
+        017B: NEAR_RTN_386
+          start off = 0000035A, code size = 0000003A, parent off = 0000
+          prologue size = 11,  epilogue size = 6
+          return address offset (from bp) = 0000000C
+          return type:  46
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Parm 3: MULTI_REG(1): ECX
+          Name = "Stm_GetMetaChunkPtr"
+        01AC: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "trkHandle",  type = 9
+        01BA: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "iMetaChunkNum",  type = 9
+        01CC: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "aBuffer",  type = 39
+        01D8: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "dir",  type = 43
+        01E0: NEAR_RTN_386
+          start off = 00000394, code size = 00000071, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  47
+          return value: MULTI_REG(1): EAX
+          Name = "Stm_MetaChunkReady"
+        0208: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "rc",  type = 9
+

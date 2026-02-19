@@ -1,0 +1,128 @@
+  Name:  Pal_InitPalSystem_
+    address      = 0001:0005B908
+    module index = 72
+    kind:          (code)
+  Name:  Pal_DeInitPalSystem_
+    address      = 0001:0005B972
+    module index = 72
+    kind:          (code)
+  Name:  Pal_InitLORCC_
+    address      = 0001:0005B98C
+    module index = 72
+    kind:          (code)
+  Name:  Pal_InitRegions_
+    address      = 0001:0005B9DB
+    module index = 72
+    kind:          (code)
+  Name:  Pal_NewRegion_
+    address      = 0001:0005BA23
+    module index = 72
+    kind:          (code)
+  Name:  Pal_AddFileToRegion_
+    address      = 0001:0005BA92
+    module index = 72
+    kind:          (static pubdef) (code)
+  Name:  Pal_RegisterShapeFile_
+    address      = 0001:0005BAD3
+    module index = 72
+    kind:          (code)
+  Name:  Pal_RegisterColoredShapeFile_
+    address      = 0001:0005BBA7
+    module index = 72
+    kind:          (code)
+  Name:  Pal_RegisterColorRemappedShapeFile_
+    address      = 0001:0005BC9A
+    module index = 72
+    kind:          (code)
+  Name:  Pal_ProcessRegionPalettes_
+    address      = 0001:0005BD72
+    module index = 72
+    kind:          (code)
+  Name:  Pal_Omit7fFromPalette_
+    address      = 0001:0005BF8E
+    module index = 72
+    kind:          (code)
+  Name:  Pal_SetLORCCWithPal_
+    address      = 0001:0005BFF1
+    module index = 72
+    kind:          (code)
+  Name:  Pal_SetSysPalFromLORCC_
+    address      = 0001:0005C0A0
+    module index = 72
+    kind:          (code)
+  Name:  Pal_CreateInverseTable_
+    address      = 0001:0005C0CA
+    module index = 72
+    kind:          (code)
+  Name:  Pal_GetLORCCPal_
+    address      = 0001:0005C173
+    module index = 72
+    kind:          (code)
+  Name:  Pal_ColorReduceRegion_
+    address      = 0001:0005C194
+    module index = 72
+    kind:          (code)
+  Name:  Pal_AdjustRegionSizeWithReducedColorsFromOtherRegions_
+    address      = 0001:0005C2D9
+    module index = 72
+    kind:          (code)
+  Name:  Pal_ReducePalWithAlreadyAddedColors_
+    address      = 0001:0005C330
+    module index = 72
+    kind:          (code)
+  Name:  Pal_ReduceHistoWithAlreadyAddedColors_
+    address      = 0001:0005C416
+    module index = 72
+    kind:          (code)
+  Name:  Pal_RemapRegionShapeFiles_
+    address      = 0001:0005C4AD
+    module index = 72
+    kind:          (code)
+  Name:  Pal_RemapRegions_
+    address      = 0001:0005C566
+    module index = 72
+    kind:          (code)
+  Name:  Pal_InitRemapTable_
+    address      = 0001:0005C5A7
+    module index = 72
+    kind:          (code)
+  Name:  Pal_DeInitRemapTable_
+    address      = 0001:0005C5F4
+    module index = 72
+    kind:          (code)
+  Name:  Pal_GetRemapID_
+    address      = 0001:0005C617
+    module index = 72
+    kind:          (code)
+  Name:  Pal_GetRemapTable_
+    address      = 0001:0005C655
+    module index = 72
+    kind:          (code)
+  Name:  Pal_SetRemapTable_
+    address      = 0001:0005C683
+    module index = 72
+    kind:          (code)
+  Name:  Pal_CreateRemapTable_
+    address      = 0001:0005C6B0
+    module index = 72
+    kind:          (static pubdef) (code)
+  Name:  _gPalRegion
+    address      = 0002:0004E8B4
+    module index = 72
+    kind:          (data)
+  Name:  _gPalLORCC
+    address      = 0002:0004E914
+    module index = 72
+    kind:          (data)
+  Name:  _gNumRemapTable
+    address      = 0002:0004EF1C
+    module index = 72
+    kind:          (data)
+  Name:  _gRemapTable
+    address      = 0002:0004EF20
+    module index = 72
+    kind:          (data)
+  Name:  _gPalLastRColor
+    address      = 0002:0004EF24
+    module index = 72
+    kind:          (data)

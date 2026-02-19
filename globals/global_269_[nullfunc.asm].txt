@@ -1,0 +1,60 @@
+  Name:  savetextscreen_
+    address      = 0001:000A0350
+    module index = 269
+    kind:          (code)
+  Name:  _restorevideo
+    address      = 0001:000A0350
+    module index = 269
+    kind:          (code)
+  Name:  _vramfxya
+    address      = 0001:000A0350
+    module index = 269
+    kind:          (code)
+  Name:  _nullfunction
+    address      = 0001:000A0350
+    module index = 269
+    kind:          (code)
+  Name:  _vramf
+    address      = 0001:000A0350
+    module index = 269
+    kind:          (code)
+  Name:  _initlinkmode
+    address      = 0001:000A0350
+    module index = 269
+    kind:          (code)
+  Name:  _criterr
+    address      = 0001:000A0350
+    module index = 269
+    kind:          (code)
+  Name:  _linkmode
+    address      = 0001:000A0350
+    module index = 269
+    kind:          (code)
+  Name:  _setargv
+    address      = 0001:000A0350
+    module index = 269
+    kind:          (code)
+  Name:  pollhost_
+    address      = 0001:000A0350
+    module index = 269
+    kind:          (code)
+  Name:  _vramcfxya
+    address      = 0001:000A0350
+    module index = 269
+    kind:          (code)
+  Name:  enablepal_
+    address      = 0001:000A0350
+    module index = 269
+    kind:          (code)
+  Name:  restoretextscreen_
+    address      = 0001:000A0350
+    module index = 269
+    kind:          (code)
+  Name:  _unvramf
+    address      = 0001:000A0350
+    module index = 269
+    kind:          (code)
+  Name:  initgetcycle_
+    address      = 0001:000A0350
+    module index = 269
+    kind:          (code)

@@ -1,0 +1,4 @@
+  Name:  iSNDcalcdetunefp_
+    address      = 0001:000AFD30
+    module index = 338
+    kind:          (code)

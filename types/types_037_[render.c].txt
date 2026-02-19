@@ -1,0 +1,252 @@
+ 37) Name:   C:\nfs2\game\common\render.c
+     Language is C
+     Locals: num = 1, offset = 000000A6H
+     Types:  num = 1, offset = 00000242H
+     Lines:  num = 1, offset = 000003D2H
+
+    *** Types ***
+    =============
+      Data 0:  offset 00053D6F
+        0000: cue table offset=0000043E
+        0006: SCOPE(1)
+          "struct"
+        000E: SCOPE(2)
+          "union"
+        0015: SCOPE(3)
+          "enum"
+        001B: SCALAR(4)
+          "char"  scalar type = 10, unsigned
+        0022: SCALAR(5)
+          "signed char"  scalar type = 00, integer
+        0030: SCALAR(6)
+          "unsigned char"  scalar type = 10, unsigned
+        0040: SCALAR(7)
+          "short"  scalar type = 01, integer
+        0048: SCALAR(8)
+          "unsigned short"  scalar type = 11, unsigned
+        0059: SCALAR(9)
+          "int"  scalar type = 03, integer
+        005F: SCALAR(10)
+          "unsigned int"  scalar type = 13, unsigned
+        006E: NAME(11)
+          "wchar_t"  type idx = 8  scope idx = 0
+        0079: NAME(12)
+          "size_t"  type idx = 10  scope idx = 0
+        0083: NEAR386 PTR(13)
+          base type idx = 4
+        0086: BYTE_INDEX ARRAY(14)
+          high bound = 00   base type idx = 13
+        008A: NAME(15)
+          "__va_list"  type idx = 14  scope idx = 0
+        0097: SCALAR(16)
+          "long"  scalar type = 03, integer
+        009E: NAME(17)
+          "fpos_t"  type idx = 16  scope idx = 0
+        00A8: NAME(18)
+          "fpos_t"  type idx = 16  scope idx = 0
+        00B2: NAME(19)
+          "MEMBLOCK"  type idx = 13  scope idx = 0
+        00BE: SCALAR(20)
+          "void"  scalar type = 30, void
+        00C5: NEAR386 PROC(21)
+          return type = 20
+            param 1:  type idx = 20
+        00CA: NEAR386 PTR(22)
+          base type idx = 21
+        00CD: NAME(23)
+          "VOIDFN"  type idx = 22  scope idx = 0
+        00D7: BYTE_INDEX ARRAY(24)
+          high bound = 00   base type idx = 13
+        00DB: NAME(25)
+          "va_list"  type idx = 24  scope idx = 0
+        00E6: NEAR386 PROC(26)
+          return type = 9
+            param 1:  type idx = 20
+        00EB: NAME(27)
+          "INTFN"  type idx = 26  scope idx = 0
+        00F4: NAME(28)
+          "MVI"  type idx = 20  scope idx = 0
+        00FB: NEAR386 PROC(29)
+          return type = 9
+            param 1:  type idx = 9
+            param 2:  type idx = 9
+        0101: NAME(30)
+          "EACHOOKCALLBACKFUNC"  type idx = 29  scope idx = 0
+        0118: NAME(31)
+          "arg_t"  type idx = 9  scope idx = 0
+        0121: NEAR386 PROC(32)
+          return type = 20
+            param 1:  type idx = 20
+        0126: NAME(33)
+          "THREADPROC"  type idx = 32  scope idx = 0
+        0134: NAME(34)
+          "SYSTEMTASK"  type idx = 29  scope idx = 0
+        0142: NAME(35)
+          "boolean"  type idx = 9  scope idx = 0
+        014D: NAME(36)
+          "fixed88"  type idx = 9  scope idx = 0
+        0158: NAME(37)
+          "fixed824"  type idx = 9  scope idx = 0
+        0164: NAME(38)
+          "fixed248"  type idx = 9  scope idx = 0
+        0170: NAME(39)
+          "Draw_tContext"  type idx = 7  scope idx = 0
+        0181: NAME(40)
+          "SDWORD"  type idx = 16  scope idx = 0
+        018B: SCALAR(41)
+          "unsigned long"  scalar type = 13, unsigned
+        019B: NAME(42)
+          "DWORD"  type idx = 41  scope idx = 0
+        01A4: NAME(43)
+          "WORD"  type idx = 8  scope idx = 0
+        01AC: NAME(44)
+          "SWORD"  type idx = 7  scope idx = 0
+        01B5: NAME(45)
+          "SBYTE"  type idx = 5  scope idx = 0
+        01BE: NAME(46)
+          "UBYTE"  type idx = 6  scope idx = 0
+        01C7: NAME(47)
+          "BOOL"  type idx = 9  scope idx = 0
+        01CF: NAME(48)
+          "Stm_Chunk"  type idx = 20  scope idx = 0
+        01DC: NEAR386 PTR(49)
+          base type idx = 48
+        01DF: NAME(50)
+          "lpStm_Chunk"  type idx = 49  scope idx = 0
+        01EE: NEAR386 PTR(51)
+          base type idx = 20
+        01F1: NEAR386 PROC(52)
+          return type = 20
+            param 1:  type idx = 51
+        01F6: NEAR386 PTR(53)
+          base type idx = 52
+        01F9: NAME(54)
+          "Sched_tFunctionPt"  type idx = 53  scope idx = 0
+        020E: NEAR386 PROC(55)
+          return type = 20
+            param 1:  type idx = 51
+            param 2:  type idx = 51
+        0214: NEAR386 PTR(56)
+          base type idx = 55
+        0217: NAME(57)
+          "Transformer_AnimCallbackFunc"  type idx = 56  scope idx = 0
+        0237: BYTE_INDEX ARRAY(58)
+          high bound = 6F   base type idx = 7
+        023B: NAME(59)
+          "tAccTable"  type idx = 58  scope idx = 0
+        0248: NEAR386 PROC(60)
+          return type = 9
+            param 1:  type idx = 41
+        024D: NAME(61)
+          "Input_tDeviceCall"  type idx = 60  scope idx = 0
+        0262: NAME(62)
+          "DRender_tFacet"  type idx = 64  scope idx = 1
+        0275: NEAR386 PTR(63)
+          base type idx = 62
+        0278: FIELD_LIST(64)
+          number of fields = 0002   size = 00000008
+        0280: FIELD_BYTE
+          "type"  offset = 04  type idx = 9
+        0288: FIELD_BYTE
+          "lfacet"  offset = 00  type idx = 63
+        0292: NAME(65)
+          "DRender_tFacet"  type idx = 62  scope idx = 0
+        02A4: NEAR386 PTR(66)
+          base type idx = 65
+        02A7: FIELD_LIST(67)
+          number of fields = 0002   size = 00000008
+        02AF: FIELD_BYTE
+          "tail"  offset = 04  type idx = 66
+        02B7: FIELD_BYTE
+          "head"  offset = 00  type idx = 66
+        02BF: NAME(68)
+          "DRender_tListfacet"  type idx = 67  scope idx = 1
+        02D5: NAME(69)
+          "DRender_tListfacet"  type idx = 68  scope idx = 0
+        02EB: FIELD_LIST(70)
+          number of fields = 0003   size = 0000000C
+        02F3: FIELD_BYTE
+          "z"  offset = 08  type idx = 9
+        02F8: FIELD_BYTE
+          "y"  offset = 04  type idx = 9
+        02FD: FIELD_BYTE
+          "x"  offset = 00  type idx = 9
+        0302: NAME(71)
+          "coorddef"  type idx = 70  scope idx = 1
+        030E: NAME(72)
+          "LIBCOORD"  type idx = 71  scope idx = 0
+        031A: BYTE_INDEX ARRAY(73)
+          high bound = 08   base type idx = 9
+        031E: FIELD_LIST(74)
+          number of fields = 0001   size = 00000024
+        0326: FIELD_BYTE
+          "m"  offset = 00  type idx = 73
+        032B: NAME(75)
+          "matrixtdef"  type idx = 74  scope idx = 1
+        0339: NAME(76)
+          "MATRIX3DT"  type idx = 75  scope idx = 0
+        0346: FIELD_LIST(77)
+          number of fields = 0004   size = 00000060
+        034E: FIELD_BYTE
+          "mrotationInv"  offset = 3C  type idx = 76
+        035E: FIELD_BYTE
+          "translationInv"  offset = 30  type idx = 72
+        0370: FIELD_BYTE
+          "mrotation"  offset = 0C  type idx = 76
+        037D: FIELD_BYTE
+          "translation"  offset = 00  type idx = 72
+        038C: NAME(78)
+          "DRender_tCalcView"  type idx = 77  scope idx = 1
+        03A1: NAME(79)
+          "DRender_tCalcView"  type idx = 78  scope idx = 0
+        03B6: FIELD_LIST(80)
+          number of fields = 0006   size = 00000074
+        03BE: FIELD_BYTE
+          "xdo"  offset = 70  type idx = 9
+        03C5: FIELD_BYTE
+          "yo"  offset = 6C  type idx = 9
+        03CB: FIELD_BYTE
+          "xo"  offset = 68  type idx = 9
+        03D1: FIELD_BYTE
+          "cview"  offset = 08  type idx = 79
+        03DA: FIELD_BYTE
+          "player"  offset = 04  type idx = 9
+        03E4: FIELD_BYTE
+          "id"  offset = 00  type idx = 9
+        03EA: NAME(81)
+          "DRender_tView"  type idx = 80  scope idx = 1
+        03FB: NAME(82)
+          "DRender_tView"  type idx = 81  scope idx = 0
+        040C: NEAR386 PTR(83)
+          base type idx = 13
+        040F: NEAR386 PROC(84)
+          return type = 9
+            param 1:  type idx = 83
+            param 2:  type idx = 9
+        0415: NEAR386 PROC(85)
+          return type = 69
+            param 1:  type idx = 20
+        041A: NEAR386 PROC(86)
+          return type = 69
+            param 1:  type idx = 66
+        041F: NEAR386 PROC(87)
+          return type = 69
+            param 1:  type idx = 69
+            param 2:  type idx = 69
+        0425: NEAR386 PTR(88)
+          base type idx = 66
+        0428: NEAR386 PROC(89)
+          return type = 9
+            param 1:  type idx = 88
+            param 2:  type idx = 9
+        042E: NEAR386 PROC(90)
+          return type = 20
+            param 1:  type idx = 9
+            param 2:  type idx = 9
+            param 3:  type idx = 9
+            param 4:  type idx = 9
+            param 5:  type idx = 9
+        0437: NEAR386 PROC(91)
+          return type = 20
+            param 1:  type idx = 9
+        043C: 

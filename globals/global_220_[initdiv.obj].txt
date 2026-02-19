@@ -1,0 +1,12 @@
+  Name:  _initdivtable
+    address      = 0001:00095600
+    module index = 220
+    kind:          (code)
+  Name:  _lindivflag
+    address      = 0002:0001387C
+    module index = 220
+    kind:          (data)
+  Name:  _lindivtbl
+    address      = 0002:000523D0
+    module index = 220
+    kind:          (data)

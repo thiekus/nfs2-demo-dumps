@@ -1,0 +1,269 @@
+ 18) Name:   C:\nfs2\game\common\dashHUD.c
+     Language is C
+     Locals: num = 1, offset = 0000005AH
+     Types:  num = 1, offset = 000001F6H
+     Lines:  num = 1, offset = 0000038EH
+
+   *** Locals ***
+   ==============
+      Data 0:  offset 0000C2A7
+        0000: MODULE_386
+          "DashHUD_gLangFileName" addr = 0002:0000CC34,  type = 62
+        001E: MODULE_386
+          "DashHUD_gWordFile" addr = 0002:0000CC4C,  type = 13
+        0038: MODULE_386
+          "DashHUD_gShpfile" addr = 0002:000234C8,  type = 13
+        0051: MODULE_386
+          "DashHUD_gInfo" addr = 0002:000234CC,  type = 192
+        0068: SET_BASE_386
+          base = 0001:00027C6A
+        0070: NEAR_RTN_386
+          start off = 00000000, code size = 0000007B, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  193
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "DashHUD_LoadWords"
+        0099: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "language",  type = 9
+        00A6: LOCAL
+          address: BP_OFFSET_WORD( 0000 )
+          name = "string",  type = 194
+        00B3: NEAR_RTN_386
+          start off = 0000007B, code size = 00000045, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  195
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Name = "DashHUD_Word"
+        00D8: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "wordnum",  type = 9
+        00E4: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "offset",  type = 196
+        00F0: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "phrase",  type = 13
+        00FB: NEAR_RTN_386
+          start off = 000000C0, code size = 00000036, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  197
+          return value: <none>
+          Name = "DashHUD_UnloadWords"
+        0124: NEAR_RTN_386
+          start off = 000000F6, code size = 00000157, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  21
+          return value: <none>
+          Name = "DashHUD_InitHUD"
+        0148: NEAR_RTN_386
+          start off = 0000024D, code size = 00000028, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  21
+          return value: <none>
+          Name = "DashHUD_InitDash"
+        016D: NEAR_RTN_386
+          start off = 00000275, code size = 0000001F, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  21
+          return value: <none>
+          Name = "DashHUD_Reset"
+        018F: NEAR_RTN_386
+          start off = 00000294, code size = 0000001F, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  21
+          return value: <none>
+          Name = "DashHUD_KillHUD"
+        01B3: NEAR_RTN_386
+          start off = 000002B3, code size = 00000023, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  21
+          return value: <none>
+          Name = "DashHUD_KillDash"
+        01D8: NEAR_RTN_386
+          start off = 000002D6, code size = 00000038, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  21
+          return value: <none>
+          Name = "DashHUD_ToggleDebug"
+        0200: NEAR_RTN_386
+          start off = 0000030E, code size = 00000081, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  193
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "DashHUD_ToggleHud"
+        0229: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "player",  type = 9
+        0234: NEAR_RTN_386
+          start off = 0000038F, code size = 00000051, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  21
+          return value: <none>
+          Name = "DashHUD_ToggleMirror"
+        025D: NEAR_RTN_386
+          start off = 000003E0, code size = 00000044, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  198
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Name = "DashHUD_SetMessage"
+        0289: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "message",  type = 9
+        0295: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "name",  type = 13
+        029E: NEAR_RTN_386
+          start off = 00000424, code size = 0000007E, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  193
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "DashHUD_CheckWrongWay"
+        02CB: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "player",  type = 9
+        02D6: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "wrongway",  type = 9
+        02E3: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "car",  type = 186
+        02EC: NEAR_RTN_386
+          start off = 000004A2, code size = 00000322, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  193
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "DashHUD_HUDCalc"
+        0313: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "player",  type = 9
+        031E: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "car",  type = 186
+        0327: LOCAL
+          address: CONST_ADDR386( 0002:0002355D )
+          name = "resethud",  type = 9
+        0339: NEAR_RTN_386
+          start off = 000007C4, code size = 000000DF, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  199
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Name = "DashHUD_BuildTimeString"
+        036A: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "string",  type = 13
+        0375: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "time",  type = 9
+        037E: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "min",  type = 9
+        0386: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "sec",  type = 9
+        038E: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "hun",  type = 9
+        0396: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "temp1",  type = 9
+        03A0: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "temp2",  type = 9
+        03AA: LOCAL
+          address: CONST_ADDR386( 0002:0000CC50 )
+          name = "timefmt",  type = 200
+        03BC: NEAR_RTN_386
+          start off = 000008A3, code size = 00000695, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  209
+          return value: IND_REG_CALLOC_NEAR( ESI )
+          Name = "DashHUD_BuildNumbers"
+        03E7: LOCAL
+          address: BP_OFFSET_BYTE( E0 )
+          name = "f1",  type = 208
+        03EF: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "f2",  type = 208
+        03F7: LOCAL
+          address: BP_OFFSET_WORD( 00E0 )
+          name = "string",  type = 210
+        0404: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "i",  type = 9
+        040A: NEAR_RTN_386
+          start off = 00000F38, code size = 000000AB, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  21
+          return value: <none>
+          Name = "DashHUD_DashCalc"
+        042F: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "car",  type = 186
+        0438: NEAR_RTN_386
+          start off = 00000FE3, code size = 000000E0, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  211
+          return value: IND_REG_CALLOC_NEAR( ESI )
+          Parm 0: MULTI_REG(1): EAX
+          Name = "BuildMap"
+        0459: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "player",  type = 9
+        0464: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "f1",  type = 208
+        046C: LOCAL
+          address: BP_OFFSET_BYTE( D8 )
+          name = "f2",  type = 208
+        0474: LOCAL
+          address: BP_OFFSET_BYTE( E0 )
+          name = "f3",  type = 208
+        047C: NEAR_RTN_386
+          start off = 000010C3, code size = 00000175, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  219
+          return value: IND_REG_CALLOC_NEAR( ESI )
+          Parm 0: MULTI_REG(1): EAX
+          Name = "DashHUD_Build2DLayer"
+        04A9: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "Vi",  type = 218
+        04B1: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "df",  type = 208
+        04B9: LOCAL
+          address: BP_OFFSET_BYTE( D8 )
+          name = "hf",  type = 208
+        04C1: LOCAL
+          address: BP_OFFSET_BYTE( E0 )
+          name = "rf",  type = 208
+

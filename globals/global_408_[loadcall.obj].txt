@@ -1,0 +1,24 @@
+  Name:  _iscrcblock
+    address      = 0001:000BA280
+    module index = 408
+    kind:          (code)
+  Name:  _checkcrcblock
+    address      = 0001:000BA2E8
+    module index = 408
+    kind:          (code)
+  Name:  _eacloadfilecallback
+    address      = 0001:000BA350
+    module index = 408
+    kind:          (code)
+  Name:  _initloadfilecallback
+    address      = 0001:000BA484
+    module index = 408
+    kind:          (code)
+  Name:  _crcresize
+    address      = 0002:00016CB8
+    module index = 408
+    kind:          (data)
+  Name:  _crcrequired
+    address      = 0002:00016CBC
+    module index = 408
+    kind:          (data)

@@ -1,0 +1,32 @@
+  Name:  gopen_
+    address      = 0001:000BCD20
+    module index = 448
+    kind:          (code)
+  Name:  gwopen_
+    address      = 0001:000BCDBC
+    module index = 448
+    kind:          (code)
+  Name:  gclose_
+    address      = 0001:000BCE1C
+    module index = 448
+    kind:          (code)
+  Name:  gread_
+    address      = 0001:000BCE38
+    module index = 448
+    kind:          (code)
+  Name:  gwrite_
+    address      = 0001:000BCF18
+    module index = 448
+    kind:          (code)
+  Name:  gseek_
+    address      = 0001:000BCF48
+    module index = 448
+    kind:          (code)
+  Name:  glen_
+    address      = 0001:000BD038
+    module index = 448
+    kind:          (code)
+  Name:  gtell_
+    address      = 0001:000BD03C
+    module index = 448
+    kind:          (code)

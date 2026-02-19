@@ -1,0 +1,200 @@
+  Name:  _Collide_gRegistry
+    address      = 0002:00023398
+    module index = 14
+    kind:          (data)
+  Name:  _basisDotRelative
+    address      = 0002:000233E8
+    module index = 14
+    kind:          (static pubdef) (data)
+  Name:  _scaledBasisDots
+    address      = 0002:00023400
+    module index = 14
+    kind:          (static pubdef) (data)
+  Name:  _pNormal
+    address      = 0002:00023424
+    module index = 14
+    kind:          (data)
+  Name:  _scaledBasisDotsOther
+    address      = 0002:00023428
+    module index = 14
+    kind:          (static pubdef) (data)
+  Name:  _basisDots
+    address      = 0002:0002344C
+    module index = 14
+    kind:          (static pubdef) (data)
+  Name:  _obj1
+    address      = 0002:00023470
+    module index = 14
+    kind:          (data)
+  Name:  _obj0
+    address      = 0002:00023474
+    module index = 14
+    kind:          (data)
+  Name:  _pP
+    address      = 0002:00023478
+    module index = 14
+    kind:          (data)
+  Name:  _yRange
+    address      = 0002:0002347C
+    module index = 14
+    kind:          (static pubdef) (data)
+  Name:  _zRange
+    address      = 0002:00023480
+    module index = 14
+    kind:          (static pubdef) (data)
+  Name:  _xRange
+    address      = 0002:00023484
+    module index = 14
+    kind:          (static pubdef) (data)
+  Name:  _Collide_gRaiseUp
+    address      = 0002:0000CA50
+    module index = 14
+    kind:          (data)
+  Name:  _Collide_gLastObjectFixedObjectCollisionImpulse
+    address      = 0002:0000CA54
+    module index = 14
+    kind:          (data)
+  Name:  _Collide_gLastObjectFixedObjectHeight
+    address      = 0002:0000CA58
+    module index = 14
+    kind:          (data)
+  Name:  _Collide_gLastObjectObjectCollisionImpulse
+    address      = 0002:0000CA5C
+    module index = 14
+    kind:          (data)
+  Name:  _oldOrdering
+    address      = 0002:0000CA60
+    module index = 14
+    kind:          (data)
+  Name:  _dofindClosestSideDave
+    address      = 0002:0000CA64
+    module index = 14
+    kind:          (data)
+  Name:  _considerfindClosestSideDave
+    address      = 0002:0000CA68
+    module index = 14
+    kind:          (data)
+  Name:  _stopVelocityBackoff1
+    address      = 0002:0000CA6C
+    module index = 14
+    kind:          (data)
+  Name:  _stopVelocityBackoff2
+    address      = 0002:0000CA70
+    module index = 14
+    kind:          (data)
+  Name:  _doNewVelBackoffDetect
+    address      = 0002:0000CA74
+    module index = 14
+    kind:          (data)
+  Name:  _forceVelocityBackoff
+    address      = 0002:0000CA78
+    module index = 14
+    kind:          (data)
+  Name:  _GamePlayParam_LaunchInitialDamper
+    address      = 0002:0000CA7C
+    module index = 14
+    kind:          (static pubdef) (data)
+  Name:  _GamePlayParam_LaunchPitchFactor
+    address      = 0002:0000CA84
+    module index = 14
+    kind:          (static pubdef) (data)
+  Name:  _GamePlayParam_LaunchRollFactor
+    address      = 0002:0000CA8C
+    module index = 14
+    kind:          (static pubdef) (data)
+  Name:  _GamePlayParam_LaunchYFactor
+    address      = 0002:0000CA94
+    module index = 14
+    kind:          (static pubdef) (data)
+  Name:  _velBackOff_MinSpeed
+    address      = 0002:0000CA9C
+    module index = 14
+    kind:          (static pubdef) (data)
+  Name:  _velBackOff_MaxRelPos
+    address      = 0002:0000CAA0
+    module index = 14
+    kind:          (static pubdef) (data)
+  Name:  _velBackOff_MaxRelPos2
+    address      = 0002:0000CAA4
+    module index = 14
+    kind:          (static pubdef) (data)
+  Name:  _velBackOff_MinDot
+    address      = 0002:0000CAA8
+    module index = 14
+    kind:          (static pubdef) (data)
+  Name:  _velBackOff_MinDot2
+    address      = 0002:0000CAAC
+    module index = 14
+    kind:          (static pubdef) (data)
+  Name:  CHECK_CENTER_VERTEX_WITH_DIRS_
+    address      = 0001:00021741
+    module index = 14
+    kind:          (code)
+  Name:  CHECK_CENTER_VERTEX_WITH_DIRS_OTHER_
+    address      = 0001:00021AC5
+    module index = 14
+    kind:          (code)
+  Name:  CHECK_VERTEX_WITH_DIRS_
+    address      = 0001:00021E57
+    module index = 14
+    kind:          (code)
+  Name:  CHECK_VERTEX_WITH_DIRS_OTHER_
+    address      = 0001:0002212C
+    module index = 14
+    kind:          (code)
+  Name:  Collide_DoObjectFixedObjectCollision_
+    address      = 0001:00022401
+    module index = 14
+    kind:          (code)
+  Name:  Collide_LimitAngularVel_
+    address      = 0001:00022DDA
+    module index = 14
+    kind:          (code)
+  Name:  Collide_TestWithPlane_
+    address      = 0001:00022F3E
+    module index = 14
+    kind:          (code)
+  Name:  Collide_DoObjectObjectCollision_
+    address      = 0001:00023765
+    module index = 14
+    kind:          (code)
+  Name:  Collide_DoActualObjectCollisionCheck_
+    address      = 0001:000240E6
+    module index = 14
+    kind:          (code)
+  Name:  Collide_TestObjectVertices_
+    address      = 0001:00024EEB
+    module index = 14
+    kind:          (code)
+  Name:  Collide_TelePoleLaunchCar_
+    address      = 0001:00025EA5
+    module index = 14
+    kind:          (code)
+  Name:  Collide_CheckForCollisionBetween_
+    address      = 0001:000262F9
+    module index = 14
+    kind:          (code)
+  Name:  Collide_ClearCollisionRegistry_
+    address      = 0001:000264A1
+    module index = 14
+    kind:          (code)
+  Name:  Collide_CheckAccuratePointRadiusCollision_
+    address      = 0001:000264C0
+    module index = 14
+    kind:          (code)
+  Name:  Collide_CheckMeForCollisions_
+    address      = 0001:0002673B
+    module index = 14
+    kind:          (code)
+  Name:  _Collide_gNumRegistered
+    address      = 0002:0000CAB0
+    module index = 14
+    kind:          (data)
+  Name:  _findClosestSideDave
+    address      = 0002:00023488
+    module index = 14
+    kind:          (data)
+  Name:  _Collide_gLastObjectFixedObjectCollisionVertexVelocity
+    address      = 0002:0002348C
+    module index = 14
+    kind:          (data)

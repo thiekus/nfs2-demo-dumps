@@ -1,0 +1,246 @@
+ 67) Name:   C:\nfs2\game\pc\hrzsku.c
+     Language is C
+     Locals: num = 1, offset = 0000011EH
+     Types:  num = 1, offset = 000002BAH
+     Lines:  num = 1, offset = 00000442H
+
+   *** Locals ***
+   ==============
+      Data 0:  offset 0001A149
+        0000: MODULE_386
+          "gHorizonPixmap" addr = 0002:00048848,  type = 59
+        0017: MODULE_386
+          "gRngCoordTentPoleBottom" addr = 0002:00048868,  type = 62
+        0037: MODULE_386
+          "gHinfo_ShouldDrawBlack" addr = 0002:00048874,  type = 9
+        0056: MODULE_386
+          "gHorizonTopFlatIndex" addr = 0002:00048878,  type = 64
+        0073: MODULE_386
+          "gHinfo_Angle" addr = 0002:0004887C,  type = 9
+        0088: MODULE_386
+          "gRngCoordTentPoleTop" addr = 0002:00048880,  type = 62
+        00A5: MODULE_386
+          "gHorizonBotFlatIndex" addr = 0002:0004888C,  type = 64
+        00C2: MODULE_386
+          "gHinfo_PixmapBottomPercentage" addr = 0002:00048890,  type = 9
+        00E8: MODULE_386
+          "gHinfo_BotYOff" addr = 0002:00048894,  type = 9
+        00FF: MODULE_386
+          "gHinfo_Mirror" addr = 0002:00048898,  type = 9
+        0115: MODULE_386
+          "gHinfo_FlatDist" addr = 0002:0004889C,  type = 9
+        012D: MODULE_386
+          "Hrz_gToggleID" addr = 0002:000488A0,  type = 9
+        0143: MODULE_386
+          "gHinfo_Radius" addr = 0002:000488A4,  type = 9
+        0159: MODULE_386
+          "gHinfo_Height" addr = 0002:000488A8,  type = 9
+        016F: MODULE_386
+          "gRngFlatFacet" addr = 0002:000488AC,  type = 76
+        0185: SET_BASE_386
+          base = 0001:00055548
+        018D: BLOCK_386
+          start off = 000001A3, code size = 00000055, parent off = 01B5
+        0199: LOCAL
+          address: BP_OFFSET_WORD( 00EC )
+          name = "a",  type = 9
+        01A0: LOCAL
+          address: BP_OFFSET_WORD( 00F0 )
+          name = "b",  type = 9
+        01A7: LOCAL
+          address: BP_OFFSET_WORD( 00F4 )
+          name = "c",  type = 9
+        01AE: LOCAL
+          address: BP_OFFSET_WORD( 00E8 )
+          name = "d",  type = 9
+        01B5: NEAR_RTN_386
+          start off = 00000000, code size = 00000246, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  23
+          return value: <none>
+          Name = "Hrz_ReadHorizonData"
+        01DD: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "pHorizonData",  type = 13
+        01EE: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "pHDcopy",  type = 13
+        01FA: LOCAL
+          address: BP_OFFSET_WORD( 00F8 )
+          name = "pcName",  type = 77
+        0206: NEAR_RTN_386
+          start off = 00000246, code size = 00000045, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  78
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Hrz_GetHorizonPixMap"
+        0231: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "p",  type = 58
+        0237: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "i",  type = 9
+        023D: NEAR_RTN_386
+          start off = 0000028B, code size = 000000B2, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  23
+          return value: <none>
+          Name = "Hrz_InitTextures"
+        0262: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "c0",  type = 9
+        0269: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "c1",  type = 9
+        0270: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "c2",  type = 9
+        0277: NEAR_RTN_386
+          start off = 0000033D, code size = 00000015, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  23
+          return value: <none>
+          Name = "Hrz_KillTextures"
+        029C: NEAR_RTN_386
+          start off = 00000352, code size = 0000016B, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  23
+          return value: <none>
+          Name = "Hrz_Init2DRing"
+        02BF: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "i",  type = 9
+        02C5: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "angle",  type = 9
+        02CF: NEAR_RTN_386
+          start off = 000004BD, code size = 00000080, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  23
+          return value: <none>
+          Name = "Hrz_InitHorizon"
+        02F3: NEAR_RTN_386
+          start off = 0000053D, code size = 00000036, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  23
+          return value: <none>
+          Name = "Hrz_KillHorizon"
+        0317: NEAR_RTN_386
+          start off = 00000573, code size = 000000A5, parent off = 0000
+          prologue size = 12,  epilogue size = 7
+          return address offset (from bp) = 00000010
+          return type:  81
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Name = "Hrz_ParallelProjectVertex"
+        034B: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "v",  type = 79
+        0351: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "sp",  type = 80
+        0358: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "n",  type = 9
+        035E: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "i",  type = 9
+        0364: LOCAL
+          address: BP_OFFSET_BYTE( A4 )
+          name = "z",  type = 82
+        036A: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "tran",  type = 71
+        0373: NEAR_RTN_386
+          start off = 00000618, code size = 0000001C, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  23
+          return value: <none>
+          Name = "Hrz_ToggleHorizon"
+        0399: NEAR_RTN_386
+          start off = 00000634, code size = 00000083, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  94
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Hrz_SetClipping"
+        03BF: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "Vi",  type = 93
+        03C6: BLOCK_386
+          start off = 00000A1C, code size = 0000038C, parent off = 03F6
+        03D2: LOCAL
+          address: BP_OFFSET_WORD( 004C )
+          name = "mpts",  type = 95
+        03DC: LOCAL
+          address: BP_OFFSET_WORD( 0048 )
+          name = "pmx",  type = 58
+        03E5: LOCAL
+          address: BP_OFFSET_WORD( 006C )
+          name = "mindistance",  type = 16
+        03F6: NEAR_RTN_386
+          start off = 000006B7, code size = 0000071F, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  100
+          return value: IND_REG_CALLOC_NEAR( ESI )
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Hrz_Build2DRing"
+        041D: LOCAL
+          address: BP_OFFSET_BYTE( E0 )
+          name = "Vi",  type = 93
+        0424: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "f2d",  type = 107
+        042C: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "fd",  type = 108
+        0433: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "vertexTop",  type = 79
+        0441: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "vertexBottom",  type = 79
+        0452: LOCAL
+          address: BP_OFFSET_BYTE( DC )
+          name = "vertexTentPoleTop",  type = 79
+        0468: LOCAL
+          address: BP_OFFSET_BYTE( D8 )
+          name = "vertexTentPoleBottom",  type = 79
+        0481: LOCAL
+          address: BP_OFFSET_WORD( 00A0 )
+          name = "scptTop",  type = 109
+        048E: LOCAL
+          address: BP_OFFSET_WORD( 0028 )
+          name = "scptBottom",  type = 110
+        049E: LOCAL
+          address: BP_OFFSET_WORD( 00B0 )
+          name = "scptPmxBottom",  type = 111
+        04B1: LOCAL
+          address: BP_OFFSET_WORD( 0038 )
+          name = "scptOverlapTop",  type = 112
+        04C5: LOCAL
+          address: BP_OFFSET_BYTE( C0 )
+          name = "scptTentPoleTop",  type = 71
+        04D9: LOCAL
+          address: BP_OFFSET_BYTE( C8 )
+          name = "scptTentPoleBottom",  type = 71
+        04F0: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "i",  type = 9
+        04F6: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "fdist",  type = 9
+

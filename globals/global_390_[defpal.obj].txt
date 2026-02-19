@@ -1,0 +1,4 @@
+  Name:  _defaultpalette
+    address      = 0002:00016454
+    module index = 390
+    kind:          (data)

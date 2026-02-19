@@ -1,0 +1,12 @@
+  Name:  _upmxaframe
+    address      = 0001:000C37F0
+    module index = 553
+    kind:          (static pubdef) (code)
+  Name:  _upmxa
+    address      = 0001:000C37F8
+    module index = 553
+    kind:          (static pubdef) (code)
+  Name:  _upmxasetstate
+    address      = 0001:000C397C
+    module index = 553
+    kind:          (code)

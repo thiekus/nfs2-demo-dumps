@@ -1,0 +1,64 @@
+  Name:  _typeofbigfile
+    address      = 0001:000956E0
+    module index = 222
+    kind:          (code)
+  Name:  _sizeofbigfileheader
+    address      = 0001:0009578C
+    module index = 222
+    kind:          (code)
+  Name:  _locatebigentrya
+    address      = 0001:000957E8
+    module index = 222
+    kind:          (code)
+  Name:  _locatebigoffseta
+    address      = 0001:00095A78
+    module index = 222
+    kind:          (code)
+  Name:  _locatebigoffset
+    address      = 0001:00095AA8
+    module index = 222
+    kind:          (code)
+  Name:  _locatebigoffsetz
+    address      = 0001:00095AD4
+    module index = 222
+    kind:          (code)
+  Name:  _locatebiga
+    address      = 0001:00095B00
+    module index = 222
+    kind:          (code)
+  Name:  _locatebig
+    address      = 0001:00095B40
+    module index = 222
+    kind:          (code)
+  Name:  _locatebigz
+    address      = 0001:00095B68
+    module index = 222
+    kind:          (code)
+  Name:  _locatebigsa
+    address      = 0001:00095B8C
+    module index = 222
+    kind:          (code)
+  Name:  _locatebigs
+    address      = 0001:00095C18
+    module index = 222
+    kind:          (code)
+  Name:  _locatebigsz
+    address      = 0001:00095C34
+    module index = 222
+    kind:          (code)
+  Name:  _bigcount
+    address      = 0001:00095C50
+    module index = 222
+    kind:          (code)
+  Name:  _bigpointer
+    address      = 0001:00095C9C
+    module index = 222
+    kind:          (code)
+  Name:  _bigname
+    address      = 0001:00095CD0
+    module index = 222
+    kind:          (code)
+  Name:  _biglen
+    address      = 0002:000533D0
+    module index = 222
+    kind:          (data)

@@ -1,0 +1,88 @@
+ 66) Name:   C:\nfs2\game\pc\ForceDLL.c
+     Language is C
+     Locals: num = 1, offset = 0000011AH
+     Types:  num = 1, offset = 000002B6H
+     Lines:  num = 1, offset = 0000043EH
+
+   *** Locals ***
+   ==============
+      Data 0:  offset 00019E12
+        0000: MODULE_386
+          "pXSpringClear" addr = 0002:000487CC,  type = 353
+        0017: MODULE_386
+          "pXSpring" addr = 0002:000487D0,  type = 356
+        0029: MODULE_386
+          "pYSpring" addr = 0002:000487D4,  type = 358
+        003B: MODULE_386
+          "lib" addr = 0002:000487D8,  type = 182
+        0048: MODULE_386
+          "pXYVectorForce" addr = 0002:000487DC,  type = 361
+        0060: MODULE_386
+          "pVectorForceClear" addr = 0002:000487E0,  type = 363
+        007B: MODULE_386
+          "pEnablePositionReporting" addr = 0002:000487E4,  type = 366
+        009D: MODULE_386
+          "pDisablePositionReporting" addr = 0002:000487E8,  type = 368
+        00C0: MODULE_386
+          "pGetStickPosition" addr = 0002:000487EC,  type = 375
+        00DB: MODULE_386
+          "pVectorForce" addr = 0002:000487F0,  type = 378
+        00F1: MODULE_386
+          "pBuffetingClear" addr = 0002:000487F4,  type = 380
+        010A: MODULE_386
+          "pYSpringClear" addr = 0002:000487F8,  type = 382
+        0121: MODULE_386
+          "pEnableForces" addr = 0002:000487FC,  type = 384
+        0138: MODULE_386
+          "pClearForces" addr = 0002:00048800,  type = 386
+        014E: MODULE_386
+          "pButtonReflexJolt" addr = 0002:00048804,  type = 389
+        0169: MODULE_386
+          "pGetStickStatus" addr = 0002:00048808,  type = 392
+        0182: MODULE_386
+          "pSetJoystickAddressIRQ" addr = 0002:0004880C,  type = 348
+        01A2: MODULE_386
+          "pSetJoystickPort" addr = 0002:00048810,  type = 345
+        01BC: MODULE_386
+          "pGetStickError" addr = 0002:00048814,  type = 342
+        01D4: MODULE_386
+          "pButtonReflexClear" addr = 0002:00048818,  type = 395
+        01F0: MODULE_386
+          "pInitStick" addr = 0002:0004881C,  type = 407
+        0204: MODULE_386
+          "pBuffeting" addr = 0002:00048820,  type = 409
+        0218: MODULE_386
+          "pIForceAuthenticate" addr = 0002:00048824,  type = 411
+        0235: MODULE_386
+          "pYVibrationClear" addr = 0002:00048828,  type = 413
+        024F: MODULE_386
+          "pXVibrationClear" addr = 0002:0004882C,  type = 415
+        0269: MODULE_386
+          "pDisableForces" addr = 0002:00048830,  type = 417
+        0281: MODULE_386
+          "pXVibration" addr = 0002:00048834,  type = 420
+        0296: MODULE_386
+          "pYVibration" addr = 0002:00048838,  type = 422
+        02AB: MODULE_386
+          "pCloseStick" addr = 0002:0004883C,  type = 424
+        02C0: MODULE_386
+          "pEcho" addr = 0002:00048840,  type = 426
+        02CF: MODULE_386
+          "pJolt" addr = 0002:00048844,  type = 429
+        02DE: SET_BASE_386
+          base = 0001:00055023
+        02E6: NEAR_RTN_386
+          start off = 00000000, code size = 000004FB, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  430
+          return value: REG: AL
+          Name = "ForceDLL_IForceInit"
+        030F: NEAR_RTN_386
+          start off = 000004FB, code size = 00000022, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  431
+          return value: <none>
+          Name = "ForceDLL_IForceEnd"
+

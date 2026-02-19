@@ -1,0 +1,8 @@
+  Name:  _writeargbpixel
+    address      = 0001:000C0540
+    module index = 493
+    kind:          (code)
+  Name:  _writeargbpixelc
+    address      = 0001:000C07D0
+    module index = 493
+    kind:          (code)

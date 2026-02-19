@@ -1,0 +1,88 @@
+  Name:  _gS2DFacet
+    address      = 0002:0004EF44
+    module index = 77
+    kind:          (data)
+  Name:  _gDirtPixMap
+    address      = 0002:0004FA84
+    module index = 77
+    kind:          (data)
+  Name:  _gSparkPixMap
+    address      = 0002:0004FAE4
+    module index = 77
+    kind:          (data)
+  Name:  _gSmokePixMap
+    address      = 0002:0004FB44
+    module index = 77
+    kind:          (data)
+  Name:  _Sfx_gFixedDist
+    address      = 0002:0004FBA4
+    module index = 77
+    kind:          (data)
+  Name:  _gSnowPixMap
+    address      = 0002:0004FBA8
+    module index = 77
+    kind:          (data)
+  Name:  _Sfx_gLutShapefile
+    address      = 0002:0004FBCC
+    module index = 77
+    kind:          (data)
+  Name:  _gGrassPixMap
+    address      = 0002:0004FBD0
+    module index = 77
+    kind:          (data)
+  Name:  _Sfx_gShapefile
+    address      = 0002:0004FBF4
+    module index = 77
+    kind:          (data)
+  Name:  _gGravelPixMap
+    address      = 0002:0004FBF8
+    module index = 77
+    kind:          (data)
+  Name:  Sfx_LoadSfxTexture_
+    address      = 0001:0005F148
+    module index = 77
+    kind:          (code)
+  Name:  Sfx_RegisterModule_
+    address      = 0001:0005F1AB
+    module index = 77
+    kind:          (code)
+  Name:  Sfx_InitTexture_
+    address      = 0001:0005F24B
+    module index = 77
+    kind:          (code)
+  Name:  Sfx_KillTexture_
+    address      = 0001:0005F321
+    module index = 77
+    kind:          (code)
+  Name:  Sfx_SetScreenSizeDependancies_
+    address      = 0001:0005F352
+    module index = 77
+    kind:          (code)
+  Name:  Sfx_BuildRotatedFacet_
+    address      = 0001:0005F38F
+    module index = 77
+    kind:          (code)
+  Name:  Sfx_BuildNormalFacet_
+    address      = 0001:0005F5B2
+    module index = 77
+    kind:          (code)
+  Name:  Sfx_BuildSparkQuad_
+    address      = 0001:0005F70D
+    module index = 77
+    kind:          (static pubdef) (code)
+  Name:  Sfx_BuildSouffleFacet_
+    address      = 0001:0005FBCE
+    module index = 77
+    kind:          (code)
+  Name:  Sfx_Add_
+    address      = 0001:00060021
+    module index = 77
+    kind:          (code)
+  Name:  _Sfx_gYShift
+    address      = 0002:0004FC1C
+    module index = 77
+    kind:          (data)
+  Name:  _Sfx_gXShift
+    address      = 0002:0004FC1D
+    module index = 77
+    kind:          (data)

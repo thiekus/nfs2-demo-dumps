@@ -1,0 +1,8 @@
+  Name:  __8087
+    address      = 0002:00012A50
+    module index = 106
+    kind:          (data)
+  Name:  __real87
+    address      = 0002:00012A51
+    module index = 106
+    kind:          (data)

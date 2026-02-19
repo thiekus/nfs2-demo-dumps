@@ -1,0 +1,503 @@
+ 72) Name:   C:\nfs2\game\pc\palette.c
+     Language is C
+     Locals: num = 1, offset = 00000132H
+     Types:  num = 1, offset = 000002CEH
+     Lines:  num = 1, offset = 00000456H
+
+   *** Locals ***
+   ==============
+      Data 0:  offset 0001C111
+        0000: MODULE_386
+          "gPalRegion" addr = 0002:0004E8B4,  type = 50
+        0013: MODULE_386
+          "gPalLORCC" addr = 0002:0004E914,  type = 55
+        0025: MODULE_386
+          "gNumRemapTable" addr = 0002:0004EF1C,  type = 9
+        003C: MODULE_386
+          "gRemapTable" addr = 0002:0004EF20,  type = 13
+        0050: MODULE_386
+          "gPalLastRColor" addr = 0002:0004EF24,  type = 9
+        0067: SET_BASE_386
+          base = 0001:0005B908
+        006F: NEAR_RTN_386
+          start off = 00000000, code size = 0000006A, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  21
+          return value: <none>
+          Name = "Pal_InitPalSystem"
+        0095: NEAR_RTN_386
+          start off = 0000006A, code size = 0000001A, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  21
+          return value: <none>
+          Name = "Pal_DeInitPalSystem"
+        00BD: NEAR_RTN_386
+          start off = 00000084, code size = 0000004F, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  21
+          return value: <none>
+          Name = "Pal_InitLORCC"
+        00DF: NEAR_RTN_386
+          start off = 000000D3, code size = 00000048, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  21
+          return value: <none>
+          Name = "Pal_InitRegions"
+        0103: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "i",  type = 9
+        0109: NEAR_RTN_386
+          start off = 0000011B, code size = 0000006F, parent off = 0000
+          prologue size = 12,  epilogue size = 7
+          return address offset (from bp) = 00000010
+          return type:  56
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Name = "Pal_NewRegion"
+        0131: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "region",  type = 9
+        013C: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "numcolors",  type = 9
+        014A: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "mode",  type = 9
+        0153: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "p",  type = 57
+        0159: NEAR_RTN_386
+          start off = 0000018A, code size = 00000041, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  58
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Name = "Pal_AddFileToRegion"
+        0185: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "region",  type = 9
+        0190: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "ptf",  type = 46
+        0198: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "p",  type = 57
+        019E: NEAR_RTN_386
+          start off = 000001CB, code size = 000000D4, parent off = 0000
+          prologue size = 12,  epilogue size = 7
+          return address offset (from bp) = 00000010
+          return type:  59
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Name = "Pal_RegisterShapeFile"
+        01CF: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "region",  type = 9
+        01DA: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "shapefile",  type = 13
+        01E8: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "remap",  type = 9
+        01F2: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "ptf",  type = 46
+        01FA: NEAR_RTN_386
+          start off = 0000029F, code size = 000000F3, parent off = 0000
+          prologue size = 11,  epilogue size = 6
+          return address offset (from bp) = 0000000C
+          return type:  60
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Parm 3: MULTI_REG(1): ECX
+          Name = "Pal_RegisterColoredShapeFile"
+        0234: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "region",  type = 9
+        023F: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "shapefile",  type = 13
+        024D: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "carid",  type = 9
+        0257: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "color",  type = 9
+        0261: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "ptf",  type = 46
+        0269: NEAR_RTN_386
+          start off = 00000392, code size = 000000D8, parent off = 0000
+          prologue size = 11,  epilogue size = 6
+          return address offset (from bp) = 0000000C
+          return type:  60
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Parm 3: MULTI_REG(1): ECX
+          Name = "Pal_RegisterColorRemappedShapeFile"
+        02A9: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "region",  type = 9
+        02B4: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "shapefile",  type = 13
+        02C2: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "carid",  type = 9
+        02CC: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "color",  type = 9
+        02D6: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "ptf",  type = 46
+        02DE: BLOCK_386
+          start off = 00000516, code size = 00000068, parent off = 0344
+        02EA: LOCAL
+          address: BP_OFFSET_WORD( 00E8 )
+          name = "reducedto",  type = 9
+        02F9: LOCAL
+          address: BP_OFFSET_WORD( 00EC )
+          name = "x",  type = 9
+        0300: BLOCK_386
+          start off = 000005B7, code size = 00000097, parent off = 0318
+        030C: LOCAL
+          address: BP_OFFSET_WORD( 00E0 )
+          name = "colors",  type = 9
+        0318: BLOCK_386
+          start off = 00000583, code size = 000000F5, parent off = 0344
+        0324: LOCAL
+          address: BP_OFFSET_WORD( 00E4 )
+          name = "totalcolors",  type = 9
+        0335: LOCAL
+          address: BP_OFFSET_WORD( 00E4 )
+          name = "resultpal",  type = 61
+        0344: BLOCK_386
+          start off = 000004B0, code size = 000001C8, parent off = 0361
+        0350: LOCAL
+          address: BP_OFFSET_WORD( 00F0 )
+          name = "num",  type = 9
+        0359: LOCAL
+          address: BP_OFFSET_WORD( 00F4 )
+          name = "pp",  type = 46
+        0361: BLOCK_386
+          start off = 0000048F, code size = 000001E9, parent off = 0375
+        036D: LOCAL
+          address: BP_OFFSET_WORD( 00F8 )
+          name = "pr",  type = 57
+        0375: NEAR_RTN_386
+          start off = 0000046A, code size = 0000021C, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  21
+          return value: <none>
+          Name = "Pal_ProcessRegionPalettes"
+        03A3: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "i",  type = 9
+        03A9: LOCAL
+          address: BP_OFFSET_WORD( 00FC )
+          name = "reducedpal",  type = 62
+        03B9: NEAR_RTN_386
+          start off = 00000686, code size = 00000063, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  21
+          return value: <none>
+          Name = "Pal_Omit7fFromPalette"
+        03E3: NEAR_RTN_386
+          start off = 000006E9, code size = 000000AF, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  63
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Name = "Pal_SetLORCCWithPal"
+        040F: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "pal",  type = 13
+        0417: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "numcolors",  type = 9
+        0425: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "i",  type = 9
+        042B: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "j",  type = 9
+        0431: NEAR_RTN_386
+          start off = 00000798, code size = 0000002A, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  21
+          return value: <none>
+          Name = "Pal_SetSysPalFromLORCC"
+        045C: NEAR_RTN_386
+          start off = 000007C2, code size = 000000A9, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  21
+          return value: <none>
+          Name = "Pal_CreateInverseTable"
+        0487: LOCAL
+          address: BP_OFFSET_WORD( 00FC )
+          name = "pal",  type = 66
+        0490: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "i",  type = 9
+        0496: NEAR_RTN_386
+          start off = 0000086B, code size = 00000021, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  67
+          return value: MULTI_REG(1): EAX
+          Name = "Pal_GetLORCCPal"
+        04BB: BLOCK_386
+          start off = 0000093C, code size = 00000034, parent off = 04CF
+        04C7: LOCAL
+          address: BP_OFFSET_BYTE( D4 )
+          name = "shp",  type = 71
+        04CF: BLOCK_386
+          start off = 000008D7, code size = 000000CE, parent off = 04F7
+        04DB: LOCAL
+          address: BP_OFFSET_BYTE( D8 )
+          name = "i",  type = 9
+        04E1: LOCAL
+          address: BP_OFFSET_BYTE( DC )
+          name = "nshapes",  type = 9
+        04ED: LOCAL
+          address: BP_OFFSET_BYTE( E0 )
+          name = "shp32",  type = 71
+        04F7: NEAR_RTN_386
+          start off = 0000088C, code size = 00000145, parent off = 0000
+          prologue size = 12,  epilogue size = 7
+          return address offset (from bp) = 00000010
+          return type:  72
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Name = "Pal_ColorReduceRegion"
+        0528: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "region",  type = 9
+        0533: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "numcolors",  type = 9
+        0541: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "pal",  type = 13
+        0549: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "r",  type = 57
+        054F: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "ptf",  type = 46
+        0557: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "reducedto",  type = 9
+        0565: BLOCK_386
+          start off = 000009EB, code size = 00000034, parent off = 0577
+        0571: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "t",  type = 9
+        0577: NEAR_RTN_386
+          start off = 000009D1, code size = 00000057, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  74
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Pal_AdjustRegionSizeWithReducedColorsFromOtherRegions"
+        05C3: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "numcolors",  type = 73
+        05D1: BLOCK_386
+          start off = 00000A69, code size = 00000079, parent off = 05F1
+        05DD: LOCAL
+          address: BP_OFFSET_BYTE( DC )
+          name = "ri",  type = 9
+        05E4: LOCAL
+          address: BP_OFFSET_BYTE( E0 )
+          name = "colorpal",  type = 75
+        05F1: NEAR_RTN_386
+          start off = 00000A28, code size = 000000E6, parent off = 0000
+          prologue size = 11,  epilogue size = 8
+          return address offset (from bp) = 0000000C
+          return type:  76
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Parm 3: MULTI_REG(1): ECX
+          Name = "Pal_ReducePalWithAlreadyAddedColors"
+        0632: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "origyiq",  type = 13
+        063E: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "origcolors",  type = 9
+        064D: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "pal",  type = 13
+        0655: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "result",  type = 13
+        0660: LOCAL
+          address: BP_OFFSET_BYTE( 10 )
+          name = "numcolors",  type = 9
+        066E: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "i",  type = 9
+        0674: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "j",  type = 9
+        067A: BLOCK_386
+          start off = 00000B5B, code size = 00000042, parent off = 069D
+        0686: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "colorpal",  type = 77
+        0693: LOCAL
+          address: BP_OFFSET_BYTE( E0 )
+          name = "index",  type = 9
+        069D: BLOCK_386
+          start off = 00000B2F, code size = 00000070, parent off = 06B2
+        06A9: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "scnt",  type = 9
+        06B2: NEAR_RTN_386
+          start off = 00000B0E, code size = 00000097, parent off = 0000
+          prologue size = 11,  epilogue size = 6
+          return address offset (from bp) = 0000000C
+          return type:  78
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Parm 3: MULTI_REG(1): ECX
+          Name = "Pal_ReduceHistoWithAlreadyAddedColors"
+        06F4: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "origyiq",  type = 13
+        0700: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "origcolors",  type = 9
+        070F: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "pal",  type = 13
+        0717: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "count",  type = 73
+        0721: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "i",  type = 9
+        0727: NEAR_RTN_386
+          start off = 00000BA5, code size = 000000B9, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  79
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Pal_RemapRegionShapeFiles"
+        0757: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "region",  type = 9
+        0762: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "r",  type = 57
+        0768: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "ptf",  type = 46
+        0770: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "next",  type = 46
+        0779: NEAR_RTN_386
+          start off = 00000C5E, code size = 00000041, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  21
+          return value: <none>
+          Name = "Pal_RemapRegions"
+        079E: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "i",  type = 9
+        07A4: NEAR_RTN_386
+          start off = 00000C9F, code size = 0000004D, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  21
+          return value: <none>
+          Name = "Pal_InitRemapTable"
+        07CB: NEAR_RTN_386
+          start off = 00000CEC, code size = 00000023, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  21
+          return value: <none>
+          Name = "Pal_DeInitRemapTable"
+        07F4: NEAR_RTN_386
+          start off = 00000D0F, code size = 0000003E, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  80
+          return value: MULTI_REG(1): EAX
+          Name = "Pal_GetRemapID"
+        0818: NEAR_RTN_386
+          start off = 00000D4D, code size = 0000002E, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  81
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Pal_GetRemapTable"
+        0841: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "remapid",  type = 9
+        084D: NEAR_RTN_386
+          start off = 00000D7B, code size = 0000002D, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  63
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Name = "Pal_SetRemapTable"
+        0877: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "tbl",  type = 13
+        087F: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "index",  type = 9
+        0889: NEAR_RTN_386
+          start off = 00000DA8, code size = 00000073, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  82
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Name = "Pal_CreateRemapTable"
+        08B6: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "remapid",  type = 9
+        08C2: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "pal",  type = 13
+        08CA: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "i",  type = 9
+

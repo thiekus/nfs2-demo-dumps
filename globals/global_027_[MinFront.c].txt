@@ -1,0 +1,52 @@
+  Name:  MinFront_Scan_
+    address      = 0001:0002B11D
+    module index = 27
+    kind:          (code)
+  Name:  MinFront_BackScan_
+    address      = 0001:0002B1B6
+    module index = 27
+    kind:          (code)
+  Name:  MinFront_LookupParam_
+    address      = 0001:0002B262
+    module index = 27
+    kind:          (code)
+  Name:  MinFront_LookupDevice_
+    address      = 0001:0002B47F
+    module index = 27
+    kind:          (code)
+  Name:  MinFront_LookupHandler_
+    address      = 0001:0002B4E1
+    module index = 27
+    kind:          (code)
+  Name:  MinFront_Evaluate_
+    address      = 0001:0002B57E
+    module index = 27
+    kind:          (code)
+  Name:  MinFront_ParseFile_
+    address      = 0001:0002BAFB
+    module index = 27
+    kind:          (code)
+  Name:  MinFront_ParseCommandLine_
+    address      = 0001:0002BBD5
+    module index = 27
+    kind:          (code)
+  Name:  MinFront_ParseArgv_
+    address      = 0001:0002BC55
+    module index = 27
+    kind:          (code)
+  Name:  MinFront_ParseOptions_
+    address      = 0001:0002BD1F
+    module index = 27
+    kind:          (code)
+  Name:  _MinFront_gList
+    address      = 0002:0000D004
+    module index = 27
+    kind:          (data)
+  Name:  _MinFront_gParamList
+    address      = 0002:0000D404
+    module index = 27
+    kind:          (data)
+  Name:  _MinFront_gPrefsFile
+    address      = 0002:0000D824
+    module index = 27
+    kind:          (data)

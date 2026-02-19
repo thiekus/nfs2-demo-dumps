@@ -1,0 +1,4 @@
+  Name:  __IsTable
+    address      = 0002:0000BAE0
+    module index = 312
+    kind:          (data)

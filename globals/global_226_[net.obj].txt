@@ -1,0 +1,108 @@
+  Name:  _networkinactivity_timeout
+    address      = 0002:00013AB0
+    module index = 226
+    kind:          (data)
+  Name:  _networkpulse_timeout
+    address      = 0002:00013AB4
+    module index = 226
+    kind:          (data)
+  Name:  _networkservice_wait
+    address      = 0002:00013AB8
+    module index = 226
+    kind:          (data)
+  Name:  _networkservice_capture
+    address      = 0002:00013ABC
+    module index = 226
+    kind:          (data)
+  Name:  _numnetworkservices
+    address      = 0002:00013AC0
+    module index = 226
+    kind:          (data)
+  Name:  cmpuniqueids_
+    address      = 0001:00096790
+    module index = 226
+    kind:          (static pubdef) (code)
+  Name:  restorenetworklayer_
+    address      = 0001:000967FC
+    module index = 226
+    kind:          (static pubdef) (code)
+  Name:  validtocallfunc_
+    address      = 0001:00096840
+    module index = 226
+    kind:          (static pubdef) (code)
+  Name:  _getnetservices
+    address      = 0001:000968C4
+    module index = 226
+    kind:          (code)
+  Name:  _initnetservice
+    address      = 0001:0009694C
+    module index = 226
+    kind:          (code)
+  Name:  _killnetservice
+    address      = 0001:00096A88
+    module index = 226
+    kind:          (code)
+  Name:  _getnetgames
+    address      = 0001:00096ACC
+    module index = 226
+    kind:          (code)
+  Name:  _setnetgame
+    address      = 0001:00096AF8
+    module index = 226
+    kind:          (code)
+  Name:  _newnetgame
+    address      = 0001:00096B1C
+    module index = 226
+    kind:          (code)
+  Name:  _shutnetgame
+    address      = 0001:00096B48
+    module index = 226
+    kind:          (code)
+  Name:  _opennetgame
+    address      = 0001:00096B68
+    module index = 226
+    kind:          (code)
+  Name:  _endnetgame
+    address      = 0001:00096B84
+    module index = 226
+    kind:          (code)
+  Name:  _getnetplayers
+    address      = 0001:00096BB8
+    module index = 226
+    kind:          (code)
+  Name:  _killnetplayer
+    address      = 0001:00096BDC
+    module index = 226
+    kind:          (code)
+  Name:  _opennetconnection
+    address      = 0001:00096BFC
+    module index = 226
+    kind:          (code)
+  Name:  _cmpnetaddress
+    address      = 0001:00096C34
+    module index = 226
+    kind:          (code)
+  Name:  _getnetaddress
+    address      = 0001:00096C4C
+    module index = 226
+    kind:          (code)
+  Name:  _getnetsocket
+    address      = 0001:00096C7C
+    module index = 226
+    kind:          (code)
+  Name:  _networkflag
+    address      = 0002:00013AC4
+    module index = 226
+    kind:          (static pubdef) (data)
+  Name:  _networkbuilders
+    address      = 0002:000533D4
+    module index = 226
+    kind:          (data)
+  Name:  _networkservices
+    address      = 0002:000533F4
+    module index = 226
+    kind:          (data)
+  Name:  _networkqueue
+    address      = 0002:00053414
+    module index = 226
+    kind:          (data)

@@ -1,0 +1,52 @@
+  Name:  _getpathname
+    address      = 0001:000B0240
+    module index = 342
+    kind:          (code)
+  Name:  _getdrivenumber
+    address      = 0001:000B02AC
+    module index = 342
+    kind:          (code)
+  Name:  _iscdromdrive
+    address      = 0001:000B02D4
+    module index = 342
+    kind:          (code)
+  Name:  _closecdrom
+    address      = 0001:000B0300
+    module index = 342
+    kind:          (code)
+  Name:  _initcdrom
+    address      = 0001:000B0300
+    module index = 342
+    kind:          (code)
+  Name:  _cdromprefetchcheck
+    address      = 0001:000B0304
+    module index = 342
+    kind:          (code)
+  Name:  _cdromdirectoryentry
+    address      = 0001:000B0308
+    module index = 342
+    kind:          (code)
+  Name:  _cdromseek
+    address      = 0001:000B0308
+    module index = 342
+    kind:          (code)
+  Name:  _cdromread
+    address      = 0001:000B0308
+    module index = 342
+    kind:          (code)
+  Name:  _cdromprefetch
+    address      = 0001:000B0308
+    module index = 342
+    kind:          (code)
+  Name:  _cdromdisable
+    address      = 0002:000157C8
+    module index = 342
+    kind:          (data)
+  Name:  _cdromreadcount
+    address      = 0002:00064710
+    module index = 342
+    kind:          (data)
+  Name:  _cdromreadsector
+    address      = 0002:00064714
+    module index = 342
+    kind:          (data)

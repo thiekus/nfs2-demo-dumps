@@ -1,0 +1,385 @@
+ 81) Name:   C:\nfs2\game\pc\TrnfPlat.c
+     Language is C
+     Locals: num = 1, offset = 00000156H
+     Types:  num = 1, offset = 000002F2H
+     Lines:  num = 1, offset = 0000047AH
+
+    *** Types ***
+    =============
+      Data 0:  offset 0007E257
+        0000: cue table offset=00000727
+        0006: SCOPE(1)
+          "struct"
+        000E: SCOPE(2)
+          "union"
+        0015: SCOPE(3)
+          "enum"
+        001B: SCALAR(4)
+          "char"  scalar type = 10, unsigned
+        0022: SCALAR(5)
+          "signed char"  scalar type = 00, integer
+        0030: SCALAR(6)
+          "unsigned char"  scalar type = 10, unsigned
+        0040: SCALAR(7)
+          "short"  scalar type = 01, integer
+        0048: SCALAR(8)
+          "unsigned short"  scalar type = 11, unsigned
+        0059: SCALAR(9)
+          "int"  scalar type = 03, integer
+        005F: SCALAR(10)
+          "unsigned int"  scalar type = 13, unsigned
+        006E: NAME(11)
+          "wchar_t"  type idx = 8  scope idx = 0
+        0079: NAME(12)
+          "size_t"  type idx = 10  scope idx = 0
+        0083: NEAR386 PTR(13)
+          base type idx = 4
+        0086: BYTE_INDEX ARRAY(14)
+          high bound = 00   base type idx = 13
+        008A: NAME(15)
+          "__va_list"  type idx = 14  scope idx = 0
+        0097: SCALAR(16)
+          "long"  scalar type = 03, integer
+        009E: NAME(17)
+          "fpos_t"  type idx = 16  scope idx = 0
+        00A8: NAME(18)
+          "fpos_t"  type idx = 16  scope idx = 0
+        00B2: BYTE_INDEX ARRAY(19)
+          high bound = 00   base type idx = 13
+        00B6: NAME(20)
+          "va_list"  type idx = 19  scope idx = 0
+        00C1: NAME(21)
+          "MEMBLOCK"  type idx = 13  scope idx = 0
+        00CD: SCALAR(22)
+          "void"  scalar type = 30, void
+        00D4: NEAR386 PROC(23)
+          return type = 22
+            param 1:  type idx = 22
+        00D9: NEAR386 PTR(24)
+          base type idx = 23
+        00DC: NAME(25)
+          "VOIDFN"  type idx = 24  scope idx = 0
+        00E6: NEAR386 PROC(26)
+          return type = 9
+            param 1:  type idx = 22
+        00EB: NAME(27)
+          "INTFN"  type idx = 26  scope idx = 0
+        00F4: NAME(28)
+          "MVI"  type idx = 22  scope idx = 0
+        00FB: NEAR386 PROC(29)
+          return type = 9
+            param 1:  type idx = 9
+            param 2:  type idx = 9
+        0101: NAME(30)
+          "EACHOOKCALLBACKFUNC"  type idx = 29  scope idx = 0
+        0118: NAME(31)
+          "arg_t"  type idx = 9  scope idx = 0
+        0121: NEAR386 PROC(32)
+          return type = 22
+            param 1:  type idx = 22
+        0126: NAME(33)
+          "THREADPROC"  type idx = 32  scope idx = 0
+        0134: NAME(34)
+          "SYSTEMTASK"  type idx = 29  scope idx = 0
+        0142: NAME(35)
+          "boolean"  type idx = 9  scope idx = 0
+        014D: NAME(36)
+          "fixed88"  type idx = 9  scope idx = 0
+        0158: NAME(37)
+          "fixed824"  type idx = 9  scope idx = 0
+        0164: NAME(38)
+          "fixed248"  type idx = 9  scope idx = 0
+        0170: NAME(39)
+          "Draw_tContext"  type idx = 7  scope idx = 0
+        0181: NEAR386 PTR(40)
+          base type idx = 22
+        0184: NEAR386 PROC(41)
+          return type = 22
+            param 1:  type idx = 40
+            param 2:  type idx = 40
+        018A: NEAR386 PTR(42)
+          base type idx = 41
+        018D: NAME(43)
+          "Transformer_AnimCallbackFunc"  type idx = 42  scope idx = 0
+        01AD: NAME(44)
+          "SDWORD"  type idx = 16  scope idx = 0
+        01B7: SCALAR(45)
+          "unsigned long"  scalar type = 13, unsigned
+        01C7: NAME(46)
+          "DWORD"  type idx = 45  scope idx = 0
+        01D0: NAME(47)
+          "WORD"  type idx = 8  scope idx = 0
+        01D8: NAME(48)
+          "SWORD"  type idx = 7  scope idx = 0
+        01E1: NAME(49)
+          "SBYTE"  type idx = 5  scope idx = 0
+        01EA: NAME(50)
+          "UBYTE"  type idx = 6  scope idx = 0
+        01F3: NAME(51)
+          "BOOL"  type idx = 9  scope idx = 0
+        01FB: NAME(52)
+          "Stm_Chunk"  type idx = 22  scope idx = 0
+        0208: NEAR386 PTR(53)
+          base type idx = 52
+        020B: NAME(54)
+          "lpStm_Chunk"  type idx = 53  scope idx = 0
+        021A: NEAR386 PROC(55)
+          return type = 22
+            param 1:  type idx = 40
+        021F: NEAR386 PTR(56)
+          base type idx = 55
+        0222: NAME(57)
+          "Sched_tFunctionPt"  type idx = 56  scope idx = 0
+        0237: BYTE_INDEX ARRAY(58)
+          high bound = 6F   base type idx = 7
+        023B: NAME(59)
+          "tAccTable"  type idx = 58  scope idx = 0
+        0248: FIELD_LIST(60)
+          number of fields = 0009   size = 00000011
+        0250: FIELD_BYTE
+          "data"  offset = 10  type idx = 4
+        0258: FIELD_BYTE
+          "shapey"  offset = 0E  type idx = 7
+        0262: FIELD_BYTE
+          "shapex"  offset = 0C  type idx = 7
+        026C: FIELD_BYTE
+          "centery"  offset = 0A  type idx = 7
+        0277: FIELD_BYTE
+          "centerx"  offset = 08  type idx = 7
+        0282: FIELD_BYTE
+          "height"  offset = 06  type idx = 7
+        028C: FIELD_BYTE
+          "width"  offset = 04  type idx = 7
+        0295: BIT_BYTE
+          "next"  offset = 00  type idx = 9
+        start bit = 08  bit size = 18
+        029F: BIT_BYTE
+          "type"  offset = 00  type idx = 10
+        start bit = 00  bit size = 08
+        02A9: NAME(61)
+          "shapetbl"  type idx = 60  scope idx = 1
+        02B5: NAME(62)
+          "SHAPE"  type idx = 61  scope idx = 0
+        02BE: NEAR386 PTR(63)
+          base type idx = 62
+        02C1: FIELD_LIST(64)
+          number of fields = 0006   size = 0000000C
+        02C9: FIELD_BYTE
+          "coltbl"  offset = 08  type idx = 13
+        02D3: FIELD_BYTE
+          "uv3"  offset = 07  type idx = 4
+        02DA: FIELD_BYTE
+          "uv2"  offset = 06  type idx = 4
+        02E1: FIELD_BYTE
+          "uv1"  offset = 05  type idx = 4
+        02E8: FIELD_BYTE
+          "uv0"  offset = 04  type idx = 4
+        02EF: FIELD_BYTE
+          "shp"  offset = 00  type idx = 63
+        02F6: NAME(65)
+          "Draw_tPixMap"  type idx = 64  scope idx = 1
+        0306: NAME(66)
+          "Draw_tPixMap"  type idx = 65  scope idx = 0
+        0316: NEAR386 PROC(67)
+          return type = 22
+            param 1:  type idx = 7
+        031B: NEAR386 PTR(68)
+          base type idx = 6
+        031E: NAME(69)
+          "DRender_tFacet"  type idx = 71  scope idx = 1
+        0331: NEAR386 PTR(70)
+          base type idx = 69
+        0334: FIELD_LIST(71)
+          number of fields = 0002   size = 00000008
+        033C: FIELD_BYTE
+          "type"  offset = 04  type idx = 9
+        0344: FIELD_BYTE
+          "lfacet"  offset = 00  type idx = 70
+        034E: NAME(72)
+          "DRender_tFacet"  type idx = 69  scope idx = 0
+        0360: FIELD_LIST(73)
+          number of fields = 0005   size = 00000010
+        0368: FIELD_BYTE
+          "zclip"  offset = 0E  type idx = 7
+        0371: FIELD_BYTE
+          "p"  offset = 0C  type idx = 7
+        0376: FIELD_BYTE
+          "z"  offset = 08  type idx = 9
+        037B: FIELD_BYTE
+          "y"  offset = 04  type idx = 9
+        0380: FIELD_BYTE
+          "x"  offset = 00  type idx = 9
+        0385: NAME(74)
+          "PCOORD16"  type idx = 73  scope idx = 0
+        0391: FIELD_LIST(75)
+          number of fields = 0002   size = 00000008
+        0399: FIELD_BYTE
+          "y"  offset = 04  type idx = 9
+        039E: FIELD_BYTE
+          "x"  offset = 00  type idx = 9
+        03A3: NAME(76)
+          "scoorddef"  type idx = 75  scope idx = 1
+        03B0: NAME(77)
+          "SCOORD"  type idx = 76  scope idx = 0
+        03BA: FIELD_LIST(78)
+          number of fields = 0004   size = 00000020
+        03C2: FIELD_BYTE
+          "pad2"  offset = 1C  type idx = 9
+        03CA: FIELD_BYTE
+          "pad1"  offset = 18  type idx = 9
+        03D2: FIELD_BYTE
+          "pv"  offset = 10  type idx = 77
+        03D8: FIELD_BYTE
+          "sv"  offset = 00  type idx = 74
+        03DE: NAME(79)
+          "Draw_tVertex"  type idx = 78  scope idx = 1
+        03EE: NAME(80)
+          "Draw_tVertex"  type idx = 79  scope idx = 0
+        03FE: NEAR386 PTR(81)
+          base type idx = 80
+        0401: NEAR386 PTR(82)
+          base type idx = 66
+        0404: FIELD_LIST(83)
+          number of fields = 0002   size = 00000006
+        040C: FIELD_BYTE
+          "ctx"  offset = 04  type idx = 39
+        0413: FIELD_BYTE
+          "pmx"  offset = 00  type idx = 82
+        041A: NAME(84)
+          "DRender_tTexture"  type idx = 83  scope idx = 1
+        042E: NAME(85)
+          "DRender_tTexture"  type idx = 84  scope idx = 0
+        0442: FIELD_LIST(86)
+          number of fields = 0008   size = 00000022
+        044A: FIELD_BYTE
+          "texture"  offset = 1C  type idx = 85
+        0455: FIELD_BYTE
+          "v3"  offset = 18  type idx = 81
+        045B: FIELD_BYTE
+          "v2"  offset = 14  type idx = 81
+        0461: FIELD_BYTE
+          "v1"  offset = 10  type idx = 81
+        0467: FIELD_BYTE
+          "v0"  offset = 0C  type idx = 81
+        046D: FIELD_BYTE
+          "face"  offset = 0A  type idx = 7
+        0475: FIELD_BYTE
+          "tsub"  offset = 08  type idx = 7
+        047D: FIELD_BYTE
+          "head"  offset = 00  type idx = 72
+        0485: NAME(87)
+          "DRender_tFacet3D"  type idx = 86  scope idx = 1
+        0499: NAME(88)
+          "DRender_tFacet3D"  type idx = 87  scope idx = 0
+        04AD: NEAR386 PTR(89)
+          base type idx = 88
+        04B0: FIELD_LIST(90)
+          number of fields = 0003   size = 0000000C
+        04B8: FIELD_BYTE
+          "z"  offset = 08  type idx = 9
+        04BD: FIELD_BYTE
+          "y"  offset = 04  type idx = 9
+        04C2: FIELD_BYTE
+          "x"  offset = 00  type idx = 9
+        04C7: NAME(91)
+          "coorddef"  type idx = 90  scope idx = 1
+        04D3: NAME(92)
+          "LIBCOORD"  type idx = 91  scope idx = 0
+        04DF: FIELD_LIST(93)
+          number of fields = 0003   size = 00000006
+        04E7: FIELD_BYTE
+          "z"  offset = 04  type idx = 7
+        04EC: FIELD_BYTE
+          "y"  offset = 02  type idx = 7
+        04F1: FIELD_BYTE
+          "x"  offset = 00  type idx = 7
+        04F6: NAME(94)
+          "COORD16"  type idx = 93  scope idx = 1
+        0501: NAME(95)
+          "COORD16"  type idx = 94  scope idx = 0
+        050C: NAME(96)
+          "Transformer_tVertex"  type idx = 95  scope idx = 0
+        0523: NEAR386 PTR(97)
+          base type idx = 96
+        0526: BYTE_INDEX ARRAY(98)
+          high bound = 03   base type idx = 6
+        052A: BYTE_INDEX ARRAY(99)
+          high bound = 03   base type idx = 4
+        052E: FIELD_LIST(100)
+          number of fields = 0005   size = 0000000C
+        0536: FIELD_BYTE
+          "textureName"  offset = 08  type idx = 99
+        0545: FIELD_BYTE
+          "vertexId"  offset = 04  type idx = 98
+        0551: FIELD_BYTE
+          "textureIndex"  offset = 02  type idx = 8
+        0561: FIELD_BYTE
+          "animOffset"  offset = 01  type idx = 6
+        056F: FIELD_BYTE
+          "type"  offset = 00  type idx = 6
+        0577: NAME(101)
+          "Transformer_tFacet"  type idx = 100  scope idx = 1
+        058D: NAME(102)
+          "Transformer_tFacet"  type idx = 101  scope idx = 0
+        05A3: NEAR386 PTR(103)
+          base type idx = 102
+        05A6: FIELD_LIST(104)
+          number of fields = 0006   size = 00000018
+        05AE: FIELD_BYTE
+          "maxPitchInvisibility"  offset = 14  type idx = 9
+        05C6: FIELD_BYTE
+          "minPitchInvisibility"  offset = 10  type idx = 9
+        05DE: FIELD_BYTE
+          "maxYawInvisibility"  offset = 0C  type idx = 9
+        05F4: FIELD_BYTE
+          "minYawInvisibility"  offset = 08  type idx = 9
+        060A: FIELD_BYTE
+          "partLinkPriority"  offset = 04  type idx = 9
+        061E: FIELD_BYTE
+          "zSortNeeded"  offset = 00  type idx = 9
+        062D: NAME(105)
+          "Transformer_tDrawControlInfo"  type idx = 104  scope idx = 1
+        064D: NAME(106)
+          "Transformer_tDrawControlInfo"  type idx = 105  scope idx = 0
+        066D: FIELD_LIST(107)
+          number of fields = 0006   size = 00000034
+        0675: FIELD_BYTE
+          "drawControl"  offset = 1C  type idx = 106
+        0684: FIELD_BYTE
+          "facet"  offset = 18  type idx = 103
+        068D: FIELD_BYTE
+          "vertex"  offset = 14  type idx = 97
+        0697: FIELD_BYTE
+          "translation"  offset = 08  type idx = 92
+        06A6: FIELD_BYTE
+          "numFacet"  offset = 04  type idx = 9
+        06B2: FIELD_BYTE
+          "numVertex"  offset = 00  type idx = 9
+        06BF: NAME(108)
+          "Transformer_tObj"  type idx = 107  scope idx = 1
+        06D3: NAME(109)
+          "Transformer_tObj"  type idx = 108  scope idx = 0
+        06E7: NEAR386 PTR(110)
+          base type idx = 109
+        06EA: BYTE_INDEX ARRAY(111)
+          high bound = 08   base type idx = 9
+        06EE: FIELD_LIST(112)
+          number of fields = 0001   size = 00000024
+        06F6: FIELD_BYTE
+          "m"  offset = 00  type idx = 111
+        06FB: NAME(113)
+          "matrixtdef"  type idx = 112  scope idx = 1
+        0709: NAME(114)
+          "MATRIX3DT"  type idx = 113  scope idx = 0
+        0716: NEAR386 PTR(115)
+          base type idx = 114
+        0719: NEAR386 PTR(116)
+          base type idx = 92
+        071C: NEAR386 PROC(117)
+          return type = 22
+            param 1:  type idx = 110
+            param 2:  type idx = 115
+            param 3:  type idx = 116
+            param 4:  type idx = 9
+            param 5:  type idx = 9
+        0725: 

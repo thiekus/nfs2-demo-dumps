@@ -1,0 +1,12 @@
+  Name:  _decodemxa
+    address      = 0001:000C7DF0
+    module index = 592
+    kind:          (code)
+  Name:  _filter1
+    address      = 0002:000171C8
+    module index = 592
+    kind:          (static pubdef) (data)
+  Name:  _filter2
+    address      = 0002:000171D8
+    module index = 592
+    kind:          (static pubdef) (data)

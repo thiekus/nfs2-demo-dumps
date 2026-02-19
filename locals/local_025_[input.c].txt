@@ -1,0 +1,163 @@
+ 25) Name:   C:\nfs2\game\common\input.c
+     Language is C
+     Locals: num = 1, offset = 00000076H
+     Types:  num = 1, offset = 00000212H
+     Lines:  num = 1, offset = 000003A6H
+
+   *** Locals ***
+   ==============
+      Data 0:  offset 0000CE5F
+        0000: MODULE_386
+          "Input_gDBFlags" addr = 0002:00023BB4,  type = 46
+        0017: MODULE_386
+          "Input_gDebugResults" addr = 0002:00023BBC,  type = 47
+        0033: MODULE_386
+          "Input_gInterfaceResults" addr = 0002:00023C3C,  type = 48
+        0053: MODULE_386
+          "Input_gLookBehind" addr = 0002:00023CBC,  type = 49
+        006D: MODULE_386
+          "Input_gResults" addr = 0002:00023CC4,  type = 52
+        0084: MODULE_386
+          "Input_gHandler" addr = 0002:00023CCC,  type = 53
+        009B: MODULE_386
+          "Input_gSim" addr = 0002:00023E2C,  type = 51
+        00AE: MODULE_386
+          "Input_gTime" addr = 0002:00023E30,  type = 9
+        00C2: SET_BASE_386
+          base = 0001:00029E61
+        00CA: NEAR_RTN_386
+          start off = 00000000, code size = 000000AF, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  55
+          return value: MULTI_REG(1): EAX
+          Name = "Input_StartUp"
+        00ED: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "h",  type = 54
+        00F3: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "i",  type = 9
+        00F9: NEAR_RTN_386
+          start off = 000000AF, code size = 00000261, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  56
+          return value: <none>
+          Name = "Input_Update"
+        011A: LOCAL
+          address: BP_OFFSET_BYTE( E0 )
+          name = "h",  type = 54
+        0120: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "r",  type = 57
+        0126: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "d",  type = 61
+        012C: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "acc",  type = 39
+        0134: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "i",  type = 9
+        013A: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "j",  type = 9
+        0140: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "left",  type = 9
+        0149: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "right",  type = 9
+        0153: NEAR_RTN_386
+          start off = 00000310, code size = 00000091, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  23
+          return value: <none>
+          Name = "Input_Store"
+        0173: NEAR_RTN_386
+          start off = 000003A1, code size = 00000054, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  62
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Input_Fetch"
+        0195: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "humanIndex",  type = 9
+        01A4: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "d",  type = 9
+        01AA: NEAR_RTN_386
+          start off = 000003F5, code size = 00000065, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  63
+          return value: REG: AL
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Name = "Input_Gear"
+        01CD: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "currentGear",  type = 4
+        01DD: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "numGears",  type = 9
+        01EA: NEAR_RTN_386
+          start off = 0000045A, code size = 0000008F, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  64
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Name = "Input_Debug"
+        020F: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "key",  type = 39
+        0217: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "debounce",  type = 9
+        0224: NEAR_RTN_386
+          start off = 000004E9, code size = 0000008F, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  64
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Name = "Input_Interface"
+        024D: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "key",  type = 39
+        0255: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "debounce",  type = 9
+        0262: NEAR_RTN_386
+          start off = 00000578, code size = 000000A1, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  64
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Name = "Input_TimedInterface"
+        0290: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "key",  type = 39
+        0298: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "waittime",  type = 9
+        02A5: LOCAL
+          address: CONST_ADDR386( 0002:00023E34 )
+          name = "tick32",  type = 9
+        02B5: NEAR_RTN_386
+          start off = 00000619, code size = 00000031, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  65
+          return value: MULTI_REG(1): EAX
+          Name = "Input_MainExitKey"
+

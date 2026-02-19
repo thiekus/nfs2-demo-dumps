@@ -1,0 +1,8 @@
+  Name:  _upsxasf
+    address      = 0001:000C5940
+    module index = 564
+    kind:          (code)
+  Name:  _upsxasfsetstate
+    address      = 0001:000C5AF4
+    module index = 564
+    kind:          (code)

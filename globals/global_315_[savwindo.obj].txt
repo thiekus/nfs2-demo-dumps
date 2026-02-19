@@ -1,0 +1,8 @@
+  Name:  _savewindow
+    address      = 0001:000A8400
+    module index = 315
+    kind:          (code)
+  Name:  _restorewindow
+    address      = 0001:000A8428
+    module index = 315
+    kind:          (code)

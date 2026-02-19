@@ -1,0 +1,12 @@
+  Name:  Trkstat_ShowTrackRecords_
+    address      = 0001:0007307F
+    module index = 93
+    kind:          (code)
+  Name:  Trkstat_ShowTrackInfo_
+    address      = 0001:00073930
+    module index = 93
+    kind:          (code)
+  Name:  SpinBigIcon_
+    address      = 0001:00073E6A
+    module index = 93
+    kind:          (code)

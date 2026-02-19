@@ -1,0 +1,4 @@
+  Name:  __8087cw
+    address      = 0002:00016CD4
+    module index = 422
+    kind:          (data)

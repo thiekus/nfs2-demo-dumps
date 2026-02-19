@@ -1,0 +1,36 @@
+  Name:  _mixsf
+    address      = 0001:000BD51A
+    module index = 453
+    kind:          (code)
+  Name:  _mixsfleftzero
+    address      = 0001:000BD699
+    module index = 453
+    kind:          (code)
+  Name:  _mixsfleftfull
+    address      = 0001:000BD79F
+    module index = 453
+    kind:          (code)
+  Name:  _mixsfsetstate
+    address      = 0001:000BD46C
+    module index = 453
+    kind:          (code)
+  Name:  _mixsfsilence
+    address      = 0001:000BD827
+    module index = 453
+    kind:          (code)
+  Name:  _mixsfrightzero
+    address      = 0001:000BD61D
+    module index = 453
+    kind:          (code)
+  Name:  _mixsfsetvol
+    address      = 0001:000BD48A
+    module index = 453
+    kind:          (code)
+  Name:  _mixsfrightfull
+    address      = 0001:000BD718
+    module index = 453
+    kind:          (code)
+  Name:  _mixsfbothfull
+    address      = 0001:000BD5AC
+    module index = 453
+    kind:          (code)

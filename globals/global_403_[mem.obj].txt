@@ -1,0 +1,20 @@
+  Name:  _getvirtualmem
+    address      = 0001:000B9E00
+    module index = 403
+    kind:          (code)
+  Name:  _getphysicalmem
+    address      = 0001:000B9EB4
+    module index = 403
+    kind:          (code)
+  Name:  _getavailablephysicalmem
+    address      = 0001:000B9ED4
+    module index = 403
+    kind:          (code)
+  Name:  _getusablephysicalmem
+    address      = 0001:000B9EF4
+    module index = 403
+    kind:          (code)
+  Name:  _virtualmemprintflag
+    address      = 0002:00016BBC
+    module index = 403
+    kind:          (data)

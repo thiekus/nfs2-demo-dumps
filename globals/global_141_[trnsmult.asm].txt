@@ -1,0 +1,4 @@
+  Name:  _transmult
+    address      = 0001:00083C28
+    module index = 141
+    kind:          (code)

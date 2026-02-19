@@ -1,0 +1,52 @@
+  Name:  MPause_Logic_
+    address      = 0001:0002915E
+    module index = 21
+    kind:          (code)
+  Name:  MPause_Render_
+    address      = 0001:0002959B
+    module index = 21
+    kind:          (code)
+  Name:  MPause_InitMPause_
+    address      = 0001:000295B5
+    module index = 21
+    kind:          (code)
+  Name:  MPause_KillMPause_
+    address      = 0001:000296F7
+    module index = 21
+    kind:          (code)
+  Name:  _gUpPressTbl
+    address      = 0002:0000CCC8
+    module index = 21
+    kind:          (data)
+  Name:  _gDownPressTbl
+    address      = 0002:0000CCDC
+    module index = 21
+    kind:          (data)
+  Name:  _gMPauseSliderVal
+    address      = 0002:00023608
+    module index = 21
+    kind:          (data)
+  Name:  _gMPauseButton
+    address      = 0002:00023610
+    module index = 21
+    kind:          (data)
+  Name:  _gMPauseFile
+    address      = 0002:00023614
+    module index = 21
+    kind:          (data)
+  Name:  _gMPauseMode
+    address      = 0002:00023618
+    module index = 21
+    kind:          (data)
+  Name:  _gMPauseRaceMusicGreyOut
+    address      = 0002:0002361C
+    module index = 21
+    kind:          (data)
+  Name:  _gMPauseRestartGreyOut
+    address      = 0002:00023620
+    module index = 21
+    kind:          (data)
+  Name:  _gMPauseUpdate
+    address      = 0002:00023624
+    module index = 21
+    kind:          (data)

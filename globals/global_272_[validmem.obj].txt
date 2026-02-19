@@ -1,0 +1,20 @@
+  Name:  _addsentinel
+    address      = 0001:000A03D0
+    module index = 272
+    kind:          (code)
+  Name:  _checksentinelz
+    address      = 0001:000A0418
+    module index = 272
+    kind:          (code)
+  Name:  _validatemema
+    address      = 0001:000A0470
+    module index = 272
+    kind:          (code)
+  Name:  _validatemem
+    address      = 0001:000A054C
+    module index = 272
+    kind:          (code)
+  Name:  _validatememz
+    address      = 0001:000A0558
+    module index = 272
+    kind:          (code)

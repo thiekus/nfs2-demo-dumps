@@ -1,0 +1,132 @@
+  Name:  _pXSpringClear
+    address      = 0002:000487CC
+    module index = 66
+    kind:          (data)
+  Name:  _pXSpring
+    address      = 0002:000487D0
+    module index = 66
+    kind:          (data)
+  Name:  _pYSpring
+    address      = 0002:000487D4
+    module index = 66
+    kind:          (data)
+  Name:  _lib
+    address      = 0002:000487D8
+    module index = 66
+    kind:          (static pubdef) (data)
+  Name:  _pXYVectorForce
+    address      = 0002:000487DC
+    module index = 66
+    kind:          (data)
+  Name:  _pVectorForceClear
+    address      = 0002:000487E0
+    module index = 66
+    kind:          (data)
+  Name:  _pEnablePositionReporting
+    address      = 0002:000487E4
+    module index = 66
+    kind:          (data)
+  Name:  _pDisablePositionReporting
+    address      = 0002:000487E8
+    module index = 66
+    kind:          (data)
+  Name:  _pGetStickPosition
+    address      = 0002:000487EC
+    module index = 66
+    kind:          (data)
+  Name:  _pVectorForce
+    address      = 0002:000487F0
+    module index = 66
+    kind:          (data)
+  Name:  _pBuffetingClear
+    address      = 0002:000487F4
+    module index = 66
+    kind:          (data)
+  Name:  _pYSpringClear
+    address      = 0002:000487F8
+    module index = 66
+    kind:          (data)
+  Name:  _pEnableForces
+    address      = 0002:000487FC
+    module index = 66
+    kind:          (data)
+  Name:  _pClearForces
+    address      = 0002:00048800
+    module index = 66
+    kind:          (data)
+  Name:  _pButtonReflexJolt
+    address      = 0002:00048804
+    module index = 66
+    kind:          (data)
+  Name:  _pGetStickStatus
+    address      = 0002:00048808
+    module index = 66
+    kind:          (data)
+  Name:  _pSetJoystickAddressIRQ
+    address      = 0002:0004880C
+    module index = 66
+    kind:          (data)
+  Name:  _pSetJoystickPort
+    address      = 0002:00048810
+    module index = 66
+    kind:          (data)
+  Name:  _pGetStickError
+    address      = 0002:00048814
+    module index = 66
+    kind:          (data)
+  Name:  _pButtonReflexClear
+    address      = 0002:00048818
+    module index = 66
+    kind:          (data)
+  Name:  _pInitStick
+    address      = 0002:0004881C
+    module index = 66
+    kind:          (data)
+  Name:  ForceDLL_IForceInit_
+    address      = 0001:00055023
+    module index = 66
+    kind:          (code)
+  Name:  ForceDLL_IForceEnd_
+    address      = 0001:0005551E
+    module index = 66
+    kind:          (code)
+  Name:  _pBuffeting
+    address      = 0002:00048820
+    module index = 66
+    kind:          (data)
+  Name:  _pIForceAuthenticate
+    address      = 0002:00048824
+    module index = 66
+    kind:          (data)
+  Name:  _pYVibrationClear
+    address      = 0002:00048828
+    module index = 66
+    kind:          (data)
+  Name:  _pXVibrationClear
+    address      = 0002:0004882C
+    module index = 66
+    kind:          (data)
+  Name:  _pDisableForces
+    address      = 0002:00048830
+    module index = 66
+    kind:          (data)
+  Name:  _pXVibration
+    address      = 0002:00048834
+    module index = 66
+    kind:          (data)
+  Name:  _pYVibration
+    address      = 0002:00048838
+    module index = 66
+    kind:          (data)
+  Name:  _pCloseStick
+    address      = 0002:0004883C
+    module index = 66
+    kind:          (data)
+  Name:  _pEcho
+    address      = 0002:00048840
+    module index = 66
+    kind:          (data)
+  Name:  _pJolt
+    address      = 0002:00048844
+    module index = 66
+    kind:          (data)

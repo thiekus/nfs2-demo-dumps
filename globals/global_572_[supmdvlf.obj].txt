@@ -1,0 +1,12 @@
+  Name:  _upmdvifloopsection
+    address      = 0001:000C64E0
+    module index = 572
+    kind:          (code)
+  Name:  _upmdvilf
+    address      = 0001:000C656C
+    module index = 572
+    kind:          (code)
+  Name:  _upmdvilfsetstate
+    address      = 0001:000C6610
+    module index = 572
+    kind:          (code)

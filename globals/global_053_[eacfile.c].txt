@@ -1,0 +1,144 @@
+  Name:  _filedebugflag
+    address      = 0002:0000EF24
+    module index = 53
+    kind:          (data)
+  Name:  _mirrorthreadfunc
+    address      = 0001:00046FE4
+    module index = 53
+    kind:          (static pubdef) (code)
+  Name:  IsDirSep_
+    address      = 0001:00047287
+    module index = 53
+    kind:          (static pubdef) (code)
+  Name:  wingetroot_
+    address      = 0001:000472C6
+    module index = 53
+    kind:          (static pubdef) (code)
+  Name:  winfullpath_
+    address      = 0001:000473D0
+    module index = 53
+    kind:          (static pubdef) (code)
+  Name:  _getdrivemap
+    address      = 0001:000474E3
+    module index = 53
+    kind:          (code)
+  Name:  _getdrivename
+    address      = 0001:00047503
+    module index = 53
+    kind:          (code)
+  Name:  _setdirectory
+    address      = 0001:00047616
+    module index = 53
+    kind:          (code)
+  Name:  _getdirectory
+    address      = 0001:0004765C
+    module index = 53
+    kind:          (code)
+  Name:  _iswinfilesinited
+    address      = 0001:000476B7
+    module index = 53
+    kind:          (code)
+  Name:  _initwinfiles
+    address      = 0001:000476EC
+    module index = 53
+    kind:          (code)
+  Name:  _restorewinfiles
+    address      = 0001:00047791
+    module index = 53
+    kind:          (code)
+  Name:  _openwinfile
+    address      = 0001:0004787C
+    module index = 53
+    kind:          (code)
+  Name:  _infowinfile
+    address      = 0001:00047F54
+    module index = 53
+    kind:          (code)
+  Name:  _readwinfile
+    address      = 0001:000480BD
+    module index = 53
+    kind:          (code)
+  Name:  _writewinfile
+    address      = 0001:0004858B
+    module index = 53
+    kind:          (code)
+  Name:  _seekwinfile
+    address      = 0001:00048859
+    module index = 53
+    kind:          (code)
+  Name:  _tellwinfile
+    address      = 0001:00048A02
+    module index = 53
+    kind:          (code)
+  Name:  _closewinfile
+    address      = 0001:00048AF2
+    module index = 53
+    kind:          (code)
+  Name:  _lockwinfile
+    address      = 0001:00048C98
+    module index = 53
+    kind:          (code)
+  Name:  _unlockwinfile
+    address      = 0001:00048D11
+    module index = 53
+    kind:          (code)
+  Name:  _addresswinfile
+    address      = 0001:00048D8F
+    module index = 53
+    kind:          (code)
+  Name:  _mirrorwinfile
+    address      = 0001:00048E13
+    module index = 53
+    kind:          (code)
+  Name:  _setendoffile
+    address      = 0001:00048E77
+    module index = 53
+    kind:          (code)
+  Name:  _filemutex
+    address      = 0002:0000EF28
+    module index = 53
+    kind:          (static pubdef) (data)
+  Name:  _maxwinfiles
+    address      = 0002:0000EF2C
+    module index = 53
+    kind:          (static pubdef) (data)
+  Name:  _winfiles
+    address      = 0002:0000EF30
+    module index = 53
+    kind:          (static pubdef) (data)
+  Name:  _mirrorhandle
+    address      = 0002:0000EF34
+    module index = 53
+    kind:          (static pubdef) (data)
+  Name:  _mirrorreadahead
+    address      = 0002:0000EF38
+    module index = 53
+    kind:          (static pubdef) (data)
+  Name:  _mirrorcount
+    address      = 0002:0000EF3C
+    module index = 53
+    kind:          (static pubdef) (data)
+  Name:  _mirrorsize
+    address      = 0002:0000EF40
+    module index = 53
+    kind:          (static pubdef) (data)
+  Name:  _mirrorbaseptr
+    address      = 0002:0000EF44
+    module index = 53
+    kind:          (static pubdef) (data)
+  Name:  _mirrorblockflags
+    address      = 0002:0000EF48
+    module index = 53
+    kind:          (static pubdef) (data)
+  Name:  _drivemutex
+    address      = 0002:00046444
+    module index = 53
+    kind:          (static pubdef) (data)
+  Name:  _mirrorthread
+    address      = 0002:000464C4
+    module index = 53
+    kind:          (static pubdef) (data)
+  Name:  _mirrorsignal
+    address      = 0002:000464D8
+    module index = 53
+    kind:          (static pubdef) (data)

@@ -1,0 +1,254 @@
+ 77) Name:   C:\nfs2\game\pc\Sfx.c
+     Language is C
+     Locals: num = 1, offset = 00000146H
+     Types:  num = 1, offset = 000002E2H
+     Lines:  num = 1, offset = 0000046AH
+
+   *** Locals ***
+   ==============
+      Data 0:  offset 0001DDA1
+        0000: MODULE_386
+          "gS2DFacet" addr = 0002:0004EF44,  type = 61
+        0012: MODULE_386
+          "gDirtPixMap" addr = 0002:0004FA84,  type = 62
+        0026: MODULE_386
+          "gSparkPixMap" addr = 0002:0004FAE4,  type = 63
+        003B: MODULE_386
+          "gSmokePixMap" addr = 0002:0004FB44,  type = 64
+        0050: MODULE_386
+          "Sfx_gFixedDist" addr = 0002:0004FBA4,  type = 9
+        0067: MODULE_386
+          "gSnowPixMap" addr = 0002:0004FBA8,  type = 65
+        007B: MODULE_386
+          "Sfx_gLutShapefile" addr = 0002:0004FBCC,  type = 13
+        0095: MODULE_386
+          "gGrassPixMap" addr = 0002:0004FBD0,  type = 66
+        00AA: MODULE_386
+          "Sfx_gShapefile" addr = 0002:0004FBF4,  type = 13
+        00C1: MODULE_386
+          "gGravelPixMap" addr = 0002:0004FBF8,  type = 67
+        00D7: MODULE_386
+          "Sfx_gYShift" addr = 0002:0004FC1C,  type = 4
+        00EB: MODULE_386
+          "Sfx_gXShift" addr = 0002:0004FC1D,  type = 4
+        00FF: SET_BASE_386
+          base = 0001:0005F148
+        0107: NEAR_RTN_386
+          start off = 00000000, code size = 00000063, parent off = 0000
+          prologue size = 11,  epilogue size = 6
+          return address offset (from bp) = 0000000C
+          return type:  68
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Parm 3: MULTI_REG(1): ECX
+          Name = "Sfx_LoadSfxTexture"
+        0136: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "prefix",  type = 13
+        0141: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "shapefile",  type = 13
+        014F: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "pm",  type = 54
+        0156: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "frames",  type = 9
+        0161: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "shapename",  type = 69
+        016F: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "i",  type = 9
+        0175: NEAR_RTN_386
+          start off = 00000063, code size = 000000A0, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  21
+          return value: <none>
+          Name = "Sfx_RegisterModule"
+        019C: LOCAL
+          address: BP_OFFSET_WORD( 0000 )
+          name = "tempname",  type = 70
+        01AA: NEAR_RTN_386
+          start off = 00000103, code size = 000000D6, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  21
+          return value: <none>
+          Name = "Sfx_InitTexture"
+        01CE: NEAR_RTN_386
+          start off = 000001D9, code size = 00000031, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  21
+          return value: <none>
+          Name = "Sfx_KillTexture"
+        01F2: NEAR_RTN_386
+          start off = 0000020A, code size = 0000003D, parent off = 0000
+          prologue size = 12,  epilogue size = 7
+          return address offset (from bp) = 00000010
+          return type:  71
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Name = "Sfx_SetScreenSizeDependancies"
+        022A: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "screensize",  type = 9
+        0239: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "detailx",  type = 4
+        0245: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "detaily",  type = 4
+        0251: LOCAL
+          address: CONST_ADDR386( 0002:00010514 )
+          name = "sstbl",  type = 72
+        0260: NEAR_RTN_386
+          start off = 00000247, code size = 00000223, parent off = 0000
+          prologue size = 12,  epilogue size = 7
+          return address offset (from bp) = 00000010
+          return type:  99
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Name = "Sfx_BuildRotatedFacet"
+        0290: LOCAL
+          address: BP_OFFSET_BYTE( D8 )
+          name = "is",  type = 87
+        0297: LOCAL
+          address: BP_OFFSET_BYTE( DC )
+          name = "sf",  type = 98
+        029E: LOCAL
+          address: BP_OFFSET_BYTE( E0 )
+          name = "radius",  type = 9
+        02A9: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "zdist",  type = 9
+        02B3: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "sinax",  type = 9
+        02BD: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "cosax",  type = 9
+        02C7: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "sinay",  type = 9
+        02D1: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "cosay",  type = 9
+        02DB: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "lsx",  type = 7
+        02E3: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "lsy",  type = 7
+        02EB: NEAR_RTN_386
+          start off = 0000046A, code size = 0000015B, parent off = 0000
+          prologue size = 12,  epilogue size = 7
+          return address offset (from bp) = 00000010
+          return type:  99
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Name = "Sfx_BuildNormalFacet"
+        031A: LOCAL
+          address: BP_OFFSET_BYTE( D8 )
+          name = "is",  type = 87
+        0321: LOCAL
+          address: BP_OFFSET_BYTE( DC )
+          name = "sf",  type = 98
+        0328: LOCAL
+          address: BP_OFFSET_BYTE( E0 )
+          name = "radius",  type = 9
+        0333: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "zdist",  type = 9
+        033D: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "sinax",  type = 9
+        0347: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "cosax",  type = 9
+        0351: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "sinay",  type = 9
+        035B: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "cosay",  type = 9
+        0365: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "lsx",  type = 7
+        036D: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "lsy",  type = 7
+        0375: NEAR_RTN_386
+          start off = 000005C5, code size = 000004C1, parent off = 0000
+          prologue size = 11,  epilogue size = 6
+          return address offset (from bp) = 0000000C
+          return type:  111
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Parm 3: MULTI_REG(1): ECX
+          Name = "Sfx_BuildSparkQuad"
+        03A4: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "Vi",  type = 110
+        03AB: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "is",  type = 87
+        03B2: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "dSouffle",  type = 98
+        03BF: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "h",  type = 9
+        03C5: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "invertedm",  type = 75
+        03D3: LOCAL
+          address: BP_OFFSET_BYTE( C4 )
+          name = "ptrans",  type = 80
+        03DE: BLOCK_386
+          start off = 00000AAE, code size = 00000423, parent off = 03F0
+        03EA: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "f",  type = 112
+        03F0: NEAR_RTN_386
+          start off = 00000A86, code size = 00000453, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  113
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Name = "Sfx_BuildSouffleFacet"
+        041E: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "Vi",  type = 110
+        0425: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "is",  type = 87
+        042C: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "sf",  type = 98
+        0433: NEAR_RTN_386
+          start off = 00000ED9, code size = 000000B1, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  114
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Sfx_Add"
+        0451: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "is",  type = 87
+

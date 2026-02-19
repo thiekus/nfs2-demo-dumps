@@ -1,0 +1,64 @@
+  Name:  ___start_dst
+    address      = 0002:000170B8
+    module index = 508
+    kind:          (data)
+  Name:  ___end_dst
+    address      = 0002:000170DC
+    module index = 508
+    kind:          (data)
+  Name:  _timezone
+    address      = 0002:00017100
+    module index = 508
+    kind:          (data)
+  Name:  ___dst_adjust
+    address      = 0002:00017104
+    module index = 508
+    kind:          (data)
+  Name:  _daylight
+    address      = 0002:00017108
+    module index = 508
+    kind:          (data)
+  Name:  _stzone
+    address      = 0002:0001710C
+    module index = 508
+    kind:          (static pubdef) (data)
+  Name:  _dtzone
+    address      = 0002:0001712B
+    module index = 508
+    kind:          (static pubdef) (data)
+  Name:  _tzname
+    address      = 0002:0001714A
+    module index = 508
+    kind:          (data)
+  Name:  __CacheOSTZ_
+    address      = 0001:000C13E7
+    module index = 508
+    kind:          (code)
+  Name:  tryOSTimeZone_
+    address      = 0001:000C143B
+    module index = 508
+    kind:          (static pubdef) (code)
+  Name:  tzset_
+    address      = 0001:000C1531
+    module index = 508
+    kind:          (code)
+  Name:  __parse_tz_
+    address      = 0001:000C1543
+    module index = 508
+    kind:          (code)
+  Name:  parse_time_
+    address      = 0001:000C157A
+    module index = 508
+    kind:          (static pubdef) (code)
+  Name:  parse_offset_
+    address      = 0001:000C159E
+    module index = 508
+    kind:          (static pubdef) (code)
+  Name:  parse_rule_
+    address      = 0001:000C16C7
+    module index = 508
+    kind:          (static pubdef) (code)
+  Name:  _tzFlag
+    address      = 0002:00017152
+    module index = 508
+    kind:          (static pubdef) (data)

@@ -1,0 +1,132 @@
+  Name:  ___TlsIndex
+    address      = 0002:000143B4
+    module index = 299
+    kind:          (data)
+  Name:  ___GetThreadPtr
+    address      = 0002:000143B8
+    module index = 299
+    kind:          (data)
+  Name:  __AccessFileH
+    address      = 0002:000143BC
+    module index = 299
+    kind:          (data)
+  Name:  __ReleaseFileH
+    address      = 0002:000143C0
+    module index = 299
+    kind:          (data)
+  Name:  __InitAccessH
+    address      = 0002:000143C4
+    module index = 299
+    kind:          (data)
+  Name:  __FiniAccessH
+    address      = 0002:000143C8
+    module index = 299
+    kind:          (data)
+  Name:  __AccessIOB
+    address      = 0002:000143CC
+    module index = 299
+    kind:          (data)
+  Name:  __ReleaseIOB
+    address      = 0002:000143D0
+    module index = 299
+    kind:          (data)
+  Name:  __AccessNHeap
+    address      = 0002:000143D4
+    module index = 299
+    kind:          (data)
+  Name:  __AccessFHeap
+    address      = 0002:000143D8
+    module index = 299
+    kind:          (data)
+  Name:  __ReleaseNHeap
+    address      = 0002:000143DC
+    module index = 299
+    kind:          (data)
+  Name:  __threadid_
+    address      = 0001:000A41F8
+    module index = 299
+    kind:          (code)
+  Name:  __SingleThread_
+    address      = 0001:000A4204
+    module index = 299
+    kind:          (static pubdef) (code)
+  Name:  __NullAccTDListRtn_
+    address      = 0001:000A4209
+    module index = 299
+    kind:          (static pubdef) (code)
+  Name:  __NullAccHeapRtn_
+    address      = 0001:000A4209
+    module index = 299
+    kind:          (static pubdef) (code)
+  Name:  __NullAccIOBRtn_
+    address      = 0001:000A4209
+    module index = 299
+    kind:          (static pubdef) (code)
+  Name:  __NullExitRtn_
+    address      = 0001:000A4209
+    module index = 299
+    kind:          (static pubdef) (code)
+  Name:  __NullAccessRtn_
+    address      = 0001:000A4209
+    module index = 299
+    kind:          (static pubdef) (code)
+  Name:  __DefInitAccessH_
+    address      = 0001:000A420A
+    module index = 299
+    kind:          (static pubdef) (code)
+  Name:  __DefFiniAccessH_
+    address      = 0001:000A420F
+    module index = 299
+    kind:          (static pubdef) (code)
+  Name:  __NTInit_
+    address      = 0001:000A4214
+    module index = 299
+    kind:          (code)
+  Name:  __NTMainInit_
+    address      = 0001:000A433B
+    module index = 299
+    kind:          (code)
+  Name:  __exit_
+    address      = 0001:000A4381
+    module index = 299
+    kind:          (code)
+  Name:  __ReleaseFHeap
+    address      = 0002:000143E0
+    module index = 299
+    kind:          (data)
+  Name:  __AccessTDList
+    address      = 0002:000143E4
+    module index = 299
+    kind:          (data)
+  Name:  __ReleaseTDList
+    address      = 0002:000143E8
+    module index = 299
+    kind:          (data)
+  Name:  __AccessFList
+    address      = 0002:000143EC
+    module index = 299
+    kind:          (data)
+  Name:  __ReleaseFList
+    address      = 0002:000143F0
+    module index = 299
+    kind:          (data)
+  Name:  __ThreadExitRtn
+    address      = 0002:000143F4
+    module index = 299
+    kind:          (data)
+  Name:  ___sig_init_rtn
+    address      = 0002:000143F8
+    module index = 299
+    kind:          (data)
+  Name:  ___sig_fini_rtn
+    address      = 0002:000143FC
+    module index = 299
+    kind:          (data)
+  Name:  ___Is_DLL
+    address      = 0002:00055098
+    module index = 299
+    kind:          (data)
+  Name:  ___FirstThreadData
+    address      = 0002:0005509C
+    module index = 299
+    kind:          (data)

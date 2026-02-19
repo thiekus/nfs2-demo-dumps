@@ -1,0 +1,32 @@
+  Name:  drawrectmove4_
+    address      = 0001:00092E00
+    module index = 212
+    kind:          (static pubdef) (code)
+  Name:  drawrectmove8_
+    address      = 0001:00092E14
+    module index = 212
+    kind:          (static pubdef) (code)
+  Name:  drawrectmove16_
+    address      = 0001:00092E24
+    module index = 212
+    kind:          (static pubdef) (code)
+  Name:  drawrectmove24_
+    address      = 0001:00092E38
+    module index = 212
+    kind:          (static pubdef) (code)
+  Name:  drawrectmove32_
+    address      = 0001:00092E58
+    module index = 212
+    kind:          (static pubdef) (code)
+  Name:  _drawrect
+    address      = 0001:00092E6C
+    module index = 212
+    kind:          (code)
+  Name:  _drawrectfdfl
+    address      = 0002:00013830
+    module index = 212
+    kind:          (static pubdef) (data)
+  Name:  _drawrectcolour
+    address      = 0002:000523B4
+    module index = 212
+    kind:          (static pubdef) (data)

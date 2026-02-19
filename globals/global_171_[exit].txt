@@ -1,0 +1,28 @@
+  Name:  __null_int23_exit_
+    address      = 0001:0008735A
+    module index = 171
+    kind:          (code)
+  Name:  _null_exit_rtn_
+    address      = 0001:0008735A
+    module index = 171
+    kind:          (static pubdef) (code)
+  Name:  exit_
+    address      = 0001:0008735B
+    module index = 171
+    kind:          (code)
+  Name:  _exit_
+    address      = 0001:00087373
+    module index = 171
+    kind:          (code)
+  Name:  ___atexit
+    address      = 0002:00013564
+    module index = 171
+    kind:          (data)
+  Name:  ___int23_exit
+    address      = 0002:00013568
+    module index = 171
+    kind:          (data)
+  Name:  ___FPE_handler_exit
+    address      = 0002:0001356C
+    module index = 171
+    kind:          (data)

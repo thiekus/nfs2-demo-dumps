@@ -1,0 +1,8 @@
+  Name:  _upsdvil
+    address      = 0001:000C5FD0
+    module index = 569
+    kind:          (static pubdef) (code)
+  Name:  _upsdvilsetstate
+    address      = 0001:000C6160
+    module index = 569
+    kind:          (code)

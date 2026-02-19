@@ -1,0 +1,8 @@
+  Name:  __STOSB
+    address      = 0001:000A0AD0
+    module index = 276
+    kind:          (code)
+  Name:  __STOSD
+    address      = 0001:000A0B07
+    module index = 276
+    kind:          (code)

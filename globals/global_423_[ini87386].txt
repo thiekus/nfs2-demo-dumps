@@ -1,0 +1,4 @@
+  Name:  __init_80x87
+    address      = 0001:000BB808
+    module index = 423
+    kind:          (code)

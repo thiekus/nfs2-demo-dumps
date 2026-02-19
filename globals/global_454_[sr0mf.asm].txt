@@ -1,0 +1,16 @@
+  Name:  _rs0mfgetframes
+    address      = 0001:000BD881
+    module index = 454
+    kind:          (code)
+  Name:  _rs0mfsetstate
+    address      = 0001:000BD82C
+    module index = 454
+    kind:          (code)
+  Name:  _rs0mf
+    address      = 0001:000BD8C7
+    module index = 454
+    kind:          (code)
+  Name:  _rs0mfsetpitch
+    address      = 0001:000BD86C
+    module index = 454
+    kind:          (code)

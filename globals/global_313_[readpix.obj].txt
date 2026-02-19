@@ -1,0 +1,8 @@
+  Name:  _readpixel
+    address      = 0001:000A7F20
+    module index = 313
+    kind:          (code)
+  Name:  _readpixelc
+    address      = 0001:000A80BC
+    module index = 313
+    kind:          (code)

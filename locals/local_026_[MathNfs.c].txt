@@ -1,0 +1,361 @@
+ 26) Name:   C:\nfs2\game\common\MathNfs.c
+     Language is C
+     Locals: num = 1, offset = 0000007AH
+     Types:  num = 1, offset = 00000216H
+     Lines:  num = 1, offset = 000003AAH
+
+   *** Locals ***
+   ==============
+      Data 0:  offset 0000D13B
+        0000: SET_BASE_386
+          base = 0001:0002A4AB
+        0008: NEAR_RTN_386
+          start off = 00000000, code size = 00000034, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  39
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Name = "Math_Atan2F16"
+        002F: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "x",  type = 9
+        0035: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "y",  type = 9
+        003B: NEAR_RTN_386
+          start off = 00000034, code size = 000000BC, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  44
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Name = "Math_DistXZ"
+        0060: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "a",  type = 43
+        0066: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "b",  type = 43
+        006C: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "dist",  type = 9
+        0075: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "x",  type = 9
+        007B: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "z",  type = 9
+        0081: NEAR_RTN_386
+          start off = 000000F0, code size = 00000121, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  44
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Name = "Math_Dist3D"
+        00A6: LOCAL
+          address: BP_OFFSET_BYTE( E0 )
+          name = "a",  type = 43
+        00AC: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "b",  type = 43
+        00B2: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "dist",  type = 9
+        00BB: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "dist2",  type = 9
+        00C5: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "x",  type = 9
+        00CB: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "y",  type = 9
+        00D1: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "z",  type = 9
+        00D7: NEAR_RTN_386
+          start off = 00000211, code size = 000001AB, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  39
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Name = "Math_BetterDist"
+        0100: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "a",  type = 9
+        0106: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "b",  type = 9
+        010C: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "x",  type = 9
+        0112: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "y",  type = 9
+        0118: NEAR_RTN_386
+          start off = 000003BC, code size = 00000073, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  50
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Math_MakeUnitMatrix"
+        0142: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "mat",  type = 49
+        014A: NEAR_RTN_386
+          start off = 0000042F, code size = 000000A7, parent off = 0000
+          prologue size = 11,  epilogue size = 8
+          return address offset (from bp) = 0000000C
+          return type:  52
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Parm 3: MULTI_REG(1): ECX
+          Name = "Math_ResolveRotatedVector"
+        0180: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "x",  type = 9
+        0186: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "y",  type = 9
+        018C: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "angle",  type = 9
+        0196: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "newx",  type = 51
+        019F: LOCAL
+          address: BP_OFFSET_BYTE( 10 )
+          name = "newy",  type = 51
+        01A8: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "ds",  type = 9
+        01AF: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "dc",  type = 9
+        01B6: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "a",  type = 9
+        01BC: NEAR_RTN_386
+          start off = 000004D6, code size = 00000097, parent off = 0000
+          prologue size = 12,  epilogue size = 7
+          return address offset (from bp) = 00000010
+          return type:  53
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Name = "Math_FixedSqrtServer"
+        01EC: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "n",  type = 10
+        01F2: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "accuracy",  type = 9
+        01FF: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "hint",  type = 10
+        0208: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "a",  type = 10
+        020E: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "pa",  type = 10
+        0215: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "acc",  type = 9
+        021D: NEAR_RTN_386
+          start off = 0000056D, code size = 000001B8, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  54
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Math_VectorLength"
+        0246: LOCAL
+          address: BP_OFFSET_BYTE( CC )
+          name = "v",  type = 43
+        024C: LOCAL
+          address: BP_OFFSET_BYTE( D0 )
+          name = "vx",  type = 9
+        0253: LOCAL
+          address: BP_OFFSET_BYTE( D4 )
+          name = "vy",  type = 9
+        025A: LOCAL
+          address: BP_OFFSET_BYTE( D8 )
+          name = "vz",  type = 9
+        0261: LOCAL
+          address: BP_OFFSET_BYTE( DC )
+          name = "vx2",  type = 10
+        0269: LOCAL
+          address: BP_OFFSET_BYTE( E0 )
+          name = "vy2",  type = 10
+        0271: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "vz2",  type = 10
+        0279: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "vx2s",  type = 10
+        0282: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "vy2s",  type = 10
+        028B: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "vz2s",  type = 10
+        0294: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "length",  type = 9
+        029F: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "shifts",  type = 9
+        02AA: NEAR_RTN_386
+          start off = 00000725, code size = 000001A4, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  54
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Math_VectorLength2"
+        02D4: LOCAL
+          address: BP_OFFSET_BYTE( CC )
+          name = "v",  type = 43
+        02DA: LOCAL
+          address: BP_OFFSET_BYTE( D0 )
+          name = "vx",  type = 9
+        02E1: LOCAL
+          address: BP_OFFSET_BYTE( D4 )
+          name = "vy",  type = 9
+        02E8: LOCAL
+          address: BP_OFFSET_BYTE( D8 )
+          name = "vz",  type = 9
+        02EF: LOCAL
+          address: BP_OFFSET_BYTE( DC )
+          name = "vx2",  type = 10
+        02F7: LOCAL
+          address: BP_OFFSET_BYTE( E0 )
+          name = "vy2",  type = 10
+        02FF: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "vz2",  type = 10
+        0307: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "vx2s",  type = 10
+        0310: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "vy2s",  type = 10
+        0319: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "vz2s",  type = 10
+        0322: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "length2",  type = 9
+        032E: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "shifts",  type = 9
+        0339: NEAR_RTN_386
+          start off = 000008C9, code size = 000001F5, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  55
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Math_NormalizeVector"
+        0364: LOCAL
+          address: BP_OFFSET_BYTE( D4 )
+          name = "v",  type = 43
+        036A: LOCAL
+          address: BP_OFFSET_BYTE( D8 )
+          name = "vx",  type = 9
+        0371: LOCAL
+          address: BP_OFFSET_BYTE( DC )
+          name = "vy",  type = 9
+        0378: LOCAL
+          address: BP_OFFSET_BYTE( E0 )
+          name = "vz",  type = 9
+        037F: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "vx2",  type = 10
+        0387: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "vy2",  type = 10
+        038F: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "vz2",  type = 10
+        0397: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "vx2s",  type = 10
+        03A0: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "vy2s",  type = 10
+        03A9: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "vz2s",  type = 10
+        03B2: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "length",  type = 9
+        03BD: NEAR_RTN_386
+          start off = 00000ABE, code size = 000000F5, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  55
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Math_NormalizeShortVector"
+        03ED: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "v",  type = 43
+        03F3: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "sum",  type = 9
+        03FB: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "inverse",  type = 9
+        0407: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "length",  type = 9
+        0412: NEAR_RTN_386
+          start off = 00000BB3, code size = 0000001A, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  56
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Math_DumpFixed"
+        0437: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "x",  type = 9
+        043D: NEAR_RTN_386
+          start off = 00000BCD, code size = 00000017, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  57
+          return value: <none>
+          Name = "Math_DumpVector"
+        0461: LOCAL
+          address: BP_OFFSET_BYTE( 1C )
+          name = "v",  type = 42
+        0467: NEAR_RTN_386
+          start off = 00000BE4, code size = 0000008E, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  58
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Name = "Math_MakeRotMatY"
+        0490: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "dest",  type = 49
+        0499: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "operaAngle",  type = 9
+

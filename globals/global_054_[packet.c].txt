@@ -1,0 +1,100 @@
+  Name:  _gIndexedPktConns
+    address      = 0002:000464DC
+    module index = 54
+    kind:          (data)
+  Name:  _RemoteConn
+    address      = 0002:000464FC
+    module index = 54
+    kind:          (data)
+  Name:  _gotgPlayers
+    address      = 0002:0004681C
+    module index = 54
+    kind:          (static pubdef) (data)
+  Name:  PACKET_Send_
+    address      = 0001:00048F56
+    module index = 54
+    kind:          (code)
+  Name:  PACKET_InitGlobals_
+    address      = 0001:0004924C
+    module index = 54
+    kind:          (code)
+  Name:  PACKET_InitCallBacks_
+    address      = 0001:00049297
+    module index = 54
+    kind:          (code)
+  Name:  _PACKET_Receive_CALLBACK
+    address      = 0001:000492D9
+    module index = 54
+    kind:          (code)
+  Name:  _PACKET_ConnClosed_CALLBACK
+    address      = 0001:00049362
+    module index = 54
+    kind:          (code)
+  Name:  _PACKET_UserAbort_CALLBACK
+    address      = 0001:000493C3
+    module index = 54
+    kind:          (code)
+  Name:  PACKET_Initialize_
+    address      = 0001:0004941D
+    module index = 54
+    kind:          (code)
+  Name:  PACKET_UserAbortConnection_
+    address      = 0001:000494D0
+    module index = 54
+    kind:          (code)
+  Name:  PACKET_Disconnect_
+    address      = 0001:00049516
+    module index = 54
+    kind:          (code)
+  Name:  PACKET_GetCompressedIndex_
+    address      = 0001:0004955A
+    module index = 54
+    kind:          (code)
+  Name:  PACKET_GetStaticIndex_
+    address      = 0001:000495B7
+    module index = 54
+    kind:          (code)
+  Name:  PACKET_SetIndexes_
+    address      = 0001:0004960E
+    module index = 54
+    kind:          (code)
+  Name:  PACKET_UpdatePlayers_CALLBACK_
+    address      = 0001:0004977A
+    module index = 54
+    kind:          (code)
+  Name:  PACKET_GetPlayers_
+    address      = 0001:00049816
+    module index = 54
+    kind:          (code)
+  Name:  PACKET_CheckPoint_
+    address      = 0001:0004986F
+    module index = 54
+    kind:          (code)
+  Name:  PACKET_Checkpoint_CALLBACK_
+    address      = 0001:00049AD0
+    module index = 54
+    kind:          (code)
+  Name:  _menucom_playerdata_mutex
+    address      = 0002:0000EF4C
+    module index = 54
+    kind:          (data)
+  Name:  _packet_chkpnt_mutex
+    address      = 0002:0000EF50
+    module index = 54
+    kind:          (data)
+  Name:  _PacketCallBacks
+    address      = 0002:0000EF54
+    module index = 54
+    kind:          (data)
+  Name:  _gSendPktFailed
+    address      = 0002:00046820
+    module index = 54
+    kind:          (data)
+  Name:  _gComState
+    address      = 0002:00046824
+    module index = 54
+    kind:          (data)
+  Name:  _gPlayers
+    address      = 0002:0004685F
+    module index = 54
+    kind:          (data)

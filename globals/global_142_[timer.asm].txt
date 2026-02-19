@@ -1,0 +1,36 @@
+  Name:  _setticks
+    address      = 0001:00083CAF
+    module index = 142
+    kind:          (code)
+  Name:  _timedwait
+    address      = 0001:00083CDD
+    module index = 142
+    kind:          (code)
+  Name:  _testticks
+    address      = 0001:00083CCD
+    module index = 142
+    kind:          (code)
+  Name:  _tickset
+    address      = 0002:000131C0
+    module index = 142
+    kind:          (data)
+  Name:  _resettick
+    address      = 0001:00083CA7
+    module index = 142
+    kind:          (code)
+  Name:  _tickcount
+    address      = 0001:00083C8A
+    module index = 142
+    kind:          (code)
+  Name:  _elapsedticks
+    address      = 0001:00083C94
+    module index = 142
+    kind:          (code)
+  Name:  _gettick
+    address      = 0001:00083C84
+    module index = 142
+    kind:          (code)
+  Name:  _waitticks
+    address      = 0001:00083CBF
+    module index = 142
+    kind:          (code)

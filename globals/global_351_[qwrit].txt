@@ -1,0 +1,4 @@
+  Name:  __qwrite_
+    address      = 0001:000B0817
+    module index = 351
+    kind:          (code)

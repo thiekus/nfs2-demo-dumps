@@ -1,0 +1,68 @@
+  Name:  AudioClc_SoundCars_
+    address      = 0001:0000F021
+    module index = 6
+    kind:          (code)
+  Name:  AudioClc_InitSource_
+    address      = 0001:0000F152
+    module index = 6
+    kind:          (code)
+  Name:  AudioClc_StartUp_
+    address      = 0001:0000F1BB
+    module index = 6
+    kind:          (code)
+  Name:  AudioClc_ClearSource_
+    address      = 0001:0000F2BC
+    module index = 6
+    kind:          (code)
+  Name:  AudioClc_HonkHorn_
+    address      = 0001:0000F36A
+    module index = 6
+    kind:          (code)
+  Name:  AudioClc_SoundPlayersCar_
+    address      = 0001:0000F3FF
+    module index = 6
+    kind:          (code)
+  Name:  AudioClc_SoundOpponentHorn_
+    address      = 0001:0000F835
+    module index = 6
+    kind:          (code)
+  Name:  AudioClc_SoundCloseCar_
+    address      = 0001:0000F937
+    module index = 6
+    kind:          (code)
+  Name:  AudioClc_GetClosestCars_
+    address      = 0001:0000FD1D
+    module index = 6
+    kind:          (code)
+  Name:  AudioClc_CalcDopplerShiftRatio_
+    address      = 0001:000100A1
+    module index = 6
+    kind:          (code)
+  Name:  AudioClc_CalcPanningVector_
+    address      = 0001:00010281
+    module index = 6
+    kind:          (code)
+  Name:  _AudioClc_gView
+    address      = 0002:0001C8F8
+    module index = 6
+    kind:          (data)
+  Name:  _AudioClc_gHornOff
+    address      = 0002:0001C9E8
+    module index = 6
+    kind:          (data)
+  Name:  _AudioClc_gHornCount
+    address      = 0002:0001C9EC
+    module index = 6
+    kind:          (data)
+  Name:  _AudioClc_gHornCar
+    address      = 0002:0001C9F0
+    module index = 6
+    kind:          (data)
+  Name:  _AudioClc_gHornOn
+    address      = 0002:0001C9F4
+    module index = 6
+    kind:          (data)
+  Name:  _AudioClc_gHorn
+    address      = 0002:0001C9F8
+    module index = 6
+    kind:          (data)

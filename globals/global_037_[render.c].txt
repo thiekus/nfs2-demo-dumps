@@ -1,0 +1,136 @@
+  Name:  Render_ResetTm_
+    address      = 0001:0003DC26
+    module index = 37
+    kind:          (code)
+  Name:  Render_AllocateTm_
+    address      = 0001:0003DC45
+    module index = 37
+    kind:          (code)
+  Name:  Render_FreeTm_
+    address      = 0001:0003DC7A
+    module index = 37
+    kind:          (code)
+  Name:  Render_GetTm_
+    address      = 0001:0003DCA3
+    module index = 37
+    kind:          (code)
+  Name:  Render_LocateTm_
+    address      = 0001:0003DCF8
+    module index = 37
+    kind:          (code)
+  Name:  Render_NilListFacet_
+    address      = 0001:0003DD44
+    module index = 37
+    kind:          (code)
+  Name:  Render_SetUnicFacet_
+    address      = 0001:0003DD7C
+    module index = 37
+    kind:          (code)
+  Name:  Render_MergeListFacet_
+    address      = 0001:0003DDC5
+    module index = 37
+    kind:          (code)
+  Name:  Render_InitListFacet_
+    address      = 0001:0003DE20
+    module index = 37
+    kind:          (code)
+  Name:  Render_AddFacet_
+    address      = 0001:0003DE49
+    module index = 37
+    kind:          (code)
+  Name:  Render_FetchListFacet_
+    address      = 0001:0003DEB2
+    module index = 37
+    kind:          (code)
+  Name:  Render_Render3DView_
+    address      = 0001:0003DF01
+    module index = 37
+    kind:          (code)
+  Name:  Render_RenderView_
+    address      = 0001:0003DFAB
+    module index = 37
+    kind:          (code)
+  Name:  Render_StartFrameRender_
+    address      = 0001:0003E08B
+    module index = 37
+    kind:          (code)
+  Name:  Render_StopFrameRender_
+    address      = 0001:0003E0AF
+    module index = 37
+    kind:          (code)
+  Name:  Render_StartPauseMenu_
+    address      = 0001:0003E0CE
+    module index = 37
+    kind:          (code)
+  Name:  Render_StopPauseMenu_
+    address      = 0001:0003E0F2
+    module index = 37
+    kind:          (code)
+  Name:  Render_Render_
+    address      = 0001:0003E116
+    module index = 37
+    kind:          (code)
+  Name:  Render_Debug_
+    address      = 0001:0003E273
+    module index = 37
+    kind:          (code)
+  Name:  Render_InitTrackRender_
+    address      = 0001:0003E2B6
+    module index = 37
+    kind:          (code)
+  Name:  Render_RestartTrackRender_
+    address      = 0001:0003E307
+    module index = 37
+    kind:          (code)
+  Name:  Render_InitTrackRenderPostSim_
+    address      = 0001:0003E335
+    module index = 37
+    kind:          (code)
+  Name:  Render_KillTrackRender_
+    address      = 0001:0003E363
+    module index = 37
+    kind:          (code)
+  Name:  Render_InitLibRender_
+    address      = 0001:0003E3AF
+    module index = 37
+    kind:          (code)
+  Name:  Render_KillLibRender_
+    address      = 0001:0003E3CE
+    module index = 37
+    kind:          (code)
+  Name:  _gDebugRender
+    address      = 0002:0000EDCC
+    module index = 37
+    kind:          (data)
+  Name:  _gLf
+    address      = 0002:000248B0
+    module index = 37
+    kind:          (data)
+  Name:  _gSTm
+    address      = 0002:000248B8
+    module index = 37
+    kind:          (data)
+  Name:  _gLastRenderFacet
+    address      = 0002:000248BC
+    module index = 37
+    kind:          (data)
+  Name:  _gFirstRenderFacet
+    address      = 0002:000248C0
+    module index = 37
+    kind:          (data)
+  Name:  _gPauseRender
+    address      = 0002:000248C4
+    module index = 37
+    kind:          (data)
+  Name:  _gOTm
+    address      = 0002:000248C8
+    module index = 37
+    kind:          (data)
+  Name:  _gTm
+    address      = 0002:000248CC
+    module index = 37
+    kind:          (data)
+  Name:  _gCView
+    address      = 0002:000248D0
+    module index = 37
+    kind:          (data)

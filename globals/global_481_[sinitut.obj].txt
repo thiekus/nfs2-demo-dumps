@@ -1,0 +1,4 @@
+  Name:  SNDinitcodecmicrotalk_
+    address      = 0001:000BFAD0
+    module index = 481
+    kind:          (code)

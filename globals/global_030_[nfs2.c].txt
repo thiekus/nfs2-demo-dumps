@@ -1,0 +1,112 @@
+  Name:  _gGameSetupIsUnstable
+    address      = 0002:0000D82C
+    module index = 30
+    kind:          (data)
+  Name:  _gMusicInSimIsOn
+    address      = 0002:0000D830
+    module index = 30
+    kind:          (data)
+  Name:  _gSaveTournament
+    address      = 0002:0000D831
+    module index = 30
+    kind:          (data)
+  Name:  _gSaveKnockout
+    address      = 0002:0000D835
+    module index = 30
+    kind:          (data)
+  Name:  _gCheckTotalTime
+    address      = 0002:0000D839
+    module index = 30
+    kind:          (data)
+  Name:  _gCheckLapTime
+    address      = 0002:0000D83A
+    module index = 30
+    kind:          (data)
+  Name:  _gUpdateTournamentInfoFlag
+    address      = 0002:0000D83B
+    module index = 30
+    kind:          (data)
+  Name:  _gUpdateKnockoutInfoFlag
+    address      = 0002:0000D83C
+    module index = 30
+    kind:          (data)
+  Name:  Nfs2_SystemNLibStartUp_
+    address      = 0001:0002FDED
+    module index = 30
+    kind:          (code)
+  Name:  Nfs2_SystemNLibCleanUp_
+    address      = 0001:0002FE11
+    module index = 30
+    kind:          (code)
+  Name:  Nfs2_BefuddleCode_
+    address      = 0001:0002FE30
+    module index = 30
+    kind:          (code)
+  Name:  Nfs2_ChangeExtension_
+    address      = 0001:0002FE77
+    module index = 30
+    kind:          (code)
+  Name:  Nfs2_ResetGame_
+    address      = 0001:0002FEA2
+    module index = 30
+    kind:          (code)
+  Name:  Nfs2_GameModuleStartUp_
+    address      = 0001:0002FED0
+    module index = 30
+    kind:          (code)
+  Name:  Nfs2_CleanUpGameModule_
+    address      = 0001:00030009
+    module index = 30
+    kind:          (code)
+  Name:  main_
+    address      = 0001:000300EA
+    module index = 30
+    kind:          (code)
+  Name:  _gKnockOutSpeechFlag
+    address      = 0002:0000D83D
+    module index = 30
+    kind:          (data)
+  Name:  _gPlayerEnteredNameAlready
+    address      = 0002:0000D83E
+    module index = 30
+    kind:          (data)
+  Name:  _gPasscodeHasBeenDisplayed
+    address      = 0002:0000D840
+    module index = 30
+    kind:          (data)
+  Name:  _Front_RandomAINameSeed
+    address      = 0002:0000D841
+    module index = 30
+    kind:          (data)
+  Name:  _befuddleExtensions
+    address      = 0002:0000D845
+    module index = 30
+    kind:          (data)
+  Name:  _finishOrder
+    address      = 0002:00023E38
+    module index = 30
+    kind:          (data)
+  Name:  _gSaveKnockout_alloc
+    address      = 0002:00023E40
+    module index = 30
+    kind:          (data)
+  Name:  _gTournamentFinishOrder
+    address      = 0002:00023E50
+    module index = 30
+    kind:          (data)
+  Name:  _nfs_sysInfo
+    address      = 0002:00023E5C
+    module index = 30
+    kind:          (data)
+  Name:  _befuddleTemp
+    address      = 0002:00023E68
+    module index = 30
+    kind:          (data)
+  Name:  _frontEnd
+    address      = 0002:00023E72
+    module index = 30
+    kind:          (data)
+  Name:  _gSaveTournament_alloc
+    address      = 0002:0002410B
+    module index = 30
+    kind:          (data)

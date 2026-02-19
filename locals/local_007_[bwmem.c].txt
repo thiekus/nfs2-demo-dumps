@@ -1,0 +1,310 @@
+  7) Name:   C:\nfs2\game\common\bwmem.c
+     Language is C
+     Locals: num = 1, offset = 0000002EH
+     Types:  num = 1, offset = 000001CAH
+     Lines:  num = 1, offset = 00000362H
+
+   *** Locals ***
+   ==============
+      Data 0:  offset 000055CC
+        0000: MODULE_386
+          "Mem_data" addr = 0002:0001C9FC,  type = 45
+        0011: SET_BASE_386
+          base = 0001:000104D4
+        0019: NEAR_RTN_386
+          start off = 00000000, code size = 0000010D, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  46
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Name = "Mem_Init"
+        003B: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "size",  type = 9
+        0044: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "numEntries",  type = 9
+        0053: NEAR_RTN_386
+          start off = 0000010D, code size = 00000023, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  23
+          return value: <none>
+          Name = "Mem_DeInit"
+        0072: NEAR_RTN_386
+          start off = 00000130, code size = 00000108, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  47
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Mem_Alloc"
+        0093: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "memSize",  type = 9
+        009F: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "neededSize",  type = 9
+        00AE: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "bp",  type = 43
+        00B5: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "retBp",  type = 43
+        00BF: NEAR_RTN_386
+          start off = 00000238, code size = 0000004A, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  48
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "UnlinkBlock"
+        00E1: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "block",  type = 43
+        00EB: NEAR_RTN_386
+          start off = 00000282, code size = 0000005A, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  49
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Name = "InsertBlockBefore"
+        0115: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "block",  type = 43
+        011F: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "list",  type = 43
+        0128: NEAR_RTN_386
+          start off = 000002DC, code size = 0000005A, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  49
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Name = "InsertBlockAfter"
+        0151: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "block",  type = 43
+        015B: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "list",  type = 43
+        0164: NEAR_RTN_386
+          start off = 00000336, code size = 0000005D, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  49
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Name = "InsertBlockSorted"
+        018E: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "block",  type = 43
+        0198: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "list",  type = 43
+        01A1: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "bp",  type = 43
+        01A8: NEAR_RTN_386
+          start off = 00000393, code size = 0000009D, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  50
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Mem_Free"
+        01C8: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "mem",  type = 13
+        01D0: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "bp",  type = 43
+        01D7: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "freed",  type = 9
+        01E1: NEAR_RTN_386
+          start off = 00000430, code size = 00000056, parent off = 0000
+          prologue size = 12,  epilogue size = 7
+          return address offset (from bp) = 00000010
+          return type:  51
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Name = "Mem_FindBlock"
+        020A: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "mem",  type = 13
+        0212: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "file",  type = 13
+        021B: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "line",  type = 9
+        0224: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "bp",  type = 43
+        022B: NEAR_RTN_386
+          start off = 00000486, code size = 00000038, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  48
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "DumpList"
+        024A: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "list",  type = 43
+        0253: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "i",  type = 9
+        0259: NEAR_RTN_386
+          start off = 000004BE, code size = 0000006E, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  23
+          return value: <none>
+          Name = "DumpAllBlocks"
+        027B: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "free",  type = 43
+        0284: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "used",  type = 43
+        028D: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "i",  type = 9
+        0293: NEAR_RTN_386
+          start off = 0000052C, code size = 0000001F, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  23
+          return value: <none>
+          Name = "DumpFreeList"
+        02B4: NEAR_RTN_386
+          start off = 0000054B, code size = 0000001F, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  23
+          return value: <none>
+          Name = "DumpUsedList"
+        02D5: NEAR_RTN_386
+          start off = 0000056A, code size = 000000A9, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  52
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Mem_MergeBlocks"
+        02FC: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "list",  type = 43
+        0305: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "bp",  type = 43
+        030C: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "freeCount",  type = 9
+        031A: NEAR_RTN_386
+          start off = 00000613, code size = 0000002D, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  53
+          return value: MULTI_REG(1): EAX
+          Name = "Mem_MergeBlocksX"
+        0340: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "ret",  type = 9
+        0348: NEAR_RTN_386
+          start off = 00000640, code size = 0000006B, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  55
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Name = "Mem_TrackFreeMem"
+        0371: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "freeMem",  type = 54
+        037D: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "numBlocks",  type = 54
+        038B: LOCAL
+          address: CONST_ADDR386( 0002:0000C47C )
+          name = "maxFreeBlocks",  type = 9
+        03A2: LOCAL
+          address: CONST_ADDR386( 0002:0000C480 )
+          name = "minFreeMem",  type = 9
+        03B6: NEAR_RTN_386
+          start off = 000006AB, code size = 000000BB, parent off = 0000
+          prologue size = 12,  epilogue size = 7
+          return address offset (from bp) = 00000010
+          return type:  56
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Name = "Mem_CheckListIntegrity"
+        03E8: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "testList",  type = 43
+        03F5: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "numBytes",  type = 54
+        0402: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "numBlocks",  type = 54
+        0410: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "i",  type = 9
+        0416: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "list",  type = 43
+        041F: NEAR_RTN_386
+          start off = 00000766, code size = 00000176, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  57
+          return value: MULTI_REG(1): EAX
+          Name = "Mem_CompactBlock"
+        0445: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "freeBp",  type = 43
+        0450: LOCAL
+          address: BP_OFFSET_BYTE( D8 )
+          name = "oldFreeBlock",  type = 42
+        0461: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "newFreeBp",  type = 43
+        046F: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "usedBp",  type = 43
+        047A: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "destPos",  type = 13
+        0486: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "ret",  type = 9
+        048E: NEAR_RTN_386
+          start off = 000008DC, code size = 00000034, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  23
+          return value: <none>
+          Name = "Mem_CompactMem"
+        04B1: NEAR_RTN_386
+          start off = 00000910, code size = 0000002E, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  23
+          return value: <none>
+          Name = "Mem_CompactMemPartial"
+

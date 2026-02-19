@@ -1,0 +1,32 @@
+  Name:  __CInitThread_
+    address      = 0001:000C7BD3
+    module index = 588
+    kind:          (static pubdef) (code)
+  Name:  _beginthread_
+    address      = 0001:000C7BD6
+    module index = 588
+    kind:          (code)
+  Name:  _endthread_
+    address      = 0001:000C7BDD
+    module index = 588
+    kind:          (code)
+  Name:  __initthread_
+    address      = 0001:000C7BE4
+    module index = 588
+    kind:          (code)
+  Name:  __RegisterThreadData_
+    address      = 0001:000C7BEB
+    module index = 588
+    kind:          (code)
+  Name:  ___BeginThread
+    address      = 0002:000171BC
+    module index = 588
+    kind:          (static pubdef) (data)
+  Name:  ___EndThread
+    address      = 0002:000171C0
+    module index = 588
+    kind:          (static pubdef) (data)
+  Name:  ___InitThread
+    address      = 0002:000171C4
+    module index = 588
+    kind:          (static pubdef) (data)

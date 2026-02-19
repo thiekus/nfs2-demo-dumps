@@ -1,0 +1,308 @@
+  Name:  _speechPlaying
+    address      = 0002:0001C6E8
+    module index = 5
+    kind:          (data)
+  Name:  _gaChannel
+    address      = 0002:0001C6F0
+    module index = 5
+    kind:          (data)
+  Name:  _currentWindVal
+    address      = 0002:0001C7B0
+    module index = 5
+    kind:          (data)
+  Name:  _fMysticWindON
+    address      = 0002:0001C7D0
+    module index = 5
+    kind:          (data)
+  Name:  _PlayersRampedGasLevel
+    address      = 0002:0001C7D8
+    module index = 5
+    kind:          (static pubdef) (data)
+  Name:  _gSndBnk
+    address      = 0002:0001C7F8
+    module index = 5
+    kind:          (data)
+  Name:  _gtotallaptimes
+    address      = 0002:0001C840
+    module index = 5
+    kind:          (data)
+  Name:  _nextWindVal
+    address      = 0002:0001C860
+    module index = 5
+    kind:          (data)
+  Name:  _bestLapTime
+    address      = 0002:0001C880
+    module index = 5
+    kind:          (data)
+  Name:  _queueFinalLap
+    address      = 0002:0001C8A0
+    module index = 5
+    kind:          (data)
+  Name:  _trackRegion
+    address      = 0002:0001C8A8
+    module index = 5
+    kind:          (data)
+  Name:  _gSimSpchHandle
+    address      = 0002:0001C8B0
+    module index = 5
+    kind:          (data)
+  Name:  _currentLap
+    address      = 0002:0001C8D0
+    module index = 5
+    kind:          (data)
+  Name:  _carbankname
+    address      = 0002:0001C8D8
+    module index = 5
+    kind:          (data)
+  Name:  _nextWindPan
+    address      = 0002:0001C8E4
+    module index = 5
+    kind:          (data)
+  Name:  _currentWindPan
+    address      = 0002:0001C8E8
+    module index = 5
+    kind:          (data)
+  Name:  _gBankNumLookupTable
+    address      = 0002:0000C214
+    module index = 5
+    kind:          (data)
+  Name:  _trackMusicState
+    address      = 0002:0000C270
+    module index = 5
+    kind:          (data)
+  Name:  _currentintensity
+    address      = 0002:0000C271
+    module index = 5
+    kind:          (data)
+  Name:  _gMusicStyle
+    address      = 0002:0000C272
+    module index = 5
+    kind:          (data)
+  Name:  _countdown
+    address      = 0002:0000C276
+    module index = 5
+    kind:          (data)
+  Name:  _FadingMusic
+    address      = 0002:0000C277
+    module index = 5
+    kind:          (data)
+  Name:  _StartedNewMusic
+    address      = 0002:0000C278
+    module index = 5
+    kind:          (data)
+  Name:  _recordLapTime
+    address      = 0002:0000C279
+    module index = 5
+    kind:          (data)
+  Name:  _MusOn
+    address      = 0002:0000C27D
+    module index = 5
+    kind:          (data)
+  Name:  _SFXOn
+    address      = 0002:0000C27E
+    module index = 5
+    kind:          (data)
+  Name:  _AudioCmn_kAudioOn
+    address      = 0002:0000C27F
+    module index = 5
+    kind:          (data)
+  Name:  _AudioCmn_kAudioStreamingOn
+    address      = 0002:0000C283
+    module index = 5
+    kind:          (data)
+  Name:  _gameSFXvol
+    address      = 0002:0000C287
+    module index = 5
+    kind:          (data)
+  Name:  _gMasterFEMusicLevel
+    address      = 0002:0000C28B
+    module index = 5
+    kind:          (data)
+  Name:  _gMasterMusicLevel
+    address      = 0002:0000C28F
+    module index = 5
+    kind:          (data)
+  Name:  _gMasterSFXLevel
+    address      = 0002:0000C293
+    module index = 5
+    kind:          (data)
+  Name:  _previousSFXLevel
+    address      = 0002:0000C297
+    module index = 5
+    kind:          (data)
+  Name:  _AudioCmn_musicInteractive
+    address      = 0002:0000C29B
+    module index = 5
+    kind:          (data)
+  Name:  _gFEmusicON
+    address      = 0002:0000C29F
+    module index = 5
+    kind:          (data)
+  Name:  _NumSFXOn
+    address      = 0002:0000C2A3
+    module index = 5
+    kind:          (data)
+  Name:  _gStereoMode
+    address      = 0002:0000C2A7
+    module index = 5
+    kind:          (data)
+  Name:  _fReverbOn
+    address      = 0002:0000C2AB
+    module index = 5
+    kind:          (data)
+  Name:  _rand_256
+    address      = 0002:0000C2AC
+    module index = 5
+    kind:          (data)
+  Name:  _Xfade
+    address      = 0002:0000C3AC
+    module index = 5
+    kind:          (data)
+  Name:  AudioCmn_GetTrackRecordLapTime_
+    address      = 0001:0000AD37
+    module index = 5
+    kind:          (code)
+  Name:  AudioCmn_Init_
+    address      = 0001:0000AD5F
+    module index = 5
+    kind:          (code)
+  Name:  AudioCmn_DeInit_
+    address      = 0001:0000AE56
+    module index = 5
+    kind:          (code)
+  Name:  AudioCmn_CheckState_
+    address      = 0001:0000AEF8
+    module index = 5
+    kind:          (code)
+  Name:  AudioCmn_LoadFESamples_
+    address      = 0001:0000B771
+    module index = 5
+    kind:          (code)
+  Name:  AudioCmn_LoadGameSamples_
+    address      = 0001:0000B7AD
+    module index = 5
+    kind:          (code)
+  Name:  AudioCmn_InitChannelArray_
+    address      = 0001:0000BD6E
+    module index = 5
+    kind:          (code)
+  Name:  AudioCmn_InitLoopedCarSounds_
+    address      = 0001:0000BDBE
+    module index = 5
+    kind:          (code)
+  Name:  scaleFrequency_
+    address      = 0001:0000BFAD
+    module index = 5
+    kind:          (code)
+  Name:  ChooseImpactSample_
+    address      = 0001:0000C082
+    module index = 5
+    kind:          (code)
+  Name:  ChooseLoopedSample_
+    address      = 0001:0000C42B
+    module index = 5
+    kind:          (code)
+  Name:  AudioCmn_SFX_
+    address      = 0001:0000C4E5
+    module index = 5
+    kind:          (code)
+  Name:  freeVoiceChannel_
+    address      = 0001:0000C7D6
+    module index = 5
+    kind:          (code)
+  Name:  AudioCmn_PlayTrackSFX_
+    address      = 0001:0000C851
+    module index = 5
+    kind:          (code)
+  Name:  AudioCmn_PlaySFX_
+    address      = 0001:0000C8D7
+    module index = 5
+    kind:          (code)
+  Name:  AudioCmn_SoundCar_
+    address      = 0001:0000CBB4
+    module index = 5
+    kind:          (code)
+  Name:  AudioCmn_TrafficSFX_
+    address      = 0001:0000E811
+    module index = 5
+    kind:          (code)
+  Name:  AudioCmn_TrafficSkidSFX_
+    address      = 0001:0000E9DF
+    module index = 5
+    kind:          (code)
+  Name:  AudioCmn_PlayerHornOn_
+    address      = 0001:0000EA84
+    module index = 5
+    kind:          (code)
+  Name:  AudioCmn_PlayerHornOff_
+    address      = 0001:0000EB51
+    module index = 5
+    kind:          (code)
+  Name:  AudioCmn_PlayFESFX_
+    address      = 0001:0000EB9B
+    module index = 5
+    kind:          (code)
+  Name:  AudioCmn_PlayWrongWaySFX_
+    address      = 0001:0000EBEC
+    module index = 5
+    kind:          (code)
+  Name:  AudioCmn_PlaySound_
+    address      = 0001:0000EC3F
+    module index = 5
+    kind:          (code)
+  Name:  AudioCmn_PanToAzimuth_
+    address      = 0001:0000ED53
+    module index = 5
+    kind:          (code)
+  Name:  AudioCmn_Pause_
+    address      = 0001:0000EDB7
+    module index = 5
+    kind:          (code)
+  Name:  AudioCmn_UnPause_
+    address      = 0001:0000EDD3
+    module index = 5
+    kind:          (code)
+  Name:  AudioCmn_FEUnPause_
+    address      = 0001:0000EE0B
+    module index = 5
+    kind:          (code)
+  Name:  AudioCmn_UnPauseAndQuit_
+    address      = 0001:0000EE4B
+    module index = 5
+    kind:          (code)
+  Name:  AudioCmn_UnPauseAndRestart_
+    address      = 0001:0000EEA5
+    module index = 5
+    kind:          (code)
+  Name:  AudioCmn_InitReverb_
+    address      = 0001:0000EF04
+    module index = 5
+    kind:          (code)
+  Name:  AudioCmn_ReverbOn_
+    address      = 0001:0000EF3A
+    module index = 5
+    kind:          (code)
+  Name:  AudioCmn_ReverbOff_
+    address      = 0001:0000EF5B
+    module index = 5
+    kind:          (code)
+  Name:  AudioCmn_ToggleMusicOnOff_
+    address      = 0001:0000EF79
+    module index = 5
+    kind:          (code)
+  Name:  AudioCmn_ToggleSFXOnOff_
+    address      = 0001:0000EFD5
+    module index = 5
+    kind:          (code)
+  Name:  _SkidInitMaxFreq
+    address      = 0002:0000C42D
+    module index = 5
+    kind:          (static pubdef) (data)
+  Name:  _tempVol
+    address      = 0002:0001C8EC
+    module index = 5
+    kind:          (data)
+  Name:  _GregsSeed
+    address      = 0002:0001C8F0
+    module index = 5
+    kind:          (data)

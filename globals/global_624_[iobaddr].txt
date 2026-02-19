@@ -1,0 +1,4 @@
+  Name:  __get_std_stream_
+    address      = 0001:000CAFBF
+    module index = 624
+    kind:          (code)

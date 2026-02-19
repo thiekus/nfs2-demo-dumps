@@ -1,0 +1,12 @@
+  Name:  _mixm16setvolmmx
+    address      = 0001:000BE5C0
+    module index = 465
+    kind:          (code)
+  Name:  _mixm16setstatemmx
+    address      = 0001:000BE59C
+    module index = 465
+    kind:          (code)
+  Name:  _mixm16mmx
+    address      = 0001:000BE5F9
+    module index = 465
+    kind:          (code)

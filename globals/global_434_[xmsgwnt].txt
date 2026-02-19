@@ -1,0 +1,8 @@
+  Name:  __exit_with_msg_
+    address      = 0001:000BC760
+    module index = 434
+    kind:          (code)
+  Name:  __fatal_runtime_error_
+    address      = 0001:000BC797
+    module index = 434
+    kind:          (code)

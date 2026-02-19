@@ -1,0 +1,4 @@
+  Name:  _printfb
+    address      = 0001:000A8AD0
+    module index = 320
+    kind:          (code)

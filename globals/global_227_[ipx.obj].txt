@@ -1,0 +1,100 @@
+  Name:  winipx2eacipx_
+    address      = 0001:00096CA0
+    module index = 227
+    kind:          (code)
+  Name:  eacipx2winipx_
+    address      = 0001:00096CE0
+    module index = 227
+    kind:          (code)
+  Name:  broadcast2winipx_
+    address      = 0001:00096D24
+    module index = 227
+    kind:          (code)
+  Name:  readwinsockbuffer_
+    address      = 0001:00096D70
+    module index = 227
+    kind:          (static pubdef) (code)
+  Name:  sendserverrequest_
+    address      = 0001:00096E6C
+    module index = 227
+    kind:          (code)
+  Name:  _filter_qfunc
+    address      = 0001:00096EB4
+    module index = 227
+    kind:          (static pubdef) (code)
+  Name:  _flush_qfunc
+    address      = 0001:00096EEC
+    module index = 227
+    kind:          (static pubdef) (code)
+  Name:  ipxinit_
+    address      = 0001:00096F2C
+    module index = 227
+    kind:          (static pubdef) (code)
+  Name:  ipxclose_
+    address      = 0001:00096F68
+    module index = 227
+    kind:          (static pubdef) (code)
+  Name:  ipxopensocket_
+    address      = 0001:00096F7C
+    module index = 227
+    kind:          (static pubdef) (code)
+  Name:  ipxclosesocket_
+    address      = 0001:000971BC
+    module index = 227
+    kind:          (static pubdef) (code)
+  Name:  ipxgetsockkey_
+    address      = 0001:0009724C
+    module index = 227
+    kind:          (static pubdef) (code)
+  Name:  ipxstartserver_
+    address      = 0001:00097264
+    module index = 227
+    kind:          (static pubdef) (code)
+  Name:  ipxstopserver_
+    address      = 0001:00097278
+    module index = 227
+    kind:          (static pubdef) (code)
+  Name:  ipxfindserver_
+    address      = 0001:00097280
+    module index = 227
+    kind:          (static pubdef) (code)
+  Name:  ipxstopsearch_
+    address      = 0001:0009729C
+    module index = 227
+    kind:          (static pubdef) (code)
+  Name:  ipxavailsend_
+    address      = 0001:000972A0
+    module index = 227
+    kind:          (static pubdef) (code)
+  Name:  ipxcmpaddress_
+    address      = 0001:000972A8
+    module index = 227
+    kind:          (static pubdef) (code)
+  Name:  ipxgetaddress_
+    address      = 0001:000972D0
+    module index = 227
+    kind:          (static pubdef) (code)
+  Name:  ipxrecvready_
+    address      = 0001:000972E4
+    module index = 227
+    kind:          (static pubdef) (code)
+  Name:  ipxsend_
+    address      = 0001:00097360
+    module index = 227
+    kind:          (static pubdef) (code)
+  Name:  ipxrecv_
+    address      = 0001:000974E8
+    module index = 227
+    kind:          (static pubdef) (code)
+  Name:  ipxflush_
+    address      = 0001:00097694
+    module index = 227
+    kind:          (static pubdef) (code)
+  Name:  enableipx_
+    address      = 0001:00097700
+    module index = 227
+    kind:          (code)
+  Name:  _ipxservtbl
+    address      = 0002:00013AC8
+    module index = 227
+    kind:          (data)

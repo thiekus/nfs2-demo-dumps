@@ -1,0 +1,148 @@
+  Name:  _IndigoTireSortHackTable
+    address      = 0002:000245D0
+    module index = 36
+    kind:          (data)
+  Name:  _R3DCar_carVisibilityInfo
+    address      = 0002:00024610
+    module index = 36
+    kind:          (static pubdef) (data)
+  Name:  _R3DCar_kLoadedScenePointer
+    address      = 0002:000247D0
+    module index = 36
+    kind:          (data)
+  Name:  _carDrawControlInfo
+    address      = 0002:0000E66C
+    module index = 36
+    kind:          (static pubdef) (data)
+  Name:  _indigoSortHack
+    address      = 0002:0000EB4C
+    module index = 36
+    kind:          (data)
+  Name:  _R3DCar_gPreviousGameTicks
+    address      = 0002:0000EB50
+    module index = 36
+    kind:          (static pubdef) (data)
+  Name:  _R3DCar_kCarFileInfo
+    address      = 0002:0000EB54
+    module index = 36
+    kind:          (data)
+  Name:  _R3DCar_gLocalCarLightingContext
+    address      = 0002:0000EDB8
+    module index = 36
+    kind:          (data)
+  Name:  _R3DCar_gNumCarLoadedGeo
+    address      = 0002:0000EDBA
+    module index = 36
+    kind:          (static pubdef) (data)
+  Name:  _R3DCar_gNumSmackLoadedGeo
+    address      = 0002:0000EDBE
+    module index = 36
+    kind:          (static pubdef) (data)
+  Name:  R3DCar_DoSpoilerActionNull_
+    address      = 0001:0003B164
+    module index = 36
+    kind:          (code)
+  Name:  R3DCar_DoSpoilerActionIsdera_
+    address      = 0001:0003B190
+    module index = 36
+    kind:          (code)
+  Name:  R3DCar_DoSpoilerActionMacF1_
+    address      = 0001:0003B237
+    module index = 36
+    kind:          (code)
+  Name:  R3DCar_DoSpoilerActionGT90_
+    address      = 0001:0003B2ED
+    module index = 36
+    kind:          (code)
+  Name:  R3DCar_GetLightingContext_
+    address      = 0001:0003B366
+    module index = 36
+    kind:          (code)
+  Name:  R3DCar_PitchAndRollCarBody_
+    address      = 0001:0003B3F0
+    module index = 36
+    kind:          (code)
+  Name:  R3DCar_DoSuspensionAnimation_
+    address      = 0001:0003B667
+    module index = 36
+    kind:          (code)
+  Name:  R3DCar_DoRearSuspensionAnimation_
+    address      = 0001:0003B85F
+    module index = 36
+    kind:          (code)
+  Name:  R3DCar_SteerFrontWheels_
+    address      = 0001:0003B88A
+    module index = 36
+    kind:          (code)
+  Name:  R3DCar_ReadInCarData_
+    address      = 0001:0003B9F9
+    module index = 36
+    kind:          (code)
+  Name:  R3DCar_SetZsortPartLinkPriorityMinMaxYawMinMaxPitch_
+    address      = 0001:0003BB56
+    module index = 36
+    kind:          (code)
+  Name:  R3DCar_SetWheelStruct_
+    address      = 0001:0003BBBE
+    module index = 36
+    kind:          (code)
+  Name:  R3DCar_Restart_
+    address      = 0001:0003BCA6
+    module index = 36
+    kind:          (code)
+  Name:  R3DCar_StartUp_
+    address      = 0001:0003BCCF
+    module index = 36
+    kind:          (code)
+  Name:  R3DCar_CleanUp_
+    address      = 0001:0003BD23
+    module index = 36
+    kind:          (code)
+  Name:  R3DCar_LocateAnimWheelFacets_
+    address      = 0001:0003BDE4
+    module index = 36
+    kind:          (code)
+  Name:  R3DCar_LocateBrakelightAnimFacets_
+    address      = 0001:0003BE6B
+    module index = 36
+    kind:          (code)
+  Name:  R3DCar_DeInstantiate3DCar_
+    address      = 0001:0003BEF1
+    module index = 36
+    kind:          (code)
+  Name:  R3DCar_Instantiate3DCar_
+    address      = 0001:0003BF3C
+    module index = 36
+    kind:          (code)
+  Name:  R3DCar_ChangeTrafficColor_
+    address      = 0001:0003CE99
+    module index = 36
+    kind:          (code)
+  Name:  R3DCar_InsertCarFacet_
+    address      = 0001:0003CEF1
+    module index = 36
+    kind:          (code)
+  Name:  R3DCar_SetCarDetailLevel_
+    address      = 0001:0003D3BB
+    module index = 36
+    kind:          (code)
+  Name:  R3DCar_BuildCarVisibilityList_
+    address      = 0001:0003D539
+    module index = 36
+    kind:          (code)
+  Name:  R3DCar_InsertAllListFacet_
+    address      = 0001:0003DABB
+    module index = 36
+    kind:          (code)
+  Name:  _R3DCar_gMaxDynamicRendMemUsed
+    address      = 0002:0000EDC2
+    module index = 36
+    kind:          (data)
+  Name:  _R3DCar_gLargestMaxDynamicRendMemUsed
+    address      = 0002:0000EDC6
+    module index = 36
+    kind:          (data)
+  Name:  _R3DCar_carDetailInfo
+    address      = 0002:0002489C
+    module index = 36
+    kind:          (static pubdef) (data)

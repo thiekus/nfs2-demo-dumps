@@ -1,0 +1,4 @@
+  Name:  _rs50m8upmmx
+    address      = 0001:000C21B8
+    module index = 523
+    kind:          (code)

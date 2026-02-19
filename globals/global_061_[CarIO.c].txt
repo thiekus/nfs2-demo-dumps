@@ -1,0 +1,32 @@
+  Name:  _CarIO_carPixMap
+    address      = 0002:0000F05C
+    module index = 61
+    kind:          (data)
+  Name:  CarIO_WriteCarBinaryGeom_
+    address      = 0001:0004C62F
+    module index = 61
+    kind:          (code)
+  Name:  CarIO_ReadCarAsciiGeom_
+    address      = 0001:0004C87D
+    module index = 61
+    kind:          (code)
+  Name:  CarIO_RemapTextureColor_
+    address      = 0001:0004C8A2
+    module index = 61
+    kind:          (code)
+  Name:  CarIO_ReadInCarTextureData_
+    address      = 0001:0004CA7D
+    module index = 61
+    kind:          (code)
+  Name:  CarIO_StartUp_
+    address      = 0001:0004CDE2
+    module index = 61
+    kind:          (code)
+  Name:  CarIO_CleanUp_
+    address      = 0001:0004CE38
+    module index = 61
+    kind:          (code)
+  Name:  _CarIO_carPixMapCount
+    address      = 0002:0000F060
+    module index = 61
+    kind:          (static pubdef) (data)

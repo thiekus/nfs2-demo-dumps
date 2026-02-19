@@ -1,0 +1,4 @@
+  Name:  _fatantbl
+    address      = 0002:00013FAC
+    module index = 292
+    kind:          (data)

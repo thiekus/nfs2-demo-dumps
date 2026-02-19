@@ -1,0 +1,52 @@
+  Name:  _convertscancode
+    address      = 0001:000830E0
+    module index = 132
+    kind:          (code)
+  Name:  _remotekey
+    address      = 0001:0008318C
+    module index = 132
+    kind:          (code)
+  Name:  _normkey
+    address      = 0001:0008318C
+    module index = 132
+    kind:          (code)
+  Name:  _keysub
+    address      = 0001:00083198
+    module index = 132
+    kind:          (code)
+  Name:  _testkey
+    address      = 0001:000831A4
+    module index = 132
+    kind:          (code)
+  Name:  _inkey
+    address      = 0001:000831B8
+    module index = 132
+    kind:          (code)
+  Name:  _keyticks
+    address      = 0001:00083200
+    module index = 132
+    kind:          (code)
+  Name:  _waitkey
+    address      = 0001:00083234
+    module index = 132
+    kind:          (code)
+  Name:  _initkey
+    address      = 0001:00083274
+    module index = 132
+    kind:          (code)
+  Name:  _restorekey
+    address      = 0001:000832A8
+    module index = 132
+    kind:          (code)
+  Name:  _purgekey
+    address      = 0001:000832B4
+    module index = 132
+    kind:          (code)
+  Name:  _nextkey
+    address      = 0001:000832C0
+    module index = 132
+    kind:          (code)
+  Name:  _keyfunc
+    address      = 0002:00012ED8
+    module index = 132
+    kind:          (data)

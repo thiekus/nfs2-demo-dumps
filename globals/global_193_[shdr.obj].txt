@@ -1,0 +1,24 @@
+  Name:  SNDbankheadersize_
+    address      = 0001:0008E600
+    module index = 193
+    kind:          (code)
+  Name:  SNDpatheadersize_
+    address      = 0001:0008E69C
+    module index = 193
+    kind:          (code)
+  Name:  SNDbankheadercopy_
+    address      = 0001:0008E794
+    module index = 193
+    kind:          (code)
+  Name:  SNDpatheadercopy_
+    address      = 0001:0008E884
+    module index = 193
+    kind:          (code)
+  Name:  SNDbankadd_
+    address      = 0001:0008E8FC
+    module index = 193
+    kind:          (code)
+  Name:  SNDbankaddpat_
+    address      = 0001:0008E918
+    module index = 193
+    kind:          (code)

@@ -1,0 +1,130 @@
+  2) Name:   C:\nfs2\game\common\aispeeds.c
+     Language is C
+     Locals: num = 1, offset = 0000001AH
+     Types:  num = 1, offset = 000001B6H
+     Lines:  num = 1, offset = 00000352H
+
+   *** Locals ***
+   ==============
+      Data 0:  offset 00003612
+        0000: MODULE_386
+          "AISpeeds_PhysicsMode" addr = 0002:0001C3D0,  type = 9
+        001D: MODULE_386
+          "AISpeeds_gSpeedTable" addr = 0002:0000BF64,  type = 13
+        003A: MODULE_386
+          "AISpeeds_gLineTable" addr = 0002:0000BF68,  type = 13
+        0056: MODULE_386
+          "AISpeeds_SpeedExt" addr = 0002:0000BF6C,  type = 61
+        0070: MODULE_386
+          "AISpeeds_LineExt" addr = 0002:0000BF76,  type = 63
+        0089: SET_BASE_386
+          base = 0001:0000A0A9
+        0091: NEAR_RTN_386
+          start off = 00000000, code size = 00000178, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  21
+          return value: <none>
+          Name = "AISpeeds_SetupSpeeds"
+        00BA: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "offset",  type = 16
+        00C5: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "fsize",  type = 16
+        00CF: LOCAL
+          address: BP_OFFSET_BYTE( A4 )
+          name = "speedFileName",  type = 64
+        00E1: LOCAL
+          address: BP_OFFSET_WORD( 0064 )
+          name = "lineFileName",  type = 65
+        00F3: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "clearSpeeds",  type = 9
+        0103: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "clearLines",  type = 9
+        0112: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "extension",  type = 66
+        0120: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "loadPacked",  type = 9
+        012F: BLOCK_386
+          start off = 0000019B, code size = 00000058, parent off = 0151
+        013B: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "oldval",  type = 9
+        0146: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "newval",  type = 9
+        0151: BLOCK_386
+          start off = 00000188, code size = 0000006D, parent off = 016E
+        015D: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "l",  type = 9
+        0163: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "mulval",  type = 9
+        016E: NEAR_RTN_386
+          start off = 00000178, code size = 00000086, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  21
+          return value: <none>
+          Name = "AISpeeds_ScaleSpeeds"
+        0197: NEAR_RTN_386
+          start off = 000001FE, code size = 00000042, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  21
+          return value: <none>
+          Name = "AISpeeds_StartUp"
+        01BC: NEAR_RTN_386
+          start off = 00000240, code size = 0000001F, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  21
+          return value: <none>
+          Name = "AISpeeds_CleanUp"
+        01E1: NEAR_RTN_386
+          start off = 0000025F, code size = 00000036, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  67
+          return value: <none>
+          Name = "AISpeeds_SaveSpeeds"
+        0209: NEAR_RTN_386
+          start off = 00000295, code size = 00000036, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  67
+          return value: <none>
+          Name = "AISpeeds_SaveLines"
+        0230: BLOCK_386
+          start off = 0000030D, code size = 00000063, parent off = 0244
+        023C: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "acc",  type = 9
+        0244: NEAR_RTN_386
+          start off = 000002CB, code size = 000000AF, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  191
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Name = "AISpeeds_ScaleAcceleration"
+        0278: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "pCar",  type = 189
+        0282: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "table",  type = 190
+        028D: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "loop",  type = 9
+        0296: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "carType",  type = 9
+

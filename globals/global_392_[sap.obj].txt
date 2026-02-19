@@ -1,0 +1,36 @@
+  Name:  broadcast_sap_request_
+    address      = 0001:000B6C40
+    module index = 392
+    kind:          (code)
+  Name:  process_sap_message_
+    address      = 0001:000B6CF8
+    module index = 392
+    kind:          (code)
+  Name:  sendserverident_
+    address      = 0001:000B6D98
+    module index = 392
+    kind:          (static pubdef) (code)
+  Name:  isservermessage_
+    address      = 0001:000B6DD8
+    module index = 392
+    kind:          (static pubdef) (code)
+  Name:  opensapsocket_
+    address      = 0001:000B6E2C
+    module index = 392
+    kind:          (static pubdef) (code)
+  Name:  _sapthreadfunc
+    address      = 0001:000B6EE8
+    module index = 392
+    kind:          (static pubdef) (code)
+  Name:  addsapserver_
+    address      = 0001:000B7118
+    module index = 392
+    kind:          (code)
+  Name:  delsapserver_
+    address      = 0001:000B7200
+    module index = 392
+    kind:          (code)
+  Name:  _sapserver
+    address      = 0002:00069810
+    module index = 392
+    kind:          (static pubdef) (data)

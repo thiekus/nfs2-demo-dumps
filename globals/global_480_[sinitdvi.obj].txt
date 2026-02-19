@@ -1,0 +1,4 @@
+  Name:  SNDinitcodecdvi_
+    address      = 0001:000BFA20
+    module index = 480
+    kind:          (code)

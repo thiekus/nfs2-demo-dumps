@@ -1,0 +1,86 @@
+ 32) Name:   C:\nfs2\game\common\personal.c
+     Language is C
+     Locals: num = 1, offset = 00000092H
+     Types:  num = 1, offset = 0000022EH
+     Lines:  num = 1, offset = 000003BEH
+
+   *** Locals ***
+   ==============
+      Data 0:  offset 0000EDEF
+        0000: MODULE_386
+          "gridData" addr = 0002:0000D880,  type = 42
+        0011: MODULE_386
+          "personalityList" addr = 0002:00024468,  type = 51
+        0029: MODULE_386
+          "perData" addr = 0002:0000D8B0,  type = 52
+        0039: MODULE_386
+          "grid" addr = 0002:0002446C,  type = 53
+        0046: MODULE_386
+          "Personality_Names" addr = 0002:0000E444,  type = 55
+        0060: SET_BASE_386
+          base = 0001:000303D7
+        0068: NEAR_RTN_386
+          start off = 00000000, code size = 00000035, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  57
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Personality_GetName"
+        0093: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "personality",  type = 56
+        00A3: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "index",  type = 9
+        00AD: NEAR_RTN_386
+          start off = 00000035, code size = 00000029, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  58
+          return value: <none>
+          Name = "Personality_HardLoad"
+        00D6: NEAR_RTN_386
+          start off = 0000005E, code size = 00000015, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  58
+          return value: <none>
+          Name = "Personality_CleanUp"
+        00FE: NEAR_RTN_386
+          start off = 00000073, code size = 0000001A, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  58
+          return value: <none>
+          Name = "Personality_StartUp"
+        0126: NEAR_RTN_386
+          start off = 0000008D, code size = 00000053, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  59
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Name = "Personality_GetPersonalityIndex"
+        015F: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "startingPosition",  type = 9
+        0174: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "pGameType",  type = 9
+        0182: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "personalityIndex",  type = 9
+        0197: NEAR_RTN_386
+          start off = 000000E0, code size = 0000002F, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  60
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Personality_ChoosePersonality"
+        01CC: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "personalityIndex",  type = 9
+

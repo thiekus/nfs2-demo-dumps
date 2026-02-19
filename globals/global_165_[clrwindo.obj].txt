@@ -1,0 +1,4 @@
+  Name:  _clearwindow
+    address      = 0001:00086350
+    module index = 165
+    kind:          (code)

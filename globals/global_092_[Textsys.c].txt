@@ -1,0 +1,44 @@
+  Name:  TextSys_LoadWords_
+    address      = 0001:00072D0B
+    module index = 92
+    kind:          (code)
+  Name:  TextSys_Word_
+    address      = 0001:00072D7F
+    module index = 92
+    kind:          (code)
+  Name:  TextSys_WordSize_
+    address      = 0001:00072DC5
+    module index = 92
+    kind:          (code)
+  Name:  TextSys_WordNormal_
+    address      = 0001:00072E03
+    module index = 92
+    kind:          (code)
+  Name:  TextSys_WordSelected_
+    address      = 0001:00072E43
+    module index = 92
+    kind:          (code)
+  Name:  TextSys_WordFlags_
+    address      = 0001:00072E85
+    module index = 92
+    kind:          (code)
+  Name:  TextSys_WordX_
+    address      = 0001:00072EC7
+    module index = 92
+    kind:          (code)
+  Name:  TextSys_WordY_
+    address      = 0001:00072F05
+    module index = 92
+    kind:          (code)
+  Name:  TextSys_UnloadWords_
+    address      = 0001:00072F43
+    module index = 92
+    kind:          (code)
+  Name:  _langFileName
+    address      = 0002:000125E4
+    module index = 92
+    kind:          (data)
+  Name:  _wordFile
+    address      = 0002:000125FC
+    module index = 92
+    kind:          (data)

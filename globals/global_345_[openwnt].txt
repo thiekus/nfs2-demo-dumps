@@ -1,0 +1,8 @@
+  Name:  open_
+    address      = 0001:000B034F
+    module index = 345
+    kind:          (code)
+  Name:  sopen_
+    address      = 0001:000B0373
+    module index = 345
+    kind:          (code)

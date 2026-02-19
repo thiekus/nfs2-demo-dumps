@@ -1,0 +1,172 @@
+ 48) Name:   C:\nfs2\game\common\stats.c
+     Language is C
+     Locals: num = 1, offset = 000000D2H
+     Types:  num = 1, offset = 0000026EH
+     Lines:  num = 1, offset = 000003FEH
+
+   *** Locals ***
+   ==============
+      Data 0:  offset 00014095
+        0000: MODULE_386
+          "Stats_racePosition" addr = 0002:00046188,  type = 63
+        001B: SET_BASE_386
+          base = 0001:00045366
+        0023: NEAR_RTN_386
+          start off = 00000000, code size = 00000204, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  23
+          return value: <none>
+          Name = "Stats_DoPlayerGlue"
+        004A: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "i",  type = 9
+        0050: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "dist",  type = 9
+        0059: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "humanLeader",  type = 9
+        0069: NEAR_RTN_386
+          start off = 00000204, code size = 00000070, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  23
+          return value: <none>
+          Name = "Stats_ClearPosition"
+        0091: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "i",  type = 9
+        0097: NEAR_RTN_386
+          start off = 00000274, code size = 0000006C, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  186
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Stats_GetPosition"
+        00C1: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "carObj",  type = 185
+        00CD: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "i",  type = 9
+        00D3: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "position",  type = 9
+        00E0: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "carindex",  type = 9
+        00ED: NEAR_RTN_386
+          start off = 000002E0, code size = 00000057, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  187
+          return value: MULTI_REG(1): EAX
+          Name = "Stats_GetNumOpponents"
+        0119: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "i",  type = 9
+        011F: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "numCars",  type = 9
+        012B: NEAR_RTN_386
+          start off = 00000337, code size = 00000044, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  188
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Stats_GetNextCar"
+        0154: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "position",  type = 9
+        0161: BLOCK_386
+          start off = 000006C9, code size = 0000007F, parent off = 01B8
+        016D: LOCAL
+          address: BP_OFFSET_BYTE( D8 )
+          name = "r0",  type = 9
+        0174: LOCAL
+          address: BP_OFFSET_BYTE( DC )
+          name = "r1",  type = 9
+        017B: LOCAL
+          address: BP_OFFSET_BYTE( E0 )
+          name = "r2",  type = 9
+        0182: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "r3",  type = 9
+        0189: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "r4",  type = 9
+        0190: BLOCK_386
+          start off = 0000074D, code size = 0000006F, parent off = 01B8
+        019C: LOCAL
+          address: BP_OFFSET_BYTE( C8 )
+          name = "r1",  type = 9
+        01A3: LOCAL
+          address: BP_OFFSET_BYTE( CC )
+          name = "r2",  type = 9
+        01AA: LOCAL
+          address: BP_OFFSET_BYTE( D0 )
+          name = "r3",  type = 9
+        01B1: LOCAL
+          address: BP_OFFSET_BYTE( D4 )
+          name = "r4",  type = 9
+        01B8: BLOCK_386
+          start off = 000006A9, code size = 0000011A, parent off = 01CA
+        01C4: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "j",  type = 9
+        01CA: BLOCK_386
+          start off = 0000062E, code size = 0000019A, parent off = 01DC
+        01D6: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "i",  type = 9
+        01DC: NEAR_RTN_386
+          start off = 0000037B, code size = 00000456, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  189
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Stats_TrackStats"
+        0204: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "carObj",  type = 185
+        0210: NEAR_RTN_386
+          start off = 000007D1, code size = 00000341, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  190
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Stats_ExtrapolateOpponentTimes"
+        0246: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "type",  type = 9
+        024F: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "i",  type = 9
+        0255: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "extrapolatedTime",  type = 9
+        026A: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "bAllHumansHaveFinished",  type = 9
+        0285: NEAR_RTN_386
+          start off = 00000B12, code size = 000000EF, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  23
+          return value: <none>
+          Name = "Stats_TrackEndGame"
+        02AC: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "i",  type = 9
+        02B2: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "numKnockOutPlayers",  type = 9
+        02C9: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "Stats_PlayersFinishedRace",  type = 9
+

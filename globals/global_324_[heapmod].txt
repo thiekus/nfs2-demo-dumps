@@ -1,0 +1,8 @@
+  Name:  ___nheap_clean
+    address      = 0002:00055564
+    module index = 324
+    kind:          (data)
+  Name:  ___fheap_clean
+    address      = 0002:00055565
+    module index = 324
+    kind:          (data)

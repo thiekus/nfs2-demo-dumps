@@ -1,0 +1,333 @@
+ 63) Name:   C:\nfs2\game\pc\device.c
+     Language is C
+     Locals: num = 1, offset = 0000010EH
+     Types:  num = 1, offset = 000002AAH
+     Lines:  num = 1, offset = 00000432H
+
+   *** Locals ***
+   ==============
+      Data 0:  offset 00017949
+        0000: MODULE_386
+          "Device_gJoy" addr = 0002:0004779C,  type = 433
+        0015: MODULE_386
+          "Device_gButtonMask" addr = 0002:00047B9C,  type = 434
+        0031: MODULE_386
+          "Device_gDeviceList" addr = 0002:0000F114,  type = 438
+        004D: MODULE_386
+          "Device_gCalibrate" addr = 0002:00047BDC,  type = 444
+        0068: MODULE_386
+          "Device_gSimpleJoy" addr = 0002:00047BE0,  type = 9
+        0082: MODULE_386
+          "Device_gNumJoy" addr = 0002:00047BE4,  type = 9
+        0099: MODULE_386
+          "Device_gJoySched" addr = 0002:00047BE8,  type = 445
+        00B3: SET_BASE_386
+          base = 0001:0004F513
+        00BB: NEAR_RTN_386
+          start off = 00000000, code size = 00000086, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  395
+          return value: <none>
+          Name = "Device_StartUp"
+        00DF: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "i",  type = 9
+        00E5: NEAR_RTN_386
+          start off = 00000086, code size = 0000002A, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  395
+          return value: <none>
+          Name = "Device_LoadCalibration"
+        0111: NEAR_RTN_386
+          start off = 000000B0, code size = 0000002C, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  395
+          return value: <none>
+          Name = "Device_PurgeCalibration"
+        013E: NEAR_RTN_386
+          start off = 000000DC, code size = 00000293, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  446
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Device_CalibrateControl"
+        016D: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "s",  type = 40
+        0173: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "i",  type = 9
+        0179: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "joy",  type = 9
+        0181: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "axis",  type = 9
+        018A: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "min",  type = 9
+        0192: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "max",  type = 9
+        019A: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "a",  type = 447
+        01A1: NEAR_RTN_386
+          start off = 0000036F, code size = 000001D5, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  395
+          return value: <none>
+          Name = "Device_SetHardCodedKeys"
+        01CE: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "i",  type = 9
+        01D4: NEAR_RTN_386
+          start off = 00000544, code size = 00000048, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  448
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Device_CycleCamera"
+        01FF: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "player",  type = 9
+        020A: NEAR_RTN_386
+          start off = 0000058C, code size = 00000128, parent off = 0000
+          prologue size = 12,  epilogue size = 7
+          return address offset (from bp) = 00000010
+          return type:  449
+          return value: MULTI_REG(1): EAX
+          Name = "Device_readwinjoy"
+        0232: LOCAL
+          address: BP_OFFSET_BYTE( 14 )
+          name = "joynum",  type = 9
+        023D: LOCAL
+          address: BP_OFFSET_BYTE( 18 )
+          name = "buttons",  type = 40
+        0249: LOCAL
+          address: BP_OFFSET_BYTE( 1C )
+          name = "x",  type = 40
+        024F: LOCAL
+          address: BP_OFFSET_BYTE( 20 )
+          name = "y",  type = 40
+        0255: LOCAL
+          address: BP_OFFSET_BYTE( 24 )
+          name = "z",  type = 40
+        025B: LOCAL
+          address: BP_OFFSET_BYTE( 28 )
+          name = "r",  type = 40
+        0261: LOCAL
+          address: BP_OFFSET_BYTE( 2C )
+          name = "u",  type = 40
+        0267: LOCAL
+          address: BP_OFFSET_BYTE( 30 )
+          name = "v",  type = 40
+        026D: LOCAL
+          address: BP_OFFSET_BYTE( 34 )
+          name = "pov",  type = 40
+        0275: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "err",  type = 9
+        027D: LOCAL
+          address: BP_OFFSET_BYTE( C4 )
+          name = "ji",  type = 452
+        0285: NEAR_RTN_386
+          start off = 000006B4, code size = 00000058, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  453
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Name = "Device_TestJoy"
+        02AE: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "joy",  type = 9
+        02B6: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "axis",  type = 9
+        02BF: NEAR_RTN_386
+          start off = 0000070C, code size = 00000075, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  453
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Name = "Device_RawJoy"
+        02E7: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "joynum",  type = 9
+        02F2: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "axisnum",  type = 9
+        02FE: LOCAL
+          address: BP_OFFSET_BYTE( D8 )
+          name = "a",  type = 454
+        0305: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "r",  type = 9
+        030B: NEAR_RTN_386
+          start off = 00000781, code size = 00000048, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  448
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Device_RawJoyButtons"
+        0338: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "joynum",  type = 9
+        0343: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "r",  type = 9
+        0349: NEAR_RTN_386
+          start off = 000007C9, code size = 0000022B, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  395
+          return value: <none>
+          Name = "Device_Update"
+        036C: LOCAL
+          address: BP_OFFSET_BYTE( DC )
+          name = "sched",  type = 455
+        0377: LOCAL
+          address: BP_OFFSET_BYTE( E0 )
+          name = "i",  type = 9
+        037D: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "joyx",  type = 9
+        0386: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "joyy",  type = 9
+        038F: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "joybut",  type = 9
+        039A: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "px",  type = 40
+        03A1: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "py",  type = 40
+        03A8: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "pb",  type = 40
+        03AF: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "p",  type = 456
+        03B6: NEAR_RTN_386
+          start off = 000009F4, code size = 0000005A, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  457
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Device_ScheduleJoy"
+        03E0: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "joy",  type = 9
+        03E8: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "sched",  type = 455
+        03F3: NEAR_RTN_386
+          start off = 00000A4E, code size = 00000074, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  404
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Device_ButtonStartUp"
+        0420: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "param",  type = 15
+        042A: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "i",  type = 9
+        0430: NEAR_RTN_386
+          start off = 00000AC2, code size = 0000004D, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  404
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Device_Button"
+        0456: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "param",  type = 15
+        0460: NEAR_RTN_386
+          start off = 00000B0F, code size = 0000006F, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  404
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Device_AnalogStartUp"
+        048D: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "param",  type = 15
+        0497: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "i",  type = 9
+        049D: NEAR_RTN_386
+          start off = 00000B7E, code size = 000000F5, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  404
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Device_Analog"
+        04C3: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "param",  type = 15
+        04CD: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "min",  type = 9
+        04D5: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "max",  type = 9
+        04DD: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "v",  type = 9
+        04E3: NEAR_RTN_386
+          start off = 00000C73, code size = 0000003E, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  404
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Device_Keyboard"
+        050B: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "param",  type = 15
+        0515: NEAR_RTN_386
+          start off = 00000CB1, code size = 000000EC, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  404
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Device_Interface"
+        053E: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "param",  type = 15
+        0548: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "key",  type = 9
+        0550: NEAR_RTN_386
+          start off = 00000D9D, code size = 00000024, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  404
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Device_Null"
+        0574: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "param",  type = 15
+

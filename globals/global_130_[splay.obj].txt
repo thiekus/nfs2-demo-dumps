@@ -1,0 +1,8 @@
+  Name:  SNDplaysetdef_
+    address      = 0001:00082E60
+    module index = 130
+    kind:          (code)
+  Name:  SNDplay_
+    address      = 0001:00082ECC
+    module index = 130
+    kind:          (code)

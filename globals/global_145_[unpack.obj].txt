@@ -1,0 +1,16 @@
+  Name:  _unpacka
+    address      = 0001:00083FD0
+    module index = 145
+    kind:          (code)
+  Name:  _unpack
+    address      = 0001:000840B0
+    module index = 145
+    kind:          (code)
+  Name:  _unpackz
+    address      = 0001:000840C8
+    module index = 145
+    kind:          (code)
+  Name:  _unpacksize
+    address      = 0001:000840E0
+    module index = 145
+    kind:          (code)

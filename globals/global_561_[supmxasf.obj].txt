@@ -1,0 +1,8 @@
+  Name:  _upmxasf
+    address      = 0001:000C5040
+    module index = 561
+    kind:          (code)
+  Name:  _upmxasfsetstate
+    address      = 0001:000C51E0
+    module index = 561
+    kind:          (code)

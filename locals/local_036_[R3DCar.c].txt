@@ -1,0 +1,610 @@
+ 36) Name:   C:\nfs2\game\common\R3DCar.c
+     Language is C
+     Locals: num = 1, offset = 000000A2H
+     Types:  num = 1, offset = 0000023EH
+     Lines:  num = 1, offset = 000003CEH
+
+   *** Locals ***
+   ==============
+      Data 0:  offset 0001077A
+        0000: MODULE_386
+          "carDrawControlInfo" addr = 0002:0000E66C,  type = 66
+        001B: MODULE_386
+          "IndigoTireSortHackTable" addr = 0002:000245D0,  type = 67
+        003B: MODULE_386
+          "R3DCar_carVisibilityInfo" addr = 0002:00024610,  type = 74
+        005C: MODULE_386
+          "R3DCar_gLargestMaxDynamicRendMemUsed" addr = 0002:0000EDC6,  type = 9
+        0089: MODULE_386
+          "R3DCar_gNumCarLoadedGeo" addr = 0002:0000EDBA,  type = 9
+        00A9: MODULE_386
+          "R3DCar_gNumSmackLoadedGeo" addr = 0002:0000EDBE,  type = 9
+        00CB: MODULE_386
+          "R3DCar_kLoadedScenePointer" addr = 0002:000247D0,  type = 95
+        00EE: MODULE_386
+          "R3DCar_carDetailInfo" addr = 0002:0002489C,  type = 98
+        010B: MODULE_386
+          "R3DCar_gPreviousGameTicks" addr = 0002:0000EB50,  type = 9
+        012D: MODULE_386
+          "indigoSortHack" addr = 0002:0000EB4C,  type = 9
+        0144: MODULE_386
+          "R3DCar_kCarFileInfo" addr = 0002:0000EB54,  type = 102
+        0160: MODULE_386
+          "R3DCar_gMaxDynamicRendMemUsed" addr = 0002:0000EDC2,  type = 9
+        0186: MODULE_386
+          "R3DCar_gLocalCarLightingContext" addr = 0002:0000EDB8,  type = 7
+        01AE: SET_BASE_386
+          base = 0001:0003B164
+        01B6: NEAR_RTN_386
+          start off = 00000000, code size = 0000002C, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  204
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Name = "R3DCar_DoSpoilerActionNull"
+        01EA: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "part",  type = 122
+        01F3: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "carObj",  type = 203
+        01FF: NEAR_RTN_386
+          start off = 0000002C, code size = 000000A7, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  204
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Name = "R3DCar_DoSpoilerActionIsdera"
+        0235: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "part",  type = 122
+        023E: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "carObj",  type = 203
+        024A: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "desiredAngle",  type = 9
+        025B: NEAR_RTN_386
+          start off = 000000D3, code size = 000000B6, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  204
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Name = "R3DCar_DoSpoilerActionMacF1"
+        0290: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "part",  type = 122
+        0299: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "carObj",  type = 203
+        02A5: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "desiredAngle",  type = 9
+        02B6: NEAR_RTN_386
+          start off = 00000189, code size = 00000079, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  204
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Name = "R3DCar_DoSpoilerActionGT90"
+        02EA: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "part",  type = 122
+        02F3: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "carObj",  type = 203
+        02FF: NEAR_RTN_386
+          start off = 00000202, code size = 0000008A, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  205
+          return value: REG: AX
+          Parm 0: MULTI_REG(1): EAX
+          Name = "R3DCar_GetLightingContext"
+        0330: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "carObj",  type = 203
+        033C: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "ctx",  type = 7
+        0344: BLOCK_386
+          start off = 00000316, code size = 00000052, parent off = 039E
+        0350: LOCAL
+          address: BP_OFFSET_BYTE( A8 )
+          name = "offset",  type = 9
+        035B: LOCAL
+          address: BP_OFFSET_BYTE( AC )
+          name = "i",  type = 9
+        0361: BLOCK_386
+          start off = 00000368, code size = 00000193, parent off = 039E
+        036D: LOCAL
+          address: BP_OFFSET_BYTE( 9C )
+          name = "frontWheelOffset",  type = 9
+        0382: LOCAL
+          address: BP_OFFSET_BYTE( 98 )
+          name = "rearWheelOffset",  type = 9
+        0396: LOCAL
+          address: BP_OFFSET_BYTE( A0 )
+          name = "vel",  type = 9
+        039E: NEAR_RTN_386
+          start off = 0000028C, code size = 00000277, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  204
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Name = "R3DCar_PitchAndRollCarBody"
+        03D2: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "part",  type = 122
+        03DB: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "carObj",  type = 203
+        03E7: LOCAL
+          address: BP_OFFSET_BYTE( B0 )
+          name = "m1",  type = 109
+        03EE: LOCAL
+          address: BP_OFFSET_BYTE( D4 )
+          name = "m2",  type = 109
+        03F5: NEAR_RTN_386
+          start off = 00000503, code size = 000001F8, parent off = 0000
+          prologue size = 12,  epilogue size = 7
+          return address offset (from bp) = 00000010
+          return type:  206
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Name = "R3DCar_DoSuspensionAnimation"
+        042D: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "part",  type = 122
+        0436: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "carObj",  type = 203
+        0442: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "rear",  type = 9
+        044B: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "bump",  type = 9
+        0454: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "offset",  type = 9
+        045F: NEAR_RTN_386
+          start off = 000006FB, code size = 0000002B, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  204
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Name = "R3DCar_DoRearSuspensionAnimation"
+        0499: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "part",  type = 122
+        04A2: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "carObj",  type = 203
+        04AE: BLOCK_386
+          start off = 0000075F, code size = 00000104, parent off = 04C2
+        04BA: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "yaw",  type = 9
+        04C2: NEAR_RTN_386
+          start off = 00000726, code size = 0000016F, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  204
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Name = "R3DCar_SteerFrontWheels"
+        04F3: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "part",  type = 122
+        04FC: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "carObj",  type = 203
+        0508: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "maxAngleFactor",  type = 9
+        051B: NEAR_RTN_386
+          start off = 00000895, code size = 0000015D, parent off = 0000
+          prologue size = 12,  epilogue size = 7
+          return address offset (from bp) = 00000010
+          return type:  207
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Name = "R3DCar_ReadInCarData"
+        054C: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "filename",  type = 13
+        0559: LOCAL
+          address: BP_OFFSET_BYTE( E0 )
+          name = "loadMaxDetail",  type = 9
+        056B: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "carObj",  type = 203
+        0577: LOCAL
+          address: BP_OFFSET_WORD( 007C )
+          name = "infilename",  type = 208
+        0588: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "i",  type = 9
+        058E: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "offset",  type = 9
+        0599: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "rawData",  type = 13
+        05A5: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "scene",  type = 94
+        05AF: NEAR_RTN_386
+          start off = 000009F2, code size = 00000068, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  210
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Name = "R3DCar_SetZsortPartLinkPriorityMinMaxYawMinMaxPitch"
+        05FC: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "obj",  type = 89
+        0604: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "control",  type = 209
+        0611: NEAR_RTN_386
+          start off = 00000A5A, code size = 000000E8, parent off = 0000
+          prologue size = 11,  epilogue size = 8
+          return address offset (from bp) = 0000000C
+          return type:  211
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Parm 3: MULTI_REG(1): ECX
+          Name = "R3DCar_SetWheelStruct"
+        0644: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "parent",  type = 122
+        064F: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "wheelIndex",  type = 9
+        065E: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "wheelInIndex",  type = 9
+        066F: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "animation",  type = 9
+        067D: LOCAL
+          address: BP_OFFSET_BYTE( 10 )
+          name = "carObj",  type = 203
+        0689: LOCAL
+          address: BP_OFFSET_BYTE( 14 )
+          name = "carScene",  type = 94
+        0696: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "nodePtr",  type = 122
+        06A2: NEAR_RTN_386
+          start off = 00000B42, code size = 00000029, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  23
+          return value: <none>
+          Name = "R3DCar_Restart"
+        06C5: NEAR_RTN_386
+          start off = 00000B6B, code size = 00000054, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  23
+          return value: <none>
+          Name = "R3DCar_StartUp"
+        06E8: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "i",  type = 9
+        06EE: NEAR_RTN_386
+          start off = 00000BBF, code size = 000000C1, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  23
+          return value: <none>
+          Name = "R3DCar_CleanUp"
+        0711: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "i",  type = 9
+        0717: NEAR_RTN_386
+          start off = 00000C80, code size = 00000087, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  212
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Name = "R3DCar_LocateAnimWheelFacets"
+        074D: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "carObj",  type = 203
+        0759: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "carScene",  type = 94
+        0766: NEAR_RTN_386
+          start off = 00000D07, code size = 00000086, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  212
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Name = "R3DCar_LocateBrakelightAnimFacets"
+        07A1: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "carObj",  type = 203
+        07AD: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "carScene",  type = 94
+        07BA: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "i",  type = 9
+        07C0: NEAR_RTN_386
+          start off = 00000D8D, code size = 0000004B, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  213
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "R3DCar_DeInstantiate3DCar"
+        07F1: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "carObj",  type = 203
+        07FD: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "i",  type = 9
+        0803: BLOCK_386
+          start off = 00000E4D, code size = 000001BE, parent off = 088C
+        080F: LOCAL
+          address: BP_OFFSET_BYTE( E0 )
+          name = "index",  type = 9
+        0819: BLOCK_386
+          start off = 00001033, code size = 000000A2, parent off = 088C
+        0825: LOCAL
+          address: BP_OFFSET_WORD( 0078 )
+          name = "pathname",  type = 214
+        0834: BLOCK_386
+          start off = 00001136, code size = 000000C4, parent off = 088C
+        0840: LOCAL
+          address: BP_OFFSET_WORD( 0070 )
+          name = "color1",  type = 9
+        084C: LOCAL
+          address: BP_OFFSET_WORD( 0074 )
+          name = "color2",  type = 9
+        0858: BLOCK_386
+          start off = 000016DF, code size = 0000064D, parent off = 088C
+        0864: LOCAL
+          address: BP_OFFSET_WORD( 005C )
+          name = "minp",  type = 70
+        086E: LOCAL
+          address: BP_OFFSET_WORD( 0050 )
+          name = "maxp",  type = 70
+        0878: LOCAL
+          address: BP_OFFSET_WORD( 0068 )
+          name = "objCode",  type = 9
+        0885: LOCAL
+          address: BP_OFFSET_WORD( 006C )
+          name = "j",  type = 9
+        088C: NEAR_RTN_386
+          start off = 00000DD8, code size = 00000F5D, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  213
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "R3DCar_Instantiate3DCar"
+        08BB: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "carObj",  type = 203
+        08C7: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "i",  type = 9
+        08CD: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "num",  type = 9
+        08D5: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "nodePtr",  type = 122
+        08E1: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "nodePtr2",  type = 122
+        08EE: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "carScene",  type = 94
+        08FB: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "carDrawControlIndex",  type = 9
+        0913: NEAR_RTN_386
+          start off = 00001D35, code size = 00000058, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  215
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Name = "R3DCar_ChangeTrafficColor"
+        0946: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "carObj",  type = 203
+        0952: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "newColorIndex",  type = 9
+        0964: BLOCK_386
+          start off = 00001DD3, code size = 0000003D, parent off = 09D5
+        0970: LOCAL
+          address: BP_OFFSET_BYTE( C8 )
+          name = "tempMat",  type = 109
+        097C: BLOCK_386
+          start off = 00001E66, code size = 00000249, parent off = 09D5
+        0988: LOCAL
+          address: BP_OFFSET_BYTE( B8 )
+          name = "x",  type = 9
+        098E: LOCAL
+          address: BP_OFFSET_BYTE( B4 )
+          name = "y",  type = 9
+        0994: LOCAL
+          address: BP_OFFSET_BYTE( B0 )
+          name = "z",  type = 9
+        099A: LOCAL
+          address: BP_OFFSET_BYTE( BC )
+          name = "diff",  type = 70
+        09A3: BLOCK_386
+          start off = 00002152, code size = 000000F8, parent off = 09D5
+        09AF: LOCAL
+          address: BP_OFFSET_BYTE( A0 )
+          name = "theCar",  type = 223
+        09BB: LOCAL
+          address: BP_OFFSET_WORD( 0064 )
+          name = "transformedCenter16",  type = 231
+        09D5: NEAR_RTN_386
+          start off = 00001D8D, code size = 000004CA, parent off = 0000
+          prologue size = 11,  epilogue size = 8
+          return address offset (from bp) = 0000000C
+          return type:  239
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Parm 3: MULTI_REG(1): ECX
+          Name = "R3DCar_InsertCarFacet"
+        0A08: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "carObj",  type = 203
+        0A14: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "Vi",  type = 238
+        0A1C: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "detailLevel",  type = 9
+        0A2C: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "renderPrecision",  type = 9
+        0A40: LOCAL
+          address: BP_OFFSET_BYTE( 10 )
+          name = "moreClipTests",  type = 9
+        0A52: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "shadowFacet",  type = 255
+        0A63: NEAR_RTN_386
+          start off = 00002257, code size = 0000017E, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  256
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Name = "R3DCar_SetCarDetailLevel"
+        0A95: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "maxMaxDetailDist",  type = 9
+        0AAA: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "maxMidDetailDist",  type = 9
+        0ABF: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "i",  type = 9
+        0AC5: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "AnimLastMinute100PolyHack",  type = 9
+        0AE3: BLOCK_386
+          start off = 000024B4, code size = 00000021, parent off = 0AFE
+        0AEF: LOCAL
+          address: BP_OFFSET_BYTE( C0 )
+          name = "CamCarObj",  type = 257
+        0AFE: BLOCK_386
+          start off = 0000249C, code size = 00000457, parent off = 0B24
+        0B0A: LOCAL
+          address: BP_OFFSET_BYTE( C4 )
+          name = "carObj",  type = 203
+        0B16: LOCAL
+          address: BP_OFFSET_BYTE( C8 )
+          name = "sliceDiff",  type = 9
+        0B24: NEAR_RTN_386
+          start off = 000023D5, code size = 00000582, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  258
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "R3DCar_BuildCarVisibilityList"
+        0B59: LOCAL
+          address: BP_OFFSET_BYTE( D8 )
+          name = "Vi",  type = 238
+        0B61: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "ax",  type = 9
+        0B68: LOCAL
+          address: BP_OFFSET_BYTE( DC )
+          name = "az",  type = 9
+        0B6F: LOCAL
+          address: BP_OFFSET_BYTE( E0 )
+          name = "i",  type = 9
+        0B75: LOCAL
+          address: BP_OFFSET_BYTE( CC )
+          name = "car",  type = 70
+        0B7D: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "maxVisibleDist",  type = 9
+        0B90: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "maxMaxDetailDist",  type = 9
+        0BA5: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "maxMidDetailDist",  type = 9
+        0BBA: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "outside90degree",  type = 9
+        0BCE: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "outside120degree",  type = 9
+        0BE3: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "withinMaxCloseDist",  type = 9
+        0BFA: BLOCK_386
+          start off = 000029DF, code size = 0000002E, parent off = 0C15
+        0C06: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "CamCarObj",  type = 257
+        0C15: BLOCK_386
+          start off = 000029D0, code size = 000000DA, parent off = 0C2D
+        0C21: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "carObj",  type = 203
+        0C2D: NEAR_RTN_386
+          start off = 00002957, code size = 0000016B, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  258
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "R3DCar_InsertAllListFacet"
+        0C5E: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "Vi",  type = 238
+        0C66: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "i",  type = 9
+        0C6C: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "camMode",  type = 9
+

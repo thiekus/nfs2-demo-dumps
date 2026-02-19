@@ -1,0 +1,76 @@
+  Name:  _winprocess
+    address      = 0002:00053460
+    module index = 231
+    kind:          (data)
+  Name:  _winactiveapp
+    address      = 0002:00053464
+    module index = 231
+    kind:          (data)
+  Name:  _instancemutex
+    address      = 0002:00053468
+    module index = 231
+    kind:          (static pubdef) (data)
+  Name:  incrementwinpaintindex_
+    address      = 0001:0009AF30
+    module index = 231
+    kind:          (static pubdef) (code)
+  Name:  _issurfacelocked
+    address      = 0001:0009AF38
+    module index = 231
+    kind:          (code)
+  Name:  _isdisplaymodex
+    address      = 0001:0009AF48
+    module index = 231
+    kind:          (code)
+  Name:  _ishwpageflip
+    address      = 0001:0009AF50
+    module index = 231
+    kind:          (code)
+  Name:  _isbankswitched
+    address      = 0001:0009AF74
+    module index = 231
+    kind:          (code)
+  Name:  _cyclevideowindow
+    address      = 0001:0009AF7C
+    module index = 231
+    kind:          (code)
+  Name:  _isfrontprocess
+    address      = 0001:0009AF9C
+    module index = 231
+    kind:          (code)
+  Name:  _detectdirectdraw
+    address      = 0001:0009AFB8
+    module index = 231
+    kind:          (code)
+  Name:  _detectdirectplay
+    address      = 0001:0009AFB8
+    module index = 231
+    kind:          (code)
+  Name:  _detectdirect3d
+    address      = 0001:0009AFCC
+    module index = 231
+    kind:          (code)
+  Name:  _detectdirectsound
+    address      = 0001:0009AFE0
+    module index = 231
+    kind:          (code)
+  Name:  _detectself
+    address      = 0001:0009AFF4
+    module index = 231
+    kind:          (code)
+  Name:  _winpaintindex
+    address      = 0002:00013B50
+    module index = 231
+    kind:          (data)
+  Name:  _restoresurfacefunc
+    address      = 0002:00013B54
+    module index = 231
+    kind:          (data)
+  Name:  _winhavequit
+    address      = 0002:0005346C
+    module index = 231
+    kind:          (data)
+  Name:  _windisplay
+    address      = 0002:00053470
+    module index = 231
+    kind:          (data)

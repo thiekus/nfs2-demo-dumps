@@ -1,0 +1,4 @@
+  Name:  _xorbox
+    address      = 0001:000B9C10
+    module index = 399
+    kind:          (code)

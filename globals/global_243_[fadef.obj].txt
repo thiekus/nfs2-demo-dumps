@@ -1,0 +1,68 @@
+  Name:  setfadelevel_
+    address      = 0001:0009BD60
+    module index = 243
+    kind:          (static pubdef) (code)
+  Name:  fadesource_
+    address      = 0001:0009BD98
+    module index = 243
+    kind:          (static pubdef) (code)
+  Name:  fadesource8_
+    address      = 0001:0009BDD4
+    module index = 243
+    kind:          (static pubdef) (code)
+  Name:  fademove4_
+    address      = 0001:0009BE28
+    module index = 243
+    kind:          (static pubdef) (code)
+  Name:  fademove8_
+    address      = 0001:0009BE2C
+    module index = 243
+    kind:          (static pubdef) (code)
+  Name:  fademove15_
+    address      = 0001:0009BF0C
+    module index = 243
+    kind:          (static pubdef) (code)
+  Name:  fademove16_
+    address      = 0001:0009BFB8
+    module index = 243
+    kind:          (static pubdef) (code)
+  Name:  fademove24_
+    address      = 0001:0009C05C
+    module index = 243
+    kind:          (static pubdef) (code)
+  Name:  fademove32_
+    address      = 0001:0009C100
+    module index = 243
+    kind:          (static pubdef) (code)
+  Name:  fademove8to16_
+    address      = 0001:0009C1A8
+    module index = 243
+    kind:          (static pubdef) (code)
+  Name:  _fadefxya
+    address      = 0001:0009C24C
+    module index = 243
+    kind:          (code)
+  Name:  _fadef
+    address      = 0001:0009C344
+    module index = 243
+    kind:          (code)
+  Name:  _fadefxy
+    address      = 0001:0009C368
+    module index = 243
+    kind:          (code)
+  Name:  _fadefdfl
+    address      = 0002:00013B68
+    module index = 243
+    kind:          (static pubdef) (data)
+  Name:  _fadetbl
+    address      = 0002:00053900
+    module index = 243
+    kind:          (static pubdef) (data)
+  Name:  _fadeclutptr
+    address      = 0002:00053A00
+    module index = 243
+    kind:          (static pubdef) (data)
+  Name:  _fadefalpha
+    address      = 0002:00053A04
+    module index = 243
+    kind:          (static pubdef) (data)

@@ -1,0 +1,24 @@
+  Name:  _loadfileadr
+    address      = 0001:00081AC0
+    module index = 115
+    kind:          (code)
+  Name:  _loadfileadrz
+    address      = 0001:00081AE0
+    module index = 115
+    kind:          (code)
+  Name:  _loadfileadra
+    address      = 0001:00081B00
+    module index = 115
+    kind:          (code)
+  Name:  _loadfileblock
+    address      = 0001:00081B20
+    module index = 115
+    kind:          (code)
+  Name:  _loadfileblockz
+    address      = 0001:00081B38
+    module index = 115
+    kind:          (code)
+  Name:  _loadfileblocka
+    address      = 0001:00081B50
+    module index = 115
+    kind:          (code)

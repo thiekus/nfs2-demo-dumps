@@ -1,0 +1,28 @@
+  Name:  Udff_Opena_
+    address      = 0001:00046561
+    module index = 50
+    kind:          (code)
+  Name:  Udff_Close_
+    address      = 0001:000466D2
+    module index = 50
+    kind:          (code)
+  Name:  Udff_GetInt_
+    address      = 0001:0004671F
+    module index = 50
+    kind:          (code)
+  Name:  Udff_GetChar_
+    address      = 0001:0004677B
+    module index = 50
+    kind:          (code)
+  Name:  Udff_GetStr_
+    address      = 0001:000467D6
+    module index = 50
+    kind:          (code)
+  Name:  Udff_GetStrn_
+    address      = 0001:00046801
+    module index = 50
+    kind:          (code)
+  Name:  Udff_GetBuffer_
+    address      = 0001:0004688C
+    module index = 50
+    kind:          (code)

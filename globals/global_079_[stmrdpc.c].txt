@@ -1,0 +1,36 @@
+  Name:  readMemCopy_
+    address      = 0001:00060732
+    module index = 79
+    kind:          (code)
+  Name:  Stm_OpenTrackStream_
+    address      = 0001:0006077C
+    module index = 79
+    kind:          (code)
+  Name:  Stm_CloseTrackStream_
+    address      = 0001:0006096C
+    module index = 79
+    kind:          (code)
+  Name:  Stm_QueueMetaChunk_
+    address      = 0001:00060A3E
+    module index = 79
+    kind:          (code)
+  Name:  Stm_GetMetaChunkPtr_
+    address      = 0001:00060A8C
+    module index = 79
+    kind:          (code)
+  Name:  Stm_MetaChunkReady_
+    address      = 0001:00060AC6
+    module index = 79
+    kind:          (code)
+  Name:  _sQueHandle
+    address      = 0002:00010520
+    module index = 79
+    kind:          (static pubdef) (data)
+  Name:  _Stm_readOffset
+    address      = 0002:0004FC2C
+    module index = 79
+    kind:          (data)
+  Name:  _Stm_baseWinAddress
+    address      = 0002:0004FC30
+    module index = 79
+    kind:          (data)

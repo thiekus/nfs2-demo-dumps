@@ -1,0 +1,644 @@
+ 99) Name:   C:\nfs2\frontend\common\Front.c
+     Language is C
+     Locals: num = 1, offset = 0000019EH
+     Types:  num = 1, offset = 0000033AH
+     Lines:  num = 1, offset = 000004BEH
+
+   *** Locals ***
+   ==============
+      Data 0:  offset 00026CBC
+        0000: MODULE_386
+          "colourChosen" addr = 0002:00050C00,  type = 66
+        0015: MODULE_386
+          "brakeBias" addr = 0002:00012A27,  type = 67
+        0027: MODULE_386
+          "gearRatio" addr = 0002:00012A33,  type = 68
+        0039: MODULE_386
+          "steeringSens" addr = 0002:00012A1B,  type = 69
+        004E: MODULE_386
+          "downForce" addr = 0002:00012A0F,  type = 70
+        0060: MODULE_386
+          "carsPac" addr = 0002:000129F0,  type = 71
+        0070: MODULE_386
+          "convertCarToSim" addr = 0002:000128D6,  type = 72
+        0088: MODULE_386
+          "FeMusicIsPlaying" addr = 0002:000128CE,  type = 9
+        00A1: MODULE_386
+          "engineUpgrade" addr = 0002:00050C40,  type = 9
+        00B7: MODULE_386
+          "slipperySurface" addr = 0002:00050C44,  type = 9
+        00CF: MODULE_386
+          "psxFrontInit" addr = 0002:000128CA,  type = 9
+        00E4: MODULE_386
+          "carsMon" addr = 0002:00012A09,  type = 73
+        00F4: MODULE_386
+          "carsMys" addr = 0002:00012A03,  type = 74
+        0104: MODULE_386
+          "nameA12" addr = 0002:00012982,  type = 75
+        0114: MODULE_386
+          "nameB12" addr = 0002:000129C4,  type = 76
+        0124: MODULE_386
+          "colorB12" addr = 0002:000129AE,  type = 77
+        0135: MODULE_386
+          "groupB12" addr = 0002:00012998,  type = 78
+        0146: MODULE_386
+          "groupA8" addr = 0002:00012902,  type = 79
+        0156: MODULE_386
+          "nameA8" addr = 0002:0001291E,  type = 80
+        0165: MODULE_386
+          "nameB8" addr = 0002:00012948,  type = 81
+        0174: MODULE_386
+          "groupB8" addr = 0002:0001292C,  type = 82
+        0184: MODULE_386
+          "colorA12" addr = 0002:0001296C,  type = 83
+        0195: MODULE_386
+          "groupA12" addr = 0002:00012956,  type = 84
+        01A6: MODULE_386
+          "colorA8" addr = 0002:00012910,  type = 85
+        01B6: MODULE_386
+          "colorB8" addr = 0002:0001293A,  type = 86
+        01C6: MODULE_386
+          "benchmarkNeeded" addr = 0002:00050C48,  type = 7
+        01DE: MODULE_386
+          "gFlagReplayTriggeredByFrontEnd" addr = 0002:000128C8,  type = 7
+        0205: MODULE_386
+          "carsMed" addr = 0002:000129FC,  type = 87
+        0215: MODULE_386
+          "picked" addr = 0002:00050C4A,  type = 88
+        0224: MODULE_386
+          "carsOut" addr = 0002:000129DE,  type = 89
+        0234: MODULE_386
+          "carsNor" addr = 0002:000129E7,  type = 90
+        0244: SET_BASE_386
+          base = 0001:0007AC9A
+        024C: NEAR_RTN_386
+          start off = 00000000, code size = 000002C9, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  91
+          return value: <none>
+          Name = "Front_ResetControlsSettingsMenu"
+        0280: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "zKey",  type = 4
+        0289: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "qKey",  type = 4
+        0292: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "wKey",  type = 4
+        029B: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "aKey",  type = 4
+        02A4: NEAR_RTN_386
+          start off = 000002C9, code size = 00000068, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  92
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Front_ResetSettingsMenu"
+        02D2: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "player",  type = 9
+        02DD: BLOCK_386
+          start off = 000003F1, code size = 0000002B, parent off = 02FB
+        02E9: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "defaultColors",  type = 93
+        02FB: NEAR_RTN_386
+          start off = 00000331, code size = 00000293, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  23
+          return value: <none>
+          Name = "InitFrontEndStructure"
+        0325: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "i",  type = 9
+        032B: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "j",  type = 9
+        0331: NEAR_RTN_386
+          start off = 000005C4, code size = 000000A9, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  23
+          return value: <none>
+          Name = "Front_InitDefaultPlayerNames"
+        0362: LOCAL
+          address: BP_OFFSET_BYTE( B0 )
+          name = "sBuildOutput",  type = 94
+        0373: NEAR_RTN_386
+          start off = 0000066D, code size = 000000CC, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  23
+          return value: <none>
+          Name = "SaveConfig"
+        0392: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "buffer",  type = 13
+        039D: LOCAL
+          address: BP_OFFSET_WORD( 0000 )
+          name = "filename",  type = 95
+        03AB: NEAR_RTN_386
+          start off = 00000739, code size = 000000B7, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  91
+          return value: <none>
+          Name = "setLanguage"
+        03CB: NEAR_RTN_386
+          start off = 000007F0, code size = 0000020A, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  96
+          return value: MULTI_REG(1): EAX
+          Name = "LoadConfig"
+        03EB: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "handle",  type = 9
+        03F6: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "offset",  type = 16
+        0401: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "fsize",  type = 16
+        040B: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "buffer",  type = 13
+        0416: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "retval",  type = 9
+        0421: LOCAL
+          address: BP_OFFSET_WORD( 00EC )
+          name = "filename",  type = 97
+        042F: NEAR_RTN_386
+          start off = 000009FA, code size = 000000F8, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  91
+          return value: <none>
+          Name = "CheckBenchmark"
+        0452: LOCAL
+          address: BP_OFFSET_BYTE( C8 )
+          name = "windowSizeBench",  type = 98
+        0466: LOCAL
+          address: BP_OFFSET_BYTE( D4 )
+          name = "imageQualityBench",  type = 99
+        047C: LOCAL
+          address: BP_OFFSET_BYTE( E0 )
+          name = "viewDistanceBench",  type = 100
+        0492: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "horizonBench",  type = 101
+        04A3: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "i",  type = 9
+        04A9: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "clockrate",  type = 9
+        04B7: NEAR_RTN_386
+          start off = 00000AF2, code size = 00000129, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  102
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "showTitle"
+        04D7: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "file",  type = 13
+        04E0: BLOCK_386
+          start off = 00000D13, code size = 0000002C, parent off = 04F9
+        04EC: LOCAL
+          address: BP_OFFSET_WORD( 0090 )
+          name = "buttons",  type = 9
+        04F9: BLOCK_386
+          start off = 00000C9D, code size = 000000C2, parent off = 053F
+        0505: LOCAL
+          address: BP_OFFSET_BYTE( 94 )
+          name = "i",  type = 9
+        050B: LOCAL
+          address: BP_OFFSET_BYTE( A0 )
+          name = "slots",  type = 9
+        0515: LOCAL
+          address: BP_OFFSET_BYTE( 98 )
+          name = "numButtons",  type = 9
+        0524: LOCAL
+          address: BP_OFFSET_BYTE( 9C )
+          name = "axisflags",  type = 9
+        0532: LOCAL
+          address: BP_OFFSET_WORD( 0094 )
+          name = "tmpName",  type = 103
+        053F: NEAR_RTN_386
+          start off = 00000C1B, code size = 000001C2, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  23
+          return value: <none>
+          Name = "Front_TitleScreen"
+        0565: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "file",  type = 13
+        056E: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "ticksTotal",  type = 16
+        057D: LOCAL
+          address: BP_OFFSET_BYTE( A4 )
+          name = "string",  type = 104
+        0588: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "i",  type = 9
+        058E: NEAR_RTN_386
+          start off = 00000DDD, code size = 00000054, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  91
+          return value: <none>
+          Name = "RemoteInstallCheck"
+        05B5: NEAR_RTN_386
+          start off = 00000E31, code size = 0000016E, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  105
+          return value: MULTI_REG(1): EAX
+          Name = "Front_ProcessKnockOut"
+        05E0: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "i",  type = 9
+        05E6: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "numPlayers",  type = 9
+        05F5: NEAR_RTN_386
+          start off = 00000F9F, code size = 00000055, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  91
+          return value: <none>
+          Name = "ClearBothWindows"
+        061A: NEAR_RTN_386
+          start off = 00000FF4, code size = 0000023B, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  105
+          return value: MULTI_REG(1): EAX
+          Name = "Front_MainMenu"
+        063E: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "saveScreenBpp",  type = 9
+        0650: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "saveScreenMode",  type = 9
+        0663: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "result",  type = 9
+        066E: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "bIntroFlag",  type = 9
+        067D: LOCAL
+          address: CONST_ADDR386( 0002:000128D2 )
+          name = "firstTime",  type = 9
+        0690: NEAR_RTN_386
+          start off = 0000122F, code size = 00000039, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  107
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Name = "swapSHORT"
+        06B2: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "a",  type = 106
+        06B8: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "b",  type = 106
+        06BE: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "tmp",  type = 7
+        06C6: BLOCK_386
+          start off = 00001365, code size = 00000077, parent off = 06F3
+        06D2: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "i",  type = 9
+        06D8: LOCAL
+          address: BP_OFFSET_DWORD( 000000FF )
+          name = "j",  type = 9
+        06E1: BLOCK_386
+          start off = 000013E5, code size = 00000036, parent off = 06F3
+        06ED: LOCAL
+          address: BP_OFFSET_BYTE( E0 )
+          name = "i",  type = 9
+        06F3: NEAR_RTN_386
+          start off = 00001268, code size = 00000211, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  105
+          return value: MULTI_REG(1): EAX
+          Name = "Front_PostGame"
+        0717: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "saveScreenBpp",  type = 9
+        0729: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "saveScreenMode",  type = 9
+        073C: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "result",  type = 9
+        0747: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "saveLaps",  type = 9
+        0754: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "nNumCars",  type = 9
+        0761: NEAR_RTN_386
+          start off = 00001479, code size = 000003CA, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  91
+          return value: <none>
+          Name = "SetNextRoundKnockoutOrder"
+        078F: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "nNumCars",  type = 7
+        079C: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "nNumCarsToAdvance",  type = 7
+        07B2: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "nEliminatedCarIndex",  type = 7
+        07CA: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "i",  type = 9
+        07D0: LOCAL
+          address: BP_OFFSET_BYTE( E0 )
+          name = "k",  type = 9
+        07D6: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "nTotalTimes",  type = 108
+        07E6: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "nRanks",  type = 106
+        07F1: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "dummyCars",  type = 230
+        0800: NEAR_RTN_386
+          start off = 00001843, code size = 00000086, parent off = 0000
+          prologue size = 12,  epilogue size = 7
+          return address offset (from bp) = 00000010
+          return type:  231
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Name = "pickOpponentCar"
+        082C: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "i",  type = 9
+        0832: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "color",  type = 108
+        083C: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "name",  type = 108
+        0845: LOCAL
+          address: BP_OFFSET_BYTE( D8 )
+          name = "carOrder",  type = 232
+        0853: NEAR_RTN_386
+          start off = 000018C9, code size = 0000004F, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  233
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Name = "isGroupB"
+        0874: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "c",  type = 9
+        087A: NEAR_RTN_386
+          start off = 00001918, code size = 00000230, parent off = 0000
+          prologue size = 12,  epilogue size = 7
+          return address offset (from bp) = 00000010
+          return type:  231
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Name = "pickOpponentCarByClass"
+        08AD: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "i",  type = 9
+        08B3: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "color",  type = 108
+        08BD: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "name",  type = 108
+        08C6: LOCAL
+          address: CONST_ADDR386( 0002:000129DA )
+          name = "useB",  type = 9
+        08D4: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "n",  type = 9
+        08DA: NEAR_RTN_386
+          start off = 00001B48, code size = 00000056, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  105
+          return value: MULTI_REG(1): EAX
+          Name = "pickTrafficColor"
+        0900: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "validColors",  type = 234
+        0911: NEAR_RTN_386
+          start off = 00001B9E, code size = 00000094, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  105
+          return value: MULTI_REG(1): EAX
+          Name = "pickOpponentColorRandom"
+        093E: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "i",  type = 9
+        0944: NEAR_RTN_386
+          start off = 00001C32, code size = 0000007A, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  233
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Name = "pickOpponentNameRandom"
+        0973: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "nSeed",  type = 9
+        097D: NEAR_RTN_386
+          start off = 00001CAC, code size = 0000003A, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  91
+          return value: <none>
+          Name = "ResetRandomPick"
+        09A1: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "i",  type = 9
+        09A7: NEAR_RTN_386
+          start off = 00001CE6, code size = 00000073, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  233
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Name = "RandomPick"
+        09CA: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "n",  type = 9
+        09D0: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "i",  type = 9
+        09D6: NEAR_RTN_386
+          start off = 00001D59, code size = 00000107, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  105
+          return value: MULTI_REG(1): EAX
+          Name = "pickTraffic"
+        09F7: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "i",  type = 9
+        09FD: NEAR_RTN_386
+          start off = 00001E60, code size = 00000366, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  235
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Name = "setPlayer1Car"
+        0A25: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "d",  type = 108
+        0A2B: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "c",  type = 9
+        0A31: NEAR_RTN_386
+          start off = 000021C6, code size = 0000005D, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  236
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Name = "setTournamentLineup"
+        0A5D: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "d",  type = 108
+        0A63: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "i",  type = 9
+        0A69: NEAR_RTN_386
+          start off = 00002223, code size = 000000B0, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  236
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Name = "setKnockoutLineup"
+        0A93: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "d",  type = 108
+        0A99: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "remain",  type = 9
+        0AA4: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "i",  type = 9
+        0AAA: NEAR_RTN_386
+          start off = 000022D3, code size = 0000006E, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  233
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Name = "stillAlive"
+        0ACD: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "i",  type = 9
+        0AD3: NEAR_RTN_386
+          start off = 00002341, code size = 00000107, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  233
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Front_SensitivityAdjust"
+        0B03: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "steerInfo",  type = 9
+        0B11: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "r1",  type = 9
+        0B18: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "r2",  type = 9
+        0B1F: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "rExtreme",  type = 9
+        0B2C: NEAR_RTN_386
+          start off = 00002448, code size = 00000054, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  105
+          return value: MULTI_REG(1): EAX
+          Name = "Front_GetLapsForType"
+        0B56: NEAR_RTN_386
+          start off = 0000249C, code size = 000014E5, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  236
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Front_BuildStream"
+        0B80: LOCAL
+          address: BP_OFFSET_BYTE( CC )
+          name = "stream",  type = 108
+        0B8B: LOCAL
+          address: BP_OFFSET_BYTE( C8 )
+          name = "d",  type = 108
+        0B91: LOCAL
+          address: BP_OFFSET_BYTE( DC )
+          name = "i",  type = 9
+        0B97: LOCAL
+          address: BP_OFFSET_BYTE( D0 )
+          name = "c",  type = 9
+        0B9D: LOCAL
+          address: BP_OFFSET_BYTE( D4 )
+          name = "color",  type = 9
+        0BA7: LOCAL
+          address: BP_OFFSET_BYTE( D8 )
+          name = "lost",  type = 9
+        0BB0: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "name",  type = 9
+        0BB9: LOCAL
+          address: BP_OFFSET_BYTE( E0 )
+          name = "numCars",  type = 9
+        0BC5: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "numCarsTotal",  type = 9
+        0BD6: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "localCar",  type = 9
+        0BE3: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "numPlayerRaceCars",  type = 9
+        0BF9: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "colourLoop",  type = 9
+        0C08: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "numOpponentRaceCars",  type = 9
+        0C20: LOCAL
+          address: BP_OFFSET_BYTE( AC )
+          name = "convertTrackToSim",  type = 237
+

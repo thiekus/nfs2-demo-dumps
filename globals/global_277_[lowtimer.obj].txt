@@ -1,0 +1,44 @@
+  Name:  _wintmrsub
+    address      = 0002:00054B50
+    module index = 277
+    kind:          (static pubdef) (data)
+  Name:  _wintimerthread
+    address      = 0002:00054B70
+    module index = 277
+    kind:          (data)
+  Name:  _getwintick
+    address      = 0001:000A0B80
+    module index = 277
+    kind:          (code)
+  Name:  _wintimerthreadfunc
+    address      = 0001:000A0B88
+    module index = 277
+    kind:          (static pubdef) (code)
+  Name:  winrestoretimer_
+    address      = 0001:000A0C14
+    module index = 277
+    kind:          (static pubdef) (code)
+  Name:  _wininittimer
+    address      = 0001:000A0C88
+    module index = 277
+    kind:          (static pubdef) (code)
+  Name:  _winaddtimer
+    address      = 0001:000A0D14
+    module index = 277
+    kind:          (code)
+  Name:  _windeltimer
+    address      = 0001:000A0D8C
+    module index = 277
+    kind:          (code)
+  Name:  _triggerwintimer
+    address      = 0001:000A0E28
+    module index = 277
+    kind:          (code)
+  Name:  _wintimersignal
+    address      = 0002:00013F18
+    module index = 277
+    kind:          (static pubdef) (data)
+  Name:  _wintimermutex
+    address      = 0002:00054B84
+    module index = 277
+    kind:          (static pubdef) (data)

@@ -1,0 +1,12 @@
+  Name:  __CmpBigInt
+    address      = 0001:000CA3FA
+    module index = 614
+    kind:          (code)
+  Name:  __Rnd2Int
+    address      = 0001:000CA434
+    module index = 614
+    kind:          (code)
+  Name:  __Bin2String
+    address      = 0001:000CA49F
+    module index = 614
+    kind:          (code)

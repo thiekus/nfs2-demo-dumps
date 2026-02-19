@@ -1,0 +1,16 @@
+  Name:  upsxaresidual_
+    address      = 0001:000C4230
+    module index = 557
+    kind:          (code)
+  Name:  _upsxaloopsection
+    address      = 0001:000C42A8
+    module index = 557
+    kind:          (static pubdef) (code)
+  Name:  _upsxal
+    address      = 0001:000C4564
+    module index = 557
+    kind:          (static pubdef) (code)
+  Name:  _upsxalsetstate
+    address      = 0001:000C477C
+    module index = 557
+    kind:          (code)

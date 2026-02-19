@@ -1,0 +1,336 @@
+  Name:  _FeTools_globalUpdate
+    address      = 0002:00012614
+    module index = 95
+    kind:          (data)
+  Name:  _joyTicks
+    address      = 0002:00012618
+    module index = 95
+    kind:          (data)
+  Name:  _FeTools_gScrollTicksOut
+    address      = 0002:0001261C
+    module index = 95
+    kind:          (data)
+  Name:  _colourRGB
+    address      = 0002:00012620
+    module index = 95
+    kind:          (data)
+  Name:  _gDisableColorIndex
+    address      = 0002:00012640
+    module index = 95
+    kind:          (static pubdef) (data)
+  Name:  _fepicture
+    address      = 0002:00012644
+    module index = 95
+    kind:          (data)
+  Name:  _bonusCarList
+    address      = 0002:00012648
+    module index = 95
+    kind:          (data)
+  Name:  _bonusTrackList
+    address      = 0002:00012651
+    module index = 95
+    kind:          (data)
+  Name:  _bonusUpgradeList
+    address      = 0002:0001265B
+    module index = 95
+    kind:          (data)
+  Name:  _bonusSlipList
+    address      = 0002:00012663
+    module index = 95
+    kind:          (data)
+  Name:  _bonusCiteronList
+    address      = 0002:00012668
+    module index = 95
+    kind:          (data)
+  Name:  _bonusCommancheList
+    address      = 0002:00012670
+    module index = 95
+    kind:          (data)
+  Name:  _bonusBusList
+    address      = 0002:0001267A
+    module index = 95
+    kind:          (data)
+  Name:  _bonusSemiList
+    address      = 0002:0001267E
+    module index = 95
+    kind:          (data)
+  Name:  _bonusVanagonList
+    address      = 0002:00012683
+    module index = 95
+    kind:          (data)
+  Name:  _bonusQuattroList
+    address      = 0002:0001268B
+    module index = 95
+    kind:          (data)
+  Name:  _bonusVolvoList
+    address      = 0002:00012693
+    module index = 95
+    kind:          (data)
+  Name:  _bonusJeepyjList
+    address      = 0002:00012699
+    module index = 95
+    kind:          (data)
+  Name:  _bonusMercedesList
+    address      = 0002:000126A0
+    module index = 95
+    kind:          (data)
+  Name:  _bonusVwfbList
+    address      = 0002:000126A9
+    module index = 95
+    kind:          (data)
+  Name:  _bonusMiataList
+    address      = 0002:000126AE
+    module index = 95
+    kind:          (data)
+  Name:  _bonusBugList
+    address      = 0002:000126B4
+    module index = 95
+    kind:          (data)
+  Name:  _bonusLandcruiserList
+    address      = 0002:000126B8
+    module index = 95
+    kind:          (data)
+  Name:  _bonusArmytruckList
+    address      = 0002:000126C4
+    module index = 95
+    kind:          (data)
+  Name:  _bonusBmwList
+    address      = 0002:000126CE
+    module index = 95
+    kind:          (data)
+  Name:  _bonusSnowtruckList
+    address      = 0002:000126D2
+    module index = 95
+    kind:          (data)
+  Name:  _bonusDrive29
+    address      = 0002:000126DC
+    module index = 95
+    kind:          (data)
+  Name:  _bonusDrive30
+    address      = 0002:000126E4
+    module index = 95
+    kind:          (data)
+  Name:  _bonusDrive31
+    address      = 0002:000126EC
+    module index = 95
+    kind:          (data)
+  Name:  _bonusDrive32
+    address      = 0002:000126F4
+    module index = 95
+    kind:          (data)
+  Name:  _bonusDrive33
+    address      = 0002:000126FC
+    module index = 95
+    kind:          (data)
+  Name:  _bonusDrive34
+    address      = 0002:00012704
+    module index = 95
+    kind:          (data)
+  Name:  _bonusDrive35
+    address      = 0002:0001270C
+    module index = 95
+    kind:          (data)
+  Name:  _bonusDrive36
+    address      = 0002:00012714
+    module index = 95
+    kind:          (data)
+  Name:  _bonusDrive37
+    address      = 0002:0001271C
+    module index = 95
+    kind:          (data)
+  Name:  _bonusDrive38
+    address      = 0002:00012724
+    module index = 95
+    kind:          (data)
+  Name:  _bonusDrive39
+    address      = 0002:0001272C
+    module index = 95
+    kind:          (data)
+  Name:  _bonusDrive40
+    address      = 0002:00012734
+    module index = 95
+    kind:          (data)
+  Name:  _bonusDrive41
+    address      = 0002:0001273C
+    module index = 95
+    kind:          (data)
+  Name:  _bonusDrive42
+    address      = 0002:00012744
+    module index = 95
+    kind:          (data)
+  Name:  _bonusDrive43
+    address      = 0002:0001274C
+    module index = 95
+    kind:          (data)
+  Name:  _bonusDrive44
+    address      = 0002:00012754
+    module index = 95
+    kind:          (data)
+  Name:  _bonusDrive45
+    address      = 0002:0001275C
+    module index = 95
+    kind:          (data)
+  Name:  _bonusDrive46
+    address      = 0002:00012764
+    module index = 95
+    kind:          (data)
+  Name:  FeTools_CopyFrontToBackPage_
+    address      = 0001:00075DE2
+    module index = 95
+    kind:          (code)
+  Name:  FeTools_IsDiskSpaceAvail_
+    address      = 0001:00075DF7
+    module index = 95
+    kind:          (code)
+  Name:  FeTools_flipSync_
+    address      = 0001:00075E71
+    module index = 95
+    kind:          (code)
+  Name:  FeTools_Draw_
+    address      = 0001:00075EA3
+    module index = 95
+    kind:          (code)
+  Name:  FeTools_LocateDraw_
+    address      = 0001:000760CC
+    module index = 95
+    kind:          (code)
+  Name:  bfade16_
+    address      = 0001:0007611F
+    module index = 95
+    kind:          (code)
+  Name:  bfade15_
+    address      = 0001:00076572
+    module index = 95
+    kind:          (code)
+  Name:  bfadelevel_
+    address      = 0001:00076CB3
+    module index = 95
+    kind:          (code)
+  Name:  FeTools_LocateFade_
+    address      = 0001:00076D8D
+    module index = 95
+    kind:          (code)
+  Name:  FeTools_GetJoystickKeys_
+    address      = 0001:00076DD5
+    module index = 95
+    kind:          (code)
+  Name:  FeTools_SwitchLanguage_
+    address      = 0001:00076EFC
+    module index = 95
+    kind:          (code)
+  Name:  LanguageCheck_
+    address      = 0001:00076F51
+    module index = 95
+    kind:          (code)
+  Name:  FeTools_GetKey_
+    address      = 0001:00076F66
+    module index = 95
+    kind:          (code)
+  Name:  FeTools_GetKeyAlpha_
+    address      = 0001:00076FE0
+    module index = 95
+    kind:          (code)
+  Name:  FeTools_init_
+    address      = 0001:00077055
+    module index = 95
+    kind:          (code)
+  Name:  FeTools_SetFont_
+    address      = 0001:0007726B
+    module index = 95
+    kind:          (code)
+  Name:  FeTools_deinit_
+    address      = 0001:00077305
+    module index = 95
+    kind:          (code)
+  Name:  FeTools_SetDisableColor_
+    address      = 0001:00077352
+    module index = 95
+    kind:          (code)
+  Name:  FeTools_Text_
+    address      = 0001:00077374
+    module index = 95
+    kind:          (code)
+  Name:  FeTools_MenuText_
+    address      = 0001:0007755B
+    module index = 95
+    kind:          (code)
+  Name:  Fetools_VertMenuText_
+    address      = 0001:000776D4
+    module index = 95
+    kind:          (code)
+  Name:  FeTools_CaptureScreen_
+    address      = 0001:000778ED
+    module index = 95
+    kind:          (code)
+  Name:  flagState_
+    address      = 0001:00077938
+    module index = 95
+    kind:          (code)
+  Name:  FeTools_BonusCheck_
+    address      = 0001:000779AA
+    module index = 95
+    kind:          (code)
+  Name:  FeTools_InputHappening_
+    address      = 0001:00077AED
+    module index = 95
+    kind:          (code)
+  Name:  _bonusDrive47
+    address      = 0002:0001276C
+    module index = 95
+    kind:          (data)
+  Name:  _bonusDrive48
+    address      = 0002:00012774
+    module index = 95
+    kind:          (data)
+  Name:  _bonusDrive49
+    address      = 0002:0001277C
+    module index = 95
+    kind:          (data)
+  Name:  _bonusDrive50
+    address      = 0002:00012784
+    module index = 95
+    kind:          (data)
+  Name:  _bonusLists
+    address      = 0002:0001278C
+    module index = 95
+    kind:          (data)
+  Name:  _states
+    address      = 0002:00050404
+    module index = 95
+    kind:          (data)
+  Name:  _font18
+    address      = 0002:000504AC
+    module index = 95
+    kind:          (data)
+  Name:  _font16
+    address      = 0002:000504B0
+    module index = 95
+    kind:          (data)
+  Name:  _font14
+    address      = 0002:000504B4
+    module index = 95
+    kind:          (data)
+  Name:  _font36
+    address      = 0002:000504B8
+    module index = 95
+    kind:          (data)
+  Name:  _save16
+    address      = 0002:000504BC
+    module index = 95
+    kind:          (data)
+  Name:  _save14
+    address      = 0002:00050570
+    module index = 95
+    kind:          (data)
+  Name:  _save18
+    address      = 0002:00050624
+    module index = 95
+    kind:          (data)
+  Name:  _save36
+    address      = 0002:000506D8
+    module index = 95
+    kind:          (data)
+  Name:  _currentSize
+    address      = 0002:0005078C
+    module index = 95
+    kind:          (data)

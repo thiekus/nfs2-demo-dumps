@@ -1,0 +1,4 @@
+  Name:  _removewindow
+    address      = 0001:000955A0
+    module index = 219
+    kind:          (code)

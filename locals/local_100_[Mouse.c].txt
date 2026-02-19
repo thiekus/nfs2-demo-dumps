@@ -1,0 +1,248 @@
+100) Name:   C:\nfs2\frontend\pc\Mouse.c
+     Language is C
+     Locals: num = 1, offset = 000001A2H
+     Types:  num = 1, offset = 0000033EH
+     Lines:  num = 1, offset = 000004C2H
+
+   *** Locals ***
+   ==============
+      Data 0:  offset 000278F3
+        0000: MODULE_386
+          "hotSpotX2" addr = 0002:00050C58,  type = 60
+        0012: MODULE_386
+          "hotSpotX1" addr = 0002:00050CA8,  type = 61
+        0024: MODULE_386
+          "hotSpotY2" addr = 0002:00050CF8,  type = 62
+        0036: MODULE_386
+          "hotSpotY1" addr = 0002:00050D48,  type = 63
+        0048: MODULE_386
+          "hotSpotIndex" addr = 0002:00050D98,  type = 64
+        005D: MODULE_386
+          "mouseB" addr = 0002:00012A4C,  type = 9
+        006C: MODULE_386
+          "mouseY" addr = 0002:00012A48,  type = 9
+        007B: MODULE_386
+          "mouseX" addr = 0002:00012A44,  type = 9
+        008A: MODULE_386
+          "MouseArtFile" addr = 0002:00012A40,  type = 13
+        009F: MODULE_386
+          "mouseSave" addr = 0002:00050DE8,  type = 73
+        00B1: MODULE_386
+          "mouseBuffer" addr = 0002:00050DEC,  type = 73
+        00C5: MODULE_386
+          "oldMouseX" addr = 0002:00050DF0,  type = 9
+        00D7: MODULE_386
+          "oldMouseY" addr = 0002:00050DF4,  type = 9
+        00E9: MODULE_386
+          "filename2" addr = 0002:00050DF8,  type = 74
+        00FB: MODULE_386
+          "forceUpdate" addr = 0002:00050EF2,  type = 7
+        010F: MODULE_386
+          "numHotSpots" addr = 0002:00050EF4,  type = 7
+        0123: SET_BASE_386
+          base = 0001:0007E61B
+        012B: NEAR_RTN_386
+          start off = 00000000, code size = 0000005C, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  75
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Name = "Mouse_SetXY"
+        014F: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "x",  type = 9
+        0155: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "y",  type = 9
+        015B: NEAR_RTN_386
+          start off = 0000005C, code size = 0000007A, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  76
+          return value: MULTI_REG(1): EAX
+          Name = "Mouse_ButtonPressed"
+        0184: LOCAL
+          address: CONST_ADDR386( 0002:00050EF6 )
+          name = "mouseReleased",  type = 9
+        019B: NEAR_RTN_386
+          start off = 000000D6, code size = 0000003C, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  76
+          return value: MULTI_REG(1): EAX
+          Name = "Mouse_ButtonDown"
+        01C1: NEAR_RTN_386
+          start off = 00000112, code size = 00000417, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  88
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Mouse_Initialize"
+        01E8: LOCAL
+          address: BP_OFFSET_BYTE( E0 )
+          name = "menu",  type = 87
+        01F1: LOCAL
+          address: BP_OFFSET_BYTE( D8 )
+          name = "width",  type = 9
+        01FB: LOCAL
+          address: BP_OFFSET_BYTE( DC )
+          name = "height",  type = 9
+        0206: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "i",  type = 9
+        020C: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "flags",  type = 9
+        0216: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "nYArrow",  type = 7
+        0222: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "mouseShape",  type = 68
+        0231: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "current",  type = 84
+        023D: LOCAL
+          address: BP_OFFSET_BYTE( 88 )
+          name = "string",  type = 89
+        0248: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "currentImage",  type = 94
+        0259: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "imageShape",  type = 68
+        0268: NEAR_RTN_386
+          start off = 00000529, code size = 000000A1, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  88
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Mouse_SetToCurrent"
+        0291: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "menu",  type = 87
+        029A: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "current",  type = 84
+        02A6: NEAR_RTN_386
+          start off = 000005CA, code size = 00000046, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  95
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Name = "Mouse_Line"
+        02CA: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "baseY",  type = 9
+        02D4: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "deltaY",  type = 9
+        02DF: NEAR_RTN_386
+          start off = 00000610, code size = 0000006C, parent off = 0000
+          prologue size = 11,  epilogue size = 6
+          return address offset (from bp) = 0000000C
+          return type:  96
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Parm 3: MULTI_REG(1): ECX
+          Name = "Mouse_HotSpotXY"
+        030C: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "x",  type = 9
+        0312: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "y",  type = 9
+        0318: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "w",  type = 9
+        031E: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "h",  type = 9
+        0324: NEAR_RTN_386
+          start off = 0000067C, code size = 0000012F, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  97
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Mouse_HotSpot"
+        0349: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "menu",  type = 87
+        0352: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "i",  type = 9
+        0358: NEAR_RTN_386
+          start off = 000007AB, code size = 00000078, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  98
+          return value: <none>
+          Name = "Mouse_Exit"
+        0377: NEAR_RTN_386
+          start off = 00000823, code size = 00000023, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  99
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Mouse_ForceUpdate"
+        039F: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "type",  type = 9
+        03A8: NEAR_RTN_386
+          start off = 00000846, code size = 0000001D, parent off = 0000
+          prologue size = 11,  epilogue size = 6
+          return address offset (from bp) = 0000000C
+          return type:  100
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Parm 3: MULTI_REG(1): ECX
+          Name = "Mouse_SetBounds"
+        03D4: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "xmin",  type = 9
+        03DD: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "ymin",  type = 9
+        03E6: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "xmax",  type = 9
+        03EF: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "ymax",  type = 9
+        03F8: NEAR_RTN_386
+          start off = 00000863, code size = 000000FD, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  98
+          return value: <none>
+          Name = "Mouse_Show"
+        0417: NEAR_RTN_386
+          start off = 00000960, code size = 000000D1, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  98
+          return value: <none>
+          Name = "Mouse_Flash"
+        0437: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "flashDown",  type = 16
+        0445: NEAR_RTN_386
+          start off = 00000A31, code size = 00000072, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  98
+          return value: <none>
+          Name = "Mouse_Hide"
+

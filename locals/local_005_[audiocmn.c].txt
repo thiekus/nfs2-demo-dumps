@@ -1,0 +1,813 @@
+  5) Name:   C:\nfs2\game\common\audiocmn.c
+     Language is C
+     Locals: num = 1, offset = 00000026H
+     Types:  num = 1, offset = 000001C2H
+     Lines:  num = 1, offset = 0000035AH
+
+   *** Locals ***
+   ==============
+      Data 0:  offset 00003E75
+        0000: MODULE_386
+          "speechPlaying" addr = 0002:0001C6E8,  type = 60
+        0016: MODULE_386
+          "gaChannel" addr = 0002:0001C6F0,  type = 64
+        0028: MODULE_386
+          "currentWindVal" addr = 0002:0001C7B0,  type = 65
+        003F: MODULE_386
+          "SkidInitMaxFreq" addr = 0002:0000C42D,  type = 66
+        0057: MODULE_386
+          "fMysticWindON" addr = 0002:0001C7D0,  type = 67
+        006D: MODULE_386
+          "PlayersRampedGasLevel" addr = 0002:0001C7D8,  type = 68
+        008B: MODULE_386
+          "gSndBnk" addr = 0002:0001C7F8,  type = 71
+        009B: MODULE_386
+          "gtotallaptimes" addr = 0002:0001C840,  type = 72
+        00B2: MODULE_386
+          "nextWindVal" addr = 0002:0001C860,  type = 73
+        00C6: MODULE_386
+          "bestLapTime" addr = 0002:0001C880,  type = 74
+        00DA: MODULE_386
+          "queueFinalLap" addr = 0002:0001C8A0,  type = 75
+        00F0: MODULE_386
+          "trackRegion" addr = 0002:0001C8A8,  type = 76
+        0104: MODULE_386
+          "gSimSpchHandle" addr = 0002:0001C8B0,  type = 77
+        011B: MODULE_386
+          "rand_256" addr = 0002:0000C2AC,  type = 78
+        012C: MODULE_386
+          "currentLap" addr = 0002:0001C8D0,  type = 79
+        013F: MODULE_386
+          "carbankname" addr = 0002:0001C8D8,  type = 80
+        0153: MODULE_386
+          "nextWindPan" addr = 0002:0001C8E4,  type = 9
+        0167: MODULE_386
+          "currentWindPan" addr = 0002:0001C8E8,  type = 9
+        017E: MODULE_386
+          "AudioCmn_musicInteractive" addr = 0002:0000C29B,  type = 9
+        01A0: MODULE_386
+          "recordLapTime" addr = 0002:0000C279,  type = 9
+        01B6: MODULE_386
+          "NumSFXOn" addr = 0002:0000C2A3,  type = 9
+        01C7: MODULE_386
+          "gameSFXvol" addr = 0002:0000C287,  type = 9
+        01DA: MODULE_386
+          "gFEmusicON" addr = 0002:0000C29F,  type = 9
+        01ED: MODULE_386
+          "previousSFXLevel" addr = 0002:0000C297,  type = 9
+        0206: MODULE_386
+          "gMusicStyle" addr = 0002:0000C272,  type = 9
+        021A: MODULE_386
+          "tempVol" addr = 0002:0001C8EC,  type = 9
+        022A: MODULE_386
+          "gBankNumLookupTable" addr = 0002:0000C214,  type = 81
+        0246: MODULE_386
+          "gMasterMusicLevel" addr = 0002:0000C28F,  type = 9
+        0260: MODULE_386
+          "gStereoMode" addr = 0002:0000C2A7,  type = 9
+        0274: MODULE_386
+          "AudioCmn_kAudioStreamingOn" addr = 0002:0000C283,  type = 9
+        0297: MODULE_386
+          "AudioCmn_kAudioOn" addr = 0002:0000C27F,  type = 9
+        02B1: MODULE_386
+          "gMasterFEMusicLevel" addr = 0002:0000C28B,  type = 9
+        02CD: MODULE_386
+          "gMasterSFXLevel" addr = 0002:0000C293,  type = 9
+        02E5: MODULE_386
+          "Xfade" addr = 0002:0000C3AC,  type = 82
+        02F3: MODULE_386
+          "SFXOn" addr = 0002:0000C27E,  type = 4
+        0301: MODULE_386
+          "fReverbOn" addr = 0002:0000C2AB,  type = 4
+        0313: MODULE_386
+          "MusOn" addr = 0002:0000C27D,  type = 4
+        0321: MODULE_386
+          "countdown" addr = 0002:0000C276,  type = 4
+        0333: MODULE_386
+          "currentintensity" addr = 0002:0000C271,  type = 4
+        034C: MODULE_386
+          "GregsSeed" addr = 0002:0001C8F0,  type = 6
+        035E: MODULE_386
+          "StartedNewMusic" addr = 0002:0000C278,  type = 4
+        0376: MODULE_386
+          "trackMusicState" addr = 0002:0000C270,  type = 4
+        038E: MODULE_386
+          "FadingMusic" addr = 0002:0000C277,  type = 4
+        03A2: SET_BASE_386
+          base = 0001:0000AD37
+        03AA: NEAR_RTN_386
+          start off = 00000000, code size = 00000028, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  83
+          return value: MULTI_REG(1): EAX
+          Name = "AudioCmn_GetTrackRecordLapTime"
+        03DE: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "nBestTime",  type = 9
+        03EC: NEAR_RTN_386
+          start off = 00000028, code size = 000000F7, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  21
+          return value: <none>
+          Name = "AudioCmn_Init"
+        040E: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "i",  type = 9
+        0414: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "j",  type = 9
+        041A: NEAR_RTN_386
+          start off = 0000011F, code size = 000000A2, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  21
+          return value: <none>
+          Name = "AudioCmn_DeInit"
+        043E: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "i",  type = 9
+        0444: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "j",  type = 9
+        044A: NEAR_RTN_386
+          start off = 000001C1, code size = 00000879, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  206
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "AudioCmn_CheckState"
+        0475: LOCAL
+          address: BP_OFFSET_BYTE( E0 )
+          name = "car",  type = 205
+        047E: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "wow",  type = 4
+        0486: LOCAL
+          address: CONST_ADDR386( 0002:0000C445 )
+          name = "SmokingCar",  type = 4
+        049A: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "currentState",  type = 4
+        04AB: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "carnum",  type = 4
+        04B6: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "carposition",  type = 9
+        04C6: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "carspeed",  type = 9
+        04D3: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "threshold",  type = 9
+        04E1: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "iSelectedCar",  type = 9
+        04F2: NEAR_RTN_386
+          start off = 00000A3A, code size = 0000003C, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  21
+          return value: <none>
+          Name = "AudioCmn_LoadFESamples"
+        051D: LOCAL
+          address: BP_OFFSET_BYTE( 9C )
+          name = "filename",  type = 207
+        052B: NEAR_RTN_386
+          start off = 00000A76, code size = 000005C1, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  21
+          return value: <none>
+          Name = "AudioCmn_LoadGameSamples"
+        0558: LOCAL
+          address: BP_OFFSET_BYTE( 9C )
+          name = "PlayerCarSFX",  type = 208
+        056A: LOCAL
+          address: BP_OFFSET_WORD( 006C )
+          name = "OppCar",  type = 209
+        0577: LOCAL
+          address: BP_OFFSET_BYTE( CC )
+          name = "aSplitScreen",  type = 210
+        0589: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "iSelectedCar",  type = 9
+        059A: LOCAL
+          address: BP_OFFSET_WORD( 0008 )
+          name = "filename",  type = 211
+        05A9: NEAR_RTN_386
+          start off = 00001037, code size = 00000050, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  21
+          return value: <none>
+          Name = "AudioCmn_InitChannelArray"
+        05D7: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "i",  type = 9
+        05DD: NEAR_RTN_386
+          start off = 00001087, code size = 000001EF, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  21
+          return value: <none>
+          Name = "AudioCmn_InitLoopedCarSounds"
+        060E: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "index",  type = 9
+        0618: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "iPan",  type = 9
+        0621: NEAR_RTN_386
+          start off = 00001276, code size = 000000D5, parent off = 0000
+          prologue size = 12,  epilogue size = 7
+          return address offset (from bp) = 00000010
+          return type:  212
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Name = "scaleFrequency"
+        064C: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "sndPlayer",  type = 9
+        065A: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "iSFXnum",  type = 9
+        0666: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "tweakedForce",  type = 9
+        0677: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "scaledFreq",  type = 9
+        0686: NEAR_RTN_386
+          start off = 0000134B, code size = 000003A9, parent off = 0000
+          prologue size = 12,  epilogue size = 7
+          return address offset (from bp) = 00000010
+          return type:  216
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Name = "ChooseImpactSample"
+        06B5: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "force",  type = 9
+        06BF: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "surface1",  type = 215
+        06CD: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "surface2",  type = 215
+        06DB: LOCAL
+          address: CONST_ADDR386( 0002:0000C446 )
+          name = "lastImpactSample",  type = 9
+        06F5: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "iSFXnum",  type = 9
+        0701: NEAR_RTN_386
+          start off = 000016F4, code size = 000000BA, parent off = 0000
+          prologue size = 12,  epilogue size = 7
+          return address offset (from bp) = 00000010
+          return type:  216
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Name = "ChooseLoopedSample"
+        0730: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "sndPlayer",  type = 9
+        073E: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "surface1",  type = 215
+        074C: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "surface2",  type = 215
+        075A: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "SFXnum",  type = 9
+        0765: BLOCK_386
+          start off = 000018A7, code size = 0000005B, parent off = 077D
+        0771: LOCAL
+          address: BP_OFFSET_BYTE( D0 )
+          name = "tempAmp",  type = 9
+        077D: NEAR_RTN_386
+          start off = 000017AE, code size = 000002F1, parent off = 0000
+          prologue size = 11,  epilogue size = 8
+          return address offset (from bp) = 0000000C
+          return type:  221
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Parm 3: MULTI_REG(1): ECX
+          Name = "AudioCmn_SFX"
+        07A7: LOCAL
+          address: BP_OFFSET_BYTE( D8 )
+          name = "sndPlayer",  type = 9
+        07B5: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "surface1",  type = 215
+        07C3: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "surface2",  type = 215
+        07D1: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "tweakedForce",  type = 9
+        07E2: LOCAL
+          address: BP_OFFSET_BYTE( 10 )
+          name = "Distsq",  type = 9
+        07ED: LOCAL
+          address: BP_OFFSET_BYTE( 14 )
+          name = "iPanIn",  type = 220
+        07F9: LOCAL
+          address: BP_OFFSET_BYTE( DC )
+          name = "iSFXnumber",  type = 9
+        0808: LOCAL
+          address: BP_OFFSET_BYTE( E0 )
+          name = "amplitude",  type = 9
+        0816: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "frequency",  type = 9
+        0824: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "pan",  type = 9
+        082C: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "panx",  type = 9
+        0835: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "pany",  type = 9
+        083E: NEAR_RTN_386
+          start off = 00001A9F, code size = 0000007B, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  222
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "freeVoiceChannel"
+        0866: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "sndPlayer",  type = 9
+        0874: NEAR_RTN_386
+          start off = 00001B1A, code size = 00000086, parent off = 0000
+          prologue size = 11,  epilogue size = 8
+          return address offset (from bp) = 0000000C
+          return type:  223
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Parm 3: MULTI_REG(1): ECX
+          Name = "AudioCmn_PlayTrackSFX"
+        08A7: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "sndPlayer",  type = 9
+        08B5: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "iSFXnum",  type = 9
+        08C1: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "iFreqIn",  type = 9
+        08CD: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "iAmpIn",  type = 9
+        08D8: LOCAL
+          address: BP_OFFSET_BYTE( 10 )
+          name = "azimuth",  type = 9
+        08E4: LOCAL
+          address: BP_OFFSET_BYTE( 14 )
+          name = "playernum",  type = 9
+        08F2: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "tempPan",  type = 9
+        08FE: NEAR_RTN_386
+          start off = 00001BA0, code size = 000002DD, parent off = 0000
+          prologue size = 11,  epilogue size = 8
+          return address offset (from bp) = 0000000C
+          return type:  224
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Parm 3: MULTI_REG(1): ECX
+          Name = "AudioCmn_PlaySFX"
+        092C: LOCAL
+          address: BP_OFFSET_BYTE( DC )
+          name = "sndPlayer",  type = 9
+        093A: LOCAL
+          address: BP_OFFSET_BYTE( E0 )
+          name = "iSFXnum",  type = 9
+        0946: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "iFreqIn",  type = 9
+        0952: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "iAmpIn",  type = 9
+        095D: LOCAL
+          address: BP_OFFSET_BYTE( 10 )
+          name = "azimuth",  type = 9
+        0969: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "iPartial",  type = 9
+        0976: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "iFreq",  type = 9
+        0980: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "iAmp",  type = 9
+        0989: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "PatchBank",  type = 16
+        0997: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "bankNum",  type = 4
+        09A3: BLOCK_386
+          start off = 000026BB, code size = 0000025F, parent off = 0A27
+        09AF: LOCAL
+          address: BP_OFFSET_WORD( 006C )
+          name = "whichWindSound",  type = 4
+        09C3: BLOCK_386
+          start off = 00002BFD, code size = 00000110, parent off = 0A27
+        09CF: LOCAL
+          address: BP_OFFSET_WORD( 0020 )
+          name = "tempPan",  type = 9
+        09DC: BLOCK_386
+          start off = 000031EC, code size = 0000011C, parent off = 0A27
+        09E8: LOCAL
+          address: BP_OFFSET_WORD( 009C )
+          name = "tempPan",  type = 9
+        09F5: BLOCK_386
+          start off = 0000345B, code size = 00000110, parent off = 0A27
+        0A01: LOCAL
+          address: BP_OFFSET_WORD( 0070 )
+          name = "tempPan",  type = 9
+        0A0E: BLOCK_386
+          start off = 000035B0, code size = 00000110, parent off = 0A27
+        0A1A: LOCAL
+          address: BP_OFFSET_WORD( 0054 )
+          name = "tempPan",  type = 9
+        0A27: NEAR_RTN_386
+          start off = 00001E7D, code size = 00001C5D, parent off = 0000
+          prologue size = 11,  epilogue size = 6
+          return address offset (from bp) = 0000000C
+          return type:  225
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Parm 3: MULTI_REG(1): ECX
+          Name = "AudioCmn_SoundCar"
+        0A56: LOCAL
+          address: BP_OFFSET_BYTE( AC )
+          name = "car",  type = 205
+        0A5F: LOCAL
+          address: BP_OFFSET_BYTE( B0 )
+          name = "Distsq",  type = 9
+        0A6A: LOCAL
+          address: BP_OFFSET_BYTE( B4 )
+          name = "iFreqIn",  type = 9
+        0A76: LOCAL
+          address: BP_OFFSET_BYTE( B8 )
+          name = "iPanIn",  type = 220
+        0A82: LOCAL
+          address: BP_OFFSET_BYTE( BC )
+          name = "CurCarGasLevel",  type = 9
+        0A95: LOCAL
+          address: BP_OFFSET_BYTE( C0 )
+          name = "freq",  type = 9
+        0A9E: LOCAL
+          address: BP_OFFSET_BYTE( C4 )
+          name = "roadSurface",  type = 9
+        0AAE: LOCAL
+          address: BP_OFFSET_BYTE( C8 )
+          name = "cobbleMod",  type = 9
+        0ABC: LOCAL
+          address: BP_OFFSET_BYTE( CC )
+          name = "cobblestoneAmp",  type = 9
+        0ACF: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "SPSC",  type = 4
+        0AD8: LOCAL
+          address: BP_OFFSET_BYTE( D4 )
+          name = "PlayerPan",  type = 9
+        0AE6: LOCAL
+          address: BP_OFFSET_BYTE( D8 )
+          name = "PlayerWindChan",  type = 9
+        0AF9: LOCAL
+          address: CONST_ADDR386( 0002:0000C44A )
+          name = "cobbleCount",  type = 4
+        0B0E: LOCAL
+          address: BP_OFFSET_BYTE( DC )
+          name = "cruzAmp",  type = 9
+        0B1A: LOCAL
+          address: BP_OFFSET_BYTE( E0 )
+          name = "loadAmp",  type = 9
+        0B26: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "amplitude",  type = 9
+        0B34: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "roadNoiseAmp",  type = 9
+        0B45: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "roadNoiseFreq",  type = 9
+        0B57: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "pan",  type = 9
+        0B5F: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "iAmpIn",  type = 9
+        0B6A: LOCAL
+          address: BP_OFFSET_BYTE( D0 )
+          name = "tempPan",  type = 9
+        0B76: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "tuntrig",  type = 9
+        0B82: NEAR_RTN_386
+          start off = 00003ADA, code size = 000001CE, parent off = 0000
+          prologue size = 11,  epilogue size = 8
+          return address offset (from bp) = 0000000C
+          return type:  226
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Parm 3: MULTI_REG(1): ECX
+          Name = "AudioCmn_TrafficSFX"
+        0BB3: LOCAL
+          address: BP_OFFSET_BYTE( E0 )
+          name = "iChan",  type = 9
+        0BBD: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "iSFXnum",  type = 9
+        0BC9: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "freq",  type = 9
+        0BD2: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "Distsq",  type = 9
+        0BDD: LOCAL
+          address: BP_OFFSET_BYTE( 10 )
+          name = "iPanIn",  type = 220
+        0BE9: LOCAL
+          address: BP_OFFSET_BYTE( 14 )
+          name = "relvel",  type = 9
+        0BF4: LOCAL
+          address: CONST_ADDR386( 0002:0001C8F1 )
+          name = "currelvel",  type = 9
+        0C07: LOCAL
+          address: CONST_ADDR386( 0002:0000C44B )
+          name = "Traffic1ChanAmp",  type = 9
+        0C20: LOCAL
+          address: CONST_ADDR386( 0002:0000C44F )
+          name = "Traffic2ChanAmp",  type = 9
+        0C39: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "pan",  type = 9
+        0C41: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "panx",  type = 9
+        0C4A: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "pany",  type = 9
+        0C53: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "iAmpIn",  type = 9
+        0C5E: NEAR_RTN_386
+          start off = 00003CA8, code size = 000000A5, parent off = 0000
+          prologue size = 11,  epilogue size = 8
+          return address offset (from bp) = 0000000C
+          return type:  221
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Parm 3: MULTI_REG(1): ECX
+          Name = "AudioCmn_TrafficSkidSFX"
+        0C93: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "sndPlayer",  type = 9
+        0CA1: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "surface1",  type = 215
+        0CAF: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "surface2",  type = 215
+        0CBD: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "force",  type = 9
+        0CC7: LOCAL
+          address: BP_OFFSET_BYTE( 10 )
+          name = "Distsq",  type = 9
+        0CD2: LOCAL
+          address: BP_OFFSET_BYTE( 14 )
+          name = "iPanIn",  type = 220
+        0CDE: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "tweakedForce",  type = 9
+        0CEF: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "iAmpIn",  type = 9
+        0CFA: NEAR_RTN_386
+          start off = 00003D4D, code size = 000000CD, parent off = 0000
+          prologue size = 11,  epilogue size = 6
+          return address offset (from bp) = 0000000C
+          return type:  227
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Parm 3: MULTI_REG(1): ECX
+          Name = "AudioCmn_PlayerHornOn"
+        0D2D: LOCAL
+          address: BP_OFFSET_BYTE( E0 )
+          name = "carIndex",  type = 9
+        0D3A: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "Distsq",  type = 9
+        0D45: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "iFreqIn",  type = 9
+        0D51: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "iPanIn",  type = 220
+        0D5D: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "pan",  type = 9
+        0D65: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "panx",  type = 9
+        0D6E: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "pany",  type = 9
+        0D77: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "iAmpIn",  type = 9
+        0D82: NEAR_RTN_386
+          start off = 00003E1A, code size = 0000004A, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  222
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "AudioCmn_PlayerHornOff"
+        0DB0: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "carIndex",  type = 9
+        0DBD: NEAR_RTN_386
+          start off = 00003E64, code size = 00000051, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  228
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Name = "AudioCmn_PlayFESFX"
+        0DE9: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "SFXnum",  type = 9
+        0DF4: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "vol",  type = 9
+        0DFC: NEAR_RTN_386
+          start off = 00003EB5, code size = 00000053, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  21
+          return value: <none>
+          Name = "AudioCmn_PlayWrongWaySFX"
+        0E29: NEAR_RTN_386
+          start off = 00003F08, code size = 00000114, parent off = 0000
+          prologue size = 11,  epilogue size = 8
+          return address offset (from bp) = 0000000C
+          return type:  229
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Parm 3: MULTI_REG(1): ECX
+          Name = "AudioCmn_PlaySound"
+        0E5A: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "bhandle",  type = 9
+        0E66: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "patchNum",  type = 9
+        0E73: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "pan",  type = 9
+        0E7B: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "vol",  type = 9
+        0E83: LOCAL
+          address: BP_OFFSET_BYTE( 10 )
+          name = "bend",  type = 9
+        0E8C: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "shandle",  type = 9
+        0E98: LOCAL
+          address: BP_OFFSET_BYTE( D8 )
+          name = "playopts",  type = 231
+        0EA6: NEAR_RTN_386
+          start off = 0000401C, code size = 00000064, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  232
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Name = "AudioCmn_PanToAzimuth"
+        0ED6: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "panx",  type = 9
+        0EDF: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "pany",  type = 9
+        0EE8: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "azimuth",  type = 7
+        0EF4: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "Pan",  type = 9
+        0EFC: NEAR_RTN_386
+          start off = 00004080, code size = 0000001C, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  21
+          return value: <none>
+          Name = "AudioCmn_Pause"
+        0F1F: NEAR_RTN_386
+          start off = 0000409C, code size = 00000038, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  21
+          return value: <none>
+          Name = "AudioCmn_UnPause"
+        0F44: NEAR_RTN_386
+          start off = 000040D4, code size = 00000040, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  21
+          return value: <none>
+          Name = "AudioCmn_FEUnPause"
+        0F6B: NEAR_RTN_386
+          start off = 00004114, code size = 0000005A, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  21
+          return value: <none>
+          Name = "AudioCmn_UnPauseAndQuit"
+        0F97: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "i",  type = 9
+        0F9D: NEAR_RTN_386
+          start off = 0000416E, code size = 0000005F, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  21
+          return value: <none>
+          Name = "AudioCmn_UnPauseAndRestart"
+        0FCC: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "i",  type = 9
+        0FD2: NEAR_RTN_386
+          start off = 000041CD, code size = 00000036, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  21
+          return value: <none>
+          Name = "AudioCmn_InitReverb"
+        0FFA: NEAR_RTN_386
+          start off = 00004203, code size = 00000021, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  21
+          return value: <none>
+          Name = "AudioCmn_ReverbOn"
+        1020: NEAR_RTN_386
+          start off = 00004224, code size = 0000001E, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  21
+          return value: <none>
+          Name = "AudioCmn_ReverbOff"
+        1047: NEAR_RTN_386
+          start off = 00004242, code size = 0000005C, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  21
+          return value: <none>
+          Name = "AudioCmn_ToggleMusicOnOff"
+        1075: NEAR_RTN_386
+          start off = 0000429E, code size = 0000004C, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  21
+          return value: <none>
+          Name = "AudioCmn_ToggleSFXOnOff"
+

@@ -1,0 +1,24 @@
+  Name:  _findnext
+    address      = 0001:0009D700
+    module index = 256
+    kind:          (code)
+  Name:  _findfirst
+    address      = 0001:0009D7AC
+    module index = 256
+    kind:          (code)
+  Name:  _hLibFind
+    address      = 0002:00013C94
+    module index = 256
+    kind:          (static pubdef) (data)
+  Name:  _pathlength
+    address      = 0002:00053A10
+    module index = 256
+    kind:          (static pubdef) (data)
+  Name:  _searchpath
+    address      = 0002:00053A14
+    module index = 256
+    kind:          (static pubdef) (data)
+  Name:  _targetpath
+    address      = 0002:00053B19
+    module index = 256
+    kind:          (static pubdef) (data)

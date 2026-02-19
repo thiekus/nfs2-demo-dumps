@@ -1,0 +1,4 @@
+  Name:  _intatan
+    address      = 0001:0007FE40
+    module index = 107
+    kind:          (code)

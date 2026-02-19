@@ -1,0 +1,12 @@
+  Name:  galloc_
+    address      = 0001:00083D10
+    module index = 143
+    kind:          (code)
+  Name:  gfree_
+    address      = 0001:00083DE4
+    module index = 143
+    kind:          (code)
+  Name:  _alloccount
+    address      = 0002:000131C8
+    module index = 143
+    kind:          (data)

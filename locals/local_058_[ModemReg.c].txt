@@ -1,0 +1,144 @@
+ 58) Name:   C:\nfs2\frontend\pc\ModemReg.c
+     Language is C
+     Locals: num = 1, offset = 000000FAH
+     Types:  num = 1, offset = 00000296H
+     Lines:  num = 1, offset = 00000422H
+
+   *** Locals ***
+   ==============
+      Data 0:  offset 00016388
+        0000: MODULE_386
+          "regInfo" addr = 0002:0000EF8C,  type = 348
+        0011: MODULE_386
+          "modemList" addr = 0002:0000EF88,  type = 357
+        0024: SET_BASE_386
+          base = 0001:0004B07C
+        002C: NEAR_RTN_386
+          start off = 00000000, code size = 00000065, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  358
+          return value: MULTI_REG(1): EAX
+          Name = "ModemReg_FindNext"
+        0054: NEAR_RTN_386
+          start off = 00000065, code size = 000000F1, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  358
+          return value: MULTI_REG(1): EAX
+          Name = "ModemReg_FindFirst"
+        007D: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "i",  type = 9
+        0083: NEAR_RTN_386
+          start off = 00000156, code size = 00000052, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  359
+          return value: MULTI_REG(1): EAX
+          Name = "ModemReg_OpenRootKey"
+        00AE: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "result",  type = 65
+        00B9: NEAR_RTN_386
+          start off = 000001A8, code size = 00000027, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  331
+          return value: <none>
+          Name = "ModemReg_CloseRootKey"
+        00E4: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "result",  type = 65
+        00EF: BLOCK_386
+          start off = 0000028A, code size = 00000062, parent off = 010B
+        00FB: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "keyNameSize",  type = 26
+        010B: NEAR_RTN_386
+          start off = 000001CF, code size = 00000132, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  359
+          return value: MULTI_REG(1): EAX
+          Name = "ModemReg_FindModems"
+        0135: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "i",  type = 9
+        013B: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "result",  type = 65
+        0146: BLOCK_386
+          start off = 000003B0, code size = 0000017E, parent off = 0160
+        0152: LOCAL
+          address: BP_OFFSET_WORD( 0078 )
+          name = "portStr",  type = 360
+        0160: NEAR_RTN_386
+          start off = 00000301, code size = 000004C1, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  361
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "ModemReg_AddModemToList"
+        018F: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "index",  type = 9
+        0199: LOCAL
+          address: BP_OFFSET_BYTE( D0 )
+          name = "tmpStr",  type = 362
+        01A5: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "ptr",  type = 12
+        01AD: LOCAL
+          address: BP_OFFSET_BYTE( 80 )
+          name = "bigModemNameStr",  type = 363
+        01C2: NEAR_RTN_386
+          start off = 000007C2, code size = 00000095, parent off = 0000
+          prologue size = 11,  epilogue size = 6
+          return address offset (from bp) = 0000000C
+          return type:  364
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Parm 3: MULTI_REG(1): ECX
+          Name = "ModemReg_ReadString"
+        01F4: LOCAL
+          address: BP_OFFSET_BYTE( E0 )
+          name = "subKey",  type = 12
+        01FF: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "value",  type = 12
+        0209: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "dataBuff",  type = 12
+        0216: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "buffLen",  type = 26
+        0222: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "result",  type = 65
+        022D: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "type",  type = 26
+        0236: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "tmpKey",  type = 279
+        0242: NEAR_RTN_386
+          start off = 00000857, code size = 0000014A, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  359
+          return value: MULTI_REG(1): EAX
+          Name = "ModemReg_IsDialTypeTone"
+        0270: LOCAL
+          address: BP_OFFSET_WORD( 005C )
+          name = "tBuff",  type = 365
+        027C: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "tLocationX",  type = 366
+        028C: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "tPtr",  type = 12
+

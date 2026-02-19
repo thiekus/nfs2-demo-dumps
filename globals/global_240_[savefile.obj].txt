@@ -1,0 +1,24 @@
+  Name:  _savefileadr
+    address      = 0001:0009BAC0
+    module index = 240
+    kind:          (code)
+  Name:  _savefileadrz
+    address      = 0001:0009BAF4
+    module index = 240
+    kind:          (code)
+  Name:  _savefileadra
+    address      = 0001:0009BB28
+    module index = 240
+    kind:          (code)
+  Name:  _savefileblock
+    address      = 0001:0009BB60
+    module index = 240
+    kind:          (code)
+  Name:  _savefileblockz
+    address      = 0001:0009BB78
+    module index = 240
+    kind:          (code)
+  Name:  _savefileblocka
+    address      = 0001:0009BB90
+    module index = 240
+    kind:          (code)

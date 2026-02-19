@@ -1,0 +1,4 @@
+  Name:  ___OpenStreams
+    address      = 0002:00064718
+    module index = 349
+    kind:          (data)

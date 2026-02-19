@@ -1,0 +1,100 @@
+  Name:  _lastconntag
+    address      = 0002:0001481C
+    module index = 328
+    kind:          (static pubdef) (data)
+  Name:  _calcmasterseqnum
+    address      = 0001:000AAEC0
+    module index = 328
+    kind:          (code)
+  Name:  calcpacketcrc_
+    address      = 0001:000AAEE0
+    module index = 328
+    kind:          (static pubdef) (code)
+  Name:  isvalidcrc_
+    address      = 0001:000AAF08
+    module index = 328
+    kind:          (static pubdef) (code)
+  Name:  calcpiggybackack_
+    address      = 0001:000AAF28
+    module index = 328
+    kind:          (static pubdef) (code)
+  Name:  makepacket_
+    address      = 0001:000AAF88
+    module index = 328
+    kind:          (static pubdef) (code)
+  Name:  xmitpacket_
+    address      = 0001:000AAFF0
+    module index = 328
+    kind:          (static pubdef) (code)
+  Name:  xmitcontrolpacket_
+    address      = 0001:000AB13C
+    module index = 328
+    kind:          (static pubdef) (code)
+  Name:  nakpacket_
+    address      = 0001:000AB1C4
+    module index = 328
+    kind:          (static pubdef) (code)
+  Name:  processack_
+    address      = 0001:000AB220
+    module index = 328
+    kind:          (static pubdef) (code)
+  Name:  processnak_
+    address      = 0001:000AB2D4
+    module index = 328
+    kind:          (static pubdef) (code)
+  Name:  shutdownconnection_
+    address      = 0001:000AB34C
+    module index = 328
+    kind:          (static pubdef) (code)
+  Name:  decodepacket_
+    address      = 0001:000AB424
+    module index = 328
+    kind:          (static pubdef) (code)
+  Name:  interpretinput_
+    address      = 0001:000AB624
+    module index = 328
+    kind:          (static pubdef) (code)
+  Name:  _seq_qfunc
+    address      = 0001:000AB6EC
+    module index = 328
+    kind:          (static pubdef) (code)
+  Name:  _timeout_qfunc
+    address      = 0001:000AB6F4
+    module index = 328
+    kind:          (static pubdef) (code)
+  Name:  _resend_qfunc
+    address      = 0001:000AB71C
+    module index = 328
+    kind:          (static pubdef) (code)
+  Name:  packetrecvnotify_
+    address      = 0001:000AB734
+    module index = 328
+    kind:          (static pubdef) (code)
+  Name:  packet_openconnection_
+    address      = 0001:000AB928
+    module index = 328
+    kind:          (static pubdef) (code)
+  Name:  packet_sendpacket_
+    address      = 0001:000ABE80
+    module index = 328
+    kind:          (static pubdef) (code)
+  Name:  packet_tickconnection_
+    address      = 0001:000ABF54
+    module index = 328
+    kind:          (static pubdef) (code)
+  Name:  packet_closeconnection_
+    address      = 0001:000AC044
+    module index = 328
+    kind:          (static pubdef) (code)
+  Name:  _printconnectionstatus
+    address      = 0001:000AC1A0
+    module index = 328
+    kind:          (code)
+  Name:  _printconnectionqueue
+    address      = 0001:000AC3DC
+    module index = 328
+    kind:          (code)
+  Name:  _packetconnectionvectors
+    address      = 0002:00014820
+    module index = 328
+    kind:          (data)

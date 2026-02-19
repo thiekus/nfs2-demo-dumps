@@ -1,0 +1,20 @@
+  Name:  _blockfill
+    address      = 0001:0008745C
+    module index = 173
+    kind:          (code)
+  Name:  blockfilllong_
+    address      = 0001:0008747C
+    module index = 173
+    kind:          (code)
+  Name:  blockfill_
+    address      = 0001:00087471
+    module index = 173
+    kind:          (code)
+  Name:  blockfillshort_
+    address      = 0001:00087473
+    module index = 173
+    kind:          (code)
+  Name:  _blockclear
+    address      = 0001:00087444
+    module index = 173
+    kind:          (code)

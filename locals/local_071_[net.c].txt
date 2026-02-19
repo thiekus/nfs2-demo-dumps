@@ -1,0 +1,396 @@
+ 71) Name:   C:\nfs2\game\pc\net.c
+     Language is C
+     Locals: num = 1, offset = 0000012EH
+     Types:  num = 1, offset = 000002CAH
+     Lines:  num = 1, offset = 00000452H
+
+   *** Locals ***
+   ==============
+      Data 0:  offset 0001B949
+        0000: MODULE_386
+          "NFSID" addr = 0001:0005A7D3,  type = 42
+        000E: MODULE_386
+          "ServiceList" addr = 0002:0000FBFC,  type = 48
+        0022: MODULE_386
+          "NetGame" addr = 0002:0004E214,  type = 65
+        0032: MODULE_386
+          "serviceIndex" addr = 0002:0000FBF4,  type = 9
+        0047: MODULE_386
+          "NetGameDesc" addr = 0002:0004E2C0,  type = 84
+        005B: MODULE_386
+          "netOpenConnQueue" addr = 0002:0004E2F4,  type = 90
+        0074: MODULE_386
+          "NumClients_WaitingOrConnected" addr = 0002:0004E3E8,  type = 9
+        009A: MODULE_386
+          "drop_player_mutex" addr = 0002:0000FC0A,  type = 9
+        00B4: MODULE_386
+          "numServices" addr = 0002:0004E3EC,  type = 9
+        00C8: MODULE_386
+          "GameListItems" addr = 0002:0004E3F0,  type = 97
+        00DE: MODULE_386
+          "ServiceInitialized" addr = 0002:0000FBF8,  type = 9
+        00F9: MODULE_386
+          "netGameOpen" addr = 0002:0000FC06,  type = 9
+        010D: MODULE_386
+          "gNetHostConnectionTimeout" addr = 0002:0000FBF0,  type = 9
+        012F: MODULE_386
+          "net_gRejectNewPlayers" addr = 0002:0000FBEC,  type = 9
+        014D: MODULE_386
+          "GameList" addr = 0002:0000FC00,  type = 101
+        015E: SET_BASE_386
+          base = 0001:0005A7F0
+        0166: BLOCK_386
+          start off = 00000038, code size = 0000002D, parent off = 019B
+        0172: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "minbps",  type = 10
+        017D: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "maxlatency",  type = 10
+        018C: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "minplayers",  type = 10
+        019B: NEAR_RTN_386
+          start off = 00000000, code size = 000000B2, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  102
+          return value: MULTI_REG(1): EAX
+          Name = "NET_FindNextService"
+        01C4: BLOCK_386
+          start off = 0000017C, code size = 000000F0, parent off = 0204
+        01D0: LOCAL
+          address: BP_OFFSET_BYTE( DC )
+          name = "i",  type = 9
+        01D6: LOCAL
+          address: BP_OFFSET_BYTE( D8 )
+          name = "j",  type = 9
+        01DC: LOCAL
+          address: BP_OFFSET_BYTE( D4 )
+          name = "inc",  type = 9
+        01E4: LOCAL
+          address: BP_OFFSET_BYTE( E0 )
+          name = "n",  type = 9
+        01EA: LOCAL
+          address: BP_OFFSET_BYTE( 88 )
+          name = "tmp_game",  type = 96
+        01F7: LOCAL
+          address: BP_OFFSET_BYTE( C8 )
+          name = "tmp_name",  type = 103
+        0204: NEAR_RTN_386
+          start off = 000000B2, code size = 000001CC, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  105
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Name = "NET_GetGameList"
+        022D: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "timeout",  type = 10
+        0239: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "playerName",  type = 18
+        0248: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "data",  type = 106
+        0251: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "password",  type = 107
+        025E: NEAR_RTN_386
+          start off = 0000027E, code size = 0000020F, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  109
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Name = "NET_HostGame"
+        0282: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "gameName",  type = 108
+        028F: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "i",  type = 7
+        0295: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "password",  type = 110
+        02A2: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "data",  type = 111
+        02AB: NEAR_RTN_386
+          start off = 0000048D, code size = 00000230, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  112
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Name = "NET_JoinGame"
+        02CF: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "gameID",  type = 70
+        02DA: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "retval",  type = 9
+        02E5: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "password",  type = 113
+        02F2: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "savedWin",  type = 122
+        02FF: NEAR_RTN_386
+          start off = 000006BD, code size = 00000196, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  123
+          return value: MULTI_REG(1): EAX
+          Name = "NET_AddNewPlayers"
+        0326: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "i",  type = 7
+        032C: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "playerAddedOrRemoved",  type = 7
+        0345: LOCAL
+          address: BP_OFFSET_BYTE( D4 )
+          name = "Add_Conn",  type = 87
+        0352: NEAR_RTN_386
+          start off = 00000853, code size = 00000063, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  27
+          return value: <none>
+          Name = "NET_DropDeadPlayers"
+        037A: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "i",  type = 9
+        0380: NEAR_RTN_386
+          start off = 000008B6, code size = 00000053, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  139
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "NET_DropPlayer"
+        03A6: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "pc",  type = 138
+        03AE: BLOCK_386
+          start off = 00000955, code size = 0000004A, parent off = 03C3
+        03BA: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "pkt",  type = 142
+        03C3: NEAR_RTN_386
+          start off = 00000909, code size = 000000AF, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  143
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "NET_ForFeitPlayer"
+        03EC: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "index",  type = 9
+        03F6: NEAR_RTN_386
+          start off = 000009B8, code size = 00000035, parent off = 0000
+          prologue size = 12,  epilogue size = 7
+          return address offset (from bp) = 00000010
+          return type:  144
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Name = "NET_Forfeit_CALLBACK"
+        0426: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "pktConn",  type = 138
+        0433: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "data",  type = 132
+        043D: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "length",  type = 10
+        0448: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "pkt",  type = 145
+        0451: NEAR_RTN_386
+          start off = 000009ED, code size = 0000005B, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  27
+          return value: <none>
+          Name = "NET_EnableGameAccess"
+        047A: NEAR_RTN_386
+          start off = 00000A48, code size = 0000005D, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  27
+          return value: <none>
+          Name = "NET_DisableGameAccess"
+        04A4: BLOCK_386
+          start off = 00000ACE, code size = 00000072, parent off = 04B6
+        04B0: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "i",  type = 9
+        04B6: NEAR_RTN_386
+          start off = 00000AA5, code size = 000000BE, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  27
+          return value: <none>
+          Name = "NET_EndGame"
+        04D6: NEAR_RTN_386
+          start off = 00000B63, code size = 0000009E, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  150
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Name = "NET_InitConn"
+        04FD: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "gameID",  type = 70
+        0508: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "playerIndex",  type = 7
+        0518: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "conn",  type = 149
+        0522: NEAR_RTN_386
+          start off = 00000C01, code size = 000000C5, parent off = 0000
+          prologue size = 12,  epilogue size = 7
+          return address offset (from bp) = 00000010
+          return type:  151
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Name = "NET_GetServices"
+        054E: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "minbps",  type = 10
+        0559: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "maxlatency",  type = 10
+        0568: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "minplayers",  type = 10
+        0577: NEAR_RTN_386
+          start off = 00000CC6, code size = 000000DC, parent off = 0000
+          prologue size = 12,  epilogue size = 7
+          return address offset (from bp) = 00000010
+          return type:  153
+          return value: MULTI_REG(1): EAX
+          Name = "NET_CreateServiceList_CALLBACK"
+        05AC: LOCAL
+          address: BP_OFFSET_BYTE( 14 )
+          name = "serviceID",  type = 152
+        05BB: LOCAL
+          address: BP_OFFSET_BYTE( 18 )
+          name = "serviceName",  type = 18
+        05CB: LOCAL
+          address: BP_OFFSET_BYTE( 1C )
+          name = "maxPktSize",  type = 10
+        05DA: LOCAL
+          address: BP_OFFSET_BYTE( 20 )
+          name = "dataRate",  type = 10
+        05E7: BLOCK_386
+          start off = 00000DBC, code size = 000000DD, parent off = 05F9
+        05F3: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "i",  type = 9
+        05F9: NEAR_RTN_386
+          start off = 00000DA2, code size = 00000108, parent off = 0000
+          prologue size = 12,  epilogue size = 7
+          return address offset (from bp) = 00000010
+          return type:  155
+          return value: MULTI_REG(1): EAX
+          Name = "NET_MakeGameList_CALLBACK"
+        0629: LOCAL
+          address: BP_OFFSET_BYTE( 14 )
+          name = "game",  type = 66
+        0632: LOCAL
+          address: BP_OFFSET_BYTE( 18 )
+          name = "desc",  type = 154
+        063C: LOCAL
+          address: BP_OFFSET_BYTE( 1C )
+          name = "numplayers",  type = 10
+        064B: LOCAL
+          address: BP_OFFSET_BYTE( 20 )
+          name = "gameID",  type = 70
+        0656: NEAR_RTN_386
+          start off = 00000EAA, code size = 00000055, parent off = 0000
+          prologue size = 12,  epilogue size = 7
+          return address offset (from bp) = 00000010
+          return type:  157
+          return value: MULTI_REG(1): EAX
+          Name = "NET_AddNewPlayer_CALLBACK"
+        0686: LOCAL
+          address: BP_OFFSET_BYTE( 14 )
+          name = "game",  type = 66
+        068F: LOCAL
+          address: BP_OFFSET_BYTE( 18 )
+          name = "player",  type = 156
+        069B: LOCAL
+          address: BP_OFFSET_BYTE( 1C )
+          name = "playerIndex",  type = 9
+        06AB: LOCAL
+          address: BP_OFFSET_BYTE( 20 )
+          name = "master",  type = 9
+        06B6: NEAR_RTN_386
+          start off = 00000EFF, code size = 00000033, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  27
+          return value: <none>
+          Name = "NET_InitConnQueue"
+        06DC: NEAR_RTN_386
+          start off = 00000F32, code size = 00000033, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  123
+          return value: MULTI_REG(1): EAX
+          Name = "NET_IsConnQueueEmpty"
+        0706: NEAR_RTN_386
+          start off = 00000F65, code size = 00000076, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  158
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Name = "NET_PushOnQueue"
+        072F: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "pName",  type = 18
+        0739: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "pNetAddr",  type = 70
+        0746: NEAR_RTN_386
+          start off = 00000FDB, code size = 0000005C, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  160
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "NET_PopOffQueue"
+        076D: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "callersStruct",  type = 159
+        0780: BLOCK_386
+          start off = 000010C0, code size = 0000004F, parent off = 0795
+        078C: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "list",  type = 104
+        0795: NEAR_RTN_386
+          start off = 00001037, code size = 000000E1, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  27
+          return value: <none>
+          Name = "DEBUG_net_connect"
+        07BB: LOCAL
+          address: CONST_ADDR386( 0002:0000FC0E )
+          name = "cnt",  type = 9
+

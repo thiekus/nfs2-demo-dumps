@@ -1,0 +1,8 @@
+  Name:  _upmdvis
+    address      = 0001:000C5DB0
+    module index = 567
+    kind:          (static pubdef) (code)
+  Name:  _upmdvissetstate
+    address      = 0001:000C5E98
+    module index = 567
+    kind:          (code)

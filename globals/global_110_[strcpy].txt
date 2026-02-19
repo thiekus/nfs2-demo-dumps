@@ -1,0 +1,4 @@
+  Name:  strcpy_
+    address      = 0001:0007FF2B
+    module index = 110
+    kind:          (code)

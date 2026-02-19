@@ -1,0 +1,37 @@
+ 17) Name:   C:\nfs2\game\common\control.c
+     Language is C
+     Locals: num = 1, offset = 00000056H
+     Types:  num = 1, offset = 000001F2H
+     Lines:  num = 1, offset = 0000038AH
+
+   *** Locals ***
+   ==============
+      Data 0:  offset 0000C235
+        0000: SET_BASE_386
+          base = 0001:00027B18
+        0008: NEAR_RTN_386
+          start off = 00000000, code size = 0000002A, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  184
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Control_AI"
+        002A: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "carObj",  type = 183
+        0036: NEAR_RTN_386
+          start off = 0000002A, code size = 00000128, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  184
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Control_Human"
+        005B: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "carObj",  type = 183
+        0067: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "player",  type = 9
+

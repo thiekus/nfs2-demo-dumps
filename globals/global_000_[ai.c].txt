@@ -1,0 +1,440 @@
+  Name:  _personalities
+    address      = 0002:0001C010
+    module index = 0
+    kind:          (data)
+  Name:  _inverseLaneWidthTable
+    address      = 0002:0001C050
+    module index = 0
+    kind:          (data)
+  Name:  _AIConfig
+    address      = 0002:0001C190
+    module index = 0
+    kind:          (data)
+  Name:  _CarLogic_gObs
+    address      = 0002:0001C1C0
+    module index = 0
+    kind:          (data)
+  Name:  _AI_elapsedTime
+    address      = 0002:0001C298
+    module index = 0
+    kind:          (data)
+  Name:  _AI_time
+    address      = 0002:0001C29C
+    module index = 0
+    kind:          (data)
+  Name:  _AI_Info
+    address      = 0002:0001C2A0
+    module index = 0
+    kind:          (data)
+  Name:  _oneWay
+    address      = 0002:0001C324
+    module index = 0
+    kind:          (data)
+  Name:  _AI_iTime
+    address      = 0002:0001C328
+    module index = 0
+    kind:          (data)
+  Name:  _AI_gMaxTrafficOnTrack
+    address      = 0002:0001C32C
+    module index = 0
+    kind:          (data)
+  Name:  _AI_gLifeTimerValue
+    address      = 0002:0001C330
+    module index = 0
+    kind:          (data)
+  Name:  _driveSide
+    address      = 0002:0001C334
+    module index = 0
+    kind:          (data)
+  Name:  _gameSpeedGlueInv
+    address      = 0002:0001C338
+    module index = 0
+    kind:          (data)
+  Name:  _gameAccGlueInv
+    address      = 0002:0001C33C
+    module index = 0
+    kind:          (data)
+  Name:  _gameSpeedGlue
+    address      = 0002:0001C340
+    module index = 0
+    kind:          (data)
+  Name:  _leadingLivePlayerCarIndex
+    address      = 0002:0001C344
+    module index = 0
+    kind:          (data)
+  Name:  _gameAccGlue
+    address      = 0002:0001C348
+    module index = 0
+    kind:          (data)
+  Name:  _purgatory_numCars
+    address      = 0002:0001C34C
+    module index = 0
+    kind:          (data)
+  Name:  _leadingLivePlayerCarObj
+    address      = 0002:0001C350
+    module index = 0
+    kind:          (data)
+  Name:  _AIPhysicConfig
+    address      = 0002:0001C354
+    module index = 0
+    kind:          (data)
+  Name:  AI_GetBestLane_
+    address      = 0001:000000E0
+    module index = 0
+    kind:          (code)
+  Name:  AI_GetMaxTrafficOnTrack_
+    address      = 0001:00000131
+    module index = 0
+    kind:          (code)
+  Name:  AI_GetLifeTimerValue_
+    address      = 0001:0000016E
+    module index = 0
+    kind:          (code)
+  Name:  AI_GetOneWay_
+    address      = 0001:000001AB
+    module index = 0
+    kind:          (code)
+  Name:  AI_GetDriveSide_
+    address      = 0001:0000020B
+    module index = 0
+    kind:          (code)
+  Name:  AI_ProcessBarrierCollision_
+    address      = 0001:00000248
+    module index = 0
+    kind:          (code)
+  Name:  AI_ProcessCollision_
+    address      = 0001:000002AF
+    module index = 0
+    kind:          (code)
+  Name:  AI_PickNewLane_
+    address      = 0001:000003E8
+    module index = 0
+    kind:          (code)
+  Name:  AI_CalcLaneSlack_
+    address      = 0001:00000582
+    module index = 0
+    kind:          (code)
+  Name:  AI_IsItTimeToStopYet_
+    address      = 0001:0000061B
+    module index = 0
+    kind:          (code)
+  Name:  AI_ParallelDistance_
+    address      = 0001:00000669
+    module index = 0
+    kind:          (code)
+  Name:  AI_SliceDistance_
+    address      = 0001:000006FC
+    module index = 0
+    kind:          (code)
+  Name:  AI_IsDriveableLane_
+    address      = 0001:00000772
+    module index = 0
+    kind:          (code)
+  Name:  AI_GetProfileMask_
+    address      = 0001:000007EE
+    module index = 0
+    kind:          (code)
+  Name:  AI_IsDriveableLane_UsingMask_
+    address      = 0001:0000084D
+    module index = 0
+    kind:          (code)
+  Name:  AI_LaneIndex_
+    address      = 0001:00000887
+    module index = 0
+    kind:          (code)
+  Name:  AI_PutCarOnShoulder_
+    address      = 0001:0000096F
+    module index = 0
+    kind:          (code)
+  Name:  AI_IsNonStandardCarFile_
+    address      = 0001:00000A6E
+    module index = 0
+    kind:          (code)
+  Name:  AI_FigureOutPersonalityGameType_
+    address      = 0001:00000ABC
+    module index = 0
+    kind:          (code)
+  Name:  AI_LoadGlueFactor_
+    address      = 0001:00000B25
+    module index = 0
+    kind:          (code)
+  Name:  AI_LoadPhysicsConfig_
+    address      = 0001:00000D31
+    module index = 0
+    kind:          (code)
+  Name:  AI_LoadAIConfig_
+    address      = 0001:00000EBD
+    module index = 0
+    kind:          (code)
+  Name:  AI_LoadConfigs_
+    address      = 0001:00000F7B
+    module index = 0
+    kind:          (code)
+  Name:  AI_RestartAICar_
+    address      = 0001:00000FDE
+    module index = 0
+    kind:          (code)
+  Name:  AI_InitAICar_
+    address      = 0001:00001169
+    module index = 0
+    kind:          (code)
+  Name:  AI_CleanUp1_
+    address      = 0001:0000141B
+    module index = 0
+    kind:          (code)
+  Name:  AI_CleanUp2_
+    address      = 0001:00001430
+    module index = 0
+    kind:          (code)
+  Name:  AI_StartUp1_
+    address      = 0001:00001454
+    module index = 0
+    kind:          (code)
+  Name:  AI_Reset1_
+    address      = 0001:000014FD
+    module index = 0
+    kind:          (code)
+  Name:  AI_StartUp2_
+    address      = 0001:0000151C
+    module index = 0
+    kind:          (code)
+  Name:  AI_Reset2_
+    address      = 0001:00001545
+    module index = 0
+    kind:          (code)
+  Name:  AI_CleanUpCollidedCar_
+    address      = 0001:0000174B
+    module index = 0
+    kind:          (code)
+  Name:  CleanUpAllDeadCars_
+    address      = 0001:000017BE
+    module index = 0
+    kind:          (code)
+  Name:  AI_ReInit_SetSpeeds_
+    address      = 0001:000018EC
+    module index = 0
+    kind:          (code)
+  Name:  AI_ReInit_PickSliceAndDirection_
+    address      = 0001:000019B2
+    module index = 0
+    kind:          (code)
+  Name:  AI_ReInitWith_
+    address      = 0001:00001C84
+    module index = 0
+    kind:          (code)
+  Name:  AI_MoveCarToPurgatory_
+    address      = 0001:00001C9E
+    module index = 0
+    kind:          (code)
+  Name:  AI_ReInit_
+    address      = 0001:00001DA5
+    module index = 0
+    kind:          (code)
+  Name:  AI_IsCoordInThisLiveArea_
+    address      = 0001:00002090
+    module index = 0
+    kind:          (code)
+  Name:  AI_IsTrafficCarInAnyLiveArea_
+    address      = 0001:00002154
+    module index = 0
+    kind:          (code)
+  Name:  AI_IsCoordInThisVisibleArea_
+    address      = 0001:000021C2
+    module index = 0
+    kind:          (code)
+  Name:  AI_IsTrafficCarInAnyVisibleArea_
+    address      = 0001:00002286
+    module index = 0
+    kind:          (code)
+  Name:  AI_EvaluateLife_
+    address      = 0001:000022F4
+    module index = 0
+    kind:          (code)
+  Name:  AI_CalcBestLineMerits_
+    address      = 0001:0000267B
+    module index = 0
+    kind:          (code)
+  Name:  AI_CalcMeritsBasedOnSpeed_
+    address      = 0001:000027AA
+    module index = 0
+    kind:          (code)
+  Name:  AI_IsMellowZone_
+    address      = 0001:00002ABA
+    module index = 0
+    kind:          (code)
+  Name:  AI_KeepCarsInLane_
+    address      = 0001:00002B99
+    module index = 0
+    kind:          (code)
+  Name:  AI_PushFinishedCarsToSide_
+    address      = 0001:00002BB3
+    module index = 0
+    kind:          (code)
+  Name:  AI_OpponentBlockPlayer_
+    address      = 0001:00002C82
+    module index = 0
+    kind:          (code)
+  Name:  AI_HonkWhenTailgaiting_
+    address      = 0001:00002E0B
+    module index = 0
+    kind:          (code)
+  Name:  AI_OpponentUpCloseCode_
+    address      = 0001:00002F31
+    module index = 0
+    kind:          (code)
+  Name:  AI_OpponentSpecialCase_
+    address      = 0001:00002FD3
+    module index = 0
+    kind:          (code)
+  Name:  AI_CheckForCarsInWay_
+    address      = 0001:00002FF5
+    module index = 0
+    kind:          (code)
+  Name:  AI_CheckForSmackables_
+    address      = 0001:00003134
+    module index = 0
+    kind:          (code)
+  Name:  AI_CheckForClearLanes_
+    address      = 0001:000032DA
+    module index = 0
+    kind:          (code)
+  Name:  AI_CalculateLaneSpeeds_
+    address      = 0001:00003587
+    module index = 0
+    kind:          (code)
+  Name:  AI_SetupOncomingLaneDemerits_
+    address      = 0001:00003CE2
+    module index = 0
+    kind:          (code)
+  Name:  AI_HandleChangeInNumLanes_
+    address      = 0001:00003DAA
+    module index = 0
+    kind:          (code)
+  Name:  AI_HandleShouldersAndOffRoad_
+    address      = 0001:000040CD
+    module index = 0
+    kind:          (code)
+  Name:  AI_HandleHonkingAndDiving_
+    address      = 0001:00004609
+    module index = 0
+    kind:          (code)
+  Name:  AI_WhichHumanIsLeading_
+    address      = 0001:000046D7
+    module index = 0
+    kind:          (code)
+  Name:  AI_CalculateLaneInfo_
+    address      = 0001:0000475D
+    module index = 0
+    kind:          (code)
+  Name:  AI_InitAndCalcBaseMerits_
+    address      = 0001:0000487E
+    module index = 0
+    kind:          (code)
+  Name:  AI_ChooseBestLane_
+    address      = 0001:0000497D
+    module index = 0
+    kind:          (code)
+  Name:  AI_CalculateAdjustedDesiredSpeed_
+    address      = 0001:00004A24
+    module index = 0
+    kind:          (code)
+  Name:  AI_CalculateDesiredPosition_
+    address      = 0001:00004D50
+    module index = 0
+    kind:          (code)
+  Name:  AI_ProcessObservationsAndChooseLane_
+    address      = 0001:00005203
+    module index = 0
+    kind:          (code)
+  Name:  AI_CheckForBarriers_
+    address      = 0001:000052C2
+    module index = 0
+    kind:          (code)
+  Name:  AI_CalculateRoadYaw_
+    address      = 0001:000056BA
+    module index = 0
+    kind:          (code)
+  Name:  AI_Main_OverallSetup_
+    address      = 0001:00005769
+    module index = 0
+    kind:          (code)
+  Name:  AI_Main_CalcCarInfo_
+    address      = 0001:00005783
+    module index = 0
+    kind:          (code)
+  Name:  AI_Main_
+    address      = 0001:000057F7
+    module index = 0
+    kind:          (code)
+  Name:  AI_CalculateOncomingCarSpeed_
+    address      = 0001:00005A0E
+    module index = 0
+    kind:          (code)
+  Name:  AI_CalcTrafficSafeSpeed_
+    address      = 0001:00005ABF
+    module index = 0
+    kind:          (code)
+  Name:  AI_CalcPsychoDesiredSpeed_
+    address      = 0001:00005B46
+    module index = 0
+    kind:          (code)
+  Name:  AI_CalcDesiredSpeed_
+    address      = 0001:00005CE3
+    module index = 0
+    kind:          (code)
+  Name:  AI_GetHandlingFactor_
+    address      = 0001:00005FEF
+    module index = 0
+    kind:          (code)
+  Name:  AI_GetAccGlueFactor_
+    address      = 0001:000060C6
+    module index = 0
+    kind:          (code)
+  Name:  AI_IntroduceGlue_
+    address      = 0001:0000626A
+    module index = 0
+    kind:          (code)
+  Name:  AI_GetGlueFactor_
+    address      = 0001:0000639B
+    module index = 0
+    kind:          (code)
+  Name:  AI_GetSpeedFactor_
+    address      = 0001:000064FE
+    module index = 0
+    kind:          (code)
+  Name:  AI_LimitTopSpeed_
+    address      = 0001:0000663D
+    module index = 0
+    kind:          (code)
+  Name:  AI_CalcTrafficSafeSpeedAdjust_
+    address      = 0001:000066FC
+    module index = 0
+    kind:          (code)
+  Name:  AI_GetTrackFactor_
+    address      = 0001:0000675E
+    module index = 0
+    kind:          (code)
+  Name:  AI_CalcAggressiveTopSpeed_
+    address      = 0001:000067DC
+    module index = 0
+    kind:          (code)
+  Name:  _speedRecord
+    address      = 0002:0000BCB4
+    module index = 0
+    kind:          (data)
+  Name:  _lane_change_prob
+    address      = 0002:0000BCB8
+    module index = 0
+    kind:          (data)
+  Name:  _trafcfg
+    address      = 0002:0000BCBC
+    module index = 0
+    kind:          (data)
+  Name:  _pGameTypesDes
+    address      = 0002:0000BE80
+    module index = 0
+    kind:          (data)
+  Name:  _useSpreadForce
+    address      = 0002:0001C3C0
+    module index = 0
+    kind:          (data)

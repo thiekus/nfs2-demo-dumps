@@ -1,0 +1,68 @@
+  Name:  _playerCarOverride
+    address      = 0002:00012600
+    module index = 94
+    kind:          (data)
+  Name:  _dialogTimeOut
+    address      = 0002:00012602
+    module index = 94
+    kind:          (static pubdef) (data)
+  Name:  DrawDialogBox_
+    address      = 0001:00073F77
+    module index = 94
+    kind:          (code)
+  Name:  Dialog_MessageString_
+    address      = 0001:000741F3
+    module index = 94
+    kind:          (code)
+  Name:  Dialog_Message_
+    address      = 0001:000742A0
+    module index = 94
+    kind:          (code)
+  Name:  Dialog_EnterName_
+    address      = 0001:00074386
+    module index = 94
+    kind:          (code)
+  Name:  ValidSimChar_
+    address      = 0001:000743E5
+    module index = 94
+    kind:          (code)
+  Name:  IsDefaultName_
+    address      = 0001:000745A0
+    module index = 94
+    kind:          (code)
+  Name:  Dialog_EnterString_
+    address      = 0001:0007463A
+    module index = 94
+    kind:          (code)
+  Name:  Dialog_BeginConnect_
+    address      = 0001:00074A61
+    module index = 94
+    kind:          (code)
+  Name:  Dialog_EndConnect_
+    address      = 0001:00074B02
+    module index = 94
+    kind:          (code)
+  Name:  Dialog_EnterNameForRecord_
+    address      = 0001:00074B5E
+    module index = 94
+    kind:          (code)
+  Name:  Dialog_YesNo_
+    address      = 0001:00074EA3
+    module index = 94
+    kind:          (code)
+  Name:  Dialog_SelectList_
+    address      = 0001:000753A0
+    module index = 94
+    kind:          (code)
+  Name:  SetMessageTimeOut_
+    address      = 0001:00075DA1
+    module index = 94
+    kind:          (code)
+  Name:  ResetMessageTimeOut_
+    address      = 0001:00075DC3
+    module index = 94
+    kind:          (code)
+  Name:  _vertCanY
+    address      = 0002:00012606
+    module index = 94
+    kind:          (data)

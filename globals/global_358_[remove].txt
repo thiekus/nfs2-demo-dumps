@@ -1,0 +1,4 @@
+  Name:  remove_
+    address      = 0001:000B0B6E
+    module index = 358
+    kind:          (code)

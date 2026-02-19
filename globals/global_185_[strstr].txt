@@ -1,0 +1,4 @@
+  Name:  strstr_
+    address      = 0001:00089C21
+    module index = 185
+    kind:          (code)

@@ -1,0 +1,348 @@
+ 60) Name:   C:\nfs2\game\pc\audio.c
+     Language is C
+     Locals: num = 1, offset = 00000102H
+     Types:  num = 1, offset = 0000029EH
+     Lines:  num = 1, offset = 00000426H
+
+   *** Locals ***
+   ==============
+      Data 0:  offset 0001661D
+        0000: MODULE_386
+          "gMusicName" addr = 0002:0000EFA9,  type = 367
+        0014: MODULE_386
+          "gMapName" addr = 0002:0000EFF9,  type = 368
+        0026: MODULE_386
+          "PC3dsoundCapable" addr = 0002:0000F055,  type = 9
+        003F: MODULE_386
+          "gSHandle" addr = 0002:0000F04D,  type = 9
+        0050: MODULE_386
+          "gMapFile" addr = 0002:000468CC,  type = 19
+        0061: MODULE_386
+          "gStream" addr = 0002:0000F049,  type = 376
+        0072: MODULE_386
+          "gCurrentTrack" addr = 0002:0000EFA4,  type = 9
+        0088: MODULE_386
+          "gSwapbankdata" addr = 0002:0000EFA0,  type = 19
+        009E: MODULE_386
+          "Audio_direct3davail" addr = 0002:0000F051,  type = 9
+        00BA: MODULE_386
+          "gPlayingLinear" addr = 0002:0000EFA8,  type = 4
+        00D1: SET_BASE_386
+          base = 0001:0004BA1D
+        00D9: NEAR_RTN_386
+          start off = 00000000, code size = 00000169, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  335
+          return value: <none>
+          Name = "Audio_InitDriver"
+        00FF: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "driverCaps",  type = 9
+        010E: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "init",  type = 9
+        0117: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "i",  type = 9
+        011D: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "Quality",  type = 9
+        0129: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "Mode",  type = 9
+        0132: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "EngQual",  type = 9
+        013E: NEAR_RTN_386
+          start off = 00000169, code size = 00000104, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  377
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Name = "Audio_ReInitDriver"
+        016A: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "Quality",  type = 9
+        0176: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "Mode",  type = 9
+        017F: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "driverCaps",  type = 9
+        018E: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "init",  type = 9
+        0197: NEAR_RTN_386
+          start off = 0000026D, code size = 0000002C, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  335
+          return value: <none>
+          Name = "Audio_DeInitDriver"
+        01BF: NEAR_RTN_386
+          start off = 00000299, code size = 00000054, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  335
+          return value: <none>
+          Name = "Audio_UnCacheMusic"
+        01E7: LOCAL
+          address: BP_OFFSET_BYTE( 80 )
+          name = "destPath",  type = 378
+        01F5: NEAR_RTN_386
+          start off = 000002ED, code size = 000000B1, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  379
+          return value: MULTI_REG(1): EAX
+          Name = "Audio_ReserveCache"
+        021E: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "fileSize",  type = 17
+        022B: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "handle",  type = 9
+        0236: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "offset",  type = 17
+        0241: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "dummy",  type = 17
+        024B: LOCAL
+          address: BP_OFFSET_WORD( 0068 )
+          name = "destPath",  type = 380
+        025A: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "success",  type = 9
+        0266: NEAR_RTN_386
+          start off = 0000039E, code size = 000001B5, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  381
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Audio_CacheMusic"
+        028E: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "songnum",  type = 9
+        029A: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "bufPtr",  type = 19
+        02A5: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "fileSize",  type = 17
+        02B2: LOCAL
+          address: BP_OFFSET_BYTE( D4 )
+          name = "handle",  type = 382
+        02BE: LOCAL
+          address: BP_OFFSET_BYTE( CC )
+          name = "offset",  type = 383
+        02CA: LOCAL
+          address: BP_OFFSET_BYTE( DC )
+          name = "dummy",  type = 384
+        02D5: LOCAL
+          address: BP_OFFSET_WORD( 00CC )
+          name = "sourcePath",  type = 385
+        02E6: LOCAL
+          address: BP_OFFSET_WORD( 004C )
+          name = "destPath",  type = 386
+        02F5: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "chunkSize",  type = 9
+        0303: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "fileoffset",  type = 9
+        0312: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "done",  type = 9
+        031B: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "success",  type = 9
+        0327: NEAR_RTN_386
+          start off = 00000553, code size = 00000054, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  335
+          return value: <none>
+          Name = "Audio_InitMusic"
+        034C: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "bufSize",  type = 9
+        0358: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "blockSize",  type = 9
+        0366: LOCAL
+          address: BP_OFFSET_BYTE( A8 )
+          name = "string",  type = 387
+        0372: NEAR_RTN_386
+          start off = 000005A7, code size = 00000050, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  381
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Audio_ReInitMusic"
+        039B: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "bufSize",  type = 9
+        03A7: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "blockSize",  type = 9
+        03B5: LOCAL
+          address: BP_OFFSET_BYTE( A8 )
+          name = "string",  type = 388
+        03C1: NEAR_RTN_386
+          start off = 000005F7, code size = 00000171, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  377
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Name = "Audio_StartMusic"
+        03EB: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "songnum",  type = 9
+        03F7: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "volume",  type = 9
+        0402: LOCAL
+          address: BP_OFFSET_BYTE( A4 )
+          name = "string",  type = 389
+        040E: LOCAL
+          address: CONST_ADDR386( 0002:0000F059 )
+          name = "showTuneNum",  type = 4
+        0423: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "latency",  type = 9
+        042F: NEAR_RTN_386
+          start off = 00000768, code size = 00000154, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  377
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Name = "Audio_StartMusicSIM"
+        045C: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "songnum",  type = 9
+        0468: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "volume",  type = 9
+        0473: LOCAL
+          address: BP_OFFSET_BYTE( A4 )
+          name = "string",  type = 390
+        047F: LOCAL
+          address: CONST_ADDR386( 0002:0000F05A )
+          name = "showTuneNum",  type = 4
+        0494: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "latency",  type = 9
+        04A0: NEAR_RTN_386
+          start off = 000008BC, code size = 0000010F, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  377
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Name = "Audio_StartLinMusic"
+        04CD: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "songnum",  type = 9
+        04D9: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "volume",  type = 9
+        04E4: LOCAL
+          address: BP_OFFSET_BYTE( 94 )
+          name = "string",  type = 391
+        04F0: LOCAL
+          address: CONST_ADDR386( 0002:0000F05B )
+          name = "showTuneNum",  type = 4
+        0505: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "latency",  type = 9
+        0511: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "playopts",  type = 393
+        051F: NEAR_RTN_386
+          start off = 000009CB, code size = 0000009A, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  335
+          return value: <none>
+          Name = "Audio_StopMusic"
+        0544: NEAR_RTN_386
+          start off = 00000A65, code size = 00000036, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  335
+          return value: <none>
+          Name = "Audio_DeInitMusic"
+        056B: NEAR_RTN_386
+          start off = 00000A9B, code size = 0000005D, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  335
+          return value: <none>
+          Name = "Audio_CleanUp"
+        058E: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "i",  type = 9
+        0594: NEAR_RTN_386
+          start off = 00000AF8, code size = 00000040, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  335
+          return value: <none>
+          Name = "Audio_FECleanUp"
+        05B9: NEAR_RTN_386
+          start off = 00000B38, code size = 000000BF, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  394
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Name = "AudioCmn_LoadBank"
+        05E4: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "filename",  type = 19
+        05F1: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "BankNum",  type = 9
+        05FD: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "pdata",  type = 19
+        0607: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "ptemp",  type = 19
+        0611: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "bhandle",  type = 9
+        061D: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "check",  type = 9
+        0627: LOCAL
+          address: BP_OFFSET_BYTE( 98 )
+          name = "bankdata",  type = 395
+        0635: NEAR_RTN_386
+          start off = 00000BF7, code size = 0000001B, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  394
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Name = "Audio_GetSFXFromStreamBuffer"
+        066B: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "data",  type = 19
+        0674: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "playerIndex",  type = 9
+

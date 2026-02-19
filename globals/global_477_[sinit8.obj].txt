@@ -1,0 +1,4 @@
+  Name:  SNDinitcodec8bit_
+    address      = 0001:000BF7D0
+    module index = 477
+    kind:          (code)

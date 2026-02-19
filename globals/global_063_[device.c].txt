@@ -1,0 +1,104 @@
+  Name:  _Device_gJoy
+    address      = 0002:0004779C
+    module index = 63
+    kind:          (data)
+  Name:  _Device_gButtonMask
+    address      = 0002:00047B9C
+    module index = 63
+    kind:          (static pubdef) (data)
+  Name:  _Device_gCalibrate
+    address      = 0002:00047BDC
+    module index = 63
+    kind:          (data)
+  Name:  _Device_gSimpleJoy
+    address      = 0002:00047BE0
+    module index = 63
+    kind:          (static pubdef) (data)
+  Name:  _Device_gNumJoy
+    address      = 0002:00047BE4
+    module index = 63
+    kind:          (static pubdef) (data)
+  Name:  Device_StartUp_
+    address      = 0001:0004F513
+    module index = 63
+    kind:          (code)
+  Name:  Device_LoadCalibration_
+    address      = 0001:0004F599
+    module index = 63
+    kind:          (code)
+  Name:  Device_PurgeCalibration_
+    address      = 0001:0004F5C3
+    module index = 63
+    kind:          (code)
+  Name:  Device_CalibrateControl_
+    address      = 0001:0004F5EF
+    module index = 63
+    kind:          (code)
+  Name:  Device_SetHardCodedKeys_
+    address      = 0001:0004F882
+    module index = 63
+    kind:          (code)
+  Name:  Device_CycleCamera_
+    address      = 0001:0004FA57
+    module index = 63
+    kind:          (code)
+  Name:  _Device_readwinjoy
+    address      = 0001:0004FA9F
+    module index = 63
+    kind:          (code)
+  Name:  Device_TestJoy_
+    address      = 0001:0004FBC7
+    module index = 63
+    kind:          (code)
+  Name:  Device_RawJoy_
+    address      = 0001:0004FC1F
+    module index = 63
+    kind:          (code)
+  Name:  Device_RawJoyButtons_
+    address      = 0001:0004FC94
+    module index = 63
+    kind:          (code)
+  Name:  Device_Update_
+    address      = 0001:0004FCDC
+    module index = 63
+    kind:          (code)
+  Name:  Device_ScheduleJoy_
+    address      = 0001:0004FF07
+    module index = 63
+    kind:          (code)
+  Name:  Device_ButtonStartUp_
+    address      = 0001:0004FF61
+    module index = 63
+    kind:          (code)
+  Name:  Device_Button_
+    address      = 0001:0004FFD5
+    module index = 63
+    kind:          (code)
+  Name:  Device_AnalogStartUp_
+    address      = 0001:00050022
+    module index = 63
+    kind:          (code)
+  Name:  Device_Analog_
+    address      = 0001:00050091
+    module index = 63
+    kind:          (code)
+  Name:  Device_Keyboard_
+    address      = 0001:00050186
+    module index = 63
+    kind:          (code)
+  Name:  Device_Interface_
+    address      = 0001:000501C4
+    module index = 63
+    kind:          (code)
+  Name:  Device_Null_
+    address      = 0001:000502B0
+    module index = 63
+    kind:          (code)
+  Name:  _Device_gDeviceList
+    address      = 0002:0000F114
+    module index = 63
+    kind:          (data)
+  Name:  _Device_gJoySched
+    address      = 0002:00047BE8
+    module index = 63
+    kind:          (data)

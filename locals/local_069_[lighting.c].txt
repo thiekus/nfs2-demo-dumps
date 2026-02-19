@@ -1,0 +1,292 @@
+ 69) Name:   C:\nfs2\game\pc\lighting.c
+     Language is C
+     Locals: num = 1, offset = 00000126H
+     Types:  num = 1, offset = 000002C2H
+     Lines:  num = 1, offset = 0000044AH
+
+   *** Locals ***
+   ==============
+      Data 0:  offset 0001B300
+        0000: MODULE_386
+          "gLUTdestmask" addr = 0002:0004CD00,  type = 40
+        0015: MODULE_386
+          "gLutpointers" addr = 0002:0004CE00,  type = 41
+        002A: MODULE_386
+          "gLightTable" addr = 0002:0004D200,  type = 45
+        003E: MODULE_386
+          "gL_av" addr = 0002:0004E200,  type = 9
+        004C: MODULE_386
+          "gL_bv" addr = 0002:0004E204,  type = 9
+        005A: MODULE_386
+          "gL_cv" addr = 0002:0004E208,  type = 9
+        0068: MODULE_386
+          "gL_sys" addr = 0002:0004E20C,  type = 9
+        0077: MODULE_386
+          "gLUTtbl" addr = 0002:0004E210,  type = 13
+        0087: SET_BASE_386
+          base = 0001:00059B11
+        008F: NEAR_RTN_386
+          start off = 00000000, code size = 00000150, parent off = 0000
+          prologue size = 11,  epilogue size = 8
+          return address offset (from bp) = 0000000C
+          return type:  46
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Parm 3: MULTI_REG(1): ECX
+          Name = "Lighting_LightFilter"
+        00C0: LOCAL
+          address: BP_OFFSET_BYTE( E0 )
+          name = "ratio",  type = 9
+        00CA: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "srcpal",  type = 13
+        00D5: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "dstpal",  type = 13
+        00E0: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "r",  type = 9
+        00E6: LOCAL
+          address: BP_OFFSET_BYTE( 10 )
+          name = "g",  type = 9
+        00EC: LOCAL
+          address: BP_OFFSET_BYTE( 14 )
+          name = "b",  type = 9
+        00F2: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "i",  type = 9
+        00F8: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "cr",  type = 9
+        00FF: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "cg",  type = 9
+        0106: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "cb",  type = 9
+        010D: BLOCK_386
+          start off = 00000184, code size = 000000D6, parent off = 015E
+        0119: LOCAL
+          address: BP_OFFSET_BYTE( C8 )
+          name = "h",  type = 9
+        011F: LOCAL
+          address: BP_OFFSET_BYTE( CC )
+          name = "s",  type = 9
+        0125: LOCAL
+          address: BP_OFFSET_BYTE( D0 )
+          name = "v",  type = 9
+        012B: LOCAL
+          address: BP_OFFSET_BYTE( D4 )
+          name = "r",  type = 9
+        0131: LOCAL
+          address: BP_OFFSET_BYTE( D8 )
+          name = "g",  type = 9
+        0137: LOCAL
+          address: BP_OFFSET_BYTE( DC )
+          name = "b",  type = 9
+        013D: LOCAL
+          address: BP_OFFSET_BYTE( E0 )
+          name = "newhue",  type = 9
+        0148: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "newsat",  type = 9
+        0153: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "newval",  type = 9
+        015E: NEAR_RTN_386
+          start off = 00000150, code size = 00000117, parent off = 0000
+          prologue size = 11,  epilogue size = 8
+          return address offset (from bp) = 0000000C
+          return type:  46
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Parm 3: MULTI_REG(1): ECX
+          Name = "Lighting_HSVLightFilter"
+        0192: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "ratio",  type = 9
+        019C: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "srcpal",  type = 13
+        01A7: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "dstpal",  type = 13
+        01B2: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "rh",  type = 9
+        01B9: LOCAL
+          address: BP_OFFSET_BYTE( 10 )
+          name = "rs",  type = 9
+        01C0: LOCAL
+          address: BP_OFFSET_BYTE( 14 )
+          name = "rv",  type = 9
+        01C7: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "i",  type = 9
+        01CD: NEAR_RTN_386
+          start off = 00000267, code size = 0000002D, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  47
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Lighting_GetLightTable"
+        01FB: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "lightindex",  type = 9
+        020A: NEAR_RTN_386
+          start off = 00000294, code size = 00000043, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  48
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Lighing_SetLightTable"
+        0236: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "lightindex",  type = 9
+        0245: NEAR_RTN_386
+          start off = 000002D7, code size = 0000003D, parent off = 0000
+          prologue size = 11,  epilogue size = 6
+          return address offset (from bp) = 0000000C
+          return type:  49
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Parm 3: MULTI_REG(1): ECX
+          Name = "Lighting_SetLightValues"
+        0279: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "csystem",  type = 9
+        0285: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "a",  type = 9
+        028B: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "b",  type = 9
+        0291: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "c",  type = 9
+        0297: NEAR_RTN_386
+          start off = 00000314, code size = 000000D4, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  21
+          return value: <none>
+          Name = "Lighting_CalcLighting"
+        02C1: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "i",  type = 9
+        02C7: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "pal",  type = 13
+        02CF: LOCAL
+          address: BP_OFFSET_WORD( 00F4 )
+          name = "newpal",  type = 50
+        02DB: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "t",  type = 9
+        02E1: NEAR_RTN_386
+          start off = 000003E8, code size = 00000048, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  21
+          return value: <none>
+          Name = "Lighting_CreateShadowTable"
+        0310: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "curpal",  type = 13
+        031B: LOCAL
+          address: BP_OFFSET_WORD( 00FC )
+          name = "despal",  type = 51
+        0327: NEAR_RTN_386
+          start off = 00000430, code size = 0000003A, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  21
+          return value: <none>
+          Name = "Lighting_InitLUTColors"
+        0352: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "i",  type = 9
+        0358: NEAR_RTN_386
+          start off = 0000046A, code size = 00000047, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  52
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Name = "Lighting_MarkLUTColors"
+        0387: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "tbl",  type = 13
+        038F: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "numcolors",  type = 9
+        039D: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "i",  type = 9
+        03A3: BLOCK_386
+          start off = 000005A3, code size = 000000DB, parent off = 03D9
+        03AF: LOCAL
+          address: BP_OFFSET_BYTE( CC )
+          name = "br",  type = 4
+        03B6: LOCAL
+          address: BP_OFFSET_BYTE( E0 )
+          name = "bg",  type = 4
+        03BD: LOCAL
+          address: BP_OFFSET_BYTE( D4 )
+          name = "bb",  type = 4
+        03C4: LOCAL
+          address: BP_OFFSET_BYTE( D8 )
+          name = "dr",  type = 4
+        03CB: LOCAL
+          address: BP_OFFSET_BYTE( DC )
+          name = "dg",  type = 4
+        03D2: LOCAL
+          address: BP_OFFSET_BYTE( D0 )
+          name = "db",  type = 4
+        03D9: BLOCK_386
+          start off = 0000050F, code size = 00000174, parent off = 0400
+        03E5: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "fr",  type = 4
+        03EC: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "fg",  type = 4
+        03F3: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "fb",  type = 4
+        03FA: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "p",  type = 13
+        0400: NEAR_RTN_386
+          start off = 000004B1, code size = 00000221, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  21
+          return value: <none>
+          Name = "Lighting_CreateAdditiveLUT"
+        042F: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "i",  type = 9
+        0435: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "j",  type = 9
+        043B: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "curpal",  type = 13
+        0446: NEAR_RTN_386
+          start off = 000006D2, code size = 00000023, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  21
+          return value: <none>
+          Name = "Lighting_KillAdditiveLUT"
+

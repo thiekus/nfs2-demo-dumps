@@ -1,0 +1,8 @@
+  Name:  __update_buffer_
+    address      = 0001:000B0639
+    module index = 347
+    kind:          (static pubdef) (code)
+  Name:  fseek_
+    address      = 0001:000B067B
+    module index = 347
+    kind:          (code)

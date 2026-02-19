@@ -1,0 +1,20 @@
+  Name:  _getlocksemaphore
+    address      = 0001:000A0360
+    module index = 270
+    kind:          (code)
+  Name:  _locksemaphorereturn
+    address      = 0001:000A037C
+    module index = 270
+    kind:          (code)
+  Name:  _locksemaphore
+    address      = 0001:000A037C
+    module index = 270
+    kind:          (code)
+  Name:  _unlocksemaphore
+    address      = 0001:000A038C
+    module index = 270
+    kind:          (code)
+  Name:  _memmanlock
+    address      = 0002:00054B40
+    module index = 270
+    kind:          (static pubdef) (data)

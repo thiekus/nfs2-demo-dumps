@@ -1,0 +1,8 @@
+  Name:  _nrealloc_
+    address      = 0001:000C1C37
+    module index = 513
+    kind:          (code)
+  Name:  realloc_
+    address      = 0001:000C1C37
+    module index = 513
+    kind:          (code)

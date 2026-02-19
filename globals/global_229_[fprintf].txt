@@ -1,0 +1,4 @@
+  Name:  fprintf_
+    address      = 0001:0009AEEB
+    module index = 229
+    kind:          (code)

@@ -1,0 +1,4 @@
+  Name:  _shapetype
+    address      = 0001:000B6BE0
+    module index = 389
+    kind:          (code)

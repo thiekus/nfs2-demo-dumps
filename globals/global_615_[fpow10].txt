@@ -1,0 +1,4 @@
+  Name:  __BigPow10Table
+    address      = 0002:0000BC48
+    module index = 615
+    kind:          (data)

@@ -1,0 +1,8 @@
+  Name:  _joystick
+    address      = 0001:000BB880
+    module index = 425
+    kind:          (code)
+  Name:  convertjoy_
+    address      = 0001:000BB88C
+    module index = 425
+    kind:          (code)

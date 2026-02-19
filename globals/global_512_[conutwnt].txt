@@ -1,0 +1,24 @@
+  Name:  __NTRealKey_
+    address      = 0001:000C1B8C
+    module index = 512
+    kind:          (code)
+  Name:  initConsoleHandles_
+    address      = 0001:000C1BB8
+    module index = 512
+    kind:          (static pubdef) (code)
+  Name:  __NTConsoleInput_
+    address      = 0001:000C1C21
+    module index = 512
+    kind:          (code)
+  Name:  __NTConsoleOutput_
+    address      = 0001:000C1C2C
+    module index = 512
+    kind:          (code)
+  Name:  _console_in
+    address      = 0002:00017188
+    module index = 512
+    kind:          (static pubdef) (data)
+  Name:  _console_out
+    address      = 0002:0001718C
+    module index = 512
+    kind:          (static pubdef) (data)

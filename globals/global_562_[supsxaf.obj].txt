@@ -1,0 +1,12 @@
+  Name:  _upsxafframe
+    address      = 0001:000C5230
+    module index = 562
+    kind:          (code)
+  Name:  _upsxaf
+    address      = 0001:000C5238
+    module index = 562
+    kind:          (code)
+  Name:  _upsxafsetstate
+    address      = 0001:000C53BC
+    module index = 562
+    kind:          (code)

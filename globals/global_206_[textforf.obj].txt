@@ -1,0 +1,4 @@
+  Name:  _forftextxy
+    address      = 0001:000905D0
+    module index = 206
+    kind:          (code)

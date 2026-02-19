@@ -1,0 +1,28 @@
+  Name:  _setcolourtranslationrange
+    address      = 0001:00095D54
+    module index = 223
+    kind:          (code)
+  Name:  _mcgatranslation
+    address      = 0001:00095D20
+    module index = 223
+    kind:          (code)
+  Name:  _colourx
+    address      = 0002:000138A4
+    module index = 223
+    kind:          (data)
+  Name:  _getcolourtranslation
+    address      = 0001:00095D3A
+    module index = 223
+    kind:          (code)
+  Name:  _setcolourtranslation
+    address      = 0001:00095D20
+    module index = 223
+    kind:          (code)
+  Name:  _mcgatransrange
+    address      = 0001:00095D54
+    module index = 223
+    kind:          (code)
+  Name:  _getmcgatranslation
+    address      = 0001:00095D3A
+    module index = 223
+    kind:          (code)

@@ -1,0 +1,20 @@
+  Name:  __IOMode_
+    address      = 0001:000C02A6
+    module index = 488
+    kind:          (code)
+  Name:  __SetIOMode_
+    address      = 0001:000C02FB
+    module index = 488
+    kind:          (code)
+  Name:  ___NFiles
+    address      = 0002:00017038
+    module index = 488
+    kind:          (data)
+  Name:  ___init_mode
+    address      = 0002:0001703C
+    module index = 488
+    kind:          (data)
+  Name:  __iomode
+    address      = 0002:0001708C
+    module index = 488
+    kind:          (data)

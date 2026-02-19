@@ -1,0 +1,56 @@
+  Name:  _initfileio
+    address      = 0001:000833F0
+    module index = 135
+    kind:          (code)
+  Name:  _openhandlea
+    address      = 0001:000833FC
+    module index = 135
+    kind:          (code)
+  Name:  _openhandle
+    address      = 0001:000835CC
+    module index = 135
+    kind:          (code)
+  Name:  _openhandlez
+    address      = 0001:000835F0
+    module index = 135
+    kind:          (code)
+  Name:  _openhandlew
+    address      = 0001:00083614
+    module index = 135
+    kind:          (code)
+  Name:  _closehandle
+    address      = 0001:000836BC
+    module index = 135
+    kind:          (code)
+  Name:  _readhandle
+    address      = 0001:000836EC
+    module index = 135
+    kind:          (code)
+  Name:  _writehandle
+    address      = 0001:0008372C
+    module index = 135
+    kind:          (code)
+  Name:  _seekhandle
+    address      = 0001:0008376C
+    module index = 135
+    kind:          (code)
+  Name:  _ufname
+    address      = 0002:00012EDC
+    module index = 135
+    kind:          (data)
+  Name:  _bigbufptr
+    address      = 0002:00012F5C
+    module index = 135
+    kind:          (data)
+  Name:  _locatebigoffsetzvect
+    address      = 0002:00012F60
+    module index = 135
+    kind:          (data)
+  Name:  _biglenvect
+    address      = 0002:00012F64
+    module index = 135
+    kind:          (data)
+  Name:  _bigheaderlen
+    address      = 0002:00012F68
+    module index = 135
+    kind:          (data)

@@ -1,0 +1,104 @@
+  Name:  _default_qfunc
+    address      = 0001:000A70B0
+    module index = 307
+    kind:          (static pubdef) (code)
+  Name:  _getindexelement
+    address      = 0001:000A70B8
+    module index = 307
+    kind:          (static pubdef) (code)
+  Name:  _removeelement
+    address      = 0001:000A70D4
+    module index = 307
+    kind:          (static pubdef) (code)
+  Name:  _qinit
+    address      = 0001:000A7168
+    module index = 307
+    kind:          (code)
+  Name:  _qfree
+    address      = 0001:000A71E4
+    module index = 307
+    kind:          (code)
+  Name:  _qpush
+    address      = 0001:000A7234
+    module index = 307
+    kind:          (code)
+  Name:  _qbottom
+    address      = 0001:000A72AC
+    module index = 307
+    kind:          (code)
+  Name:  _qpop
+    address      = 0001:000A732C
+    module index = 307
+    kind:          (code)
+  Name:  _qpoplast
+    address      = 0001:000A73B0
+    module index = 307
+    kind:          (code)
+  Name:  _qinsert
+    address      = 0001:000A7450
+    module index = 307
+    kind:          (code)
+  Name:  _qremove
+    address      = 0001:000A7504
+    module index = 307
+    kind:          (code)
+  Name:  _qlength
+    address      = 0001:000A7570
+    module index = 307
+    kind:          (code)
+  Name:  _qposition
+    address      = 0001:000A75AC
+    module index = 307
+    kind:          (code)
+  Name:  _qlowpriority
+    address      = 0001:000A7660
+    module index = 307
+    kind:          (code)
+  Name:  _qhighpriority
+    address      = 0001:000A76D0
+    module index = 307
+    kind:          (code)
+  Name:  _qfind
+    address      = 0001:000A7740
+    module index = 307
+    kind:          (code)
+  Name:  _qfindindex
+    address      = 0001:000A77BC
+    module index = 307
+    kind:          (code)
+  Name:  _qfindpriority
+    address      = 0001:000A7840
+    module index = 307
+    kind:          (code)
+  Name:  _qfetch
+    address      = 0001:000A78CC
+    module index = 307
+    kind:          (code)
+  Name:  _qfetchindex
+    address      = 0001:000A7980
+    module index = 307
+    kind:          (code)
+  Name:  _qfetchnext
+    address      = 0001:000A7A34
+    module index = 307
+    kind:          (code)
+  Name:  _qfetchpriority
+    address      = 0001:000A7AE0
+    module index = 307
+    kind:          (code)
+  Name:  _qiterate
+    address      = 0001:000A7BA0
+    module index = 307
+    kind:          (code)
+  Name:  _qsafeiterate
+    address      = 0001:000A7C70
+    module index = 307
+    kind:          (code)
+  Name:  _qlock
+    address      = 0001:000A7CDC
+    module index = 307
+    kind:          (code)
+  Name:  _qunlock
+    address      = 0001:000A7CF0
+    module index = 307
+    kind:          (code)

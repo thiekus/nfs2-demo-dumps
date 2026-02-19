@@ -1,0 +1,8 @@
+  Name:  _environ
+    address      = 0002:00018D3C
+    module index = 609
+    kind:          (data)
+  Name:  ___env_mask
+    address      = 0002:00018D40
+    module index = 609
+    kind:          (data)

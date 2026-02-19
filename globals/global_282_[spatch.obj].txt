@@ -1,0 +1,16 @@
+  Name:  iSNDresolveoldpatch_
+    address      = 0001:000A14B0
+    module index = 282
+    kind:          (code)
+  Name:  iSNDresolvepatch_
+    address      = 0001:000A1584
+    module index = 282
+    kind:          (code)
+  Name:  iSNDplayoldpatch_
+    address      = 0001:000A15A4
+    module index = 282
+    kind:          (code)
+  Name:  iSNDplaypatch_
+    address      = 0001:000A195C
+    module index = 282
+    kind:          (code)

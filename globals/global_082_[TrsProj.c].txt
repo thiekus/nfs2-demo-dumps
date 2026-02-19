@@ -1,0 +1,36 @@
+  Name:  TrsProj_SetTransPrecision_
+    address      = 0001:0006164A
+    module index = 82
+    kind:          (code)
+  Name:  TrsProj_GetTransPrecision_
+    address      = 0001:0006166E
+    module index = 82
+    kind:          (code)
+  Name:  TrsProj_ResetTransPrecision_
+    address      = 0001:00061690
+    module index = 82
+    kind:          (code)
+  Name:  TrsProj_SetProjection_
+    address      = 0001:000616AF
+    module index = 82
+    kind:          (code)
+  Name:  TrsProj_SetViewTrsProjEnviro_
+    address      = 0001:00061720
+    module index = 82
+    kind:          (code)
+  Name:  TrsProj_Transform_
+    address      = 0001:00061839
+    module index = 82
+    kind:          (code)
+  Name:  TrsProj_TransformProjectVertex_
+    address      = 0001:00061869
+    module index = 82
+    kind:          (code)
+  Name:  TrsProj_TransformProjectVertex16_
+    address      = 0001:0006198D
+    module index = 82
+    kind:          (code)
+  Name:  _TrsProj_precision
+    address      = 0002:00010524
+    module index = 82
+    kind:          (data)

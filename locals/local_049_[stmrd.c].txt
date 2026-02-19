@@ -1,0 +1,301 @@
+ 49) Name:   C:\nfs2\game\common\stmrd.c
+     Language is C
+     Locals: num = 1, offset = 000000D6H
+     Types:  num = 1, offset = 00000272H
+     Lines:  num = 1, offset = 00000402H
+
+   *** Locals ***
+   ==============
+      Data 0:  offset 0001437C
+        0000: MODULE_386
+          "sTrackStream" addr = 0002:00046248,  type = 41
+        0015: MODULE_386
+          "kchHeaderEndOff" addr = 0001:00045F7B,  type = 9
+        002D: MODULE_386
+          "kGeoPtOff" addr = 0001:00045F7F,  type = 9
+        003F: MODULE_386
+          "sChunkCenters" addr = 0002:0000EF1C,  type = 42
+        0055: MODULE_386
+          "sTrackHandle" addr = 0002:00046268,  type = 9
+        006A: MODULE_386
+          "kchSimSliceIndexOff" addr = 0001:00045F6F,  type = 9
+        0086: MODULE_386
+          "kchBoundsOff" addr = 0001:00045F77,  type = 9
+        009B: MODULE_386
+          "sMetaChunkIndices" addr = 0002:0000EF20,  type = 43
+        00B5: MODULE_386
+          "kchItemCollCountOff" addr = 0001:00045F6B,  type = 9
+        00D1: MODULE_386
+          "kchChunkNumOff" addr = 0001:00045F73,  type = 9
+        00E8: MODULE_386
+          "kchGeomCollSizeOff" addr = 0001:00045F67,  type = 9
+        0103: MODULE_386
+          "sMetaChunkOffsetsFwd" addr = 0002:0000EF18,  type = 42
+        0120: SET_BASE_386
+          base = 0001:00045F83
+        0128: NEAR_RTN_386
+          start off = 00000000, code size = 00000021, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  44
+          return value: MULTI_REG(1): EAX
+          Name = "Stm_InitStreamReader"
+        0152: NEAR_RTN_386
+          start off = 00000021, code size = 00000028, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  45
+          return value: <none>
+          Name = "Stm_DeInitStreamReader"
+        017D: NEAR_RTN_386
+          start off = 00000049, code size = 00000058, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  46
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Stm_GetNumberOfChunks"
+        01AA: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "trackHandle",  type = 9
+        01BA: NEAR_RTN_386
+          start off = 000000A1, code size = 00000058, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  46
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Stm_GetNumberOfMetaChunks"
+        01EB: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "trackHandle",  type = 9
+        01FB: NEAR_RTN_386
+          start off = 000000F9, code size = 00000058, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  46
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Stm_GetMaxMetaChunkSize"
+        022A: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "trackHandle",  type = 9
+        023A: NEAR_RTN_386
+          start off = 00000151, code size = 00000058, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  46
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Stm_GetMaxGeomCollSize"
+        0268: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "trackHandle",  type = 9
+        0278: NEAR_RTN_386
+          start off = 000001A9, code size = 0000002D, parent off = 0000
+          prologue size = 12,  epilogue size = 7
+          return address offset (from bp) = 00000010
+          return type:  47
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Name = "Stm_GetChunkCenter"
+        02A5: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "trackHandle",  type = 9
+        02B5: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "iChunkNum",  type = 9
+        02C3: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "cp",  type = 42
+        02CA: NEAR_RTN_386
+          start off = 000001D6, code size = 0000002C, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  51
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Stm_GetChunkCenterRef"
+        02F7: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "iChunkNum",  type = 9
+        0305: NEAR_RTN_386
+          start off = 00000202, code size = 00000058, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  46
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Stm_GetMaxFullSize"
+        032F: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "trackHandle",  type = 9
+        033F: NEAR_RTN_386
+          start off = 0000025A, code size = 00000058, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  46
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Stm_GetMaxSplitSize"
+        036A: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "trackHandle",  type = 9
+        037A: NEAR_RTN_386
+          start off = 000002B2, code size = 00000029, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  56
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Stm_GetNumChunks"
+        03A2: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "metaChunk",  type = 55
+        03B0: NEAR_RTN_386
+          start off = 000002DB, code size = 00000077, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  57
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Name = "Stm_GetChunk"
+        03D6: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "metaChunk",  type = 55
+        03E4: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "iChunkNum",  type = 9
+        03F2: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "chunk",  type = 37
+        03FC: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "offsets",  type = 58
+        0408: NEAR_RTN_386
+          start off = 00000352, code size = 00000063, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  46
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Stm_GetMetaChunkIndex"
+        0435: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "iChunkNum",  type = 9
+        0443: NEAR_RTN_386
+          start off = 000003B5, code size = 00000029, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  65
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Stm_GetGeometry"
+        046A: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "lpChunk",  type = 37
+        0476: NEAR_RTN_386
+          start off = 000003DE, code size = 00000029, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  67
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Stm_GetVertices"
+        049D: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "lpGeom",  type = 64
+        04A8: NEAR_RTN_386
+          start off = 00000407, code size = 0000004B, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  73
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Stm_GetQuads"
+        04CC: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "lpGeom",  type = 64
+        04D7: BLOCK_386
+          start off = 0000048F, code size = 00000063, parent off = 04EE
+        04E3: LOCAL
+          address: BP_OFFSET_BYTE( DC )
+          name = "lpGeom",  type = 64
+        04EE: NEAR_RTN_386
+          start off = 00000452, code size = 000000B1, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  78
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Name = "Stm_GetItemCollection"
+        051D: LOCAL
+          address: BP_OFFSET_BYTE( E0 )
+          name = "lpChunk",  type = 37
+        0529: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "type",  type = 9
+        0532: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "lpOffsets",  type = 79
+        0540: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "iCount",  type = 9
+        054B: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "i",  type = 9
+        0551: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "lpWork",  type = 77
+        055C: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "lpItems",  type = 77
+        0568: NEAR_RTN_386
+          start off = 00000503, code size = 0000003A, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  80
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Stm_GetFirstSimSliceIndex"
+        0599: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "lpChunk",  type = 37
+        05A5: NEAR_RTN_386
+          start off = 0000053D, code size = 0000003E, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  80
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Stm_GetGeomCollSize"
+        05D0: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "lpChunk",  type = 37
+        05DC: NEAR_RTN_386
+          start off = 0000057B, code size = 0000003A, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  80
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Stm_GetChunkNum"
+        0603: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "lpChunk",  type = 37
+        060F: NEAR_RTN_386
+          start off = 000005B5, code size = 00000029, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  82
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Stm_GetBounds"
+        0634: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "lpChunk",  type = 37
+

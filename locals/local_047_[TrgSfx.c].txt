@@ -1,0 +1,151 @@
+ 47) Name:   C:\nfs2\game\common\TrgSfx.c
+     Language is C
+     Locals: num = 1, offset = 000000CEH
+     Types:  num = 1, offset = 0000026AH
+     Lines:  num = 1, offset = 000003FAH
+
+   *** Locals ***
+   ==============
+      Data 0:  offset 00013E27
+        0000: MODULE_386
+          "gPrevPosSm" addr = 0002:00045B80,  type = 48
+        0013: MODULE_386
+          "gTAddSm" addr = 0002:00045E80,  type = 50
+        0023: MODULE_386
+          "gTAddCarSfx" addr = 0002:00045F80,  type = 52
+        0037: MODULE_386
+          "gStatusSm" addr = 0002:00046080,  type = 54
+        0049: MODULE_386
+          "gTAddCSmoke" addr = 0002:00046180,  type = 9
+        005D: MODULE_386
+          "gTAddTSmoke" addr = 0002:00046184,  type = 9
+        0071: SET_BASE_386
+          base = 0001:00044EF8
+        0079: NEAR_RTN_386
+          start off = 00000000, code size = 000000C5, parent off = 0000
+          prologue size = 11,  epilogue size = 8
+          return address offset (from bp) = 0000000C
+          return type:  56
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Parm 3: MULTI_REG(1): ECX
+          Name = "TrgSfx_AddCarSfx"
+        00A6: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "car",  type = 9
+        00AE: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "wheel",  type = 9
+        00B8: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "skidpt",  type = 55
+        00C3: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "type",  type = 9
+        00CC: LOCAL
+          address: BP_OFFSET_BYTE( 10 )
+          name = "vec",  type = 55
+        00D4: NEAR_RTN_386
+          start off = 000000C5, code size = 00000075, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  57
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "TrgSfx_CrashCar"
+        00FA: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "location",  type = 55
+        0107: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "is",  type = 72
+        010E: BLOCK_386
+          start off = 0000016F, code size = 00000060, parent off = 0121
+        011A: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "cp",  type = 46
+        0121: NEAR_RTN_386
+          start off = 0000013A, code size = 000000CB, parent off = 0000
+          prologue size = 11,  epilogue size = 8
+          return address offset (from bp) = 0000000C
+          return type:  73
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Parm 3: MULTI_REG(1): ECX
+          Name = "TrgSfx_SubdividSkidmark"
+        0155: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "car",  type = 9
+        015D: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "wheel",  type = 9
+        0167: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "pskidpt",  type = 55
+        0173: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "skidpt",  type = 55
+        017E: LOCAL
+          address: BP_OFFSET_BYTE( 10 )
+          name = "status",  type = 9
+        0189: LOCAL
+          address: BP_OFFSET_BYTE( 14 )
+          name = "level",  type = 9
+        0193: NEAR_RTN_386
+          start off = 00000205, code size = 0000018E, parent off = 0000
+          prologue size = 11,  epilogue size = 6
+          return address offset (from bp) = 0000000C
+          return type:  74
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Parm 3: MULTI_REG(1): ECX
+          Name = "TrgSfx_AddSkidmark"
+        01C2: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "car",  type = 9
+        01CA: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "wheel",  type = 9
+        01D4: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "skidpt",  type = 55
+        01DF: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "end",  type = 9
+        01E7: NEAR_RTN_386
+          start off = 00000393, code size = 000000A7, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  21
+          return value: <none>
+          Name = "TrgSfx_InitTrgSfx"
+        020D: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "i",  type = 9
+        0213: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "j",  type = 9
+        0219: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "t",  type = 9
+        021F: NEAR_RTN_386
+          start off = 0000043A, code size = 0000001F, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  21
+          return value: <none>
+          Name = "TrgSfx_RestartTrgSfx"
+        0248: NEAR_RTN_386
+          start off = 00000459, code size = 00000015, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  21
+          return value: <none>
+          Name = "TrgSfx_KillTrgSfx"
+

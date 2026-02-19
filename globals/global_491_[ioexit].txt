@@ -1,0 +1,12 @@
+  Name:  __full_io_exit_
+    address      = 0001:000C03C4
+    module index = 491
+    kind:          (code)
+  Name:  fcloseall_
+    address      = 0001:000C03D0
+    module index = 491
+    kind:          (code)
+  Name:  docloseall_
+    address      = 0001:000C03D5
+    module index = 491
+    kind:          (static pubdef) (code)

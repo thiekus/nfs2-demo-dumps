@@ -1,0 +1,40 @@
+  Name:  _fpubitlinens8
+    address      = 0001:0008F2A0
+    module index = 200
+    kind:          (code)
+  Name:  _fpubitlinens16
+    address      = 0001:0008F2C8
+    module index = 200
+    kind:          (code)
+  Name:  _mmxbitlinens8
+    address      = 0001:0008F2F4
+    module index = 200
+    kind:          (code)
+  Name:  _mmxbitlinens16
+    address      = 0001:0008F31C
+    module index = 200
+    kind:          (code)
+  Name:  _bankmaskf
+    address      = 0001:0008F348
+    module index = 200
+    kind:          (code)
+  Name:  _bamx
+    address      = 0002:0001375C
+    module index = 200
+    kind:          (data)
+  Name:  _bamy
+    address      = 0002:00013760
+    module index = 200
+    kind:          (data)
+  Name:  _bamsourcex
+    address      = 0002:00013764
+    module index = 200
+    kind:          (data)
+  Name:  _bamsourcey
+    address      = 0002:00013768
+    module index = 200
+    kind:          (data)
+  Name:  _bamfshp
+    address      = 0002:00051968
+    module index = 200
+    kind:          (data)

@@ -1,0 +1,60 @@
+  Name:  Sim_CaptureScreen_
+    address      = 0001:000425E6
+    module index = 42
+    kind:          (code)
+  Name:  Sim_StartUp_
+    address      = 0001:0004263A
+    module index = 42
+    kind:          (code)
+  Name:  Sim_Restart_
+    address      = 0001:0004273E
+    module index = 42
+    kind:          (code)
+  Name:  Sim_CleanUp_
+    address      = 0001:000427D0
+    module index = 42
+    kind:          (code)
+  Name:  Sim_ProcessSimSchedules_
+    address      = 0001:00042837
+    module index = 42
+    kind:          (code)
+  Name:  Sim_ProcessPause_
+    address      = 0001:00042A0C
+    module index = 42
+    kind:          (static pubdef) (code)
+  Name:  Sim_CheckForPause_
+    address      = 0001:00042AE3
+    module index = 42
+    kind:          (code)
+  Name:  Sim_MainGameLoop_
+    address      = 0001:00042BB1
+    module index = 42
+    kind:          (code)
+  Name:  _InBetween
+    address      = 0002:0000EEF8
+    module index = 42
+    kind:          (data)
+  Name:  _simpause
+    address      = 0002:0000EEFC
+    module index = 42
+    kind:          (data)
+  Name:  _picture
+    address      = 0002:0000EF00
+    module index = 42
+    kind:          (data)
+  Name:  _simVar
+    address      = 0002:00043514
+    module index = 42
+    kind:          (data)
+  Name:  _skipRender
+    address      = 0002:0004352C
+    module index = 42
+    kind:          (data)
+  Name:  _unPauseDelay
+    address      = 0002:00043530
+    module index = 42
+    kind:          (data)
+  Name:  _simGlobal
+    address      = 0002:00043534
+    module index = 42
+    kind:          (data)

@@ -1,0 +1,64 @@
+  Name:  FEAudio_StartLoadPatch_
+    address      = 0001:0007A0C7
+    module index = 98
+    kind:          (code)
+  Name:  Feaudio_StartPatch_
+    address      = 0001:0007A198
+    module index = 98
+    kind:          (code)
+  Name:  FeAudio_systemtask_
+    address      = 0001:0007A2C2
+    module index = 98
+    kind:          (code)
+  Name:  FeAudio_PlayCommentary_
+    address      = 0001:0007A509
+    module index = 98
+    kind:          (code)
+  Name:  FeAudio_AsyncPlayCommentary_
+    address      = 0001:0007A631
+    module index = 98
+    kind:          (code)
+  Name:  FeAudio_StartBigfileRead_
+    address      = 0001:0007A6F5
+    module index = 98
+    kind:          (code)
+  Name:  FeAudio_LocateBigfile_
+    address      = 0001:0007A78B
+    module index = 98
+    kind:          (code)
+  Name:  FeAudio_InitViv_
+    address      = 0001:0007A8B6
+    module index = 98
+    kind:          (code)
+  Name:  FeAudio_InitCommentary_
+    address      = 0001:0007AB2B
+    module index = 98
+    kind:          (code)
+  Name:  FeAudio_DeInitCommentary_
+    address      = 0001:0007ABF1
+    module index = 98
+    kind:          (code)
+  Name:  _gStopCommentaryNow
+    address      = 0002:000128AC
+    module index = 98
+    kind:          (data)
+  Name:  _allLanguages
+    address      = 0002:000128B0
+    module index = 98
+    kind:          (data)
+  Name:  _currentSpeechViv
+    address      = 0002:00050BAC
+    module index = 98
+    kind:          (data)
+  Name:  _speechfileHeader
+    address      = 0002:00050BD4
+    module index = 98
+    kind:          (data)
+  Name:  _commentaryActualLevel
+    address      = 0002:00050BD8
+    module index = 98
+    kind:          (data)
+  Name:  _ginfo
+    address      = 0002:00050BDC
+    module index = 98
+    kind:          (data)

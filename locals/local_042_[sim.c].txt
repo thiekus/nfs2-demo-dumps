@@ -1,0 +1,113 @@
+ 42) Name:   C:\nfs2\game\common\sim.c
+     Language is C
+     Locals: num = 1, offset = 000000BAH
+     Types:  num = 1, offset = 00000256H
+     Lines:  num = 1, offset = 000003E6H
+
+   *** Locals ***
+   ==============
+      Data 0:  offset 00012E18
+        0000: MODULE_386
+          "simVar" addr = 0002:00043514,  type = 64
+        000F: MODULE_386
+          "picture" addr = 0002:0000EF00,  type = 9
+        001F: MODULE_386
+          "InBetween" addr = 0002:0000EEF8,  type = 9
+        0031: MODULE_386
+          "skipRender" addr = 0002:0004352C,  type = 9
+        0044: MODULE_386
+          "simpause" addr = 0002:0000EEFC,  type = 9
+        0055: MODULE_386
+          "unPauseDelay" addr = 0002:00043530,  type = 9
+        006A: MODULE_386
+          "simGlobal" addr = 0002:00043534,  type = 76
+        007C: SET_BASE_386
+          base = 0001:000425E6
+        0084: NEAR_RTN_386
+          start off = 00000000, code size = 00000054, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  23
+          return value: <none>
+          Name = "Sim_CaptureScreen"
+        00AA: LOCAL
+          address: BP_OFFSET_BYTE( B0 )
+          name = "string",  type = 77
+        00B5: NEAR_RTN_386
+          start off = 00000054, code size = 00000104, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  23
+          return value: <none>
+          Name = "Sim_StartUp"
+        00D5: NEAR_RTN_386
+          start off = 00000158, code size = 00000092, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  23
+          return value: <none>
+          Name = "Sim_Restart"
+        00F5: NEAR_RTN_386
+          start off = 000001EA, code size = 00000067, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  23
+          return value: <none>
+          Name = "Sim_CleanUp"
+        0115: NEAR_RTN_386
+          start off = 00000251, code size = 000001D5, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  78
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Sim_ProcessSimSchedules"
+        0143: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "time",  type = 9
+        014C: NEAR_RTN_386
+          start off = 00000426, code size = 000000D7, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  23
+          return value: <none>
+          Name = "Sim_ProcessPause"
+        0171: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "r",  type = 9
+        0177: NEAR_RTN_386
+          start off = 000004FD, code size = 000000CE, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  79
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Sim_CheckForPause"
+        01A0: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "checkInput",  type = 9
+        01AF: BLOCK_386
+          start off = 00000646, code size = 00000038, parent off = 01E2
+        01BB: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "realTick",  type = 9
+        01C8: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "diffReal",  type = 9
+        01D5: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "diffGoal",  type = 9
+        01E2: NEAR_RTN_386
+          start off = 000005CB, code size = 00000552, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  23
+          return value: <none>
+          Name = "Sim_MainGameLoop"
+        0207: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "lastRealTick",  type = 9
+        0218: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "lastGoalTick",  type = 9
+

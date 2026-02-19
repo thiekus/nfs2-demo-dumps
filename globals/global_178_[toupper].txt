@@ -1,0 +1,8 @@
+  Name:  toupper_
+    address      = 0001:000893B4
+    module index = 178
+    kind:          (code)
+  Name:  _toupper_
+    address      = 0001:000893B4
+    module index = 178
+    kind:          (code)

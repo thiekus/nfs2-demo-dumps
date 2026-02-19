@@ -1,0 +1,886 @@
+ 10) Name:   C:\nfs2\game\common\camera.c
+     Language is C
+     Locals: num = 1, offset = 0000003AH
+     Types:  num = 1, offset = 000001D6H
+     Lines:  num = 1, offset = 0000036EH
+
+   *** Locals ***
+   ==============
+      Data 0:  offset 0000836A
+        0000: MODULE_386
+          "Camera_kRoofCamArm" addr = 0002:0000C722,  type = 62
+        001B: MODULE_386
+          "gSplineCamStepCounter" addr = 0002:0000C70A,  type = 63
+        0039: MODULE_386
+          "gSplineCamStep" addr = 0002:0000C71A,  type = 64
+        0050: MODULE_386
+          "gSplineCamSliceCounter" addr = 0002:0000C712,  type = 65
+        006F: MODULE_386
+          "zoomxscale" addr = 0002:00022E10,  type = 9
+        0082: MODULE_386
+          "zoomyscale" addr = 0002:00022E14,  type = 9
+        0095: MODULE_386
+          "zoomcentery" addr = 0002:00022E18,  type = 9
+        00A9: MODULE_386
+          "zoomcenterx" addr = 0002:00022E1C,  type = 9
+        00BD: MODULE_386
+          "Camera_gInfo" addr = 0002:0000C4F0,  type = 114
+        00D2: MODULE_386
+          "gNextModeList" addr = 0002:00022E20,  type = 115
+        00E8: SET_BASE_386
+          base = 0001:0001754D
+        00F0: NEAR_RTN_386
+          start off = 00000000, code size = 00000015, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  23
+          return value: <none>
+          Name = "Camera_InitDebugCamera"
+        011B: NEAR_RTN_386
+          start off = 00000015, code size = 00000015, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  23
+          return value: <none>
+          Name = "Camera_Debug"
+        013C: NEAR_RTN_386
+          start off = 0000002A, code size = 00000038, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  123
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Camera_SetMainCamera"
+        0167: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "cview",  type = 122
+        0171: NEAR_RTN_386
+          start off = 00000062, code size = 0000007F, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  123
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Camera_SetHorizonCamera"
+        019F: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "cview",  type = 122
+        01A9: NEAR_RTN_386
+          start off = 000000E1, code size = 0000005D, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  123
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Camera_RestoreCamera"
+        01D4: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "cview",  type = 122
+        01DE: NEAR_RTN_386
+          start off = 0000013E, code size = 00000051, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  124
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Name = "Camera_SetCamera"
+        0207: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "cview",  type = 122
+        0211: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "typeview",  type = 9
+        021E: NEAR_RTN_386
+          start off = 0000018F, code size = 00000015, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  23
+          return value: <none>
+          Name = "Camera_RestartTrackRender"
+        024C: NEAR_RTN_386
+          start off = 000001A4, code size = 000000AB, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  126
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Name = "Camera_LookBack"
+        0274: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "player",  type = 9
+        027F: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "tgt",  type = 125
+        0287: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "src",  type = 125
+        028F: NEAR_RTN_386
+          start off = 0000024F, code size = 0000027B, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  127
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Camera_UpdateCollisionCam"
+        02BF: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "player",  type = 9
+        02CA: LOCAL
+          address: BP_OFFSET_BYTE( E0 )
+          name = "arm",  type = 68
+        02D2: LOCAL
+          address: BP_OFFSET_BYTE( D4 )
+          name = "newarm",  type = 68
+        02DD: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "oldarm",  type = 68
+        02E8: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "anchor",  type = 208
+        02F4: NEAR_RTN_386
+          start off = 000004CA, code size = 00000187, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  127
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Camera_UpdateInCar"
+        031D: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "player",  type = 9
+        0328: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "arm",  type = 68
+        0330: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "newarm",  type = 68
+        033B: NEAR_RTN_386
+          start off = 00000651, code size = 00000187, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  127
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Camera_UpdateBumperCam"
+        0368: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "player",  type = 9
+        0373: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "arm",  type = 68
+        037B: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "newarm",  type = 68
+        0386: NEAR_RTN_386
+          start off = 000007D8, code size = 000003AE, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  127
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Camera_UpdateRoofCam"
+        03B1: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "player",  type = 9
+        03BC: LOCAL
+          address: BP_OFFSET_BYTE( DC )
+          name = "arm",  type = 68
+        03C4: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "newarm",  type = 68
+        03CF: LOCAL
+          address: BP_OFFSET_BYTE( D0 )
+          name = "oldarm",  type = 68
+        03DA: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "anchor",  type = 208
+        03E6: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "rate",  type = 9
+        03EF: NEAR_RTN_386
+          start off = 00000B86, code size = 000004CD, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  127
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Camera_UpdateHeliCam2"
+        041B: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "player",  type = 9
+        0426: LOCAL
+          address: BP_OFFSET_BYTE( D8 )
+          name = "arm",  type = 68
+        042E: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "newarm",  type = 68
+        0439: LOCAL
+          address: BP_OFFSET_BYTE( CC )
+          name = "oldarm",  type = 68
+        0444: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "anchor",  type = 208
+        0450: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "fallback",  type = 9
+        045D: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "rate",  type = 9
+        0466: NEAR_RTN_386
+          start off = 00001053, code size = 00000308, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  127
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Camera_UpdateCircleCam"
+        0493: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "player",  type = 9
+        049E: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "src",  type = 68
+        04A6: LOCAL
+          address: BP_OFFSET_BYTE( D8 )
+          name = "des",  type = 68
+        04AE: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "sin",  type = 9
+        04B6: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "cos",  type = 9
+        04BE: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "anchor",  type = 208
+        04CA: NEAR_RTN_386
+          start off = 0000135B, code size = 00000078, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  209
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Camera_IslandProfile"
+        04F7: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "before",  type = 8
+        0502: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "after",  type = 8
+        050C: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "diff",  type = 8
+        0515: BLOCK_386
+          start off = 0000156E, code size = 00000036, parent off = 0539
+        0521: LOCAL
+          address: BP_OFFSET_BYTE( CC )
+          name = "x",  type = 9
+        0527: LOCAL
+          address: BP_OFFSET_BYTE( D0 )
+          name = "y",  type = 9
+        052D: LOCAL
+          address: BP_OFFSET_BYTE( D4 )
+          name = "w",  type = 9
+        0533: LOCAL
+          address: BP_OFFSET_BYTE( D8 )
+          name = "h",  type = 9
+        0539: NEAR_RTN_386
+          start off = 000013D3, code size = 000002A7, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  127
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Camera_UpdateTVCam"
+        0562: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "player",  type = 9
+        056D: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "targetDist",  type = 9
+        057C: LOCAL
+          address: BP_OFFSET_BYTE( E0 )
+          name = "TVpos",  type = 68
+        0586: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "slicePos",  type = 210
+        0594: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "newslice",  type = 9
+        05A1: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "side",  type = 9
+        05AA: NEAR_RTN_386
+          start off = 0000167A, code size = 000001DA, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  127
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Camera_UpdateAnimCam"
+        05D5: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "player",  type = 9
+        05E0: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "animPos",  type = 68
+        05EC: LOCAL
+          address: BP_OFFSET_BYTE( CC )
+          name = "animRot",  type = 98
+        05F8: NEAR_RTN_386
+          start off = 00001854, code size = 00000369, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  127
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Camera_UpdateFinishCam"
+        0625: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "player",  type = 9
+        0630: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "pos",  type = 211
+        0639: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "finishPos",  type = 68
+        0647: LOCAL
+          address: BP_OFFSET_BYTE( C8 )
+          name = "finishRot",  type = 98
+        0655: NEAR_RTN_386
+          start off = 00001BBD, code size = 00000248, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  127
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Camera_UpdateSideCam"
+        0680: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "player",  type = 9
+        068B: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "arm",  type = 68
+        0693: LOCAL
+          address: BP_OFFSET_BYTE( E0 )
+          name = "newarm",  type = 68
+        069E: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "anchor",  type = 208
+        06AA: NEAR_RTN_386
+          start off = 00001E05, code size = 000000E3, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  127
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Camera_UpdateBlimpCam"
+        06D6: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "player",  type = 9
+        06E1: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "arm",  type = 68
+        06E9: BLOCK_386
+          start off = 00001F31, code size = 0000002D, parent off = 0713
+        06F5: LOCAL
+          address: BP_OFFSET_BYTE( D0 )
+          name = "i",  type = 9
+        06FB: BLOCK_386
+          start off = 00001F5E, code size = 0000013B, parent off = 0713
+        0707: LOCAL
+          address: BP_OFFSET_BYTE( CC )
+          name = "veldiff",  type = 9
+        0713: NEAR_RTN_386
+          start off = 00001EE8, code size = 000001CA, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  127
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Camera_SetSplineCam"
+        073D: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "cviewP",  type = 9
+        0748: LOCAL
+          address: BP_OFFSET_BYTE( D4 )
+          name = "camVel",  type = 212
+        0754: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "anchor",  type = 208
+        0760: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "carVel",  type = 9
+        076B: BLOCK_386
+          start off = 000021BA, code size = 0000007C, parent off = 0804
+        0777: LOCAL
+          address: BP_OFFSET_BYTE( 9C )
+          name = "slicediff",  type = 9
+        0785: LOCAL
+          address: BP_OFFSET_BYTE( A0 )
+          name = "veldiff",  type = 9
+        0791: BLOCK_386
+          start off = 00002240, code size = 0000002D, parent off = 0804
+        079D: LOCAL
+          address: BP_OFFSET_BYTE( 94 )
+          name = "i",  type = 9
+        07A3: BLOCK_386
+          start off = 0000226D, code size = 00000191, parent off = 0804
+        07AF: LOCAL
+          address: BP_OFFSET_BYTE( 90 )
+          name = "veldiff",  type = 9
+        07BB: BLOCK_386
+          start off = 0000243C, code size = 0000011C, parent off = 0804
+        07C7: LOCAL
+          address: BP_OFFSET_WORD( 0074 )
+          name = "nextslice",  type = 9
+        07D6: BLOCK_386
+          start off = 0000264E, code size = 000000FF, parent off = 0804
+        07E2: LOCAL
+          address: BP_OFFSET_WORD( 0070 )
+          name = "side",  type = 9
+        07EC: BLOCK_386
+          start off = 0000274D, code size = 000003A0, parent off = 0804
+        07F8: LOCAL
+          address: BP_OFFSET_WORD( 0044 )
+          name = "height",  type = 9
+        0804: NEAR_RTN_386
+          start off = 000020B2, code size = 00000A99, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  127
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Camera_UpdateSplineCam"
+        0831: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "player",  type = 9
+        083C: LOCAL
+          address: BP_OFFSET_BYTE( C4 )
+          name = "camVel",  type = 213
+        0848: LOCAL
+          address: BP_OFFSET_BYTE( A4 )
+          name = "steps",  type = 214
+        0853: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "anchor",  type = 208
+        085F: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "diff",  type = 68
+        0868: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "carVel",  type = 9
+        0873: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "change",  type = 9
+        087E: NEAR_RTN_386
+          start off = 00002B4B, code size = 00000242, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  127
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Camera_UpdateCliffCam"
+        08AA: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "player",  type = 9
+        08B5: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "pos",  type = 211
+        08BE: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "anchor",  type = 211
+        08CA: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "slice",  type = 9
+        08D4: LOCAL
+          address: BP_OFFSET_BYTE( C8 )
+          name = "rel",  type = 68
+        08DC: LOCAL
+          address: BP_OFFSET_BYTE( D4 )
+          name = "roadX",  type = 68
+        08E6: LOCAL
+          address: BP_OFFSET_BYTE( E0 )
+          name = "temp",  type = 68
+        08EF: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "distX",  type = 9
+        08F9: BLOCK_386
+          start off = 00002DBA, code size = 0000019E, parent off = 0911
+        0905: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "anchor",  type = 208
+        0911: NEAR_RTN_386
+          start off = 00002D8D, code size = 000001D9, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  23
+          return value: <none>
+          Name = "Camera_Update"
+        0933: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "player",  type = 9
+        093E: NEAR_RTN_386
+          start off = 00002F66, code size = 0000038E, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  23
+          return value: <none>
+          Name = "Camera_Init"
+        095E: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "splitScreen",  type = 9
+        096E: LOCAL
+          address: BP_OFFSET_WORD( 005C )
+          name = "slicePos",  type = 94
+        097C: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "localCar",  type = 9
+        0989: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "i",  type = 9
+        098F: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "egg1",  type = 9
+        0998: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "egg2",  type = 9
+        09A1: LOCAL
+          address: BP_OFFSET_BYTE( DC )
+          name = "camList",  type = 215
+        09AE: NEAR_RTN_386
+          start off = 000032F4, code size = 000000DF, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  127
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Camera_PitchAndRoll"
+        09D8: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "player",  type = 9
+        09E3: LOCAL
+          address: BP_OFFSET_BYTE( A8 )
+          name = "m1",  type = 98
+        09EA: LOCAL
+          address: BP_OFFSET_BYTE( CC )
+          name = "m2",  type = 98
+        09F1: LOCAL
+          address: BP_OFFSET_BYTE( 84 )
+          name = "m3",  type = 98
+        09F8: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "anchor",  type = 208
+        0A04: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "pitch",  type = 9
+        0A0E: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "roll",  type = 9
+        0A17: NEAR_RTN_386
+          start off = 000033D3, code size = 00000891, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  216
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Name = "Camera_CheckWallCollisions"
+        0A4B: LOCAL
+          address: BP_OFFSET_BYTE( C8 )
+          name = "player",  type = 9
+        0A56: LOCAL
+          address: BP_OFFSET_BYTE( C4 )
+          name = "newpos",  type = 211
+        0A62: LOCAL
+          address: BP_OFFSET_BYTE( B8 )
+          name = "crr",  type = 68
+        0A6A: LOCAL
+          address: BP_OFFSET_BYTE( AC )
+          name = "rc",  type = 68
+        0A71: LOCAL
+          address: BP_OFFSET_BYTE( A0 )
+          name = "safe",  type = 68
+        0A7A: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "bufZone",  type = 9
+        0A86: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "clipx",  type = 9
+        0A90: LOCAL
+          address: BP_OFFSET_BYTE( CC )
+          name = "distR",  type = 9
+        0A9A: LOCAL
+          address: BP_OFFSET_BYTE( D0 )
+          name = "distL",  type = 9
+        0AA4: LOCAL
+          address: BP_OFFSET_BYTE( D4 )
+          name = "over",  type = 9
+        0AAD: LOCAL
+          address: BP_OFFSET_BYTE( D8 )
+          name = "scale",  type = 9
+        0AB7: LOCAL
+          address: BP_OFFSET_BYTE( DC )
+          name = "slice",  type = 9
+        0AC1: LOCAL
+          address: BP_OFFSET_BYTE( E0 )
+          name = "shifted",  type = 9
+        0ACD: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "pos",  type = 211
+        0AD6: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "slicePos",  type = 210
+        0AE4: LOCAL
+          address: BP_OFFSET_WORD( 007C )
+          name = "roadInv",  type = 98
+        0AF1: LOCAL
+          address: BP_OFFSET_WORD( 0058 )
+          name = "roadMat",  type = 98
+        0AFE: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "rotx",  type = 211
+        0B08: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "roty",  type = 211
+        0B12: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "rotz",  type = 211
+        0B1C: NEAR_RTN_386
+          start off = 00003C64, code size = 000001EB, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  216
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Name = "Camera_SetAboveGround"
+        0B4B: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "player",  type = 9
+        0B56: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "pos",  type = 211
+        0B5F: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "slicePos",  type = 210
+        0B6D: LOCAL
+          address: BP_OFFSET_BYTE( BC )
+          name = "quadnormal",  type = 68
+        0B7C: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "elevation",  type = 9
+        0B8A: LOCAL
+          address: BP_OFFSET_BYTE( C8 )
+          name = "first",  type = 68
+        0B94: LOCAL
+          address: BP_OFFSET_BYTE( D4 )
+          name = "mid",  type = 68
+        0B9C: LOCAL
+          address: BP_OFFSET_BYTE( E0 )
+          name = "last",  type = 68
+        0BA5: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "count",  type = 9
+        0BAF: NEAR_RTN_386
+          start off = 00003E4F, code size = 00000473, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  216
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Name = "Camera_AquireTarget"
+        0BDC: LOCAL
+          address: BP_OFFSET_BYTE( DC )
+          name = "player",  type = 9
+        0BE7: LOCAL
+          address: BP_OFFSET_BYTE( E0 )
+          name = "pos",  type = 211
+        0BF0: LOCAL
+          address: BP_OFFSET_BYTE( D0 )
+          name = "upvector",  type = 68
+        0BFD: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "rotx",  type = 211
+        0C07: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "roty",  type = 211
+        0C11: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "rotz",  type = 211
+        0C1B: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "sin",  type = 9
+        0C23: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "cos",  type = 9
+        0C2B: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "oldy",  type = 9
+        0C34: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "oldz",  type = 9
+        0C3D: BLOCK_386
+          start off = 000043E8, code size = 00000037, parent off = 0C51
+        0C49: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "tmp",  type = 68
+        0C51: NEAR_RTN_386
+          start off = 000042C2, code size = 00000164, parent off = 0000
+          prologue size = 12,  epilogue size = 7
+          return address offset (from bp) = 00000010
+          return type:  218
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Name = "Camera_GetViewInfo"
+        0C7F: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "cviewP",  type = 9
+        0C8A: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "cview",  type = 217
+        0C95: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "viewID",  type = 9
+        0CA0: BLOCK_386
+          start off = 00004534, code size = 00000037, parent off = 0CB4
+        0CAC: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "tmp",  type = 68
+        0CB4: NEAR_RTN_386
+          start off = 00004426, code size = 0000014C, parent off = 0000
+          prologue size = 12,  epilogue size = 7
+          return address offset (from bp) = 00000010
+          return type:  218
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Name = "Camera_GetAudioViewInfo"
+        0CE7: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "cviewP",  type = 9
+        0CF2: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "cview",  type = 217
+        0CFD: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "viewID",  type = 9
+        0D08: NEAR_RTN_386
+          start off = 00004572, code size = 0000008B, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  219
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Camera_GetMode"
+        0D2F: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "cviewP",  type = 9
+        0D3A: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "anchor",  type = 208
+        0D46: NEAR_RTN_386
+          start off = 000045FD, code size = 000000D1, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  220
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Name = "Camera_SetMode"
+        0D6E: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "cviewP",  type = 9
+        0D79: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "mode",  type = 9
+        0D82: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "anchor",  type = 208
+        0D8E: NEAR_RTN_386
+          start off = 000046CE, code size = 0000020D, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  127
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Camera_NextMode"
+        0DB4: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "cviewP",  type = 9
+        0DBF: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "anchor",  type = 208
+        0DCB: NEAR_RTN_386
+          start off = 000048DB, code size = 0000003A, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  221
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Camera_GetAnchorObj"
+        0DF7: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "cviewP",  type = 9
+        0E02: NEAR_RTN_386
+          start off = 00004915, code size = 0000003A, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  221
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Camera_GetTargetObj"
+        0E2E: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "cviewP",  type = 9
+        0E39: NEAR_RTN_386
+          start off = 0000494F, code size = 00000038, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  222
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Name = "Camera_SetAnchorObj"
+        0E66: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "cviewP",  type = 9
+        0E71: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "anchor",  type = 107
+        0E7C: NEAR_RTN_386
+          start off = 00004987, code size = 00000038, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  222
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Name = "Camera_SetTargetObj"
+        0EA9: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "cviewP",  type = 9
+        0EB4: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "target",  type = 107
+        0EBF: NEAR_RTN_386
+          start off = 000049BF, code size = 00000038, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  220
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Name = "Camera_SetTwist"
+        0EE8: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "cviewP",  type = 9
+        0EF3: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "twist",  type = 9
+

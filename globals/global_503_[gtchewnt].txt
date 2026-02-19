@@ -1,0 +1,4 @@
+  Name:  getche_
+    address      = 0001:000C0D74
+    module index = 503
+    kind:          (code)

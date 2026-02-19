@@ -1,0 +1,4 @@
+  Name:  bsearch_
+    address      = 0001:000A8449
+    module index = 316
+    kind:          (code)

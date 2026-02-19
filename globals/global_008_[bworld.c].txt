@@ -1,0 +1,400 @@
+  Name:  _pObjDefs
+    address      = 0002:0001CA18
+    module index = 8
+    kind:          (data)
+  Name:  _gVertex3d
+    address      = 0002:0001CC18
+    module index = 8
+    kind:          (data)
+  Name:  _gLines
+    address      = 0002:0001DED8
+    module index = 8
+    kind:          (data)
+  Name:  _gMomentArt
+    address      = 0002:0001F4B8
+    module index = 8
+    kind:          (data)
+  Name:  _gContextMan
+    address      = 0002:0001F500
+    module index = 8
+    kind:          (data)
+  Name:  _gSimObjStatus
+    address      = 0002:0001F808
+    module index = 8
+    kind:          (data)
+  Name:  _gMaterialLists
+    address      = 0002:0001FB08
+    module index = 8
+    kind:          (data)
+  Name:  _gBWViewDistInd
+    address      = 0002:00022D08
+    module index = 8
+    kind:          (data)
+  Name:  _per_File
+    address      = 0002:00022D0C
+    module index = 8
+    kind:          (data)
+  Name:  _gCurrContext
+    address      = 0002:00022D10
+    module index = 8
+    kind:          (data)
+  Name:  _gtrackNumber
+    address      = 0002:00022D14
+    module index = 8
+    kind:          (data)
+  Name:  _stmMetaChunkBuf
+    address      = 0002:00022D18
+    module index = 8
+    kind:          (data)
+  Name:  _gChunkQueued
+    address      = 0002:00022D1C
+    module index = 8
+    kind:          (data)
+  Name:  _gPersistSortOffset
+    address      = 0002:00022D20
+    module index = 8
+    kind:          (data)
+  Name:  _BWorld_initializedFlag
+    address      = 0002:00022D24
+    module index = 8
+    kind:          (data)
+  Name:  _gBWSlice
+    address      = 0002:00022D28
+    module index = 8
+    kind:          (data)
+  Name:  _gPersistObjInst
+    address      = 0002:00022D2C
+    module index = 8
+    kind:          (data)
+  Name:  _quadLoopPtr
+    address      = 0002:00022D30
+    module index = 8
+    kind:          (data)
+  Name:  _gBWRemapID
+    address      = 0002:00022D34
+    module index = 8
+    kind:          (data)
+  Name:  _gPersistObjDef
+    address      = 0002:00022D38
+    module index = 8
+    kind:          (data)
+  Name:  _gInitialArt
+    address      = 0002:00022D3C
+    module index = 8
+    kind:          (data)
+  Name:  VertexServer_GetBlockOfVertices_
+    address      = 0001:00010E12
+    module index = 8
+    kind:          (code)
+  Name:  GetRezIndex_
+    address      = 0001:00010E4C
+    module index = 8
+    kind:          (code)
+  Name:  BWorld_SetTrackNumber_
+    address      = 0001:00010ED0
+    module index = 8
+    kind:          (code)
+  Name:  BWorld_MakeTrackPathName_
+    address      = 0001:00010EF2
+    module index = 8
+    kind:          (code)
+  Name:  BWorld_MakeTrackDataPathName_
+    address      = 0001:00010F3A
+    module index = 8
+    kind:          (code)
+  Name:  xzsquaredist32_
+    address      = 0001:00010F82
+    module index = 8
+    kind:          (code)
+  Name:  inset_
+    address      = 0001:00010FEF
+    module index = 8
+    kind:          (code)
+  Name:  Brad_getitmcoll_
+    address      = 0001:0001103A
+    module index = 8
+    kind:          (code)
+  Name:  BWorld_Restart_
+    address      = 0001:0001106C
+    module index = 8
+    kind:          (code)
+  Name:  BWorld_Init_
+    address      = 0001:00011149
+    module index = 8
+    kind:          (code)
+  Name:  BWorld_DeInit_
+    address      = 0001:00011454
+    module index = 8
+    kind:          (code)
+  Name:  ForceLoadChunk_
+    address      = 0001:000114B8
+    module index = 8
+    kind:          (code)
+  Name:  QueueChunk_
+    address      = 0001:0001150B
+    module index = 8
+    kind:          (code)
+  Name:  GetFreeSlot_
+    address      = 0001:000115B6
+    module index = 8
+    kind:          (code)
+  Name:  LoadChunkFromBuffer_
+    address      = 0001:00011779
+    module index = 8
+    kind:          (code)
+  Name:  LoadChunkAudio_
+    address      = 0001:00011C4D
+    module index = 8
+    kind:          (code)
+  Name:  QueueWantedChunks_
+    address      = 0001:00011C8B
+    module index = 8
+    kind:          (code)
+  Name:  UnLoadUnWantedChunks_
+    address      = 0001:00011CEA
+    module index = 8
+    kind:          (code)
+  Name:  ClearAllChunksStatus_
+    address      = 0001:00011D8D
+    module index = 8
+    kind:          (code)
+  Name:  UpdateContext_
+    address      = 0001:00011DCF
+    module index = 8
+    kind:          (code)
+  Name:  BuildChunkCenterLineFacets_
+    address      = 0001:00011E85
+    module index = 8
+    kind:          (code)
+  Name:  QuadLoop_
+    address      = 0001:00012550
+    module index = 8
+    kind:          (code)
+  Name:  BWorld_StartLoop_
+    address      = 0001:000127EC
+    module index = 8
+    kind:          (code)
+  Name:  BWorld_BuildFacetList_
+    address      = 0001:00012824
+    module index = 8
+    kind:          (code)
+  Name:  BWorld_InsertFacet_
+    address      = 0001:000128DF
+    module index = 8
+    kind:          (code)
+  Name:  BWorld_SoundTrack_
+    address      = 0001:0001296F
+    module index = 8
+    kind:          (code)
+  Name:  BuildFacets_
+    address      = 0001:00012A7E
+    module index = 8
+    kind:          (code)
+  Name:  BuildObjectFacets_
+    address      = 0001:00013294
+    module index = 8
+    kind:          (code)
+  Name:  LoadChunkVisibilities_
+    address      = 0001:00013791
+    module index = 8
+    kind:          (code)
+  Name:  DoChunkAudio_
+    address      = 0001:00013887
+    module index = 8
+    kind:          (code)
+  Name:  BWAllocMem_
+    address      = 0001:000139F4
+    module index = 8
+    kind:          (code)
+  Name:  BWFreeMem_
+    address      = 0001:00013A59
+    module index = 8
+    kind:          (code)
+  Name:  BWFreeEACMem_
+    address      = 0001:00013A7B
+    module index = 8
+    kind:          (code)
+  Name:  AllocArtResource_
+    address      = 0001:00013AA1
+    module index = 8
+    kind:          (code)
+  Name:  InitArtResources_
+    address      = 0001:00013AF1
+    module index = 8
+    kind:          (code)
+  Name:  DeInitArtResources_
+    address      = 0001:00013B15
+    module index = 8
+    kind:          (code)
+  Name:  LoadShapesAndMakePmx_
+    address      = 0001:00013B34
+    module index = 8
+    kind:          (code)
+  Name:  BWorld_ModuleRegister_
+    address      = 0001:00013C3F
+    module index = 8
+    kind:          (code)
+  Name:  LoadInitialTextures_
+    address      = 0001:00013CAD
+    module index = 8
+    kind:          (code)
+  Name:  LinkMaterials_
+    address      = 0001:00013D4F
+    module index = 8
+    kind:          (code)
+  Name:  AssociateMaterialPmx_
+    address      = 0001:00013DBC
+    module index = 8
+    kind:          (code)
+  Name:  BWorld_DeInitContexts_
+    address      = 0001:00013FF7
+    module index = 8
+    kind:          (code)
+  Name:  BWorld_InitContexts_
+    address      = 0001:00014011
+    module index = 8
+    kind:          (code)
+  Name:  SetContext_
+    address      = 0001:00014066
+    module index = 8
+    kind:          (code)
+  Name:  BWorld_OpenContext_
+    address      = 0001:000140C7
+    module index = 8
+    kind:          (code)
+  Name:  CheckContextMaxChunks_
+    address      = 0001:00014399
+    module index = 8
+    kind:          (code)
+  Name:  BWorld_InitPersistentData_
+    address      = 0001:00014456
+    module index = 8
+    kind:          (code)
+  Name:  BWorld_DeInitPersistentData_
+    address      = 0001:000145AD
+    module index = 8
+    kind:          (code)
+  Name:  BWorld_InitHitObject_
+    address      = 0001:000145D5
+    module index = 8
+    kind:          (code)
+  Name:  BWorld_CheckHitObject_
+    address      = 0001:0001462F
+    module index = 8
+    kind:          (code)
+  Name:  CalcObjYawAngle_
+    address      = 0001:0001481E
+    module index = 8
+    kind:          (code)
+  Name:  BuildObjCollisionMatrix_
+    address      = 0001:00014881
+    module index = 8
+    kind:          (code)
+  Name:  BuildLastObjCollisionMatrix_
+    address      = 0001:00014922
+    module index = 8
+    kind:          (code)
+  Name:  BWorld_SetInitialViewDistance_
+    address      = 0001:00014999
+    module index = 8
+    kind:          (code)
+  Name:  BWorld_GetInitialViewDistance_
+    address      = 0001:000149BB
+    module index = 8
+    kind:          (code)
+  Name:  BWorld_SetViewDistance_
+    address      = 0001:000149DD
+    module index = 8
+    kind:          (code)
+  Name:  BWorld_SetNextViewDistance_
+    address      = 0001:00014AEC
+    module index = 8
+    kind:          (code)
+  Name:  WorldToViewTransformProjectVertices16_
+    address      = 0001:00014B27
+    module index = 8
+    kind:          (code)
+  Name:  ObjectToViewTransformProjectVertices16_
+    address      = 0001:00014B9B
+    module index = 8
+    kind:          (code)
+  Name:  _bradtouchmempages
+    address      = 0001:00014C23
+    module index = 8
+    kind:          (code)
+  Name:  TouchMem_
+    address      = 0001:00014CD3
+    module index = 8
+    kind:          (code)
+  Name:  TouchMemMultiple_
+    address      = 0001:00014D25
+    module index = 8
+    kind:          (code)
+  Name:  TouchMemBlock_
+    address      = 0001:00014D4F
+    module index = 8
+    kind:          (code)
+  Name:  TouchMemTicks_
+    address      = 0001:00014D8D
+    module index = 8
+    kind:          (code)
+  Name:  TouchImportantData_
+    address      = 0001:00014DD5
+    module index = 8
+    kind:          (code)
+  Name:  TouchTrackArt_
+    address      = 0001:00014E39
+    module index = 8
+    kind:          (code)
+  Name:  Nfs2_Alloc_
+    address      = 0001:00014E58
+    module index = 8
+    kind:          (code)
+  Name:  Nfs2_Free_
+    address      = 0001:00014E80
+    module index = 8
+    kind:          (code)
+  Name:  Nfs2_loadfileadr_
+    address      = 0001:00014EA8
+    module index = 8
+    kind:          (code)
+  Name:  Nfs2_loadfileadrz_
+    address      = 0001:00014F1C
+    module index = 8
+    kind:          (code)
+  Name:  Nfs2_loadpackedshapeadrz_
+    address      = 0001:00014F99
+    module index = 8
+    kind:          (code)
+  Name:  Nfs2_loadshapeadrz_
+    address      = 0001:00015014
+    module index = 8
+    kind:          (code)
+  Name:  _gRezContexts
+    address      = 0002:0000C484
+    module index = 8
+    kind:          (data)
+  Name:  _gVertexCount
+    address      = 0002:0000C4B4
+    module index = 8
+    kind:          (data)
+  Name:  _gMats
+    address      = 0002:00022D60
+    module index = 8
+    kind:          (data)
+  Name:  _gMatCount
+    address      = 0002:00022D64
+    module index = 8
+    kind:          (data)
+  Name:  _gStmHandle
+    address      = 0002:00022D68
+    module index = 8
+    kind:          (data)
+  Name:  _gMaxChunkInd
+    address      = 0002:00022D6C
+    module index = 8
+    kind:          (data)
+  Name:  _chunkList
+    address      = 0002:00022D70
+    module index = 8
+    kind:          (data)

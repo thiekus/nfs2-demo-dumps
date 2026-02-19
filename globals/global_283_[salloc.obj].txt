@@ -1,0 +1,24 @@
+  Name:  iSNDischanreserved_
+    address      = 0001:000A19C0
+    module index = 283
+    kind:          (static pubdef) (code)
+  Name:  iSNDallocchan_
+    address      = 0001:000A19F8
+    module index = 283
+    kind:          (code)
+  Name:  _iSNDfreechan
+    address      = 0001:000A1C44
+    module index = 283
+    kind:          (code)
+  Name:  iSNDgetchan_
+    address      = 0001:000A1C5C
+    module index = 283
+    kind:          (code)
+  Name:  _chanreserved
+    address      = 0002:0005507C
+    module index = 283
+    kind:          (static pubdef) (data)
+  Name:  _voicesallocated
+    address      = 0002:00055080
+    module index = 283
+    kind:          (static pubdef) (data)

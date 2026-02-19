@@ -1,0 +1,28 @@
+  Name:  realizepalette_
+    address      = 0001:000951D0
+    module index = 218
+    kind:          (code)
+  Name:  _setpalette
+    address      = 0001:00095338
+    module index = 218
+    kind:          (code)
+  Name:  _vgapalette
+    address      = 0001:0009536C
+    module index = 218
+    kind:          (code)
+  Name:  _tgapalette
+    address      = 0001:00095490
+    module index = 218
+    kind:          (code)
+  Name:  _getpalette
+    address      = 0001:000954CC
+    module index = 218
+    kind:          (code)
+  Name:  _gettgapalette
+    address      = 0001:0009550C
+    module index = 218
+    kind:          (code)
+  Name:  _getvgapalette
+    address      = 0001:0009553C
+    module index = 218
+    kind:          (code)

@@ -1,0 +1,172 @@
+  Name:  _Force_gDllLoaded
+    address      = 0002:0000F674
+    module index = 65
+    kind:          (data)
+  Name:  _Force_gDevice
+    address      = 0002:0000F678
+    module index = 65
+    kind:          (data)
+  Name:  _Force_gFrontHit
+    address      = 0002:0000F67C
+    module index = 65
+    kind:          (data)
+  Name:  _Force_gRightHit
+    address      = 0002:0000F680
+    module index = 65
+    kind:          (data)
+  Name:  _Force_gCarCtrDim
+    address      = 0002:0000F684
+    module index = 65
+    kind:          (data)
+  Name:  _Force_gCarIsFlying
+    address      = 0002:0000F688
+    module index = 65
+    kind:          (data)
+  Name:  _Force_gCarIsFalling
+    address      = 0002:0000F68C
+    module index = 65
+    kind:          (data)
+  Name:  _Force_gPowerSteering
+    address      = 0002:0000F690
+    module index = 65
+    kind:          (data)
+  Name:  _Force_gLastGear
+    address      = 0002:0000F694
+    module index = 65
+    kind:          (data)
+  Name:  _Force_gVibTimer
+    address      = 0002:0000F695
+    module index = 65
+    kind:          (data)
+  Name:  _Force_gRoadTextureVibOn
+    address      = 0002:0000F699
+    module index = 65
+    kind:          (data)
+  Name:  _Force_gCancelStiffness
+    address      = 0002:0000F69D
+    module index = 65
+    kind:          (data)
+  Name:  _Force_gPrevRoadSurface
+    address      = 0002:0000F6A1
+    module index = 65
+    kind:          (data)
+  Name:  _Force_gCar
+    address      = 0002:0000F6A5
+    module index = 65
+    kind:          (data)
+  Name:  Force_Pause_
+    address      = 0001:00053C95
+    module index = 65
+    kind:          (code)
+  Name:  Force_UnPause_
+    address      = 0001:00053CB9
+    module index = 65
+    kind:          (code)
+  Name:  Force_Enable_
+    address      = 0001:00053CDD
+    module index = 65
+    kind:          (code)
+  Name:  Force_Disable_
+    address      = 0001:00053D07
+    module index = 65
+    kind:          (code)
+  Name:  Force_SampleJolt_
+    address      = 0001:00053D31
+    module index = 65
+    kind:          (code)
+  Name:  Force_DetectForceFeedback_
+    address      = 0001:00053D5F
+    module index = 65
+    kind:          (code)
+  Name:  Force_AutoDetectIForce_
+    address      = 0001:00053E21
+    module index = 65
+    kind:          (code)
+  Name:  Force_GetForceCar_
+    address      = 0001:00053EC1
+    module index = 65
+    kind:          (code)
+  Name:  Force_StartUp_
+    address      = 0001:00053F74
+    module index = 65
+    kind:          (code)
+  Name:  Force_ClearAll_
+    address      = 0001:00054071
+    module index = 65
+    kind:          (code)
+  Name:  Force_HitSign_
+    address      = 0001:000540C4
+    module index = 65
+    kind:          (code)
+  Name:  Force_HitCar_
+    address      = 0001:00054177
+    module index = 65
+    kind:          (code)
+  Name:  Force_HitWall_
+    address      = 0001:00054358
+    module index = 65
+    kind:          (code)
+  Name:  Force_HitSharpAngle_
+    address      = 0001:00054484
+    module index = 65
+    kind:          (code)
+  Name:  Force_Shift_
+    address      = 0001:000544FA
+    module index = 65
+    kind:          (code)
+  Name:  Force_GForce_
+    address      = 0001:00054669
+    module index = 65
+    kind:          (code)
+  Name:  Force_RoadTexture_
+    address      = 0001:000548C2
+    module index = 65
+    kind:          (code)
+  Name:  Force_CarFlip_
+    address      = 0001:00054D61
+    module index = 65
+    kind:          (code)
+  Name:  Force_IsForceOn_
+    address      = 0001:00054DCC
+    module index = 65
+    kind:          (code)
+  Name:  Force_Update_
+    address      = 0001:00054E25
+    module index = 65
+    kind:          (code)
+  Name:  Force_CleanUp_
+    address      = 0001:00054F53
+    module index = 65
+    kind:          (code)
+  Name:  Force_GetCurrentSpeed_
+    address      = 0001:00054F99
+    module index = 65
+    kind:          (static pubdef) (code)
+  Name:  _xVibState
+    address      = 0002:0000F6A9
+    module index = 65
+    kind:          (static pubdef) (data)
+  Name:  _yVibState
+    address      = 0002:0000F6AD
+    module index = 65
+    kind:          (static pubdef) (data)
+  Name:  _gStickRec
+    address      = 0002:00048780
+    module index = 65
+    kind:          (data)
+  Name:  _Force_gTicks
+    address      = 0002:000487BC
+    module index = 65
+    kind:          (data)
+  Name:  _gI
+    address      = 0002:000487C0
+    module index = 65
+    kind:          (data)
+  Name:  _Force_gVolume
+    address      = 0002:000487C4
+    module index = 65
+    kind:          (data)
+  Name:  _joyForceActive
+    address      = 0002:000487C8
+    module index = 65
+    kind:          (data)

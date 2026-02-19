@@ -1,0 +1,242 @@
+ 49) Name:   C:\nfs2\game\common\stmrd.c
+     Language is C
+     Locals: num = 1, offset = 000000D6H
+     Types:  num = 1, offset = 00000272H
+     Lines:  num = 1, offset = 00000402H
+
+    *** Types ***
+    =============
+      Data 0:  offset 0005DA13
+        0000: cue table offset=000003F3
+        0006: SCOPE(1)
+          "struct"
+        000E: SCOPE(2)
+          "union"
+        0015: SCOPE(3)
+          "enum"
+        001B: SCALAR(4)
+          "char"  scalar type = 10, unsigned
+        0022: SCALAR(5)
+          "signed char"  scalar type = 00, integer
+        0030: SCALAR(6)
+          "unsigned char"  scalar type = 10, unsigned
+        0040: SCALAR(7)
+          "short"  scalar type = 01, integer
+        0048: SCALAR(8)
+          "unsigned short"  scalar type = 11, unsigned
+        0059: SCALAR(9)
+          "int"  scalar type = 03, integer
+        005F: SCALAR(10)
+          "unsigned int"  scalar type = 13, unsigned
+        006E: NAME(11)
+          "wchar_t"  type idx = 8  scope idx = 0
+        0079: NAME(12)
+          "size_t"  type idx = 10  scope idx = 0
+        0083: NEAR386 PTR(13)
+          base type idx = 4
+        0086: BYTE_INDEX ARRAY(14)
+          high bound = 00   base type idx = 13
+        008A: NAME(15)
+          "__va_list"  type idx = 14  scope idx = 0
+        0097: SCALAR(16)
+          "long"  scalar type = 03, integer
+        009E: NAME(17)
+          "fpos_t"  type idx = 16  scope idx = 0
+        00A8: NAME(18)
+          "fpos_t"  type idx = 16  scope idx = 0
+        00B2: NAME(19)
+          "MEMBLOCK"  type idx = 13  scope idx = 0
+        00BE: SCALAR(20)
+          "void"  scalar type = 30, void
+        00C5: NEAR386 PROC(21)
+          return type = 20
+            param 1:  type idx = 20
+        00CA: NEAR386 PTR(22)
+          base type idx = 21
+        00CD: NAME(23)
+          "VOIDFN"  type idx = 22  scope idx = 0
+        00D7: NEAR386 PROC(24)
+          return type = 20
+            param 1:  type idx = 20
+        00DC: NAME(25)
+          "THREADPROC"  type idx = 24  scope idx = 0
+        00EA: NEAR386 PROC(26)
+          return type = 9
+            param 1:  type idx = 9
+            param 2:  type idx = 9
+        00F0: NAME(27)
+          "SYSTEMTASK"  type idx = 26  scope idx = 0
+        00FE: NAME(28)
+          "SDWORD"  type idx = 16  scope idx = 0
+        0108: SCALAR(29)
+          "unsigned long"  scalar type = 13, unsigned
+        0118: NAME(30)
+          "DWORD"  type idx = 29  scope idx = 0
+        0121: NAME(31)
+          "WORD"  type idx = 8  scope idx = 0
+        0129: NAME(32)
+          "SWORD"  type idx = 7  scope idx = 0
+        0132: NAME(33)
+          "SBYTE"  type idx = 5  scope idx = 0
+        013B: NAME(34)
+          "UBYTE"  type idx = 6  scope idx = 0
+        0144: NAME(35)
+          "BOOL"  type idx = 9  scope idx = 0
+        014C: NAME(36)
+          "Stm_Chunk"  type idx = 20  scope idx = 0
+        0159: NEAR386 PTR(37)
+          base type idx = 36
+        015C: NAME(38)
+          "lpStm_Chunk"  type idx = 37  scope idx = 0
+        016B: FIELD_LIST(39)
+          number of fields = 0008   size = 00000020
+        0173: FIELD_BYTE
+          "lChunkCount"  offset = 1C  type idx = 30
+        0182: FIELD_BYTE
+          "lMetaChunkCount"  offset = 18  type idx = 30
+        0195: FIELD_BYTE
+          "lMaxSplitSize"  offset = 14  type idx = 30
+        01A6: FIELD_BYTE
+          "lMaxFullSize"  offset = 10  type idx = 30
+        01B6: FIELD_BYTE
+          "lMaxGeomCollSize"  offset = 0C  type idx = 30
+        01CA: FIELD_BYTE
+          "lMaxMetaChunkSize"  offset = 08  type idx = 30
+        01DF: FIELD_BYTE
+          "lVersion"  offset = 04  type idx = 30
+        01EB: FIELD_BYTE
+          "lType"  offset = 00  type idx = 30
+        01F4: NAME(40)
+          "Stm_TrackStream"  type idx = 39  scope idx = 1
+        0207: NAME(41)
+          "Stm_TrackStream"  type idx = 40  scope idx = 0
+        021A: NEAR386 PTR(42)
+          base type idx = 9
+        021D: NEAR386 PTR(43)
+          base type idx = 7
+        0220: NEAR386 PROC(44)
+          return type = 35
+        0224: NEAR386 PROC(45)
+          return type = 20
+        0228: NEAR386 PROC(46)
+          return type = 9
+            param 1:  type idx = 9
+        022D: NEAR386 PROC(47)
+          return type = 20
+            param 1:  type idx = 9
+            param 2:  type idx = 9
+            param 3:  type idx = 42
+        0234: FIELD_LIST(48)
+          number of fields = 0003   size = 0000000C
+        023C: FIELD_BYTE
+          "z"  offset = 08  type idx = 9
+        0241: FIELD_BYTE
+          "y"  offset = 04  type idx = 9
+        0246: FIELD_BYTE
+          "x"  offset = 00  type idx = 9
+        024B: NAME(49)
+          "Stm_COORD"  type idx = 48  scope idx = 0
+        0258: NEAR386 PTR(50)
+          base type idx = 49
+        025B: NEAR386 PROC(51)
+          return type = 50
+            param 1:  type idx = 9
+        0260: FIELD_LIST(52)
+          number of fields = 0004   size = 0000000C
+        0268: FIELD_BYTE
+          "shapeOffset"  offset = 08  type idx = 30
+        0277: FIELD_BYTE
+          "shapeFlag"  offset = 06  type idx = 31
+        0284: FIELD_BYTE
+          "chunkCount"  offset = 04  type idx = 31
+        0292: FIELD_BYTE
+          "size"  offset = 00  type idx = 30
+        029A: NAME(53)
+          "Stm_MetaChunk"  type idx = 52  scope idx = 1
+        02AB: NAME(54)
+          "Stm_MetaChunk"  type idx = 53  scope idx = 0
+        02BC: NEAR386 PTR(55)
+          base type idx = 54
+        02BF: NEAR386 PROC(56)
+          return type = 9
+            param 1:  type idx = 55
+        02C4: NEAR386 PROC(57)
+          return type = 37
+            param 1:  type idx = 55
+            param 2:  type idx = 9
+        02CA: NEAR386 PTR(58)
+          base type idx = 30
+        02CD: BYTE_INDEX ARRAY(59)
+          high bound = 03   base type idx = 31
+        02D1: BYTE_INDEX ARRAY(60)
+          high bound = 05   base type idx = 31
+        02D5: FIELD_LIST(61)
+          number of fields = 0003   size = 00000018
+        02DD: FIELD_BYTE
+          "quadCount"  offset = 0C  type idx = 60
+        02EA: FIELD_BYTE
+          "vertexCount"  offset = 04  type idx = 59
+        02F9: FIELD_BYTE
+          "size"  offset = 00  type idx = 30
+        0301: NAME(62)
+          "Stm_TrackGeometry"  type idx = 61  scope idx = 1
+        0316: NAME(63)
+          "Stm_TrackGeometry"  type idx = 62  scope idx = 0
+        032B: NEAR386 PTR(64)
+          base type idx = 63
+        032E: NEAR386 PROC(65)
+          return type = 64
+            param 1:  type idx = 37
+        0333: NEAR386 PTR(66)
+          base type idx = 32
+        0336: NEAR386 PROC(67)
+          return type = 66
+            param 1:  type idx = 64
+        033B: BYTE_INDEX ARRAY(68)
+          high bound = 03   base type idx = 34
+        033F: FIELD_LIST(69)
+          number of fields = 0003   size = 00000008
+        0347: FIELD_BYTE
+          "aPoints"  offset = 04  type idx = 68
+        0352: FIELD_BYTE
+          "light"  offset = 02  type idx = 31
+        035B: FIELD_BYTE
+          "material"  offset = 00  type idx = 31
+        0367: NAME(70)
+          "Stm_Quad"  type idx = 69  scope idx = 1
+        0373: NAME(71)
+          "Stm_Quad"  type idx = 70  scope idx = 0
+        037F: NEAR386 PTR(72)
+          base type idx = 71
+        0382: NEAR386 PROC(73)
+          return type = 72
+            param 1:  type idx = 64
+        0387: FIELD_LIST(74)
+          number of fields = 0003   size = 00000008
+        038F: FIELD_BYTE
+          "itemCount"  offset = 06  type idx = 31
+        039C: FIELD_BYTE
+          "type"  offset = 04  type idx = 31
+        03A4: FIELD_BYTE
+          "size"  offset = 00  type idx = 30
+        03AC: NAME(75)
+          "Stm_ItemCollection"  type idx = 74  scope idx = 1
+        03C2: NAME(76)
+          "Stm_ItemCollection"  type idx = 75  scope idx = 0
+        03D8: NEAR386 PTR(77)
+          base type idx = 76
+        03DB: NEAR386 PROC(78)
+          return type = 77
+            param 1:  type idx = 37
+            param 2:  type idx = 9
+        03E1: NEAR386 PTR(79)
+          base type idx = 16
+        03E4: NEAR386 PROC(80)
+          return type = 9
+            param 1:  type idx = 37
+        03E9: NEAR386 PTR(81)
+          base type idx = 28
+        03EC: NEAR386 PROC(82)
+          return type = 81
+            param 1:  type idx = 37
+        03F1: 

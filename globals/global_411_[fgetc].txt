@@ -1,0 +1,12 @@
+  Name:  fgetc_
+    address      = 0001:000BA643
+    module index = 411
+    kind:          (code)
+  Name:  __filbuf_
+    address      = 0001:000BA6E1
+    module index = 411
+    kind:          (code)
+  Name:  __fill_buffer_
+    address      = 0001:000BA710
+    module index = 411
+    kind:          (code)

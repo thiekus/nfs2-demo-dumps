@@ -1,0 +1,4 @@
+  Name:  _IID_IDirectSound3DListener
+    address      = 0002:0001AF40
+    module index = 449
+    kind:          (data)

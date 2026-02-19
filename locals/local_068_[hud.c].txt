@@ -1,0 +1,791 @@
+ 68) Name:   C:\nfs2\game\pc\hud.c
+     Language is C
+     Locals: num = 1, offset = 00000122H
+     Types:  num = 1, offset = 000002BEH
+     Lines:  num = 1, offset = 00000446H
+
+   *** Locals ***
+   ==============
+      Data 0:  offset 0001A649
+        0000: MODULE_386
+          "hud_trackz" addr = 0002:0000F9D5,  type = 60
+        0013: MODULE_386
+          "hud_trackx" addr = 0002:0000F7D5,  type = 61
+        0026: MODULE_386
+          "Hud_gPreviousNumber" addr = 0002:0004892C,  type = 64
+        0042: MODULE_386
+          "gDigits" addr = 0002:00048AEC,  type = 72
+        0052: MODULE_386
+          "gTach" addr = 0002:00048D5C,  type = 73
+        0060: MODULE_386
+          "gFontMaps" addr = 0002:00048E4C,  type = 74
+        0072: MODULE_386
+          "gHud" addr = 0002:000492FC,  type = 75
+        007F: MODULE_386
+          "Hud_gPreviousTach" addr = 0002:0004935C,  type = 77
+        0099: MODULE_386
+          "gFont" addr = 0002:00049374,  type = 79
+        00A7: MODULE_386
+          "g1Player" addr = 0002:000496F4,  type = 83
+        00B8: MODULE_386
+          "g2Player" addr = 0002:00049764,  type = 85
+        00C9: MODULE_386
+          "gMarkers" addr = 0002:00049844,  type = 86
+        00DA: MODULE_386
+          "gCFacet" addr = 0002:000499C4,  type = 94
+        00EA: MODULE_386
+          "gFacet" addr = 0002:000499E4,  type = 98
+        00F9: MODULE_386
+          "hud_mapangle" addr = 0002:0004A7F4,  type = 9
+        010E: MODULE_386
+          "Hud_gHudMask" addr = 0002:0004A7F8,  type = 99
+        0123: MODULE_386
+          "Hud_gMapDotsFile" addr = 0002:0004A8AC,  type = 13
+        013C: MODULE_386
+          "gReplayMap" addr = 0002:0004A8B0,  type = 100
+        014F: MODULE_386
+          "Hud_gHudMaskFile" addr = 0002:0004AA6C,  type = 13
+        0168: MODULE_386
+          "Hud_gDashMaskFile" addr = 0002:0004AA70,  type = 13
+        0182: MODULE_386
+          "Hud_gDashMask" addr = 0002:0004AA74,  type = 101
+        0198: MODULE_386
+          "Hud_gPreviousHud" addr = 0002:0004AAD8,  type = 9
+        01B1: MODULE_386
+          "Hud_gLocalizedFile" addr = 0002:0004AADC,  type = 13
+        01CC: MODULE_386
+          "gFontMaxWidth" addr = 0002:0004AAE0,  type = 9
+        01E2: MODULE_386
+          "Hud_gPreviousReplay" addr = 0002:0004AAE4,  type = 9
+        01FE: MODULE_386
+          "Hud_gPreviousNextCar" addr = 0002:0004AAE8,  type = 223
+        021C: MODULE_386
+          "gIndex" addr = 0002:0000F6C8,  type = 9
+        022B: MODULE_386
+          "gLFacet" addr = 0002:0004AAEC,  type = 227
+        023C: SET_BASE_386
+          base = 0001:00056386
+        0244: NEAR_RTN_386
+          start off = 00000000, code size = 000000B3, parent off = 0000
+          prologue size = 11,  epilogue size = 6
+          return address offset (from bp) = 0000000C
+          return type:  228
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Parm 3: MULTI_REG(1): ECX
+          Name = "Hud_AddFacet"
+        026E: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "type",  type = 9
+        0277: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "pmx",  type = 78
+        027F: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "x",  type = 9
+        0285: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "y",  type = 9
+        028B: NEAR_RTN_386
+          start off = 000000B3, code size = 00000196, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  230
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Name = "Hud_SetPosition"
+        02B4: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "player",  type = 229
+        02C0: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "y",  type = 9
+        02C6: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "s",  type = 68
+        02CC: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "h",  type = 229
+        02D3: NEAR_RTN_386
+          start off = 00000249, code size = 00000263, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  21
+          return value: <none>
+          Name = "Hud_InitTables"
+        02F6: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "s",  type = 68
+        02FC: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "h",  type = 229
+        0303: NEAR_RTN_386
+          start off = 000004AC, code size = 000000C0, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  21
+          return value: <none>
+          Name = "Hud_ResetHud"
+        0324: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "i",  type = 9
+        032A: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "j",  type = 9
+        0330: NEAR_RTN_386
+          start off = 0000056C, code size = 000000E6, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  21
+          return value: <none>
+          Name = "Hud_ModuleRegister"
+        0357: LOCAL
+          address: BP_OFFSET_WORD( 0000 )
+          name = "name",  type = 231
+        0362: NEAR_RTN_386
+          start off = 00000652, code size = 000007EB, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  232
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Hud_InitTextures"
+        038A: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "car",  type = 9
+        0392: LOCAL
+          address: CONST_ADDR386( 0002:0000F6CC )
+          name = "replay",  type = 234
+        03A3: LOCAL
+          address: CONST_ADDR386( 0002:0000F6FE )
+          name = "replay2",  type = 236
+        03B5: LOCAL
+          address: CONST_ADDR386( 0002:0000F726 )
+          name = "tach",  type = 238
+        03C4: LOCAL
+          address: BP_OFFSET_BYTE( 98 )
+          name = "name",  type = 239
+        03CE: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "shape",  type = 240
+        03D9: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "i",  type = 9
+        03DF: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "j",  type = 9
+        03E5: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "f",  type = 241
+        03EC: NEAR_RTN_386
+          start off = 00000E3D, code size = 0000001F, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  21
+          return value: <none>
+          Name = "Hud_ResetEnv"
+        040D: NEAR_RTN_386
+          start off = 00000E5C, code size = 00000064, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  21
+          return value: <none>
+          Name = "Hud_KillTextures"
+        0432: NEAR_RTN_386
+          start off = 00000EC0, code size = 000001EA, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  242
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Name = "Hud_GetBankMask"
+        045C: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "detailmode",  type = 9
+        046B: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "sizemode",  type = 9
+        0478: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "mask",  type = 9
+        0481: NEAR_RTN_386
+          start off = 000010AA, code size = 0000016D, parent off = 0000
+          prologue size = 11,  epilogue size = 8
+          return address offset (from bp) = 0000000C
+          return type:  244
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Parm 3: MULTI_REG(1): ECX
+          Name = "GetTextureInfo"
+        04AE: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "str",  type = 4
+        04B6: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "type",  type = 9
+        04BF: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "player",  type = 9
+        04CA: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "id",  type = 243
+        04D2: LOCAL
+          address: BP_OFFSET_BYTE( 10 )
+          name = "width",  type = 243
+        04DD: LOCAL
+          address: CONST_ADDR386( 0002:0000F78A )
+          name = "ids",  type = 245
+        04EB: LOCAL
+          address: CONST_ADDR386( 0002:0000F799 )
+          name = "widths",  type = 246
+        04FC: NEAR_RTN_386
+          start off = 00001217, code size = 00000215, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  251
+          return value: IND_REG_CALLOC_NEAR( ESI )
+          Name = "Hud_BuildSplitBackGround"
+        052B: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "lf",  type = 250
+        0533: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "top",  type = 78
+        053B: BLOCK_386
+          start off = 0000144D, code size = 000002E5, parent off = 056B
+        0547: LOCAL
+          address: BP_OFFSET_BYTE( E0 )
+          name = "pixmap",  type = 78
+        0552: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "space",  type = 9
+        055C: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "drop",  type = 9
+        0565: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "c",  type = 4
+        056B: NEAR_RTN_386
+          start off = 0000142C, code size = 00000312, parent off = 0000
+          prologue size = 12,  epilogue size = 7
+          return address offset (from bp) = 00000010
+          return type:  252
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Name = "Hud_ChatString"
+        0595: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "string",  type = 13
+        05A0: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "x",  type = 9
+        05A6: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "y",  type = 9
+        05AC: NEAR_RTN_386
+          start off = 0000173E, code size = 000000B4, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  251
+          return value: IND_REG_CALLOC_NEAR( ESI )
+          Name = "Hud_BuildNextCarBackground"
+        05DD: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "lf",  type = 250
+        05E5: NEAR_RTN_386
+          start off = 000017F2, code size = 00000308, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  251
+          return value: IND_REG_CALLOC_NEAR( ESI )
+          Name = "Hud_BuildWholeHUD"
+        060D: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "f1",  type = 250
+        0615: LOCAL
+          address: BP_OFFSET_BYTE( E0 )
+          name = "f2",  type = 250
+        061D: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "hudmode",  type = 9
+        0629: NEAR_RTN_386
+          start off = 00001AFA, code size = 00000258, parent off = 0000
+          prologue size = 11,  epilogue size = 6
+          return address offset (from bp) = 0000000C
+          return type:  253
+          return value: IND_REG_CALLOC_NEAR( ESI )
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Name = "Hud_BuildNumber"
+        0655: LOCAL
+          address: BP_OFFSET_BYTE( D4 )
+          name = "string",  type = 13
+        0660: LOCAL
+          address: BP_OFFSET_BYTE( DC )
+          name = "player",  type = 9
+        066B: LOCAL
+          address: BP_OFFSET_BYTE( D8 )
+          name = "type",  type = 9
+        0674: LOCAL
+          address: BP_OFFSET_BYTE( CC )
+          name = "lf",  type = 250
+        067C: LOCAL
+          address: BP_OFFSET_BYTE( E0 )
+          name = "sCoord",  type = 229
+        0688: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "i",  type = 9
+        068E: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "x",  type = 9
+        0694: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "y",  type = 9
+        069A: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "n",  type = 9
+        06A0: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "id",  type = 9
+        06A7: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "width",  type = 9
+        06B1: NEAR_RTN_386
+          start off = 00001D52, code size = 00000171, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  254
+          return value: REG: AL
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Hud_ToUpper"
+        06D4: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "c",  type = 4
+        06DA: NEAR_RTN_386
+          start off = 00001EC3, code size = 000002DA, parent off = 0000
+          prologue size = 11,  epilogue size = 6
+          return address offset (from bp) = 0000000C
+          return type:  253
+          return value: IND_REG_CALLOC_NEAR( ESI )
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Name = "Hud_BuildString"
+        0706: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "string",  type = 13
+        0711: LOCAL
+          address: BP_OFFSET_BYTE( D8 )
+          name = "player",  type = 9
+        071C: LOCAL
+          address: BP_OFFSET_BYTE( DC )
+          name = "type",  type = 9
+        0725: LOCAL
+          address: BP_OFFSET_BYTE( C8 )
+          name = "lf",  type = 250
+        072D: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "pixmap",  type = 78
+        0738: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "sCoord",  type = 229
+        0744: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "i",  type = 9
+        074A: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "x",  type = 9
+        0750: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "y",  type = 9
+        0756: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "max",  type = 9
+        075E: NEAR_RTN_386
+          start off = 0000219D, code size = 000000C0, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  251
+          return value: IND_REG_CALLOC_NEAR( ESI )
+          Name = "Hud_BuildMessage"
+        0785: LOCAL
+          address: BP_OFFSET_WORD( 0074 )
+          name = "string",  type = 255
+        0792: NEAR_RTN_386
+          start off = 0000225D, code size = 00000033, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  251
+          return value: IND_REG_CALLOC_NEAR( ESI )
+          Name = "Hud_BuildDivider"
+        07B9: NEAR_RTN_386
+          start off = 00002290, code size = 00000241, parent off = 0000
+          prologue size = 11,  epilogue size = 6
+          return address offset (from bp) = 0000000C
+          return type:  256
+          return value: IND_REG_CALLOC_NEAR( ESI )
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Name = "Hud_BuildTach"
+        07E3: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "player",  type = 9
+        07EE: LOCAL
+          address: BP_OFFSET_BYTE( E0 )
+          name = "rpm",  type = 9
+        07F6: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "redline",  type = 9
+        0802: LOCAL
+          address: BP_OFFSET_BYTE( D8 )
+          name = "lf",  type = 250
+        080A: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "n",  type = 9
+        0810: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "segments",  type = 9
+        081D: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "index",  type = 9
+        0827: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "y",  type = 9
+        082D: LOCAL
+          address: CONST_ADDR386( 0002:0000F7A8 )
+          name = "segment1",  type = 257
+        0840: LOCAL
+          address: CONST_ADDR386( 0002:0000F7B7 )
+          name = "segment2",  type = 258
+        0853: LOCAL
+          address: CONST_ADDR386( 0002:0000F7C6 )
+          name = "segment3",  type = 259
+        0866: NEAR_RTN_386
+          start off = 000024D1, code size = 0000015A, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  251
+          return value: IND_REG_CALLOC_NEAR( ESI )
+          Name = "Hud_BuildBackGround"
+        0890: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "lf",  type = 250
+        0898: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "top",  type = 78
+        08A0: NEAR_RTN_386
+          start off = 0000262B, code size = 00000191, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  21
+          return value: <none>
+          Name = "Hud_InitMap"
+        08C0: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "f",  type = 260
+        08C7: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "i",  type = 9
+        08CD: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "j",  type = 9
+        08D3: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "t",  type = 9
+        08D9: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "mapcolor",  type = 261
+        08E7: NEAR_RTN_386
+          start off = 000027BC, code size = 00000080, parent off = 0000
+          prologue size = 10,  epilogue size = 7
+          return address offset (from bp) = 00000008
+          return type:  263
+          return value: IND_REG_CALLOC_NEAR( ESI )
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Parm 3: MULTI_REG(1): ECX
+          Name = "Hud_BuildClip"
+        0913: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "x",  type = 9
+        0919: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "y",  type = 9
+        091F: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "w",  type = 9
+        0925: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "h",  type = 9
+        092B: LOCAL
+          address: BP_OFFSET_BYTE( 0C )
+          name = "f",  type = 262
+        0932: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "lf",  type = 250
+        093A: NEAR_RTN_386
+          start off = 0000283C, code size = 000001A1, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  251
+          return value: IND_REG_CALLOC_NEAR( ESI )
+          Name = "Hud_BuildMapBackGround"
+        0967: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "lf",  type = 250
+        096F: LOCAL
+          address: BP_OFFSET_BYTE( DC )
+          name = "cf",  type = 250
+        0977: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "rf",  type = 250
+        097F: NEAR_RTN_386
+          start off = 000029DD, code size = 000000F5, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  264
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Hud_GetMapAngle"
+        09A7: LOCAL
+          address: BP_OFFSET_BYTE( E0 )
+          name = "car",  type = 223
+        09B0: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "slice",  type = 9
+        09BA: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "max",  type = 9
+        09C2: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "i",  type = 9
+        09C8: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "x",  type = 9
+        09CE: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "z",  type = 9
+        09D4: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "t",  type = 9
+        09DA: NEAR_RTN_386
+          start off = 00002AD2, code size = 00000382, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  265
+          return value: IND_REG_CALLOC_NEAR( ESI )
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Hud_BuildMapMarkers"
+        0A06: LOCAL
+          address: BP_OFFSET_BYTE( C0 )
+          name = "player",  type = 9
+        0A11: LOCAL
+          address: BP_OFFSET_BYTE( BC )
+          name = "car",  type = 223
+        0A1A: LOCAL
+          address: BP_OFFSET_BYTE( B4 )
+          name = "lf",  type = 250
+        0A22: LOCAL
+          address: BP_OFFSET_BYTE( C4 )
+          name = "i",  type = 9
+        0A28: LOCAL
+          address: BP_OFFSET_BYTE( C8 )
+          name = "p",  type = 9
+        0A2E: LOCAL
+          address: BP_OFFSET_BYTE( CC )
+          name = "rx",  type = 9
+        0A35: LOCAL
+          address: BP_OFFSET_BYTE( D0 )
+          name = "rz",  type = 9
+        0A3C: LOCAL
+          address: BP_OFFSET_BYTE( D4 )
+          name = "x",  type = 9
+        0A42: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "z",  type = 9
+        0A48: LOCAL
+          address: BP_OFFSET_BYTE( DC )
+          name = "cenX",  type = 9
+        0A51: LOCAL
+          address: BP_OFFSET_BYTE( E0 )
+          name = "cenZ",  type = 9
+        0A5A: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "vx",  type = 9
+        0A61: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "vz",  type = 9
+        0A68: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "mapx",  type = 9
+        0A71: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "mapy",  type = 9
+        0A7A: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "sCoord",  type = 229
+        0A86: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "pm",  type = 78
+        0A8D: NEAR_RTN_386
+          start off = 00002E54, code size = 000004C3, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  265
+          return value: IND_REG_CALLOC_NEAR( ESI )
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Hud_BuildMap"
+        0AB2: LOCAL
+          address: BP_OFFSET_BYTE( A4 )
+          name = "player",  type = 9
+        0ABD: LOCAL
+          address: BP_OFFSET_BYTE( 9C )
+          name = "car",  type = 223
+        0AC6: LOCAL
+          address: BP_OFFSET_BYTE( A0 )
+          name = "f",  type = 260
+        0ACD: LOCAL
+          address: BP_OFFSET_BYTE( 94 )
+          name = "lf",  type = 250
+        0AD5: LOCAL
+          address: BP_OFFSET_BYTE( A8 )
+          name = "cenX",  type = 9
+        0ADE: LOCAL
+          address: BP_OFFSET_BYTE( AC )
+          name = "cenZ",  type = 9
+        0AE7: LOCAL
+          address: BP_OFFSET_BYTE( B0 )
+          name = "vx",  type = 9
+        0AEE: LOCAL
+          address: BP_OFFSET_BYTE( B4 )
+          name = "vz",  type = 9
+        0AF5: LOCAL
+          address: BP_OFFSET_BYTE( B8 )
+          name = "fx",  type = 9
+        0AFC: LOCAL
+          address: BP_OFFSET_BYTE( BC )
+          name = "fz",  type = 9
+        0B03: LOCAL
+          address: BP_OFFSET_BYTE( C0 )
+          name = "relX",  type = 9
+        0B0C: LOCAL
+          address: BP_OFFSET_BYTE( C4 )
+          name = "relZ",  type = 9
+        0B15: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "newX",  type = 9
+        0B1E: LOCAL
+          address: BP_OFFSET_BYTE( CC )
+          name = "newZ",  type = 9
+        0B27: LOCAL
+          address: BP_OFFSET_BYTE( D0 )
+          name = "oldX",  type = 9
+        0B30: LOCAL
+          address: BP_OFFSET_BYTE( D4 )
+          name = "oldZ",  type = 9
+        0B39: LOCAL
+          address: BP_OFFSET_BYTE( D8 )
+          name = "i",  type = 9
+        0B3F: LOCAL
+          address: BP_OFFSET_BYTE( DC )
+          name = "j",  type = 9
+        0B45: LOCAL
+          address: BP_OFFSET_BYTE( E0 )
+          name = "tx",  type = 243
+        0B4D: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "tz",  type = 243
+        0B55: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "ox",  type = 266
+        0B5D: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "oy",  type = 266
+        0B65: LOCAL
+          address: CONST_ADDR386( 0002:0000FBD5 )
+          name = "mySlice",  type = 9
+        0B76: LOCAL
+          address: CONST_ADDR386( 0002:0000FBD9 )
+          name = "offsetx",  type = 267
+        0B88: LOCAL
+          address: CONST_ADDR386( 0002:0000FBDD )
+          name = "offsety",  type = 268
+        0B9A: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "mapx",  type = 9
+        0BA3: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "mapy",  type = 9
+        0BAC: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "sCoord",  type = 229
+        0BB8: NEAR_RTN_386
+          start off = 00003317, code size = 0000007E, parent off = 0000
+          prologue size = 11,  epilogue size = 6
+          return address offset (from bp) = 0000000C
+          return type:  269
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Parm 3: MULTI_REG(1): ECX
+          Name = "Hud_AssignShapeFacetType"
+        0BEE: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "shape",  type = 9
+        0BF8: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "offsetx",  type = 9
+        0C04: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "offsety",  type = 9
+        0C10: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "type",  type = 9
+        0C19: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "facet2",  type = 270
+        0C25: NEAR_RTN_386
+          start off = 00003395, code size = 00000048, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  251
+          return value: IND_REG_CALLOC_NEAR( ESI )
+          Name = "Hud_BuildReplayBack"
+        0C4F: NEAR_RTN_386
+          start off = 000033DD, code size = 000003AE, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  251
+          return value: IND_REG_CALLOC_NEAR( ESI )
+          Name = "Hud_BuildReplay"
+        0C75: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "i",  type = 9
+        0C7B: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "ratio",  type = 9
+        0C85: LOCAL
+          address: BP_OFFSET_BYTE( DC )
+          name = "Hspeed",  type = 271
+        0C91: LOCAL
+          address: BP_OFFSET_BYTE( CC )
+          name = "Cspeed",  type = 272
+        0C9D: LOCAL
+          address: BP_OFFSET_BYTE( 84 )
+          name = "Hcamera",  type = 273
+        0CAA: LOCAL
+          address: BP_OFFSET_BYTE( A8 )
+          name = "Ccamera",  type = 274
+

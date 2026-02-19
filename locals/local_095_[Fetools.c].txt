@@ -1,0 +1,591 @@
+ 95) Name:   C:\nfs2\frontend\common\Fetools.c
+     Language is C
+     Locals: num = 1, offset = 0000018EH
+     Types:  num = 1, offset = 0000032AH
+     Lines:  num = 1, offset = 000004AEH
+
+   *** Locals ***
+   ==============
+      Data 0:  offset 000254BC
+        0000: MODULE_386
+          "bonusDrive43" addr = 0002:0001274C,  type = 81
+        0015: MODULE_386
+          "bonusDrive42" addr = 0002:00012744,  type = 82
+        002A: MODULE_386
+          "bonusDrive41" addr = 0002:0001273C,  type = 83
+        003F: MODULE_386
+          "bonusDrive40" addr = 0002:00012734,  type = 84
+        0054: MODULE_386
+          "bonusDrive47" addr = 0002:0001276C,  type = 85
+        0069: MODULE_386
+          "bonusDrive46" addr = 0002:00012764,  type = 86
+        007E: MODULE_386
+          "bonusDrive45" addr = 0002:0001275C,  type = 87
+        0093: MODULE_386
+          "bonusDrive44" addr = 0002:00012754,  type = 88
+        00A8: MODULE_386
+          "bonusDrive49" addr = 0002:0001277C,  type = 89
+        00BD: MODULE_386
+          "bonusDrive48" addr = 0002:00012774,  type = 90
+        00D2: MODULE_386
+          "bonusDrive50" addr = 0002:00012784,  type = 91
+        00E7: MODULE_386
+          "states" addr = 0002:00050404,  type = 92
+        00F6: MODULE_386
+          "bonusLists" addr = 0002:0001278C,  type = 93
+        0109: MODULE_386
+          "bonusQuattroList" addr = 0002:0001268B,  type = 94
+        0122: MODULE_386
+          "bonusDrive29" addr = 0002:000126DC,  type = 95
+        0137: MODULE_386
+          "bonusDrive33" addr = 0002:000126FC,  type = 96
+        014C: MODULE_386
+          "bonusDrive32" addr = 0002:000126F4,  type = 97
+        0161: MODULE_386
+          "bonusDrive31" addr = 0002:000126EC,  type = 98
+        0176: MODULE_386
+          "bonusDrive30" addr = 0002:000126E4,  type = 99
+        018B: MODULE_386
+          "bonusDrive37" addr = 0002:0001271C,  type = 100
+        01A0: MODULE_386
+          "bonusDrive36" addr = 0002:00012714,  type = 101
+        01B5: MODULE_386
+          "bonusDrive35" addr = 0002:0001270C,  type = 102
+        01CA: MODULE_386
+          "bonusDrive34" addr = 0002:00012704,  type = 103
+        01DF: MODULE_386
+          "bonusDrive39" addr = 0002:0001272C,  type = 104
+        01F4: MODULE_386
+          "bonusDrive38" addr = 0002:00012724,  type = 105
+        0209: MODULE_386
+          "bonusVanagonList" addr = 0002:00012683,  type = 106
+        0222: MODULE_386
+          "bonusUpgradeList" addr = 0002:0001265B,  type = 107
+        023B: MODULE_386
+          "bonusCiteronList" addr = 0002:00012668,  type = 108
+        0254: MODULE_386
+          "colourRGB" addr = 0002:00012620,  type = 109
+        0266: MODULE_386
+          "bonusBusList" addr = 0002:0001267A,  type = 110
+        027B: MODULE_386
+          "bonusBugList" addr = 0002:000126B4,  type = 111
+        0290: MODULE_386
+          "bonusLandcruiserList" addr = 0002:000126B8,  type = 112
+        02AD: MODULE_386
+          "bonusBmwList" addr = 0002:000126CE,  type = 113
+        02C2: MODULE_386
+          "fepicture" addr = 0002:00012644,  type = 9
+        02D4: MODULE_386
+          "gDisableColorIndex" addr = 0002:00012640,  type = 9
+        02EF: MODULE_386
+          "font18" addr = 0002:000504AC,  type = 13
+        02FE: MODULE_386
+          "font16" addr = 0002:000504B0,  type = 13
+        030D: MODULE_386
+          "font14" addr = 0002:000504B4,  type = 13
+        031C: MODULE_386
+          "FeTools_gScrollTicksOut" addr = 0002:0001261C,  type = 9
+        033C: MODULE_386
+          "joyTicks" addr = 0002:00012618,  type = 9
+        034D: MODULE_386
+          "font36" addr = 0002:000504B8,  type = 13
+        035C: MODULE_386
+          "save16" addr = 0002:000504BC,  type = 121
+        036B: MODULE_386
+          "save14" addr = 0002:00050570,  type = 121
+        037A: MODULE_386
+          "save18" addr = 0002:00050624,  type = 121
+        0389: MODULE_386
+          "save36" addr = 0002:000506D8,  type = 121
+        0398: MODULE_386
+          "FeTools_globalUpdate" addr = 0002:00012614,  type = 9
+        03B5: MODULE_386
+          "bonusArmytruckList" addr = 0002:000126C4,  type = 122
+        03D0: MODULE_386
+          "bonusMiataList" addr = 0002:000126AE,  type = 123
+        03E7: MODULE_386
+          "bonusSnowtruckList" addr = 0002:000126D2,  type = 124
+        0402: MODULE_386
+          "bonusVolvoList" addr = 0002:00012693,  type = 125
+        0419: MODULE_386
+          "bonusCommancheList" addr = 0002:00012670,  type = 126
+        0434: MODULE_386
+          "bonusTrackList" addr = 0002:00012651,  type = 127
+        044B: MODULE_386
+          "currentSize" addr = 0002:0005078C,  type = 7
+        045F: MODULE_386
+          "bonusJeepyjList" addr = 0002:00012699,  type = 128
+        0478: MODULE_386
+          "bonusMercedesList" addr = 0002:000126A0,  type = 129
+        0493: MODULE_386
+          "bonusVwfbList" addr = 0002:000126A9,  type = 130
+        04AA: MODULE_386
+          "bonusSemiList" addr = 0002:0001267E,  type = 131
+        04C1: MODULE_386
+          "bonusCarList" addr = 0002:00012648,  type = 132
+        04D7: MODULE_386
+          "bonusSlipList" addr = 0002:00012663,  type = 133
+        04EE: SET_BASE_386
+          base = 0001:00075DE2
+        04F6: NEAR_RTN_386
+          start off = 00000000, code size = 00000015, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  134
+          return value: <none>
+          Name = "FeTools_CopyFrontToBackPage"
+        0527: NEAR_RTN_386
+          start off = 00000015, code size = 0000007A, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  135
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Name = "FeTools_IsDiskSpaceAvail"
+        0558: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "requiredSpace",  type = 16
+        056A: LOCAL
+          address: BP_OFFSET_BYTE( 9C )
+          name = "tmp_str",  type = 136
+        0577: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "avail",  type = 16
+        0581: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "dfree",  type = 138
+        058C: NEAR_RTN_386
+          start off = 0000008F, code size = 00000032, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  21
+          return value: <none>
+          Name = "FeTools_flipSync"
+        05B1: NEAR_RTN_386
+          start off = 000000C1, code size = 00000229, parent off = 0000
+          prologue size = 11,  epilogue size = 6
+          return address offset (from bp) = 0000000C
+          return type:  145
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Parm 3: MULTI_REG(1): ECX
+          Name = "FeTools_Draw"
+        05DB: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "shp",  type = 142
+        05E4: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "type",  type = 144
+        05EE: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "x",  type = 9
+        05F4: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "y",  type = 9
+        05FA: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "fade",  type = 9
+        0603: NEAR_RTN_386
+          start off = 000002EA, code size = 00000053, parent off = 0000
+          prologue size = 11,  epilogue size = 6
+          return address offset (from bp) = 0000000C
+          return type:  146
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Parm 3: MULTI_REG(1): ECX
+          Name = "FeTools_LocateDraw"
+        0633: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "shp",  type = 13
+        063B: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "type",  type = 144
+        0645: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "x",  type = 9
+        064B: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "y",  type = 9
+        0651: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "shape",  type = 142
+        065C: NEAR_RTN_386
+          start off = 0000033D, code size = 00000453, parent off = 0000
+          prologue size = 11,  epilogue size = 6
+          return address offset (from bp) = 0000000C
+          return type:  148
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Parm 3: MULTI_REG(1): ECX
+          Name = "bfade16"
+        0681: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "a",  type = 147
+        0688: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "d",  type = 147
+        068F: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "len",  type = 16
+        0697: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "i",  type = 9
+        069D: NEAR_RTN_386
+          start off = 00000790, code size = 00000741, parent off = 0000
+          prologue size = 11,  epilogue size = 6
+          return address offset (from bp) = 0000000C
+          return type:  148
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Parm 3: MULTI_REG(1): ECX
+          Name = "bfade15"
+        06C2: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "a",  type = 147
+        06C9: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "d",  type = 147
+        06D0: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "len",  type = 16
+        06D8: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "i",  type = 9
+        06DE: BLOCK_386
+          start off = 00000F04, code size = 00000042, parent off = 06F1
+        06EA: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "ap",  type = 13
+        06F1: NEAR_RTN_386
+          start off = 00000ED1, code size = 000000DA, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  149
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Name = "bfadelevel"
+        0715: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "a",  type = 142
+        071C: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "i",  type = 9
+        0722: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "bank",  type = 9
+        072B: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "bfader",  type = 150
+        0737: NEAR_RTN_386
+          start off = 00000FAB, code size = 00000048, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  151
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Name = "FeTools_LocateFade"
+        0763: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "shp",  type = 13
+        076B: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "i",  type = 9
+        0771: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "shape",  type = 142
+        077C: NEAR_RTN_386
+          start off = 00000FF3, code size = 00000127, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  152
+          return value: MULTI_REG(1): EAX
+          Name = "FeTools_GetJoystickKeys"
+        07AA: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "key",  type = 9
+        07B2: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "c",  type = 9
+        07B8: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "j",  type = 9
+        07BE: LOCAL
+          address: CONST_ADDR386( 0002:0005078E )
+          name = "stickDebounce",  type = 9
+        07D5: NEAR_RTN_386
+          start off = 0000111A, code size = 00000055, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  21
+          return value: <none>
+          Name = "FeTools_SwitchLanguage"
+        0800: NEAR_RTN_386
+          start off = 0000116F, code size = 00000015, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  134
+          return value: <none>
+          Name = "LanguageCheck"
+        0823: NEAR_RTN_386
+          start off = 00001184, code size = 0000007A, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  153
+          return value: MULTI_REG(1): EAX
+          Name = "FeTools_GetKey"
+        0848: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "i",  type = 9
+        084E: NEAR_RTN_386
+          start off = 000011FE, code size = 00000075, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  153
+          return value: MULTI_REG(1): EAX
+          Name = "FeTools_GetKeyAlpha"
+        0878: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "i",  type = 9
+        087E: BLOCK_386
+          start off = 000012F7, code size = 0000002C, parent off = 0897
+        088A: LOCAL
+          address: BP_OFFSET_WORD( 00EC )
+          name = "buttons",  type = 9
+        0897: NEAR_RTN_386
+          start off = 00001273, code size = 00000216, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  134
+          return value: <none>
+          Name = "FeTools_init"
+        08B9: LOCAL
+          address: BP_OFFSET_WORD( 00F0 )
+          name = "filename",  type = 154
+        08C8: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "i",  type = 9
+        08CE: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "slots",  type = 9
+        08D8: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "numButtons",  type = 9
+        08E7: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "axisflags",  type = 9
+        08F5: NEAR_RTN_386
+          start off = 00001489, code size = 0000009A, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  155
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "FeTools_SetFont"
+        091C: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "size",  type = 9
+        0925: NEAR_RTN_386
+          start off = 00001523, code size = 0000004D, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  134
+          return value: <none>
+          Name = "FeTools_deinit"
+        0949: NEAR_RTN_386
+          start off = 00001570, code size = 00000022, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  155
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "FeTools_SetDisableColor"
+        0978: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "colorIndex",  type = 9
+        0987: NEAR_RTN_386
+          start off = 00001592, code size = 000001E7, parent off = 0000
+          prologue size = 11,  epilogue size = 6
+          return address offset (from bp) = 0000000C
+          return type:  156
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Parm 3: MULTI_REG(1): ECX
+          Name = "FeTools_Text"
+        09B1: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "index",  type = 7
+        09BB: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "x",  type = 7
+        09C1: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "y",  type = 7
+        09C7: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "selected",  type = 7
+        09D4: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "size",  type = 7
+        09DD: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "flags",  type = 7
+        09E7: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "color",  type = 7
+        09F1: LOCAL
+          address: BP_OFFSET_BYTE( E0 )
+          name = "str",  type = 13
+        09F9: NEAR_RTN_386
+          start off = 00001779, code size = 00000179, parent off = 0000
+          prologue size = 11,  epilogue size = 8
+          return address offset (from bp) = 0000000C
+          return type:  158
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Parm 3: MULTI_REG(1): ECX
+          Name = "FeTools_MenuText"
+        0A27: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "sMenuText",  type = 157
+        0A36: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "x",  type = 7
+        0A3C: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "y",  type = 7
+        0A42: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "size",  type = 7
+        0A4B: LOCAL
+          address: BP_OFFSET_BYTE( 10 )
+          name = "flags",  type = 7
+        0A55: LOCAL
+          address: BP_OFFSET_BYTE( 14 )
+          name = "color",  type = 7
+        0A5F: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "str",  type = 13
+        0A67: NEAR_RTN_386
+          start off = 000018F2, code size = 00000219, parent off = 0000
+          prologue size = 11,  epilogue size = 8
+          return address offset (from bp) = 0000000C
+          return type:  159
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Parm 3: MULTI_REG(1): ECX
+          Name = "Fetools_VertMenuText"
+        0A99: LOCAL
+          address: BP_OFFSET_BYTE( DC )
+          name = "sMenuText",  type = 13
+        0AA7: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "x",  type = 7
+        0AAD: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "y",  type = 7
+        0AB3: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "size",  type = 7
+        0ABC: LOCAL
+          address: BP_OFFSET_BYTE( 10 )
+          name = "flags",  type = 7
+        0AC6: LOCAL
+          address: BP_OFFSET_BYTE( 14 )
+          name = "color",  type = 7
+        0AD0: LOCAL
+          address: BP_OFFSET_BYTE( E0 )
+          name = "str",  type = 13
+        0AD8: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "nHt",  type = 9
+        0AE0: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "nNumChar",  type = 7
+        0AED: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "k",  type = 7
+        0AF3: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "sOutput",  type = 160
+        0B00: NEAR_RTN_386
+          start off = 00001B0B, code size = 0000004B, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  21
+          return value: <none>
+          Name = "FeTools_CaptureScreen"
+        0B2A: LOCAL
+          address: BP_OFFSET_BYTE( B0 )
+          name = "string",  type = 161
+        0B36: NEAR_RTN_386
+          start off = 00001B56, code size = 00000072, parent off = 0000
+          prologue size = 12,  epilogue size = 7
+          return address offset (from bp) = 00000010
+          return type:  162
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Name = "flagState"
+        0B5C: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "c",  type = 9
+        0B62: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "state",  type = 77
+        0B6C: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "statelist",  type = 13
+        0B7A: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "keyval",  type = 9
+        0B85: NEAR_RTN_386
+          start off = 00001BC8, code size = 00000143, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  155
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "FeTools_BonusCheck"
+        0BAF: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "c",  type = 9
+        0BB5: LOCAL
+          address: CONST_ADDR386( 0002:00050792 )
+          name = "debounce",  type = 7
+        0BC7: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "i",  type = 9
+        0BCD: NEAR_RTN_386
+          start off = 00001D0B, code size = 000000E3, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  152
+          return value: MULTI_REG(1): EAX
+          Name = "FeTools_InputHappening"
+        0BFA: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "mouseB",  type = 9
+        0C05: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "mouseX",  type = 9
+        0C10: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "mouseY",  type = 9
+

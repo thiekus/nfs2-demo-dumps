@@ -1,0 +1,8 @@
+  Name:  _inittextman
+    address      = 0001:000B9F80
+    module index = 404
+    kind:          (code)
+  Name:  _restoretextman
+    address      = 0001:000B9FC4
+    module index = 404
+    kind:          (code)

@@ -1,0 +1,8 @@
+  Name:  _hwrestoregraphics
+    address      = 0002:00016754
+    module index = 391
+    kind:          (data)
+  Name:  _hwinitgraphics
+    address      = 0002:00016758
+    module index = 391
+    kind:          (data)

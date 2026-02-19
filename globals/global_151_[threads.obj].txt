@@ -1,0 +1,152 @@
+  Name:  _mainhandle
+    address      = 0002:00051150
+    module index = 151
+    kind:          (static pubdef) (data)
+  Name:  _mainthread
+    address      = 0002:00051154
+    module index = 151
+    kind:          (static pubdef) (data)
+  Name:  _threadsflag
+    address      = 0002:00051158
+    module index = 151
+    kind:          (static pubdef) (data)
+  Name:  _videomutex
+    address      = 0002:00013310
+    module index = 151
+    kind:          (data)
+  Name:  _mutexallocationblock
+    address      = 0002:00013314
+    module index = 151
+    kind:          (data)
+  Name:  growmutexfreelist_
+    address      = 0001:00084650
+    module index = 151
+    kind:          (static pubdef) (code)
+  Name:  waitforobject_
+    address      = 0001:000846AC
+    module index = 151
+    kind:          (static pubdef) (code)
+  Name:  _doSimpleThread@4
+    address      = 0001:000846E0
+    module index = 151
+    kind:          (static pubdef) (code)
+  Name:  _initthreads
+    address      = 0001:000846F8
+    module index = 151
+    kind:          (code)
+  Name:  _createthread
+    address      = 0001:0008474C
+    module index = 151
+    kind:          (code)
+  Name:  _createstackthread
+    address      = 0001:0008480C
+    module index = 151
+    kind:          (code)
+  Name:  _removethread
+    address      = 0001:00084834
+    module index = 151
+    kind:          (code)
+  Name:  _yieldthread
+    address      = 0001:0008489C
+    module index = 151
+    kind:          (code)
+  Name:  _yieldticks
+    address      = 0001:000848AC
+    module index = 151
+    kind:          (code)
+  Name:  _iscurrentthread
+    address      = 0001:000848E4
+    module index = 151
+    kind:          (code)
+  Name:  _getthreadpriority
+    address      = 0001:00084930
+    module index = 151
+    kind:          (code)
+  Name:  _setthreadpriority
+    address      = 0001:000849E0
+    module index = 151
+    kind:          (code)
+  Name:  _startcriticalsection
+    address      = 0001:00084A64
+    module index = 151
+    kind:          (code)
+  Name:  _endcriticalsection
+    address      = 0001:00084AAC
+    module index = 151
+    kind:          (code)
+  Name:  _exitthread
+    address      = 0001:00084B00
+    module index = 151
+    kind:          (code)
+  Name:  _allocsignal
+    address      = 0001:00084B0C
+    module index = 151
+    kind:          (code)
+  Name:  _sendsignal
+    address      = 0001:00084B1C
+    module index = 151
+    kind:          (code)
+  Name:  _testsignal
+    address      = 0001:00084B2C
+    module index = 151
+    kind:          (code)
+  Name:  _waitsignal
+    address      = 0001:00084B4C
+    module index = 151
+    kind:          (code)
+  Name:  _timesignal
+    address      = 0001:00084B64
+    module index = 151
+    kind:          (code)
+  Name:  _waitsignals
+    address      = 0001:00084BAC
+    module index = 151
+    kind:          (code)
+  Name:  _freesignal
+    address      = 0001:00084BC4
+    module index = 151
+    kind:          (code)
+  Name:  _allocmutex
+    address      = 0001:00084BD4
+    module index = 151
+    kind:          (code)
+  Name:  _lockmutex
+    address      = 0001:00084C0C
+    module index = 151
+    kind:          (code)
+  Name:  _unlockmutex
+    address      = 0001:00084C58
+    module index = 151
+    kind:          (code)
+  Name:  _freemutex
+    address      = 0001:00084C9C
+    module index = 151
+    kind:          (code)
+  Name:  _getlastoserror
+    address      = 0001:00084CF4
+    module index = 151
+    kind:          (code)
+  Name:  _setlastwinerror
+    address      = 0001:00084D20
+    module index = 151
+    kind:          (code)
+  Name:  _setwinerror
+    address      = 0001:00084D44
+    module index = 151
+    kind:          (code)
+  Name:  _mutexfreelist
+    address      = 0002:00013318
+    module index = 151
+    kind:          (static pubdef) (data)
+  Name:  _criticalsectionmutex
+    address      = 0002:0001331C
+    module index = 151
+    kind:          (static pubdef) (data)
+  Name:  _criticalpriority
+    address      = 0002:00013320
+    module index = 151
+    kind:          (static pubdef) (data)
+  Name:  _winerror
+    address      = 0002:0005115C
+    module index = 151
+    kind:          (data)

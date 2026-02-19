@@ -1,0 +1,16 @@
+  Name:  __LinkUpNewMHeap_
+    address      = 0001:000A8CE1
+    module index = 322
+    kind:          (static pubdef) (code)
+  Name:  __CreateNewNHeap_
+    address      = 0001:000A8D55
+    module index = 322
+    kind:          (static pubdef) (code)
+  Name:  __ExpandDGROUP_
+    address      = 0001:000A8DE5
+    module index = 322
+    kind:          (code)
+  Name:  __AdjustAmount_
+    address      = 0001:000A8DF6
+    module index = 322
+    kind:          (static pubdef) (code)

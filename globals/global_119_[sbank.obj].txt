@@ -1,0 +1,16 @@
+  Name:  SNDbankadd2files_
+    address      = 0001:00082300
+    module index = 119
+    kind:          (code)
+  Name:  SNDbankremove_
+    address      = 0001:00082394
+    module index = 119
+    kind:          (code)
+  Name:  iSNDdownloadbank_
+    address      = 0001:00082468
+    module index = 119
+    kind:          (static pubdef) (code)
+  Name:  iSNDvalidbank_
+    address      = 0001:000825F4
+    module index = 119
+    kind:          (code)

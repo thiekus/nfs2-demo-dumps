@@ -1,0 +1,32 @@
+  Name:  mmxmove4_
+    address      = 0001:000A7010
+    module index = 306
+    kind:          (static pubdef) (code)
+  Name:  mmxmove16_
+    address      = 0001:000A7018
+    module index = 306
+    kind:          (static pubdef) (code)
+  Name:  mmxmove24_
+    address      = 0001:000A7020
+    module index = 306
+    kind:          (static pubdef) (code)
+  Name:  mmxmove32_
+    address      = 0001:000A7038
+    module index = 306
+    kind:          (static pubdef) (code)
+  Name:  _mmxmovfxya
+    address      = 0001:000A7040
+    module index = 306
+    kind:          (code)
+  Name:  _mmxmovf
+    address      = 0001:000A705C
+    module index = 306
+    kind:          (code)
+  Name:  _mmxmovfxy
+    address      = 0001:000A707C
+    module index = 306
+    kind:          (code)
+  Name:  _mmxmovfdfl
+    address      = 0002:00014648
+    module index = 306
+    kind:          (static pubdef) (data)

@@ -1,0 +1,8 @@
+  Name:  _upm8lf
+    address      = 0001:000C2940
+    module index = 535
+    kind:          (code)
+  Name:  _upm8lfsetstate
+    address      = 0001:000C29A4
+    module index = 535
+    kind:          (code)

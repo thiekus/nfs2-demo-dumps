@@ -1,0 +1,44 @@
+  Name:  _initjoy
+    address      = 0001:000C18A0
+    module index = 509
+    kind:          (code)
+  Name:  _readjoy
+    address      = 0001:000C18A8
+    module index = 509
+    kind:          (code)
+  Name:  _readbuttons
+    address      = 0001:000C193C
+    module index = 509
+    kind:          (code)
+  Name:  _joystickn
+    address      = 0001:000C19C4
+    module index = 509
+    kind:          (code)
+  Name:  _joybut
+    address      = 0002:00017158
+    module index = 509
+    kind:          (data)
+  Name:  _joyactive
+    address      = 0002:0001715C
+    module index = 509
+    kind:          (data)
+  Name:  _joybuttonmapping
+    address      = 0002:00017160
+    module index = 509
+    kind:          (data)
+  Name:  _joy1y
+    address      = 0002:0006AE20
+    module index = 509
+    kind:          (data)
+  Name:  _joy1x
+    address      = 0002:0006AE24
+    module index = 509
+    kind:          (data)
+  Name:  _joy0y
+    address      = 0002:0006AE28
+    module index = 509
+    kind:          (data)
+  Name:  _joy0x
+    address      = 0002:0006AE2C
+    module index = 509
+    kind:          (data)

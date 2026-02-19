@@ -1,0 +1,40 @@
+  Name:  jxclip_
+    address      = 0001:000B6130
+    module index = 385
+    kind:          (code)
+  Name:  jyclip_
+    address      = 0001:000B619C
+    module index = 385
+    kind:          (code)
+  Name:  leftclippoly_
+    address      = 0001:000B620C
+    module index = 385
+    kind:          (code)
+  Name:  rightclippoly_
+    address      = 0001:000B62F4
+    module index = 385
+    kind:          (code)
+  Name:  topclippoly_
+    address      = 0001:000B63D4
+    module index = 385
+    kind:          (code)
+  Name:  bottomclippoly_
+    address      = 0001:000B64B4
+    module index = 385
+    kind:          (code)
+  Name:  _asXYleft
+    address      = 0002:00069000
+    module index = 385
+    kind:          (static pubdef) (data)
+  Name:  _asXYright
+    address      = 0002:00069200
+    module index = 385
+    kind:          (static pubdef) (data)
+  Name:  _asXYtop
+    address      = 0002:00069400
+    module index = 385
+    kind:          (static pubdef) (data)
+  Name:  _asXYbottom
+    address      = 0002:00069600
+    module index = 385
+    kind:          (static pubdef) (data)

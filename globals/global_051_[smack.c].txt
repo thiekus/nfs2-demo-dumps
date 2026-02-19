@@ -1,0 +1,36 @@
+  Name:  Smack_ResetObj_
+    address      = 0001:000468EB
+    module index = 51
+    kind:          (code)
+  Name:  Smack_GeneralPhysics_
+    address      = 0001:000469C1
+    module index = 51
+    kind:          (code)
+  Name:  Smack_DoPostCollisionStuff_
+    address      = 0001:00046B14
+    module index = 51
+    kind:          (code)
+  Name:  Smack_Restart_
+    address      = 0001:00046DB1
+    module index = 51
+    kind:          (code)
+  Name:  Smack_MakeSmackDataPathName_
+    address      = 0001:00046DC6
+    module index = 51
+    kind:          (code)
+  Name:  Smack_SetSmackInitPosition_
+    address      = 0001:00046E0E
+    module index = 51
+    kind:          (code)
+  Name:  Smack_StartUp_
+    address      = 0001:00046EAF
+    module index = 51
+    kind:          (code)
+  Name:  Smack_CleanUp_
+    address      = 0001:00046FCF
+    module index = 51
+    kind:          (code)
+  Name:  _Smack_gInitInfo
+    address      = 0002:0004626C
+    module index = 51
+    kind:          (data)

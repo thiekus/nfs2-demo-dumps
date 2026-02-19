@@ -1,0 +1,156 @@
+  Name:  _currentclutbpp
+    address      = 0002:00016280
+    module index = 382
+    kind:          (data)
+  Name:  _chromakey16
+    address      = 0002:00016284
+    module index = 382
+    kind:          (data)
+  Name:  _blackkey16
+    address      = 0002:00016288
+    module index = 382
+    kind:          (data)
+  Name:  _clutptr
+    address      = 0002:0001628C
+    module index = 382
+    kind:          (data)
+  Name:  bpp4to4_
+    address      = 0001:000B4CF0
+    module index = 382
+    kind:          (code)
+  Name:  bpp8to4_
+    address      = 0001:000B4D04
+    module index = 382
+    kind:          (code)
+  Name:  bpp4to8_
+    address      = 0001:000B4D5C
+    module index = 382
+    kind:          (code)
+  Name:  bpp8to8_
+    address      = 0001:000B4D98
+    module index = 382
+    kind:          (code)
+  Name:  bpp16to8_
+    address      = 0001:000B4DA8
+    module index = 382
+    kind:          (code)
+  Name:  bpp15to15_
+    address      = 0001:000B4E78
+    module index = 382
+    kind:          (code)
+  Name:  bpp32to15_
+    address      = 0001:000B4E88
+    module index = 382
+    kind:          (code)
+  Name:  opp32to15_
+    address      = 0001:000B4EE4
+    module index = 382
+    kind:          (code)
+  Name:  bpp16to16_
+    address      = 0001:000B4F2C
+    module index = 382
+    kind:          (code)
+  Name:  bpp16ato16_
+    address      = 0001:000B4F3C
+    module index = 382
+    kind:          (code)
+  Name:  bpp32to16_
+    address      = 0001:000B4F5C
+    module index = 382
+    kind:          (code)
+  Name:  opp32to16_
+    address      = 0001:000B4FB8
+    module index = 382
+    kind:          (code)
+  Name:  bpp32to16a_
+    address      = 0001:000B5000
+    module index = 382
+    kind:          (code)
+  Name:  bpp8to24_
+    address      = 0001:000B505C
+    module index = 382
+    kind:          (code)
+  Name:  bpp16to24_
+    address      = 0001:000B50A4
+    module index = 382
+    kind:          (code)
+  Name:  bpp24to24_
+    address      = 0001:000B510C
+    module index = 382
+    kind:          (code)
+  Name:  bpp32to24_
+    address      = 0001:000B512C
+    module index = 382
+    kind:          (code)
+  Name:  bpp15to32_
+    address      = 0001:000B5178
+    module index = 382
+    kind:          (code)
+  Name:  bpp16to32_
+    address      = 0001:000B51E8
+    module index = 382
+    kind:          (code)
+  Name:  bpp16ato32_
+    address      = 0001:000B5260
+    module index = 382
+    kind:          (code)
+  Name:  bpp24to32_
+    address      = 0001:000B52D4
+    module index = 382
+    kind:          (code)
+  Name:  bpp32to32_
+    address      = 0001:000B5320
+    module index = 382
+    kind:          (code)
+  Name:  bpptoindex_
+    address      = 0001:000B5334
+    module index = 382
+    kind:          (code)
+  Name:  typetoindex_
+    address      = 0001:000B5380
+    module index = 382
+    kind:          (code)
+  Name:  getclutptr_
+    address      = 0001:000B5404
+    module index = 382
+    kind:          (code)
+  Name:  getclut16ptr_
+    address      = 0001:000B54F4
+    module index = 382
+    kind:          (code)
+  Name:  getclut16aptr_
+    address      = 0001:000B5620
+    module index = 382
+    kind:          (code)
+  Name:  getmover_
+    address      = 0001:000B592C
+    module index = 382
+    kind:          (code)
+  Name:  _convertshapetypex
+    address      = 0001:000B5AD0
+    module index = 382
+    kind:          (code)
+  Name:  _convertshapetype
+    address      = 0001:000B5F98
+    module index = 382
+    kind:          (code)
+  Name:  _convertshapedepth
+    address      = 0001:000B5FB4
+    module index = 382
+    kind:          (code)
+  Name:  _fntbl
+    address      = 0002:00016290
+    module index = 382
+    kind:          (static pubdef) (data)
+  Name:  _oppfntbl
+    address      = 0002:00016354
+    module index = 382
+    kind:          (static pubdef) (data)
+  Name:  _typetbl
+    address      = 0002:00016418
+    module index = 382
+    kind:          (static pubdef) (data)
+  Name:  _currentclut
+    address      = 0002:00068C00
+    module index = 382
+    kind:          (data)

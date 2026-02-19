@@ -1,0 +1,80 @@
+  Name:  _linpolyedges
+    address      = 0002:00013790
+    module index = 207
+    kind:          (data)
+  Name:  _linmappolycallback
+    address      = 0002:00013794
+    module index = 207
+    kind:          (data)
+  Name:  _float2intbias
+    address      = 0002:00013798
+    module index = 207
+    kind:          (data)
+  Name:  _initlinpoly
+    address      = 0001:00090660
+    module index = 207
+    kind:          (code)
+  Name:  initlinmaprowtbl_
+    address      = 0001:00090730
+    module index = 207
+    kind:          (code)
+  Name:  bilinmapuv32_
+    address      = 0001:000907BC
+    module index = 207
+    kind:          (code)
+  Name:  CalcEdge_
+    address      = 0001:00090850
+    module index = 207
+    kind:          (static pubdef) (code)
+  Name:  FillRL_
+    address      = 0001:00090934
+    module index = 207
+    kind:          (static pubdef) (code)
+  Name:  FillLR_
+    address      = 0001:00090B68
+    module index = 207
+    kind:          (static pubdef) (code)
+  Name:  _linmappoly
+    address      = 0001:00090D9C
+    module index = 207
+    kind:          (code)
+  Name:  _linmapshape
+    address      = 0001:00091288
+    module index = 207
+    kind:          (code)
+  Name:  _linmappolyi
+    address      = 0001:00091300
+    module index = 207
+    kind:          (code)
+  Name:  _linmaprowtblstarts
+    address      = 0002:0001379C
+    module index = 207
+    kind:          (static pubdef) (data)
+  Name:  _linmaprowtblbase
+    address      = 0002:000137C4
+    module index = 207
+    kind:          (static pubdef) (data)
+  Name:  _slopemapuvfn
+    address      = 0002:000137C8
+    module index = 207
+    kind:          (static pubdef) (data)
+  Name:  _aMapFns
+    address      = 0002:000137CC
+    module index = 207
+    kind:          (static pubdef) (data)
+  Name:  _aMap16Fns
+    address      = 0002:000137EC
+    module index = 207
+    kind:          (static pubdef) (data)
+  Name:  _linedgespace
+    address      = 0002:00051980
+    module index = 207
+    kind:          (static pubdef) (data)
+  Name:  _linmaprowtblheight
+    address      = 0002:000523A8
+    module index = 207
+    kind:          (static pubdef) (data)
+  Name:  _linmaprowtblwidth
+    address      = 0002:000523AC
+    module index = 207
+    kind:          (static pubdef) (data)

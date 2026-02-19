@@ -1,0 +1,256 @@
+  Name:  _gFlagReplayTriggeredByFrontEnd
+    address      = 0002:000128C8
+    module index = 99
+    kind:          (data)
+  Name:  _psxFrontInit
+    address      = 0002:000128CA
+    module index = 99
+    kind:          (data)
+  Name:  _FeMusicIsPlaying
+    address      = 0002:000128CE
+    module index = 99
+    kind:          (data)
+  Name:  _convertCarToSim
+    address      = 0002:000128D6
+    module index = 99
+    kind:          (data)
+  Name:  _groupA8
+    address      = 0002:00012902
+    module index = 99
+    kind:          (data)
+  Name:  _colorA8
+    address      = 0002:00012910
+    module index = 99
+    kind:          (data)
+  Name:  _nameA8
+    address      = 0002:0001291E
+    module index = 99
+    kind:          (data)
+  Name:  _groupB8
+    address      = 0002:0001292C
+    module index = 99
+    kind:          (data)
+  Name:  _colorB8
+    address      = 0002:0001293A
+    module index = 99
+    kind:          (data)
+  Name:  _nameB8
+    address      = 0002:00012948
+    module index = 99
+    kind:          (data)
+  Name:  _groupA12
+    address      = 0002:00012956
+    module index = 99
+    kind:          (data)
+  Name:  _colorA12
+    address      = 0002:0001296C
+    module index = 99
+    kind:          (data)
+  Name:  _nameA12
+    address      = 0002:00012982
+    module index = 99
+    kind:          (data)
+  Name:  _groupB12
+    address      = 0002:00012998
+    module index = 99
+    kind:          (data)
+  Name:  _colorB12
+    address      = 0002:000129AE
+    module index = 99
+    kind:          (data)
+  Name:  _nameB12
+    address      = 0002:000129C4
+    module index = 99
+    kind:          (data)
+  Name:  _carsOut
+    address      = 0002:000129DE
+    module index = 99
+    kind:          (data)
+  Name:  _carsNor
+    address      = 0002:000129E7
+    module index = 99
+    kind:          (data)
+  Name:  _carsPac
+    address      = 0002:000129F0
+    module index = 99
+    kind:          (data)
+  Name:  _carsMed
+    address      = 0002:000129FC
+    module index = 99
+    kind:          (data)
+  Name:  _carsMys
+    address      = 0002:00012A03
+    module index = 99
+    kind:          (data)
+  Name:  _carsMon
+    address      = 0002:00012A09
+    module index = 99
+    kind:          (data)
+  Name:  _downForce
+    address      = 0002:00012A0F
+    module index = 99
+    kind:          (data)
+  Name:  _steeringSens
+    address      = 0002:00012A1B
+    module index = 99
+    kind:          (data)
+  Name:  Front_ResetControlsSettingsMenu_
+    address      = 0001:0007AC9A
+    module index = 99
+    kind:          (code)
+  Name:  Front_ResetSettingsMenu_
+    address      = 0001:0007AF63
+    module index = 99
+    kind:          (code)
+  Name:  InitFrontEndStructure_
+    address      = 0001:0007AFCB
+    module index = 99
+    kind:          (code)
+  Name:  Front_InitDefaultPlayerNames_
+    address      = 0001:0007B25E
+    module index = 99
+    kind:          (code)
+  Name:  SaveConfig_
+    address      = 0001:0007B307
+    module index = 99
+    kind:          (code)
+  Name:  setLanguage_
+    address      = 0001:0007B3D3
+    module index = 99
+    kind:          (code)
+  Name:  LoadConfig_
+    address      = 0001:0007B48A
+    module index = 99
+    kind:          (code)
+  Name:  CheckBenchmark_
+    address      = 0001:0007B694
+    module index = 99
+    kind:          (code)
+  Name:  showTitle_
+    address      = 0001:0007B78C
+    module index = 99
+    kind:          (code)
+  Name:  Front_TitleScreen_
+    address      = 0001:0007B8B5
+    module index = 99
+    kind:          (code)
+  Name:  RemoteInstallCheck_
+    address      = 0001:0007BA77
+    module index = 99
+    kind:          (code)
+  Name:  Front_ProcessKnockOut_
+    address      = 0001:0007BACB
+    module index = 99
+    kind:          (code)
+  Name:  ClearBothWindows_
+    address      = 0001:0007BC39
+    module index = 99
+    kind:          (code)
+  Name:  Front_MainMenu_
+    address      = 0001:0007BC8E
+    module index = 99
+    kind:          (code)
+  Name:  swapSHORT_
+    address      = 0001:0007BEC9
+    module index = 99
+    kind:          (code)
+  Name:  Front_PostGame_
+    address      = 0001:0007BF02
+    module index = 99
+    kind:          (code)
+  Name:  SetNextRoundKnockoutOrder_
+    address      = 0001:0007C113
+    module index = 99
+    kind:          (code)
+  Name:  pickOpponentCar_
+    address      = 0001:0007C4DD
+    module index = 99
+    kind:          (code)
+  Name:  isGroupB_
+    address      = 0001:0007C563
+    module index = 99
+    kind:          (code)
+  Name:  pickOpponentCarByClass_
+    address      = 0001:0007C5B2
+    module index = 99
+    kind:          (code)
+  Name:  pickTrafficColor_
+    address      = 0001:0007C7E2
+    module index = 99
+    kind:          (code)
+  Name:  pickOpponentColorRandom_
+    address      = 0001:0007C838
+    module index = 99
+    kind:          (code)
+  Name:  pickOpponentNameRandom_
+    address      = 0001:0007C8CC
+    module index = 99
+    kind:          (code)
+  Name:  ResetRandomPick_
+    address      = 0001:0007C946
+    module index = 99
+    kind:          (code)
+  Name:  RandomPick_
+    address      = 0001:0007C980
+    module index = 99
+    kind:          (code)
+  Name:  pickTraffic_
+    address      = 0001:0007C9F3
+    module index = 99
+    kind:          (code)
+  Name:  setPlayer1Car_
+    address      = 0001:0007CAFA
+    module index = 99
+    kind:          (code)
+  Name:  setTournamentLineup_
+    address      = 0001:0007CE60
+    module index = 99
+    kind:          (code)
+  Name:  setKnockoutLineup_
+    address      = 0001:0007CEBD
+    module index = 99
+    kind:          (code)
+  Name:  stillAlive_
+    address      = 0001:0007CF6D
+    module index = 99
+    kind:          (code)
+  Name:  Front_SensitivityAdjust_
+    address      = 0001:0007CFDB
+    module index = 99
+    kind:          (code)
+  Name:  Front_GetLapsForType_
+    address      = 0001:0007D0E2
+    module index = 99
+    kind:          (code)
+  Name:  Front_BuildStream_
+    address      = 0001:0007D136
+    module index = 99
+    kind:          (code)
+  Name:  _brakeBias
+    address      = 0002:00012A27
+    module index = 99
+    kind:          (data)
+  Name:  _gearRatio
+    address      = 0002:00012A33
+    module index = 99
+    kind:          (data)
+  Name:  _colourChosen
+    address      = 0002:00050C00
+    module index = 99
+    kind:          (data)
+  Name:  _engineUpgrade
+    address      = 0002:00050C40
+    module index = 99
+    kind:          (data)
+  Name:  _slipperySurface
+    address      = 0002:00050C44
+    module index = 99
+    kind:          (data)
+  Name:  _benchmarkNeeded
+    address      = 0002:00050C48
+    module index = 99
+    kind:          (data)
+  Name:  _picked
+    address      = 0002:00050C4A
+    module index = 99
+    kind:          (data)

@@ -1,0 +1,136 @@
+  Name:  _playpos
+    address      = 0002:00055600
+    module index = 329
+    kind:          (static pubdef) (data)
+  Name:  _writepos
+    address      = 0002:00055604
+    module index = 329
+    kind:          (static pubdef) (data)
+  Name:  _totalbufsize
+    address      = 0002:00055608
+    module index = 329
+    kind:          (static pubdef) (data)
+  Name:  _framesizeshift
+    address      = 0002:0005560C
+    module index = 329
+    kind:          (static pubdef) (data)
+  Name:  _directlatencylimit
+    address      = 0002:00055610
+    module index = 329
+    kind:          (static pubdef) (data)
+  Name:  _totalframes
+    address      = 0002:00055614
+    module index = 329
+    kind:          (static pubdef) (data)
+  Name:  _directlatency
+    address      = 0002:00055618
+    module index = 329
+    kind:          (data)
+  Name:  _ds3dchan
+    address      = 0002:00014834
+    module index = 329
+    kind:          (data)
+  Name:  _lpDS
+    address      = 0002:000148B4
+    module index = 329
+    kind:          (static pubdef) (data)
+  Name:  _lpDSBPrimary
+    address      = 0002:000148B8
+    module index = 329
+    kind:          (static pubdef) (data)
+  Name:  _lpDSBSecondary
+    address      = 0002:000148BC
+    module index = 329
+    kind:          (static pubdef) (data)
+  Name:  _directinstalled
+    address      = 0002:000148C0
+    module index = 329
+    kind:          (static pubdef) (data)
+  Name:  _directprimarycreated
+    address      = 0002:000148C1
+    module index = 329
+    kind:          (static pubdef) (data)
+  Name:  _directplaying
+    address      = 0002:000148C2
+    module index = 329
+    kind:          (static pubdef) (data)
+  Name:  _framesize
+    address      = 0002:000148C3
+    module index = 329
+    kind:          (static pubdef) (data)
+  Name:  _audioenable3d
+    address      = 0002:000148C4
+    module index = 329
+    kind:          (data)
+  Name:  iSNDdirectcaps_
+    address      = 0001:000AC490
+    module index = 329
+    kind:          (code)
+  Name:  iSNDdirectstart_
+    address      = 0001:000AC894
+    module index = 329
+    kind:          (code)
+  Name:  iSNDdirectstop_
+    address      = 0001:000ACD9C
+    module index = 329
+    kind:          (code)
+  Name:  iSNDdirectserve_
+    address      = 0001:000ACE18
+    module index = 329
+    kind:          (code)
+  Name:  iSNDdirectcreate3dbuf_
+    address      = 0001:000AD0B4
+    module index = 329
+    kind:          (code)
+  Name:  iSNDdirectremovebuf_
+    address      = 0001:000AD23C
+    module index = 329
+    kind:          (code)
+  Name:  iSNDdirectplay3d_
+    address      = 0001:000AD270
+    module index = 329
+    kind:          (code)
+  Name:  iSNDdirectpos3d_
+    address      = 0001:000AD344
+    module index = 329
+    kind:          (code)
+  Name:  iSNDdirectvol_
+    address      = 0001:000AD3A0
+    module index = 329
+    kind:          (code)
+  Name:  iSNDdirectrate_
+    address      = 0001:000AD430
+    module index = 329
+    kind:          (code)
+  Name:  iSNDdirectstopbuf_
+    address      = 0001:000AD46C
+    module index = 329
+    kind:          (code)
+  Name:  iSNDdirectcheck3dstate_
+    address      = 0001:000AD500
+    module index = 329
+    kind:          (code)
+  Name:  _mixfrom
+    address      = 0002:000148C8
+    module index = 329
+    kind:          (static pubdef) (data)
+  Name:  _directcaps
+    address      = 0002:000148CC
+    module index = 329
+    kind:          (static pubdef) (data)
+  Name:  _dsvoltab
+    address      = 0002:000148D8
+    module index = 329
+    kind:          (static pubdef) (data)
+  Name:  _mixbuffer
+    address      = 0002:0005561C
+    module index = 329
+    kind:          (static pubdef) (data)
+  Name:  _dwLen1
+    address      = 0002:00055620
+    module index = 329
+    kind:          (static pubdef) (data)
+  Name:  _directlatencytimeout
+    address      = 0002:00055624
+    module index = 329
+    kind:          (static pubdef) (data)

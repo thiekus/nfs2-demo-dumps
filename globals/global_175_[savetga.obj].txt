@@ -1,0 +1,16 @@
+  Name:  readrect_
+    address      = 0001:000875E0
+    module index = 175
+    kind:          (static pubdef) (code)
+  Name:  _sizeoftarga
+    address      = 0001:00087688
+    module index = 175
+    kind:          (code)
+  Name:  _readtargaadr
+    address      = 0001:000876D8
+    module index = 175
+    kind:          (code)
+  Name:  _savetarga
+    address      = 0001:000878A8
+    module index = 175
+    kind:          (code)

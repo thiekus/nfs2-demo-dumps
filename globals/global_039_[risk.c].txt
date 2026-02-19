@@ -1,0 +1,88 @@
+  Name:  Risk_InitSortFacets_
+    address      = 0001:0003F301
+    module index = 39
+    kind:          (code)
+  Name:  Risk_Z2Index_
+    address      = 0001:0003F329
+    module index = 39
+    kind:          (code)
+  Name:  Risk_InsertIndexFacet_
+    address      = 0001:0003F354
+    module index = 39
+    kind:          (code)
+  Name:  Risk_InsertFacetByList_
+    address      = 0001:0003F3D9
+    module index = 39
+    kind:          (code)
+  Name:  Risk_InsertFacet_
+    address      = 0001:0003F5CC
+    module index = 39
+    kind:          (code)
+  Name:  Risk_InsertListFacets_
+    address      = 0001:0003F787
+    module index = 39
+    kind:          (code)
+  Name:  Risk_CollectClipFacet_
+    address      = 0001:0003F943
+    module index = 39
+    kind:          (code)
+  Name:  Risk_InitTrackRisk_
+    address      = 0001:0003F9F8
+    module index = 39
+    kind:          (code)
+  Name:  Risk_KillTrackRisk_
+    address      = 0001:0003FA69
+    module index = 39
+    kind:          (code)
+  Name:  IsNumChar_
+    address      = 0001:0003FA9A
+    module index = 39
+    kind:          (code)
+  Name:  Risk_ReadNextValue_
+    address      = 0001:0003FAE7
+    module index = 39
+    kind:          (code)
+  Name:  Risk_CircleClip_
+    address      = 0001:0003FB92
+    module index = 39
+    kind:          (code)
+  Name:  Risk_InitBSpline_
+    address      = 0001:0003FC61
+    module index = 39
+    kind:          (code)
+  Name:  Risk_CalcBSpline_
+    address      = 0001:0003FDBA
+    module index = 39
+    kind:          (code)
+  Name:  Risk_BSpline_
+    address      = 0001:0004007E
+    module index = 39
+    kind:          (code)
+  Name:  Risk_Linear_
+    address      = 0001:0004019E
+    module index = 39
+    kind:          (code)
+  Name:  _gE2
+    address      = 0002:00043370
+    module index = 39
+    kind:          (data)
+  Name:  _gE3
+    address      = 0002:000433C0
+    module index = 39
+    kind:          (data)
+  Name:  _gE0
+    address      = 0002:00043410
+    module index = 39
+    kind:          (data)
+  Name:  _gE1
+    address      = 0002:00043460
+    module index = 39
+    kind:          (data)
+  Name:  _gHeadFacet
+    address      = 0002:000434B0
+    module index = 39
+    kind:          (data)
+  Name:  _gTailFacet
+    address      = 0002:000434B4
+    module index = 39
+    kind:          (data)

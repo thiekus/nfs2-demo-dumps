@@ -1,0 +1,8 @@
+  Name:  _dprintf
+    address      = 0001:000893E0
+    module index = 180
+    kind:          (code)
+  Name:  _dprintfmode
+    address      = 0002:000135C4
+    module index = 180
+    kind:          (data)

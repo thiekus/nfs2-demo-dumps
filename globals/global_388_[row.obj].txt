@@ -1,0 +1,32 @@
+  Name:  initrow_
+    address      = 0001:000B6990
+    module index = 388
+    kind:          (code)
+  Name:  restorerow_
+    address      = 0001:000B6A34
+    module index = 388
+    kind:          (code)
+  Name:  addrow_
+    address      = 0001:000B6A54
+    module index = 388
+    kind:          (code)
+  Name:  removerow_
+    address      = 0001:000B6B24
+    module index = 388
+    kind:          (code)
+  Name:  _setrowtbl
+    address      = 0001:000B6BC0
+    module index = 388
+    kind:          (code)
+  Name:  _rowspace
+    address      = 0002:0001644C
+    module index = 388
+    kind:          (data)
+  Name:  _rowtblstart
+    address      = 0002:00016450
+    module index = 388
+    kind:          (data)
+  Name:  _rowtblend
+    address      = 0002:00069800
+    module index = 388
+    kind:          (data)

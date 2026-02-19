@@ -1,0 +1,120 @@
+  Name:  Mouse_SetXY_
+    address      = 0001:0007E61B
+    module index = 100
+    kind:          (code)
+  Name:  Mouse_ButtonPressed_
+    address      = 0001:0007E677
+    module index = 100
+    kind:          (code)
+  Name:  Mouse_ButtonDown_
+    address      = 0001:0007E6F1
+    module index = 100
+    kind:          (code)
+  Name:  Mouse_Initialize_
+    address      = 0001:0007E72D
+    module index = 100
+    kind:          (code)
+  Name:  Mouse_SetToCurrent_
+    address      = 0001:0007EB44
+    module index = 100
+    kind:          (code)
+  Name:  Mouse_Line_
+    address      = 0001:0007EBE5
+    module index = 100
+    kind:          (code)
+  Name:  Mouse_HotSpotXY_
+    address      = 0001:0007EC2B
+    module index = 100
+    kind:          (code)
+  Name:  Mouse_HotSpot_
+    address      = 0001:0007EC97
+    module index = 100
+    kind:          (code)
+  Name:  Mouse_Exit_
+    address      = 0001:0007EDC6
+    module index = 100
+    kind:          (code)
+  Name:  Mouse_ForceUpdate_
+    address      = 0001:0007EE3E
+    module index = 100
+    kind:          (code)
+  Name:  Mouse_SetBounds_
+    address      = 0001:0007EE61
+    module index = 100
+    kind:          (code)
+  Name:  Mouse_Show_
+    address      = 0001:0007EE7E
+    module index = 100
+    kind:          (code)
+  Name:  Mouse_Flash_
+    address      = 0001:0007EF7B
+    module index = 100
+    kind:          (code)
+  Name:  Mouse_Hide_
+    address      = 0001:0007F04C
+    module index = 100
+    kind:          (code)
+  Name:  _MouseArtFile
+    address      = 0002:00012A40
+    module index = 100
+    kind:          (data)
+  Name:  _mouseX
+    address      = 0002:00012A44
+    module index = 100
+    kind:          (data)
+  Name:  _mouseY
+    address      = 0002:00012A48
+    module index = 100
+    kind:          (data)
+  Name:  _mouseB
+    address      = 0002:00012A4C
+    module index = 100
+    kind:          (data)
+  Name:  _hotSpotX2
+    address      = 0002:00050C58
+    module index = 100
+    kind:          (data)
+  Name:  _hotSpotX1
+    address      = 0002:00050CA8
+    module index = 100
+    kind:          (data)
+  Name:  _hotSpotY2
+    address      = 0002:00050CF8
+    module index = 100
+    kind:          (data)
+  Name:  _hotSpotY1
+    address      = 0002:00050D48
+    module index = 100
+    kind:          (data)
+  Name:  _hotSpotIndex
+    address      = 0002:00050D98
+    module index = 100
+    kind:          (data)
+  Name:  _mouseSave
+    address      = 0002:00050DE8
+    module index = 100
+    kind:          (data)
+  Name:  _mouseBuffer
+    address      = 0002:00050DEC
+    module index = 100
+    kind:          (data)
+  Name:  _oldMouseX
+    address      = 0002:00050DF0
+    module index = 100
+    kind:          (data)
+  Name:  _oldMouseY
+    address      = 0002:00050DF4
+    module index = 100
+    kind:          (data)
+  Name:  _filename2
+    address      = 0002:00050DF8
+    module index = 100
+    kind:          (data)
+  Name:  _forceUpdate
+    address      = 0002:00050EF2
+    module index = 100
+    kind:          (data)
+  Name:  _numHotSpots
+    address      = 0002:00050EF4
+    module index = 100
+    kind:          (data)

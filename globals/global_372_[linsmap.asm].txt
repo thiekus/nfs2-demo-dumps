@@ -1,0 +1,4 @@
+  Name:  linsmapuv8_
+    address      = 0001:000B3048
+    module index = 372
+    kind:          (code)

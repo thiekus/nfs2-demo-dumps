@@ -1,0 +1,4 @@
+  Name:  _transpose
+    address      = 0001:0007FEE8
+    module index = 108
+    kind:          (code)

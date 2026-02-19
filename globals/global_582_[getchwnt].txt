@@ -1,0 +1,8 @@
+  Name:  do_getch_
+    address      = 0001:000C7761
+    module index = 582
+    kind:          (static pubdef) (code)
+  Name:  getch_
+    address      = 0001:000C786C
+    module index = 582
+    kind:          (code)

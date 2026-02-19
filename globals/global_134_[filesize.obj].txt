@@ -1,0 +1,12 @@
+  Name:  _filesize
+    address      = 0001:00083340
+    module index = 134
+    kind:          (code)
+  Name:  _filesizez
+    address      = 0001:00083378
+    module index = 134
+    kind:          (code)
+  Name:  _filesizea
+    address      = 0001:000833B0
+    module index = 134
+    kind:          (code)

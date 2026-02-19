@@ -1,0 +1,16 @@
+  Name:  _checkextenderz
+    address      = 0001:0009B320
+    module index = 233
+    kind:          (code)
+  Name:  _checkextendera
+    address      = 0001:0009B320
+    module index = 233
+    kind:          (code)
+  Name:  _checkextender
+    address      = 0001:0009B328
+    module index = 233
+    kind:          (code)
+  Name:  _eacinit
+    address      = 0001:0009B32C
+    module index = 233
+    kind:          (code)

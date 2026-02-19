@@ -1,0 +1,8 @@
+  Name:  _sqrttablea
+    address      = 0002:00013324
+    module index = 152
+    kind:          (data)
+  Name:  _sqrttableb
+    address      = 0002:000133A8
+    module index = 152
+    kind:          (data)

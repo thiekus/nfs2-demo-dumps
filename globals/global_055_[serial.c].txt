@@ -1,0 +1,20 @@
+  Name:  Serial_Connect_
+    address      = 0001:00049B8A
+    module index = 55
+    kind:          (code)
+  Name:  Serial_PickHost_CALLBACK_
+    address      = 0001:00049E02
+    module index = 55
+    kind:          (code)
+  Name:  Serial_InitConn_
+    address      = 0001:00049E39
+    module index = 55
+    kind:          (static pubdef) (code)
+  Name:  Serial_PickHost_
+    address      = 0001:00049FFF
+    module index = 55
+    kind:          (static pubdef) (code)
+  Name:  _asyncPickHost
+    address      = 0002:000468BC
+    module index = 55
+    kind:          (static pubdef) (data)

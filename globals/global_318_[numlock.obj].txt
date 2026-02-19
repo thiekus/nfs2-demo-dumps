@@ -1,0 +1,36 @@
+  Name:  _normalize
+    address      = 0001:000A8970
+    module index = 318
+    kind:          (code)
+  Name:  _strncpyf
+    address      = 0001:000A8978
+    module index = 318
+    kind:          (code)
+  Name:  _strncmpf
+    address      = 0001:000A898C
+    module index = 318
+    kind:          (code)
+  Name:  _memmovef
+    address      = 0001:000A89A0
+    module index = 318
+    kind:          (code)
+  Name:  _initdivby0
+    address      = 0001:000A89B4
+    module index = 318
+    kind:          (code)
+  Name:  _numlockset
+    address      = 0001:000A89B8
+    module index = 318
+    kind:          (code)
+  Name:  _numlockclear
+    address      = 0001:000A89C8
+    module index = 318
+    kind:          (code)
+  Name:  _setkbdstate
+    address      = 0001:000A89D8
+    module index = 318
+    kind:          (code)
+  Name:  _pauseflag
+    address      = 0002:000146B0
+    module index = 318
+    kind:          (data)

@@ -1,0 +1,169 @@
+ 41) Name:   C:\nfs2\game\common\schedule.c
+     Language is C
+     Locals: num = 1, offset = 000000B6H
+     Types:  num = 1, offset = 00000252H
+     Lines:  num = 1, offset = 000003E2H
+
+   *** Locals ***
+   ==============
+      Data 0:  offset 00012B28
+        0000: MODULE_386
+          "Sched_gExecuteInfo" addr = 0002:0000EEA8,  type = 44
+        001B: MODULE_386
+          "Sched_ExecuteiTimes" addr = 0002:0000EE70,  type = 45
+        0037: MODULE_386
+          "Sched_ExecuteMasks" addr = 0002:0000EE8C,  type = 46
+        0052: MODULE_386
+          "Sched_ExecuteElapsedTimes" addr = 0002:0000EE54,  type = 47
+        0074: MODULE_386
+          "Sched_ExecuteTimes" addr = 0002:0000EE38,  type = 48
+        008F: SET_BASE_386
+          base = 0001:0004220C
+        0097: NEAR_RTN_386
+          start off = 00000000, code size = 000000F6, parent off = 0000
+          prologue size = 11,  epilogue size = 8
+          return address offset (from bp) = 0000000C
+          return type:  50
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Parm 3: MULTI_REG(1): ECX
+          Name = "Sched_ExecuteCheck"
+        00C7: LOCAL
+          address: BP_OFFSET_BYTE( E0 )
+          name = "staggered",  type = 9
+        00D5: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "module",  type = 9
+        00E0: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "distance",  type = 9
+        00ED: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "carId",  type = 9
+        00F7: LOCAL
+          address: BP_OFFSET_BYTE( 10 )
+          name = "time",  type = 49
+        0100: LOCAL
+          address: BP_OFFSET_BYTE( 14 )
+          name = "elapsedTime",  type = 49
+        0110: LOCAL
+          address: BP_OFFSET_BYTE( 18 )
+          name = "iTime",  type = 49
+        011A: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "distanceIndex",  type = 9
+        012C: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "index",  type = 9
+        0136: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "mask",  type = 9
+        013F: NEAR_RTN_386
+          start off = 000000F6, code size = 000000A2, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  60
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Name = "Sched_CreateNewSchedule"
+        0170: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "scheduleName",  type = 13
+        0181: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "maxFunctions",  type = 9
+        0192: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "i",  type = 9
+        0198: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "newSchedule",  type = 59
+        01A8: NEAR_RTN_386
+          start off = 00000198, code size = 0000002D, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  61
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Sched_CleanUpSchedule"
+        01D4: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "schedule",  type = 59
+        01E1: NEAR_RTN_386
+          start off = 000001C5, code size = 000000D8, parent off = 0000
+          prologue size = 11,  epilogue size = 6
+          return address offset (from bp) = 0000000C
+          return type:  62
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Parm 3: MULTI_REG(1): ECX
+          Name = "Sched_AddFunction"
+        020F: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "schedule",  type = 59
+        021C: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "function",  type = 42
+        0229: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "var1",  type = 39
+        0232: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "priority",  type = 9
+        023F: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "i",  type = 9
+        0245: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "j",  type = 9
+        024B: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "n",  type = 9
+        0251: NEAR_RTN_386
+          start off = 0000029D, code size = 000000DE, parent off = 0000
+          prologue size = 12,  epilogue size = 7
+          return address offset (from bp) = 00000010
+          return type:  63
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Name = "Sched_DeleteFunction"
+        0280: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "schedule",  type = 59
+        028D: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "function",  type = 42
+        029A: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "var1",  type = 39
+        02A3: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "i",  type = 9
+        02A9: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "j",  type = 9
+        02AF: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "found",  type = 9
+        02B9: NEAR_RTN_386
+          start off = 0000037B, code size = 0000005F, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  61
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Sched_Execute"
+        02DD: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "schedule",  type = 59
+        02EA: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "i",  type = 9
+

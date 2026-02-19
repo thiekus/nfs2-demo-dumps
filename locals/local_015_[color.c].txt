@@ -1,0 +1,281 @@
+ 15) Name:   C:\nfs2\game\common\color.c
+     Language is C
+     Locals: num = 1, offset = 0000004EH
+     Types:  num = 1, offset = 000001EAH
+     Lines:  num = 1, offset = 00000382H
+
+   *** Locals ***
+   ==============
+      Data 0:  offset 0000BC8A
+        0000: MODULE_386
+          "gColorLoaded" addr = 0002:00023498,  type = 60
+        0015: MODULE_386
+          "gColorNfsColor" addr = 0002:0000CAB4,  type = 64
+        002C: MODULE_386
+          "Color_gVT" addr = 0002:000234B0,  type = 68
+        003E: SET_BASE_386
+          base = 0001:00026D2B
+        0046: NEAR_RTN_386
+          start off = 00000000, code size = 00000037, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  21
+          return value: <none>
+          Name = "Color_InitColor"
+        006A: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "i",  type = 9
+        0070: NEAR_RTN_386
+          start off = 00000037, code size = 0000002B, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  69
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Color_IsColorAlreadyLoaded"
+        00A2: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "color",  type = 9
+        00AC: NEAR_RTN_386
+          start off = 00000062, code size = 00000063, parent off = 0000
+          prologue size = 11,  epilogue size = 8
+          return address offset (from bp) = 0000000C
+          return type:  71
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Parm 3: MULTI_REG(1): ECX
+          Name = "Color_GetColor"
+        00D7: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "index",  type = 9
+        00E1: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "h",  type = 70
+        00E7: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "s",  type = 70
+        00ED: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "v",  type = 70
+        00F3: LOCAL
+          address: BP_OFFSET_BYTE( 10 )
+          name = "t",  type = 70
+        00F9: NEAR_RTN_386
+          start off = 000000C5, code size = 00000098, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  21
+          return value: <none>
+          Name = "Color_ReadCarDeltaVTFile"
+        0126: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "pfile",  type = 13
+        0130: LOCAL
+          address: BP_OFFSET_WORD( 007C )
+          name = "hsvtfile",  type = 72
+        013E: NEAR_RTN_386
+          start off = 0000015D, code size = 00000023, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  21
+          return value: <none>
+          Name = "Color_CleanUpDeltaVTFile"
+        016B: BLOCK_386
+          start off = 000001B1, code size = 00000036, parent off = 017D
+        0177: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "n",  type = 9
+        017D: NEAR_RTN_386
+          start off = 00000180, code size = 0000006D, parent off = 0000
+          prologue size = 11,  epilogue size = 6
+          return address offset (from bp) = 0000000C
+          return type:  73
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Parm 3: MULTI_REG(1): ECX
+          Name = "Color_GetCarVT"
+        01A8: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "color",  type = 9
+        01B2: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "carid",  type = 9
+        01BC: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "v",  type = 70
+        01C2: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "t",  type = 70
+        01C8: BLOCK_386
+          start off = 0000026E, code size = 000000FA, parent off = 01E2
+        01D4: LOCAL
+          address: BP_OFFSET_BYTE( D0 )
+          name = "highlight",  type = 74
+        01E2: NEAR_RTN_386
+          start off = 000001ED, code size = 0000026C, parent off = 0000
+          prologue size = 11,  epilogue size = 6
+          return address offset (from bp) = 0000000C
+          return type:  75
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Parm 3: MULTI_REG(1): ECX
+          Name = "Color_PseudoColor"
+        0210: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "original",  type = 70
+        021D: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "threshold",  type = 9
+        022B: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "diffuse",  type = 70
+        0237: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "result",  type = 13
+        0242: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "t",  type = 9
+        0248: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "lightness",  type = 9
+        0256: BLOCK_386
+          start off = 000004DF, code size = 00000065, parent off = 026D
+        0262: LOCAL
+          address: BP_OFFSET_BYTE( BC )
+          name = "source",  type = 76
+        026D: NEAR_RTN_386
+          start off = 00000459, code size = 000000F3, parent off = 0000
+          prologue size = 11,  epilogue size = 6
+          return address offset (from bp) = 0000000C
+          return type:  77
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Parm 3: MULTI_REG(1): ECX
+          Name = "Color_RGBColorChangePal"
+        02A1: LOCAL
+          address: BP_OFFSET_BYTE( D4 )
+          name = "carid",  type = 9
+        02AB: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "color",  type = 9
+        02B5: LOCAL
+          address: BP_OFFSET_BYTE( D8 )
+          name = "pal",  type = 13
+        02BD: LOCAL
+          address: BP_OFFSET_BYTE( DC )
+          name = "numcolors",  type = 9
+        02CB: LOCAL
+          address: BP_OFFSET_BYTE( E0 )
+          name = "i",  type = 9
+        02D1: LOCAL
+          address: BP_OFFSET_BYTE( C8 )
+          name = "diffuse",  type = 78
+        02DD: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "carV",  type = 9
+        02E6: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "carT",  type = 9
+        02EF: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "h",  type = 9
+        02F5: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "s",  type = 9
+        02FB: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "v",  type = 9
+        0301: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "t",  type = 9
+        0307: NEAR_RTN_386
+          start off = 0000054C, code size = 000002C7, parent off = 0000
+          prologue size = 11,  epilogue size = 8
+          return address offset (from bp) = 0000000C
+          return type:  79
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Parm 3: MULTI_REG(1): ECX
+          Name = "Color_Rgb2Hsv"
+        0331: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "r",  type = 9
+        0337: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "g",  type = 9
+        033D: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "b",  type = 9
+        0343: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "h",  type = 70
+        0349: LOCAL
+          address: BP_OFFSET_BYTE( 10 )
+          name = "s",  type = 70
+        034F: LOCAL
+          address: BP_OFFSET_BYTE( 14 )
+          name = "v",  type = 70
+        0355: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "max",  type = 9
+        035D: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "min",  type = 9
+        0365: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "delta",  type = 9
+        036F: NEAR_RTN_386
+          start off = 00000813, code size = 000002DA, parent off = 0000
+          prologue size = 11,  epilogue size = 8
+          return address offset (from bp) = 0000000C
+          return type:  79
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Parm 3: MULTI_REG(1): ECX
+          Name = "Color_Hsv2Rgb"
+        0399: LOCAL
+          address: BP_OFFSET_BYTE( DC )
+          name = "h",  type = 9
+        039F: LOCAL
+          address: BP_OFFSET_BYTE( E0 )
+          name = "s",  type = 9
+        03A5: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "v",  type = 9
+        03AB: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "r",  type = 70
+        03B1: LOCAL
+          address: BP_OFFSET_BYTE( 10 )
+          name = "g",  type = 70
+        03B7: LOCAL
+          address: BP_OFFSET_BYTE( 14 )
+          name = "b",  type = 70
+        03BD: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "p",  type = 9
+        03C3: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "q",  type = 9
+        03C9: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "t",  type = 9
+        03CF: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "f",  type = 9
+        03D5: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "i",  type = 9
+

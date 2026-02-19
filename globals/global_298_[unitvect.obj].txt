@@ -1,0 +1,4 @@
+  Name:  _unitvector
+    address      = 0001:000A4100
+    module index = 298
+    kind:          (code)

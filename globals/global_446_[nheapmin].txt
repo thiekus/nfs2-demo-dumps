@@ -1,0 +1,24 @@
+  Name:  _nheapshrink_
+    address      = 0001:000BCC4D
+    module index = 446
+    kind:          (code)
+  Name:  _nheapmin_
+    address      = 0001:000BCC4D
+    module index = 446
+    kind:          (code)
+  Name:  _heapmin_
+    address      = 0001:000BCC4D
+    module index = 446
+    kind:          (code)
+  Name:  _heapshrink_
+    address      = 0001:000BCC4D
+    module index = 446
+    kind:          (code)
+  Name:  __ReturnMemToSystem_
+    address      = 0001:000BCC61
+    module index = 446
+    kind:          (static pubdef) (code)
+  Name:  __ReleaseMiniHeap_
+    address      = 0001:000BCCBF
+    module index = 446
+    kind:          (static pubdef) (code)

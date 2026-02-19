@@ -1,0 +1,44 @@
+  Name:  blockmove4_
+    address      = 0001:0008F6A0
+    module index = 202
+    kind:          (static pubdef) (code)
+  Name:  blockmove16_
+    address      = 0001:0008F6A8
+    module index = 202
+    kind:          (static pubdef) (code)
+  Name:  blockmove24_
+    address      = 0001:0008F6B0
+    module index = 202
+    kind:          (static pubdef) (code)
+  Name:  blockmove32_
+    address      = 0001:0008F6C8
+    module index = 202
+    kind:          (static pubdef) (code)
+  Name:  _movfxya
+    address      = 0001:0008F6D0
+    module index = 202
+    kind:          (code)
+  Name:  _movf
+    address      = 0001:0008F6EC
+    module index = 202
+    kind:          (code)
+  Name:  _movfxy
+    address      = 0001:0008F70C
+    module index = 202
+    kind:          (code)
+  Name:  _movcfxya
+    address      = 0001:0008F73C
+    module index = 202
+    kind:          (code)
+  Name:  _movcf
+    address      = 0001:0008F758
+    module index = 202
+    kind:          (code)
+  Name:  _movcfxy
+    address      = 0001:0008F778
+    module index = 202
+    kind:          (code)
+  Name:  _movfdfl
+    address      = 0002:0001376C
+    module index = 202
+    kind:          (static pubdef) (data)

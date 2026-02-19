@@ -1,0 +1,20 @@
+  Name:  __GetThreadData_
+    address      = 0001:000C1CB1
+    module index = 514
+    kind:          (code)
+  Name:  __AddThreadData_
+    address      = 0001:000C1CE8
+    module index = 514
+    kind:          (code)
+  Name:  __RemoveThreadData_
+    address      = 0001:000C1D49
+    module index = 514
+    kind:          (code)
+  Name:  __FreeThreadDataList_
+    address      = 0001:000C1D93
+    module index = 514
+    kind:          (code)
+  Name:  ___thread_data_list
+    address      = 0002:0006AE30
+    module index = 514
+    kind:          (static pubdef) (data)

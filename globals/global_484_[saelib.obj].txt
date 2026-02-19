@@ -1,0 +1,16 @@
+  Name:  iSNDalookuplrv_
+    address      = 0001:000BFD1C
+    module index = 484
+    kind:          (code)
+  Name:  iSNDaecalclrv_
+    address      = 0001:000BFD60
+    module index = 484
+    kind:          (code)
+  Name:  iSNDaefixdlrv_
+    address      = 0001:000BFF2C
+    module index = 484
+    kind:          (code)
+  Name:  _aztoscaletable
+    address      = 0002:00016FB4
+    module index = 484
+    kind:          (data)

@@ -1,0 +1,410 @@
+  6) Name:   C:\nfs2\game\common\audioclc.c
+     Language is C
+     Locals: num = 1, offset = 0000002AH
+     Types:  num = 1, offset = 000001C6H
+     Lines:  num = 1, offset = 0000035EH
+
+   *** Locals ***
+   ==============
+      Data 0:  offset 00004F16
+        0000: MODULE_386
+          "AudioClc_gView" addr = 0002:0001C8F8,  type = 186
+        0018: MODULE_386
+          "AudioClc_gHornOff" addr = 0002:0001C9E8,  type = 9
+        0032: MODULE_386
+          "AudioClc_gHornCount" addr = 0002:0001C9EC,  type = 9
+        004E: MODULE_386
+          "AudioClc_gHornCar" addr = 0002:0001C9F0,  type = 181
+        0069: MODULE_386
+          "AudioClc_gHornOn" addr = 0002:0001C9F4,  type = 9
+        0082: MODULE_386
+          "AudioClc_gHorn" addr = 0002:0001C9F8,  type = 9
+        0099: SET_BASE_386
+          base = 0001:0000F021
+        00A1: NEAR_RTN_386
+          start off = 00000000, code size = 00000131, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  21
+          return value: <none>
+          Name = "AudioClc_SoundCars"
+        00C8: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "player",  type = 181
+        00D4: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "c1",  type = 181
+        00DC: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "c2",  type = 181
+        00E4: LOCAL
+          address: BP_OFFSET_BYTE( 94 )
+          name = "view",  type = 189
+        00EE: NEAR_RTN_386
+          start off = 00000131, code size = 00000069, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  191
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Name = "AudioClc_InitSource"
+        011B: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "s",  type = 190
+        0122: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "car",  type = 181
+        012B: NEAR_RTN_386
+          start off = 0000019A, code size = 00000101, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  21
+          return value: <none>
+          Name = "AudioClc_StartUp"
+        0150: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "s",  type = 192
+        0157: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "i",  type = 9
+        015D: NEAR_RTN_386
+          start off = 0000029B, code size = 000000AE, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  191
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Name = "AudioClc_ClearSource"
+        018B: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "s",  type = 190
+        0192: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "car",  type = 181
+        019B: NEAR_RTN_386
+          start off = 00000349, code size = 00000095, parent off = 0000
+          prologue size = 11,  epilogue size = 6
+          return address offset (from bp) = 0000000C
+          return type:  193
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Parm 3: MULTI_REG(1): ECX
+          Name = "AudioClc_HonkHorn"
+        01CA: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "car",  type = 181
+        01D3: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "numBeeps",  type = 9
+        01E0: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "ticksOn",  type = 9
+        01EC: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "ticksOff",  type = 9
+        01F9: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "v",  type = 192
+        0200: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "i",  type = 9
+        0206: BLOCK_386
+          start off = 00000516, code size = 00000054, parent off = 0236
+        0212: LOCAL
+          address: BP_OFFSET_BYTE( CC )
+          name = "c",  type = 9
+        0218: BLOCK_386
+          start off = 0000061C, code size = 0000016C, parent off = 0236
+        0224: LOCAL
+          address: BP_OFFSET_BYTE( C4 )
+          name = "c",  type = 9
+        022A: LOCAL
+          address: BP_OFFSET_BYTE( C8 )
+          name = "channel",  type = 9
+        0236: NEAR_RTN_386
+          start off = 000003DE, code size = 00000436, parent off = 0000
+          prologue size = 12,  epilogue size = 7
+          return address offset (from bp) = 00000010
+          return type:  195
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Name = "AudioClc_SoundPlayersCar"
+        026A: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "playerIndex",  type = 9
+        027A: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "view",  type = 194
+        0284: LOCAL
+          address: BP_OFFSET_BYTE( E0 )
+          name = "car",  type = 181
+        028D: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "previous",  type = 190
+        029B: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "dsquare",  type = 9
+        02A7: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "frequency",  type = 9
+        02B5: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "dop",  type = 9
+        02BD: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "dst",  type = 9
+        02C5: LOCAL
+          address: BP_OFFSET_BYTE( D0 )
+          name = "pan",  type = 198
+        02CE: LOCAL
+          address: BP_OFFSET_BYTE( D8 )
+          name = "impactpan",  type = 198
+        02DD: BLOCK_386
+          start off = 000008B7, code size = 00000059, parent off = 02FB
+        02E9: LOCAL
+          address: BP_OFFSET_BYTE( DC )
+          name = "iamp",  type = 9
+        02F2: LOCAL
+          address: BP_OFFSET_BYTE( E0 )
+          name = "ipan",  type = 9
+        02FB: NEAR_RTN_386
+          start off = 00000814, code size = 00000102, parent off = 0000
+          prologue size = 11,  epilogue size = 6
+          return address offset (from bp) = 0000000C
+          return type:  200
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Parm 3: MULTI_REG(1): ECX
+          Name = "AudioClc_SoundOpponentHorn"
+        0333: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "source",  type = 190
+        033F: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "pan",  type = 199
+        0348: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "dop",  type = 9
+        0350: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "dsquare",  type = 9
+        035C: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "frequency",  type = 9
+        036A: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "cartype",  type = 9
+        0376: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "carhornSFX",  type = 9
+        0385: LOCAL
+          address: CONST_ADDR386( 0002:0000C454 )
+          name = "trafficFreqs",  type = 201
+        039C: BLOCK_386
+          start off = 0000094E, code size = 00000060, parent off = 03C0
+        03A8: LOCAL
+          address: BP_OFFSET_BYTE( C8 )
+          name = "c",  type = 9
+        03AE: BLOCK_386
+          start off = 00000B42, code size = 000000B4, parent off = 03C0
+        03BA: LOCAL
+          address: BP_OFFSET_BYTE( B0 )
+          name = "c",  type = 9
+        03C0: NEAR_RTN_386
+          start off = 00000916, code size = 000003E6, parent off = 0000
+          prologue size = 11,  epilogue size = 6
+          return address offset (from bp) = 0000000C
+          return type:  202
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Parm 3: MULTI_REG(1): ECX
+          Name = "AudioClc_SoundCloseCar"
+        03F4: LOCAL
+          address: BP_OFFSET_BYTE( D4 )
+          name = "playerIndex",  type = 9
+        0404: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "channel",  type = 9
+        0410: LOCAL
+          address: BP_OFFSET_BYTE( D8 )
+          name = "view",  type = 194
+        041A: LOCAL
+          address: BP_OFFSET_BYTE( DC )
+          name = "car",  type = 181
+        0423: LOCAL
+          address: BP_OFFSET_BYTE( E0 )
+          name = "source",  type = 190
+        042F: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "dsquare",  type = 9
+        043B: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "distSq",  type = 9
+        0446: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "frequency",  type = 9
+        0454: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "tempRPM",  type = 9
+        0460: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "dop",  type = 9
+        0468: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "dst",  type = 9
+        0470: LOCAL
+          address: BP_OFFSET_BYTE( CC )
+          name = "pan",  type = 198
+        0479: NEAR_RTN_386
+          start off = 00000CFC, code size = 00000384, parent off = 0000
+          prologue size = 11,  epilogue size = 8
+          return address offset (from bp) = 0000000C
+          return type:  204
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Parm 3: MULTI_REG(1): ECX
+          Name = "AudioClc_GetClosestCars"
+        04AE: LOCAL
+          address: BP_OFFSET_BYTE( C4 )
+          name = "playerIndex",  type = 9
+        04BE: LOCAL
+          address: BP_OFFSET_BYTE( C8 )
+          name = "view",  type = 194
+        04C8: LOCAL
+          address: BP_OFFSET_BYTE( CC )
+          name = "player",  type = 203
+        04D4: LOCAL
+          address: BP_OFFSET_BYTE( D0 )
+          name = "closestCar1",  type = 203
+        04E5: LOCAL
+          address: BP_OFFSET_BYTE( 10 )
+          name = "closestCar2",  type = 203
+        04F6: LOCAL
+          address: BP_OFFSET_BYTE( D4 )
+          name = "x",  type = 9
+        04FC: LOCAL
+          address: BP_OFFSET_BYTE( D8 )
+          name = "y",  type = 9
+        0502: LOCAL
+          address: BP_OFFSET_BYTE( DC )
+          name = "z",  type = 9
+        0508: LOCAL
+          address: BP_OFFSET_BYTE( E0 )
+          name = "distance",  type = 9
+        0515: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "distance1",  type = 9
+        0523: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "distToCamera1",  type = 9
+        0535: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "distToCamera2",  type = 9
+        0547: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "previous",  type = 192
+        0555: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "car",  type = 203
+        055E: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "i",  type = 9
+        0564: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "cameraMode",  type = 9
+        0573: NEAR_RTN_386
+          start off = 00001080, code size = 000001E0, parent off = 0000
+          prologue size = 12,  epilogue size = 7
+          return address offset (from bp) = 00000010
+          return type:  206
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Name = "AudioClc_CalcDopplerShiftRatio"
+        05AE: LOCAL
+          address: BP_OFFSET_BYTE( CC )
+          name = "playerIndex",  type = 9
+        05BE: LOCAL
+          address: BP_OFFSET_BYTE( D0 )
+          name = "view",  type = 194
+        05C8: LOCAL
+          address: BP_OFFSET_BYTE( D4 )
+          name = "n",  type = 205
+        05CF: LOCAL
+          address: BP_OFFSET_BYTE( D8 )
+          name = "x",  type = 9
+        05D5: LOCAL
+          address: BP_OFFSET_BYTE( DC )
+          name = "y",  type = 9
+        05DB: LOCAL
+          address: BP_OFFSET_BYTE( E0 )
+          name = "z",  type = 9
+        05E1: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "d",  type = 9
+        05E7: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "distToCamera",  type = 9
+        05F8: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "dopplerShift",  type = 9
+        0609: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "relVelocity",  type = 9
+        0619: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "v",  type = 192
+        0620: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "previous",  type = 190
+        062E: NEAR_RTN_386
+          start off = 00001260, code size = 00000253, parent off = 0000
+          prologue size = 12,  epilogue size = 7
+          return address offset (from bp) = 00000010
+          return type:  208
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Name = "AudioClc_CalcPanningVector"
+        0665: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "view",  type = 194
+        066F: LOCAL
+          address: BP_OFFSET_BYTE( DC )
+          name = "object",  type = 207
+        067B: LOCAL
+          address: BP_OFFSET_BYTE( E0 )
+          name = "pan",  type = 199
+        0684: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "x",  type = 9
+        068A: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "y",  type = 9
+        0690: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "z",  type = 9
+        0696: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "length",  type = 9
+        06A1: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "length1",  type = 9
+        06AD: LOCAL
+          address: BP_OFFSET_BYTE( D0 )
+          name = "temp",  type = 62
+

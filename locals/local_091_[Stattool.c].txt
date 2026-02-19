@@ -1,0 +1,676 @@
+ 91) Name:   C:\nfs2\frontend\common\Stattool.c
+     Language is C
+     Locals: num = 1, offset = 0000017EH
+     Types:  num = 1, offset = 0000031AH
+     Lines:  num = 1, offset = 0000049EH
+
+   *** Locals ***
+   ==============
+      Data 0:  offset 00023A95
+        0000: MODULE_386
+          "citeronText" addr = 0002:000125B0,  type = 70
+        0014: MODULE_386
+          "AInames" addr = 0002:000125B8,  type = 71
+        0024: MODULE_386
+          "trackNames" addr = 0002:0001256C,  type = 72
+        0037: MODULE_386
+          "AllRecords" addr = 0002:00011D38,  type = 77
+        004A: MODULE_386
+          "minChar" addr = 0002:000125A4,  type = 78
+        005A: MODULE_386
+          "secChar" addr = 0002:000125AA,  type = 79
+        006A: SET_BASE_386
+          base = 0001:00070DA4
+        0072: NEAR_RTN_386
+          start off = 00000000, code size = 000001BC, parent off = 0000
+          prologue size = 12,  epilogue size = 7
+          return address offset (from bp) = 00000010
+          return type:  81
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Name = "Stattool_CreateIndex"
+        00A1: LOCAL
+          address: BP_OFFSET_BYTE( E0 )
+          name = "nNumber",  type = 9
+        00AD: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "nInput",  type = 80
+        00B8: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "nIndex",  type = 80
+        00C3: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "i",  type = 9
+        00C9: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "j",  type = 9
+        00CF: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "nADummy",  type = 7
+        00DB: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "nBDummy",  type = 7
+        00E7: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "nTemp",  type = 80
+        00F1: NEAR_RTN_386
+          start off = 000001BC, code size = 000001C2, parent off = 0000
+          prologue size = 12,  epilogue size = 7
+          return address offset (from bp) = 00000010
+          return type:  83
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Name = "Stattool_nCreateIndex"
+        0121: LOCAL
+          address: BP_OFFSET_BYTE( E0 )
+          name = "nNumber",  type = 9
+        012D: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "nInput",  type = 82
+        0138: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "nIndex",  type = 80
+        0143: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "i",  type = 9
+        0149: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "j",  type = 9
+        014F: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "nADummy",  type = 9
+        015B: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "nBDummy",  type = 9
+        0167: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "nTemp",  type = 82
+        0171: NEAR_RTN_386
+          start off = 0000037E, code size = 000000B3, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  84
+          return value: REG: AX
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Name = "Stattool_GetFileName"
+        019E: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "nTrack",  type = 7
+        01A9: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "sFileName",  type = 18
+        01B7: LOCAL
+          address: BP_OFFSET_BYTE( D8 )
+          name = "sTrackFile",  type = 85
+        01C6: NEAR_RTN_386
+          start off = 00000431, code size = 00000043, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  84
+          return value: REG: AX
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Name = "Stattool_GetTrackRecordArtFile"
+        01FD: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "nTrack",  type = 7
+        0208: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "sFileName",  type = 18
+        0216: LOCAL
+          address: CONST_ADDR386( 0002:00012588 )
+          name = "trackNames",  type = 86
+        022A: NEAR_RTN_386
+          start off = 00000474, code size = 00000043, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  84
+          return value: REG: AX
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Name = "Stattool_GetTrackInfoArtFile"
+        025F: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "nTrack",  type = 7
+        026A: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "sFileName",  type = 18
+        0278: NEAR_RTN_386
+          start off = 000004B7, code size = 000000B6, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  87
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Name = "Stattool_ParseTime"
+        02A3: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "nTime",  type = 9
+        02AD: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "sLapTime",  type = 18
+        02BA: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "nMinutes",  type = 7
+        02C7: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "nSeconds",  type = 7
+        02D4: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "nHundreths",  type = 7
+        02E3: NEAR_RTN_386
+          start off = 0000056D, code size = 00000068, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  88
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Stattool_SamNelsonsUpperLowerStringConverterForRecords"
+        0330: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "string",  type = 18
+        033B: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "previousLetter",  type = 4
+        034E: NEAR_RTN_386
+          start off = 000005D5, code size = 00000235, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  93
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Stattool_GetAllDefaultRecords"
+        0382: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "TrackRecords",  type = 92
+        0393: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "i",  type = 9
+        0399: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "n",  type = 9
+        039F: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "s",  type = 9
+        03A5: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "laps",  type = 9
+        03AE: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "records",  type = 9
+        03BA: NEAR_RTN_386
+          start off = 0000080A, code size = 00000120, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  94
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Name = "Stattool_GetRecords"
+        03E6: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "nShowTrack",  type = 7
+        03F5: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "TrackRecords",  type = 92
+        0406: LOCAL
+          address: BP_OFFSET_WORD( 00E4 )
+          name = "sStatFile",  type = 95
+        0415: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "uRecSz",  type = 10
+        0420: LOCAL
+          address: BP_OFFSET_BYTE( E0 )
+          name = "buffer",  type = 18
+        042B: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "handle",  type = 9
+        0436: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "offset",  type = 21
+        0441: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "fsize",  type = 21
+        044B: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "k",  type = 7
+        0451: NEAR_RTN_386
+          start off = 0000092A, code size = 0000011F, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  84
+          return value: REG: AX
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Name = "Stattool_GetRecordLapTime"
+        0483: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "nTrack",  type = 7
+        048E: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "sRecordHolder",  type = 18
+        04A0: LOCAL
+          address: BP_OFFSET_BYTE( E0 )
+          name = "sDummySkillLevel",  type = 96
+        04B5: LOCAL
+          address: BP_OFFSET_BYTE( D4 )
+          name = "sDummyTime",  type = 97
+        04C4: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "uRecSz",  type = 10
+        04CF: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "bRecordStatus",  type = 7
+        04E1: LOCAL
+          address: BP_OFFSET_BYTE( A8 )
+          name = "recordplaceHolder",  type = 98
+        04F7: LOCAL
+          address: BP_OFFSET_BYTE( C0 )
+          name = "RecordLapHolder",  type = 91
+        050B: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "TrackRecords",  type = 92
+        051C: NEAR_RTN_386
+          start off = 00000A49, code size = 0000007E, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  99
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Stattool_ReturnRecordLapTime"
+        0550: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "nTrack",  type = 7
+        055B: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "uRecSz",  type = 10
+        0566: LOCAL
+          address: BP_OFFSET_BYTE( DC )
+          name = "RecordLapHolder",  type = 91
+        057A: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "TrackRecords",  type = 92
+        058B: NEAR_RTN_386
+          start off = 00000AC7, code size = 00000171, parent off = 0000
+          prologue size = 12,  epilogue size = 7
+          return address offset (from bp) = 00000010
+          return type:  100
+          return value: REG: AX
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Name = "Stattool_GetRecordTotalTime"
+        05C1: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "nTrack",  type = 7
+        05CC: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "nLaps",  type = 7
+        05D6: LOCAL
+          address: BP_OFFSET_BYTE( E0 )
+          name = "sRecordHolder",  type = 18
+        05E8: LOCAL
+          address: BP_OFFSET_BYTE( D8 )
+          name = "sDummySkillLevel",  type = 101
+        05FD: LOCAL
+          address: BP_OFFSET_BYTE( CC )
+          name = "sDummyTime",  type = 102
+        060C: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "nLapIndicator",  type = 7
+        061E: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "bRecordStatus",  type = 7
+        0630: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "uRecSz",  type = 10
+        063B: LOCAL
+          address: BP_OFFSET_BYTE( A0 )
+          name = "recordplaceHolder",  type = 103
+        0651: LOCAL
+          address: BP_OFFSET_BYTE( B8 )
+          name = "RecordTotalTime",  type = 91
+        0665: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "TrackRecords",  type = 92
+        0676: NEAR_RTN_386
+          start off = 00000C38, code size = 00000481, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  104
+          return value: REG: AX
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Name = "Stattool_InitializeDataFile"
+        06AA: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "nTrack",  type = 7
+        06B5: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "bClearRecordsFlag",  type = 7
+        06CB: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "i",  type = 7
+        06D1: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "k",  type = 7
+        06D7: LOCAL
+          address: BP_OFFSET_WORD( 00D8 )
+          name = "sSearchString",  type = 105
+        06EA: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "bInitialized",  type = 7
+        06FB: LOCAL
+          address: BP_OFFSET_BYTE( DC )
+          name = "p",  type = 18
+        0701: LOCAL
+          address: BP_OFFSET_BYTE( E0 )
+          name = "nTrackCheck",  type = 9
+        0711: LOCAL
+          address: BP_OFFSET_BYTE( D4 )
+          name = "sBuffer",  type = 18
+        071D: LOCAL
+          address: BP_OFFSET_BYTE( D8 )
+          name = "uRecSz",  type = 10
+        0728: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "fpTrkRec",  type = 110
+        0735: LOCAL
+          address: BP_OFFSET_WORD( 00C8 )
+          name = "RecordHolders",  type = 111
+        0748: NEAR_RTN_386
+          start off = 000010B9, code size = 0000048B, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  233
+          return value: REG: AX
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Name = "Stattool_GetSimulationData"
+        077C: LOCAL
+          address: BP_OFFSET_BYTE( DC )
+          name = "dummyCars",  type = 232
+        078B: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "nNumCars",  type = 7
+        0798: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "k",  type = 7
+        079E: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "bGetSimulationData",  type = 7
+        07B5: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "bAbortAICars",  type = 7
+        07C6: LOCAL
+          address: BP_OFFSET_BYTE( E0 )
+          name = "uCarSz",  type = 10
+        07D1: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "nDummyRanks",  type = 80
+        07E1: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "nDummyTotalTime",  type = 82
+        07F5: NEAR_RTN_386
+          start off = 00001544, code size = 00000068, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  234
+          return value: REG: AX
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Stattool_UpdateTournamentPositions"
+        082F: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "nRankPointTotals",  type = 80
+        0844: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "k",  type = 7
+        084A: NEAR_RTN_386
+          start off = 000015AC, code size = 000000BA, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  233
+          return value: REG: AX
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Name = "Stattool_PutSimulationData"
+        087E: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "dummyCars",  type = 232
+        088D: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "nNumCars",  type = 7
+        089A: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "k",  type = 7
+        08A0: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "bPutSimulationData",  type = 7
+        08B7: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "uCarSz",  type = 10
+        08C2: NEAR_RTN_386
+          start off = 00001666, code size = 00000185, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  235
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Name = "Stattool_StatDisplayOptions"
+        08F7: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "nStatDisplayMode",  type = 80
+        090C: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "bIndexFlag",  type = 80
+        091B: NEAR_RTN_386
+          start off = 000017EB, code size = 00000110, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  236
+          return value: REG: AX
+          Name = "Stattool_InitTournamentData"
+        094C: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "k",  type = 7
+        0952: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "bInitFlag",  type = 7
+        0960: NEAR_RTN_386
+          start off = 000018FB, code size = 00000053, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  25
+          return value: <none>
+          Name = "Stattool_InitKnockoutData"
+        098E: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "k",  type = 7
+        0994: NEAR_RTN_386
+          start off = 0000194E, code size = 0000004F, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  237
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Stattool_GetCarNameFEText"
+        09C6: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "cartype",  type = 9
+        09D2: NEAR_RTN_386
+          start off = 0000199D, code size = 0000007B, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  237
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Stattool_GetCarNameSimText"
+        0A05: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "cartype",  type = 9
+        0A11: LOCAL
+          address: BP_OFFSET_BYTE( CC )
+          name = "convertCarToFE",  type = 238
+        0A25: NEAR_RTN_386
+          start off = 00001A18, code size = 00000047, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  239
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Stattool_ConvertSimCarToFECarNum"
+        0A5E: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "cartype",  type = 9
+        0A6A: LOCAL
+          address: BP_OFFSET_BYTE( CC )
+          name = "convertCarToFE",  type = 240
+        0A7E: NEAR_RTN_386
+          start off = 00001A5F, code size = 0000004C, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  239
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Stattool_ConvertSimTrackToFE"
+        0AB3: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "nTrackNum",  type = 9
+        0AC1: LOCAL
+          address: BP_OFFSET_BYTE( D4 )
+          name = "convertTrackToFE",  type = 241
+        0AD7: NEAR_RTN_386
+          start off = 00001AAB, code size = 00000060, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  15
+          return value: <none>
+          Name = "CreateTournament"
+        0AFC: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "k",  type = 9
+        0B02: NEAR_RTN_386
+          start off = 00001B0B, code size = 00000032, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  15
+          return value: <none>
+          Name = "DeleteTournament"
+        0B27: NEAR_RTN_386
+          start off = 00001B3D, code size = 00000038, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  15
+          return value: <none>
+          Name = "CreateKnockout"
+        0B4A: NEAR_RTN_386
+          start off = 00001B75, code size = 00000086, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  15
+          return value: <none>
+          Name = "DeleteKnockout"
+        0B6D: NEAR_RTN_386
+          start off = 00001BFB, code size = 00000061, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  242
+          return value: MULTI_REG(1): EAX
+          Name = "Stattool_TwoPlayerKnockoutPlayer1Gone"
+        0BA9: NEAR_RTN_386
+          start off = 00001C5C, code size = 0000008C, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  243
+          return value: REG: AX
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Stattool_CheckForHumanCar"
+        0BDA: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "dummyCars",  type = 232
+        0BE9: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "k",  type = 7
+        0BEF: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "nNumCars",  type = 7
+        0BFC: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "bHumanFlag",  type = 7
+        0C0B: NEAR_RTN_386
+          start off = 00001CE8, code size = 0000006B, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  236
+          return value: REG: AX
+          Name = "Stattool_SetVerticalOffset"
+        0C3B: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "VCollumnOffset",  type = 7
+        0C4E: NEAR_RTN_386
+          start off = 00001D53, code size = 0000008C, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  244
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Stattool_ClearPlayerNamesFromKnockout"
+        0C8B: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "quitKnockout",  type = 9
+        0C9C: NEAR_RTN_386
+          start off = 00001DDF, code size = 00000056, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  245
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Stattool_GetAIName"
+        0CC7: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "car",  type = 232
+        0CD0: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "nIndex",  type = 9
+        0CDB: NEAR_RTN_386
+          start off = 00001E35, code size = 00000132, parent off = 0000
+          prologue size = 12,  epilogue size = 7
+          return address offset (from bp) = 00000010
+          return type:  246
+          return value: REG: AX
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Name = "Stattool_FindBestLapTime"
+        0D0F: LOCAL
+          address: BP_OFFSET_BYTE( DC )
+          name = "dummyCars",  type = 232
+        0D1E: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "nIndex",  type = 7
+        0D29: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "sBuildOutput",  type = 18
+        0D3A: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "k",  type = 7
+        0D40: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "nLaps",  type = 9
+        0D4A: LOCAL
+          address: BP_OFFSET_BYTE( E0 )
+          name = "nCarLapTimes",  type = 82
+        0D5B: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "nRankCarLapTimes",  type = 80
+        0D70: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "uTopSz",  type = 10
+

@@ -1,0 +1,212 @@
+  Name:  _utupstate
+    address      = 0002:00055860
+    module index = 331
+    kind:          (data)
+  Name:  _utupalloc
+    address      = 0002:00057300
+    module index = 331
+    kind:          (data)
+  Name:  _pmixbufalign
+    address      = 0002:00057308
+    module index = 331
+    kind:          (data)
+  Name:  _prsbufalign
+    address      = 0002:00057B10
+    module index = 331
+    kind:          (data)
+  Name:  _pupbufalign
+    address      = 0002:00058320
+    module index = 331
+    kind:          (data)
+  Name:  _mixer
+    address      = 0002:0005C480
+    module index = 331
+    kind:          (data)
+  Name:  _fxtimeout
+    address      = 0002:0005ED80
+    module index = 331
+    kind:          (data)
+  Name:  _outputframeincr
+    address      = 0002:0005ED84
+    module index = 331
+    kind:          (data)
+  Name:  _mixingrate
+    address      = 0002:0005ED88
+    module index = 331
+    kind:          (data)
+  Name:  _upsetstatefunc
+    address      = 0002:00014A5C
+    module index = 331
+    kind:          (data)
+  Name:  _mixm8setstatefunc
+    address      = 0002:00014AD4
+    module index = 331
+    kind:          (data)
+  Name:  _mixs8setstatefunc
+    address      = 0002:00014AD8
+    module index = 331
+    kind:          (data)
+  Name:  _mixm16setstatefunc
+    address      = 0002:00014ADC
+    module index = 331
+    kind:          (data)
+  Name:  _mixs16setstatefunc
+    address      = 0002:00014AE0
+    module index = 331
+    kind:          (data)
+  Name:  _rs0m8setstatefunc
+    address      = 0002:00014AE4
+    module index = 331
+    kind:          (data)
+  Name:  _rs0s8setstatefunc
+    address      = 0002:00014AE8
+    module index = 331
+    kind:          (data)
+  Name:  _rs0m16setstatefunc
+    address      = 0002:00014AEC
+    module index = 331
+    kind:          (data)
+  Name:  _rs0s16setstatefunc
+    address      = 0002:00014AF0
+    module index = 331
+    kind:          (data)
+  Name:  _rs50m8setstatefunc
+    address      = 0002:00014AF4
+    module index = 331
+    kind:          (data)
+  Name:  _rs50s8setstatefunc
+    address      = 0002:00014AF8
+    module index = 331
+    kind:          (data)
+  Name:  _rs50m16setstatefunc
+    address      = 0002:00014AFC
+    module index = 331
+    kind:          (data)
+  Name:  _rs50s16setstatefunc
+    address      = 0002:00014B00
+    module index = 331
+    kind:          (data)
+  Name:  _copyandclipm8u
+    address      = 0002:00014B04
+    module index = 331
+    kind:          (data)
+  Name:  _copyandclips8u
+    address      = 0002:00014B08
+    module index = 331
+    kind:          (data)
+  Name:  _copyandclipm16s
+    address      = 0002:00014B0C
+    module index = 331
+    kind:          (data)
+  Name:  _emmsstub
+    address      = 0001:000AE210
+    module index = 331
+    kind:          (code)
+  Name:  iSNDmixinitcputype_
+    address      = 0001:000AE214
+    module index = 331
+    kind:          (code)
+  Name:  _iSNDmixinit
+    address      = 0001:000AE2F8
+    module index = 331
+    kind:          (code)
+  Name:  _iSNDmixstart
+    address      = 0001:000AE540
+    module index = 331
+    kind:          (code)
+  Name:  _iSNDvolramp
+    address      = 0001:000AEA44
+    module index = 331
+    kind:          (static pubdef) (code)
+  Name:  _iSNDmixstop
+    address      = 0001:000AEB7C
+    module index = 331
+    kind:          (code)
+  Name:  _iSNDmixpitch
+    address      = 0001:000AEBF0
+    module index = 331
+    kind:          (code)
+  Name:  _iSNDmixcalcfxlevel
+    address      = 0001:000AEC40
+    module index = 331
+    kind:          (code)
+  Name:  _iSNDmixvol
+    address      = 0001:000AEC94
+    module index = 331
+    kind:          (code)
+  Name:  _iSNDmixfxlevel
+    address      = 0001:000AED04
+    module index = 331
+    kind:          (code)
+  Name:  _iSNDmixframe
+    address      = 0001:000AED3C
+    module index = 331
+    kind:          (code)
+  Name:  _copys16tomf
+    address      = 0001:000AED7C
+    module index = 331
+    kind:          (code)
+  Name:  _addmftos16
+    address      = 0001:000AEDC0
+    module index = 331
+    kind:          (code)
+  Name:  _iSNDmixbufslice
+    address      = 0001:000AEE60
+    module index = 331
+    kind:          (code)
+  Name:  _iSNDmixbuf
+    address      = 0001:000AF0F8
+    module index = 331
+    kind:          (code)
+  Name:  _copyandclips16s
+    address      = 0002:00014B10
+    module index = 331
+    kind:          (data)
+  Name:  _decmxa
+    address      = 0002:00014B14
+    module index = 331
+    kind:          (data)
+  Name:  _clearfunction
+    address      = 0002:00014B18
+    module index = 331
+    kind:          (data)
+  Name:  _audioemms
+    address      = 0002:00014B1C
+    module index = 331
+    kind:          (data)
+  Name:  _pmixbuf
+    address      = 0002:00014B20
+    module index = 331
+    kind:          (data)
+  Name:  _pupbuf
+    address      = 0002:00014B24
+    module index = 331
+    kind:          (data)
+  Name:  _prsbuf
+    address      = 0002:00014B28
+    module index = 331
+    kind:          (data)
+  Name:  _mixbufshift
+    address      = 0002:00014B2C
+    module index = 331
+    kind:          (data)
+  Name:  _audioenablemmx
+    address      = 0002:00014B30
+    module index = 331
+    kind:          (data)
+  Name:  _pfxbuf
+    address      = 0002:00014B34
+    module index = 331
+    kind:          (data)
+  Name:  _ptempfxbuf
+    address      = 0002:00014F34
+    module index = 331
+    kind:          (data)
+  Name:  _chanovercallback
+    address      = 0002:0005ED8C
+    module index = 331
+    kind:          (static pubdef) (data)
+  Name:  _copyfunction
+    address      = 0002:0005ED90
+    module index = 331
+    kind:          (static pubdef) (data)

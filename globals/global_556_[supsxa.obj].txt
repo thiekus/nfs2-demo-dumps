@@ -1,0 +1,12 @@
+  Name:  _upsxaframe
+    address      = 0001:000C4020
+    module index = 556
+    kind:          (code)
+  Name:  _upsxa
+    address      = 0001:000C4028
+    module index = 556
+    kind:          (code)
+  Name:  _upsxasetstate
+    address      = 0001:000C41C8
+    module index = 556
+    kind:          (code)

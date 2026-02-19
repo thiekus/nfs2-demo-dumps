@@ -1,0 +1,16 @@
+  Name:  upsxafresidual_
+    address      = 0001:000C5420
+    module index = 563
+    kind:          (code)
+  Name:  _upsxafloopsection
+    address      = 0001:000C548C
+    module index = 563
+    kind:          (code)
+  Name:  _upsxalf
+    address      = 0001:000C56D4
+    module index = 563
+    kind:          (static pubdef) (code)
+  Name:  _upsxalfsetstate
+    address      = 0001:000C58CC
+    module index = 563
+    kind:          (code)

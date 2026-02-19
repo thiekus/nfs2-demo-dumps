@@ -1,0 +1,56 @@
+ 23) Name:   C:\nfs2\game\common\gmesetup.c
+     Language is C
+     Locals: num = 1, offset = 0000006EH
+     Types:  num = 1, offset = 0000020AH
+     Lines:  num = 1, offset = 0000039EH
+
+   *** Locals ***
+   ==============
+      Data 0:  offset 0000CA9B
+        0000: MODULE_386
+          "GameSetup_gList" addr = 0002:0000CEBC,  type = 45
+        0018: MODULE_386
+          "GameSetup_gCarNames" addr = 0002:0000CCF0,  type = 47
+        0034: MODULE_386
+          "AInames" addr = 0002:0000CE90,  type = 48
+        0044: MODULE_386
+          "GameSetup_gData" addr = 0002:00023628,  type = 65
+        005C: SET_BASE_386
+          base = 0001:0002971A
+        0064: NEAR_RTN_386
+          start off = 00000000, code size = 0000029A, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  66
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "GameSetup_StartUp"
+        008C: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "FrontEndDataStream",  type = 42
+        00A3: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "i",  type = 9
+        00A9: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "h",  type = 42
+        00AF: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "s",  type = 42
+        00B5: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "p",  type = 42
+        00BB: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "l",  type = 67
+        00C1: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "c",  type = 68
+        00C7: NEAR_RTN_386
+          start off = 0000029A, code size = 00000015, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  23
+          return value: <none>
+          Name = "GameSetup_CleanUp"
+

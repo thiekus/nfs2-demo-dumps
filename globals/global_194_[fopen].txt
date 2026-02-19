@@ -1,0 +1,24 @@
+  Name:  __open_flags_
+    address      = 0001:0008E932
+    module index = 194
+    kind:          (code)
+  Name:  __doopen_
+    address      = 0001:0008EA03
+    module index = 194
+    kind:          (static pubdef) (code)
+  Name:  _fsopen_
+    address      = 0001:0008EAC7
+    module index = 194
+    kind:          (code)
+  Name:  fopen_
+    address      = 0001:0008EB00
+    module index = 194
+    kind:          (code)
+  Name:  close_file_
+    address      = 0001:0008EB0A
+    module index = 194
+    kind:          (static pubdef) (code)
+  Name:  freopen_
+    address      = 0001:0008EB84
+    module index = 194
+    kind:          (code)

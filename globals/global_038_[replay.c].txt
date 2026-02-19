@@ -1,0 +1,116 @@
+  Name:  _uncompressed_data
+    address      = 0002:00024944
+    module index = 38
+    kind:          (data)
+  Name:  _Replay_ReplayCounter
+    address      = 0002:00024964
+    module index = 38
+    kind:          (data)
+  Name:  _Replay_ReplayBuffer
+    address      = 0002:00024984
+    module index = 38
+    kind:          (data)
+  Name:  _controlData
+    address      = 0002:00042EFC
+    module index = 38
+    kind:          (data)
+  Name:  _Replay_ReplayCamera
+    address      = 0002:000432FC
+    module index = 38
+    kind:          (data)
+  Name:  _Replay_ReplayStorePtr
+    address      = 0002:00043324
+    module index = 38
+    kind:          (data)
+  Name:  _Replay_ReplayGetPtr
+    address      = 0002:00043328
+    module index = 38
+    kind:          (data)
+  Name:  _Replay_ReplayInterface
+    address      = 0002:0004332C
+    module index = 38
+    kind:          (data)
+  Name:  Replay_Compress_
+    address      = 0001:0003E3E8
+    module index = 38
+    kind:          (code)
+  Name:  Replay_Decompress_
+    address      = 0001:0003E4E8
+    module index = 38
+    kind:          (code)
+  Name:  Replay_InitReplay_
+    address      = 0001:0003E5B1
+    module index = 38
+    kind:          (code)
+  Name:  Replay_ResetReplay_
+    address      = 0001:0003E623
+    module index = 38
+    kind:          (code)
+  Name:  Replay_StoringReplay_
+    address      = 0001:0003E770
+    module index = 38
+    kind:          (code)
+  Name:  Replay_StoringControllerData_
+    address      = 0001:0003E7B1
+    module index = 38
+    kind:          (code)
+  Name:  Replay_RetreivingControllerData_
+    address      = 0001:0003E905
+    module index = 38
+    kind:          (code)
+  Name:  Replay_SaveInput_
+    address      = 0001:0003EA61
+    module index = 38
+    kind:          (code)
+  Name:  Replay_GetInput_
+    address      = 0001:0003EB81
+    module index = 38
+    kind:          (code)
+  Name:  Replay_SaveReplay_
+    address      = 0001:0003ED30
+    module index = 38
+    kind:          (code)
+  Name:  Replay_LoadReplay_
+    address      = 0001:0003ED47
+    module index = 38
+    kind:          (code)
+  Name:  Replay_DoReplay_
+    address      = 0001:0003EDC3
+    module index = 38
+    kind:          (code)
+  Name:  Replay_GetInterfaceKey_
+    address      = 0001:0003EE0D
+    module index = 38
+    kind:          (code)
+  Name:  Replay_TrackEvents_
+    address      = 0001:0003F0CC
+    module index = 38
+    kind:          (code)
+  Name:  Replay_SetCamera_
+    address      = 0001:0003F0E6
+    module index = 38
+    kind:          (code)
+  Name:  Replay_ReplayChooseCamera_
+    address      = 0001:0003F1B1
+    module index = 38
+    kind:          (code)
+  Name:  _Replay_Size
+    address      = 0002:0000EDD0
+    module index = 38
+    kind:          (data)
+  Name:  _ReplayCameraList
+    address      = 0002:0000EDD4
+    module index = 38
+    kind:          (data)
+  Name:  _DirectorsCameraList
+    address      = 0002:0000EDF8
+    module index = 38
+    kind:          (data)
+  Name:  _Replay_ReplayMode
+    address      = 0002:00043348
+    module index = 38
+    kind:          (data)
+  Name:  _compressed_data
+    address      = 0002:0004334C
+    module index = 38
+    kind:          (data)

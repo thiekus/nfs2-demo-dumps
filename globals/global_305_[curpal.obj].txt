@@ -1,0 +1,4 @@
+  Name:  _currentpalette
+    address      = 0002:000550E0
+    module index = 305
+    kind:          (data)

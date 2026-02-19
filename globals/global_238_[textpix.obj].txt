@@ -1,0 +1,8 @@
+  Name:  _textnpixels
+    address      = 0001:0009BA10
+    module index = 238
+    kind:          (code)
+  Name:  _textpixels
+    address      = 0001:0009BA48
+    module index = 238
+    kind:          (code)

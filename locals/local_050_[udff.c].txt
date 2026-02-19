@@ -1,0 +1,145 @@
+ 50) Name:   C:\nfs2\game\common\udff.c
+     Language is C
+     Locals: num = 1, offset = 000000DAH
+     Types:  num = 1, offset = 00000276H
+     Lines:  num = 1, offset = 00000406H
+
+   *** Locals ***
+   ==============
+      Data 0:  offset 000149BC
+        0000: SET_BASE_386
+          base = 0001:00046561
+        0008: BLOCK_386
+          start off = 00000102, code size = 0000005F, parent off = 0029
+        0014: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "offset",  type = 16
+        001F: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "bytes",  type = 16
+        0029: NEAR_RTN_386
+          start off = 00000000, code size = 00000171, parent off = 0000
+          prologue size = 12,  epilogue size = 7
+          return address offset (from bp) = 00000010
+          return type:  47
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Name = "Udff_Opena"
+        004F: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "name",  type = 13
+        0058: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "mem",  type = 13
+        0060: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "abortFlag",  type = 9
+        006E: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "newHandle",  type = 46
+        007C: NEAR_RTN_386
+          start off = 00000171, code size = 0000004D, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  48
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Udff_Close"
+        009D: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "handle",  type = 46
+        00A8: NEAR_RTN_386
+          start off = 000001BE, code size = 0000005C, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  49
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Udff_GetInt"
+        00CB: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "handle",  type = 46
+        00D6: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "value",  type = 9
+        00E0: NEAR_RTN_386
+          start off = 0000021A, code size = 0000005B, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  50
+          return value: REG: AL
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Udff_GetChar"
+        0103: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "handle",  type = 46
+        010E: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "value",  type = 4
+        0118: NEAR_RTN_386
+          start off = 00000275, code size = 0000002B, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  51
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Name = "Udff_GetStr"
+        013C: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "handle",  type = 46
+        0147: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "string",  type = 13
+        0152: BLOCK_386
+          start off = 000002BD, code size = 00000067, parent off = 0179
+        015E: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "count",  type = 9
+        0168: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "done",  type = 9
+        0171: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "ptr",  type = 13
+        0179: NEAR_RTN_386
+          start off = 000002A0, code size = 0000008B, parent off = 0000
+          prologue size = 12,  epilogue size = 7
+          return address offset (from bp) = 00000010
+          return type:  52
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Name = "Udff_GetStrn"
+        01A0: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "handle",  type = 46
+        01AB: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "string",  type = 13
+        01B6: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "n",  type = 9
+        01BC: NEAR_RTN_386
+          start off = 0000032B, code size = 0000005F, parent off = 0000
+          prologue size = 12,  epilogue size = 7
+          return address offset (from bp) = 00000010
+          return type:  52
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Name = "Udff_GetBuffer"
+        01E5: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "handle",  type = 46
+        01F0: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "mem",  type = 13
+        01F8: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "size",  type = 9
+

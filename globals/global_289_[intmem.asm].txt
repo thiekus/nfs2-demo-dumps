@@ -1,0 +1,8 @@
+  Name:  intblockmove_
+    address      = 0001:000A2094
+    module index = 289
+    kind:          (code)
+  Name:  intmemcpy_
+    address      = 0001:000A2095
+    module index = 289
+    kind:          (code)

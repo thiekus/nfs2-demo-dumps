@@ -1,0 +1,168 @@
+  Name:  _roadSurfaceFrictionCoeff
+    address      = 0002:0000E5CC
+    module index = 33
+    kind:          (data)
+  Name:  _ReverseRoadSurfaceFrictionCoeff
+    address      = 0002:0000E5F4
+    module index = 33
+    kind:          (data)
+  Name:  _roadSurfaceIndex
+    address      = 0002:0000E61C
+    module index = 33
+    kind:          (data)
+  Name:  _roadSurfaceIndexSGGE
+    address      = 0002:0000E630
+    module index = 33
+    kind:          (data)
+  Name:  _MaxTurnAngle
+    address      = 0002:0000E644
+    module index = 33
+    kind:          (data)
+  Name:  _YawAssist
+    address      = 0002:0000E648
+    module index = 33
+    kind:          (data)
+  Name:  _gBrakeRatio
+    address      = 0002:0000E64C
+    module index = 33
+    kind:          (data)
+  Name:  _gGasRatio
+    address      = 0002:0000E650
+    module index = 33
+    kind:          (data)
+  Name:  _gSteerRatio
+    address      = 0002:0000E654
+    module index = 33
+    kind:          (data)
+  Name:  _currentWallType
+    address      = 0002:0000E658
+    module index = 33
+    kind:          (static pubdef) (data)
+  Name:  Physics_InitCarSpecs_
+    address      = 0001:00030546
+    module index = 33
+    kind:          (code)
+  Name:  Physics_CalculateDerivedCarSpecs_
+    address      = 0001:00030914
+    module index = 33
+    kind:          (code)
+  Name:  Physics_CalculateBarrierCollisionWidthOfCar_
+    address      = 0001:00030F11
+    module index = 33
+    kind:          (code)
+  Name:  Physics_AttenuateVelocity_
+    address      = 0001:00031188
+    module index = 33
+    kind:          (code)
+  Name:  Physics_SetCurrentWallType_
+    address      = 0001:00031693
+    module index = 33
+    kind:          (code)
+  Name:  Physics_GetTorque_
+    address      = 0001:000316B5
+    module index = 33
+    kind:          (code)
+  Name:  Physics_CorrectPostCollisionYaw_
+    address      = 0001:0003172F
+    module index = 33
+    kind:          (code)
+  Name:  Physics_DoBarrierCheck_
+    address      = 0001:00031B61
+    module index = 33
+    kind:          (code)
+  Name:  Physics_AutoShift_
+    address      = 0001:0003265C
+    module index = 33
+    kind:          (code)
+  Name:  Physics_RampCarControlValues_
+    address      = 0001:00032BFB
+    module index = 33
+    kind:          (code)
+  Name:  Physics_FixEngineRpm_
+    address      = 0001:000333F3
+    module index = 33
+    kind:          (code)
+  Name:  Physics_FakeEngineRpm_
+    address      = 0001:0003374C
+    module index = 33
+    kind:          (code)
+  Name:  Physics_ResetCar_
+    address      = 0001:0003386B
+    module index = 33
+    kind:          (code)
+  Name:  Physics_StopCar_
+    address      = 0001:0003399F
+    module index = 33
+    kind:          (code)
+  Name:  Physics_TestForBarrierCollision_
+    address      = 0001:00033A54
+    module index = 33
+    kind:          (code)
+  Name:  Physics_CalculateRoadGripModifiers_
+    address      = 0001:00033AB2
+    module index = 33
+    kind:          (code)
+  Name:  Physics_CalculateCarAcceleration_
+    address      = 0001:00033EAE
+    module index = 33
+    kind:          (code)
+  Name:  Physics_CalcWheelLockAcc_
+    address      = 0001:00034723
+    module index = 33
+    kind:          (code)
+  Name:  Physics_CalcTractionCircleAcc_
+    address      = 0001:000348BC
+    module index = 33
+    kind:          (code)
+  Name:  Physics_CalculateTireForces_
+    address      = 0001:00034CDC
+    module index = 33
+    kind:          (code)
+  Name:  Physics_Real_
+    address      = 0001:000356B3
+    module index = 33
+    kind:          (code)
+  Name:  Physics_SimCar_
+    address      = 0001:00036E37
+    module index = 33
+    kind:          (code)
+  Name:  Physics_Assist_
+    address      = 0001:00036EF7
+    module index = 33
+    kind:          (code)
+  Name:  Physics_FakeCarAcceleration_
+    address      = 0001:00037045
+    module index = 33
+    kind:          (code)
+  Name:  Physics_FakeSteering_
+    address      = 0001:000383C6
+    module index = 33
+    kind:          (code)
+  Name:  Physics_FakePowerOversteer_
+    address      = 0001:00038F67
+    module index = 33
+    kind:          (code)
+  Name:  Physics_Fake_
+    address      = 0001:00039AF9
+    module index = 33
+    kind:          (code)
+  Name:  _barrierEgg
+    address      = 0002:0000E65C
+    module index = 33
+    kind:          (data)
+  Name:  _roadMult
+    address      = 0002:00024470
+    module index = 33
+    kind:          (data)
+  Name:  _rearMult
+    address      = 0002:00024474
+    module index = 33
+    kind:          (data)
+  Name:  _frontMult
+    address      = 0002:00024478
+    module index = 33
+    kind:          (data)
+  Name:  _gravity_ch
+    address      = 0002:0002447C
+    module index = 33
+    kind:          (data)

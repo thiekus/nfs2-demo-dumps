@@ -1,0 +1,52 @@
+  Name:  _modemerrorresponse
+    address      = 0002:000135D4
+    module index = 183
+    kind:          (data)
+  Name:  _modem_systemtask
+    address      = 0001:000895F0
+    module index = 183
+    kind:          (static pubdef) (code)
+  Name:  modem_connect_
+    address      = 0001:00089664
+    module index = 183
+    kind:          (static pubdef) (code)
+  Name:  modem_disconnect_
+    address      = 0001:00089900
+    module index = 183
+    kind:          (static pubdef) (code)
+  Name:  modem_verify_
+    address      = 0001:00089944
+    module index = 183
+    kind:          (static pubdef) (code)
+  Name:  modem_capacity_
+    address      = 0001:00089990
+    module index = 183
+    kind:          (static pubdef) (code)
+  Name:  modem_available_
+    address      = 0001:000899A4
+    module index = 183
+    kind:          (static pubdef) (code)
+  Name:  modem_read_
+    address      = 0001:000899B8
+    module index = 183
+    kind:          (static pubdef) (code)
+  Name:  modem_write_
+    address      = 0001:000899D4
+    module index = 183
+    kind:          (static pubdef) (code)
+  Name:  _openmodemconnection
+    address      = 0001:000899E8
+    module index = 183
+    kind:          (code)
+  Name:  _hangup_port_flags
+    address      = 0002:000135D8
+    module index = 183
+    kind:          (static pubdef) (data)
+  Name:  _mdmfunctbl
+    address      = 0002:000135DC
+    module index = 183
+    kind:          (static pubdef) (data)
+  Name:  _modem_recvnotify
+    address      = 0002:00051804
+    module index = 183
+    kind:          (static pubdef) (data)

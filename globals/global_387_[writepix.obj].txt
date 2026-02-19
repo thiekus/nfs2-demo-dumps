@@ -1,0 +1,8 @@
+  Name:  _writepixel
+    address      = 0001:000B6790
+    module index = 387
+    kind:          (code)
+  Name:  _writepixelc
+    address      = 0001:000B6968
+    module index = 387
+    kind:          (code)

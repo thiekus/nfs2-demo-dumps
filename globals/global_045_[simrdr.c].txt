@@ -1,0 +1,48 @@
+  Name:  Sim_OpenSimFile_
+    address      = 0001:00044611
+    module index = 45
+    kind:          (code)
+  Name:  Sim_CloseSimFile_
+    address      = 0001:000446ED
+    module index = 45
+    kind:          (code)
+  Name:  Sim_GetFileSize_
+    address      = 0001:00044750
+    module index = 45
+    kind:          (code)
+  Name:  Sim_ReadFile_
+    address      = 0001:000447A8
+    module index = 45
+    kind:          (code)
+  Name:  Sim_GetNumSlices_
+    address      = 0001:0004482A
+    module index = 45
+    kind:          (code)
+  Name:  Sim_GetNumObjects_
+    address      = 0001:00044882
+    module index = 45
+    kind:          (code)
+  Name:  Sim_GetNumEdges_
+    address      = 0001:000448DA
+    module index = 45
+    kind:          (code)
+  Name:  Sim_GetSlices_
+    address      = 0001:00044932
+    module index = 45
+    kind:          (code)
+  Name:  Sim_GetObjects_
+    address      = 0001:00044955
+    module index = 45
+    kind:          (code)
+  Name:  Sim_GetEdges_
+    address      = 0001:00044988
+    module index = 45
+    kind:          (code)
+  Name:  _sSimFileHeader
+    address      = 0002:000449C4
+    module index = 45
+    kind:          (static pubdef) (data)
+  Name:  _sSimHandle
+    address      = 0002:000449DC
+    module index = 45
+    kind:          (static pubdef) (data)

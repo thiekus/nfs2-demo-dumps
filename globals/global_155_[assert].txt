@@ -1,0 +1,4 @@
+  Name:  __assert_
+    address      = 0001:000851BC
+    module index = 155
+    kind:          (code)

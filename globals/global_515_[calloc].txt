@@ -1,0 +1,4 @@
+  Name:  calloc_
+    address      = 0001:000C1DBC
+    module index = 515
+    kind:          (code)

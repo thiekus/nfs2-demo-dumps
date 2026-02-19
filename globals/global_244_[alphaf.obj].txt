@@ -1,0 +1,48 @@
+  Name:  alphamove4_
+    address      = 0001:0009C3A0
+    module index = 244
+    kind:          (static pubdef) (code)
+  Name:  alphamove8_
+    address      = 0001:0009C3A4
+    module index = 244
+    kind:          (static pubdef) (code)
+  Name:  alphamove15_
+    address      = 0001:0009C49C
+    module index = 244
+    kind:          (static pubdef) (code)
+  Name:  alphamove16_
+    address      = 0001:0009C538
+    module index = 244
+    kind:          (static pubdef) (code)
+  Name:  alphamove24_
+    address      = 0001:0009C5C8
+    module index = 244
+    kind:          (static pubdef) (code)
+  Name:  alphamove32_
+    address      = 0001:0009C674
+    module index = 244
+    kind:          (static pubdef) (code)
+  Name:  alphamove8to16_
+    address      = 0001:0009C758
+    module index = 244
+    kind:          (static pubdef) (code)
+  Name:  _alphafxya
+    address      = 0001:0009C7D8
+    module index = 244
+    kind:          (code)
+  Name:  _alphaf
+    address      = 0001:0009C860
+    module index = 244
+    kind:          (code)
+  Name:  _alphafxy
+    address      = 0001:0009C87C
+    module index = 244
+    kind:          (code)
+  Name:  _alphafdfl
+    address      = 0002:00013B8C
+    module index = 244
+    kind:          (static pubdef) (data)
+  Name:  _alphaclutptr
+    address      = 0002:00053A08
+    module index = 244
+    kind:          (static pubdef) (data)

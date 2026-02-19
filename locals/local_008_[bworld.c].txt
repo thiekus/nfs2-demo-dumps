@@ -1,0 +1,1577 @@
+  8) Name:   C:\nfs2\game\common\bworld.c
+     Language is C
+     Locals: num = 1, offset = 00000032H
+     Types:  num = 1, offset = 000001CEH
+     Lines:  num = 1, offset = 00000366H
+
+   *** Locals ***
+   ==============
+      Data 0:  offset 00005AA7
+        0000: MODULE_386
+          "pObjDefs" addr = 0002:0001CA18,  type = 367
+        0012: MODULE_386
+          "gVertex3d" addr = 0002:0001CC18,  type = 371
+        0025: MODULE_386
+          "gLines" addr = 0002:0001DED8,  type = 384
+        0035: MODULE_386
+          "gRezContexts" addr = 0002:0000C484,  type = 389
+        004B: MODULE_386
+          "gMomentArt" addr = 0002:0001F4B8,  type = 400
+        005F: MODULE_386
+          "gContextMan" addr = 0002:0001F500,  type = 439
+        0074: MODULE_386
+          "gSimObjStatus" addr = 0002:0001F808,  type = 442
+        008B: MODULE_386
+          "gMaterialLists" addr = 0002:0001FB08,  type = 444
+        00A3: MODULE_386
+          "gBWViewDistInd" addr = 0002:00022D08,  type = 9
+        00BA: MODULE_386
+          "per_File" addr = 0002:00022D0C,  type = 53
+        00CB: MODULE_386
+          "gVertexCount" addr = 0002:0000C4B4,  type = 9
+        00E0: MODULE_386
+          "gCurrContext" addr = 0002:00022D10,  type = 445
+        00F6: MODULE_386
+          "gtrackNumber" addr = 0002:00022D14,  type = 9
+        010B: MODULE_386
+          "stmMetaChunkBuf" addr = 0002:00022D18,  type = 12
+        0123: MODULE_386
+          "gChunkQueued" addr = 0002:00022D1C,  type = 9
+        0138: MODULE_386
+          "gPersistSortOffset" addr = 0002:00022D20,  type = 9
+        0153: MODULE_386
+          "BWorld_initializedFlag" addr = 0002:00022D24,  type = 9
+        0172: MODULE_386
+          "gBWSlice" addr = 0002:00022D28,  type = 9
+        0183: MODULE_386
+          "gPersistObjInst" addr = 0002:00022D2C,  type = 449
+        019C: MODULE_386
+          "quadLoopPtr" addr = 0002:00022D30,  type = 450
+        01B1: MODULE_386
+          "gBWRemapID" addr = 0002:00022D34,  type = 9
+        01C4: MODULE_386
+          "gPersistObjDef" addr = 0002:00022D38,  type = 449
+        01DC: MODULE_386
+          "gInitialArt" addr = 0002:00022D3C,  type = 399
+        01F1: MODULE_386
+          "gMats" addr = 0002:00022D60,  type = 434
+        0200: MODULE_386
+          "gMatCount" addr = 0002:00022D64,  type = 9
+        0212: MODULE_386
+          "gStmHandle" addr = 0002:00022D68,  type = 9
+        0225: MODULE_386
+          "gMaxChunkInd" addr = 0002:00022D6C,  type = 9
+        023A: MODULE_386
+          "chunkList" addr = 0002:00022D70,  type = 467
+        024D: SET_BASE_386
+          base = 0001:00010E12
+        0255: NEAR_RTN_386
+          start off = 00000000, code size = 0000003A, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  468
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Name = "VertexServer_GetBlockOfVertices"
+        028D: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "count",  type = 9
+        0297: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "ret",  type = 380
+        02A0: NEAR_RTN_386
+          start off = 0000003A, code size = 00000084, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  469
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Name = "GetRezIndex"
+        02C4: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "dist",  type = 9
+        02CD: NEAR_RTN_386
+          start off = 000000BE, code size = 00000022, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  470
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "BWorld_SetTrackNumber"
+        02FA: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "tracknum",  type = 9
+        0307: NEAR_RTN_386
+          start off = 000000E0, code size = 00000048, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  471
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Name = "BWorld_MakeTrackPathName"
+        0338: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "ext",  type = 12
+        0340: LOCAL
+          address: CONST_ADDR386( 0002:00022D74 )
+          name = "strspc",  type = 472
+        0351: NEAR_RTN_386
+          start off = 00000128, code size = 00000048, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  471
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Name = "BWorld_MakeTrackDataPathName"
+        0386: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "ext",  type = 12
+        038E: LOCAL
+          address: CONST_ADDR386( 0002:00022DB4 )
+          name = "strspc",  type = 473
+        039F: NEAR_RTN_386
+          start off = 00000170, code size = 0000006D, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  475
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Name = "xzsquaredist32"
+        03C8: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "c1",  type = 474
+        03D0: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "c2",  type = 474
+        03D8: NEAR_RTN_386
+          start off = 000001DD, code size = 0000004B, parent off = 0000
+          prologue size = 12,  epilogue size = 7
+          return address offset (from bp) = 00000010
+          return type:  477
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Name = "inset"
+        03FA: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "item",  type = 7
+        0403: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "itemlist",  type = 476
+        0411: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "length",  type = 9
+        041C: NEAR_RTN_386
+          start off = 00000228, code size = 00000032, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  478
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Name = "Brad_getitmcoll"
+        0446: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "lpChunk",  type = 353
+        0453: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "type",  type = 9
+        045C: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "ret",  type = 449
+        0465: NEAR_RTN_386
+          start off = 0000025A, code size = 000000DD, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  331
+          return value: <none>
+          Name = "BWorld_Restart"
+        0489: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "i",  type = 9
+        048F: BLOCK_386
+          start off = 0000044B, code size = 000000C5, parent off = 04E2
+        049B: LOCAL
+          address: BP_OFFSET_BYTE( 8C )
+          name = "tmpFilePtr",  type = 12
+        04AA: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "fileSize",  type = 46
+        04B7: LOCAL
+          address: BP_OFFSET_BYTE( 80 )
+          name = "handle",  type = 9
+        04C2: LOCAL
+          address: BP_OFFSET_BYTE( 84 )
+          name = "offset",  type = 46
+        04CD: LOCAL
+          address: BP_OFFSET_BYTE( 88 )
+          name = "dummy",  type = 46
+        04D7: LOCAL
+          address: BP_OFFSET_BYTE( 90 )
+          name = "fpath",  type = 479
+        04E2: NEAR_RTN_386
+          start off = 00000337, code size = 0000030B, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  331
+          return value: <none>
+          Name = "BWorld_Init"
+        0503: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "i",  type = 9
+        0509: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "size",  type = 9
+        0512: NEAR_RTN_386
+          start off = 00000642, code size = 00000064, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  331
+          return value: <none>
+          Name = "BWorld_DeInit"
+        0535: NEAR_RTN_386
+          start off = 000006A6, code size = 00000053, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  469
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Name = "ForceLoadChunk"
+        055C: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "desiredChunkInd",  type = 9
+        0570: NEAR_RTN_386
+          start off = 000006F9, code size = 000000AB, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  469
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Name = "QueueChunk"
+        0593: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "desiredChunkInd",  type = 9
+        05A7: BLOCK_386
+          start off = 00000804, code size = 000000A0, parent off = 05D3
+        05B3: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "chunk",  type = 9
+        05BD: BLOCK_386
+          start off = 000008C3, code size = 0000008C, parent off = 05D3
+        05C9: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "chunk",  type = 9
+        05D3: NEAR_RTN_386
+          start off = 000007A4, code size = 000001C3, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  480
+          return value: MULTI_REG(1): EAX
+          Name = "GetFreeSlot"
+        05F5: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "slot",  type = 9
+        05FE: BLOCK_386
+          start off = 00000C42, code size = 00000161, parent off = 0614
+        060A: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "geom",  type = 459
+        0614: NEAR_RTN_386
+          start off = 00000967, code size = 000004D4, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  331
+          return value: <none>
+          Name = "LoadChunkFromBuffer"
+        063D: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "freeSlot",  type = 9
+        064A: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "numChunks",  type = 9
+        0658: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "index",  type = 9
+        0662: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "chunkInd",  type = 9
+        066F: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "pChunk",  type = 353
+        067B: NEAR_RTN_386
+          start off = 00000E3B, code size = 0000003E, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  481
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Name = "LoadChunkAudio"
+        06A3: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "chunkPtr",  type = 353
+        06B1: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "chunkInd",  type = 9
+        06BE: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "itemPtr",  type = 449
+        06CB: NEAR_RTN_386
+          start off = 00000E79, code size = 0000005F, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  482
+          return value: <none>
+          Name = "QueueWantedChunks"
+        06F2: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "chunkInd",  type = 9
+        06FF: NEAR_RTN_386
+          start off = 00000ED8, code size = 000000A3, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  331
+          return value: <none>
+          Name = "UnLoadUnWantedChunks"
+        0729: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "chunkInd",  type = 9
+        0736: NEAR_RTN_386
+          start off = 00000F7B, code size = 00000042, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  331
+          return value: <none>
+          Name = "ClearAllChunksStatus"
+        0760: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "i",  type = 9
+        0766: NEAR_RTN_386
+          start off = 00000FBD, code size = 000000B6, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  494
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Name = "UpdateContext"
+        078D: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "Vi",  type = 493
+        0795: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "contextHandle",  type = 9
+        07A7: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "sliceChanged",  type = 9
+        07B8: BLOCK_386
+          start off = 000011B0, code size = 00000412, parent off = 07E1
+        07C4: LOCAL
+          address: BP_OFFSET_BYTE( CC )
+          name = "vecH",  type = 498
+        07CE: LOCAL
+          address: BP_OFFSET_BYTE( C4 )
+          name = "vecV",  type = 497
+        07D8: LOCAL
+          address: BP_OFFSET_BYTE( C8 )
+          name = "pts",  type = 499
+        07E1: BLOCK_386
+          start off = 000010D6, code size = 000004F1, parent off = 0872
+        07ED: LOCAL
+          address: BP_OFFSET_BYTE( D8 )
+          name = "i",  type = 9
+        07F3: LOCAL
+          address: BP_OFFSET_BYTE( D0 )
+          name = "cpOff",  type = 370
+        07FE: LOCAL
+          address: BP_OFFSET_BYTE( DC )
+          name = "lineQuad",  type = 503
+        080C: LOCAL
+          address: BP_OFFSET_BYTE( E0 )
+          name = "slice",  type = 9
+        0816: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "linkPtsCount",  type = 9
+        0827: BLOCK_386
+          start off = 000015E7, code size = 0000014F, parent off = 0872
+        0833: LOCAL
+          address: BP_OFFSET_BYTE( C0 )
+          name = "lineQuadCount",  type = 9
+        0845: LOCAL
+          address: BP_OFFSET_BYTE( BC )
+          name = "facetCount",  type = 9
+        0854: LOCAL
+          address: BP_OFFSET_BYTE( B8 )
+          name = "lineQuad",  type = 503
+        0862: LOCAL
+          address: BP_OFFSET_BYTE( B4 )
+          name = "trackQuads",  type = 408
+        0872: NEAR_RTN_386
+          start off = 00001073, code size = 000006CB, parent off = 0000
+          prologue size = 11,  epilogue size = 8
+          return address offset (from bp) = 0000000C
+          return type:  504
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Parm 3: MULTI_REG(1): ECX
+          Name = "BuildChunkCenterLineFacets"
+        08AA: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "chunkSlot",  type = 9
+        08B8: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "chunkCp",  type = 474
+        08C5: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "nextChunkCp",  type = 474
+        08D6: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "wpts",  type = 499
+        08E0: LOCAL
+          address: BP_OFFSET_BYTE( 10 )
+          name = "tpts",  type = 380
+        08EA: LOCAL
+          address: BP_OFFSET_BYTE( 14 )
+          name = "Vi",  type = 493
+        08F2: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "itemPtr",  type = 449
+        08FF: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "vertices",  type = 380
+        090D: BLOCK_386
+          start off = 00001778, code size = 0000024C, parent off = 0921
+        0919: LOCAL
+          address: BP_OFFSET_BYTE( D8 )
+          name = "pts",  type = 96
+        0921: NEAR_RTN_386
+          start off = 0000173E, code size = 0000029C, parent off = 0000
+          prologue size = 11,  epilogue size = 8
+          return address offset (from bp) = 0000000C
+          return type:  516
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Parm 3: MULTI_REG(1): ECX
+          Name = "QuadLoop"
+        0948: LOCAL
+          address: BP_OFFSET_BYTE( DC )
+          name = "numQuads",  type = 9
+        0955: LOCAL
+          address: BP_OFFSET_BYTE( E0 )
+          name = "pquad",  type = 408
+        0960: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "f",  type = 515
+        0967: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "vertices",  type = 380
+        0975: LOCAL
+          address: BP_OFFSET_BYTE( 10 )
+          name = "subDivQuality",  type = 9
+        0987: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "i",  type = 9
+        098D: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "mat",  type = 434
+        0996: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "flag",  type = 4
+        099F: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "facetCount",  type = 9
+        09AE: NEAR_RTN_386
+          start off = 000019DA, code size = 00000038, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  331
+          return value: <none>
+          Name = "BWorld_StartLoop"
+        09D4: NEAR_RTN_386
+          start off = 00001A12, code size = 000000BB, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  522
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Name = "BWorld_BuildFacetList"
+        0A03: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "Vi",  type = 493
+        0A0B: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "facetLists",  type = 521
+        0A1B: NEAR_RTN_386
+          start off = 00001ACD, code size = 00000090, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  523
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "BWorld_InsertFacet"
+        0A45: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "Vi",  type = 493
+        0A4D: LOCAL
+          address: BP_OFFSET_BYTE( DC )
+          name = "facetLists",  type = 524
+        0A5D: NEAR_RTN_386
+          start off = 00001B5D, code size = 0000010F, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  523
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "BWorld_SoundTrack"
+        0A86: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "Vi",  type = 493
+        0A8E: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "viewInd",  type = 9
+        0A9A: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "slotInd",  type = 9
+        0AA6: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "playedContinuousSound",  type = 9
+        0AC0: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "chunkViewList",  type = 476
+        0AD3: BLOCK_386
+          start off = 00001DD7, code size = 000000BB, parent off = 0BA8
+        0ADF: LOCAL
+          address: BP_OFFSET_WORD( 001C )
+          name = "tmpPts",  type = 525
+        0AEC: BLOCK_386
+          start off = 00002076, code size = 000000D1, parent off = 0B1A
+        0AF8: LOCAL
+          address: BP_OFFSET_WORD( 00E8 )
+          name = "count",  type = 9
+        0B03: BLOCK_386
+          start off = 00002155, code size = 0000009C, parent off = 0B1A
+        0B0F: LOCAL
+          address: BP_OFFSET_WORD( 00E4 )
+          name = "count",  type = 9
+        0B1A: BLOCK_386
+          start off = 00001F49, code size = 000002E8, parent off = 0BA8
+        0B26: LOCAL
+          address: BP_OFFSET_WORD( 00F8 )
+          name = "geom",  type = 459
+        0B31: LOCAL
+          address: BP_OFFSET_WORD( 00F4 )
+          name = "vertexCount",  type = 9
+        0B42: LOCAL
+          address: BP_OFFSET_WORD( 00F0 )
+          name = "linkPtsCount",  type = 9
+        0B54: LOCAL
+          address: BP_OFFSET_WORD( 00EC )
+          name = "vertices",  type = 380
+        0B63: BLOCK_386
+          start off = 00002249, code size = 00000054, parent off = 0BA8
+        0B6F: LOCAL
+          address: BP_OFFSET_WORD( 00E0 )
+          name = "count",  type = 9
+        0B7A: BLOCK_386
+          start off = 000022B5, code size = 00000054, parent off = 0BA8
+        0B86: LOCAL
+          address: BP_OFFSET_WORD( 00DC )
+          name = "count",  type = 9
+        0B91: BLOCK_386
+          start off = 00002321, code size = 00000054, parent off = 0BA8
+        0B9D: LOCAL
+          address: BP_OFFSET_WORD( 00D8 )
+          name = "count",  type = 9
+        0BA8: BLOCK_386
+          start off = 00001D42, code size = 00000633, parent off = 0C2B
+        0BB4: LOCAL
+          address: BP_OFFSET_BYTE( 9C )
+          name = "chunkDist",  type = 9
+        0BC2: LOCAL
+          address: BP_OFFSET_WORD( 0014 )
+          name = "geomRez",  type = 9
+        0BCF: LOCAL
+          address: BP_OFFSET_WORD( 0018 )
+          name = "rezContext",  type = 526
+        0BE0: LOCAL
+          address: BP_OFFSET_WORD( 00FC )
+          name = "nextRezContext",  type = 526
+        0BF5: LOCAL
+          address: BP_OFFSET_BYTE( A0 )
+          name = "chunkcp",  type = 403
+        0C02: LOCAL
+          address: BP_OFFSET_WORD( 0008 )
+          name = "nextChunkcp",  type = 403
+        0C14: BLOCK_386
+          start off = 00002383, code size = 00000049, parent off = 0C2B
+        0C20: LOCAL
+          address: BP_OFFSET_WORD( 00D4 )
+          name = "count",  type = 9
+        0C2B: NEAR_RTN_386
+          start off = 00001C6C, code size = 00000816, parent off = 0000
+          prologue size = 12,  epilogue size = 7
+          return address offset (from bp) = 00000010
+          return type:  527
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Name = "BuildFacets"
+        0C52: LOCAL
+          address: BP_OFFSET_BYTE( D4 )
+          name = "Vi",  type = 493
+        0C5A: LOCAL
+          address: BP_OFFSET_BYTE( D0 )
+          name = "chunkViewList",  type = 476
+        0C6D: LOCAL
+          address: BP_OFFSET_BYTE( CC )
+          name = "facetLists",  type = 521
+        0C7D: LOCAL
+          address: BP_OFFSET_BYTE( BC )
+          name = "f",  type = 528
+        0C84: LOCAL
+          address: BP_OFFSET_BYTE( AC )
+          name = "startFacet",  type = 529
+        0C94: LOCAL
+          address: BP_OFFSET_BYTE( D8 )
+          name = "nextF",  type = 515
+        0C9F: LOCAL
+          address: BP_OFFSET_BYTE( DC )
+          name = "testF",  type = 515
+        0CAA: LOCAL
+          address: BP_OFFSET_BYTE( E0 )
+          name = "rawTotalQuadCount",  type = 9
+        0CC0: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "rawObjQuadCount",  type = 9
+        0CD4: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "rawWorldQuadCount",  type = 9
+        0CEA: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "slotInd",  type = 9
+        0CF6: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "chunkInd",  type = 9
+        0D03: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "viewInd",  type = 9
+        0D0F: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "chunkCount",  type = 9
+        0D1E: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "i",  type = 9
+        0D24: BLOCK_386
+          start off = 00002514, code size = 000000AC, parent off = 0E0B
+        0D30: LOCAL
+          address: BP_OFFSET_BYTE( 98 )
+          name = "matrix",  type = 486
+        0D3C: LOCAL
+          address: BP_OFFSET_BYTE( BC )
+          name = "objAnimInstance",  type = 533
+        0D51: BLOCK_386
+          start off = 000026F4, code size = 000000D0, parent off = 0D77
+        0D5D: LOCAL
+          address: BP_OFFSET_WORD( 0054 )
+          name = "frame",  type = 9
+        0D68: LOCAL
+          address: BP_OFFSET_WORD( 0058 )
+          name = "numFrames",  type = 9
+        0D77: BLOCK_386
+          start off = 000025D2, code size = 000001F2, parent off = 0E0B
+        0D83: LOCAL
+          address: BP_OFFSET_WORD( 0068 )
+          name = "matrix",  type = 486
+        0D90: LOCAL
+          address: BP_OFFSET_BYTE( 90 )
+          name = "objCollideInstance",  type = 537
+        0DA8: LOCAL
+          address: BP_OFFSET_BYTE( 8C )
+          name = "simObj",  type = 542
+        0DB4: LOCAL
+          address: BP_OFFSET_WORD( 005C )
+          name = "animcp",  type = 403
+        0DC1: LOCAL
+          address: BP_OFFSET_BYTE( 94 )
+          name = "objStatus",  type = 543
+        0DD0: BLOCK_386
+          start off = 000027D6, code size = 000000C2, parent off = 0E0B
+        0DDC: LOCAL
+          address: BP_OFFSET_WORD( 0050 )
+          name = "objSimpleInstance",  type = 547
+        0DF4: BLOCK_386
+          start off = 000028AD, code size = 000000A6, parent off = 0E0B
+        0E00: LOCAL
+          address: BP_OFFSET_WORD( 004C )
+          name = "count",  type = 9
+        0E0B: NEAR_RTN_386
+          start off = 00002482, code size = 000004FD, parent off = 0000
+          prologue size = 11,  epilogue size = 8
+          return address offset (from bp) = 0000000C
+          return type:  549
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Parm 3: MULTI_REG(1): ECX
+          Name = "BuildObjectFacets"
+        0E3B: LOCAL
+          address: BP_OFFSET_BYTE( D0 )
+          name = "Vi",  type = 493
+        0E43: LOCAL
+          address: BP_OFFSET_BYTE( CC )
+          name = "facets",  type = 548
+        0E4F: LOCAL
+          address: BP_OFFSET_BYTE( D8 )
+          name = "startFacet",  type = 548
+        0E5F: LOCAL
+          address: BP_OFFSET_BYTE( D4 )
+          name = "slot",  type = 9
+        0E68: LOCAL
+          address: BP_OFFSET_BYTE( 10 )
+          name = "itemPtr",  type = 449
+        0E75: LOCAL
+          address: BP_OFFSET_BYTE( 14 )
+          name = "defItemPtr",  type = 449
+        0E85: LOCAL
+          address: BP_OFFSET_BYTE( 18 )
+          name = "zClip",  type = 9
+        0E8F: LOCAL
+          address: BP_OFFSET_BYTE( DC )
+          name = "f",  type = 515
+        0E96: LOCAL
+          address: BP_OFFSET_BYTE( E0 )
+          name = "nextF",  type = 515
+        0EA1: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "objInstance",  type = 547
+        0EB2: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "objDef",  type = 366
+        0EBE: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "numObjects",  type = 9
+        0ECD: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "totalCount",  type = 9
+        0EDC: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "defIndex",  type = 9
+        0EE9: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "vertices",  type = 380
+        0EF7: LOCAL
+          address: BP_OFFSET_BYTE( C0 )
+          name = "objcp",  type = 403
+        0F02: BLOCK_386
+          start off = 000029E1, code size = 00000054, parent off = 0F18
+        0F0E: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "chunk",  type = 9
+        0F18: BLOCK_386
+          start off = 000029B3, code size = 000000BA, parent off = 0F3E
+        0F24: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "i",  type = 9
+        0F2A: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "data",  type = 476
+        0F34: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "count",  type = 9
+        0F3E: NEAR_RTN_386
+          start off = 0000297F, code size = 000000F6, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  550
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Name = "LoadChunkVisibilities"
+        0F6D: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "chunkSlot",  type = 9
+        0F7B: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "chunkInd",  type = 9
+        0F88: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "itemPtr",  type = 449
+        0F95: BLOCK_386
+          start off = 00002B0B, code size = 0000002B, parent off = 0FCE
+        0FA1: LOCAL
+          address: BP_OFFSET_BYTE( CC )
+          name = "panx",  type = 9
+        0FAA: LOCAL
+          address: BP_OFFSET_BYTE( D0 )
+          name = "pany",  type = 9
+        0FB3: BLOCK_386
+          start off = 00002B4C, code size = 00000051, parent off = 0FCE
+        0FBF: LOCAL
+          address: CONST_ADDR386( 0002:0000C4B8 )
+          name = "rands",  type = 9
+        0FCE: NEAR_RTN_386
+          start off = 00002A75, code size = 0000016D, parent off = 0000
+          prologue size = 12,  epilogue size = 7
+          return address offset (from bp) = 00000010
+          return type:  551
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Name = "DoChunkAudio"
+        0FF7: LOCAL
+          address: BP_OFFSET_BYTE( DC )
+          name = "Vi",  type = 493
+        0FFF: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "itemPtr",  type = 449
+        100C: LOCAL
+          address: BP_OFFSET_BYTE( E0 )
+          name = "playedSound",  type = 9
+        101C: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "dist",  type = 9
+        1025: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "distSq",  type = 9
+        1030: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "invDistSq",  type = 9
+        103E: LOCAL
+          address: BP_OFFSET_BYTE( D4 )
+          name = "pan",  type = 376
+        1047: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "azim",  type = 9
+        1050: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "sPt",  type = 556
+        1059: NEAR_RTN_386
+          start off = 00002BE2, code size = 00000065, parent off = 0000
+          prologue size = 12,  epilogue size = 7
+          return address offset (from bp) = 00000010
+          return type:  557
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Name = "BWAllocMem"
+        1080: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "name",  type = 12
+        1089: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "size",  type = 46
+        1092: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "type",  type = 9
+        109B: LOCAL
+          address: CONST_ADDR386( 0002:0000C4BC )
+          name = "totalMem",  type = 9
+        10AD: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "mem",  type = 12
+        10B5: NEAR_RTN_386
+          start off = 00002C47, code size = 00000022, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  558
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "BWFreeMem"
+        10D6: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "mem",  type = 12
+        10DE: NEAR_RTN_386
+          start off = 00002C69, code size = 00000026, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  558
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "BWFreeEACMem"
+        1102: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "mem",  type = 12
+        110A: NEAR_RTN_386
+          start off = 00002C8F, code size = 00000050, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  559
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Name = "AllocArtResource"
+        1134: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "artRes",  type = 427
+        1140: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "numPmx",  type = 9
+        114B: NEAR_RTN_386
+          start off = 00002CDF, code size = 00000024, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  331
+          return value: <none>
+          Name = "InitArtResources"
+        1171: NEAR_RTN_386
+          start off = 00002D03, code size = 0000001F, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  331
+          return value: <none>
+          Name = "DeInitArtResources"
+        1199: NEAR_RTN_386
+          start off = 00002D22, code size = 0000010B, parent off = 0000
+          prologue size = 11,  epilogue size = 8
+          return address offset (from bp) = 0000000C
+          return type:  560
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Parm 3: MULTI_REG(1): ECX
+          Name = "LoadShapesAndMakePmx"
+        11CB: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "shapefile",  type = 12
+        11D9: LOCAL
+          address: BP_OFFSET_BYTE( E0 )
+          name = "pmxList",  type = 397
+        11E6: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "palHandle",  type = 9
+        11F4: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "x",  type = 9
+        11FA: LOCAL
+          address: BP_OFFSET_BYTE( 10 )
+          name = "y",  type = 9
+        1200: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "i",  type = 9
+        1206: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "shape",  type = 393
+        1211: LOCAL
+          address: BP_OFFSET_WORD( 00A0 )
+          name = "clutLoaded",  type = 561
+        1222: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "pPmx",  type = 397
+        122C: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "hasSharedCluts",  type = 9
+        123F: NEAR_RTN_386
+          start off = 00002E2D, code size = 0000006E, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  331
+          return value: <none>
+          Name = "BWorld_ModuleRegister"
+        126A: LOCAL
+          address: BP_OFFSET_BYTE( 80 )
+          name = "fname",  type = 562
+        1275: NEAR_RTN_386
+          start off = 00002E9B, code size = 000000A2, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  558
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "LoadInitialTextures"
+        12A0: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "fname",  type = 12
+        12AA: NEAR_RTN_386
+          start off = 00002F3D, code size = 0000006D, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  563
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Name = "LinkMaterials"
+        12D1: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "itemPtr",  type = 449
+        12DE: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "matList",  type = 434
+        12EB: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "mats",  type = 431
+        12F5: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "i",  type = 9
+        12FB: BLOCK_386
+          start off = 0000301F, code size = 000001B5, parent off = 1329
+        1307: LOCAL
+          address: BP_OFFSET_BYTE( C8 )
+          name = "newPmx",  type = 396
+        1313: LOCAL
+          address: BP_OFFSET_BYTE( D4 )
+          name = "nextPmx",  type = 397
+        1320: LOCAL
+          address: BP_OFFSET_BYTE( D8 )
+          name = "pmx",  type = 397
+        1329: BLOCK_386
+          start off = 00002FE7, code size = 000001F2, parent off = 133E
+        1335: LOCAL
+          address: BP_OFFSET_BYTE( DC )
+          name = "mat",  type = 431
+        133E: NEAR_RTN_386
+          start off = 00002FAA, code size = 0000023B, parent off = 0000
+          prologue size = 12,  epilogue size = 7
+          return address offset (from bp) = 00000010
+          return type:  564
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Name = "AssociateMaterialPmx"
+        136E: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "materialList",  type = 434
+        1380: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "matCount",  type = 9
+        138D: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "art",  type = 427
+        1396: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "matInd",  type = 9
+        13A1: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "animCount",  type = 9
+        13AF: LOCAL
+          address: BP_OFFSET_BYTE( E0 )
+          name = "tmpPmx",  type = 396
+        13BB: NEAR_RTN_386
+          start off = 000031E5, code size = 0000001A, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  331
+          return value: <none>
+          Name = "BWorld_DeInitContexts"
+        13E6: NEAR_RTN_386
+          start off = 000031FF, code size = 00000055, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  331
+          return value: <none>
+          Name = "BWorld_InitContexts"
+        140F: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "i",  type = 9
+        1415: NEAR_RTN_386
+          start off = 00003254, code size = 00000061, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  470
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "SetContext"
+        1437: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "contextHandle",  type = 9
+        1449: NEAR_RTN_386
+          start off = 000032B5, code size = 000002D2, parent off = 0000
+          prologue size = 11,  epilogue size = 6
+          return address offset (from bp) = 0000000C
+          return type:  565
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Parm 3: MULTI_REG(1): ECX
+          Name = "BWorld_OpenContext"
+        147A: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "contextType",  type = 9
+        148A: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "client",  type = 9
+        1495: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "artRes",  type = 427
+        14A1: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "matList",  type = 434
+        14AE: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "context",  type = 445
+        14BB: NEAR_RTN_386
+          start off = 00003587, code size = 000000BD, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  566
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Name = "CheckContextMaxChunks"
+        14EB: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "chunkCount",  type = 9
+        14FA: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "quadCount",  type = 9
+        1508: BLOCK_386
+          start off = 0000370C, code size = 00000079, parent off = 1521
+        1514: LOCAL
+          address: BP_OFFSET_BYTE( E0 )
+          name = "itemPtr",  type = 449
+        1521: BLOCK_386
+          start off = 000036E5, code size = 000000A5, parent off = 1540
+        152D: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "numCollections",  type = 9
+        1540: NEAR_RTN_386
+          start off = 00003644, code size = 00000157, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  558
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "BWorld_InitPersistentData"
+        1571: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "name",  type = 12
+        157A: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "per_Handle",  type = 9
+        1589: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "i",  type = 9
+        158F: NEAR_RTN_386
+          start off = 0000379B, code size = 00000028, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  331
+          return value: <none>
+          Name = "BWorld_DeInitPersistentData"
+        15C0: NEAR_RTN_386
+          start off = 000037C3, code size = 0000005A, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  331
+          return value: <none>
+          Name = "BWorld_InitHitObject"
+        15EA: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "i",  type = 9
+        15F0: NEAR_RTN_386
+          start off = 0000381D, code size = 000001EF, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  576
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Name = "BWorld_CheckHitObject"
+        1620: LOCAL
+          address: BP_OFFSET_BYTE( DC )
+          name = "N",  type = 575
+        1627: LOCAL
+          address: BP_OFFSET_BYTE( E0 )
+          name = "objInd",  type = 9
+        1632: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "slicePos",  type = 577
+        1640: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "simObjs",  type = 542
+        164D: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "objStatus",  type = 543
+        165C: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "vel",  type = 9
+        1664: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "velLimit",  type = 9
+        1671: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "ret",  type = 9
+        1679: NEAR_RTN_386
+          start off = 00003A0C, code size = 00000063, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  578
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Name = "CalcObjYawAngle"
+        16A1: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "pts",  type = 499
+        16AA: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "x",  type = 9
+        16B0: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "z",  type = 9
+        16B6: NEAR_RTN_386
+          start off = 00003A6F, code size = 000000A1, parent off = 0000
+          prologue size = 11,  epilogue size = 6
+          return address offset (from bp) = 0000000C
+          return type:  580
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Parm 3: MULTI_REG(1): ECX
+          Name = "BuildObjCollisionMatrix"
+        16EB: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "weight",  type = 9
+        16F6: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "objAngle",  type = 9
+        1703: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "impactAngle",  type = 9
+        1713: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "mat",  type = 579
+        171C: LOCAL
+          address: BP_OFFSET_WORD( 007C )
+          name = "impactMat",  type = 486
+        172C: LOCAL
+          address: BP_OFFSET_BYTE( A0 )
+          name = "objAngleMat",  type = 486
+        173D: LOCAL
+          address: BP_OFFSET_BYTE( C4 )
+          name = "tmpMat",  type = 486
+        1749: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "angle",  type = 9
+        1753: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "one_weight",  type = 9
+        1762: NEAR_RTN_386
+          start off = 00003B10, code size = 00000077, parent off = 0000
+          prologue size = 12,  epilogue size = 7
+          return address offset (from bp) = 00000010
+          return type:  581
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Name = "BuildLastObjCollisionMatrix"
+        1799: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "objAngle",  type = 9
+        17A6: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "impactAngle",  type = 9
+        17B6: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "mat",  type = 579
+        17BF: LOCAL
+          address: BP_OFFSET_BYTE( 88 )
+          name = "yawMat",  type = 486
+        17CB: LOCAL
+          address: BP_OFFSET_BYTE( AC )
+          name = "objAngleMat",  type = 486
+        17DC: LOCAL
+          address: BP_OFFSET_BYTE( D0 )
+          name = "tmpMat",  type = 486
+        17E8: NEAR_RTN_386
+          start off = 00003B87, code size = 00000022, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  470
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "BWorld_SetInitialViewDistance"
+        181D: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "ind",  type = 9
+        1825: NEAR_RTN_386
+          start off = 00003BA9, code size = 00000022, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  480
+          return value: MULTI_REG(1): EAX
+          Name = "BWorld_GetInitialViewDistance"
+        1859: NEAR_RTN_386
+          start off = 00003BCB, code size = 0000010F, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  331
+          return value: <none>
+          Name = "BWorld_SetViewDistance"
+        1885: LOCAL
+          address: CONST_ADDR386( 0002:0000C4C0 )
+          name = "distScalers",  type = 582
+        189B: NEAR_RTN_386
+          start off = 00003CDA, code size = 0000003B, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  331
+          return value: <none>
+          Name = "BWorld_SetNextViewDistance"
+        18CB: NEAR_RTN_386
+          start off = 00003D15, code size = 00000074, parent off = 0000
+          prologue size = 11,  epilogue size = 8
+          return address offset (from bp) = 0000000C
+          return type:  583
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Parm 3: MULTI_REG(1): ECX
+          Name = "WorldToViewTransformProjectVertices16"
+        190E: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "Vi",  type = 493
+        1916: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "n",  type = 9
+        191C: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "cp",  type = 474
+        1924: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "s",  type = 499
+        192B: LOCAL
+          address: BP_OFFSET_BYTE( 10 )
+          name = "v",  type = 380
+        1932: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "translation",  type = 403
+        1943: LOCAL
+          address: BP_OFFSET_BYTE( D8 )
+          name = "tmp",  type = 403
+        194C: NEAR_RTN_386
+          start off = 00003D89, code size = 00000088, parent off = 0000
+          prologue size = 11,  epilogue size = 8
+          return address offset (from bp) = 0000000C
+          return type:  584
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Parm 3: MULTI_REG(1): ECX
+          Name = "ObjectToViewTransformProjectVertices16"
+        1990: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "Vi",  type = 493
+        1998: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "objOrientMat",  type = 579
+        19AA: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "n",  type = 9
+        19B0: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "cp",  type = 474
+        19B8: LOCAL
+          address: BP_OFFSET_BYTE( 10 )
+          name = "s",  type = 499
+        19BF: LOCAL
+          address: BP_OFFSET_BYTE( 14 )
+          name = "v",  type = 380
+        19C6: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "translation",  type = 403
+        19D7: LOCAL
+          address: BP_OFFSET_BYTE( D8 )
+          name = "tmp",  type = 403
+        19E0: LOCAL
+          address: BP_OFFSET_BYTE( B4 )
+          name = "finalMat",  type = 486
+        19EE: NEAR_RTN_386
+          start off = 00003E11, code size = 000000B0, parent off = 0000
+          prologue size = 12,  epilogue size = 7
+          return address offset (from bp) = 00000010
+          return type:  586
+          return value: <none>
+          Name = "bradtouchmempages"
+        1A15: LOCAL
+          address: BP_OFFSET_BYTE( 14 )
+          name = "base",  type = 585
+        1A1F: LOCAL
+          address: BP_OFFSET_BYTE( 18 )
+          name = "size",  type = 9
+        1A28: LOCAL
+          address: BP_OFFSET_BYTE( 1C )
+          name = "incr",  type = 9
+        1A31: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "ind",  type = 9
+        1A39: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "tmp",  type = 4
+        1A41: NEAR_RTN_386
+          start off = 00003EC1, code size = 00000052, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  331
+          return value: <none>
+          Name = "TouchMem"
+        1A5F: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "baseMem",  type = 12
+        1A6B: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "size",  type = 9
+        1A74: NEAR_RTN_386
+          start off = 00003F13, code size = 0000002A, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  470
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "TouchMemMultiple"
+        1A9C: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "count",  type = 9
+        1AA6: NEAR_RTN_386
+          start off = 00003F3D, code size = 0000003E, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  558
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "TouchMemBlock"
+        1ACB: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "memBlk",  type = 12
+        1AD6: NEAR_RTN_386
+          start off = 00003F7B, code size = 00000048, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  470
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "TouchMemTicks"
+        1AFB: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "ticks",  type = 9
+        1B05: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "count",  type = 9
+        1B0F: NEAR_RTN_386
+          start off = 00003FC3, code size = 00000064, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  331
+          return value: <none>
+          Name = "TouchImportantData"
+        1B37: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "i",  type = 9
+        1B3D: NEAR_RTN_386
+          start off = 00004027, code size = 0000001F, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  331
+          return value: <none>
+          Name = "TouchTrackArt"
+        1B60: NEAR_RTN_386
+          start off = 00004046, code size = 00000028, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  587
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Nfs2_Alloc"
+        1B83: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "size",  type = 46
+        1B8C: NEAR_RTN_386
+          start off = 0000406E, code size = 00000028, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  588
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Nfs2_Free"
+        1BAE: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "memptr",  type = 53
+        1BB9: NEAR_RTN_386
+          start off = 00004096, code size = 00000074, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  589
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Name = "Nfs2_loadfileadr"
+        1BE4: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "name",  type = 12
+        1BED: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "type",  type = 9
+        1BF6: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "mem",  type = 12
+        1BFE: NEAR_RTN_386
+          start off = 0000410A, code size = 0000007D, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  589
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Name = "Nfs2_loadfileadrz"
+        1C2A: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "name",  type = 12
+        1C33: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "type",  type = 9
+        1C3C: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "mem",  type = 12
+        1C44: NEAR_RTN_386
+          start off = 00004187, code size = 0000007B, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  589
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Name = "Nfs2_loadpackedshapeadrz"
+        1C77: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "name",  type = 12
+        1C80: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "type",  type = 9
+        1C89: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "file",  type = 12
+        1C92: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "mem",  type = 12
+        1C9A: NEAR_RTN_386
+          start off = 00004202, code size = 0000002B, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  589
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Name = "Nfs2_loadshapeadrz"
+        1CC7: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "name",  type = 12
+        1CD0: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "type",  type = 9
+

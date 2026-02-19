@@ -1,0 +1,8 @@
+  Name:  _nmsize_
+    address      = 0001:000C79F2
+    module index = 586
+    kind:          (code)
+  Name:  _msize_
+    address      = 0001:000C79F2
+    module index = 586
+    kind:          (code)

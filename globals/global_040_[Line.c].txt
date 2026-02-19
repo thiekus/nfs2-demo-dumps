@@ -1,0 +1,60 @@
+  Name:  Line_SingleLine_
+    address      = 0001:0004029E
+    module index = 40
+    kind:          (code)
+  Name:  Line_DashLine_
+    address      = 0001:00040761
+    module index = 40
+    kind:          (code)
+  Name:  Line_DoubleLine_
+    address      = 0001:00040C53
+    module index = 40
+    kind:          (code)
+  Name:  Line_SolidDashLine_
+    address      = 0001:000411D0
+    module index = 40
+    kind:          (code)
+  Name:  Line_DashSolidLine_
+    address      = 0001:00041858
+    module index = 40
+    kind:          (code)
+  Name:  Line_StartInsertFacet_
+    address      = 0001:00041EE0
+    module index = 40
+    kind:          (code)
+  Name:  Line_BuildChunkLine_
+    address      = 0001:00041EFF
+    module index = 40
+    kind:          (code)
+  Name:  Line_InsertFacet_
+    address      = 0001:00042197
+    module index = 40
+    kind:          (code)
+  Name:  Line_InitTrackLine_
+    address      = 0001:000421E2
+    module index = 40
+    kind:          (code)
+  Name:  Line_KillTrackLine_
+    address      = 0001:000421F7
+    module index = 40
+    kind:          (code)
+  Name:  _RandLineTable
+    address      = 0002:0000EE10
+    module index = 40
+    kind:          (static pubdef) (data)
+  Name:  _gLineChunk
+    address      = 0002:000434B8
+    module index = 40
+    kind:          (data)
+  Name:  _gLastFacet
+    address      = 0002:00043508
+    module index = 40
+    kind:          (data)
+  Name:  _gNLineChunk
+    address      = 0002:0004350C
+    module index = 40
+    kind:          (data)
+  Name:  _gFirstFacet
+    address      = 0002:00043510
+    module index = 40
+    kind:          (data)

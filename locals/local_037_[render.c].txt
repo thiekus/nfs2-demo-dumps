@@ -1,0 +1,282 @@
+ 37) Name:   C:\nfs2\game\common\render.c
+     Language is C
+     Locals: num = 1, offset = 000000A6H
+     Types:  num = 1, offset = 00000242H
+     Lines:  num = 1, offset = 000003D2H
+
+   *** Locals ***
+   ==============
+      Data 0:  offset 000113F2
+        0000: MODULE_386
+          "gLf" addr = 0002:000248B0,  type = 69
+        000C: MODULE_386
+          "gSTm" addr = 0002:000248B8,  type = 9
+        0019: MODULE_386
+          "gLastRenderFacet" addr = 0002:000248BC,  type = 66
+        0032: MODULE_386
+          "gFirstRenderFacet" addr = 0002:000248C0,  type = 66
+        004C: MODULE_386
+          "gPauseRender" addr = 0002:000248C4,  type = 9
+        0061: MODULE_386
+          "gOTm" addr = 0002:000248C8,  type = 13
+        006E: MODULE_386
+          "gTm" addr = 0002:000248CC,  type = 13
+        007A: MODULE_386
+          "gDebugRender" addr = 0002:0000EDCC,  type = 9
+        008F: MODULE_386
+          "gCView" addr = 0002:000248D0,  type = 82
+        009E: SET_BASE_386
+          base = 0001:0003DC26
+        00A6: NEAR_RTN_386
+          start off = 00000000, code size = 0000001F, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  21
+          return value: <none>
+          Name = "Render_ResetTm"
+        00C9: NEAR_RTN_386
+          start off = 0000001F, code size = 00000035, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  21
+          return value: <none>
+          Name = "Render_AllocateTm"
+        00EF: NEAR_RTN_386
+          start off = 00000054, code size = 00000029, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  21
+          return value: <none>
+          Name = "Render_FreeTm"
+        0111: NEAR_RTN_386
+          start off = 0000007D, code size = 00000055, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  84
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Name = "Render_GetTm"
+        0137: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "p",  type = 83
+        013D: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "s",  type = 9
+        0143: NEAR_RTN_386
+          start off = 000000D2, code size = 0000004C, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  84
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Name = "Render_LocateTm"
+        016C: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "p",  type = 83
+        0172: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "s",  type = 9
+        0178: NEAR_RTN_386
+          start off = 0000011E, code size = 00000038, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  85
+          return value: IND_REG_CALLOC_NEAR( ESI )
+          Name = "Render_NilListFacet"
+        01A1: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "lf",  type = 69
+        01A8: NEAR_RTN_386
+          start off = 00000156, code size = 00000049, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  86
+          return value: IND_REG_CALLOC_NEAR( ESI )
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Render_SetUnicFacet"
+        01D3: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "f",  type = 66
+        01D9: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "lf",  type = 69
+        01E0: NEAR_RTN_386
+          start off = 0000019F, code size = 0000005B, parent off = 0000
+          prologue size = 13,  epilogue size = 10
+          return address offset (from bp) = 00000014
+          return type:  87
+          return value: IND_REG_CALLOC_NEAR( ESI )
+          Name = "Render_MergeListFacet"
+        020B: LOCAL
+          address: BP_OFFSET_BYTE( 18 )
+          name = "f0",  type = 69
+        0212: LOCAL
+          address: BP_OFFSET_BYTE( 20 )
+          name = "f1",  type = 69
+        0219: NEAR_RTN_386
+          start off = 000001FA, code size = 00000029, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  21
+          return value: <none>
+          Name = "Render_InitListFacet"
+        0242: NEAR_RTN_386
+          start off = 00000223, code size = 00000069, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  89
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Name = "Render_AddFacet"
+        026B: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "f",  type = 88
+        0271: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "size",  type = 9
+        027A: NEAR_RTN_386
+          start off = 0000028C, code size = 0000004F, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  85
+          return value: IND_REG_CALLOC_NEAR( ESI )
+          Name = "Render_FetchListFacet"
+        02A5: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "lf",  type = 69
+        02AC: NEAR_RTN_386
+          start off = 000002DB, code size = 000000AA, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  21
+          return value: <none>
+          Name = "Render_Render3DView"
+        02D4: NEAR_RTN_386
+          start off = 00000385, code size = 000000E0, parent off = 0000
+          prologue size = 11,  epilogue size = 8
+          return address offset (from bp) = 0000000C
+          return type:  90
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Parm 3: MULTI_REG(1): ECX
+          Name = "Render_RenderView"
+        0302: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "ViewID",  type = 9
+        030D: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "Player",  type = 9
+        0318: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "xo",  type = 9
+        031F: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "yo",  type = 9
+        0326: LOCAL
+          address: BP_OFFSET_BYTE( 10 )
+          name = "xdo",  type = 9
+        032E: NEAR_RTN_386
+          start off = 00000465, code size = 00000024, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  21
+          return value: <none>
+          Name = "Render_StartFrameRender"
+        035A: NEAR_RTN_386
+          start off = 00000489, code size = 0000001F, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  21
+          return value: <none>
+          Name = "Render_StopFrameRender"
+        0385: NEAR_RTN_386
+          start off = 000004A8, code size = 00000024, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  21
+          return value: <none>
+          Name = "Render_StartPauseMenu"
+        03AF: NEAR_RTN_386
+          start off = 000004CC, code size = 00000024, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  21
+          return value: <none>
+          Name = "Render_StopPauseMenu"
+        03D8: BLOCK_386
+          start off = 000005F7, code size = 00000024, parent off = 03FA
+        03E4: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "xo",  type = 9
+        03EB: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "yo",  type = 9
+        03F2: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "xdo",  type = 9
+        03FA: NEAR_RTN_386
+          start off = 000004F0, code size = 0000015D, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  91
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Render_Render"
+        041E: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "pause",  type = 9
+        0428: NEAR_RTN_386
+          start off = 0000064D, code size = 00000043, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  21
+          return value: <none>
+          Name = "Render_Debug"
+        0449: NEAR_RTN_386
+          start off = 00000690, code size = 00000051, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  21
+          return value: <none>
+          Name = "Render_InitTrackRender"
+        0474: NEAR_RTN_386
+          start off = 000006E1, code size = 0000002E, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  21
+          return value: <none>
+          Name = "Render_RestartTrackRender"
+        04A2: NEAR_RTN_386
+          start off = 0000070F, code size = 0000002E, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  21
+          return value: <none>
+          Name = "Render_InitTrackRenderPostSim"
+        04D4: NEAR_RTN_386
+          start off = 0000073D, code size = 0000004C, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  21
+          return value: <none>
+          Name = "Render_KillTrackRender"
+        04FF: NEAR_RTN_386
+          start off = 00000789, code size = 0000001F, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  21
+          return value: <none>
+          Name = "Render_InitLibRender"
+        0528: NEAR_RTN_386
+          start off = 000007A8, code size = 0000001A, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  21
+          return value: <none>
+          Name = "Render_KillLibRender"
+

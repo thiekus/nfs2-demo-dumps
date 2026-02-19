@@ -1,0 +1,4 @@
+  Name:  _clearmixbuf
+    address      = 0001:000BE364
+    module index = 462
+    kind:          (code)

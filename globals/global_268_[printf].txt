@@ -1,0 +1,4 @@
+  Name:  printf_
+    address      = 0001:000A032D
+    module index = 268
+    kind:          (code)

@@ -1,0 +1,36 @@
+  Name:  _kYCoords_8P
+    address      = 0001:0004A165
+    module index = 56
+    kind:          (code)
+  Name:  _kYCoords_8P_Sim
+    address      = 0001:0004A185
+    module index = 56
+    kind:          (code)
+  Name:  Chat_ReceiveMessage_CALLBACK_
+    address      = 0001:0004A1A5
+    module index = 56
+    kind:          (code)
+  Name:  Chat_OpenHailingFrequency_
+    address      = 0001:0004A24F
+    module index = 56
+    kind:          (code)
+  Name:  Chat_CloseHailingFrequency_
+    address      = 0001:0004A2E9
+    module index = 56
+    kind:          (code)
+  Name:  Chat_Display_
+    address      = 0001:0004A303
+    module index = 56
+    kind:          (code)
+  Name:  Chat_AcceptInput_
+    address      = 0001:0004A561
+    module index = 56
+    kind:          (code)
+  Name:  Chat_Clear_
+    address      = 0001:0004A7B7
+    module index = 56
+    kind:          (code)
+  Name:  Chat_UpdateBuffers_
+    address      = 0001:0004A7D1
+    module index = 56
+    kind:          (static pubdef) (code)

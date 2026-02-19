@@ -1,0 +1,350 @@
+ 73) Name:   C:\nfs2\game\common\nfs2mem.c
+     Language is C
+     Locals: num = 1, offset = 00000136H
+     Types:  num = 1, offset = 000002D2H
+     Lines:  num = 1, offset = 0000045AH
+
+   *** Locals ***
+   ==============
+      Data 0:  offset 0001C9E1
+        0000: SET_BASE_386
+          base = 0001:0005C822
+        0008: NEAR_RTN_386
+          start off = 00000000, code size = 0000002A, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  66
+          return value: MULTI_REG(1): EAX
+          Name = "nfs2GetFirstBlock"
+        002F: NEAR_RTN_386
+          start off = 0000002A, code size = 00000044, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  67
+          return value: MULTI_REG(1): EAX
+          Name = "nfs2getnummemblocks"
+        0058: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "NumMemBlks",  type = 9
+        0067: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "pMemBlk",  type = 65
+        0073: NEAR_RTN_386
+          start off = 0000006E, code size = 0000009C, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  25
+          return value: <none>
+          Name = "DoMemSizeDisplay"
+        0098: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "pPrev",  type = 65
+        00A2: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "pMem",  type = 65
+        00AB: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "Space",  type = 68
+        00B5: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "plPool",  type = 68
+        00C0: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "plUsed",  type = 68
+        00CB: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "plFree",  type = 68
+        00D6: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "plLargest",  type = 68
+        00E4: NEAR_RTN_386
+          start off = 0000010A, code size = 0000013D, parent off = 0000
+          prologue size = 11,  epilogue size = 8
+          return address offset (from bp) = 0000000C
+          return type:  71
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Parm 3: MULTI_REG(1): ECX
+          Name = "nfs2GetModData"
+        010F: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "Idx",  type = 9
+        0117: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "pName",  type = 36
+        0121: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "plMem",  type = 69
+        012B: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "plBlkSize",  type = 69
+        0139: LOCAL
+          address: BP_OFFSET_BYTE( 10 )
+          name = "plDatSize",  type = 69
+        0147: LOCAL
+          address: BP_OFFSET_BYTE( 14 )
+          name = "piFlags",  type = 70
+        0153: LOCAL
+          address: BP_OFFSET_BYTE( 18 )
+          name = "piSeq",  type = 70
+        015D: LOCAL
+          address: BP_OFFSET_BYTE( 1C )
+          name = "plPrevSegEnd",  type = 69
+        016E: NEAR_RTN_386
+          start off = 00000247, code size = 00000096, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  72
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Name = "DoBlocSizeDisplay"
+        0198: LOCAL
+          address: BP_OFFSET_BYTE( D8 )
+          name = "NumMemBlocks",  type = 9
+        01A9: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "startnum",  type = 9
+        01B6: LOCAL
+          address: BP_OFFSET_BYTE( DC )
+          name = "i",  type = 9
+        01BC: LOCAL
+          address: BP_OFFSET_BYTE( E0 )
+          name = "PrevSegEnd",  type = 68
+        01CB: LOCAL
+          address: BP_OFFSET_WORD( 00D8 )
+          name = "eName",  type = 73
+        01D6: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "ModName",  type = 13
+        01E2: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "ModBlockSize",  type = 68
+        01F3: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "ModDataSize",  type = 68
+        0203: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "ModFlags",  type = 10
+        0210: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "ModSeq",  type = 10
+        021B: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "ModAdr",  type = 68
+        0226: NEAR_RTN_386
+          start off = 000002DD, code size = 00000076, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  25
+          return value: <none>
+          Name = "DoListBlocSizeDisplay"
+        0250: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "NumMemBlocks",  type = 9
+        0261: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "times",  type = 9
+        026B: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "i",  type = 9
+        0271: NEAR_RTN_386
+          start off = 00000353, code size = 0000001A, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  74
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "nfs2mem_Check"
+        0295: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "stage",  type = 9
+        029F: NEAR_RTN_386
+          start off = 0000036D, code size = 0000002B, parent off = 0000
+          prologue size = 11,  epilogue size = 6
+          return address offset (from bp) = 0000000C
+          return type:  75
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Parm 3: MULTI_REG(1): ECX
+          Name = "nfs2memAllocationcallback"
+        02D5: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "error",  type = 9
+        02DF: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "name",  type = 13
+        02E8: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "size",  type = 16
+        02F1: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "type",  type = 9
+        02FA: NEAR_RTN_386
+          start off = 00000398, code size = 0000002D, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  77
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Name = "nfs2memDeAllocationcallback"
+        032E: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "error",  type = 9
+        0338: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "blk",  type = 76
+        0340: NEAR_RTN_386
+          start off = 000003C5, code size = 0000001F, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  78
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Name = "nfs2memFindmemcallback"
+        036F: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "error",  type = 9
+        0379: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "adr",  type = 13
+        0381: NEAR_RTN_386
+          start off = 000003E4, code size = 00000029, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  25
+          return value: <none>
+          Name = "nfs2memInstallcallback"
+        03AC: NEAR_RTN_386
+          start off = 0000040D, code size = 00000031, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  79
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Name = "nfs2MemDspFmt"
+        03D2: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "Val",  type = 68
+        03DA: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "sDest",  type = 13
+        03E4: NEAR_RTN_386
+          start off = 0000043E, code size = 000000BE, parent off = 0000
+          prologue size = 11,  epilogue size = 6
+          return address offset (from bp) = 0000000C
+          return type:  80
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Parm 3: MULTI_REG(1): ECX
+          Name = "nfs2CalcMemFigures"
+        0413: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "plPool",  type = 69
+        041E: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "plUsed",  type = 69
+        0429: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "plFree",  type = 69
+        0434: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "plLargest",  type = 69
+        0442: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "pPrev",  type = 65
+        044C: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "pMem",  type = 65
+        0455: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "Space",  type = 68
+        045F: NEAR_RTN_386
+          start off = 000004FC, code size = 00000149, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  72
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Name = "nfs2DrawMemMap"
+        0486: LOCAL
+          address: BP_OFFSET_BYTE( DC )
+          name = "NumMemBlocks",  type = 9
+        0497: LOCAL
+          address: BP_OFFSET_BYTE( E0 )
+          name = "startnum",  type = 9
+        04A4: LOCAL
+          address: BP_OFFSET_BYTE( D4 )
+          name = "UsedMem",  type = 68
+        04B0: LOCAL
+          address: BP_OFFSET_BYTE( D8 )
+          name = "FreeMem",  type = 68
+        04BC: LOCAL
+          address: BP_OFFSET_BYTE( C8 )
+          name = "PoolMem",  type = 68
+        04C8: LOCAL
+          address: BP_OFFSET_BYTE( CC )
+          name = "Largest",  type = 68
+        04D4: LOCAL
+          address: BP_OFFSET_BYTE( D0 )
+          name = "PrevSegEnd",  type = 68
+        04E3: LOCAL
+          address: BP_OFFSET_WORD( 0038 )
+          name = "Str1",  type = 81
+        04ED: LOCAL
+          address: BP_OFFSET_WORD( 00B8 )
+          name = "Str2",  type = 82
+        04F7: LOCAL
+          address: BP_OFFSET_WORD( 0038 )
+          name = "Str3",  type = 83
+        0501: LOCAL
+          address: BP_OFFSET_BYTE( B8 )
+          name = "sAdr",  type = 84
+        050A: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "ModName",  type = 13
+        0516: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "ModBlockSize",  type = 68
+        0527: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "ModDataSize",  type = 68
+        0537: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "ModFlags",  type = 10
+        0544: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "ModSeq",  type = 10
+        054F: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "ModAdr",  type = 68
+        055A: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "i",  type = 9
+        0560: NEAR_RTN_386
+          start off = 00000645, code size = 000000AD, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  25
+          return value: <none>
+          Name = "nfs2memsizedisplay"
+        0587: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "NumMemBlocks",  type = 9
+        0598: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "times",  type = 9
+        05A2: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "i",  type = 9
+

@@ -1,0 +1,264 @@
+  Name:  _winkeybuf
+    address      = 0002:00051340
+    module index = 177
+    kind:          (static pubdef) (data)
+  Name:  _winmsgtbl
+    address      = 0002:000513C0
+    module index = 177
+    kind:          (static pubdef) (data)
+  Name:  _windowthread
+    address      = 0002:000517C0
+    module index = 177
+    kind:          (data)
+  Name:  _winkeynext
+    address      = 0002:000517D4
+    module index = 177
+    kind:          (static pubdef) (data)
+  Name:  _winkeyfree
+    address      = 0002:000517D8
+    module index = 177
+    kind:          (static pubdef) (data)
+  Name:  _winkeymutex
+    address      = 0002:000517DC
+    module index = 177
+    kind:          (static pubdef) (data)
+  Name:  _winkeybufsize
+    address      = 0002:000517E0
+    module index = 177
+    kind:          (static pubdef) (data)
+  Name:  _audiofocuscall
+    address      = 0002:000517E4
+    module index = 177
+    kind:          (static pubdef) (data)
+  Name:  _keytranslation
+    address      = 0002:000517E8
+    module index = 177
+    kind:          (data)
+  Name:  _rawkeycode
+    address      = 0002:000517EC
+    module index = 177
+    kind:          (data)
+  Name:  _winmsgdebugflag
+    address      = 0002:00013580
+    module index = 177
+    kind:          (data)
+  Name:  _numwinmsg
+    address      = 0002:00013584
+    module index = 177
+    kind:          (static pubdef) (data)
+  Name:  _startsignal
+    address      = 0002:00013588
+    module index = 177
+    kind:          (static pubdef) (data)
+  Name:  _stopthreadflag
+    address      = 0002:0001358C
+    module index = 177
+    kind:          (static pubdef) (data)
+  Name:  _screensaverstate
+    address      = 0002:00013590
+    module index = 177
+    kind:          (static pubdef) (data)
+  Name:  _powersaverstate
+    address      = 0002:00013594
+    module index = 177
+    kind:          (static pubdef) (data)
+  Name:  _tempsuppress
+    address      = 0002:00013598
+    module index = 177
+    kind:          (data)
+  Name:  _issuppressed
+    address      = 0002:0001359C
+    module index = 177
+    kind:          (static pubdef) (data)
+  Name:  _prevhook
+    address      = 0002:000135A0
+    module index = 177
+    kind:          (static pubdef) (data)
+  Name:  _eachookmode
+    address      = 0002:000135A4
+    module index = 177
+    kind:          (static pubdef) (data)
+  Name:  _eachookcallback
+    address      = 0002:000135A8
+    module index = 177
+    kind:          (static pubdef) (data)
+  Name:  cmpwinmsg_
+    address      = 0001:00087BC0
+    module index = 177
+    kind:          (static pubdef) (code)
+  Name:  getwinhandler_
+    address      = 0001:00087BC8
+    module index = 177
+    kind:          (code)
+  Name:  _setwinhandler
+    address      = 0001:00087C38
+    module index = 177
+    kind:          (code)
+  Name:  _sendwinmessage
+    address      = 0001:00087D24
+    module index = 177
+    kind:          (code)
+  Name:  _enablewinmessages
+    address      = 0001:00087DD0
+    module index = 177
+    kind:          (code)
+  Name:  _disablewinmessages
+    address      = 0001:00087DE0
+    module index = 177
+    kind:          (code)
+  Name:  _setaudiofocus
+    address      = 0001:00087DF0
+    module index = 177
+    kind:          (code)
+  Name:  _windowsexittask
+    address      = 0001:00087DFC
+    module index = 177
+    kind:          (static pubdef) (code)
+  Name:  _libmovemouse
+    address      = 0001:00087E2C
+    module index = 177
+    kind:          (code)
+  Name:  _pushnextkey
+    address      = 0001:00087E90
+    module index = 177
+    kind:          (code)
+  Name:  _popnextkey
+    address      = 0001:00087F20
+    module index = 177
+    kind:          (code)
+  Name:  _peeknextkey
+    address      = 0001:00087FD0
+    module index = 177
+    kind:          (code)
+  Name:  virtualkeyfilter_
+    address      = 0001:00088080
+    module index = 177
+    kind:          (static pubdef) (code)
+  Name:  lib_activeapp_
+    address      = 0001:0008829C
+    module index = 177
+    kind:          (static pubdef) (code)
+  Name:  lib_setfocus_
+    address      = 0001:000882CC
+    module index = 177
+    kind:          (static pubdef) (code)
+  Name:  lib_killfocus_
+    address      = 0001:00088308
+    module index = 177
+    kind:          (static pubdef) (code)
+  Name:  lib_close_
+    address      = 0001:00088350
+    module index = 177
+    kind:          (static pubdef) (code)
+  Name:  lib_stopthread_
+    address      = 0001:0008837C
+    module index = 177
+    kind:          (static pubdef) (code)
+  Name:  lib_windestroyed_
+    address      = 0001:000883A8
+    module index = 177
+    kind:          (static pubdef) (code)
+  Name:  lib_syscommand_
+    address      = 0001:000883D0
+    module index = 177
+    kind:          (static pubdef) (code)
+  Name:  lib_setchange_
+    address      = 0001:00088404
+    module index = 177
+    kind:          (static pubdef) (code)
+  Name:  lib_winchange_
+    address      = 0001:000884A8
+    module index = 177
+    kind:          (static pubdef) (code)
+  Name:  lib_char_
+    address      = 0001:00088520
+    module index = 177
+    kind:          (static pubdef) (code)
+  Name:  lib_keydown_
+    address      = 0001:00088584
+    module index = 177
+    kind:          (static pubdef) (code)
+  Name:  lib_keyup_
+    address      = 0001:000886B0
+    module index = 177
+    kind:          (static pubdef) (code)
+  Name:  lib_mbutton_
+    address      = 0001:000886F4
+    module index = 177
+    kind:          (static pubdef) (code)
+  Name:  lib_mouse_
+    address      = 0001:00088760
+    module index = 177
+    kind:          (static pubdef) (code)
+  Name:  lib_paint_
+    address      = 0001:000887CC
+    module index = 177
+    kind:          (static pubdef) (code)
+  Name:  lib_ncpaint_
+    address      = 0001:00088860
+    module index = 177
+    kind:          (static pubdef) (code)
+  Name:  _EAC_Lib_WinProc@16
+    address      = 0001:000888A4
+    module index = 177
+    kind:          (code)
+  Name:  _eachookfunc@12
+    address      = 0001:00088984
+    module index = 177
+    kind:          (static pubdef) (code)
+  Name:  createeacwindow_
+    address      = 0001:00088A70
+    module index = 177
+    kind:          (static pubdef) (code)
+  Name:  _windowthreadfunc
+    address      = 0001:00088C04
+    module index = 177
+    kind:          (static pubdef) (code)
+  Name:  _openmainwindow
+    address      = 0001:00088E14
+    module index = 177
+    kind:          (code)
+  Name:  closemainwindow_
+    address      = 0001:00089278
+    module index = 177
+    kind:          (code)
+  Name:  restorewindowskeys_
+    address      = 0001:0008935C
+    module index = 177
+    kind:          (code)
+  Name:  _suppresswindowskeys
+    address      = 0001:00089368
+    module index = 177
+    kind:          (code)
+  Name:  settypeahead_
+    address      = 0001:00089388
+    module index = 177
+    kind:          (code)
+  Name:  _maineacwindowstyle
+    address      = 0002:000135AC
+    module index = 177
+    kind:          (data)
+  Name:  _winmsgmutex
+    address      = 0002:000135B0
+    module index = 177
+    kind:          (data)
+  Name:  _breakcode
+    address      = 0002:000135B4
+    module index = 177
+    kind:          (data)
+  Name:  _scancodexlatetbl
+    address      = 0002:000135B8
+    module index = 177
+    kind:          (data)
+  Name:  _applicationname
+    address      = 0002:000135BC
+    module index = 177
+    kind:          (data)
+  Name:  _applicationicon
+    address      = 0002:000135C0
+    module index = 177
+    kind:          (data)
+  Name:  _registerflag
+    address      = 0002:000517F0
+    module index = 177
+    kind:          (static pubdef) (data)

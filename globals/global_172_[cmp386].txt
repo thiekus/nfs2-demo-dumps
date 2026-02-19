@@ -1,0 +1,4 @@
+  Name:  strcmp_
+    address      = 0001:000873A0
+    module index = 172
+    kind:          (code)

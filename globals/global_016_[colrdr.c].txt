@@ -1,0 +1,32 @@
+  Name:  Col_OpenColFile_
+    address      = 0001:00027818
+    module index = 16
+    kind:          (code)
+  Name:  Col_CloseColFile_
+    address      = 0001:00027913
+    module index = 16
+    kind:          (code)
+  Name:  Col_GetFileSize_
+    address      = 0001:00027976
+    module index = 16
+    kind:          (code)
+  Name:  Col_ReadFile_
+    address      = 0001:000279CE
+    module index = 16
+    kind:          (code)
+  Name:  Col_GetNumCollections_
+    address      = 0001:00027A50
+    module index = 16
+    kind:          (code)
+  Name:  Col_GetCollection_
+    address      = 0001:00027AA8
+    module index = 16
+    kind:          (code)
+  Name:  _sColFileHeader
+    address      = 0002:000234B4
+    module index = 16
+    kind:          (static pubdef) (data)
+  Name:  _sColHandle
+    address      = 0002:000234C4
+    module index = 16
+    kind:          (static pubdef) (data)

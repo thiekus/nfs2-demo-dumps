@@ -1,0 +1,839 @@
+ 90) Name:   C:\nfs2\frontend\common\Statdisp.c
+     Language is C
+     Locals: num = 1, offset = 0000017AH
+     Types:  num = 1, offset = 00000316H
+     Lines:  num = 1, offset = 0000049AH
+
+   *** Locals ***
+   ==============
+      Data 0:  offset 000229C4
+        0000: MODULE_386
+          "textOmega" addr = 0002:00011D1C,  type = 64
+        0012: MODULE_386
+          "textKnockStandings" addr = 0002:00011CEC,  type = 65
+        002D: MODULE_386
+          "textKnockSummary" addr = 0002:00011D04,  type = 66
+        0046: MODULE_386
+          "textLapTimes" addr = 0002:00011CA4,  type = 67
+        005B: MODULE_386
+          "textTournStand" addr = 0002:00011CBC,  type = 68
+        0072: MODULE_386
+          "textTournSummary" addr = 0002:00011CD4,  type = 69
+        008B: MODULE_386
+          "textRace" addr = 0002:00011C8C,  type = 70
+        009C: MODULE_386
+          "gShowStatsEvenThoPlayerAborted" addr = 0002:00011D34,  type = 7
+        00C3: MODULE_386
+          "gEliminatePlayerOneFlag" addr = 0002:00011D36,  type = 7
+        00E3: SET_BASE_386
+          base = 0001:0006BACD
+        00EB: NEAR_RTN_386
+          start off = 00000000, code size = 00000FD9, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  82
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Statdisp_ShowRaceSummary"
+        011B: LOCAL
+          address: BP_OFFSET_BYTE( AC )
+          name = "menu",  type = 81
+        0124: LOCAL
+          address: BP_OFFSET_BYTE( B8 )
+          name = "nResult",  type = 9
+        0130: LOCAL
+          address: BP_OFFSET_BYTE( D8 )
+          name = "k",  type = 7
+        0136: LOCAL
+          address: BP_OFFSET_BYTE( D4 )
+          name = "bScreenUpdate",  type = 7
+        0148: LOCAL
+          address: BP_OFFSET_BYTE( CC )
+          name = "bForceScreenUpdate",  type = 7
+        015F: LOCAL
+          address: BP_OFFSET_BYTE( C8 )
+          name = "bFirstTime",  type = 7
+        016E: LOCAL
+          address: BP_OFFSET_BYTE( E0 )
+          name = "bTopTenTime",  type = 7
+        017E: LOCAL
+          address: BP_OFFSET_BYTE( D0 )
+          name = "bHumanFlag",  type = 7
+        018D: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "bShowRecordTotalTime",  type = 7
+        01A6: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "nKeyValue",  type = 7
+        01B4: LOCAL
+          address: BP_OFFSET_BYTE( C0 )
+          name = "nTicksDebounce",  type = 16
+        01C7: LOCAL
+          address: BP_OFFSET_BYTE( B0 )
+          name = "nTicksTotal",  type = 16
+        01D7: LOCAL
+          address: BP_OFFSET_BYTE( DC )
+          name = "nIconSpin",  type = 7
+        01E5: LOCAL
+          address: BP_OFFSET_WORD( 000C )
+          name = "sBuildOutput",  type = 83
+        01F7: LOCAL
+          address: BP_OFFSET_WORD( 005C )
+          name = "sRecordTotalTime",  type = 84
+        020D: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "nOpponentDriver",  type = 7
+        0221: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "nLocalPlayer",  type = 7
+        0232: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "nNumCars",  type = 7
+        023F: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "P1Col",  type = 7
+        0249: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "nDummy",  type = 7
+        0254: LOCAL
+          address: BP_OFFSET_BYTE( B4 )
+          name = "dummyCars",  type = 206
+        0263: LOCAL
+          address: BP_OFFSET_BYTE( C4 )
+          name = "nDummyRanks",  type = 75
+        0273: LOCAL
+          address: CONST_ADDR386( 0002:000503E4 )
+          name = "topTenPlacements",  type = 207
+        028E: LOCAL
+          address: BP_OFFSET_WORD( 00BC )
+          name = "tempbuf",  type = 208
+        029C: NEAR_RTN_386
+          start off = 00000FD9, code size = 000012BA, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  82
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Statdisp_ShowLapTimes"
+        02C9: LOCAL
+          address: BP_OFFSET_BYTE( 9C )
+          name = "menu",  type = 81
+        02D2: LOCAL
+          address: BP_OFFSET_BYTE( 98 )
+          name = "nResult",  type = 9
+        02DE: LOCAL
+          address: BP_OFFSET_BYTE( D0 )
+          name = "bFirstTime",  type = 7
+        02ED: LOCAL
+          address: BP_OFFSET_BYTE( D4 )
+          name = "bScreenUpdate",  type = 7
+        02FF: LOCAL
+          address: BP_OFFSET_BYTE( C0 )
+          name = "bForceScreenUpdate",  type = 7
+        0316: LOCAL
+          address: BP_OFFSET_BYTE( C4 )
+          name = "bBestLap",  type = 7
+        0323: LOCAL
+          address: BP_OFFSET_BYTE( C8 )
+          name = "bHumanFlag",  type = 7
+        0332: LOCAL
+          address: BP_OFFSET_BYTE( CC )
+          name = "bShowRecordLapTime",  type = 7
+        0349: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "nBLTIndex1",  type = 7
+        0358: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "nBLTIndex2",  type = 7
+        0367: LOCAL
+          address: BP_OFFSET_BYTE( BC )
+          name = "nBestCarIndex",  type = 7
+        0379: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "nBestLapIndex",  type = 7
+        038B: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "nKeyValue",  type = 7
+        0399: LOCAL
+          address: BP_OFFSET_BYTE( A4 )
+          name = "nTicksDebounce",  type = 16
+        03AC: LOCAL
+          address: BP_OFFSET_BYTE( A8 )
+          name = "nTicksTotal",  type = 16
+        03BC: LOCAL
+          address: BP_OFFSET_BYTE( DC )
+          name = "nIconSpin",  type = 7
+        03CA: LOCAL
+          address: BP_OFFSET_WORD( 0048 )
+          name = "sBuildOutput",  type = 209
+        03DD: LOCAL
+          address: BP_OFFSET_WORD( 00F8 )
+          name = "sRecordLapTime",  type = 210
+        03F2: LOCAL
+          address: BP_OFFSET_BYTE( D8 )
+          name = "k",  type = 7
+        03F8: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "nLocalPlayer",  type = 7
+        0409: LOCAL
+          address: BP_OFFSET_BYTE( E0 )
+          name = "VCollumnOffset",  type = 7
+        041C: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "nOpponentDriver",  type = 7
+        0430: LOCAL
+          address: BP_OFFSET_BYTE( B0 )
+          name = "uAllocSz",  type = 10
+        043D: LOCAL
+          address: BP_OFFSET_BYTE( B4 )
+          name = "dummyCars",  type = 206
+        044C: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "nNumCars",  type = 7
+        0459: LOCAL
+          address: BP_OFFSET_BYTE( AC )
+          name = "nDummyFinishingPosition",  type = 211
+        0476: LOCAL
+          address: BP_OFFSET_BYTE( A0 )
+          name = "nDummyRanks",  type = 75
+        0486: NEAR_RTN_386
+          start off = 00002293, code size = 00000533, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  82
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Statdisp_ShowTournamentStandings"
+        04BE: LOCAL
+          address: BP_OFFSET_BYTE( D0 )
+          name = "menu",  type = 81
+        04C7: LOCAL
+          address: BP_OFFSET_BYTE( D8 )
+          name = "nResult",  type = 9
+        04D3: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "bScreenUpdate",  type = 7
+        04E5: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "nKeyValue",  type = 7
+        04F3: LOCAL
+          address: BP_OFFSET_BYTE( DC )
+          name = "nTicksDebounce",  type = 16
+        0506: LOCAL
+          address: BP_OFFSET_BYTE( E0 )
+          name = "nTicksTotal",  type = 16
+        0516: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "nIconSpin",  type = 7
+        0524: LOCAL
+          address: BP_OFFSET_BYTE( 80 )
+          name = "sBuildOutput",  type = 212
+        0536: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "k",  type = 7
+        053C: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "nNumCars",  type = 7
+        0549: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "dummyCars",  type = 206
+        0558: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "nRankPointTotals",  type = 75
+        056D: NEAR_RTN_386
+          start off = 000027C6, code size = 00000663, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  82
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Statdisp_ShowTournamentSummary"
+        05A3: LOCAL
+          address: BP_OFFSET_BYTE( D4 )
+          name = "menu",  type = 81
+        05AC: LOCAL
+          address: BP_OFFSET_BYTE( CC )
+          name = "nResult",  type = 9
+        05B8: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "bScreenUpdate",  type = 7
+        05CA: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "nKeyValue",  type = 7
+        05D8: LOCAL
+          address: BP_OFFSET_BYTE( D8 )
+          name = "nTicksDebounce",  type = 16
+        05EB: LOCAL
+          address: BP_OFFSET_BYTE( DC )
+          name = "nTicksTotal",  type = 16
+        05FB: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "nIconSpin",  type = 7
+        0609: LOCAL
+          address: BP_OFFSET_WORD( 007C )
+          name = "sBuildOutput",  type = 213
+        061C: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "k",  type = 7
+        0622: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "nLocalPlayer",  type = 7
+        0633: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "nNumCars",  type = 7
+        0640: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "dummyCars",  type = 206
+        064F: LOCAL
+          address: BP_OFFSET_BYTE( E0 )
+          name = "nRankPointTotals",  type = 75
+        0664: NEAR_RTN_386
+          start off = 00002E29, code size = 000009E7, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  82
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Statdisp_ShowKnockoutStandings"
+        069A: LOCAL
+          address: BP_OFFSET_BYTE( B8 )
+          name = "menu",  type = 81
+        06A3: LOCAL
+          address: BP_OFFSET_BYTE( C8 )
+          name = "nResult",  type = 9
+        06AF: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "bScreenUpdate",  type = 7
+        06C1: LOCAL
+          address: BP_OFFSET_BYTE( D8 )
+          name = "bSpeechFlag",  type = 7
+        06D1: LOCAL
+          address: BP_OFFSET_BYTE( E0 )
+          name = "bQuitKnockout",  type = 7
+        06E3: LOCAL
+          address: BP_OFFSET_BYTE( DC )
+          name = "bShowAdvance",  type = 7
+        06F4: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "nKeyValue",  type = 7
+        0702: LOCAL
+          address: BP_OFFSET_BYTE( BC )
+          name = "nTicksDebounce",  type = 16
+        0715: LOCAL
+          address: BP_OFFSET_BYTE( C0 )
+          name = "nTicksTotal",  type = 16
+        0725: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "nIconSpin",  type = 7
+        0733: LOCAL
+          address: BP_OFFSET_WORD( 0068 )
+          name = "sBuildOutput",  type = 214
+        0746: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "i",  type = 7
+        074C: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "k",  type = 7
+        0752: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "nNumCars",  type = 7
+        075F: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "nNumCarsToAdvance",  type = 7
+        0775: LOCAL
+          address: BP_OFFSET_BYTE( CC )
+          name = "nTotalTimes",  type = 211
+        0786: LOCAL
+          address: BP_OFFSET_BYTE( D4 )
+          name = "nRanks",  type = 75
+        0791: LOCAL
+          address: BP_OFFSET_BYTE( D0 )
+          name = "dummyCars",  type = 206
+        07A0: BLOCK_386
+          start off = 00003827, code size = 00000043, parent off = 082A
+        07AC: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "i",  type = 9
+        07B2: BLOCK_386
+          start off = 00003870, code size = 0000005B, parent off = 082A
+        07BE: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "pkt",  type = 216
+        07C7: BLOCK_386
+          start off = 000038FF, code size = 00000088, parent off = 082A
+        07D3: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "pkt",  type = 216
+        07DC: BLOCK_386
+          start off = 000039A0, code size = 00000033, parent off = 082A
+        07E8: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "i",  type = 9
+        07EE: BLOCK_386
+          start off = 00003A8D, code size = 00000022, parent off = 0803
+        07FA: LOCAL
+          address: BP_OFFSET_BYTE( DC )
+          name = "pkt",  type = 216
+        0803: BLOCK_386
+          start off = 00003A1C, code size = 0000011C, parent off = 082A
+        080F: LOCAL
+          address: BP_OFFSET_BYTE( E0 )
+          name = "i",  type = 9
+        0815: BLOCK_386
+          start off = 00003B84, code size = 00000019, parent off = 082A
+        0821: LOCAL
+          address: BP_OFFSET_BYTE( D8 )
+          name = "pkt",  type = 216
+        082A: NEAR_RTN_386
+          start off = 00003810, code size = 000003DE, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  219
+          return value: REG: AL
+          Parm 0: MULTI_REG(1): EAX
+          Name = "StatDisp_CommKOProgression"
+        085C: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "action",  type = 218
+        0868: NEAR_RTN_386
+          start off = 00003BEE, code size = 000006F5, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  82
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Statdisp_ShowKnockoutSummary"
+        089C: LOCAL
+          address: BP_OFFSET_BYTE( CC )
+          name = "menu",  type = 81
+        08A5: LOCAL
+          address: BP_OFFSET_BYTE( C4 )
+          name = "nResult",  type = 9
+        08B1: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "bScreenUpdate",  type = 7
+        08C3: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "bSpeechFlag",  type = 7
+        08D3: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "nKeyValue",  type = 7
+        08E1: LOCAL
+          address: BP_OFFSET_BYTE( D4 )
+          name = "nTicksDebounce",  type = 16
+        08F4: LOCAL
+          address: BP_OFFSET_BYTE( D8 )
+          name = "nTicksTotal",  type = 16
+        0904: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "nIconSpin",  type = 7
+        0912: LOCAL
+          address: BP_OFFSET_WORD( 0074 )
+          name = "sBuildOutput",  type = 220
+        0925: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "k",  type = 7
+        092B: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "nNumCars",  type = 7
+        0938: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "nLocalPlayer",  type = 7
+        0949: LOCAL
+          address: BP_OFFSET_BYTE( D0 )
+          name = "nFinishingPosition",  type = 75
+        0960: LOCAL
+          address: BP_OFFSET_BYTE( E0 )
+          name = "nRanks",  type = 75
+        096B: LOCAL
+          address: BP_OFFSET_BYTE( DC )
+          name = "dummyCars",  type = 206
+        097A: NEAR_RTN_386
+          start off = 000042E3, code size = 00000046, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  21
+          return value: <none>
+          Name = "BuildBasicBackground"
+        09A3: NEAR_RTN_386
+          start off = 00004329, code size = 0000004D, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  221
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "HumanOpponentName"
+        09CC: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "sOpponentName",  type = 13
+        09DE: NEAR_RTN_386
+          start off = 00004376, code size = 00000062, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  222
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Name = "AIOpponentName"
+        0A06: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "nName",  type = 7
+        0A10: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "car",  type = 156
+        0A19: LOCAL
+          address: BP_OFFSET_BYTE( A8 )
+          name = "sBuildOutput",  type = 223
+        0A2B: NEAR_RTN_386
+          start off = 000043D8, code size = 0000006B, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  224
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "OpponentCarName"
+        0A52: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "nCarIndex",  type = 9
+        0A60: LOCAL
+          address: BP_OFFSET_BYTE( AC )
+          name = "sBuildOutput",  type = 225
+        0A72: NEAR_RTN_386
+          start off = 00004443, code size = 00000049, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  226
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "OpponentPlace"
+        0A97: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "nPlace",  type = 7
+        0AA2: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "nDummy",  type = 7
+        0AAD: NEAR_RTN_386
+          start off = 0000448C, code size = 0000008C, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  226
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "OpponentFatalCrashes"
+        0AD9: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "nFatalCrashes",  type = 7
+        0AEB: LOCAL
+          address: BP_OFFSET_BYTE( AC )
+          name = "sBuildOutput",  type = 227
+        0AFD: NEAR_RTN_386
+          start off = 00004518, code size = 00000047, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  21
+          return value: <none>
+          Name = "ShowTrackName"
+        0B1F: NEAR_RTN_386
+          start off = 0000455F, code size = 0000019C, parent off = 0000
+          prologue size = 12,  epilogue size = 7
+          return address offset (from bp) = 00000010
+          return type:  228
+          return value: REG: AX
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Name = "FindTopSpeed"
+        0B47: LOCAL
+          address: BP_OFFSET_BYTE( D8 )
+          name = "dummyCars",  type = 156
+        0B56: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "nIndex",  type = 7
+        0B61: LOCAL
+          address: BP_OFFSET_BYTE( E0 )
+          name = "sBuildOutput",  type = 13
+        0B72: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "k",  type = 7
+        0B78: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "nLaps",  type = 9
+        0B82: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "nTopSpeeds",  type = 211
+        0B92: LOCAL
+          address: BP_OFFSET_BYTE( DC )
+          name = "nRankTopSpeeds",  type = 75
+        0BA5: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "top",  type = 7
+        0BAD: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "uTopSz",  type = 10
+        0BB8: NEAR_RTN_386
+          start off = 000046FB, code size = 0000009F, parent off = 0000
+          prologue size = 11,  epilogue size = 6
+          return address offset (from bp) = 0000000C
+          return type:  229
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Parm 3: MULTI_REG(1): ECX
+          Name = "BuildRankColumn"
+        0BE5: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "nFrom",  type = 7
+        0BEF: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "nTo",  type = 7
+        0BF7: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "nXColumn",  type = 7
+        0C04: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "nYColumn",  type = 7
+        0C11: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "k",  type = 7
+        0C17: LOCAL
+          address: BP_OFFSET_BYTE( 9C )
+          name = "sBuildOutput",  type = 230
+        0C29: NEAR_RTN_386
+          start off = 0000479A, code size = 00000056, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  21
+          return value: <none>
+          Name = "InitRecordCheckFlags"
+        0C52: NEAR_RTN_386
+          start off = 000047F0, code size = 0000001A, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  226
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "FakeTournamentData"
+        0C7C: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "bSummary",  type = 7
+        0C89: NEAR_RTN_386
+          start off = 0000480A, code size = 00000094, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  226
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "SpinBigStatsIcon"
+        0CB1: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "spinCount",  type = 7
+        0CBF: LOCAL
+          address: BP_OFFSET_BYTE( D8 )
+          name = "spinFrames",  type = 231
+        0CCF: LOCAL
+          address: BP_OFFSET_BYTE( 88 )
+          name = "string",  type = 232
+        0CDB: NEAR_RTN_386
+          start off = 0000489E, code size = 00000015, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  21
+          return value: <none>
+          Name = "BeginStatsDisplay"
+        0D01: NEAR_RTN_386
+          start off = 000048B3, code size = 00000501, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  233
+          return value: REG: AX
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Name = "CheckVictoryScreens"
+        0D2E: LOCAL
+          address: BP_OFFSET_BYTE( C8 )
+          name = "menu",  type = 81
+        0D37: LOCAL
+          address: BP_OFFSET_BYTE( CC )
+          name = "dummyCars",  type = 156
+        0D46: LOCAL
+          address: BP_OFFSET_BYTE( E0 )
+          name = "bShowScreen",  type = 7
+        0D56: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "bFirstTime",  type = 7
+        0D65: LOCAL
+          address: BP_OFFSET_BYTE( D8 )
+          name = "bScreenUpdate",  type = 7
+        0D77: LOCAL
+          address: BP_OFFSET_BYTE( D0 )
+          name = "bPlayChampionSpeech",  type = 7
+        0D8F: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "bPlayCongratsSpeech",  type = 7
+        0DA7: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "bTournamentChampion",  type = 7
+        0DBF: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "nFirstPlaceCarIndex",  type = 7
+        0DD7: LOCAL
+          address: BP_OFFSET_BYTE( D4 )
+          name = "nKeyValue",  type = 7
+        0DE5: LOCAL
+          address: BP_OFFSET_BYTE( C0 )
+          name = "nResult",  type = 9
+        0DF1: LOCAL
+          address: BP_OFFSET_BYTE( DC )
+          name = "nNumCars",  type = 7
+        0DFE: LOCAL
+          address: BP_OFFSET_BYTE( C4 )
+          name = "nTicksTotal",  type = 16
+        0E0E: LOCAL
+          address: BP_OFFSET_BYTE( BC )
+          name = "nTicksDebounce",  type = 16
+        0E21: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "nIconSpin",  type = 7
+        0E2F: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "k",  type = 7
+        0E35: LOCAL
+          address: BP_OFFSET_WORD( 0074 )
+          name = "nRankPointTotals",  type = 234
+        0E4C: LOCAL
+          address: BP_OFFSET_BYTE( 8C )
+          name = "textCongrats",  type = 235
+        0E5E: LOCAL
+          address: BP_OFFSET_BYTE( A4 )
+          name = "textChampion",  type = 236
+        0E70: NEAR_RTN_386
+          start off = 00004DB4, code size = 00000047, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  237
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "EnableDisableRestart"
+        0E9C: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "button",  type = 78
+        0EA7: NEAR_RTN_386
+          start off = 00004DFB, code size = 0000001C, parent off = 0000
+          prologue size = 12,  epilogue size = 7
+          return address offset (from bp) = 00000010
+          return type:  238
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Name = "EnableDisableReplay"
+        0ED6: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "button",  type = 78
+        0EE1: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "localHuman",  type = 9
+        0EF0: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "opponentHuman",  type = 9
+        0F02: NEAR_RTN_386
+          start off = 00004E17, code size = 00000058, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  239
+          return value: REG: AX
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Name = "FindBestRankedAICar"
+        0F2F: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "dummyCars",  type = 156
+        0F3E: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "nDummyRanks",  type = 75
+        0F4E: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "k",  type = 7
+        0F54: NEAR_RTN_386
+          start off = 00004E6F, code size = 0000008E, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  239
+          return value: REG: AX
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Name = "FindBestHumanOpponent"
+        0F83: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "dummyCars",  type = 156
+        0F92: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "nDummyRanks",  type = 75
+        0FA2: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "k",  type = 7
+        0FA8: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "bHumanFlag",  type = 7
+        0FB7: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "nOpponentDriver",  type = 7
+        0FCB: NEAR_RTN_386
+          start off = 00004EFD, code size = 00000171, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  239
+          return value: REG: AX
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Name = "KnockoutDisqualifiedSpeech"
+        0FFF: LOCAL
+          address: BP_OFFSET_BYTE( E0 )
+          name = "dummyCars",  type = 156
+        100E: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "nRanks",  type = 75
+        1019: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "nDisqualifiedIndex",  type = 7
+        1030: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "k",  type = 7
+        1036: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "nNumCars",  type = 7
+        1043: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "nCarIndex",  type = 7
+        1051: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "bSpeechFlag",  type = 7
+        1061: NEAR_RTN_386
+          start off = 0000506E, code size = 000001A1, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  240
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Name = "DoTournamentSort"
+        108B: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "dummyCars",  type = 156
+        109A: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "nRankPointTotals",  type = 75
+        10AF: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "k",  type = 7
+        10B5: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "j",  type = 7
+        10BB: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "temp",  type = 7
+        10C4: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "nNumCars",  type = 7
+

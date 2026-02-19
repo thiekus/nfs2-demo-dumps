@@ -1,0 +1,12 @@
+  Name:  initrandnext_
+    address      = 0001:00084612
+    module index = 150
+    kind:          (static pubdef) (code)
+  Name:  rand_
+    address      = 0001:0008461C
+    module index = 150
+    kind:          (code)
+  Name:  srand_
+    address      = 0001:00084640
+    module index = 150
+    kind:          (code)

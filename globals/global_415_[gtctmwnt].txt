@@ -1,0 +1,4 @@
+  Name:  __getctime_
+    address      = 0001:000BB4C7
+    module index = 415
+    kind:          (code)

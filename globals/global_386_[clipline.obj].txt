@@ -1,0 +1,4 @@
+  Name:  clipline_
+    address      = 0001:000B65A0
+    module index = 386
+    kind:          (code)

@@ -1,0 +1,4 @@
+  Name:  fwrite_
+    address      = 0001:0008EBEC
+    module index = 195
+    kind:          (code)

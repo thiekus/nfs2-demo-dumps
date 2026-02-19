@@ -1,0 +1,20 @@
+  Name:  _getcpuspeed
+    address      = 0001:0009DA80
+    module index = 259
+    kind:          (code)
+  Name:  timecpu5_
+    address      = 0001:0009DBD0
+    module index = 259
+    kind:          (code)
+  Name:  timecpu_
+    address      = 0001:0009DC48
+    module index = 259
+    kind:          (code)
+  Name:  _cpuhz
+    address      = 0002:00013CB4
+    module index = 259
+    kind:          (data)
+  Name:  _getcpuspeedmethod
+    address      = 0002:00013CB8
+    module index = 259
+    kind:          (data)

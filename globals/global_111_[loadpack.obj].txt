@@ -1,0 +1,28 @@
+  Name:  _unpackhandlesizea
+    address      = 0001:0007FF50
+    module index = 111
+    kind:          (code)
+  Name:  _loadpackadr
+    address      = 0001:0007FFE8
+    module index = 111
+    kind:          (code)
+  Name:  _loadpackadrz
+    address      = 0001:00080008
+    module index = 111
+    kind:          (code)
+  Name:  _loadpackadra
+    address      = 0001:00080028
+    module index = 111
+    kind:          (code)
+  Name:  _loadpackblock
+    address      = 0001:00080048
+    module index = 111
+    kind:          (code)
+  Name:  _loadpackblockz
+    address      = 0001:00080060
+    module index = 111
+    kind:          (code)
+  Name:  _loadpackblocka
+    address      = 0001:00080078
+    module index = 111
+    kind:          (code)

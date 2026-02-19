@@ -1,0 +1,4 @@
+  Name:  _fixedsincos
+    address      = 0001:000A2810
+    module index = 293
+    kind:          (code)

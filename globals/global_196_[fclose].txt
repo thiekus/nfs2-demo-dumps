@@ -1,0 +1,20 @@
+  Name:  fclose_
+    address      = 0001:0008EDD2
+    module index = 196
+    kind:          (code)
+  Name:  __shutdown_stream_
+    address      = 0001:0008EE11
+    module index = 196
+    kind:          (code)
+  Name:  __hex_
+    address      = 0001:0008EE26
+    module index = 196
+    kind:          (static pubdef) (code)
+  Name:  __MkTmpFile_
+    address      = 0001:0008EE32
+    module index = 196
+    kind:          (code)
+  Name:  __doclose_
+    address      = 0001:0008EE97
+    module index = 196
+    kind:          (code)

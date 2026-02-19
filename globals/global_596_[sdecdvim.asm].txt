@@ -1,0 +1,4 @@
+  Name:  _decodedvim
+    address      = 0001:000C842C
+    module index = 596
+    kind:          (code)

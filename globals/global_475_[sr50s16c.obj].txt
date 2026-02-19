@@ -1,0 +1,32 @@
+  Name:  _rs50s16getframesup
+    address      = 0001:000BF3B0
+    module index = 475
+    kind:          (static pubdef) (code)
+  Name:  _rs50s16getframesunity
+    address      = 0001:000BF3F8
+    module index = 475
+    kind:          (static pubdef) (code)
+  Name:  _rs50s16getframesdown
+    address      = 0001:000BF400
+    module index = 475
+    kind:          (static pubdef) (code)
+  Name:  _rs50s16up
+    address      = 0001:000BF42C
+    module index = 475
+    kind:          (static pubdef) (code)
+  Name:  _rs50s16unity
+    address      = 0001:000BF560
+    module index = 475
+    kind:          (static pubdef) (code)
+  Name:  _rs50s16down
+    address      = 0001:000BF56C
+    module index = 475
+    kind:          (static pubdef) (code)
+  Name:  _rs50s16setpitch
+    address      = 0001:000BF6DC
+    module index = 475
+    kind:          (static pubdef) (code)
+  Name:  _rs50s16setstatemmx
+    address      = 0001:000BF780
+    module index = 475
+    kind:          (code)

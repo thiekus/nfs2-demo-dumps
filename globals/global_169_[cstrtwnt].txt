@@ -1,0 +1,4 @@
+  Name:  _cstart_
+    address      = 0001:000872E6
+    module index = 169
+    kind:          (code)

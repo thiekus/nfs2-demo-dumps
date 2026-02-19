@@ -1,0 +1,20 @@
+  Name:  SNDbanksize_
+    address      = 0001:000A11C0
+    module index = 281
+    kind:          (code)
+  Name:  SNDbankcreate_
+    address      = 0001:000A11DC
+    module index = 281
+    kind:          (code)
+  Name:  SNDbankaddpat2files_
+    address      = 0001:000A1280
+    module index = 281
+    kind:          (code)
+  Name:  iSNDremoveoldpatch_
+    address      = 0001:000A1378
+    module index = 281
+    kind:          (code)
+  Name:  SNDbankremovepat_
+    address      = 0001:000A13B0
+    module index = 281
+    kind:          (code)

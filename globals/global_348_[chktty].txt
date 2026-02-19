@@ -1,0 +1,4 @@
+  Name:  __chktty_
+    address      = 0001:000B076F
+    module index = 348
+    kind:          (code)

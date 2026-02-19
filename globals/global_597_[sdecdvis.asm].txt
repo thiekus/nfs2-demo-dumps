@@ -1,0 +1,4 @@
+  Name:  _decodedvis
+    address      = 0001:000C8518
+    module index = 597
+    kind:          (code)

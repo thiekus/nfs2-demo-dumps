@@ -1,0 +1,64 @@
+  Name:  Anim_Restart_
+    address      = 0001:0000A423
+    module index = 4
+    kind:          (code)
+  Name:  Anim_Init_
+    address      = 0001:0000A47D
+    module index = 4
+    kind:          (code)
+  Name:  Anim_DeInit_
+    address      = 0001:0000A543
+    module index = 4
+    kind:          (code)
+  Name:  GetFreeAnimIndex_
+    address      = 0001:0000A596
+    module index = 4
+    kind:          (code)
+  Name:  Anim_InitAnimNum_
+    address      = 0001:0000A5EF
+    module index = 4
+    kind:          (code)
+  Name:  Anim_SetAnimAttrib_
+    address      = 0001:0000A6A1
+    module index = 4
+    kind:          (code)
+  Name:  Anim_FreeHandle_
+    address      = 0001:0000A6E5
+    module index = 4
+    kind:          (code)
+  Name:  Anim_GetRotPos_
+    address      = 0001:0000A749
+    module index = 4
+    kind:          (code)
+  Name:  Anim_GetAnimFrameInfo_
+    address      = 0001:0000A878
+    module index = 4
+    kind:          (code)
+  Name:  Anim_GetLastRotPos_
+    address      = 0001:0000A92B
+    module index = 4
+    kind:          (code)
+  Name:  Anim_GetLastAnimPosRot_
+    address      = 0001:0000A98A
+    module index = 4
+    kind:          (code)
+  Name:  Anim_GetTimedAnimPosRot_
+    address      = 0001:0000AA49
+    module index = 4
+    kind:          (code)
+  Name:  Anim_GetNextAnimPosRot_
+    address      = 0001:0000AB62
+    module index = 4
+    kind:          (code)
+  Name:  Anim_GetStatus_
+    address      = 0001:0000AC6D
+    module index = 4
+    kind:          (code)
+  Name:  _anims
+    address      = 0002:0001C3D4
+    module index = 4
+    kind:          (data)
+  Name:  _animScripts
+    address      = 0002:0001C6D4
+    module index = 4
+    kind:          (data)

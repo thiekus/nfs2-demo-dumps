@@ -1,0 +1,32 @@
+  Name:  xorrectmove4_
+    address      = 0001:000C0AA0
+    module index = 499
+    kind:          (static pubdef) (code)
+  Name:  xorrectmove8_
+    address      = 0001:000C0AB4
+    module index = 499
+    kind:          (static pubdef) (code)
+  Name:  xorrectmove16_
+    address      = 0001:000C0AC8
+    module index = 499
+    kind:          (static pubdef) (code)
+  Name:  xorrectmove24_
+    address      = 0001:000C0AE0
+    module index = 499
+    kind:          (static pubdef) (code)
+  Name:  xorrectmove32_
+    address      = 0001:000C0B18
+    module index = 499
+    kind:          (static pubdef) (code)
+  Name:  _xorrect
+    address      = 0001:000C0B38
+    module index = 499
+    kind:          (code)
+  Name:  _drawrectfdfl
+    address      = 0002:00017094
+    module index = 499
+    kind:          (static pubdef) (data)
+  Name:  _xorrectcolour
+    address      = 0002:0006AE1C
+    module index = 499
+    kind:          (static pubdef) (data)

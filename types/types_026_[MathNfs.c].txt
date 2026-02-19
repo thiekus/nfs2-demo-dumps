@@ -1,0 +1,159 @@
+ 26) Name:   C:\nfs2\game\common\MathNfs.c
+     Language is C
+     Locals: num = 1, offset = 0000007AH
+     Types:  num = 1, offset = 00000216H
+     Lines:  num = 1, offset = 000003AAH
+
+    *** Types ***
+    =============
+      Data 0:  offset 00048EC0
+        0000: cue table offset=00000211
+        0006: SCOPE(1)
+          "struct"
+        000E: SCOPE(2)
+          "union"
+        0015: SCOPE(3)
+          "enum"
+        001B: SCALAR(4)
+          "char"  scalar type = 10, unsigned
+        0022: SCALAR(5)
+          "signed char"  scalar type = 00, integer
+        0030: SCALAR(6)
+          "unsigned char"  scalar type = 10, unsigned
+        0040: SCALAR(7)
+          "short"  scalar type = 01, integer
+        0048: SCALAR(8)
+          "unsigned short"  scalar type = 11, unsigned
+        0059: SCALAR(9)
+          "int"  scalar type = 03, integer
+        005F: SCALAR(10)
+          "unsigned int"  scalar type = 13, unsigned
+        006E: NAME(11)
+          "wchar_t"  type idx = 8  scope idx = 0
+        0079: NAME(12)
+          "size_t"  type idx = 10  scope idx = 0
+        0083: NEAR386 PTR(13)
+          base type idx = 4
+        0086: BYTE_INDEX ARRAY(14)
+          high bound = 00   base type idx = 13
+        008A: NAME(15)
+          "__va_list"  type idx = 14  scope idx = 0
+        0097: SCALAR(16)
+          "long"  scalar type = 03, integer
+        009E: NAME(17)
+          "fpos_t"  type idx = 16  scope idx = 0
+        00A8: NAME(18)
+          "fpos_t"  type idx = 16  scope idx = 0
+        00B2: BYTE_INDEX ARRAY(19)
+          high bound = 00   base type idx = 13
+        00B6: NAME(20)
+          "va_list"  type idx = 19  scope idx = 0
+        00C1: NAME(21)
+          "MEMBLOCK"  type idx = 13  scope idx = 0
+        00CD: SCALAR(22)
+          "void"  scalar type = 30, void
+        00D4: NEAR386 PROC(23)
+          return type = 22
+            param 1:  type idx = 22
+        00D9: NEAR386 PTR(24)
+          base type idx = 23
+        00DC: NAME(25)
+          "VOIDFN"  type idx = 24  scope idx = 0
+        00E6: NEAR386 PROC(26)
+          return type = 9
+            param 1:  type idx = 22
+        00EB: NAME(27)
+          "INTFN"  type idx = 26  scope idx = 0
+        00F4: NAME(28)
+          "MVI"  type idx = 22  scope idx = 0
+        00FB: NEAR386 PROC(29)
+          return type = 9
+            param 1:  type idx = 9
+            param 2:  type idx = 9
+        0101: NAME(30)
+          "EACHOOKCALLBACKFUNC"  type idx = 29  scope idx = 0
+        0118: NAME(31)
+          "arg_t"  type idx = 9  scope idx = 0
+        0121: NEAR386 PROC(32)
+          return type = 22
+            param 1:  type idx = 22
+        0126: NAME(33)
+          "THREADPROC"  type idx = 32  scope idx = 0
+        0134: NAME(34)
+          "SYSTEMTASK"  type idx = 29  scope idx = 0
+        0142: NAME(35)
+          "boolean"  type idx = 9  scope idx = 0
+        014D: NAME(36)
+          "fixed88"  type idx = 9  scope idx = 0
+        0158: NAME(37)
+          "fixed824"  type idx = 9  scope idx = 0
+        0164: NAME(38)
+          "fixed248"  type idx = 9  scope idx = 0
+        0170: NEAR386 PROC(39)
+          return type = 9
+            param 1:  type idx = 9
+            param 2:  type idx = 9
+        0176: FIELD_LIST(40)
+          number of fields = 0003   size = 0000000C
+        017E: FIELD_BYTE
+          "z"  offset = 08  type idx = 9
+        0183: FIELD_BYTE
+          "y"  offset = 04  type idx = 9
+        0188: FIELD_BYTE
+          "x"  offset = 00  type idx = 9
+        018D: NAME(41)
+          "coorddef"  type idx = 40  scope idx = 1
+        0199: NAME(42)
+          "LIBCOORD"  type idx = 41  scope idx = 0
+        01A5: NEAR386 PTR(43)
+          base type idx = 42
+        01A8: NEAR386 PROC(44)
+          return type = 9
+            param 1:  type idx = 43
+            param 2:  type idx = 43
+        01AE: BYTE_INDEX ARRAY(45)
+          high bound = 08   base type idx = 9
+        01B2: FIELD_LIST(46)
+          number of fields = 0001   size = 00000024
+        01BA: FIELD_BYTE
+          "m"  offset = 00  type idx = 45
+        01BF: NAME(47)
+          "matrixtdef"  type idx = 46  scope idx = 1
+        01CD: NAME(48)
+          "MATRIX3DT"  type idx = 47  scope idx = 0
+        01DA: NEAR386 PTR(49)
+          base type idx = 48
+        01DD: NEAR386 PROC(50)
+          return type = 22
+            param 1:  type idx = 49
+        01E2: NEAR386 PTR(51)
+          base type idx = 9
+        01E5: NEAR386 PROC(52)
+          return type = 22
+            param 1:  type idx = 9
+            param 2:  type idx = 9
+            param 3:  type idx = 9
+            param 4:  type idx = 51
+            param 5:  type idx = 51
+        01EE: NEAR386 PROC(53)
+          return type = 10
+            param 1:  type idx = 10
+            param 2:  type idx = 9
+            param 3:  type idx = 10
+        01F5: NEAR386 PROC(54)
+          return type = 9
+            param 1:  type idx = 43
+        01FA: NEAR386 PROC(55)
+          return type = 22
+            param 1:  type idx = 43
+        01FF: NEAR386 PROC(56)
+          return type = 22
+            param 1:  type idx = 9
+        0204: NEAR386 PROC(57)
+          return type = 22
+            param 1:  type idx = 42
+        0209: NEAR386 PROC(58)
+          return type = 22
+            param 1:  type idx = 49
+            param 2:  type idx = 9
+        020F: 

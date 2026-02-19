@@ -1,0 +1,28 @@
+  Name:  _loadshapeblocka
+    address      = 0001:00083800
+    module index = 138
+    kind:          (code)
+  Name:  _loadshapeblockz
+    address      = 0001:0008396C
+    module index = 138
+    kind:          (code)
+  Name:  _loadshapeblock
+    address      = 0001:00083984
+    module index = 138
+    kind:          (code)
+  Name:  _loadshapeadra
+    address      = 0001:0008399C
+    module index = 138
+    kind:          (code)
+  Name:  _loadshapeadrz
+    address      = 0001:000839C0
+    module index = 138
+    kind:          (code)
+  Name:  _loadshapeadr
+    address      = 0001:000839E4
+    module index = 138
+    kind:          (code)
+  Name:  _shapeext
+    address      = 0002:000131BC
+    module index = 138
+    kind:          (data)

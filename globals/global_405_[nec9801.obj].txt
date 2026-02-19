@@ -1,0 +1,8 @@
+  Name:  _initkey98
+    address      = 0001:000B9FE0
+    module index = 405
+    kind:          (code)
+  Name:  _nec2pc
+    address      = 0002:00016BC0
+    module index = 405
+    kind:          (static pubdef) (data)

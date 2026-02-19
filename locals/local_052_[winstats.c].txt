@@ -1,0 +1,12 @@
+ 52) Name:   C:\nfs2\game\common\winstats.c
+     Language is C
+     Locals: num = 1, offset = 000000E2H
+     Types:  num = 1, offset = 0000027EH
+     Lines:  num = 0, offset = 00000000H
+
+   *** Locals ***
+   ==============
+      Data 0:  offset 00014DA8
+        0000: MODULE_386
+          "drivemutex" addr = 0002:00046444,  type = 343
+

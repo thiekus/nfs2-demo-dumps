@@ -1,0 +1,8 @@
+  Name:  linmapuv16_
+    address      = 0001:000B2D9C
+    module index = 370
+    kind:          (code)
+  Name:  linmapuv8_
+    address      = 0001:000B2BF4
+    module index = 370
+    kind:          (code)

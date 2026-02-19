@@ -1,0 +1,32 @@
+  Name:  _bankopbitline
+    address      = 0001:00093950
+    module index = 215
+    kind:          (static pubdef) (code)
+  Name:  _tscalefxya
+    address      = 0001:000939E0
+    module index = 215
+    kind:          (code)
+  Name:  _tscalefxy
+    address      = 0001:00093D40
+    module index = 215
+    kind:          (code)
+  Name:  _tscalef
+    address      = 0001:00093E04
+    module index = 215
+    kind:          (code)
+  Name:  _tscalerecfxya
+    address      = 0001:00093E30
+    module index = 215
+    kind:          (code)
+  Name:  _tscalerecfxy
+    address      = 0001:00093E58
+    module index = 215
+    kind:          (code)
+  Name:  _tscalerecf
+    address      = 0001:00093E80
+    module index = 215
+    kind:          (code)
+  Name:  _opbitline
+    address      = 0002:00013860
+    module index = 215
+    kind:          (static pubdef) (data)

@@ -1,0 +1,8 @@
+  Name:  ___chipbug
+    address      = 0002:00018D44
+    module index = 616
+    kind:          (data)
+  Name:  __chipbug
+    address      = 0002:00018D44
+    module index = 616
+    kind:          (data)

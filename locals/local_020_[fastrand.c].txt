@@ -1,0 +1,44 @@
+ 20) Name:   C:\nfs2\game\common\fastrand.c
+     Language is C
+     Locals: num = 1, offset = 00000062H
+     Types:  num = 1, offset = 000001FEH
+     Lines:  num = 1, offset = 00000396H
+
+   *** Locals ***
+   ==============
+      Data 0:  offset 0000C82B
+        0000: MODULE_386
+          "numRandCalls" addr = 0002:0000CCC4,  type = 10
+        0015: MODULE_386
+          "randSeed" addr = 0002:0000CCC0,  type = 10
+        0026: MODULE_386
+          "randtemp" addr = 0002:0000CCBC,  type = 10
+        0037: MODULE_386
+          "fastRandom" addr = 0002:0000CCB8,  type = 10
+        004A: SET_BASE_386
+          base = 0001:00028F76
+        0052: NEAR_RTN_386
+          start off = 00000000, code size = 00000015, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  12
+          return value: <none>
+          Name = "FastRandom_CleanUp"
+        0079: NEAR_RTN_386
+          start off = 00000015, code size = 00000173, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  13
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "FastRandom_StartUp"
+        00A2: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "seeder",  type = 10
+        00AD: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "a",  type = 10
+        00B3: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "b",  type = 10
+

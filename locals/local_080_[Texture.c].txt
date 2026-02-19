@@ -1,0 +1,210 @@
+ 80) Name:   C:\nfs2\game\pc\Texture.c
+     Language is C
+     Locals: num = 1, offset = 00000152H
+     Types:  num = 1, offset = 000002EEH
+     Lines:  num = 1, offset = 00000476H
+
+   *** Locals ***
+   ==============
+      Data 0:  offset 0001E6A3
+        0000: MODULE_386
+          "gPixmap" addr = 0002:0004FC34,  type = 47
+        0010: MODULE_386
+          "gDLPixmap" addr = 0002:0004FD0C,  type = 49
+        0022: MODULE_386
+          "gSkidmarkPixmap" addr = 0002:0004FD2C,  type = 50
+        003A: MODULE_386
+          "Texture_gRemapID" addr = 0002:0004FD3C,  type = 9
+        0053: MODULE_386
+          "Texture_gBackgroundShape" addr = 0002:0004FD40,  type = 43
+        0074: MODULE_386
+          "gDebugShapeFile" addr = 0002:0004FD44,  type = 13
+        008C: MODULE_386
+          "gShadowPixmap" addr = 0002:0004FD48,  type = 48
+        00A2: MODULE_386
+          "gDPixmap" addr = 0002:0004FD4C,  type = 48
+        00B3: MODULE_386
+          "gStartUpPixmap" addr = 0002:0004FD50,  type = 51
+        00CA: SET_BASE_386
+          base = 0001:00060B37
+        00D2: NEAR_RTN_386
+          start off = 00000000, code size = 00000070, parent off = 0000
+          prologue size = 11,  epilogue size = 6
+          return address offset (from bp) = 0000000C
+          return type:  52
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Parm 3: MULTI_REG(1): ECX
+          Name = "Texture_LoadPmx"
+        00FE: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "f",  type = 13
+        0104: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "n",  type = 13
+        010A: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "remapid",  type = 9
+        0116: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "pmx",  type = 48
+        011E: NEAR_RTN_386
+          start off = 00000070, code size = 00000035, parent off = 0000
+          prologue size = 12,  epilogue size = 7
+          return address offset (from bp) = 00000010
+          return type:  53
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Name = "Texture_CloneRemapPmx"
+        014E: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "pmx",  type = 48
+        0156: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "remapid",  type = 9
+        0162: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "rpmx",  type = 48
+        016B: NEAR_RTN_386
+          start off = 000000A5, code size = 000001D3, parent off = 0000
+          prologue size = 12,  epilogue size = 7
+          return address offset (from bp) = 00000010
+          return type:  53
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Name = "Texture_CloneUVPmx"
+        0198: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "pmx",  type = 48
+        01A0: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "mode",  type = 9
+        01A9: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "rpmx",  type = 48
+        01B2: NEAR_RTN_386
+          start off = 00000278, code size = 00000151, parent off = 0000
+          prologue size = 12,  epilogue size = 7
+          return address offset (from bp) = 00000010
+          return type:  53
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Name = "Texture_CarCloneUVPmx"
+        01E2: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "pmx",  type = 48
+        01EA: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "mode",  type = 9
+        01F3: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "rpmx",  type = 48
+        01FC: NEAR_RTN_386
+          start off = 000003C9, code size = 00000062, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  21
+          return value: <none>
+          Name = "Texture_RegisterModule"
+        0227: LOCAL
+          address: BP_OFFSET_WORD( 0000 )
+          name = "name",  type = 54
+        0231: NEAR_RTN_386
+          start off = 0000042B, code size = 000001CA, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  21
+          return value: <none>
+          Name = "Texture_LoadDebugTextures"
+        025F: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "i",  type = 9
+        0265: LOCAL
+          address: BP_OFFSET_WORD( 00FC )
+          name = "name",  type = 55
+        026F: NEAR_RTN_386
+          start off = 000005F5, code size = 00000023, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  21
+          return value: <none>
+          Name = "Texture_KillDebugTextures"
+        029D: NEAR_RTN_386
+          start off = 00000618, code size = 00000030, parent off = 0000
+          prologue size = 12,  epilogue size = 7
+          return address offset (from bp) = 00000010
+          return type:  56
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Name = "Texture_RegisterShapeFile"
+        02D2: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "region",  type = 9
+        02DD: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "shapefile",  type = 13
+        02EB: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "remap",  type = 9
+        02F5: NEAR_RTN_386
+          start off = 00000648, code size = 00000034, parent off = 0000
+          prologue size = 11,  epilogue size = 6
+          return address offset (from bp) = 0000000C
+          return type:  57
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Parm 3: MULTI_REG(1): ECX
+          Name = "Texture_RegisterColoredShapeFile"
+        0333: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "region",  type = 9
+        033E: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "shapefile",  type = 13
+        034C: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "carid",  type = 9
+        0356: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "color",  type = 9
+        0360: NEAR_RTN_386
+          start off = 0000067C, code size = 00000038, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  21
+          return value: <none>
+          Name = "Texture_ProcessPalette"
+        038B: NEAR_RTN_386
+          start off = 000006B4, code size = 0000001F, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  21
+          return value: <none>
+          Name = "Texture_InitTrackTexture"
+        03B8: NEAR_RTN_386
+          start off = 000006D3, code size = 00000029, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  21
+          return value: <none>
+          Name = "Texture_InitTrackTexturePostSim"
+        03EC: NEAR_RTN_386
+          start off = 000006FC, code size = 00000024, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  21
+          return value: <none>
+          Name = "Texture_KillTrackTexture"
+

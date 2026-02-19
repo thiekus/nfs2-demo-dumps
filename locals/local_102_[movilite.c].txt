@@ -1,0 +1,182 @@
+102) Name:   C:\nfs2\frontend\pc\movilite.c
+     Language is C
+     Locals: num = 1, offset = 000001AAH
+     Types:  num = 1, offset = 00000346H
+     Lines:  num = 1, offset = 000004CAH
+
+   *** Locals ***
+   ==============
+      Data 0:  offset 00027E9C
+        0000: MODULE_386
+          "sndstreaminitval" addr = 0002:00050EFC,  type = 9
+        0019: MODULE_386
+          "videoheight" addr = 0002:00050F00,  type = 9
+        002D: MODULE_386
+          "videoy" addr = 0002:00050F04,  type = 9
+        003C: MODULE_386
+          "videox" addr = 0002:00050F08,  type = 9
+        004B: MODULE_386
+          "timeoutstart" addr = 0002:00050F0C,  type = 9
+        0060: MODULE_386
+          "videowidth" addr = 0002:00050F10,  type = 9
+        0073: MODULE_386
+          "videodropped" addr = 0002:00050F14,  type = 9
+        0088: MODULE_386
+          "newframe" addr = 0002:00050F18,  type = 68
+        0099: MODULE_386
+          "videoframes" addr = 0002:00050F1C,  type = 9
+        00AD: MODULE_386
+          "audioframes" addr = 0002:00050F20,  type = 9
+        00C1: MODULE_386
+          "oldframe" addr = 0002:00050F24,  type = 68
+        00D2: SET_BASE_386
+          base = 0001:0007F3B3
+        00DA: NEAR_RTN_386
+          start off = 00000000, code size = 0000001F, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  21
+          return value: <none>
+          Name = "resettimeout"
+        00FB: NEAR_RTN_386
+          start off = 0000001F, code size = 00000048, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  69
+          return value: MULTI_REG(1): EAX
+          Name = "istimeout"
+        011A: NEAR_RTN_386
+          start off = 00000067, code size = 000000E5, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  70
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Name = "initdecode"
+        013D: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "width",  type = 9
+        0147: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "height",  type = 9
+        0152: NEAR_RTN_386
+          start off = 0000014C, code size = 0000031D, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  75
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "decodeuvchunk"
+        0176: LOCAL
+          address: BP_OFFSET_BYTE( E0 )
+          name = "uvchunk",  type = 74
+        0182: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "temp",  type = 68
+        018B: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "src",  type = 13
+        0193: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "len",  type = 9
+        019B: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "dx",  type = 9
+        01A2: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "dy",  type = 9
+        01A9: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "i",  type = 9
+        01AF: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "j",  type = 9
+        01B5: NEAR_RTN_386
+          start off = 00000469, code size = 00000031, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  21
+          return value: <none>
+          Name = "decoderestore"
+        01D7: NEAR_RTN_386
+          start off = 0000049A, code size = 0000006D, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  84
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Name = "getchunk"
+        01F7: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "stream",  type = 83
+        0202: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "chunk",  type = 74
+        020C: NEAR_RTN_386
+          start off = 00000507, code size = 00000066, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  84
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Name = "getuvchunk"
+        022E: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "stream",  type = 83
+        0239: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "chunk",  type = 74
+        0243: NEAR_RTN_386
+          start off = 0000056D, code size = 00000029, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  21
+          return value: <none>
+          Name = "PLAYclearscreen"
+        0267: NEAR_RTN_386
+          start off = 00000596, code size = 0000007E, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  69
+          return value: MULTI_REG(1): EAX
+          Name = "CheckForAbort"
+        028A: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "k",  type = 9
+        0290: NEAR_RTN_386
+          start off = 00000614, code size = 00000414, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  85
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Name = "MoviLite_PlayMovie"
+        02BA: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "sMovieName",  type = 13
+        02C9: LOCAL
+          address: BP_OFFSET_BYTE( DC )
+          name = "videostream",  type = 83
+        02D9: LOCAL
+          address: BP_OFFSET_BYTE( E0 )
+          name = "audiostream",  type = 83
+        02E9: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "uvchunk",  type = 74
+        02F5: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "chunk",  type = 74
+        02FF: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "shandle",  type = 9
+        030B: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "tick",  type = 9
+        0314: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "nAbortFlag",  type = 9
+        0323: LOCAL
+          address: BP_OFFSET_WORD( 00E0 )
+          name = "sBuildMovieName",  type = 86
+

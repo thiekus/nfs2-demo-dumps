@@ -1,0 +1,8 @@
+  Name:  _locateshape
+    address      = 0001:0008F0D5
+    module index = 198
+    kind:          (code)
+  Name:  _locateshapez
+    address      = 0001:0008F0DC
+    module index = 198
+    kind:          (code)

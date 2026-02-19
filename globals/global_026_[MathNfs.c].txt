@@ -1,0 +1,56 @@
+  Name:  Math_Atan2F16_
+    address      = 0001:0002A4AB
+    module index = 26
+    kind:          (code)
+  Name:  Math_DistXZ_
+    address      = 0001:0002A4DF
+    module index = 26
+    kind:          (code)
+  Name:  Math_Dist3D_
+    address      = 0001:0002A59B
+    module index = 26
+    kind:          (code)
+  Name:  Math_BetterDist_
+    address      = 0001:0002A6BC
+    module index = 26
+    kind:          (code)
+  Name:  Math_MakeUnitMatrix_
+    address      = 0001:0002A867
+    module index = 26
+    kind:          (code)
+  Name:  Math_ResolveRotatedVector_
+    address      = 0001:0002A8DA
+    module index = 26
+    kind:          (code)
+  Name:  Math_FixedSqrtServer_
+    address      = 0001:0002A981
+    module index = 26
+    kind:          (code)
+  Name:  Math_VectorLength_
+    address      = 0001:0002AA18
+    module index = 26
+    kind:          (code)
+  Name:  Math_VectorLength2_
+    address      = 0001:0002ABD0
+    module index = 26
+    kind:          (code)
+  Name:  Math_NormalizeVector_
+    address      = 0001:0002AD74
+    module index = 26
+    kind:          (code)
+  Name:  Math_NormalizeShortVector_
+    address      = 0001:0002AF69
+    module index = 26
+    kind:          (code)
+  Name:  Math_DumpFixed_
+    address      = 0001:0002B05E
+    module index = 26
+    kind:          (code)
+  Name:  Math_DumpVector_
+    address      = 0001:0002B078
+    module index = 26
+    kind:          (code)
+  Name:  Math_MakeRotMatY_
+    address      = 0001:0002B08F
+    module index = 26
+    kind:          (code)

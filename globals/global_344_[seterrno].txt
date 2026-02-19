@@ -1,0 +1,20 @@
+  Name:  __set_EDOM_
+    address      = 0001:000B0317
+    module index = 344
+    kind:          (code)
+  Name:  __set_errno_
+    address      = 0001:000B031C
+    module index = 344
+    kind:          (code)
+  Name:  __set_ERANGE_
+    address      = 0001:000B032A
+    module index = 344
+    kind:          (code)
+  Name:  __set_EINVAL_
+    address      = 0001:000B0331
+    module index = 344
+    kind:          (code)
+  Name:  __set_doserrno_
+    address      = 0001:000B0341
+    module index = 344
+    kind:          (code)

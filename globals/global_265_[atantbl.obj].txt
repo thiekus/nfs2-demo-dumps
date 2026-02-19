@@ -1,0 +1,4 @@
+  Name:  _atantbl
+    address      = 0002:00013E08
+    module index = 265
+    kind:          (data)

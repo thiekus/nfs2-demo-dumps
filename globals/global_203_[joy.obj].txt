@@ -1,0 +1,16 @@
+  Name:  _initwinjoy
+    address      = 0001:0008F7B0
+    module index = 203
+    kind:          (code)
+  Name:  _querywinjoy
+    address      = 0001:0008F7FC
+    module index = 203
+    kind:          (code)
+  Name:  _readwinjoy
+    address      = 0001:0008FA58
+    module index = 203
+    kind:          (code)
+  Name:  _winnumjoysticks
+    address      = 0002:00051970
+    module index = 203
+    kind:          (static pubdef) (data)

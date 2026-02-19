@@ -1,0 +1,12 @@
+  Name:  byteswap_
+    address      = 0001:000A84B4
+    module index = 317
+    kind:          (static pubdef) (code)
+  Name:  med3_
+    address      = 0001:000A84DA
+    module index = 317
+    kind:          (static pubdef) (code)
+  Name:  qsort_
+    address      = 0001:000A8532
+    module index = 317
+    kind:          (code)

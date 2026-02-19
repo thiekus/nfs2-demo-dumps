@@ -1,0 +1,52 @@
+  Name:  Color_InitColor_
+    address      = 0001:00026D2B
+    module index = 15
+    kind:          (code)
+  Name:  Color_IsColorAlreadyLoaded_
+    address      = 0001:00026D62
+    module index = 15
+    kind:          (code)
+  Name:  Color_GetColor_
+    address      = 0001:00026D8D
+    module index = 15
+    kind:          (code)
+  Name:  Color_ReadCarDeltaVTFile_
+    address      = 0001:00026DF0
+    module index = 15
+    kind:          (code)
+  Name:  Color_CleanUpDeltaVTFile_
+    address      = 0001:00026E88
+    module index = 15
+    kind:          (code)
+  Name:  Color_GetCarVT_
+    address      = 0001:00026EAB
+    module index = 15
+    kind:          (code)
+  Name:  Color_PseudoColor_
+    address      = 0001:00026F18
+    module index = 15
+    kind:          (code)
+  Name:  Color_RGBColorChangePal_
+    address      = 0001:00027184
+    module index = 15
+    kind:          (code)
+  Name:  Color_Rgb2Hsv_
+    address      = 0001:00027277
+    module index = 15
+    kind:          (code)
+  Name:  Color_Hsv2Rgb_
+    address      = 0001:0002753E
+    module index = 15
+    kind:          (code)
+  Name:  _gColorNfsColor
+    address      = 0002:0000CAB4
+    module index = 15
+    kind:          (data)
+  Name:  _gColorLoaded
+    address      = 0002:00023498
+    module index = 15
+    kind:          (data)
+  Name:  _Color_gVT
+    address      = 0002:000234B0
+    module index = 15
+    kind:          (data)

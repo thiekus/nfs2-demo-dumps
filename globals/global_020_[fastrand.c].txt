@@ -1,0 +1,24 @@
+  Name:  FastRandom_CleanUp_
+    address      = 0001:00028F76
+    module index = 20
+    kind:          (code)
+  Name:  FastRandom_StartUp_
+    address      = 0001:00028F8B
+    module index = 20
+    kind:          (code)
+  Name:  _fastRandom
+    address      = 0002:0000CCB8
+    module index = 20
+    kind:          (data)
+  Name:  _randtemp
+    address      = 0002:0000CCBC
+    module index = 20
+    kind:          (data)
+  Name:  _randSeed
+    address      = 0002:0000CCC0
+    module index = 20
+    kind:          (data)
+  Name:  _numRandCalls
+    address      = 0002:0000CCC4
+    module index = 20
+    kind:          (data)

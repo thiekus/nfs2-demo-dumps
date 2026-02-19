@@ -1,0 +1,80 @@
+  Name:  _audioinstalled
+    address      = 0002:00013F1C
+    module index = 278
+    kind:          (data)
+  Name:  _audiomaxchan
+    address      = 0002:00013F1D
+    module index = 278
+    kind:          (data)
+  Name:  _speechserver
+    address      = 0002:00013F20
+    module index = 278
+    kind:          (data)
+  Name:  _crowdserver
+    address      = 0002:00013F24
+    module index = 278
+    kind:          (data)
+  Name:  _pathserver
+    address      = 0002:00013F28
+    module index = 278
+    kind:          (data)
+  Name:  _midiserver
+    address      = 0002:00013F2C
+    module index = 278
+    kind:          (data)
+  Name:  _streamcallbackfunc
+    address      = 0002:00013F30
+    module index = 278
+    kind:          (data)
+  Name:  _audioserver
+    address      = 0002:00013F34
+    module index = 278
+    kind:          (data)
+  Name:  _pathbuftimesignal
+    address      = 0002:00013F38
+    module index = 278
+    kind:          (data)
+  Name:  _sdrivercallback
+    address      = 0002:00013F3C
+    module index = 278
+    kind:          (data)
+  Name:  _audiodebugprint
+    address      = 0002:00013F40
+    module index = 278
+    kind:          (data)
+  Name:  _chanpub
+    address      = 0002:00054B88
+    module index = 278
+    kind:          (data)
+  Name:  _audiofxbus
+    address      = 0002:00055008
+    module index = 278
+    kind:          (data)
+  Name:  _banklist
+    address      = 0002:00055018
+    module index = 278
+    kind:          (data)
+  Name:  _audiomutex
+    address      = 0002:00055068
+    module index = 278
+    kind:          (data)
+  Name:  _servertick
+    address      = 0002:0005506C
+    module index = 278
+    kind:          (data)
+  Name:  _audiotick
+    address      = 0002:00055070
+    module index = 278
+    kind:          (data)
+  Name:  _olddebugprint
+    address      = 0002:00055074
+    module index = 278
+    kind:          (data)
+  Name:  _instreamservice
+    address      = 0002:00055076
+    module index = 278
+    kind:          (data)
+  Name:  _audiomastervol
+    address      = 0002:00055077
+    module index = 278
+    kind:          (data)

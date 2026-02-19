@@ -1,0 +1,4 @@
+  Name:  memmove_
+    address      = 0001:000BCBF0
+    module index = 443
+    kind:          (code)

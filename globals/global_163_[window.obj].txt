@@ -1,0 +1,36 @@
+  Name:  _flushwindow
+    address      = 0001:000860A0
+    module index = 163
+    kind:          (code)
+  Name:  _displaywindow
+    address      = 0001:000860A4
+    module index = 163
+    kind:          (code)
+  Name:  _hiddenwindow
+    address      = 0001:000860EC
+    module index = 163
+    kind:          (code)
+  Name:  _nullwindow
+    address      = 0001:0008612C
+    module index = 163
+    kind:          (code)
+  Name:  _windowa
+    address      = 0001:00086178
+    module index = 163
+    kind:          (code)
+  Name:  _windowz
+    address      = 0001:000861D0
+    module index = 163
+    kind:          (code)
+  Name:  _window
+    address      = 0001:000861E0
+    module index = 163
+    kind:          (code)
+  Name:  _getdisplaywindow
+    address      = 0001:000861F0
+    module index = 163
+    kind:          (code)
+  Name:  _gethiddenwindow
+    address      = 0001:000861F8
+    module index = 163
+    kind:          (code)

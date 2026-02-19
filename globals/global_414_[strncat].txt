@@ -1,0 +1,4 @@
+  Name:  strncat_
+    address      = 0001:000BB488
+    module index = 414
+    kind:          (code)

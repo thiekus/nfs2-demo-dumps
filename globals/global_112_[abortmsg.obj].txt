@@ -1,0 +1,36 @@
+  Name:  _abortmessage
+    address      = 0001:00080210
+    module index = 112
+    kind:          (code)
+  Name:  _sendtodebugger
+    address      = 0002:00012E58
+    module index = 112
+    kind:          (data)
+  Name:  _sendtoprintmem
+    address      = 0002:00012E5C
+    module index = 112
+    kind:          (data)
+  Name:  _abortfileflag
+    address      = 0002:00012E60
+    module index = 112
+    kind:          (data)
+  Name:  _printmemptr
+    address      = 0002:00012E64
+    module index = 112
+    kind:          (data)
+  Name:  _abortfile
+    address      = 0002:00012E68
+    module index = 112
+    kind:          (data)
+  Name:  _abortline
+    address      = 0002:00012E6C
+    module index = 112
+    kind:          (data)
+  Name:  _callfile
+    address      = 0002:00012E70
+    module index = 112
+    kind:          (data)
+  Name:  _callline
+    address      = 0002:00012E74
+    module index = 112
+    kind:          (data)

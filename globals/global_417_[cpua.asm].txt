@@ -1,0 +1,12 @@
+  Name:  _detectcpuid
+    address      = 0001:000BB680
+    module index = 417
+    kind:          (code)
+  Name:  _getcpuid
+    address      = 0001:000BB69D
+    module index = 417
+    kind:          (code)
+  Name:  _detectcyrix
+    address      = 0001:000BB6BD
+    module index = 417
+    kind:          (code)

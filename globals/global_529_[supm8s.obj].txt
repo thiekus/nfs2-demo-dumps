@@ -1,0 +1,8 @@
+  Name:  _upm8s
+    address      = 0001:000C24F0
+    module index = 529
+    kind:          (static pubdef) (code)
+  Name:  _upm8ssetstate
+    address      = 0001:000C25B4
+    module index = 529
+    kind:          (code)

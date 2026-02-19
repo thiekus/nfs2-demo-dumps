@@ -1,0 +1,84 @@
+  Name:  _modemprintflag
+    address      = 0002:000146B4
+    module index = 325
+    kind:          (data)
+  Name:  _modemsettleticks
+    address      = 0002:000146B8
+    module index = 325
+    kind:          (data)
+  Name:  _modempreinitstring
+    address      = 0002:000146BC
+    module index = 325
+    kind:          (data)
+  Name:  _modemresponse
+    address      = 0002:000146C0
+    module index = 325
+    kind:          (static pubdef) (data)
+  Name:  _lastmodemcommand
+    address      = 0002:000147B0
+    module index = 325
+    kind:          (data)
+  Name:  _lastmodemresponse
+    address      = 0002:000147B4
+    module index = 325
+    kind:          (data)
+  Name:  _resetmodem
+    address      = 0001:000A8E50
+    module index = 325
+    kind:          (code)
+  Name:  _resetmodemcmd
+    address      = 0001:000A8E64
+    module index = 325
+    kind:          (code)
+  Name:  _hangup
+    address      = 0001:000A8ECC
+    module index = 325
+    kind:          (code)
+  Name:  _dialout
+    address      = 0001:000A8F04
+    module index = 325
+    kind:          (code)
+  Name:  _dialoutcmd
+    address      = 0001:000A8F64
+    module index = 325
+    kind:          (code)
+  Name:  _dialconnect
+    address      = 0001:000A9014
+    module index = 325
+    kind:          (code)
+  Name:  _autoanswer
+    address      = 0001:000A9048
+    module index = 325
+    kind:          (code)
+  Name:  _answer
+    address      = 0001:000A906C
+    module index = 325
+    kind:          (code)
+  Name:  _checkanswer
+    address      = 0001:000A9084
+    module index = 325
+    kind:          (code)
+  Name:  _getmodemresponse
+    address      = 0001:000A90D8
+    module index = 325
+    kind:          (code)
+  Name:  _sendmodemcmd
+    address      = 0001:000A932C
+    module index = 325
+    kind:          (code)
+  Name:  _getmodemattention
+    address      = 0001:000A9458
+    module index = 325
+    kind:          (code)
+  Name:  _speakeroff
+    address      = 0001:000A9584
+    module index = 325
+    kind:          (code)
+  Name:  _numrows
+    address      = 0002:000147B8
+    module index = 325
+    kind:          (static pubdef) (data)
+  Name:  _numeric_modem
+    address      = 0002:000147BC
+    module index = 325
+    kind:          (static pubdef) (data)

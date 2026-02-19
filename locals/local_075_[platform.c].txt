@@ -1,0 +1,78 @@
+ 75) Name:   C:\nfs2\game\pc\platform.c
+     Language is C
+     Locals: num = 1, offset = 0000013EH
+     Types:  num = 1, offset = 000002DAH
+     Lines:  num = 1, offset = 00000462H
+
+   *** Locals ***
+   ==============
+      Data 0:  offset 0001D525
+        0000: MODULE_386
+          "Input_Thread" addr = 0002:0004EF28,  type = 369
+        0016: SET_BASE_386
+          base = 0001:0005D763
+        001E: NEAR_RTN_386
+          start off = 00000000, code size = 00000052, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  371
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Platform_AllocateTm"
+        004A: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "s",  type = 370
+        0051: NEAR_RTN_386
+          start off = 00000052, code size = 00000026, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  372
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Platform_FreeTm"
+        0078: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "p",  type = 12
+        007E: NEAR_RTN_386
+          start off = 00000078, code size = 00000015, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  335
+          return value: <none>
+          Name = "Platform_FreeMPause"
+        00A7: NEAR_RTN_386
+          start off = 0000008D, code size = 00000015, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  335
+          return value: <none>
+          Name = "Platform_ReAllocateMPause"
+        00D6: NEAR_RTN_386
+          start off = 000000A2, code size = 000000ED, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  335
+          return value: <none>
+          Name = "Platform_SysStartUp"
+        00FF: NEAR_RTN_386
+          start off = 0000018F, code size = 00000046, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  335
+          return value: <none>
+          Name = "Platform_SysCleanUp"
+        0128: NEAR_RTN_386
+          start off = 000001D5, code size = 00000015, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  335
+          return value: <none>
+          Name = "Platform_DebuggerPollHost"
+        0157: NEAR_RTN_386
+          start off = 000001EA, code size = 00000015, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  335
+          return value: <none>
+          Name = "Platform_VerifyCD"
+

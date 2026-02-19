@@ -1,0 +1,96 @@
+  Name:  _audioheadersread
+    address      = 0002:0001364C
+    module index = 192
+    kind:          (data)
+  Name:  _iSNDstreamservice
+    address      = 0001:0008DAF0
+    module index = 192
+    kind:          (code)
+  Name:  SNDstreamsetbuftime_
+    address      = 0001:0008DB34
+    module index = 192
+    kind:          (code)
+  Name:  SNDstreaminit_
+    address      = 0001:0008DBC8
+    module index = 192
+    kind:          (code)
+  Name:  SNDstreamstartV_
+    address      = 0001:0008DD28
+    module index = 192
+    kind:          (code)
+  Name:  SNDstreamparse_
+    address      = 0001:0008DDD0
+    module index = 192
+    kind:          (code)
+  Name:  SNDstreampercent_
+    address      = 0001:0008DF50
+    module index = 192
+    kind:          (code)
+  Name:  SNDstreamchunksleft_
+    address      = 0001:0008DFF4
+    module index = 192
+    kind:          (code)
+  Name:  SNDstreambuftime_
+    address      = 0001:0008E028
+    module index = 192
+    kind:          (code)
+  Name:  SNDstreamchunkstoend_
+    address      = 0001:0008E0B4
+    module index = 192
+    kind:          (code)
+  Name:  SNDstreamtimetoend_
+    address      = 0001:0008E0E0
+    module index = 192
+    kind:          (code)
+  Name:  SNDstreamtick_
+    address      = 0001:0008E140
+    module index = 192
+    kind:          (code)
+  Name:  SNDstreamstatus_
+    address      = 0001:0008E164
+    module index = 192
+    kind:          (code)
+  Name:  SNDstreamrestore_
+    address      = 0001:0008E178
+    module index = 192
+    kind:          (code)
+  Name:  SNDstreampending_
+    address      = 0001:0008E208
+    module index = 192
+    kind:          (code)
+  Name:  iSNDparsedata_
+    address      = 0001:0008E21C
+    module index = 192
+    kind:          (code)
+  Name:  iSNDparseheader_
+    address      = 0001:0008E264
+    module index = 192
+    kind:          (code)
+  Name:  iSNDparsenumchunks_
+    address      = 0001:0008E2FC
+    module index = 192
+    kind:          (code)
+  Name:  iSNDparseloop_
+    address      = 0001:0008E364
+    module index = 192
+    kind:          (code)
+  Name:  iSNDparseend_
+    address      = 0001:0008E398
+    module index = 192
+    kind:          (code)
+  Name:  iSNDendchunksread_
+    address      = 0001:0008E3CC
+    module index = 192
+    kind:          (code)
+  Name:  _iSNDgetnextchunk
+    address      = 0001:0008E3D4
+    module index = 192
+    kind:          (code)
+  Name:  SNDstreamservice_
+    address      = 0001:0008E500
+    module index = 192
+    kind:          (static pubdef) (code)
+  Name:  _as
+    address      = 0002:00013650
+    module index = 192
+    kind:          (static pubdef) (data)

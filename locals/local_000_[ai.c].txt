@@ -1,0 +1,1841 @@
+  0) Name:   C:\nfs2\game\common\ai.c
+     Language is C
+     Locals: num = 1, offset = 00000012H
+     Types:  num = 1, offset = 000001AEH
+     Lines:  num = 1, offset = 0000034AH
+
+   *** Locals ***
+   ==============
+      Data 0:  offset 000004D2
+        0000: MODULE_386
+          "personalities" addr = 0002:0001C010,  type = 73
+        0016: MODULE_386
+          "inverseLaneWidthTable" addr = 0002:0001C050,  type = 74
+        0034: MODULE_386
+          "AIConfig" addr = 0002:0001C190,  type = 79
+        0045: MODULE_386
+          "CarLogic_gObs" addr = 0002:0001C1C0,  type = 62
+        005B: MODULE_386
+          "AI_elapsedTime" addr = 0002:0001C298,  type = 9
+        0072: MODULE_386
+          "AI_time" addr = 0002:0001C29C,  type = 9
+        0082: MODULE_386
+          "trafcfg" addr = 0002:0000BCBC,  type = 80
+        0092: MODULE_386
+          "AI_Info" addr = 0002:0001C2A0,  type = 209
+        00A3: MODULE_386
+          "oneWay" addr = 0002:0001C324,  type = 9
+        00B2: MODULE_386
+          "AI_iTime" addr = 0002:0001C328,  type = 9
+        00C3: MODULE_386
+          "AI_gMaxTrafficOnTrack" addr = 0002:0001C32C,  type = 9
+        00E1: MODULE_386
+          "AI_gLifeTimerValue" addr = 0002:0001C330,  type = 9
+        00FC: MODULE_386
+          "driveSide" addr = 0002:0001C334,  type = 9
+        010E: MODULE_386
+          "speedRecord" addr = 0002:0000BCB4,  type = 9
+        0122: MODULE_386
+          "gameSpeedGlueInv" addr = 0002:0001C338,  type = 9
+        013B: MODULE_386
+          "gameAccGlueInv" addr = 0002:0001C33C,  type = 9
+        0152: MODULE_386
+          "gameSpeedGlue" addr = 0002:0001C340,  type = 9
+        0168: MODULE_386
+          "leadingLivePlayerCarIndex" addr = 0002:0001C344,  type = 9
+        018A: MODULE_386
+          "gameAccGlue" addr = 0002:0001C348,  type = 9
+        019E: MODULE_386
+          "purgatory_numCars" addr = 0002:0001C34C,  type = 9
+        01B8: MODULE_386
+          "lane_change_prob" addr = 0002:0000BCB8,  type = 9
+        01D1: MODULE_386
+          "leadingLivePlayerCarObj" addr = 0002:0001C350,  type = 202
+        01F2: MODULE_386
+          "AIPhysicConfig" addr = 0002:0001C354,  type = 215
+        020A: MODULE_386
+          "useSpreadForce" addr = 0002:0001C3C0,  type = 9
+        0221: MODULE_386
+          "pGameTypesDes" addr = 0002:0000BE80,  type = 217
+        0238: SET_BASE_386
+          base = 0001:000000E0
+        0240: NEAR_RTN_386
+          start off = 00000000, code size = 00000051, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  218
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Name = "AI_GetBestLane"
+        0267: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "slice",  type = 9
+        0271: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "modSlice",  type = 9
+        027E: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "modLane",  type = 9
+        028A: NEAR_RTN_386
+          start off = 00000051, code size = 0000003D, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  219
+          return value: MULTI_REG(1): EAX
+          Name = "AI_GetMaxTrafficOnTrack"
+        02B8: NEAR_RTN_386
+          start off = 0000008E, code size = 0000003D, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  219
+          return value: MULTI_REG(1): EAX
+          Name = "AI_GetLifeTimerValue"
+        02E3: NEAR_RTN_386
+          start off = 000000CB, code size = 00000060, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  219
+          return value: MULTI_REG(1): EAX
+          Name = "AI_GetOneWay"
+        0306: NEAR_RTN_386
+          start off = 0000012B, code size = 0000003D, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  219
+          return value: MULTI_REG(1): EAX
+          Name = "AI_GetDriveSide"
+        032C: NEAR_RTN_386
+          start off = 00000168, code size = 00000067, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  220
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "AI_ProcessBarrierCollision"
+        035E: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "pCar",  type = 202
+        0368: BLOCK_386
+          start off = 000001FD, code size = 00000102, parent off = 0382
+        0374: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "otherCar",  type = 202
+        0382: NEAR_RTN_386
+          start off = 000001CF, code size = 00000139, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  220
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "AI_ProcessCollision"
+        03AD: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "pCar",  type = 202
+        03B7: NEAR_RTN_386
+          start off = 00000308, code size = 0000019A, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  220
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "AI_PickNewLane"
+        03DD: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "theCar",  type = 202
+        03E9: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "adaptedSlice",  type = 9
+        03FA: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "randval",  type = 9
+        0406: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "range",  type = 9
+        0410: NEAR_RTN_386
+          start off = 000004A2, code size = 00000099, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  220
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "AI_CalcLaneSlack"
+        0438: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "theCar",  type = 202
+        0444: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "randval",  type = 9
+        0450: NEAR_RTN_386
+          start off = 0000053B, code size = 0000004E, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  221
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Name = "AI_IsItTimeToStopYet"
+        047F: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "carIndex",  type = 9
+        048C: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "slicesPastFinish",  type = 9
+        04A1: NEAR_RTN_386
+          start off = 00000589, code size = 00000093, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  222
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Name = "AI_ParallelDistance"
+        04CF: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "mo",  type = 202
+        04D7: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "to",  type = 202
+        04DF: LOCAL
+          address: BP_OFFSET_BYTE( DC )
+          name = "relPos",  type = 83
+        04EA: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "forward",  type = 83
+        04F6: NEAR_RTN_386
+          start off = 0000061C, code size = 00000076, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  221
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Name = "AI_SliceDistance"
+        0521: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "a",  type = 9
+        0527: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "b",  type = 9
+        052D: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "diff",  type = 9
+        0536: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "halfTrack",  type = 9
+        0544: NEAR_RTN_386
+          start off = 00000692, code size = 0000007C, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  221
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Name = "AI_IsDriveableLane"
+        0571: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "slice",  type = 9
+        057B: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "laneIndex",  type = 9
+        0589: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "profileIndex",  type = 9
+        059A: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "laneOffset",  type = 9
+        05A9: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "mask",  type = 9
+        05B2: NEAR_RTN_386
+          start off = 0000070E, code size = 0000005F, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  218
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Name = "AI_GetProfileMask"
+        05DC: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "laneIndex",  type = 9
+        05EA: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "profileIndex",  type = 9
+        05FB: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "laneOffset",  type = 9
+        060A: NEAR_RTN_386
+          start off = 0000076D, code size = 0000003A, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  221
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Name = "AI_IsDriveableLane_UsingMask"
+        0641: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "slice",  type = 9
+        064B: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "mask",  type = 9
+        0654: NEAR_RTN_386
+          start off = 000007A7, code size = 000000E8, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  221
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Name = "AI_LaneIndex"
+        067B: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "slice",  type = 9
+        0685: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "position",  type = 9
+        0692: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "laneWidth",  type = 9
+        06A0: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "inverseLaneWidth",  type = 9
+        06B5: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "perpDistance",  type = 9
+        06C6: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "li",  type = 9
+        06CD: NEAR_RTN_386
+          start off = 0000088F, code size = 000000FF, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  223
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Name = "AI_PutCarOnShoulder"
+        06FA: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "theCar",  type = 202
+        0706: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "rightShoulder",  type = 9
+        0718: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "offset",  type = 83
+        0723: NEAR_RTN_386
+          start off = 0000098E, code size = 0000004E, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  218
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Name = "AI_IsNonStandardCarFile"
+        0753: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "index",  type = 9
+        075D: LOCAL
+          address: BP_OFFSET_WORD( 0064 )
+          name = "nonStandardList",  type = 224
+        0773: NEAR_RTN_386
+          start off = 000009DC, code size = 00000069, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  225
+          return value: MULTI_REG(1): EAX
+          Name = "AI_FigureOutPersonalityGameType"
+        07A9: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "pGameType",  type = 228
+        07B8: NEAR_RTN_386
+          start off = 00000A45, code size = 0000020C, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  237
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "AI_LoadGlueFactor"
+        07E1: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "handle",  type = 236
+        07ED: LOCAL
+          address: BP_OFFSET_WORD( 00C8 )
+          name = "glueConfig",  type = 252
+        07FE: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "g",  type = 253
+        0805: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "glue",  type = 254
+        080F: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "lapIndex",  type = 9
+        081C: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "glueType",  type = 9
+        0829: NEAR_RTN_386
+          start off = 00000C51, code size = 0000018C, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  237
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "AI_LoadPhysicsConfig"
+        0855: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "handle",  type = 236
+        0861: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "model",  type = 255
+        086C: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "loop",  type = 9
+        0875: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "throwAway",  type = 9
+        0883: NEAR_RTN_386
+          start off = 00000DDD, code size = 000000BE, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  237
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "AI_LoadAIConfig"
+        08AA: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "handle",  type = 236
+        08B6: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "adjustloop",  type = 9
+        08C5: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "laneloop",  type = 9
+        08D2: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "doprint",  type = 9
+        08DE: NEAR_RTN_386
+          start off = 00000E9B, code size = 00000063, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  23
+          return value: <none>
+          Name = "AI_LoadConfigs"
+        0901: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "handle",  type = 236
+        090D: LOCAL
+          address: BP_OFFSET_BYTE( 98 )
+          name = "pathname",  type = 256
+        091B: BLOCK_386
+          start off = 0000105E, code size = 00000022, parent off = 0939
+        0927: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "trafficOffset",  type = 83
+        0939: NEAR_RTN_386
+          start off = 00000EFE, code size = 0000018B, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  220
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "AI_RestartAICar"
+        0960: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "mo",  type = 202
+        0968: NEAR_RTN_386
+          start off = 00001089, code size = 000002B2, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  257
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Name = "AI_InitAICar"
+        098E: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "mo",  type = 202
+        0996: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "handle",  type = 236
+        09A2: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "tempImportance",  type = 9
+        09B5: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "gearLoop",  type = 9
+        09C2: LOCAL
+          address: BP_OFFSET_WORD( 000C )
+          name = "accelTableThrowAway",  type = 59
+        09DB: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "intThrowAway",  type = 9
+        09EC: NEAR_RTN_386
+          start off = 0000133B, code size = 00000015, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  23
+          return value: <none>
+          Name = "AI_CleanUp1"
+        0A0C: NEAR_RTN_386
+          start off = 00001350, code size = 00000024, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  23
+          return value: <none>
+          Name = "AI_CleanUp2"
+        0A2C: NEAR_RTN_386
+          start off = 00001374, code size = 000000A9, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  23
+          return value: <none>
+          Name = "AI_StartUp1"
+        0A4C: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "i",  type = 9
+        0A52: NEAR_RTN_386
+          start off = 0000141D, code size = 0000001F, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  23
+          return value: <none>
+          Name = "AI_Reset1"
+        0A70: NEAR_RTN_386
+          start off = 0000143C, code size = 00000029, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  23
+          return value: <none>
+          Name = "AI_StartUp2"
+        0A90: BLOCK_386
+          start off = 000014E7, code size = 0000008A, parent off = 0AA9
+        0A9C: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "carIndex",  type = 9
+        0AA9: NEAR_RTN_386
+          start off = 00001465, code size = 00000206, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  23
+          return value: <none>
+          Name = "AI_Reset2"
+        0AC7: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "aiRacerLoop",  type = 9
+        0AD7: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "pgt",  type = 9
+        0ADF: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "i",  type = 9
+        0AE5: NEAR_RTN_386
+          start off = 0000166B, code size = 00000073, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  220
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "AI_CleanUpCollidedCar"
+        0B12: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "theCar",  type = 202
+        0B1E: BLOCK_386
+          start off = 00001708, code size = 000000F6, parent off = 0B38
+        0B2A: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "outOfView",  type = 9
+        0B38: NEAR_RTN_386
+          start off = 000016DE, code size = 0000012E, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  23
+          return value: <none>
+          Name = "CleanUpAllDeadCars"
+        0B5F: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "mo",  type = 202
+        0B67: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "aiCarLoop",  type = 9
+        0B75: NEAR_RTN_386
+          start off = 0000180C, code size = 000000C6, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  220
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "AI_ReInit_SetSpeeds"
+        0BA0: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "theCar",  type = 202
+        0BAC: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "basisCarSpeed",  type = 9
+        0BBE: BLOCK_386
+          start off = 000019E8, code size = 000000B4, parent off = 0BF2
+        0BCA: LOCAL
+          address: BP_OFFSET_BYTE( C4 )
+          name = "basisOuterCoord",  type = 83
+        0BDE: LOCAL
+          address: BP_OFFSET_BYTE( D0 )
+          name = "basisOuterSlice",  type = 9
+        0BF2: BLOCK_386
+          start off = 000019AF, code size = 000000ED, parent off = 0C0C
+        0BFE: LOCAL
+          address: BP_OFFSET_BYTE( E0 )
+          name = "checkCar",  type = 202
+        0C0C: NEAR_RTN_386
+          start off = 000018D2, code size = 000002D2, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  220
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "AI_ReInit_PickSliceAndDirection"
+        0C43: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "theCar",  type = 202
+        0C4F: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "dir",  type = 9
+        0C57: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "search",  type = 9
+        0C62: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "count",  type = 9
+        0C6C: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "offset",  type = 9
+        0C77: NEAR_RTN_386
+          start off = 00001BA4, code size = 0000001A, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  220
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "AI_ReInitWith"
+        0C9C: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "theCar",  type = 202
+        0CA8: NEAR_RTN_386
+          start off = 00001BBE, code size = 00000107, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  220
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "AI_MoveCarToPurgatory"
+        0CD5: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "theCar",  type = 202
+        0CE1: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "stop",  type = 83
+        0CEA: BLOCK_386
+          start off = 00001D18, code size = 00000091, parent off = 0D52
+        0CF6: LOCAL
+          address: BP_OFFSET_BYTE( D4 )
+          name = "randNumLanes",  type = 9
+        0D07: LOCAL
+          address: BP_OFFSET_BYTE( D8 )
+          name = "newSlice",  type = 9
+        0D14: LOCAL
+          address: BP_OFFSET_BYTE( DC )
+          name = "width",  type = 9
+        0D1E: BLOCK_386
+          start off = 00001DAE, code size = 0000009A, parent off = 0D52
+        0D2A: LOCAL
+          address: BP_OFFSET_BYTE( C8 )
+          name = "randNumLanes",  type = 9
+        0D3B: LOCAL
+          address: BP_OFFSET_BYTE( D0 )
+          name = "newSlice",  type = 9
+        0D48: LOCAL
+          address: BP_OFFSET_BYTE( CC )
+          name = "width",  type = 9
+        0D52: NEAR_RTN_386
+          start off = 00001CC5, code size = 000002EB, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  220
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "AI_ReInit"
+        0D73: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "theCar",  type = 202
+        0D7F: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "offset",  type = 83
+        0D8A: LOCAL
+          address: BP_OFFSET_BYTE( E0 )
+          name = "targetDirection",  type = 83
+        0D9E: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "speed",  type = 9
+        0DA8: NEAR_RTN_386
+          start off = 00001FB0, code size = 000000C4, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  259
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Name = "AI_IsCoordInThisLiveArea"
+        0DDB: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "tPos",  type = 258
+        0DE5: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "racer",  type = 202
+        0DF0: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "rPos",  type = 258
+        0DFA: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "xD",  type = 9
+        0E01: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "zD",  type = 9
+        0E08: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "dist",  type = 9
+        0E11: NEAR_RTN_386
+          start off = 00002074, code size = 0000006E, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  260
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Name = "AI_IsTrafficCarInAnyLiveArea"
+        0E46: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "traffic",  type = 202
+        0E53: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "racerLoop",  type = 9
+        0E61: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "tPos",  type = 258
+        0E6B: NEAR_RTN_386
+          start off = 000020E2, code size = 000000C4, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  259
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Name = "AI_IsCoordInThisVisibleArea"
+        0EA1: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "tPos",  type = 258
+        0EAB: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "racer",  type = 202
+        0EB6: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "rPos",  type = 258
+        0EC0: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "xD",  type = 9
+        0EC7: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "zD",  type = 9
+        0ECE: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "dist",  type = 9
+        0ED7: NEAR_RTN_386
+          start off = 000021A6, code size = 0000006E, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  260
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Name = "AI_IsTrafficCarInAnyVisibleArea"
+        0F0F: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "traffic",  type = 202
+        0F1C: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "racerLoop",  type = 9
+        0F2A: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "tPos",  type = 258
+        0F34: BLOCK_386
+          start off = 000022FF, code size = 00000085, parent off = 0F60
+        0F40: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "test",  type = 202
+        0F4A: BLOCK_386
+          start off = 000023DC, code size = 00000085, parent off = 0F60
+        0F56: LOCAL
+          address: BP_OFFSET_BYTE( E0 )
+          name = "test",  type = 202
+        0F60: BLOCK_386
+          start off = 00002270, code size = 000002FE, parent off = 0FAD
+        0F6C: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "found",  type = 202
+        0F77: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "search",  type = 9
+        0F82: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "count",  type = 9
+        0F8C: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "lastBasisCar",  type = 202
+        0F9E: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "wrapAround",  type = 9
+        0FAD: NEAR_RTN_386
+          start off = 00002214, code size = 00000387, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  220
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "AI_EvaluateLife"
+        0FD4: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "theCar",  type = 202
+        0FE0: NEAR_RTN_386
+          start off = 0000259B, code size = 0000012F, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  220
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "AI_CalcBestLineMerits"
+        100D: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "mo",  type = 202
+        1015: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "lookahead",  type = 9
+        1023: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "slice",  type = 9
+        102D: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "bestLane",  type = 9
+        103A: NEAR_RTN_386
+          start off = 000026CA, code size = 00000310, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  220
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "AI_CalcMeritsBasedOnSpeed"
+        106B: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "mo",  type = 202
+        1073: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "i",  type = 9
+        1079: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "speed",  type = 9
+        1083: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "cSpeed",  type = 9
+        108E: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "considerDesired",  type = 9
+        10A2: NEAR_RTN_386
+          start off = 000029DA, code size = 000000DF, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  261
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Name = "AI_IsMellowZone"
+        10CC: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "mo",  type = 202
+        10D4: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "delay",  type = 9
+        10DE: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "index",  type = 9
+        10E8: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "tSlice",  type = 9
+        10F3: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "endMellow",  type = 9
+        1101: NEAR_RTN_386
+          start off = 00002AB9, code size = 0000001A, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  220
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "AI_KeepCarsInLane"
+        112A: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "mo",  type = 202
+        1132: NEAR_RTN_386
+          start off = 00002AD3, code size = 000000CF, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  220
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "AI_PushFinishedCarsToSide"
+        1163: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "mo",  type = 202
+        116B: NEAR_RTN_386
+          start off = 00002BA2, code size = 00000189, parent off = 0000
+          prologue size = 12,  epilogue size = 7
+          return address offset (from bp) = 00000010
+          return type:  262
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Name = "AI_OpponentBlockPlayer"
+        119D: LOCAL
+          address: BP_OFFSET_BYTE( E0 )
+          name = "mo",  type = 202
+        11A5: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "to",  type = 202
+        11AD: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "toLaneIndex",  type = 9
+        11BD: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "moTotalSlice",  type = 9
+        11CE: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "moSlice",  type = 9
+        11DA: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "toSlice",  type = 9
+        11E6: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "distance",  type = 9
+        11F3: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "blockLookBehind",  type = 9
+        1207: BLOCK_386
+          start off = 00002DD5, code size = 00000066, parent off = 121F
+        1213: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "randval",  type = 9
+        121F: BLOCK_386
+          start off = 00002D8C, code size = 000000AF, parent off = 123D
+        122B: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "metersBetween",  type = 9
+        123D: NEAR_RTN_386
+          start off = 00002D2B, code size = 00000126, parent off = 0000
+          prologue size = 12,  epilogue size = 7
+          return address offset (from bp) = 00000010
+          return type:  262
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Name = "AI_HonkWhenTailgaiting"
+        126F: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "mo",  type = 202
+        1277: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "to",  type = 202
+        127F: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "toLaneIndex",  type = 9
+        128F: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "sliceDiff",  type = 9
+        129D: BLOCK_386
+          start off = 00002E81, code size = 00000067, parent off = 12B1
+        12A9: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "to",  type = 202
+        12B1: NEAR_RTN_386
+          start off = 00002E51, code size = 000000A2, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  220
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "AI_OpponentUpCloseCode"
+        12DF: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "mo",  type = 202
+        12E7: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "t",  type = 9
+        12ED: NEAR_RTN_386
+          start off = 00002EF3, code size = 00000022, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  220
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "AI_OpponentSpecialCase"
+        131B: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "mo",  type = 202
+        1323: NEAR_RTN_386
+          start off = 00002F15, code size = 0000013F, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  220
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "AI_CheckForCarsInWay"
+        134F: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "mo",  type = 202
+        1357: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "to",  type = 202
+        135F: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "ci",  type = 9
+        1366: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "distance",  type = 9
+        1373: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "blockDistance",  type = 9
+        1385: BLOCK_386
+          start off = 000030B2, code size = 0000013A, parent off = 13C0
+        1391: LOCAL
+          address: BP_OFFSET_BYTE( D0 )
+          name = "smackPosition",  type = 9
+        13A3: LOCAL
+          address: BP_OFFSET_BYTE( D4 )
+          name = "smackLane",  type = 9
+        13B1: LOCAL
+          address: BP_OFFSET_BYTE( D8 )
+          name = "smackMerit",  type = 9
+        13C0: NEAR_RTN_386
+          start off = 00003054, code size = 000001A6, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  220
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "AI_CheckForSmackables"
+        13ED: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "mo",  type = 202
+        13F5: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "i",  type = 9
+        13FB: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "distance",  type = 9
+        1408: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "dir",  type = 9
+        1410: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "smk",  type = 202
+        1419: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "speed",  type = 9
+        1423: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "smackSpeed",  type = 9
+        1432: NEAR_RTN_386
+          start off = 000031FA, code size = 000002AD, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  220
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "AI_CheckForClearLanes"
+        145F: LOCAL
+          address: BP_OFFSET_BYTE( D8 )
+          name = "mo",  type = 202
+        1467: LOCAL
+          address: BP_OFFSET_BYTE( DC )
+          name = "lanesFilled",  type = 9
+        1477: LOCAL
+          address: BP_OFFSET_BYTE( E0 )
+          name = "toIndexInSortedList",  type = 9
+        148F: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "toIndex",  type = 9
+        149B: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "distance",  type = 9
+        14A8: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "dir",  type = 9
+        14B0: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "carsFound",  type = 9
+        14BE: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "ci",  type = 9
+        14C5: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "to",  type = 202
+        14CD: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "moIndexInSortedList",  type = 9
+        14E5: BLOCK_386
+          start off = 000036AD, code size = 00000216, parent off = 1503
+        14F1: LOCAL
+          address: BP_OFFSET_BYTE( C8 )
+          name = "distanceApart",  type = 9
+        1503: BLOCK_386
+          start off = 00003556, code size = 0000036D, parent off = 15CF
+        150F: LOCAL
+          address: BP_OFFSET_BYTE( D8 )
+          name = "distance",  type = 9
+        151C: LOCAL
+          address: BP_OFFSET_BYTE( DC )
+          name = "lane_look_ahead",  type = 9
+        1530: LOCAL
+          address: BP_OFFSET_BYTE( E0 )
+          name = "toIndexInSortedList",  type = 9
+        1548: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "toIndex",  type = 9
+        1554: BLOCK_386
+          start off = 000039B7, code size = 000001D2, parent off = 1572
+        1560: LOCAL
+          address: BP_OFFSET_BYTE( A4 )
+          name = "distanceApart",  type = 9
+        1572: BLOCK_386
+          start off = 000038F5, code size = 00000294, parent off = 15CF
+        157E: LOCAL
+          address: BP_OFFSET_BYTE( A8 )
+          name = "sliceDiff",  type = 9
+        158C: LOCAL
+          address: BP_OFFSET_BYTE( B0 )
+          name = "relPos",  type = 83
+        1597: LOCAL
+          address: BP_OFFSET_BYTE( AC )
+          name = "lane_look_ahead",  type = 9
+        15AB: LOCAL
+          address: BP_OFFSET_BYTE( C0 )
+          name = "toIndexInSortedList",  type = 9
+        15C3: LOCAL
+          address: BP_OFFSET_BYTE( BC )
+          name = "toIndex",  type = 9
+        15CF: NEAR_RTN_386
+          start off = 000034A7, code size = 0000075B, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  220
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "AI_CalculateLaneSpeeds"
+        15FD: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "mo",  type = 202
+        1605: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "to",  type = 202
+        160D: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "carsfound",  type = 9
+        161B: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "ci",  type = 9
+        1622: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "lanesFilled",  type = 9
+        1632: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "moIndexInSortedList",  type = 9
+        164A: NEAR_RTN_386
+          start off = 00003C02, code size = 000000C8, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  220
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "AI_SetupOncomingLaneDemerits"
+        167E: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "mo",  type = 202
+        1686: NEAR_RTN_386
+          start off = 00003CCA, code size = 00000323, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  220
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "AI_HandleChangeInNumLanes"
+        16B7: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "mo",  type = 202
+        16BF: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "lookAheadSlice",  type = 9
+        16D2: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "absLaneLookAhead",  type = 9
+        16E7: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "lookAhead",  type = 9
+        16F5: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "laneIndex",  type = 9
+        1703: BLOCK_386
+          start off = 00004144, code size = 000001FC, parent off = 1726
+        170F: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "isLeft",  type = 9
+        171A: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "isRight",  type = 9
+        1726: NEAR_RTN_386
+          start off = 00003FED, code size = 0000053C, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  220
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "AI_HandleShouldersAndOffRoad"
+        175A: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "mo",  type = 202
+        1762: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "slice",  type = 9
+        176C: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "shoulder_merit",  type = 9
+        177F: BLOCK_386
+          start off = 00004583, code size = 0000006B, parent off = 1798
+        178B: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "honkprob",  type = 9
+        1798: NEAR_RTN_386
+          start off = 00004529, code size = 000000CE, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  220
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "AI_HandleHonkingAndDiving"
+        17C9: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "mo",  type = 202
+        17D1: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "isVisible",  type = 9
+        17DF: NEAR_RTN_386
+          start off = 000045F7, code size = 00000086, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  23
+          return value: <none>
+          Name = "AI_WhichHumanIsLeading"
+        180A: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "ci",  type = 9
+        1811: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "leadSlice",  type = 9
+        181F: NEAR_RTN_386
+          start off = 0000467D, code size = 00000121, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  220
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "AI_CalculateLaneInfo"
+        184B: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "mo",  type = 202
+        1853: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "leftEdge",  type = 9
+        1860: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "rightEdge",  type = 9
+        186E: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "rightEdgeIndex",  type = 9
+        1881: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "leftEdgeIndex",  type = 9
+        1893: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "carIndex",  type = 9
+        18A0: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "laneLoop",  type = 9
+        18AD: NEAR_RTN_386
+          start off = 0000479E, code size = 000000FF, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  220
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "AI_InitAndCalcBaseMerits"
+        18DD: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "mo",  type = 202
+        18E5: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "o",  type = 9
+        18EB: NEAR_RTN_386
+          start off = 0000489D, code size = 000000A7, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  220
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "AI_ChooseBestLane"
+        1914: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "mo",  type = 202
+        191C: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "best",  type = 9
+        1925: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "decision",  type = 9
+        1932: BLOCK_386
+          start off = 00004985, code size = 00000190, parent off = 1947
+        193E: LOCAL
+          address: BP_OFFSET_BYTE( C8 )
+          name = "temp",  type = 9
+        1947: NEAR_RTN_386
+          start off = 00004944, code size = 0000032C, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  220
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "AI_CalculateAdjustedDesiredSpeed"
+        197F: LOCAL
+          address: BP_OFFSET_BYTE( DC )
+          name = "mo",  type = 202
+        1987: LOCAL
+          address: BP_OFFSET_BYTE( E0 )
+          name = "Drel_hit",  type = 9
+        1994: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "Dlane",  type = 9
+        199E: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "Vrel_hit",  type = 9
+        19AB: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "Vlane",  type = 9
+        19B5: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "finalLaneSpeed",  type = 9
+        19C8: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "a",  type = 9
+        19CE: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "b",  type = 9
+        19D4: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "decision",  type = 9
+        19E1: BLOCK_386
+          start off = 00004D25, code size = 00000187, parent off = 19FC
+        19ED: LOCAL
+          address: BP_OFFSET_BYTE( D8 )
+          name = "minGapSize",  type = 9
+        19FC: NEAR_RTN_386
+          start off = 00004C70, code size = 000004B3, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  220
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "AI_CalculateDesiredPosition"
+        1A2F: LOCAL
+          address: BP_OFFSET_BYTE( E0 )
+          name = "mo",  type = 202
+        1A37: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "carInWay",  type = 202
+        1A45: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "leftRoadEdge",  type = 9
+        1A56: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "rightRoadEdge",  type = 9
+        1A68: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "gapLeft",  type = 9
+        1A74: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "gapRight",  type = 9
+        1A81: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "absLaneIndex",  type = 9
+        1A92: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "slice",  type = 9
+        1A9C: NEAR_RTN_386
+          start off = 00005123, code size = 000000BF, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  220
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "AI_ProcessObservationsAndChooseLane"
+        1AD7: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "mo",  type = 202
+        1ADF: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "i",  type = 9
+        1AE5: BLOCK_386
+          start off = 000054CB, code size = 00000101, parent off = 1B00
+        1AF1: LOCAL
+          address: BP_OFFSET_BYTE( 90 )
+          name = "checkSlice",  type = 9
+        1B00: NEAR_RTN_386
+          start off = 000051E2, code size = 000003F8, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  220
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "AI_CheckForBarriers"
+        1B2B: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "mo",  type = 202
+        1B33: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "dir",  type = 9
+        1B3B: LOCAL
+          address: BP_OFFSET_BYTE( D8 )
+          name = "slicesAhead",  type = 9
+        1B4B: LOCAL
+          address: BP_OFFSET_BYTE( DC )
+          name = "forwardSlice0",  type = 9
+        1B5D: LOCAL
+          address: BP_OFFSET_BYTE( E0 )
+          name = "forwardSlice1",  type = 9
+        1B6F: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "interval",  type = 9
+        1B7C: LOCAL
+          address: BP_OFFSET_BYTE( C0 )
+          name = "masks",  type = 263
+        1B87: LOCAL
+          address: BP_OFFSET_BYTE( CC )
+          name = "laneNotChecked",  type = 264
+        1B9B: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "speed",  type = 9
+        1BA5: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "sliceLoop",  type = 9
+        1BB3: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "slice",  type = 9
+        1BBD: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "profileHere",  type = 9
+        1BCD: BLOCK_386
+          start off = 000055FB, code size = 00000079, parent off = 1BEB
+        1BD9: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "yaw0",  type = 9
+        1BE2: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "yaw1",  type = 9
+        1BEB: NEAR_RTN_386
+          start off = 000055DA, code size = 000000AF, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  220
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "AI_CalculateRoadYaw"
+        1C16: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "mo",  type = 202
+        1C1E: NEAR_RTN_386
+          start off = 00005689, code size = 0000001A, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  23
+          return value: <none>
+          Name = "AI_Main_OverallSetup"
+        1C47: NEAR_RTN_386
+          start off = 000056A3, code size = 00000074, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  220
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "AI_Main_CalcCarInfo"
+        1C72: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "mo",  type = 202
+        1C7A: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "ignore",  type = 9
+        1C85: NEAR_RTN_386
+          start off = 00005717, code size = 00000217, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  220
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "AI_Main"
+        1CA4: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "mo",  type = 202
+        1CAC: NEAR_RTN_386
+          start off = 0000592E, code size = 000000B1, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  260
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Name = "AI_CalculateOncomingCarSpeed"
+        1CE1: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "theCar",  type = 202
+        1CED: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "playerSpeed",  type = 9
+        1CFD: NEAR_RTN_386
+          start off = 000059DF, code size = 00000087, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  261
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Name = "AI_CalcTrafficSafeSpeed"
+        1D2F: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "theCar",  type = 202
+        1D3B: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "oldsafe",  type = 9
+        1D47: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "newsafe",  type = 9
+        1D53: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "safeminus30",  type = 9
+        1D63: NEAR_RTN_386
+          start off = 00005A66, code size = 0000019D, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  223
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Name = "AI_CalcPsychoDesiredSpeed"
+        1D96: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "mo",  type = 202
+        1D9E: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "top_here",  type = 9
+        1DAB: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "with",  type = 9
+        1DB4: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "target",  type = 202
+        1DC0: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "dist",  type = 9
+        1DC9: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "targetSpeed",  type = 9
+        1DD9: BLOCK_386
+          start off = 00005C41, code size = 00000148, parent off = 1E19
+        1DE5: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "minDeltaSpeed",  type = 9
+        1DF7: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "top_here",  type = 9
+        1E04: BLOCK_386
+          start off = 00005DE0, code size = 00000126, parent off = 1E19
+        1E10: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "safe",  type = 9
+        1E19: NEAR_RTN_386
+          start off = 00005C03, code size = 0000030C, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  220
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "AI_CalcDesiredSpeed"
+        1E44: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "mo",  type = 202
+        1E4C: NEAR_RTN_386
+          start off = 00005F0F, code size = 000000D7, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  261
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Name = "AI_GetHandlingFactor"
+        1E7B: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "mo",  type = 202
+        1E83: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "noMercy",  type = 9
+        1E8F: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "aDeltaYaw",  type = 9
+        1E9D: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "subHandlingFactor",  type = 9
+        1EB3: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "pSubHandlingFactor",  type = 9
+        1ECA: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "f_handling",  type = 9
+        1ED9: NEAR_RTN_386
+          start off = 00005FE6, code size = 000001A4, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  261
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Name = "AI_GetAccGlueFactor"
+        1F07: LOCAL
+          address: BP_OFFSET_BYTE( D4 )
+          name = "mo",  type = 202
+        1F0F: LOCAL
+          address: BP_OFFSET_BYTE( D8 )
+          name = "noMercy",  type = 9
+        1F1B: LOCAL
+          address: BP_OFFSET_BYTE( DC )
+          name = "f_accGlue",  type = 9
+        1F29: LOCAL
+          address: BP_OFFSET_BYTE( E0 )
+          name = "oppTotalSlice",  type = 9
+        1F3B: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "leadTotalSlice",  type = 9
+        1F4E: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "iTempIndex",  type = 9
+        1F5D: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "sliceDiff",  type = 9
+        1F6B: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "perAccGlue",  type = 9
+        1F7A: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "spreadGlue",  type = 9
+        1F89: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "index",  type = 9
+        1F93: NEAR_RTN_386
+          start off = 0000618A, code size = 00000131, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  221
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Name = "AI_IntroduceGlue"
+        1FBE: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "leadSlice",  type = 9
+        1FCC: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "f_glue",  type = 9
+        1FD7: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "lapIndex",  type = 9
+        1FE4: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "glueDiff",  type = 9
+        1FF1: NEAR_RTN_386
+          start off = 000062BB, code size = 00000163, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  261
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Name = "AI_GetGlueFactor"
+        201C: LOCAL
+          address: BP_OFFSET_BYTE( D8 )
+          name = "mo",  type = 202
+        2024: LOCAL
+          address: BP_OFFSET_BYTE( DC )
+          name = "noMercy",  type = 9
+        2030: LOCAL
+          address: BP_OFFSET_BYTE( E0 )
+          name = "f_glue",  type = 9
+        203B: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "oppTotalSlice",  type = 9
+        204D: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "leadTotalSlice",  type = 9
+        2060: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "iTempIndex",  type = 9
+        206F: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "sliceDiff",  type = 9
+        207D: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "perGlue",  type = 9
+        2089: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "gameMult",  type = 9
+        2096: NEAR_RTN_386
+          start off = 0000641E, code size = 0000013F, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  261
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Name = "AI_GetSpeedFactor"
+        20C2: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "mo",  type = 202
+        20CA: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "noMercy",  type = 9
+        20D6: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "index",  type = 9
+        20E0: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "f_speed",  type = 9
+        20EC: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "spread",  type = 9
+        20F7: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "hackSlowDown",  type = 9
+        2108: BLOCK_386
+          start off = 00006593, code size = 00000048, parent off = 2125
+        2114: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "thisDistance",  type = 9
+        2125: NEAR_RTN_386
+          start off = 0000655D, code size = 000000BF, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  261
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Name = "AI_LimitTopSpeed"
+        2150: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "mo",  type = 202
+        2158: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "f_final",  type = 9
+        2164: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "distance",  type = 9
+        2171: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "playerLoop",  type = 9
+        2180: NEAR_RTN_386
+          start off = 0000661C, code size = 00000062, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  220
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "AI_CalcTrafficSafeSpeedAdjust"
+        21B5: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "theCar",  type = 202
+        21C1: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "randval",  type = 9
+        21CD: NEAR_RTN_386
+          start off = 0000667E, code size = 0000007E, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  260
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Name = "AI_GetTrackFactor"
+        21F7: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "theCar",  type = 202
+        2203: BLOCK_386
+          start off = 000067F8, code size = 00000044, parent off = 2261
+        220F: LOCAL
+          address: BP_OFFSET_BYTE( CC )
+          name = "f_start",  type = 9
+        221B: BLOCK_386
+          start off = 000068C2, code size = 0000012F, parent off = 2240
+        2227: LOCAL
+          address: BP_OFFSET_BYTE( C0 )
+          name = "latLeft",  type = 9
+        2233: LOCAL
+          address: BP_OFFSET_BYTE( C4 )
+          name = "latRight",  type = 9
+        2240: BLOCK_386
+          start off = 000068B9, code size = 00000138, parent off = 2261
+        224C: LOCAL
+          address: BP_OFFSET_BYTE( BC )
+          name = "slicesPastFinish",  type = 9
+        2261: NEAR_RTN_386
+          start off = 000066FC, code size = 00000307, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  260
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Name = "AI_CalcAggressiveTopSpeed"
+        2293: LOCAL
+          address: BP_OFFSET_BYTE( D4 )
+          name = "mo",  type = 202
+        229B: LOCAL
+          address: BP_OFFSET_BYTE( D8 )
+          name = "oppSlice",  type = 9
+        22A8: LOCAL
+          address: BP_OFFSET_BYTE( DC )
+          name = "leadSlice",  type = 9
+        22B6: LOCAL
+          address: BP_OFFSET_BYTE( E0 )
+          name = "top_speed",  type = 9
+        22C4: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "adj_top_speed",  type = 9
+        22D6: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "f_speed",  type = 9
+        22E2: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "f_handling",  type = 9
+        22F1: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "f_glue",  type = 9
+        22FC: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "f_track",  type = 9
+        2308: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "noMercy",  type = 9
+

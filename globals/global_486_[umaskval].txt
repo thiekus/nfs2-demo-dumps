@@ -1,0 +1,4 @@
+  Name:  ___umaskval
+    address      = 0002:00017034
+    module index = 486
+    kind:          (data)

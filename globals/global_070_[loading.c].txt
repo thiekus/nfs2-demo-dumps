@@ -1,0 +1,24 @@
+  Name:  Loading_DrawLoadingScreen_
+    address      = 0001:0005A2AE
+    module index = 70
+    kind:          (code)
+  Name:  Loading_UpdateLoadingScreen_
+    address      = 0001:0005A5FE
+    module index = 70
+    kind:          (code)
+  Name:  Loading_DrawLoadingScreen2_
+    address      = 0001:0005A6F8
+    module index = 70
+    kind:          (code)
+  Name:  Loading_GetInitialMemory_
+    address      = 0001:0005A7B4
+    module index = 70
+    kind:          (code)
+  Name:  _smallShapeFile
+    address      = 0002:0000FBE4
+    module index = 70
+    kind:          (data)
+  Name:  _totalAvailMem
+    address      = 0002:0000FBE8
+    module index = 70
+    kind:          (data)

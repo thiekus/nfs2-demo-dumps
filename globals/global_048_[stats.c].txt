@@ -1,0 +1,36 @@
+  Name:  Stats_DoPlayerGlue_
+    address      = 0001:00045366
+    module index = 48
+    kind:          (code)
+  Name:  Stats_ClearPosition_
+    address      = 0001:0004556A
+    module index = 48
+    kind:          (code)
+  Name:  Stats_GetPosition_
+    address      = 0001:000455DA
+    module index = 48
+    kind:          (code)
+  Name:  Stats_GetNumOpponents_
+    address      = 0001:00045646
+    module index = 48
+    kind:          (code)
+  Name:  Stats_GetNextCar_
+    address      = 0001:0004569D
+    module index = 48
+    kind:          (code)
+  Name:  Stats_TrackStats_
+    address      = 0001:000456E1
+    module index = 48
+    kind:          (code)
+  Name:  Stats_ExtrapolateOpponentTimes_
+    address      = 0001:00045B37
+    module index = 48
+    kind:          (code)
+  Name:  Stats_TrackEndGame_
+    address      = 0001:00045E78
+    module index = 48
+    kind:          (code)
+  Name:  _Stats_racePosition
+    address      = 0002:00046188
+    module index = 48
+    kind:          (data)

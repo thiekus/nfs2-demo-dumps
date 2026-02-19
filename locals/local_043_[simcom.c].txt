@@ -1,0 +1,246 @@
+ 43) Name:   C:\nfs2\game\common\simcom.c
+     Language is C
+     Locals: num = 1, offset = 000000BEH
+     Types:  num = 1, offset = 0000025AH
+     Lines:  num = 1, offset = 000003EAH
+
+   *** Locals ***
+   ==============
+      Data 0:  offset 00013041
+        0000: MODULE_386
+          "simcom_dataIndex" addr = 0002:00043548,  type = 9
+        0019: MODULE_386
+          "simcom_dataPtr" addr = 0002:0004354C,  type = 13
+        0030: MODULE_386
+          "acceptInput" addr = 0002:0000EF04,  type = 9
+        0044: MODULE_386
+          "endPauseRequested" addr = 0002:00043550,  type = 9
+        005E: MODULE_386
+          "nextPauseTime" addr = 0002:00043554,  type = 9
+        0074: MODULE_386
+          "lastPauseTime" addr = 0002:00043558,  type = 9
+        008A: MODULE_386
+          "sim_input_mutex" addr = 0002:0004355C,  type = 9
+        00A2: SET_BASE_386
+          base = 0001:00043103
+        00AA: NEAR_RTN_386
+          start off = 00000000, code size = 00000029, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  21
+          return value: <none>
+          Name = "SimCom_StartUp"
+        00CD: NEAR_RTN_386
+          start off = 00000029, code size = 00000029, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  21
+          return value: <none>
+          Name = "SimCom_Restart"
+        00F0: NEAR_RTN_386
+          start off = 00000052, code size = 0000004B, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  21
+          return value: <none>
+          Name = "SimCom_CleanUp"
+        0113: BLOCK_386
+          start off = 00000106, code size = 00000070, parent off = 0127
+        011F: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "pkt",  type = 65
+        0127: NEAR_RTN_386
+          start off = 0000009D, code size = 00000163, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  66
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Name = "SimCom_Pause"
+        014B: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "wantPause",  type = 9
+        0159: LOCAL
+          address: CONST_ADDR386( 0002:0000EF08 )
+          name = "pauseRequested",  type = 9
+        0171: BLOCK_386
+          start off = 00000239, code size = 0000009C, parent off = 01FB
+        017D: LOCAL
+          address: CONST_ADDR386( 0002:00043560 )
+          name = "ticksDebounce",  type = 9
+        0194: LOCAL
+          address: CONST_ADDR386( 0002:00043564 )
+          name = "oldKeyVal",  type = 9
+        01A7: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "ticks",  type = 9
+        01B1: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "keyVal",  type = 9
+        01BC: BLOCK_386
+          start off = 000002E3, code size = 00000198, parent off = 01FB
+        01C8: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "pIndex",  type = 9
+        01D3: BLOCK_386
+          start off = 00000559, code size = 00000017, parent off = 01FB
+        01DF: LOCAL
+          address: BP_OFFSET_BYTE( D8 )
+          name = "pkt",  type = 65
+        01E7: BLOCK_386
+          start off = 00000578, code size = 0000003B, parent off = 01FB
+        01F3: LOCAL
+          address: BP_OFFSET_BYTE( D0 )
+          name = "pkt",  type = 65
+        01FB: NEAR_RTN_386
+          start off = 00000200, code size = 000003C6, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  66
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Name = "SimCom_PauseLogic"
+        0224: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "pauseKey",  type = 9
+        0231: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "i",  type = 9
+        0237: NEAR_RTN_386
+          start off = 000005C6, code size = 0000011A, parent off = 0000
+          prologue size = 12,  epilogue size = 7
+          return address offset (from bp) = 00000010
+          return type:  86
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Name = "SimCom_PauseAction_CALLBACK"
+        026D: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "pktConn",  type = 85
+        0279: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "data",  type = 79
+        0282: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "length",  type = 10
+        028D: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "pkt",  type = 87
+        0295: NEAR_RTN_386
+          start off = 000006E0, code size = 00000079, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  21
+          return value: <none>
+          Name = "SimCom_DisplaySyncMsg"
+        02BF: LOCAL
+          address: BP_OFFSET_BYTE( D0 )
+          name = "tmpStr",  type = 88
+        02CA: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "x",  type = 9
+        02D0: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "y",  type = 9
+        02D6: BLOCK_386
+          start off = 000007AA, code size = 000000CF, parent off = 0314
+        02E2: LOCAL
+          address: BP_OFFSET_WORD( 0068 )
+          name = "pkt",  type = 91
+        02EB: LOCAL
+          address: BP_OFFSET_BYTE( CC )
+          name = "totallenleft",  type = 9
+        02FC: LOCAL
+          address: BP_OFFSET_BYTE( D0 )
+          name = "datalen",  type = 9
+        0308: LOCAL
+          address: BP_OFFSET_BYTE( D4 )
+          name = "maxsend",  type = 9
+        0314: NEAR_RTN_386
+          start off = 00000759, code size = 000001AA, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  21
+          return value: <none>
+          Name = "SimCom_SynchSetup"
+        033A: LOCAL
+          address: BP_OFFSET_BYTE( D8 )
+          name = "localSettings",  type = 94
+        034C: NEAR_RTN_386
+          start off = 00000903, code size = 00000044, parent off = 0000
+          prologue size = 12,  epilogue size = 7
+          return address offset (from bp) = 00000010
+          return type:  86
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Name = "SimCom_SynchSetup_CALLBACK"
+        0381: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "pktConn",  type = 85
+        038D: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "data",  type = 79
+        0396: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "length",  type = 10
+        03A1: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "pkt",  type = 95
+        03A9: BLOCK_386
+          start off = 0000096D, code size = 0000005B, parent off = 03E2
+        03B5: LOCAL
+          address: BP_OFFSET_BYTE( D8 )
+          name = "serverPkt",  type = 100
+        03C3: BLOCK_386
+          start off = 000009CA, code size = 0000004E, parent off = 03E2
+        03CF: LOCAL
+          address: CONST_ADDR386( 0002:00043568 )
+          name = "clientPkt",  type = 102
+        03E2: NEAR_RTN_386
+          start off = 00000947, code size = 000000DA, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  104
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "SimCom_SendInput"
+        0409: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "val",  type = 103
+        0411: BLOCK_386
+          start off = 00000A58, code size = 00000035, parent off = 043F
+        041D: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "i",  type = 9
+        0423: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "pkt",  type = 105
+        042B: BLOCK_386
+          start off = 00000A92, code size = 0000007A, parent off = 043F
+        0437: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "pkt",  type = 106
+        043F: NEAR_RTN_386
+          start off = 00000A21, code size = 000000F2, parent off = 0000
+          prologue size = 12,  epilogue size = 7
+          return address offset (from bp) = 00000010
+          return type:  86
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Name = "SimCom_SimInput_CALLBACK"
+        0472: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "pktConn",  type = 85
+        047E: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "data",  type = 79
+        0487: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "length",  type = 10
+

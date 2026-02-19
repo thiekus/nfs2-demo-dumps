@@ -1,0 +1,4 @@
+  Name:  ftell_
+    address      = 0001:000B0A74
+    module index = 355
+    kind:          (code)

@@ -1,0 +1,16 @@
+  Name:  _compactup
+    address      = 0001:000A0080
+    module index = 266
+    kind:          (code)
+  Name:  _compactupi
+    address      = 0001:000A00B8
+    module index = 266
+    kind:          (code)
+  Name:  _compactdown
+    address      = 0001:000A01E0
+    module index = 266
+    kind:          (code)
+  Name:  _compactdowni
+    address      = 0001:000A0218
+    module index = 266
+    kind:          (code)

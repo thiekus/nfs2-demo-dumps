@@ -1,0 +1,264 @@
+ 35) Name:   C:\nfs2\game\common\Transfmr.c
+     Language is C
+     Locals: num = 1, offset = 0000009EH
+     Types:  num = 1, offset = 0000023AH
+     Lines:  num = 1, offset = 000003CAH
+
+   *** Locals ***
+   ==============
+      Data 0:  offset 000101D8
+        0000: MODULE_386
+          "Transformer_gDispenseNodeSet" addr = 0002:00024488,  type = 101
+        0025: MODULE_386
+          "Transformer_gDrawOptimizationInfo" addr = 0002:000244C8,  type = 104
+        004F: MODULE_386
+          "Transformer_gLinkPriorityNodeList" addr = 0002:000244D0,  type = 113
+        0079: MODULE_386
+          "Transformer_gDispenseNodeElementCounter" addr = 0002:0000E664,  type = 9
+        00A9: MODULE_386
+          "Transformer_gDispenseNodeSetCounter" addr = 0002:0000E660,  type = 9
+        00D5: MODULE_386
+          "Transformer_gCurrentSubDivideQuality" addr = 0002:0000E668,  type = 9
+        0102: SET_BASE_386
+          base = 0001:0003A8CB
+        010A: NEAR_RTN_386
+          start off = 00000000, code size = 00000022, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  114
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Transformer_SetSubDivideQuality"
+        0140: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "subDivideQuality",  type = 9
+        0155: NEAR_RTN_386
+          start off = 00000022, code size = 000000C4, parent off = 0000
+          prologue size = 12,  epilogue size = 7
+          return address offset (from bp) = 00000010
+          return type:  115
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Name = "Transformer_ReserveAndDispenseNode"
+        0193: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "name",  type = 13
+        019C: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "size",  type = 9
+        01A5: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "mem",  type = 9
+        01AD: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "result",  type = 100
+        01B8: NEAR_RTN_386
+          start off = 000000E6, code size = 0000007C, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  23
+          return value: <none>
+          Name = "Transformer_CleanUp"
+        01E0: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "i",  type = 9
+        01E6: NEAR_RTN_386
+          start off = 00000162, code size = 000000F6, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  116
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Transformer_AllocateAndInitializeNode"
+        0223: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "name",  type = 13
+        022C: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "node",  type = 100
+        0235: NEAR_RTN_386
+          start off = 00000258, code size = 00000042, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  117
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Transformer_CreateNode"
+        0263: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "Type",  type = 9
+        026C: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "node",  type = 100
+        0275: NEAR_RTN_386
+          start off = 0000029A, code size = 0000006C, parent off = 0000
+          prologue size = 12,  epilogue size = 7
+          return address offset (from bp) = 00000010
+          return type:  119
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Name = "Transformer_AddGeomObj"
+        02A6: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "parent",  type = 100
+        02B1: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "obj",  type = 90
+        02B9: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "drawControlInfo",  type = 118
+        02CD: NEAR_RTN_386
+          start off = 00000306, code size = 00000077, parent off = 0000
+          prologue size = 12,  epilogue size = 7
+          return address offset (from bp) = 00000010
+          return type:  120
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Name = "Transformer_HangNewTransformNode"
+        0309: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "parent",  type = 100
+        0314: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "animFunc",  type = 43
+        0321: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "parameter2",  type = 40
+        0330: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "child",  type = 100
+        033A: NEAR_RTN_386
+          start off = 0000037D, code size = 00000077, parent off = 0000
+          prologue size = 12,  epilogue size = 7
+          return address offset (from bp) = 00000010
+          return type:  120
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Name = "Transformer_HangNewGeomNode"
+        0371: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "parent",  type = 100
+        037C: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "animFunc",  type = 43
+        0389: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "parameter2",  type = 40
+        0398: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "child",  type = 100
+        03A2: NEAR_RTN_386
+          start off = 000003F4, code size = 000000E7, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  153
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Name = "Transformer_BuildShadowFacet"
+        03D9: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "shadowCoord",  type = 145
+        03EA: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "Vi",  type = 152
+        03F2: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "result",  type = 112
+        03FD: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "vpt",  type = 129
+        0406: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "shadowFacet",  type = 144
+        0417: BLOCK_386
+          start off = 00000544, code size = 0000004A, parent off = 049C
+        0423: LOCAL
+          address: BP_OFFSET_BYTE( D4 )
+          name = "translation",  type = 69
+        0433: BLOCK_386
+          start off = 0000078F, code size = 00000054, parent off = 044C
+        043F: LOCAL
+          address: BP_OFFSET_BYTE( CC )
+          name = "priority",  type = 9
+        044C: BLOCK_386
+          start off = 00000737, code size = 000000AC, parent off = 0488
+        0458: LOCAL
+          address: BP_OFFSET_BYTE( B4 )
+          name = "positionRelCam",  type = 69
+        046B: LOCAL
+          address: BP_OFFSET_BYTE( C0 )
+          name = "tmp",  type = 69
+        0473: LOCAL
+          address: BP_OFFSET_BYTE( 90 )
+          name = "ObjToCamSpaceMat",  type = 66
+        0488: BLOCK_386
+          start off = 0000062B, code size = 000001BD, parent off = 049C
+        0494: LOCAL
+          address: BP_OFFSET_BYTE( D0 )
+          name = "obj",  type = 9
+        049C: NEAR_RTN_386
+          start off = 000004DB, code size = 00000314, parent off = 0000
+          prologue size = 12,  epilogue size = 7
+          return address offset (from bp) = 00000010
+          return type:  154
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Name = "Transformer_InsertPartFacet"
+        04D3: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "part",  type = 100
+        04DC: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "Vi",  type = 152
+        04E4: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "textureStartIndex",  type = 9
+        04FA: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "i",  type = 9
+        0500: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "childPtr",  type = 100
+        050D: LOCAL
+          address: BP_OFFSET_BYTE( E0 )
+          name = "temp",  type = 69
+        0516: NEAR_RTN_386
+          start off = 000007EF, code size = 00000049, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  23
+          return value: <none>
+          Name = "Transformer_InitPriorityNodeList"
+        054B: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "i",  type = 9
+        0551: NEAR_RTN_386
+          start off = 00000838, code size = 00000061, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  156
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Name = "Transformer_LinkAllNodeLists"
+        0587: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "part",  type = 100
+        0590: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "theCar",  type = 155
+        059C: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "i",  type = 9
+

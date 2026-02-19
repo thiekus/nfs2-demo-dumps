@@ -1,0 +1,144 @@
+  Name:  _lastrequest
+    address      = 0002:0001675C
+    module index = 393
+    kind:          (static pubdef) (data)
+  Name:  _nettickset
+    address      = 0002:00016760
+    module index = 393
+    kind:          (static pubdef) (data)
+  Name:  _numnetgames
+    address      = 0002:00016764
+    module index = 393
+    kind:          (static pubdef) (data)
+  Name:  _netgather_buildertbl
+    address      = 0002:00016768
+    module index = 393
+    kind:          (data)
+  Name:  makeservername_
+    address      = 0001:000B72DC
+    module index = 393
+    kind:          (static pubdef) (code)
+  Name:  netsetticks_
+    address      = 0001:000B7330
+    module index = 393
+    kind:          (static pubdef) (code)
+  Name:  nettestticks_
+    address      = 0001:000B7340
+    module index = 393
+    kind:          (static pubdef) (code)
+  Name:  countbits_
+    address      = 0001:000B7358
+    module index = 393
+    kind:          (static pubdef) (code)
+  Name:  declareserver_
+    address      = 0001:000B7374
+    module index = 393
+    kind:          (static pubdef) (code)
+  Name:  servertransaction_
+    address      = 0001:000B7478
+    module index = 393
+    kind:          (static pubdef) (code)
+  Name:  findnetplayer_
+    address      = 0001:000B7578
+    module index = 393
+    kind:          (static pubdef) (code)
+  Name:  addnewplayer_
+    address      = 0001:000B75E4
+    module index = 393
+    kind:          (static pubdef) (code)
+  Name:  handlenetworkmessage_
+    address      = 0001:000B7660
+    module index = 393
+    kind:          (static pubdef) (code)
+  Name:  processnetworkmessage_
+    address      = 0001:000B771C
+    module index = 393
+    kind:          (static pubdef) (code)
+  Name:  _netgathertimer_qfunc
+    address      = 0001:000B831C
+    module index = 393
+    kind:          (static pubdef) (code)
+  Name:  networklayertimer_
+    address      = 0001:000B84B8
+    module index = 393
+    kind:          (static pubdef) (code)
+  Name:  net_initgame_
+    address      = 0001:000B84D4
+    module index = 393
+    kind:          (static pubdef) (code)
+  Name:  net_killgame_
+    address      = 0001:000B8568
+    module index = 393
+    kind:          (static pubdef) (code)
+  Name:  net_getgames_
+    address      = 0001:000B8600
+    module index = 393
+    kind:          (static pubdef) (code)
+  Name:  net_setgame_
+    address      = 0001:000B86BC
+    module index = 393
+    kind:          (static pubdef) (code)
+  Name:  net_newgame_
+    address      = 0001:000B8790
+    module index = 393
+    kind:          (static pubdef) (code)
+  Name:  net_shutgame_
+    address      = 0001:000B8930
+    module index = 393
+    kind:          (static pubdef) (code)
+  Name:  net_opengame_
+    address      = 0001:000B8990
+    module index = 393
+    kind:          (static pubdef) (code)
+  Name:  net_endgame_
+    address      = 0001:000B8A30
+    module index = 393
+    kind:          (static pubdef) (code)
+  Name:  net_getplayers_
+    address      = 0001:000B8B6C
+    module index = 393
+    kind:          (static pubdef) (code)
+  Name:  net_killplayer_
+    address      = 0001:000B8DC8
+    module index = 393
+    kind:          (static pubdef) (code)
+  Name:  net_openconnection_
+    address      = 0001:000B8E94
+    module index = 393
+    kind:          (static pubdef) (code)
+  Name:  net_connect_
+    address      = 0001:000B8F0C
+    module index = 393
+    kind:          (static pubdef) (code)
+  Name:  net_disconnect_
+    address      = 0001:000B8FB4
+    module index = 393
+    kind:          (static pubdef) (code)
+  Name:  net_verify_
+    address      = 0001:000B9044
+    module index = 393
+    kind:          (static pubdef) (code)
+  Name:  net_capacity_
+    address      = 0001:000B90B8
+    module index = 393
+    kind:          (static pubdef) (code)
+  Name:  net_available_
+    address      = 0001:000B90D4
+    module index = 393
+    kind:          (static pubdef) (code)
+  Name:  net_read_
+    address      = 0001:000B90E4
+    module index = 393
+    kind:          (static pubdef) (code)
+  Name:  net_write_
+    address      = 0001:000B9268
+    module index = 393
+    kind:          (static pubdef) (code)
+  Name:  _netfunctbl
+    address      = 0002:0001679C
+    module index = 393
+    kind:          (static pubdef) (data)
+  Name:  _net_recvnotify
+    address      = 0002:00069884
+    module index = 393
+    kind:          (static pubdef) (data)

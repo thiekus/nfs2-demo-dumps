@@ -1,0 +1,151 @@
+ 45) Name:   C:\nfs2\game\common\simrdr.c
+     Language is C
+     Locals: num = 1, offset = 000000C6H
+     Types:  num = 1, offset = 00000262H
+     Lines:  num = 1, offset = 000003F2H
+
+   *** Locals ***
+   ==============
+      Data 0:  offset 00013928
+        0000: MODULE_386
+          "sSimFileHeader" addr = 0002:000449C4,  type = 38
+        0017: MODULE_386
+          "sSimHandle" addr = 0002:000449DC,  type = 9
+        002A: SET_BASE_386
+          base = 0001:00044611
+        0032: NEAR_RTN_386
+          start off = 00000000, code size = 000000DC, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  39
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Sim_OpenSimFile"
+        0059: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "simFilename",  type = 13
+        0069: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "offset",  type = 16
+        0074: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "size",  type = 16
+        007D: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "pchType",  type = 13
+        0089: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "rc",  type = 9
+        0090: NEAR_RTN_386
+          start off = 000000DC, code size = 00000063, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  40
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Sim_CloseSimFile"
+        00B7: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "simHandle",  type = 9
+        00C5: NEAR_RTN_386
+          start off = 0000013F, code size = 00000058, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  41
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Sim_GetFileSize"
+        00EC: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "simHandle",  type = 9
+        00FA: NEAR_RTN_386
+          start off = 00000197, code size = 00000082, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  43
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Name = "Sim_ReadFile"
+        0120: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "simHandle",  type = 9
+        012E: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "aBuffer",  type = 42
+        013A: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "count",  type = 9
+        0144: NEAR_RTN_386
+          start off = 00000219, code size = 00000058, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  41
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Sim_GetNumSlices"
+        016C: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "simHandle",  type = 9
+        017A: NEAR_RTN_386
+          start off = 00000271, code size = 00000058, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  41
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Sim_GetNumObjects"
+        01A3: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "simHandle",  type = 9
+        01B1: NEAR_RTN_386
+          start off = 000002C9, code size = 00000058, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  41
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Sim_GetNumEdges"
+        01D8: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "simHandle",  type = 9
+        01E6: NEAR_RTN_386
+          start off = 00000321, code size = 00000023, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  52
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Sim_GetSlices"
+        020B: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "aBuffer",  type = 42
+        0217: NEAR_RTN_386
+          start off = 00000344, code size = 00000033, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  59
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Sim_GetObjects"
+        023D: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "aBuffer",  type = 42
+        0249: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "ptr",  type = 13
+        0251: NEAR_RTN_386
+          start off = 00000377, code size = 0000003E, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  71
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Sim_GetEdges"
+        0275: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "aBuffer",  type = 42
+        0281: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "ptr",  type = 13
+

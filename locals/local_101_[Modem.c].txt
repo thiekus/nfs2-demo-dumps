@@ -1,0 +1,86 @@
+101) Name:   C:\nfs2\frontend\pc\Modem.c
+     Language is C
+     Locals: num = 1, offset = 000001A6H
+     Types:  num = 1, offset = 00000342H
+     Lines:  num = 1, offset = 000004C6H
+
+   *** Locals ***
+   ==============
+      Data 0:  offset 00027D57
+        0000: SET_BASE_386
+          base = 0001:0007F0BE
+        0008: NEAR_RTN_386
+          start off = 00000000, code size = 00000048, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  48
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Name = "SaveNumber"
+        002B: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "filename",  type = 13
+        0038: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "number",  type = 13
+        0043: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "result",  type = 9
+        004E: NEAR_RTN_386
+          start off = 00000048, code size = 00000049, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  48
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Name = "LoadNumber"
+        0071: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "filename",  type = 13
+        007E: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "number",  type = 13
+        0089: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "buffer",  type = 13
+        0094: NEAR_RTN_386
+          start off = 00000091, code size = 000001B2, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  34
+          return value: <none>
+          Name = "Modem_EnterNumber"
+        00BA: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "choice",  type = 9
+        00C5: LOCAL
+          address: BP_OFFSET_WORD( 0038 )
+          name = "nameList",  type = 50
+        00D3: LOCAL
+          address: BP_OFFSET_WORD( 000C )
+          name = "string",  type = 51
+        00DF: LOCAL
+          address: BP_OFFSET_BYTE( AC )
+          name = "number",  type = 52
+        00EA: LOCAL
+          address: BP_OFFSET_WORD( 005C )
+          name = "filename",  type = 53
+        00F8: NEAR_RTN_386
+          start off = 00000243, code size = 000000B2, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  34
+          return value: <none>
+          Name = "Modem_DeleteNumber"
+        011F: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "choice",  type = 9
+        012A: LOCAL
+          address: BP_OFFSET_WORD( 00FC )
+          name = "nameList",  type = 55
+        0138: LOCAL
+          address: BP_OFFSET_BYTE( C8 )
+          name = "filename",  type = 56
+

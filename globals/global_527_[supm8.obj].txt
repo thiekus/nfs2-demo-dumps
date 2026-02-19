@@ -1,0 +1,12 @@
+  Name:  _upm8frame
+    address      = 0001:000C23F0
+    module index = 527
+    kind:          (code)
+  Name:  _upm8
+    address      = 0001:000C23F8
+    module index = 527
+    kind:          (code)
+  Name:  _upm8setstate
+    address      = 0001:000C2474
+    module index = 527
+    kind:          (code)

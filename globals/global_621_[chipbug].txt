@@ -1,0 +1,8 @@
+  Name:  verify_pentium_fdiv_bug_
+    address      = 0001:000CAEE8
+    module index = 621
+    kind:          (code)
+  Name:  ___anon42
+    address      = 0002:00018DCC
+    module index = 621
+    kind:          (static pubdef) (data)

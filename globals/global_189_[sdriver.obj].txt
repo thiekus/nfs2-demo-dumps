@@ -1,0 +1,168 @@
+  Name:  _chanpri
+    address      = 0002:00051810
+    module index = 189
+    kind:          (static pubdef) (data)
+  Name:  _windriver
+    address      = 0002:00051950
+    module index = 189
+    kind:          (data)
+  Name:  _gtimerinstalled
+    address      = 0002:0001361C
+    module index = 189
+    kind:          (static pubdef) (data)
+  Name:  _focusinstalled
+    address      = 0002:0001361D
+    module index = 189
+    kind:          (static pubdef) (data)
+  Name:  _addexitdone
+    address      = 0002:0001361E
+    module index = 189
+    kind:          (static pubdef) (data)
+  Name:  _audiomsgdone
+    address      = 0002:0001361F
+    module index = 189
+    kind:          (static pubdef) (data)
+  Name:  _msginit
+    address      = 0002:00013620
+    module index = 189
+    kind:          (static pubdef) (data)
+  Name:  _outputrate
+    address      = 0002:00013624
+    module index = 189
+    kind:          (data)
+  Name:  _audiofocushandler
+    address      = 0001:00089EF0
+    module index = 189
+    kind:          (code)
+  Name:  SNDcaps_
+    address      = 0001:00089F70
+    module index = 189
+    kind:          (code)
+  Name:  SNDresamplequality_
+    address      = 0001:00089FA0
+    module index = 189
+    kind:          (code)
+  Name:  SNDreleasehardware_
+    address      = 0001:00089FA8
+    module index = 189
+    kind:          (code)
+  Name:  SNDobtainhardware_
+    address      = 0001:00089FEC
+    module index = 189
+    kind:          (code)
+  Name:  iSNDmessageinit_
+    address      = 0001:0008A038
+    module index = 189
+    kind:          (code)
+  Name:  iSNDsetfx_
+    address      = 0001:0008A34C
+    module index = 189
+    kind:          (code)
+  Name:  iSNDplatformfxinit_
+    address      = 0001:0008A398
+    module index = 189
+    kind:          (code)
+  Name:  iSNDplatformchunkspacefree_
+    address      = 0001:0008A3EC
+    module index = 189
+    kind:          (code)
+  Name:  iSNDplatformchunksleft_
+    address      = 0001:0008A3EC
+    module index = 189
+    kind:          (code)
+  Name:  iSNDplatformfxmasterlevel_
+    address      = 0001:0008A3EC
+    module index = 189
+    kind:          (code)
+  Name:  iSNDremovetimbre_
+    address      = 0001:0008A3EC
+    module index = 189
+    kind:          (code)
+  Name:  iSNDinit_
+    address      = 0001:0008A3F0
+    module index = 189
+    kind:          (code)
+  Name:  iSNDrestore_
+    address      = 0001:0008A4C0
+    module index = 189
+    kind:          (code)
+  Name:  iSNDresolvetimbre_
+    address      = 0001:0008A514
+    module index = 189
+    kind:          (code)
+  Name:  iSNDplaytimbre_
+    address      = 0001:0008A524
+    module index = 189
+    kind:          (code)
+  Name:  iSNDplatformplay_
+    address      = 0001:0008A7D4
+    module index = 189
+    kind:          (code)
+  Name:  iSNDplatformresolve_
+    address      = 0001:0008ADC0
+    module index = 189
+    kind:          (code)
+  Name:  iSNDplatformremove_
+    address      = 0001:0008B000
+    module index = 189
+    kind:          (code)
+  Name:  iSNDplatformfxlevel_
+    address      = 0001:0008B098
+    module index = 189
+    kind:          (code)
+  Name:  iSNDserve_
+    address      = 0001:0008B0A8
+    module index = 189
+    kind:          (code)
+  Name:  iSNDpan_
+    address      = 0001:0008B0D4
+    module index = 189
+    kind:          (code)
+  Name:  iSNDplatform3dpos_
+    address      = 0001:0008B1CC
+    module index = 189
+    kind:          (code)
+  Name:  iSNDvol_
+    address      = 0001:0008B2DC
+    module index = 189
+    kind:          (code)
+  Name:  iSNDstop_
+    address      = 0001:0008B414
+    module index = 189
+    kind:          (code)
+  Name:  iSNDtimeremaining_
+    address      = 0001:0008B474
+    module index = 189
+    kind:          (code)
+  Name:  _iSNDframe
+    address      = 0001:0008B57C
+    module index = 189
+    kind:          (code)
+  Name:  iSNDpitchbend_
+    address      = 0001:0008B5D8
+    module index = 189
+    kind:          (code)
+  Name:  iSNDclearchunk_
+    address      = 0001:0008B6C0
+    module index = 189
+    kind:          (code)
+  Name:  _gresamplequality
+    address      = 0002:00013628
+    module index = 189
+    kind:          (static pubdef) (data)
+  Name:  _directsoundpaused
+    address      = 0002:0001362C
+    module index = 189
+    kind:          (static pubdef) (data)
+  Name:  _msgdriver
+    address      = 0002:00051954
+    module index = 189
+    kind:          (static pubdef) (data)
+  Name:  _currentmode
+    address      = 0002:00051958
+    module index = 189
+    kind:          (static pubdef) (data)
+  Name:  _msgmode
+    address      = 0002:0005195C
+    module index = 189
+    kind:          (static pubdef) (data)

@@ -1,0 +1,4 @@
+  Name:  _decodemxammx
+    address      = 0001:000C37C0
+    module index = 552
+    kind:          (code)

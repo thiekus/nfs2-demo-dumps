@@ -1,0 +1,28 @@
+  Name:  _initvideowindow
+    address      = 0001:000BC7C0
+    module index = 436
+    kind:          (code)
+  Name:  _makevideowindow
+    address      = 0001:000BC894
+    module index = 436
+    kind:          (code)
+  Name:  _updatevideowindow
+    address      = 0001:000BC990
+    module index = 436
+    kind:          (code)
+  Name:  _removevideowindow
+    address      = 0001:000BCA58
+    module index = 436
+    kind:          (code)
+  Name:  _lockvideowindow
+    address      = 0001:000BCAA4
+    module index = 436
+    kind:          (code)
+  Name:  _unlockvideowindow
+    address      = 0001:000BCABC
+    module index = 436
+    kind:          (code)
+  Name:  _videowindowdefadr
+    address      = 0001:000BCAD4
+    module index = 436
+    kind:          (code)

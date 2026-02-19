@@ -1,0 +1,40 @@
+  Name:  __prtf_
+    address      = 0001:0009F40F
+    module index = 262
+    kind:          (code)
+  Name:  getprintspecs_
+    address      = 0001:0009F7AE
+    module index = 262
+    kind:          (static pubdef) (code)
+  Name:  evalflags_
+    address      = 0001:0009F8EC
+    module index = 262
+    kind:          (static pubdef) (code)
+  Name:  far_strlen_
+    address      = 0001:0009F94B
+    module index = 262
+    kind:          (static pubdef) (code)
+  Name:  far_other_strlen_
+    address      = 0001:0009F96F
+    module index = 262
+    kind:          (static pubdef) (code)
+  Name:  fmt4hex_
+    address      = 0001:0009F992
+    module index = 262
+    kind:          (static pubdef) (code)
+  Name:  FixedPoint_Format_
+    address      = 0001:0009F9F0
+    module index = 262
+    kind:          (static pubdef) (code)
+  Name:  float_format_
+    address      = 0001:0009FAE5
+    module index = 262
+    kind:          (static pubdef) (code)
+  Name:  formstring_
+    address      = 0001:0009FAEC
+    module index = 262
+    kind:          (static pubdef) (code)
+  Name:  zupstr_
+    address      = 0001:0009FFD5
+    module index = 262
+    kind:          (static pubdef) (code)

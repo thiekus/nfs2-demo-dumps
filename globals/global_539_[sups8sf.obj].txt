@@ -1,0 +1,8 @@
+  Name:  _ups8sf
+    address      = 0001:000C2C80
+    module index = 539
+    kind:          (static pubdef) (code)
+  Name:  _ups8sfsetstate
+    address      = 0001:000C2D94
+    module index = 539
+    kind:          (code)

@@ -1,0 +1,16 @@
+  Name:  SNDinit_
+    address      = 0001:00089D10
+    module index = 188
+    kind:          (code)
+  Name:  SNDrestore_
+    address      = 0001:00089D80
+    module index = 188
+    kind:          (code)
+  Name:  iSNDinitdata_
+    address      = 0001:00089DCC
+    module index = 188
+    kind:          (code)
+  Name:  iSNDverifymode_
+    address      = 0001:00089E10
+    module index = 188
+    kind:          (code)

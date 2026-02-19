@@ -1,0 +1,345 @@
+102) Name:   C:\nfs2\frontend\pc\movilite.c
+     Language is C
+     Locals: num = 1, offset = 000001AAH
+     Types:  num = 1, offset = 00000346H
+     Lines:  num = 1, offset = 000004CAH
+
+    *** Types ***
+    =============
+      Data 0:  offset 000939A5
+        0000: cue table offset=00000627
+        0006: SCOPE(1)
+          "struct"
+        000E: SCOPE(2)
+          "union"
+        0015: SCOPE(3)
+          "enum"
+        001B: SCALAR(4)
+          "char"  scalar type = 10, unsigned
+        0022: SCALAR(5)
+          "signed char"  scalar type = 00, integer
+        0030: SCALAR(6)
+          "unsigned char"  scalar type = 10, unsigned
+        0040: SCALAR(7)
+          "short"  scalar type = 01, integer
+        0048: SCALAR(8)
+          "unsigned short"  scalar type = 11, unsigned
+        0059: SCALAR(9)
+          "int"  scalar type = 03, integer
+        005F: SCALAR(10)
+          "unsigned int"  scalar type = 13, unsigned
+        006E: NAME(11)
+          "wchar_t"  type idx = 8  scope idx = 0
+        0079: NAME(12)
+          "size_t"  type idx = 10  scope idx = 0
+        0083: NEAR386 PTR(13)
+          base type idx = 4
+        0086: BYTE_INDEX ARRAY(14)
+          high bound = 00   base type idx = 13
+        008A: NAME(15)
+          "__va_list"  type idx = 14  scope idx = 0
+        0097: SCALAR(16)
+          "long"  scalar type = 03, integer
+        009E: NAME(17)
+          "fpos_t"  type idx = 16  scope idx = 0
+        00A8: NAME(18)
+          "fpos_t"  type idx = 16  scope idx = 0
+        00B2: NAME(19)
+          "MEMBLOCK"  type idx = 13  scope idx = 0
+        00BE: SCALAR(20)
+          "void"  scalar type = 30, void
+        00C5: NEAR386 PROC(21)
+          return type = 20
+            param 1:  type idx = 20
+        00CA: NEAR386 PTR(22)
+          base type idx = 21
+        00CD: NAME(23)
+          "VOIDFN"  type idx = 22  scope idx = 0
+        00D7: BYTE_INDEX ARRAY(24)
+          high bound = 00   base type idx = 13
+        00DB: NAME(25)
+          "va_list"  type idx = 24  scope idx = 0
+        00E6: NEAR386 PROC(26)
+          return type = 9
+            param 1:  type idx = 20
+        00EB: NAME(27)
+          "INTFN"  type idx = 26  scope idx = 0
+        00F4: NAME(28)
+          "MVI"  type idx = 20  scope idx = 0
+        00FB: NEAR386 PROC(29)
+          return type = 9
+            param 1:  type idx = 9
+            param 2:  type idx = 9
+        0101: NAME(30)
+          "EACHOOKCALLBACKFUNC"  type idx = 29  scope idx = 0
+        0118: NAME(31)
+          "arg_t"  type idx = 9  scope idx = 0
+        0121: NEAR386 PROC(32)
+          return type = 20
+            param 1:  type idx = 20
+        0126: NAME(33)
+          "THREADPROC"  type idx = 32  scope idx = 0
+        0134: NAME(34)
+          "SYSTEMTASK"  type idx = 29  scope idx = 0
+        0142: NAME(35)
+          "boolean"  type idx = 9  scope idx = 0
+        014D: NAME(36)
+          "fixed88"  type idx = 9  scope idx = 0
+        0158: NAME(37)
+          "fixed824"  type idx = 9  scope idx = 0
+        0164: NAME(38)
+          "fixed248"  type idx = 9  scope idx = 0
+        0170: NAME(39)
+          "SDWORD"  type idx = 16  scope idx = 0
+        017A: SCALAR(40)
+          "unsigned long"  scalar type = 13, unsigned
+        018A: NAME(41)
+          "DWORD"  type idx = 40  scope idx = 0
+        0193: NAME(42)
+          "WORD"  type idx = 8  scope idx = 0
+        019B: NAME(43)
+          "SWORD"  type idx = 7  scope idx = 0
+        01A4: NAME(44)
+          "SBYTE"  type idx = 5  scope idx = 0
+        01AD: NAME(45)
+          "UBYTE"  type idx = 6  scope idx = 0
+        01B6: NAME(46)
+          "BOOL"  type idx = 9  scope idx = 0
+        01BE: NAME(47)
+          "Stm_Chunk"  type idx = 20  scope idx = 0
+        01CB: NEAR386 PTR(48)
+          base type idx = 47
+        01CE: NAME(49)
+          "lpStm_Chunk"  type idx = 48  scope idx = 0
+        01DD: NEAR386 PTR(50)
+          base type idx = 20
+        01E0: NEAR386 PROC(51)
+          return type = 20
+            param 1:  type idx = 50
+        01E5: NEAR386 PTR(52)
+          base type idx = 51
+        01E8: NAME(53)
+          "Sched_tFunctionPt"  type idx = 52  scope idx = 0
+        01FD: NAME(54)
+          "Draw_tContext"  type idx = 7  scope idx = 0
+        020E: NEAR386 PROC(55)
+          return type = 20
+            param 1:  type idx = 50
+            param 2:  type idx = 50
+        0214: NEAR386 PTR(56)
+          base type idx = 55
+        0217: NAME(57)
+          "Transformer_AnimCallbackFunc"  type idx = 56  scope idx = 0
+        0237: BYTE_INDEX ARRAY(58)
+          high bound = 6F   base type idx = 7
+        023B: NAME(59)
+          "tAccTable"  type idx = 58  scope idx = 0
+        0248: FIELD_LIST(60)
+          number of fields = 0009   size = 00000011
+        0250: FIELD_BYTE
+          "data"  offset = 10  type idx = 4
+        0258: FIELD_BYTE
+          "shapey"  offset = 0E  type idx = 7
+        0262: FIELD_BYTE
+          "shapex"  offset = 0C  type idx = 7
+        026C: FIELD_BYTE
+          "centery"  offset = 0A  type idx = 7
+        0277: FIELD_BYTE
+          "centerx"  offset = 08  type idx = 7
+        0282: FIELD_BYTE
+          "height"  offset = 06  type idx = 7
+        028C: FIELD_BYTE
+          "width"  offset = 04  type idx = 7
+        0295: BIT_BYTE
+          "next"  offset = 00  type idx = 9
+        start bit = 08  bit size = 18
+        029F: BIT_BYTE
+          "type"  offset = 00  type idx = 10
+        start bit = 00  bit size = 08
+        02A9: NAME(61)
+          "shapetbl"  type idx = 60  scope idx = 1
+        02B5: NAME(62)
+          "SHAPE"  type idx = 61  scope idx = 0
+        02BE: NEAR386 PTR(63)
+          base type idx = 62
+        02C1: NEAR386 PTR(64)
+          base type idx = 10
+        02C4: FIELD_LIST(65)
+          number of fields = 0011   size = 00000038
+        02CC: FIELD_BYTE
+          "sysptr"  offset = 34  type idx = 50
+        02D6: FIELD_BYTE
+          "bpptbl"  offset = 30  type idx = 64
+        02E0: FIELD_BYTE
+          "rowtbl"  offset = 2C  type idx = 64
+        02EA: FIELD_BYTE
+          "rowbytes"  offset = 28  type idx = 10
+        02F6: FIELD_BYTE
+          "zbuffer"  offset = 24  type idx = 50
+        0301: FIELD_BYTE
+          "shape"  offset = 20  type idx = 63
+        030A: FIELD_BYTE
+          "unused"  offset = 1F  type idx = 6
+        0314: FIELD_BYTE
+          "ram"  offset = 1E  type idx = 6
+        031B: FIELD_BYTE
+          "type"  offset = 1D  type idx = 6
+        0323: FIELD_BYTE
+          "bpp"  offset = 1C  type idx = 6
+        032A: FIELD_BYTE
+          "maxy"  offset = 18  type idx = 9
+        0332: FIELD_BYTE
+          "maxx"  offset = 14  type idx = 9
+        033A: FIELD_BYTE
+          "miny"  offset = 10  type idx = 9
+        0342: FIELD_BYTE
+          "minx"  offset = 0C  type idx = 9
+        034A: FIELD_BYTE
+          "height"  offset = 08  type idx = 9
+        0354: FIELD_BYTE
+          "width"  offset = 04  type idx = 9
+        035D: FIELD_BYTE
+          "id"  offset = 00  type idx = 16
+        0363: NAME(66)
+          "windowtbl"  type idx = 65  scope idx = 1
+        0370: NAME(67)
+          "WINDOW"  type idx = 66  scope idx = 0
+        037A: NEAR386 PTR(68)
+          base type idx = 67
+        037D: NEAR386 PROC(69)
+          return type = 9
+            param 1:  type idx = 20
+        0382: NEAR386 PROC(70)
+          return type = 20
+            param 1:  type idx = 9
+            param 2:  type idx = 9
+        0388: FIELD_LIST(71)
+          number of fields = 0002   size = 00000008
+        0390: FIELD_BYTE
+          "size"  offset = 04  type idx = 9
+        0398: FIELD_BYTE
+          "type"  offset = 00  type idx = 9
+        03A0: NAME(72)
+          "chunkhdrstruct"  type idx = 71  scope idx = 1
+        03B2: NAME(73)
+          "CHUNKHDR"  type idx = 72  scope idx = 0
+        03BE: NEAR386 PTR(74)
+          base type idx = 73
+        03C1: NEAR386 PROC(75)
+          return type = 20
+            param 1:  type idx = 74
+        03C6: NAME(76)
+          "cdstreamstruct"  type idx = 81  scope idx = 1
+        03D9: NEAR386 PTR(77)
+          base type idx = 76
+        03DC: FIELD_LIST(78)
+          number of fields = 0005   size = 00000014
+        03E4: FIELD_BYTE
+          "id"  offset = 10  type idx = 9
+        03EA: FIELD_BYTE
+          "processor"  offset = 0C  type idx = 9
+        03F7: FIELD_BYTE
+          "priority"  offset = 08  type idx = 9
+        0403: FIELD_BYTE
+          "stacksize"  offset = 04  type idx = 9
+        0410: FIELD_BYTE
+          "item"  offset = 00  type idx = 9
+        0418: NAME(79)
+          "threadstruct"  type idx = 78  scope idx = 1
+        0428: NAME(80)
+          "THREAD"  type idx = 79  scope idx = 0
+        0432: FIELD_LIST(81)
+          number of fields = 0028   size = 000000B0
+        043A: FIELD_BYTE
+          "streamfull"  offset = AC  type idx = 9
+        0448: FIELD_BYTE
+          "filler"  offset = A8  type idx = 9
+        0452: FIELD_BYTE
+          "mutex"  offset = A4  type idx = 9
+        045B: FIELD_BYTE
+          "releasesignal"  offset = A0  type idx = 9
+        046C: FIELD_BYTE
+          "readsignal"  offset = 9C  type idx = 9
+        047A: FIELD_BYTE
+          "blockcount"  offset = 98  type idx = 9
+        0488: FIELD_BYTE
+          "thread"  offset = 84  type idx = 80
+        0492: FIELD_BYTE
+          "block"  offset = 80  type idx = 50
+        049B: FIELD_BYTE
+          "tail"  offset = 7C  type idx = 50
+        04A3: FIELD_BYTE
+          "head"  offset = 78  type idx = 50
+        04AB: FIELD_BYTE
+          "emptyblock"  offset = 74  type idx = 50
+        04B9: FIELD_BYTE
+          "nextstream"  offset = 70  type idx = 77
+        04C7: FIELD_BYTE
+          "idmask"  offset = 6C  type idx = 9
+        04D1: FIELD_BYTE
+          "idtype"  offset = 68  type idx = 9
+        04DB: FIELD_BYTE
+          "seekoffset"  offset = 64  type idx = 9
+        04E9: FIELD_BYTE
+          "seekposition"  offset = 60  type idx = 9
+        04F9: FIELD_BYTE
+          "dataoffset"  offset = 5C  type idx = 9
+        0507: FIELD_BYTE
+          "filesize"  offset = 58  type idx = 16
+        0513: FIELD_BYTE
+          "fileend"  offset = 54  type idx = 9
+        051E: FIELD_BYTE
+          "fileoffset"  offset = 50  type idx = 16
+        052C: FIELD_BYTE
+          "relocationsize"  offset = 4C  type idx = 9
+        053E: FIELD_BYTE
+          "chunksize"  offset = 48  type idx = 9
+        054B: FIELD_BYTE
+          "readsize"  offset = 44  type idx = 9
+        0557: FIELD_BYTE
+          "blocksize"  offset = 40  type idx = 9
+        0564: FIELD_BYTE
+          "buffersize"  offset = 3C  type idx = 9
+        0572: FIELD_BYTE
+          "crcretries"  offset = 38  type idx = 9
+        0580: FIELD_BYTE
+          "crcerrors"  offset = 34  type idx = 9
+        058D: FIELD_BYTE
+          "datahascrc"  offset = 30  type idx = 9
+        059B: FIELD_BYTE
+          "abort"  offset = 2C  type idx = 9
+        05A4: FIELD_BYTE
+          "status"  offset = 28  type idx = 9
+        05AE: FIELD_BYTE
+          "control"  offset = 24  type idx = 9
+        05B9: FIELD_BYTE
+          "state"  offset = 20  type idx = 9
+        05C2: FIELD_BYTE
+          "handle"  offset = 1C  type idx = 9
+        05CC: FIELD_BYTE
+          "release"  offset = 18  type idx = 13
+        05D7: FIELD_BYTE
+          "get"  offset = 14  type idx = 13
+        05DE: FIELD_BYTE
+          "header"  offset = 10  type idx = 13
+        05E8: FIELD_BYTE
+          "write"  offset = 0C  type idx = 13
+        05F1: FIELD_BYTE
+          "end"  offset = 08  type idx = 13
+        05F8: FIELD_BYTE
+          "start"  offset = 04  type idx = 13
+        0601: FIELD_BYTE
+          "id"  offset = 00  type idx = 16
+        0607: NAME(82)
+          "CDSTREAM"  type idx = 76  scope idx = 0
+        0613: NEAR386 PTR(83)
+          base type idx = 82
+        0616: NEAR386 PROC(84)
+          return type = 74
+            param 1:  type idx = 83
+        061B: NEAR386 PROC(85)
+          return type = 9
+            param 1:  type idx = 13
+        0620: WORD_INDEX ARRAY(86)
+          high bound = 00F9   base type idx = 4
+        0625: 

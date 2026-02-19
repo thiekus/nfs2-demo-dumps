@@ -1,0 +1,28 @@
+  Name:  __leapyear_
+    address      = 0001:000C0E56
+    module index = 506
+    kind:          (code)
+  Name:  calc_yday_
+    address      = 0001:000C0E91
+    module index = 506
+    kind:          (static pubdef) (code)
+  Name:  check_order_
+    address      = 0001:000C0F76
+    module index = 506
+    kind:          (static pubdef) (code)
+  Name:  __isindst_
+    address      = 0001:000C0FAA
+    module index = 506
+    kind:          (code)
+  Name:  time_less_
+    address      = 0001:000C126D
+    module index = 506
+    kind:          (static pubdef) (code)
+  Name:  ___diyr
+    address      = 0002:0000BBEC
+    module index = 506
+    kind:          (data)
+  Name:  ___dilyr
+    address      = 0002:0000BC06
+    module index = 506
+    kind:          (data)

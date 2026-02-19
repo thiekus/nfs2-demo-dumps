@@ -1,0 +1,8 @@
+  Name:  mmxmemcpy_
+    address      = 0001:000A1ED5
+    module index = 287
+    kind:          (code)
+  Name:  mmxblockmove_
+    address      = 0001:000A1ED4
+    module index = 287
+    kind:          (code)

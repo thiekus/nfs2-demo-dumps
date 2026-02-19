@@ -1,0 +1,16 @@
+  Name:  cget_file_
+    address      = 0001:0009BCCF
+    module index = 242
+    kind:          (static pubdef) (code)
+  Name:  uncget_file_
+    address      = 0001:0009BCEB
+    module index = 242
+    kind:          (static pubdef) (code)
+  Name:  vfscanf_
+    address      = 0001:0009BCF3
+    module index = 242
+    kind:          (code)
+  Name:  fscanf_
+    address      = 0001:0009BD30
+    module index = 242
+    kind:          (code)

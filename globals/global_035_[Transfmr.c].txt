@@ -1,0 +1,72 @@
+  Name:  _Transformer_gDispenseNodeSetCounter
+    address      = 0002:0000E660
+    module index = 35
+    kind:          (static pubdef) (data)
+  Name:  _Transformer_gDispenseNodeElementCounter
+    address      = 0002:0000E664
+    module index = 35
+    kind:          (static pubdef) (data)
+  Name:  Transformer_SetSubDivideQuality_
+    address      = 0001:0003A8CB
+    module index = 35
+    kind:          (code)
+  Name:  Transformer_ReserveAndDispenseNode_
+    address      = 0001:0003A8ED
+    module index = 35
+    kind:          (code)
+  Name:  Transformer_CleanUp_
+    address      = 0001:0003A9B1
+    module index = 35
+    kind:          (code)
+  Name:  Transformer_AllocateAndInitializeNode_
+    address      = 0001:0003AA2D
+    module index = 35
+    kind:          (code)
+  Name:  Transformer_CreateNode_
+    address      = 0001:0003AB23
+    module index = 35
+    kind:          (code)
+  Name:  Transformer_AddGeomObj_
+    address      = 0001:0003AB65
+    module index = 35
+    kind:          (code)
+  Name:  Transformer_HangNewTransformNode_
+    address      = 0001:0003ABD1
+    module index = 35
+    kind:          (code)
+  Name:  Transformer_HangNewGeomNode_
+    address      = 0001:0003AC48
+    module index = 35
+    kind:          (code)
+  Name:  Transformer_BuildShadowFacet_
+    address      = 0001:0003ACBF
+    module index = 35
+    kind:          (code)
+  Name:  Transformer_InsertPartFacet_
+    address      = 0001:0003ADA6
+    module index = 35
+    kind:          (code)
+  Name:  Transformer_InitPriorityNodeList_
+    address      = 0001:0003B0BA
+    module index = 35
+    kind:          (code)
+  Name:  Transformer_LinkAllNodeLists_
+    address      = 0001:0003B103
+    module index = 35
+    kind:          (code)
+  Name:  _Transformer_gCurrentSubDivideQuality
+    address      = 0002:0000E668
+    module index = 35
+    kind:          (data)
+  Name:  _Transformer_gDispenseNodeSet
+    address      = 0002:00024488
+    module index = 35
+    kind:          (data)
+  Name:  _Transformer_gDrawOptimizationInfo
+    address      = 0002:000244C8
+    module index = 35
+    kind:          (data)
+  Name:  _Transformer_gLinkPriorityNodeList
+    address      = 0002:000244D0
+    module index = 35
+    kind:          (data)

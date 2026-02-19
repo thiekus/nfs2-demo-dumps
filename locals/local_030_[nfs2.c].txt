@@ -1,0 +1,139 @@
+ 30) Name:   C:\nfs2\game\common\nfs2.c
+     Language is C
+     Locals: num = 1, offset = 0000008AH
+     Types:  num = 1, offset = 00000226H
+     Lines:  num = 1, offset = 000003B6H
+
+   *** Locals ***
+   ==============
+      Data 0:  offset 0000E933
+        0000: MODULE_386
+          "befuddleExtensions" addr = 0002:0000D845,  type = 63
+        001B: MODULE_386
+          "finishOrder" addr = 0002:00023E38,  type = 64
+        002F: MODULE_386
+          "gSaveKnockout_alloc" addr = 0002:00023E40,  type = 67
+        004B: MODULE_386
+          "gTournamentFinishOrder" addr = 0002:00023E50,  type = 68
+        006A: MODULE_386
+          "Front_RandomAINameSeed" addr = 0002:0000D841,  type = 9
+        0089: MODULE_386
+          "gGameSetupIsUnstable" addr = 0002:0000D82C,  type = 9
+        00A6: MODULE_386
+          "gSaveKnockout" addr = 0002:0000D835,  type = 69
+        00BC: MODULE_386
+          "gSaveTournament" addr = 0002:0000D831,  type = 129
+        00D5: MODULE_386
+          "nfs_sysInfo" addr = 0002:00023E5C,  type = 132
+        00EA: MODULE_386
+          "befuddleTemp" addr = 0002:00023E68,  type = 133
+        0100: MODULE_386
+          "gPlayerEnteredNameAlready" addr = 0002:0000D83E,  type = 134
+        0123: MODULE_386
+          "frontEnd" addr = 0002:00023E72,  type = 125
+        0134: MODULE_386
+          "gSaveTournament_alloc" addr = 0002:0002410B,  type = 128
+        0153: MODULE_386
+          "gPasscodeHasBeenDisplayed" addr = 0002:0000D840,  type = 4
+        0175: MODULE_386
+          "gCheckLapTime" addr = 0002:0000D83A,  type = 4
+        018B: MODULE_386
+          "gCheckTotalTime" addr = 0002:0000D839,  type = 4
+        01A3: MODULE_386
+          "gUpdateKnockoutInfoFlag" addr = 0002:0000D83C,  type = 4
+        01C3: MODULE_386
+          "gKnockOutSpeechFlag" addr = 0002:0000D83D,  type = 4
+        01DF: MODULE_386
+          "gMusicInSimIsOn" addr = 0002:0000D830,  type = 4
+        01F7: MODULE_386
+          "gUpdateTournamentInfoFlag" addr = 0002:0000D83B,  type = 4
+        0219: SET_BASE_386
+          base = 0001:0002FDED
+        0221: NEAR_RTN_386
+          start off = 00000000, code size = 00000024, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  23
+          return value: <none>
+          Name = "Nfs2_SystemNLibStartUp"
+        024C: NEAR_RTN_386
+          start off = 00000024, code size = 0000001F, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  23
+          return value: <none>
+          Name = "Nfs2_SystemNLibCleanUp"
+        0277: NEAR_RTN_386
+          start off = 00000043, code size = 00000047, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  23
+          return value: <none>
+          Name = "Nfs2_BefuddleCode"
+        029D: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "loop",  type = 9
+        02A6: NEAR_RTN_386
+          start off = 0000008A, code size = 0000002B, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  135
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Nfs2_ChangeExtension"
+        02D2: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "ext",  type = 13
+        02DA: NEAR_RTN_386
+          start off = 000000B5, code size = 0000002E, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  23
+          return value: <none>
+          Name = "Nfs2_ResetGame"
+        02FD: NEAR_RTN_386
+          start off = 000000E3, code size = 00000139, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  137
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Nfs2_GameModuleStartUp"
+        032B: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "FrontEndDataStream",  type = 136
+        0343: NEAR_RTN_386
+          start off = 0000021C, code size = 000000E1, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  23
+          return value: <none>
+          Name = "Nfs2_CleanUpGameModule"
+        036E: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "k",  type = 7
+        0374: NEAR_RTN_386
+          start off = 000002FD, code size = 0000018B, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  139
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Name = "main"
+        0392: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "argc",  type = 9
+        039B: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "argv",  type = 138
+        03A5: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "setup",  type = 136
+        03B0: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "nResult",  type = 9
+        03BC: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "nPGResult",  type = 9
+

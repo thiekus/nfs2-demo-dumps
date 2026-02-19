@@ -1,0 +1,8 @@
+  Name:  _ups16lf
+    address      = 0001:000C35E0
+    module index = 550
+    kind:          (code)
+  Name:  _ups16lfsetstate
+    address      = 0001:000C364C
+    module index = 550
+    kind:          (code)

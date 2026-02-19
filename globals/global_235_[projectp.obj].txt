@@ -1,0 +1,16 @@
+  Name:  _projectorgp
+    address      = 0001:0009B470
+    module index = 235
+    kind:          (code)
+  Name:  _setprojectpb
+    address      = 0001:0009B4A4
+    module index = 235
+    kind:          (code)
+  Name:  _setprojectp
+    address      = 0001:0009B604
+    module index = 235
+    kind:          (code)
+  Name:  projectp_
+    address      = 0001:0009B63C
+    module index = 235
+    kind:          (code)

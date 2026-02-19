@@ -1,0 +1,4 @@
+  Name:  __CMain
+    address      = 0001:000BCBA1
+    module index = 439
+    kind:          (code)

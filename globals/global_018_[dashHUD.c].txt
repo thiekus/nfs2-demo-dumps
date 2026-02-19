@@ -1,0 +1,92 @@
+  Name:  DashHUD_LoadWords_
+    address      = 0001:00027C6A
+    module index = 18
+    kind:          (code)
+  Name:  DashHUD_Word_
+    address      = 0001:00027CE5
+    module index = 18
+    kind:          (code)
+  Name:  DashHUD_UnloadWords_
+    address      = 0001:00027D2A
+    module index = 18
+    kind:          (code)
+  Name:  DashHUD_InitHUD_
+    address      = 0001:00027D60
+    module index = 18
+    kind:          (code)
+  Name:  DashHUD_InitDash_
+    address      = 0001:00027EB7
+    module index = 18
+    kind:          (code)
+  Name:  DashHUD_Reset_
+    address      = 0001:00027EDF
+    module index = 18
+    kind:          (code)
+  Name:  DashHUD_KillHUD_
+    address      = 0001:00027EFE
+    module index = 18
+    kind:          (code)
+  Name:  DashHUD_KillDash_
+    address      = 0001:00027F1D
+    module index = 18
+    kind:          (code)
+  Name:  DashHUD_ToggleDebug_
+    address      = 0001:00027F40
+    module index = 18
+    kind:          (code)
+  Name:  DashHUD_ToggleHud_
+    address      = 0001:00027F78
+    module index = 18
+    kind:          (code)
+  Name:  DashHUD_ToggleMirror_
+    address      = 0001:00027FF9
+    module index = 18
+    kind:          (code)
+  Name:  DashHUD_SetMessage_
+    address      = 0001:0002804A
+    module index = 18
+    kind:          (code)
+  Name:  DashHUD_CheckWrongWay_
+    address      = 0001:0002808E
+    module index = 18
+    kind:          (code)
+  Name:  DashHUD_HUDCalc_
+    address      = 0001:0002810C
+    module index = 18
+    kind:          (code)
+  Name:  DashHUD_BuildTimeString_
+    address      = 0001:0002842E
+    module index = 18
+    kind:          (code)
+  Name:  DashHUD_BuildNumbers_
+    address      = 0001:0002850D
+    module index = 18
+    kind:          (code)
+  Name:  DashHUD_DashCalc_
+    address      = 0001:00028BA2
+    module index = 18
+    kind:          (code)
+  Name:  BuildMap_
+    address      = 0001:00028C4D
+    module index = 18
+    kind:          (code)
+  Name:  DashHUD_Build2DLayer_
+    address      = 0001:00028D2D
+    module index = 18
+    kind:          (code)
+  Name:  _DashHUD_gLangFileName
+    address      = 0002:0000CC34
+    module index = 18
+    kind:          (data)
+  Name:  _DashHUD_gWordFile
+    address      = 0002:0000CC4C
+    module index = 18
+    kind:          (data)
+  Name:  _DashHUD_gShpfile
+    address      = 0002:000234C8
+    module index = 18
+    kind:          (data)
+  Name:  _DashHUD_gInfo
+    address      = 0002:000234CC
+    module index = 18
+    kind:          (data)

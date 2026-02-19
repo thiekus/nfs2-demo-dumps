@@ -1,0 +1,4 @@
+  Name:  lintmapxuv8_
+    address      = 0001:000B34BC
+    module index = 374
+    kind:          (code)

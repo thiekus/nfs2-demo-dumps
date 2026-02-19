@@ -1,0 +1,4 @@
+  Name:  _dos_getdiskfree_
+    address      = 0001:0009CFF0
+    module index = 248
+    kind:          (code)

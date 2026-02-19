@@ -1,0 +1,582 @@
+ 30) Name:   C:\nfs2\game\common\nfs2.c
+     Language is C
+     Locals: num = 1, offset = 0000008AH
+     Types:  num = 1, offset = 00000226H
+     Lines:  num = 1, offset = 000003B6H
+
+    *** Types ***
+    =============
+      Data 0:  offset 0004C071
+        0000: cue table offset=00000BE5
+        0006: SCOPE(1)
+          "struct"
+        000E: SCOPE(2)
+          "union"
+        0015: SCOPE(3)
+          "enum"
+        001B: SCALAR(4)
+          "char"  scalar type = 10, unsigned
+        0022: SCALAR(5)
+          "signed char"  scalar type = 00, integer
+        0030: SCALAR(6)
+          "unsigned char"  scalar type = 10, unsigned
+        0040: SCALAR(7)
+          "short"  scalar type = 01, integer
+        0048: SCALAR(8)
+          "unsigned short"  scalar type = 11, unsigned
+        0059: SCALAR(9)
+          "int"  scalar type = 03, integer
+        005F: SCALAR(10)
+          "unsigned int"  scalar type = 13, unsigned
+        006E: NAME(11)
+          "wchar_t"  type idx = 8  scope idx = 0
+        0079: NAME(12)
+          "size_t"  type idx = 10  scope idx = 0
+        0083: NEAR386 PTR(13)
+          base type idx = 4
+        0086: BYTE_INDEX ARRAY(14)
+          high bound = 00   base type idx = 13
+        008A: NAME(15)
+          "__va_list"  type idx = 14  scope idx = 0
+        0097: SCALAR(16)
+          "long"  scalar type = 03, integer
+        009E: NAME(17)
+          "fpos_t"  type idx = 16  scope idx = 0
+        00A8: NAME(18)
+          "fpos_t"  type idx = 16  scope idx = 0
+        00B2: BYTE_INDEX ARRAY(19)
+          high bound = 00   base type idx = 13
+        00B6: NAME(20)
+          "va_list"  type idx = 19  scope idx = 0
+        00C1: NAME(21)
+          "MEMBLOCK"  type idx = 13  scope idx = 0
+        00CD: SCALAR(22)
+          "void"  scalar type = 30, void
+        00D4: NEAR386 PROC(23)
+          return type = 22
+            param 1:  type idx = 22
+        00D9: NEAR386 PTR(24)
+          base type idx = 23
+        00DC: NAME(25)
+          "VOIDFN"  type idx = 24  scope idx = 0
+        00E6: NEAR386 PROC(26)
+          return type = 9
+            param 1:  type idx = 22
+        00EB: NAME(27)
+          "INTFN"  type idx = 26  scope idx = 0
+        00F4: NAME(28)
+          "MVI"  type idx = 22  scope idx = 0
+        00FB: NEAR386 PROC(29)
+          return type = 9
+            param 1:  type idx = 9
+            param 2:  type idx = 9
+        0101: NAME(30)
+          "EACHOOKCALLBACKFUNC"  type idx = 29  scope idx = 0
+        0118: NAME(31)
+          "arg_t"  type idx = 9  scope idx = 0
+        0121: NEAR386 PROC(32)
+          return type = 22
+            param 1:  type idx = 22
+        0126: NAME(33)
+          "THREADPROC"  type idx = 32  scope idx = 0
+        0134: NAME(34)
+          "SYSTEMTASK"  type idx = 29  scope idx = 0
+        0142: NAME(35)
+          "boolean"  type idx = 9  scope idx = 0
+        014D: NAME(36)
+          "fixed88"  type idx = 9  scope idx = 0
+        0158: NAME(37)
+          "fixed824"  type idx = 9  scope idx = 0
+        0164: NAME(38)
+          "fixed248"  type idx = 9  scope idx = 0
+        0170: NEAR386 PTR(39)
+          base type idx = 22
+        0173: NEAR386 PROC(40)
+          return type = 22
+            param 1:  type idx = 39
+        0178: NEAR386 PTR(41)
+          base type idx = 40
+        017B: NAME(42)
+          "Sched_tFunctionPt"  type idx = 41  scope idx = 0
+        0190: NAME(43)
+          "Draw_tContext"  type idx = 7  scope idx = 0
+        01A1: SCALAR(44)
+          "unsigned long"  scalar type = 13, unsigned
+        01B1: NEAR386 PROC(45)
+          return type = 9
+            param 1:  type idx = 44
+        01B6: NAME(46)
+          "Input_tDeviceCall"  type idx = 45  scope idx = 0
+        01CB: NAME(47)
+          "SDWORD"  type idx = 16  scope idx = 0
+        01D5: NAME(48)
+          "DWORD"  type idx = 44  scope idx = 0
+        01DE: NAME(49)
+          "WORD"  type idx = 8  scope idx = 0
+        01E6: NAME(50)
+          "SWORD"  type idx = 7  scope idx = 0
+        01EF: NAME(51)
+          "SBYTE"  type idx = 5  scope idx = 0
+        01F8: NAME(52)
+          "UBYTE"  type idx = 6  scope idx = 0
+        0201: NAME(53)
+          "BOOL"  type idx = 9  scope idx = 0
+        0209: NAME(54)
+          "Stm_Chunk"  type idx = 22  scope idx = 0
+        0216: NEAR386 PTR(55)
+          base type idx = 54
+        0219: NAME(56)
+          "lpStm_Chunk"  type idx = 55  scope idx = 0
+        0228: NEAR386 PROC(57)
+          return type = 22
+            param 1:  type idx = 39
+            param 2:  type idx = 39
+        022E: NEAR386 PTR(58)
+          base type idx = 57
+        0231: NAME(59)
+          "Transformer_AnimCallbackFunc"  type idx = 58  scope idx = 0
+        0251: BYTE_INDEX ARRAY(60)
+          high bound = 6F   base type idx = 7
+        0255: NAME(61)
+          "tAccTable"  type idx = 60  scope idx = 0
+        0262: BYTE_INDEX ARRAY(62)
+          high bound = 03   base type idx = 4
+        0266: BYTE_INDEX ARRAY(63)
+          high bound = 0D   base type idx = 62
+        026A: BYTE_INDEX ARRAY(64)
+          high bound = 07   base type idx = 4
+        026E: BYTE_INDEX ARRAY(65)
+          high bound = 07   base type idx = 7
+        0272: FIELD_LIST(66)
+          number of fields = 0001   size = 00000010
+        027A: FIELD_BYTE
+          "AdvanceFlag"  offset = 00  type idx = 65
+        0289: NAME(67)
+          "tKnockout"  type idx = 66  scope idx = 1
+        0296: BYTE_INDEX ARRAY(68)
+          high bound = 0B   base type idx = 4
+        029A: NEAR386 PTR(69)
+          base type idx = 67
+        029D: BYTE_INDEX ARRAY(70)
+          high bound = 08   base type idx = 4
+        02A1: BYTE_INDEX ARRAY(71)
+          high bound = 08   base type idx = 4
+        02A5: BYTE_INDEX ARRAY(72)
+          high bound = 01   base type idx = 7
+        02A9: BYTE_INDEX ARRAY(73)
+          high bound = 01   base type idx = 7
+        02AD: BYTE_INDEX ARRAY(74)
+          high bound = 01   base type idx = 7
+        02B1: BYTE_INDEX ARRAY(75)
+          high bound = 01   base type idx = 7
+        02B5: BYTE_INDEX ARRAY(76)
+          high bound = 01   base type idx = 7
+        02B9: BYTE_INDEX ARRAY(77)
+          high bound = 01   base type idx = 7
+        02BD: BYTE_INDEX ARRAY(78)
+          high bound = 01   base type idx = 9
+        02C1: BYTE_INDEX ARRAY(79)
+          high bound = 01   base type idx = 9
+        02C5: BYTE_INDEX ARRAY(80)
+          high bound = 01   base type idx = 9
+        02C9: BYTE_INDEX ARRAY(81)
+          high bound = 01   base type idx = 9
+        02CD: BYTE_INDEX ARRAY(82)
+          high bound = 01   base type idx = 9
+        02D1: BYTE_INDEX ARRAY(83)
+          high bound = 01   base type idx = 9
+        02D5: BYTE_INDEX ARRAY(84)
+          high bound = 01   base type idx = 9
+        02D9: BYTE_INDEX ARRAY(85)
+          high bound = 01   base type idx = 9
+        02DD: BYTE_INDEX ARRAY(86)
+          high bound = 01   base type idx = 9
+        02E1: BYTE_INDEX ARRAY(87)
+          high bound = 01   base type idx = 9
+        02E5: BYTE_INDEX ARRAY(88)
+          high bound = 08   base type idx = 4
+        02E9: BYTE_INDEX ARRAY(89)
+          high bound = 07   base type idx = 88
+        02ED: BYTE_INDEX ARRAY(90)
+          high bound = 05   base type idx = 7
+        02F1: BYTE_INDEX ARRAY(91)
+          high bound = 01   base type idx = 90
+        02F5: BYTE_INDEX ARRAY(92)
+          high bound = 05   base type idx = 7
+        02F9: BYTE_INDEX ARRAY(93)
+          high bound = 01   base type idx = 92
+        02FD: BYTE_INDEX ARRAY(94)
+          high bound = 05   base type idx = 7
+        0301: BYTE_INDEX ARRAY(95)
+          high bound = 01   base type idx = 94
+        0305: BYTE_INDEX ARRAY(96)
+          high bound = 05   base type idx = 7
+        0309: BYTE_INDEX ARRAY(97)
+          high bound = 01   base type idx = 96
+        030D: BYTE_INDEX ARRAY(98)
+          high bound = 01   base type idx = 7
+        0311: BYTE_INDEX ARRAY(99)
+          high bound = 01   base type idx = 7
+        0315: BYTE_INDEX ARRAY(100)
+          high bound = 27   base type idx = 4
+        0319: BYTE_INDEX ARRAY(101)
+          high bound = 27   base type idx = 4
+        031D: BYTE_INDEX ARRAY(102)
+          high bound = 27   base type idx = 4
+        0321: BYTE_INDEX ARRAY(103)
+          high bound = 27   base type idx = 4
+        0325: BYTE_INDEX ARRAY(104)
+          high bound = 27   base type idx = 4
+        0329: FIELD_LIST(105)
+          number of fields = 0008   size = 000000D1
+        0331: FIELD_BYTE
+          "speakerOn"  offset = D0  type idx = 4
+        033E: FIELD_BYTE
+          "isTone"  offset = CC  type idx = 9
+        0348: FIELD_BYTE
+          "commPort"  offset = C8  type idx = 9
+        0354: FIELD_BYTE
+          "dialStr"  offset = A0  type idx = 104
+        035F: FIELD_BYTE
+          "settingsStr"  offset = 78  type idx = 103
+        036E: FIELD_BYTE
+          "userInitStr"  offset = 50  type idx = 102
+        037D: FIELD_BYTE
+          "defaultInitStr"  offset = 28  type idx = 101
+        038F: FIELD_BYTE
+          "name"  offset = 00  type idx = 100
+        0397: NAME(106)
+          "modem_info"  type idx = 105  scope idx = 1
+        03A5: NAME(107)
+          "tMODEM_INFO"  type idx = 106  scope idx = 0
+        03B4: NEAR386 PTR(108)
+          base type idx = 107
+        03B7: BYTE_INDEX ARRAY(109)
+          high bound = 08   base type idx = 4
+        03BB: BYTE_INDEX ARRAY(110)
+          high bound = 08   base type idx = 4
+        03BF: BYTE_INDEX ARRAY(111)
+          high bound = 27   base type idx = 4
+        03C3: BYTE_INDEX ARRAY(112)
+          high bound = 13   base type idx = 4
+        03C7: BYTE_INDEX ARRAY(113)
+          high bound = 07   base type idx = 7
+        03CB: BYTE_INDEX ARRAY(114)
+          high bound = 07   base type idx = 7
+        03CF: BYTE_INDEX ARRAY(115)
+          high bound = 07   base type idx = 7
+        03D3: BYTE_INDEX ARRAY(116)
+          high bound = 07   base type idx = 7
+        03D7: BYTE_INDEX ARRAY(117)
+          high bound = 07   base type idx = 7
+        03DB: BYTE_INDEX ARRAY(118)
+          high bound = 07   base type idx = 7
+        03DF: BYTE_INDEX ARRAY(119)
+          high bound = 07   base type idx = 7
+        03E3: BYTE_INDEX ARRAY(120)
+          high bound = 07   base type idx = 7
+        03E7: BYTE_INDEX ARRAY(121)
+          high bound = 07   base type idx = 7
+        03EB: BYTE_INDEX ARRAY(122)
+          high bound = 07   base type idx = 7
+        03EF: BYTE_INDEX ARRAY(123)
+          high bound = 07   base type idx = 7
+        03F3: FIELD_LIST(124)
+          number of fields = 0071   size = 00000099
+        03FB: FIELD_WORD
+          "rampBrakeList"  offset = 0089  type idx = 123
+        040D: FIELD_WORD
+          "rampGasList"  offset = 0079  type idx = 122
+        041D: FIELD_WORD
+          "rampSteerList"  offset = 0069  type idx = 121
+        042F: FIELD_WORD
+          "brakeBiasList"  offset = 0059  type idx = 120
+        0441: FIELD_WORD
+          "gearRatiosList"  offset = 0049  type idx = 119
+        0454: FIELD_WORD
+          "rearDownforceList"  offset = 0039  type idx = 118
+        046A: FIELD_WORD
+          "frontDownforceList"  offset = 0029  type idx = 117
+        0481: FIELD_WORD
+          "steeringList"  offset = 0019  type idx = 116
+        0492: FIELD_WORD
+          "playerColorList"  offset = 0009  type idx = 115
+        04A6: FIELD_WORD
+          "playerTransList"  offset = 00F9  type idx = 114
+        04BA: FIELD_WORD
+          "playerCarList"  offset = 00E9  type idx = 113
+        04CC: FIELD_WORD
+          "phoneName"  offset = 00D5  type idx = 112
+        04DA: FIELD_WORD
+          "phoneNumber"  offset = 00AD  type idx = 111
+        04EA: FIELD_WORD
+          "playerName2"  offset = 00A4  type idx = 110
+        04FA: FIELD_WORD
+          "playerName"  offset = 009B  type idx = 109
+        0509: FIELD_WORD
+          "modem"  offset = 0097  type idx = 108
+        0513: FIELD_WORD
+          "readyToRace"  offset = 0096  type idx = 4
+        0523: FIELD_WORD
+          "comPort"  offset = 0095  type idx = 4
+        052F: FIELD_WORD
+          "netOpponetCar"  offset = 0094  type idx = 4
+        0541: FIELD_WORD
+          "audioQuality"  offset = 0093  type idx = 4
+        0552: FIELD_WORD
+          "interactiveMusic"  offset = 0092  type idx = 4
+        0567: FIELD_WORD
+          "engineSounds"  offset = 0091  type idx = 4
+        0578: FIELD_WORD
+          "joyAxis"  offset = 008D  type idx = 99
+        0584: FIELD_WORD
+          "joyButtons"  offset = 0089  type idx = 98
+        0593: FIELD_WORD
+          "joyHiMax"  offset = 0071  type idx = 97
+        05A0: FIELD_WORD
+          "joyHiMin"  offset = 0059  type idx = 95
+        05AD: FIELD_WORD
+          "joyLoMax"  offset = 0041  type idx = 93
+        05BA: FIELD_WORD
+          "joyLoMin"  offset = 0029  type idx = 91
+        05C7: FIELD_WORD
+          "forceVolume"  offset = 0028  type idx = 4
+        05D7: FIELD_WORD
+          "forceDevice"  offset = 0027  type idx = 4
+        05E7: FIELD_WORD
+          "horizon"  offset = 0026  type idx = 4
+        05F3: FIELD_WORD
+          "carDetail"  offset = 0025  type idx = 4
+        0601: FIELD_WORD
+          "viewDistance"  offset = 0024  type idx = 4
+        0612: FIELD_WORD
+          "imageQuality"  offset = 0023  type idx = 4
+        0623: FIELD_WORD
+          "windowSize"  offset = 0022  type idx = 4
+        0632: FIELD_WORD
+          "speed"  offset = 0021  type idx = 4
+        063C: FIELD_WORD
+          "remote"  offset = 0020  type idx = 4
+        0647: FIELD_BYTE
+          "playerNameList"  offset = D8  type idx = 89
+        0659: FIELD_BYTE
+          "keyShiftDowns"  offset = D0  type idx = 87
+        066A: FIELD_BYTE
+          "keyShiftUps"  offset = C8  type idx = 86
+        0679: FIELD_BYTE
+          "keyHorns"  offset = C0  type idx = 85
+        0685: FIELD_BYTE
+          "keyHandBrakes"  offset = B8  type idx = 84
+        0696: FIELD_BYTE
+          "keyCameras"  offset = B0  type idx = 83
+        06A4: FIELD_BYTE
+          "keyLookBehinds"  offset = A8  type idx = 82
+        06B6: FIELD_BYTE
+          "keyBrakes"  offset = A0  type idx = 81
+        06C3: FIELD_BYTE
+          "keyGass"  offset = 98  type idx = 80
+        06CE: FIELD_BYTE
+          "keyRights"  offset = 90  type idx = 79
+        06DB: FIELD_BYTE
+          "keyLefts"  offset = 88  type idx = 78
+        06E7: FIELD_BYTE
+          "keyShiftDown1"  offset = 84  type idx = 9
+        06F8: FIELD_BYTE
+          "keyShiftUp1"  offset = 80  type idx = 9
+        0707: FIELD_BYTE
+          "keyHorn1"  offset = 7C  type idx = 9
+        0713: FIELD_BYTE
+          "keyHandBrake1"  offset = 78  type idx = 9
+        0724: FIELD_BYTE
+          "keyCamera1"  offset = 74  type idx = 9
+        0732: FIELD_BYTE
+          "keyLookBehind1"  offset = 70  type idx = 9
+        0744: FIELD_BYTE
+          "keyBrake1"  offset = 6C  type idx = 9
+        0751: FIELD_BYTE
+          "keyGas1"  offset = 68  type idx = 9
+        075C: FIELD_BYTE
+          "keyRight1"  offset = 64  type idx = 9
+        0769: FIELD_BYTE
+          "keyLeft1"  offset = 60  type idx = 9
+        0775: FIELD_BYTE
+          "controlConfig"  offset = 5C  type idx = 77
+        0786: FIELD_BYTE
+          "controlType"  offset = 58  type idx = 76
+        0795: FIELD_BYTE
+          "IImaxRange"  offset = 54  type idx = 75
+        07A3: FIELD_BYTE
+          "ImaxRange"  offset = 50  type idx = 74
+        07B0: FIELD_BYTE
+          "deadSpot"  offset = 4C  type idx = 73
+        07BC: FIELD_BYTE
+          "stearingRange"  offset = 48  type idx = 72
+        07CD: FIELD_BYTE
+          "playerTwoControl"  offset = 47  type idx = 4
+        07E1: FIELD_BYTE
+          "playerOneControl"  offset = 46  type idx = 4
+        07F5: FIELD_BYTE
+          "sensitivity"  offset = 45  type idx = 4
+        0804: FIELD_BYTE
+          "audioMode"  offset = 44  type idx = 4
+        0811: FIELD_BYTE
+          "sfxVolume"  offset = 43  type idx = 4
+        081E: FIELD_BYTE
+          "simVolume"  offset = 42  type idx = 4
+        082B: FIELD_BYTE
+          "menuVolume"  offset = 41  type idx = 4
+        0839: FIELD_BYTE
+          "language"  offset = 40  type idx = 4
+        0845: FIELD_BYTE
+          "display"  offset = 3F  type idx = 4
+        0850: FIELD_BYTE
+          "traffic"  offset = 3E  type idx = 4
+        085B: FIELD_BYTE
+          "oppNumber"  offset = 3D  type idx = 4
+        0868: FIELD_BYTE
+          "oppCar"  offset = 3C  type idx = 4
+        0872: FIELD_BYTE
+          "rampBrake2"  offset = 3B  type idx = 4
+        0880: FIELD_BYTE
+          "rampGas2"  offset = 3A  type idx = 4
+        088C: FIELD_BYTE
+          "rampSteer2"  offset = 39  type idx = 4
+        089A: FIELD_BYTE
+          "brakeBias2"  offset = 38  type idx = 4
+        08A8: FIELD_BYTE
+          "gearRatios2"  offset = 37  type idx = 4
+        08B7: FIELD_BYTE
+          "rearDownforce2"  offset = 36  type idx = 4
+        08C9: FIELD_BYTE
+          "frontDownforce2"  offset = 35  type idx = 4
+        08DC: FIELD_BYTE
+          "steeringAssist2"  offset = 34  type idx = 4
+        08EF: FIELD_BYTE
+          "steeringSensitivity2"  offset = 33  type idx = 4
+        0907: FIELD_BYTE
+          "carColors2"  offset = 2A  type idx = 71
+        0915: FIELD_BYTE
+          "transmission2"  offset = 29  type idx = 4
+        0926: FIELD_BYTE
+          "myCar2"  offset = 28  type idx = 4
+        0930: FIELD_BYTE
+          "rampBrake"  offset = 27  type idx = 4
+        093D: FIELD_BYTE
+          "rampGas"  offset = 26  type idx = 4
+        0948: FIELD_BYTE
+          "brakeBias"  offset = 25  type idx = 4
+        0955: FIELD_BYTE
+          "rampSteer"  offset = 24  type idx = 4
+        0962: FIELD_BYTE
+          "gearRatios"  offset = 23  type idx = 4
+        0970: FIELD_BYTE
+          "rearDownforce"  offset = 22  type idx = 4
+        0981: FIELD_BYTE
+          "frontDownforce"  offset = 21  type idx = 4
+        0993: FIELD_BYTE
+          "steeringSensitivity"  offset = 20  type idx = 4
+        09AA: FIELD_BYTE
+          "showGraph"  offset = 1F  type idx = 4
+        09B7: FIELD_BYTE
+          "carColors"  offset = 16  type idx = 70
+        09C4: FIELD_BYTE
+          "transmission"  offset = 15  type idx = 4
+        09D4: FIELD_BYTE
+          "myCar"  offset = 14  type idx = 4
+        09DD: FIELD_BYTE
+          "secretFlags"  offset = 13  type idx = 4
+        09EC: FIELD_BYTE
+          "lapind"  offset = 12  type idx = 4
+        09F6: FIELD_BYTE
+          "laps"  offset = 11  type idx = 4
+        09FE: FIELD_BYTE
+          "recordlaptime"  offset = 0D  type idx = 9
+        0A0F: FIELD_BYTE
+          "track"  offset = 0C  type idx = 4
+        0A18: FIELD_BYTE
+          "catchup"  offset = 0B  type idx = 4
+        0A23: FIELD_BYTE
+          "skillLevel"  offset = 0A  type idx = 4
+        0A31: FIELD_BYTE
+          "style"  offset = 09  type idx = 4
+        0A3A: FIELD_BYTE
+          "raceType"  offset = 08  type idx = 4
+        0A46: FIELD_BYTE
+          "gameMode"  offset = 07  type idx = 4
+        0A52: FIELD_BYTE
+          "currentPlayer"  offset = 06  type idx = 4
+        0A63: FIELD_BYTE
+          "randomAINameSeed"  offset = 02  type idx = 9
+        0A77: FIELD_BYTE
+          "randomSeed"  offset = 00  type idx = 7
+        0A85: NAME(125)
+          "tfrontEnd"  type idx = 124  scope idx = 1
+        0A92: BYTE_INDEX ARRAY(126)
+          high bound = 0B   base type idx = 7
+        0A96: FIELD_LIST(127)
+          number of fields = 000B   size = 000000B9
+        0A9E: BIT_WORD
+          "MonolithicStudios"  offset = 00B5  type idx = 10
+        start bit = 02  bit size = 06
+        0AB6: BIT_WORD
+          "MysticPeaks"  offset = 00B5  type idx = 10
+        start bit = 02  bit size = 05
+        0AC8: BIT_WORD
+          "Mediterraneo"  offset = 00B5  type idx = 10
+        start bit = 02  bit size = 04
+        0ADB: BIT_WORD
+          "PacificSpirit"  offset = 00B5  type idx = 10
+        start bit = 02  bit size = 03
+        0AEF: BIT_WORD
+          "NorthCountry"  offset = 00B5  type idx = 10
+        start bit = 02  bit size = 02
+        0B02: BIT_WORD
+          "Outback"  offset = 00B5  type idx = 10
+        start bit = 02  bit size = 01
+        0B10: BIT_WORD
+          "Pioneer"  offset = 00B5  type idx = 10
+        start bit = 02  bit size = 00
+        0B1E: FIELD_WORD
+          "ProgressFlag"  offset = 00B3  type idx = 7
+        0B2F: FIELD_WORD
+          "PointTotals"  offset = 009B  type idx = 126
+        0B3F: FIELD_BYTE
+          "SaveFrontEnd"  offset = 02  type idx = 125
+        0B4F: FIELD_BYTE
+          "dataSize"  offset = 00  type idx = 7
+        0B5B: NAME(128)
+          "tTournament"  type idx = 127  scope idx = 1
+        0B6A: NEAR386 PTR(129)
+          base type idx = 128
+        0B6E: FIELD_LIST(130)
+          number of fields = 0003   size = 0000000C
+        0B76: FIELD_BYTE
+          "largestXms"  offset = 08  type idx = 9
+        0B84: FIELD_BYTE
+          "largestDos"  offset = 04  type idx = 9
+        0B92: FIELD_BYTE
+          "userRam"  offset = 00  type idx = 9
+        0B9D: NAME(131)
+          "tNfsSystemInfo"  type idx = 130  scope idx = 1
+        0BB0: NAME(132)
+          "tNfsSystemInfo"  type idx = 131  scope idx = 0
+        0BC3: BYTE_INDEX ARRAY(133)
+          high bound = 09   base type idx = 4
+        0BC7: BYTE_INDEX ARRAY(134)
+          high bound = 01   base type idx = 4
+        0BCB: NEAR386 PROC(135)
+          return type = 22
+            param 1:  type idx = 13
+        0BD0: NEAR386 PTR(136)
+          base type idx = 9
+        0BD3: NEAR386 PROC(137)
+          return type = 22
+            param 1:  type idx = 136
+        0BD9: NEAR386 PTR(138)
+          base type idx = 13
+        0BDC: NEAR386 PROC(139)
+          return type = 22
+            param 1:  type idx = 9
+            param 2:  type idx = 138
+            param 3:  type idx = 2
+        0BE3: 

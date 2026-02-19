@@ -1,0 +1,436 @@
+  Name:  _gListCBRenderFacet
+    address      = 0002:00047BFC
+    module index = 64
+    kind:          (data)
+  Name:  _gEnv
+    address      = 0002:00047C64
+    module index = 64
+    kind:          (data)
+  Name:  _gSubDivVertex
+    address      = 0002:00047CA4
+    module index = 64
+    kind:          (data)
+  Name:  _gDCy
+    address      = 0002:000486C4
+    module index = 64
+    kind:          (data)
+  Name:  _mapWindow
+    address      = 0002:000486D4
+    module index = 64
+    kind:          (data)
+  Name:  _gDCx
+    address      = 0002:000486DC
+    module index = 64
+    kind:          (data)
+  Name:  _gDc
+    address      = 0002:000486EC
+    module index = 64
+    kind:          (data)
+  Name:  _gZi
+    address      = 0002:000486FC
+    module index = 64
+    kind:          (data)
+  Name:  _gEnvDetail
+    address      = 0002:0004873C
+    module index = 64
+    kind:          (data)
+  Name:  _gEnvChange
+    address      = 0002:00048740
+    module index = 64
+    kind:          (data)
+  Name:  _gEnvScreenSizeMode
+    address      = 0002:00048744
+    module index = 64
+    kind:          (data)
+  Name:  _gSubDivFacet
+    address      = 0002:00048748
+    module index = 64
+    kind:          (data)
+  Name:  _Draw_gCullIsDone
+    address      = 0002:0004874C
+    module index = 64
+    kind:          (static pubdef) (data)
+  Name:  _drawWindow
+    address      = 0002:00048750
+    module index = 64
+    kind:          (data)
+  Name:  _rearWindow
+    address      = 0002:00048754
+    module index = 64
+    kind:          (data)
+  Name:  _Draw_gDashHeight
+    address      = 0002:00048758
+    module index = 64
+    kind:          (data)
+  Name:  _Draw_gLinmapType
+    address      = 0002:0004875C
+    module index = 64
+    kind:          (static pubdef) (data)
+  Name:  Draw_CalculFContext_
+    address      = 0001:000502D8
+    module index = 64
+    kind:          (code)
+  Name:  Draw_CountFacet_
+    address      = 0001:000502F2
+    module index = 64
+    kind:          (code)
+  Name:  Draw_ReadDepthCueDistVals_
+    address      = 0001:0005030D
+    module index = 64
+    kind:          (code)
+  Name:  Draw_ReadDepthCueLightVals_
+    address      = 0001:00050337
+    module index = 64
+    kind:          (code)
+  Name:  Draw_InitLightColorTable_
+    address      = 0001:00050361
+    module index = 64
+    kind:          (code)
+  Name:  Draw_Alert_
+    address      = 0001:00050505
+    module index = 64
+    kind:          (code)
+  Name:  Draw_StartBenchmark_
+    address      = 0001:0005051A
+    module index = 64
+    kind:          (code)
+  Name:  Draw_SpecialBenchmark_
+    address      = 0001:0005052F
+    module index = 64
+    kind:          (code)
+  Name:  Draw_DebugRendering_
+    address      = 0001:00050544
+    module index = 64
+    kind:          (code)
+  Name:  Draw_JungleDrawMessage_
+    address      = 0001:00050559
+    module index = 64
+    kind:          (code)
+  Name:  Draw_LinmapPoly_
+    address      = 0001:000505D8
+    module index = 64
+    kind:          (code)
+  Name:  Draw_QuadSubDivide_
+    address      = 0001:00050D64
+    module index = 64
+    kind:          (code)
+  Name:  Draw_FastBackCull_
+    address      = 0001:00051547
+    module index = 64
+    kind:          (static pubdef) (code)
+  Name:  Draw_BackCull_
+    address      = 0001:000515D1
+    module index = 64
+    kind:          (code)
+  Name:  Draw_SubDivBackCull_
+    address      = 0001:000516DD
+    module index = 64
+    kind:          (code)
+  Name:  Draw_HighQuality3DFacet_
+    address      = 0001:000517AB
+    module index = 64
+    kind:          (code)
+  Name:  Draw_MedQuality3DFacet_
+    address      = 0001:000518E6
+    module index = 64
+    kind:          (code)
+  Name:  Draw_General2DFacet_
+    address      = 0001:00051BB3
+    module index = 64
+    kind:          (code)
+  Name:  Draw_GeneralTriangle_
+    address      = 0001:00051E0F
+    module index = 64
+    kind:          (code)
+  Name:  Draw_High_k3DFacet_
+    address      = 0001:00051FEA
+    module index = 64
+    kind:          (code)
+  Name:  Draw_High_k3DTransparentFacet_
+    address      = 0001:0005203C
+    module index = 64
+    kind:          (code)
+  Name:  Draw_High_k3DAdditiveFacet_
+    address      = 0001:0005208E
+    module index = 64
+    kind:          (code)
+  Name:  Draw_High_k3DTranslucentFacet_
+    address      = 0001:000520BA
+    module index = 64
+    kind:          (code)
+  Name:  Draw_Med_k3DFacet_
+    address      = 0001:000520E6
+    module index = 64
+    kind:          (code)
+  Name:  Draw_Med_k3DTransparentFacet_
+    address      = 0001:00052138
+    module index = 64
+    kind:          (code)
+  Name:  Draw_Med_k3DAdditiveFacet_
+    address      = 0001:0005218A
+    module index = 64
+    kind:          (code)
+  Name:  Draw_Med_k3DTranslucentFacet_
+    address      = 0001:000521B6
+    module index = 64
+    kind:          (code)
+  Name:  Draw_k3DTFacet_
+    address      = 0001:000521E2
+    module index = 64
+    kind:          (code)
+  Name:  Draw_k3DTTransparentFacet_
+    address      = 0001:0005220E
+    module index = 64
+    kind:          (code)
+  Name:  Draw_k2DFacet_
+    address      = 0001:0005223A
+    module index = 64
+    kind:          (code)
+  Name:  Draw_k2DTransparentFacet_
+    address      = 0001:00052266
+    module index = 64
+    kind:          (code)
+  Name:  Draw_k2DTranslucentFacet_
+    address      = 0001:00052292
+    module index = 64
+    kind:          (code)
+  Name:  Draw_k2DTranslatedFacet_
+    address      = 0001:000522BE
+    module index = 64
+    kind:          (code)
+  Name:  Draw_k2DTileFacet_
+    address      = 0001:00052320
+    module index = 64
+    kind:          (code)
+  Name:  Draw_k2DTransparentTileFacet_
+    address      = 0001:00052356
+    module index = 64
+    kind:          (code)
+  Name:  Draw_k2DFlatFacet_
+    address      = 0001:0005238C
+    module index = 64
+    kind:          (code)
+  Name:  Draw_kDebugFacet_
+    address      = 0001:000523FE
+    module index = 64
+    kind:          (code)
+  Name:  Draw_kFlatLineFacet_
+    address      = 0001:000524EC
+    module index = 64
+    kind:          (code)
+  Name:  Draw_kSetClipFacet_
+    address      = 0001:00052542
+    module index = 64
+    kind:          (code)
+  Name:  Draw_kCtrlDepthCeuing_
+    address      = 0001:000525B8
+    module index = 64
+    kind:          (code)
+  Name:  Draw_kCtrlCallBack_
+    address      = 0001:000525E2
+    module index = 64
+    kind:          (code)
+  Name:  Draw_kSetWin_
+    address      = 0001:00052601
+    module index = 64
+    kind:          (code)
+  Name:  Draw_InsertControlFacet_
+    address      = 0001:00052630
+    module index = 64
+    kind:          (code)
+  Name:  Draw_DrawFacetNotImplemented_
+    address      = 0001:000526ED
+    module index = 64
+    kind:          (code)
+  Name:  Draw_InitRenderingLoop_
+    address      = 0001:00052707
+    module index = 64
+    kind:          (code)
+  Name:  Draw_InstallHighQualityCallBack_
+    address      = 0001:00052816
+    module index = 64
+    kind:          (code)
+  Name:  Draw_InstallMediumQualityCallBack_
+    address      = 0001:00052853
+    module index = 64
+    kind:          (code)
+  Name:  Draw_RenderingLoop_
+    address      = 0001:00052890
+    module index = 64
+    kind:          (code)
+  Name:  Draw_ToggleDetailLevel_
+    address      = 0001:000528D1
+    module index = 64
+    kind:          (code)
+  Name:  Draw_ToggleScreenSize_
+    address      = 0001:00052909
+    module index = 64
+    kind:          (code)
+  Name:  Draw_IsFullScreenMode_
+    address      = 0001:00052978
+    module index = 64
+    kind:          (code)
+  Name:  Draw_SetClipProjEnviro_
+    address      = 0001:000529B1
+    module index = 64
+    kind:          (code)
+  Name:  Draw_GetClipProjEnviro_
+    address      = 0001:00052AA0
+    module index = 64
+    kind:          (code)
+  Name:  Draw_CreateEnviro_
+    address      = 0001:00052B03
+    module index = 64
+    kind:          (code)
+  Name:  Draw_CreateAllEnviro_
+    address      = 0001:00052BA2
+    module index = 64
+    kind:          (code)
+  Name:  Draw_SetEnviro_
+    address      = 0001:00052C90
+    module index = 64
+    kind:          (code)
+  Name:  Draw_ProcessListFacet_
+    address      = 0001:00052E40
+    module index = 64
+    kind:          (code)
+  Name:  Draw_DebugFrameRender_
+    address      = 0001:00052E70
+    module index = 64
+    kind:          (code)
+  Name:  Draw_StartRenderingView_
+    address      = 0001:00052E9B
+    module index = 64
+    kind:          (code)
+  Name:  Draw_StopRenderingView_
+    address      = 0001:00052EB5
+    module index = 64
+    kind:          (code)
+  Name:  Draw_UVTexture_
+    address      = 0001:00052F28
+    module index = 64
+    kind:          (code)
+  Name:  Draw_DetailLevelBackground_
+    address      = 0001:00053075
+    module index = 64
+    kind:          (code)
+  Name:  Draw_StartFrameRender_
+    address      = 0001:00053157
+    module index = 64
+    kind:          (code)
+  Name:  Draw_StopFrameRender_
+    address      = 0001:00053197
+    module index = 64
+    kind:          (code)
+  Name:  Draw_InitTrackRender_
+    address      = 0001:000534A6
+    module index = 64
+    kind:          (code)
+  Name:  Draw_InitGameGraphicSystem_
+    address      = 0001:00053560
+    module index = 64
+    kind:          (code)
+  Name:  Draw_InitTrackRenderPostSim_
+    address      = 0001:00053650
+    module index = 64
+    kind:          (code)
+  Name:  Draw_RestartTrackRender_
+    address      = 0001:00053665
+    module index = 64
+    kind:          (code)
+  Name:  Draw_KillTrackRender_
+    address      = 0001:0005367A
+    module index = 64
+    kind:          (code)
+  Name:  Draw_InitLibRender_
+    address      = 0001:000536D0
+    module index = 64
+    kind:          (code)
+  Name:  Draw_KillLibRender_
+    address      = 0001:000536EF
+    module index = 64
+    kind:          (code)
+  Name:  Pause_Background_
+    address      = 0001:00053704
+    module index = 64
+    kind:          (code)
+  Name:  Pause_FullBackground_
+    address      = 0001:00053792
+    module index = 64
+    kind:          (code)
+  Name:  Draw_RenderPauseMenu_
+    address      = 0001:0005388E
+    module index = 64
+    kind:          (code)
+  Name:  Draw_StartPauseMenu_
+    address      = 0001:00053C0F
+    module index = 64
+    kind:          (code)
+  Name:  Draw_StopPauseMenu_
+    address      = 0001:00053C24
+    module index = 64
+    kind:          (code)
+  Name:  Draw_StartRenderPauseMenu_
+    address      = 0001:00053C43
+    module index = 64
+    kind:          (code)
+  Name:  Draw_StopRenderPauseMenu_
+    address      = 0001:00053C66
+    module index = 64
+    kind:          (code)
+  Name:  _gPrevTable
+    address      = 0002:0000F15C
+    module index = 64
+    kind:          (static pubdef) (data)
+  Name:  _gPrevLight
+    address      = 0002:0000F160
+    module index = 64
+    kind:          (static pubdef) (data)
+  Name:  _uvdefs
+    address      = 0002:0000F164
+    module index = 64
+    kind:          (static pubdef) (data)
+  Name:  _gEnvScreenSizeData
+    address      = 0002:0000F650
+    module index = 64
+    kind:          (static pubdef) (data)
+  Name:  _gEnvDetailScales
+    address      = 0002:0000F668
+    module index = 64
+    kind:          (static pubdef) (data)
+  Name:  _gDraw_LightLvl
+    address      = 0002:00048760
+    module index = 64
+    kind:          (data)
+  Name:  _gLoop
+    address      = 0002:00048764
+    module index = 64
+    kind:          (data)
+  Name:  _gClipx0
+    address      = 0002:00048768
+    module index = 64
+    kind:          (data)
+  Name:  _gClipx1
+    address      = 0002:0004876C
+    module index = 64
+    kind:          (data)
+  Name:  _gNdc
+    address      = 0002:00048770
+    module index = 64
+    kind:          (data)
+  Name:  _gClipy0
+    address      = 0002:00048774
+    module index = 64
+    kind:          (data)
+  Name:  _gClipy1
+    address      = 0002:00048778
+    module index = 64
+    kind:          (data)
+  Name:  _gxscale
+    address      = 0002:0004877C
+    module index = 64
+    kind:          (data)
+  Name:  _gyscale
+    address      = 0002:0004877D
+    module index = 64
+    kind:          (data)

@@ -1,0 +1,12 @@
+  Name:  stricmp_
+    address      = 0001:00085361
+    module index = 159
+    kind:          (code)
+  Name:  _stricmp_
+    address      = 0001:00085361
+    module index = 159
+    kind:          (code)
+  Name:  strcmpi_
+    address      = 0001:00085361
+    module index = 159
+    kind:          (code)

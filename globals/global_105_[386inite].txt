@@ -1,0 +1,8 @@
+  Name:  __fini_387_emulator
+    address      = 0001:0007FE3D
+    module index = 105
+    kind:          (code)
+  Name:  __init_387_emulator
+    address      = 0001:0007FE3C
+    module index = 105
+    kind:          (code)

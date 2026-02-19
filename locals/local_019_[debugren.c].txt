@@ -1,0 +1,49 @@
+ 19) Name:   C:\nfs2\game\common\debugren.c
+     Language is C
+     Locals: num = 1, offset = 0000005EH
+     Types:  num = 1, offset = 000001FAH
+     Lines:  num = 1, offset = 00000392H
+
+   *** Locals ***
+   ==============
+      Data 0:  offset 0000C770
+        0000: MODULE_386
+          "gTestVertex" addr = 0002:00023564,  type = 48
+        0014: MODULE_386
+          "g2DTestCoord" addr = 0002:0000CC98,  type = 49
+        0029: MODULE_386
+          "gTestCoord" addr = 0002:0000CC68,  type = 53
+        003C: MODULE_386
+          "gTestFacet" addr = 0002:000235E4,  type = 72
+        004F: SET_BASE_386
+          base = 0001:00028EA2
+        0057: NEAR_RTN_386
+          start off = 00000000, code size = 000000D4, parent off = 0000
+          prologue size = 11,  epilogue size = 6
+          return address offset (from bp) = 0000000C
+          return type:  86
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Parm 3: MULTI_REG(1): ECX
+          Name = "Debugren_TestFacet"
+        0086: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "Vi",  type = 83
+        008D: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "head",  type = 85
+        0096: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "tail",  type = 85
+        009F: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "lenght",  type = 9
+        00AA: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "f",  type = 87
+        00B0: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "result",  type = 90
+

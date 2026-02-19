@@ -1,0 +1,60 @@
+  Name:  nfs2GetFirstBlock_
+    address      = 0001:0005C822
+    module index = 73
+    kind:          (static pubdef) (code)
+  Name:  nfs2getnummemblocks_
+    address      = 0001:0005C84C
+    module index = 73
+    kind:          (static pubdef) (code)
+  Name:  DoMemSizeDisplay_
+    address      = 0001:0005C890
+    module index = 73
+    kind:          (static pubdef) (code)
+  Name:  nfs2GetModData_
+    address      = 0001:0005C92C
+    module index = 73
+    kind:          (static pubdef) (code)
+  Name:  DoBlocSizeDisplay_
+    address      = 0001:0005CA69
+    module index = 73
+    kind:          (code)
+  Name:  DoListBlocSizeDisplay_
+    address      = 0001:0005CAFF
+    module index = 73
+    kind:          (code)
+  Name:  nfs2mem_Check_
+    address      = 0001:0005CB75
+    module index = 73
+    kind:          (code)
+  Name:  nfs2memAllocationcallback_
+    address      = 0001:0005CB8F
+    module index = 73
+    kind:          (code)
+  Name:  nfs2memDeAllocationcallback_
+    address      = 0001:0005CBBA
+    module index = 73
+    kind:          (code)
+  Name:  nfs2memFindmemcallback_
+    address      = 0001:0005CBE7
+    module index = 73
+    kind:          (code)
+  Name:  nfs2memInstallcallback_
+    address      = 0001:0005CC06
+    module index = 73
+    kind:          (code)
+  Name:  nfs2MemDspFmt_
+    address      = 0001:0005CC2F
+    module index = 73
+    kind:          (static pubdef) (code)
+  Name:  nfs2CalcMemFigures_
+    address      = 0001:0005CC60
+    module index = 73
+    kind:          (static pubdef) (code)
+  Name:  nfs2DrawMemMap_
+    address      = 0001:0005CD1E
+    module index = 73
+    kind:          (code)
+  Name:  nfs2memsizedisplay_
+    address      = 0001:0005CE67
+    module index = 73
+    kind:          (code)

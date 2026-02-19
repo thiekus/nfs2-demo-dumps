@@ -1,0 +1,24 @@
+  Name:  _resizememadra
+    address      = 0001:000853D0
+    module index = 161
+    kind:          (code)
+  Name:  _resizememadr
+    address      = 0001:000853F4
+    module index = 161
+    kind:          (code)
+  Name:  _resizememadrz
+    address      = 0001:00085414
+    module index = 161
+    kind:          (code)
+  Name:  _resizememblock
+    address      = 0001:00085434
+    module index = 161
+    kind:          (code)
+  Name:  _resizememblockz
+    address      = 0001:0008544C
+    module index = 161
+    kind:          (code)
+  Name:  _resizememblocka
+    address      = 0001:00085464
+    module index = 161
+    kind:          (code)

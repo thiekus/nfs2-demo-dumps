@@ -1,0 +1,32 @@
+  Name:  _inaudioserver
+    address      = 0002:00013F44
+    module index = 279
+    kind:          (data)
+  Name:  _currenttimerhz
+    address      = 0002:00013F48
+    module index = 279
+    kind:          (static pubdef) (data)
+  Name:  _servicesskipped
+    address      = 0002:00013F4C
+    module index = 279
+    kind:          (static pubdef) (data)
+  Name:  iSNDserver_
+    address      = 0001:000A0E50
+    module index = 279
+    kind:          (code)
+  Name:  iSND100hzserver_
+    address      = 0001:000A0F40
+    module index = 279
+    kind:          (code)
+  Name:  iSNDenteraudio_
+    address      = 0001:000A1100
+    module index = 279
+    kind:          (code)
+  Name:  iSNDleaveaudio_
+    address      = 0001:000A111C
+    module index = 279
+    kind:          (code)
+  Name:  _incriticalaudio
+    address      = 0002:00013F50
+    module index = 279
+    kind:          (data)

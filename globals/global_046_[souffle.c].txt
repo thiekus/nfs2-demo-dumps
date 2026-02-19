@@ -1,0 +1,52 @@
+  Name:  GetGustWind_
+    address      = 0001:000449C6
+    module index = 46
+    kind:          (code)
+  Name:  GetAngleWind_
+    address      = 0001:00044A1E
+    module index = 46
+    kind:          (code)
+  Name:  MoveAngleWind_
+    address      = 0001:00044A58
+    module index = 46
+    kind:          (code)
+  Name:  Souffle_Add_
+    address      = 0001:00044A9E
+    module index = 46
+    kind:          (code)
+  Name:  Souffle_DoSouffle_
+    address      = 0001:00044C24
+    module index = 46
+    kind:          (code)
+  Name:  Souffle_InsertFacet_
+    address      = 0001:00044DEC
+    module index = 46
+    kind:          (code)
+  Name:  Souffle_InitTrackSouffle_
+    address      = 0001:00044E91
+    module index = 46
+    kind:          (code)
+  Name:  Souffle_RestartTrackSouffle_
+    address      = 0001:00044EC4
+    module index = 46
+    kind:          (code)
+  Name:  Souffle_KillTrackSouffle_
+    address      = 0001:00044EE3
+    module index = 46
+    kind:          (code)
+  Name:  _gWindDir
+    address      = 0002:000449E0
+    module index = 46
+    kind:          (data)
+  Name:  _gCISouffle
+    address      = 0002:000449E4
+    module index = 46
+    kind:          (data)
+  Name:  _gISouffle
+    address      = 0002:000449E8
+    module index = 46
+    kind:          (data)
+  Name:  _gTMoveSouffle
+    address      = 0002:00045B7C
+    module index = 46
+    kind:          (data)

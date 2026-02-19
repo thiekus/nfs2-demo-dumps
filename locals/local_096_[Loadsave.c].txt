@@ -1,0 +1,185 @@
+ 96) Name:   C:\nfs2\frontend\common\Loadsave.c
+     Language is C
+     Locals: num = 1, offset = 00000192H
+     Types:  num = 1, offset = 0000032EH
+     Lines:  num = 1, offset = 000004B2H
+
+   *** Locals ***
+   ==============
+      Data 0:  offset 000260D7
+        0000: MODULE_386
+          "list" addr = 0002:00050794,  type = 64
+        000D: SET_BASE_386
+          base = 0001:00077BD0
+        0015: NEAR_RTN_386
+          start off = 00000000, code size = 00000075, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  65
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "SaveGame"
+        0034: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "filename",  type = 13
+        0041: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "buffer",  type = 13
+        004C: NEAR_RTN_386
+          start off = 00000075, code size = 00000089, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  123
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Name = "LSCopyFrontEndData"
+        0077: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "to",  type = 122
+        007E: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "from",  type = 122
+        0087: NEAR_RTN_386
+          start off = 000000FE, code size = 00000160, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  124
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Name = "LoadGame"
+        00A7: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "filename",  type = 13
+        00B4: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "result",  type = 9
+        00BF: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "buffer",  type = 13
+        00CA: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "k",  type = 7
+        00D0: LOCAL
+          address: BP_OFFSET_BYTE( D4 )
+          name = "TournPoints",  type = 125
+        00E0: LOCAL
+          address: BP_OFFSET_BYTE( BC )
+          name = "TournOrder",  type = 126
+        00EF: NEAR_RTN_386
+          start off = 0000025E, code size = 00000087, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  65
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "SaveReplay"
+        0110: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "filename",  type = 13
+        011D: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "buffer",  type = 13
+        0128: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "result",  type = 9
+        0133: NEAR_RTN_386
+          start off = 000002E5, code size = 000000A8, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  65
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "LoadReplay"
+        0154: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "filename",  type = 13
+        0161: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "buffer",  type = 13
+        016C: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "result",  type = 9
+        0177: NEAR_RTN_386
+          start off = 0000038D, code size = 00000168, parent off = 0000
+          prologue size = 12,  epilogue size = 7
+          return address offset (from bp) = 00000010
+          return type:  130
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Name = "BuildList"
+        019D: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "mask",  type = 13
+        01A6: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "nameList",  type = 129
+        01B4: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "first",  type = 13
+        01BE: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "i",  type = 9
+        01C4: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "fileName",  type = 13
+        01D1: LOCAL
+          address: BP_OFFSET_BYTE( 98 )
+          name = "pathSave",  type = 131
+        01DF: NEAR_RTN_386
+          start off = 000004F5, code size = 000000AD, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  23
+          return value: <none>
+          Name = "LoadSave_SaveReplay"
+        0207: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "string",  type = 132
+        0213: LOCAL
+          address: BP_OFFSET_BYTE( A4 )
+          name = "fname",  type = 133
+        021E: NEAR_RTN_386
+          start off = 000005A2, code size = 00000547, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  145
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Name = "LoadSave_LoadSave"
+        0248: LOCAL
+          address: BP_OFFSET_BYTE( E0 )
+          name = "menu",  type = 144
+        0252: LOCAL
+          address: BP_OFFSET_BYTE( DC )
+          name = "result",  type = 9
+        025D: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "result2",  type = 9
+        0269: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "choice",  type = 9
+        0274: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "update",  type = 7
+        027F: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "keyVal",  type = 7
+        028A: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "ticksDebounce",  type = 16
+        029C: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "ticksTotal",  type = 16
+        02AB: LOCAL
+          address: BP_OFFSET_BYTE( A8 )
+          name = "string",  type = 146
+        02B7: LOCAL
+          address: BP_OFFSET_WORD( 0074 )
+          name = "filename",  type = 147
+        02C6: LOCAL
+          address: BP_OFFSET_WORD( 00A8 )
+          name = "nameList",  type = 149
+

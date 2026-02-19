@@ -1,0 +1,52 @@
+  Name:  mulu64_
+    address      = 0001:000A2200
+    module index = 291
+    kind:          (code)
+  Name:  mul64_
+    address      = 0001:000A2288
+    module index = 291
+    kind:          (code)
+  Name:  divu64_
+    address      = 0001:000A2304
+    module index = 291
+    kind:          (code)
+  Name:  div64_
+    address      = 0001:000A2340
+    module index = 291
+    kind:          (code)
+  Name:  modu64_
+    address      = 0001:000A23D8
+    module index = 291
+    kind:          (code)
+  Name:  mod64_
+    address      = 0001:000A2498
+    module index = 291
+    kind:          (code)
+  Name:  add64_
+    address      = 0001:000A2558
+    module index = 291
+    kind:          (code)
+  Name:  lsl64_
+    address      = 0001:000A2598
+    module index = 291
+    kind:          (code)
+  Name:  lsr64_
+    address      = 0001:000A25FC
+    module index = 291
+    kind:          (code)
+  Name:  asr64_
+    address      = 0001:000A2664
+    module index = 291
+    kind:          (code)
+  Name:  neg64_
+    address      = 0001:000A26CC
+    module index = 291
+    kind:          (code)
+  Name:  make64_
+    address      = 0001:000A2718
+    module index = 291
+    kind:          (code)
+  Name:  divmod_
+    address      = 0001:000A2778
+    module index = 291
+    kind:          (code)

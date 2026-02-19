@@ -1,0 +1,12 @@
+  Name:  __allocfp_
+    address      = 0001:000B052A
+    module index = 346
+    kind:          (code)
+  Name:  __freefp_
+    address      = 0001:000B05E2
+    module index = 346
+    kind:          (code)
+  Name:  __purgefp_
+    address      = 0001:000B061B
+    module index = 346
+    kind:          (code)

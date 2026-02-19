@@ -1,0 +1,64 @@
+  Name:  _SignalTable
+    address      = 0002:00016EE4
+    module index = 429
+    kind:          (data)
+  Name:  _CtrlSignalHandler
+    address      = 0001:000BB993
+    module index = 429
+    kind:          (static pubdef) (code)
+  Name:  CtrlHandlerIsNeeded_
+    address      = 0001:000BB9EC
+    module index = 429
+    kind:          (static pubdef) (code)
+  Name:  StartCtrlHandler_
+    address      = 0001:000BBA2B
+    module index = 429
+    kind:          (static pubdef) (code)
+  Name:  KillCtrlHandler_
+    address      = 0001:000BBA57
+    module index = 429
+    kind:          (static pubdef) (code)
+  Name:  __sigabort_
+    address      = 0001:000BBA8E
+    module index = 429
+    kind:          (code)
+  Name:  raise_
+    address      = 0001:000BBA93
+    module index = 429
+    kind:          (code)
+  Name:  __sigfpe_handler_
+    address      = 0001:000BBACC
+    module index = 429
+    kind:          (code)
+  Name:  signal_
+    address      = 0001:000BBB13
+    module index = 429
+    kind:          (code)
+  Name:  __SigInit_
+    address      = 0001:000BBBF8
+    module index = 429
+    kind:          (code)
+  Name:  __SigFini_
+    address      = 0001:000BBC25
+    module index = 429
+    kind:          (code)
+  Name:  ___ExceptionFilter
+    address      = 0001:000BBC43
+    module index = 429
+    kind:          (code)
+  Name:  __NewExceptionHandler_
+    address      = 0001:000BBFF6
+    module index = 429
+    kind:          (code)
+  Name:  __DoneExceptionHandler_
+    address      = 0001:000BC034
+    module index = 429
+    kind:          (code)
+  Name:  _CtrlHandlerRunning
+    address      = 0002:00016F4C
+    module index = 429
+    kind:          (static pubdef) (data)
+  Name:  ___ExceptionHandled
+    address      = 0002:0006A894
+    module index = 429
+    kind:          (data)

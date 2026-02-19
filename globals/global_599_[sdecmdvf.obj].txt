@@ -1,0 +1,4 @@
+  Name:  _decodemdvif
+    address      = 0001:000C86F0
+    module index = 599
+    kind:          (code)

@@ -1,0 +1,4 @@
+  Name:  fputc_
+    address      = 0001:000B09A7
+    module index = 353
+    kind:          (code)

@@ -1,0 +1,36 @@
+  Name:  Platform_AllocateTm_
+    address      = 0001:0005D763
+    module index = 75
+    kind:          (code)
+  Name:  Platform_FreeTm_
+    address      = 0001:0005D7B5
+    module index = 75
+    kind:          (code)
+  Name:  Platform_FreeMPause_
+    address      = 0001:0005D7DB
+    module index = 75
+    kind:          (code)
+  Name:  Platform_ReAllocateMPause_
+    address      = 0001:0005D7F0
+    module index = 75
+    kind:          (code)
+  Name:  Platform_SysStartUp_
+    address      = 0001:0005D805
+    module index = 75
+    kind:          (code)
+  Name:  Platform_SysCleanUp_
+    address      = 0001:0005D8F2
+    module index = 75
+    kind:          (code)
+  Name:  Platform_DebuggerPollHost_
+    address      = 0001:0005D938
+    module index = 75
+    kind:          (code)
+  Name:  Platform_VerifyCD_
+    address      = 0001:0005D94D
+    module index = 75
+    kind:          (code)
+  Name:  _Input_Thread
+    address      = 0002:0004EF28
+    module index = 75
+    kind:          (data)

@@ -1,0 +1,4 @@
+  Name:  __CHP
+    address      = 0001:0007FE1E
+    module index = 104
+    kind:          (code)

@@ -1,0 +1,4 @@
+  Name:  _setclipwindow
+    address      = 0001:000C0810
+    module index = 495
+    kind:          (code)

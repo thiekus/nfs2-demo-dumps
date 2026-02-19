@@ -1,0 +1,56 @@
+  Name:  alignedblockmove_
+    address      = 0001:0009CC50
+    module index = 246
+    kind:          (static pubdef) (code)
+  Name:  blockread_
+    address      = 0001:0009CD60
+    module index = 246
+    kind:          (static pubdef) (code)
+  Name:  readmove4_
+    address      = 0001:0009CDA8
+    module index = 246
+    kind:          (static pubdef) (code)
+  Name:  readmove8_
+    address      = 0001:0009CDB8
+    module index = 246
+    kind:          (static pubdef) (code)
+  Name:  readmove16_
+    address      = 0001:0009CDC8
+    module index = 246
+    kind:          (static pubdef) (code)
+  Name:  readmove24_
+    address      = 0001:0009CDD8
+    module index = 246
+    kind:          (static pubdef) (code)
+  Name:  readmove32_
+    address      = 0001:0009CDF4
+    module index = 246
+    kind:          (static pubdef) (code)
+  Name:  _readfxya
+    address      = 0001:0009CE08
+    module index = 246
+    kind:          (code)
+  Name:  _readf
+    address      = 0001:0009CE38
+    module index = 246
+    kind:          (code)
+  Name:  _readfxy
+    address      = 0001:0009CE74
+    module index = 246
+    kind:          (code)
+  Name:  _readcfxya
+    address      = 0001:0009CEBC
+    module index = 246
+    kind:          (code)
+  Name:  _readcf
+    address      = 0001:0009CEF4
+    module index = 246
+    kind:          (code)
+  Name:  _readcfxy
+    address      = 0001:0009CF30
+    module index = 246
+    kind:          (code)
+  Name:  _readfdfl
+    address      = 0002:00013BB0
+    module index = 246
+    kind:          (static pubdef) (data)

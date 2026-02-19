@@ -1,0 +1,32 @@
+  Name:  aatext4_
+    address      = 0001:000B1FF0
+    module index = 368
+    kind:          (code)
+  Name:  fortext4_
+    address      = 0001:000B24B4
+    module index = 368
+    kind:          (code)
+  Name:  fortext1_
+    address      = 0001:000B25B0
+    module index = 368
+    kind:          (code)
+  Name:  pctextcolourtable_
+    address      = 0001:000B27AC
+    module index = 368
+    kind:          (static pubdef) (code)
+  Name:  pctexttable_
+    address      = 0001:000B299C
+    module index = 368
+    kind:          (static pubdef) (code)
+  Name:  inittextdraw_
+    address      = 0001:000B2A94
+    module index = 368
+    kind:          (code)
+  Name:  updatetextdraw_
+    address      = 0001:000B2AF0
+    module index = 368
+    kind:          (code)
+  Name:  restoretextdraw_
+    address      = 0001:000B2B50
+    module index = 368
+    kind:          (code)

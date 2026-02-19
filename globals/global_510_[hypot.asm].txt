@@ -1,0 +1,4 @@
+  Name:  _inthypot
+    address      = 0001:000C1AD0
+    module index = 510
+    kind:          (code)

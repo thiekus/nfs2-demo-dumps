@@ -1,0 +1,152 @@
+  Name:  nullSema4Rtn_
+    address      = 0001:000BC252
+    module index = 431
+    kind:          (static pubdef) (code)
+  Name:  __CloseSemaphore_
+    address      = 0001:000BC253
+    module index = 431
+    kind:          (code)
+  Name:  __AccessIOB_
+    address      = 0001:000BC27F
+    module index = 431
+    kind:          (code)
+  Name:  __ReleaseIOB_
+    address      = 0001:000BC289
+    module index = 431
+    kind:          (code)
+  Name:  __AccessFileH_
+    address      = 0001:000BC293
+    module index = 431
+    kind:          (code)
+  Name:  __ReleaseFileH_
+    address      = 0001:000BC2A0
+    module index = 431
+    kind:          (code)
+  Name:  __InitAccessH_
+    address      = 0001:000BC2B0
+    module index = 431
+    kind:          (code)
+  Name:  __FiniAccessH_
+    address      = 0001:000BC2B5
+    module index = 431
+    kind:          (code)
+  Name:  __AccessNHeap_
+    address      = 0001:000BC2D1
+    module index = 431
+    kind:          (code)
+  Name:  __ReleaseNHeap_
+    address      = 0001:000BC2D8
+    module index = 431
+    kind:          (code)
+  Name:  __AccessFHeap_
+    address      = 0001:000BC2E2
+    module index = 431
+    kind:          (code)
+  Name:  __ReleaseFHeap_
+    address      = 0001:000BC2E9
+    module index = 431
+    kind:          (code)
+  Name:  __AccessTDList_
+    address      = 0001:000BC2F3
+    module index = 431
+    kind:          (code)
+  Name:  __ReleaseTDList_
+    address      = 0001:000BC2FA
+    module index = 431
+    kind:          (code)
+  Name:  __AccessFList_
+    address      = 0001:000BC301
+    module index = 431
+    kind:          (code)
+  Name:  __AccessSemaphore_
+    address      = 0001:000BC306
+    module index = 431
+    kind:          (code)
+  Name:  __ReleaseFList_
+    address      = 0001:000BC363
+    module index = 431
+    kind:          (code)
+  Name:  __ReleaseSemaphore_
+    address      = 0001:000BC368
+    module index = 431
+    kind:          (code)
+  Name:  __MultipleThread_
+    address      = 0001:000BC38D
+    module index = 431
+    kind:          (code)
+  Name:  __InitThreadData_
+    address      = 0001:000BC3AD
+    module index = 431
+    kind:          (code)
+  Name:  __NTThreadInit_
+    address      = 0001:000BC3EC
+    module index = 431
+    kind:          (code)
+  Name:  __NTAddThread_
+    address      = 0001:000BC438
+    module index = 431
+    kind:          (code)
+  Name:  __NTRemoveThread_
+    address      = 0001:000BC485
+    module index = 431
+    kind:          (code)
+  Name:  __ThreadExit_
+    address      = 0001:000BC4D2
+    module index = 431
+    kind:          (static pubdef) (code)
+  Name:  __NTThreadFini_
+    address      = 0001:000BC4DC
+    module index = 431
+    kind:          (code)
+  Name:  __InitMultipleThread_
+    address      = 0001:000BC4FC
+    module index = 431
+    kind:          (code)
+  Name:  __FiniSema4s_
+    address      = 0001:000BC615
+    module index = 431
+    kind:          (static pubdef) (code)
+  Name:  ___AccessSema4
+    address      = 0002:00016F54
+    module index = 431
+    kind:          (data)
+  Name:  ___ReleaseSema4
+    address      = 0002:00016F58
+    module index = 431
+    kind:          (data)
+  Name:  ___CloseSema4
+    address      = 0002:00016F5C
+    module index = 431
+    kind:          (data)
+  Name:  _IOBSemaphore
+    address      = 0002:0006A8A0
+    module index = 431
+    kind:          (static pubdef) (data)
+  Name:  _FHeapSemaphore
+    address      = 0002:0006A8B0
+    module index = 431
+    kind:          (static pubdef) (data)
+  Name:  _FileSemaphores
+    address      = 0002:0006A8C0
+    module index = 431
+    kind:          (static pubdef) (data)
+  Name:  _NHeapSemaphore
+    address      = 0002:0006A9C0
+    module index = 431
+    kind:          (static pubdef) (data)
+  Name:  _InitSemaphore
+    address      = 0002:0006A9D0
+    module index = 431
+    kind:          (static pubdef) (data)
+  Name:  _TDListSemaphore
+    address      = 0002:0006A9E0
+    module index = 431
+    kind:          (static pubdef) (data)
+  Name:  _FListSemaphore
+    address      = 0002:0006A9F0
+    module index = 431
+    kind:          (static pubdef) (data)
+  Name:  ___AccessSema4Fini
+    address      = 0002:00018DDE
+    module index = 431
+    kind:          (data)

@@ -1,0 +1,16 @@
+  Name:  depthopmover_
+    address      = 0001:000B18E0
+    module index = 365
+    kind:          (static pubdef) (code)
+  Name:  movdfl_
+    address      = 0001:000B190C
+    module index = 365
+    kind:          (code)
+  Name:  _opmover
+    address      = 0002:00065F5C
+    module index = 365
+    kind:          (static pubdef) (data)
+  Name:  _depthmover
+    address      = 0002:00065F60
+    module index = 365
+    kind:          (static pubdef) (data)

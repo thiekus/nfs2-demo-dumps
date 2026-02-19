@@ -1,0 +1,20 @@
+  Name:  __save_8087_
+    address      = 0001:0009FFED
+    module index = 263
+    kind:          (static pubdef) (code)
+  Name:  __rest_8087_
+    address      = 0001:0009FFF2
+    module index = 263
+    kind:          (static pubdef) (code)
+  Name:  __init_8087_
+    address      = 0001:0009FFF6
+    module index = 263
+    kind:          (code)
+  Name:  _fpreset_
+    address      = 0001:000A0027
+    module index = 263
+    kind:          (code)
+  Name:  __chk8087_
+    address      = 0001:000A0031
+    module index = 263
+    kind:          (code)

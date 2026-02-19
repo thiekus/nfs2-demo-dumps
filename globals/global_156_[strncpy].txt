@@ -1,0 +1,4 @@
+  Name:  strncpy_
+    address      = 0001:000851DB
+    module index = 156
+    kind:          (code)

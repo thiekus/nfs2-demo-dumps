@@ -1,0 +1,64 @@
+  Name:  _packetlayer_capture
+    address      = 0002:00013570
+    module index = 176
+    kind:          (data)
+  Name:  _packetlayer_timeout
+    address      = 0002:00013574
+    module index = 176
+    kind:          (data)
+  Name:  _default_recvfunc
+    address      = 0001:00087950
+    module index = 176
+    kind:          (code)
+  Name:  _default_connfunc
+    address      = 0001:00087950
+    module index = 176
+    kind:          (code)
+  Name:  packetlayerexit_
+    address      = 0001:00087954
+    module index = 176
+    kind:          (static pubdef) (code)
+  Name:  _connecttimer_qfunc
+    address      = 0001:00087984
+    module index = 176
+    kind:          (static pubdef) (code)
+  Name:  connectiontimerfunc_
+    address      = 0001:000879A0
+    module index = 176
+    kind:          (static pubdef) (code)
+  Name:  _openpacketconnection
+    address      = 0001:000879BC
+    module index = 176
+    kind:          (code)
+  Name:  _initpacketlayer
+    address      = 0001:00087AA0
+    module index = 176
+    kind:          (code)
+  Name:  _restorepacketlayer
+    address      = 0001:00087AE8
+    module index = 176
+    kind:          (code)
+  Name:  _sendpacket
+    address      = 0001:00087B30
+    module index = 176
+    kind:          (code)
+  Name:  _closepacketconnection
+    address      = 0001:00087B54
+    module index = 176
+    kind:          (code)
+  Name:  _connectflag
+    address      = 0002:00013578
+    module index = 176
+    kind:          (static pubdef) (data)
+  Name:  _numtimerconns
+    address      = 0002:0001357C
+    module index = 176
+    kind:          (static pubdef) (data)
+  Name:  _closedconnlist
+    address      = 0002:00051300
+    module index = 176
+    kind:          (data)
+  Name:  _connectionlist
+    address      = 0002:0005131C
+    module index = 176
+    kind:          (data)

@@ -1,0 +1,140 @@
+ 16) Name:   C:\nfs2\game\common\colrdr.c
+     Language is C
+     Locals: num = 1, offset = 00000052H
+     Types:  num = 1, offset = 000001EEH
+     Lines:  num = 1, offset = 00000386H
+
+    *** Types ***
+    =============
+      Data 0:  offset 0004197C
+        0000: cue table offset=0000023F
+        0006: SCOPE(1)
+          "struct"
+        000E: SCOPE(2)
+          "union"
+        0015: SCOPE(3)
+          "enum"
+        001B: SCALAR(4)
+          "char"  scalar type = 10, unsigned
+        0022: SCALAR(5)
+          "signed char"  scalar type = 00, integer
+        0030: SCALAR(6)
+          "unsigned char"  scalar type = 10, unsigned
+        0040: SCALAR(7)
+          "short"  scalar type = 01, integer
+        0048: SCALAR(8)
+          "unsigned short"  scalar type = 11, unsigned
+        0059: SCALAR(9)
+          "int"  scalar type = 03, integer
+        005F: SCALAR(10)
+          "unsigned int"  scalar type = 13, unsigned
+        006E: NAME(11)
+          "wchar_t"  type idx = 8  scope idx = 0
+        0079: NAME(12)
+          "size_t"  type idx = 10  scope idx = 0
+        0083: NEAR386 PTR(13)
+          base type idx = 4
+        0086: BYTE_INDEX ARRAY(14)
+          high bound = 00   base type idx = 13
+        008A: NAME(15)
+          "__va_list"  type idx = 14  scope idx = 0
+        0097: SCALAR(16)
+          "long"  scalar type = 03, integer
+        009E: NAME(17)
+          "fpos_t"  type idx = 16  scope idx = 0
+        00A8: NAME(18)
+          "fpos_t"  type idx = 16  scope idx = 0
+        00B2: NAME(19)
+          "MEMBLOCK"  type idx = 13  scope idx = 0
+        00BE: SCALAR(20)
+          "void"  scalar type = 30, void
+        00C5: NEAR386 PROC(21)
+          return type = 20
+            param 1:  type idx = 20
+        00CA: NEAR386 PTR(22)
+          base type idx = 21
+        00CD: NAME(23)
+          "VOIDFN"  type idx = 22  scope idx = 0
+        00D7: NEAR386 PROC(24)
+          return type = 20
+            param 1:  type idx = 20
+        00DC: NAME(25)
+          "THREADPROC"  type idx = 24  scope idx = 0
+        00EA: NEAR386 PROC(26)
+          return type = 9
+            param 1:  type idx = 9
+            param 2:  type idx = 9
+        00F0: NAME(27)
+          "SYSTEMTASK"  type idx = 26  scope idx = 0
+        00FE: NAME(28)
+          "SDWORD"  type idx = 16  scope idx = 0
+        0108: SCALAR(29)
+          "unsigned long"  scalar type = 13, unsigned
+        0118: NAME(30)
+          "DWORD"  type idx = 29  scope idx = 0
+        0121: NAME(31)
+          "WORD"  type idx = 8  scope idx = 0
+        0129: NAME(32)
+          "SWORD"  type idx = 7  scope idx = 0
+        0132: NAME(33)
+          "SBYTE"  type idx = 5  scope idx = 0
+        013B: NAME(34)
+          "UBYTE"  type idx = 6  scope idx = 0
+        0144: NAME(35)
+          "BOOL"  type idx = 9  scope idx = 0
+        014C: NAME(36)
+          "Stm_Chunk"  type idx = 20  scope idx = 0
+        0159: NEAR386 PTR(37)
+          base type idx = 36
+        015C: NAME(38)
+          "lpStm_Chunk"  type idx = 37  scope idx = 0
+        016B: FIELD_LIST(39)
+          number of fields = 0004   size = 00000010
+        0173: FIELD_BYTE
+          "numCollections"  offset = 0C  type idx = 30
+        0185: FIELD_BYTE
+          "size"  offset = 08  type idx = 30
+        018D: FIELD_BYTE
+          "version"  offset = 04  type idx = 30
+        0198: FIELD_BYTE
+          "fileType"  offset = 00  type idx = 30
+        01A4: NAME(40)
+          "Col_FileHeader"  type idx = 39  scope idx = 1
+        01B6: NAME(41)
+          "Col_FileHeader"  type idx = 40  scope idx = 0
+        01C8: NEAR386 PROC(42)
+          return type = 9
+            param 1:  type idx = 13
+        01CD: NEAR386 PROC(43)
+          return type = 20
+            param 1:  type idx = 9
+        01D2: NEAR386 PROC(44)
+          return type = 9
+            param 1:  type idx = 9
+        01D7: NEAR386 PTR(45)
+          base type idx = 20
+        01DA: NEAR386 PROC(46)
+          return type = 35
+            param 1:  type idx = 9
+            param 2:  type idx = 45
+        01E0: FIELD_LIST(47)
+          number of fields = 0003   size = 00000008
+        01E8: FIELD_BYTE
+          "itemCount"  offset = 06  type idx = 31
+        01F5: FIELD_BYTE
+          "type"  offset = 04  type idx = 31
+        01FD: FIELD_BYTE
+          "size"  offset = 00  type idx = 30
+        0205: NAME(48)
+          "Stm_ItemCollection"  type idx = 47  scope idx = 1
+        021B: NAME(49)
+          "Stm_ItemCollection"  type idx = 48  scope idx = 0
+        0231: NEAR386 PTR(50)
+          base type idx = 49
+        0234: NEAR386 PROC(51)
+          return type = 50
+            param 1:  type idx = 45
+            param 2:  type idx = 9
+        023A: NEAR386 PTR(52)
+          base type idx = 16
+        023D: 

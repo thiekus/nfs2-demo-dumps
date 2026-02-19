@@ -1,0 +1,144 @@
+  Name:  Statdisp_ShowRaceSummary_
+    address      = 0001:0006BACD
+    module index = 90
+    kind:          (code)
+  Name:  Statdisp_ShowLapTimes_
+    address      = 0001:0006CAA6
+    module index = 90
+    kind:          (code)
+  Name:  Statdisp_ShowTournamentStandings_
+    address      = 0001:0006DD60
+    module index = 90
+    kind:          (code)
+  Name:  Statdisp_ShowTournamentSummary_
+    address      = 0001:0006E293
+    module index = 90
+    kind:          (code)
+  Name:  Statdisp_ShowKnockoutStandings_
+    address      = 0001:0006E8F6
+    module index = 90
+    kind:          (code)
+  Name:  StatDisp_CommKOProgression_
+    address      = 0001:0006F2DD
+    module index = 90
+    kind:          (static pubdef) (code)
+  Name:  Statdisp_ShowKnockoutSummary_
+    address      = 0001:0006F6BB
+    module index = 90
+    kind:          (code)
+  Name:  BuildBasicBackground_
+    address      = 0001:0006FDB0
+    module index = 90
+    kind:          (code)
+  Name:  HumanOpponentName_
+    address      = 0001:0006FDF6
+    module index = 90
+    kind:          (code)
+  Name:  AIOpponentName_
+    address      = 0001:0006FE43
+    module index = 90
+    kind:          (code)
+  Name:  OpponentCarName_
+    address      = 0001:0006FEA5
+    module index = 90
+    kind:          (code)
+  Name:  OpponentPlace_
+    address      = 0001:0006FF10
+    module index = 90
+    kind:          (code)
+  Name:  OpponentFatalCrashes_
+    address      = 0001:0006FF59
+    module index = 90
+    kind:          (code)
+  Name:  ShowTrackName_
+    address      = 0001:0006FFE5
+    module index = 90
+    kind:          (code)
+  Name:  FindTopSpeed_
+    address      = 0001:0007002C
+    module index = 90
+    kind:          (code)
+  Name:  BuildRankColumn_
+    address      = 0001:000701C8
+    module index = 90
+    kind:          (code)
+  Name:  InitRecordCheckFlags_
+    address      = 0001:00070267
+    module index = 90
+    kind:          (code)
+  Name:  FakeTournamentData_
+    address      = 0001:000702BD
+    module index = 90
+    kind:          (code)
+  Name:  SpinBigStatsIcon_
+    address      = 0001:000702D7
+    module index = 90
+    kind:          (code)
+  Name:  BeginStatsDisplay_
+    address      = 0001:0007036B
+    module index = 90
+    kind:          (code)
+  Name:  CheckVictoryScreens_
+    address      = 0001:00070380
+    module index = 90
+    kind:          (code)
+  Name:  EnableDisableRestart_
+    address      = 0001:00070881
+    module index = 90
+    kind:          (code)
+  Name:  EnableDisableReplay_
+    address      = 0001:000708C8
+    module index = 90
+    kind:          (code)
+  Name:  FindBestRankedAICar_
+    address      = 0001:000708E4
+    module index = 90
+    kind:          (code)
+  Name:  FindBestHumanOpponent_
+    address      = 0001:0007093C
+    module index = 90
+    kind:          (code)
+  Name:  KnockoutDisqualifiedSpeech_
+    address      = 0001:000709CA
+    module index = 90
+    kind:          (code)
+  Name:  DoTournamentSort_
+    address      = 0001:00070B3B
+    module index = 90
+    kind:          (code)
+  Name:  _textRace
+    address      = 0002:00011C8C
+    module index = 90
+    kind:          (data)
+  Name:  _textLapTimes
+    address      = 0002:00011CA4
+    module index = 90
+    kind:          (data)
+  Name:  _textTournStand
+    address      = 0002:00011CBC
+    module index = 90
+    kind:          (data)
+  Name:  _textTournSummary
+    address      = 0002:00011CD4
+    module index = 90
+    kind:          (data)
+  Name:  _textKnockStandings
+    address      = 0002:00011CEC
+    module index = 90
+    kind:          (data)
+  Name:  _textKnockSummary
+    address      = 0002:00011D04
+    module index = 90
+    kind:          (data)
+  Name:  _textOmega
+    address      = 0002:00011D1C
+    module index = 90
+    kind:          (data)
+  Name:  _gShowStatsEvenThoPlayerAborted
+    address      = 0002:00011D34
+    module index = 90
+    kind:          (data)
+  Name:  _gEliminatePlayerOneFlag
+    address      = 0002:00011D36
+    module index = 90
+    kind:          (data)

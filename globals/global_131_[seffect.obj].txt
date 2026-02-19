@@ -1,0 +1,8 @@
+  Name:  SNDfxinitbus_
+    address      = 0001:00082F90
+    module index = 131
+    kind:          (code)
+  Name:  SNDfxmasterlevel_
+    address      = 0001:00083034
+    module index = 131
+    kind:          (code)

@@ -1,0 +1,64 @@
+  Name:  _gMenuCom_NoInput
+    address      = 0002:000105F4
+    module index = 84
+    kind:          (data)
+  Name:  MenuCom_Init_
+    address      = 0001:00065467
+    module index = 84
+    kind:          (code)
+  Name:  MenuCom_DeInit_
+    address      = 0001:000654B7
+    module index = 84
+    kind:          (code)
+  Name:  MenuCom_SyncData_
+    address      = 0001:00065524
+    module index = 84
+    kind:          (code)
+  Name:  MenuCom_SendPlayerData_
+    address      = 0001:000657A5
+    module index = 84
+    kind:          (static pubdef) (code)
+  Name:  MenuCom_SendGameData_
+    address      = 0001:0006589E
+    module index = 84
+    kind:          (static pubdef) (code)
+  Name:  MenuCom_ReadyToRace_
+    address      = 0001:0006591D
+    module index = 84
+    kind:          (code)
+  Name:  MenuCom_OffToRaceDataHouseKeeping_
+    address      = 0001:00065BD2
+    module index = 84
+    kind:          (code)
+  Name:  MenuCom_Display_
+    address      = 0001:00065C92
+    module index = 84
+    kind:          (code)
+  Name:  MenuCom_RecvGameData_CALLBACK_
+    address      = 0001:00066050
+    module index = 84
+    kind:          (code)
+  Name:  MenuCom_RecvPlayerData_CALLBACK_
+    address      = 0001:000660CF
+    module index = 84
+    kind:          (code)
+  Name:  _menucom_gamedata_mutex
+    address      = 0002:000105F8
+    module index = 84
+    kind:          (static pubdef) (data)
+  Name:  _gMenuCom_DeleteTourny
+    address      = 0002:000105FC
+    module index = 84
+    kind:          (static pubdef) (data)
+  Name:  _asyncPlayerData
+    address      = 0002:0004FD88
+    module index = 84
+    kind:          (static pubdef) (data)
+  Name:  _localPlayerData
+    address      = 0002:0004FE58
+    module index = 84
+    kind:          (static pubdef) (data)
+  Name:  _asyncGameData
+    address      = 0002:0004FE72
+    module index = 84
+    kind:          (static pubdef) (data)

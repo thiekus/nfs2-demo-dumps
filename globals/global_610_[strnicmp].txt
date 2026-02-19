@@ -1,0 +1,8 @@
+  Name:  strnicmp_
+    address      = 0001:000CA1A6
+    module index = 610
+    kind:          (code)
+  Name:  _strnicmp_
+    address      = 0001:000CA1A6
+    module index = 610
+    kind:          (code)

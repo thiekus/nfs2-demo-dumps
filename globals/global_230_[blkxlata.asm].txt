@@ -1,0 +1,4 @@
+  Name:  _blocktranslate
+    address      = 0001:0009AF0C
+    module index = 230
+    kind:          (code)

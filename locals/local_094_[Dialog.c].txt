@@ -1,0 +1,444 @@
+ 94) Name:   C:\nfs2\frontend\common\Dialog.c
+     Language is C
+     Locals: num = 1, offset = 0000018AH
+     Types:  num = 1, offset = 00000326H
+     Lines:  num = 1, offset = 000004AAH
+
+   *** Locals ***
+   ==============
+      Data 0:  offset 00024DA3
+        0000: MODULE_386
+          "vertCanY" addr = 0002:00012606,  type = 60
+        0011: MODULE_386
+          "dialogTimeOut" addr = 0002:00012602,  type = 9
+        0027: MODULE_386
+          "playerCarOverride" addr = 0002:00012600,  type = 61
+        0041: SET_BASE_386
+          base = 0001:00073F77
+        0049: NEAR_RTN_386
+          start off = 00000000, code size = 0000027C, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  63
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Name = "DrawDialogBox"
+        0070: LOCAL
+          address: BP_OFFSET_BYTE( D4 )
+          name = "argc",  type = 9
+        0079: LOCAL
+          address: BP_OFFSET_BYTE( D8 )
+          name = "argv",  type = 62
+        0082: LOCAL
+          address: BP_OFFSET_BYTE( DC )
+          name = "message",  type = 13
+        008E: LOCAL
+          address: BP_OFFSET_BYTE( E0 )
+          name = "i",  type = 9
+        0094: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "width",  type = 9
+        009E: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "height",  type = 9
+        00A9: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "left",  type = 9
+        00B2: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "top",  type = 9
+        00BA: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "newWidth",  type = 9
+        00C7: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "fillWindow",  type = 72
+        00D6: NEAR_RTN_386
+          start off = 0000027C, code size = 000000AD, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  73
+          return value: <none>
+          Name = "Dialog_MessageString"
+        00FF: LOCAL
+          address: BP_OFFSET_BYTE( 1C )
+          name = "argc",  type = 9
+        0108: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "ticksTotal",  type = 16
+        0117: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "argList",  type = 20
+        0123: LOCAL
+          address: BP_OFFSET_BYTE( CC )
+          name = "argv",  type = 74
+        012C: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "i",  type = 9
+        0132: NEAR_RTN_386
+          start off = 00000329, code size = 000000E6, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  75
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Dialog_Message"
+        0157: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "message",  type = 9
+        0163: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "ticksTotal",  type = 16
+        0172: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "i",  type = 9
+        0178: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "argv",  type = 76
+        0181: NEAR_RTN_386
+          start off = 0000040F, code size = 0000005F, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  77
+          return value: MULTI_REG(1): EAX
+          Name = "Dialog_EnterName"
+        01A7: LOCAL
+          address: BP_OFFSET_BYTE( AC )
+          name = "string",  type = 78
+        01B2: NEAR_RTN_386
+          start off = 0000046E, code size = 000001BB, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  79
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Name = "ValidSimChar"
+        01D6: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "c",  type = 9
+        01DC: NEAR_RTN_386
+          start off = 00000629, code size = 0000009A, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  80
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Name = "IsDefaultName"
+        0201: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "startString",  type = 13
+        0211: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "tempName",  type = 81
+        021E: NEAR_RTN_386
+          start off = 000006C3, code size = 00000427, parent off = 0000
+          prologue size = 11,  epilogue size = 6
+          return address offset (from bp) = 0000000C
+          return type:  82
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Parm 3: MULTI_REG(1): ECX
+          Name = "Dialog_EnterString"
+        024E: LOCAL
+          address: BP_OFFSET_BYTE( CC )
+          name = "startString",  type = 13
+        025E: LOCAL
+          address: BP_OFFSET_BYTE( D0 )
+          name = "headingid",  type = 7
+        026C: LOCAL
+          address: BP_OFFSET_BYTE( D4 )
+          name = "maxLength",  type = 7
+        027A: LOCAL
+          address: BP_OFFSET_BYTE( D8 )
+          name = "isName",  type = 7
+        0285: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "update",  type = 7
+        0290: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "debounced",  type = 7
+        029E: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "keyWillErase",  type = 7
+        02AF: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "timer",  type = 7
+        02B9: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "blink",  type = 7
+        02C3: LOCAL
+          address: BP_OFFSET_BYTE( DC )
+          name = "c",  type = 7
+        02C9: LOCAL
+          address: BP_OFFSET_BYTE( E0 )
+          name = "y",  type = 7
+        02CF: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "letter",  type = 7
+        02DA: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "exit",  type = 7
+        02E3: LOCAL
+          address: BP_OFFSET_BYTE( 88 )
+          name = "string",  type = 83
+        02EE: LOCAL
+          address: BP_OFFSET_WORD( 0054 )
+          name = "tempString",  type = 84
+        02FE: LOCAL
+          address: BP_OFFSET_BYTE( C4 )
+          name = "saveWindow",  type = 72
+        030D: LOCAL
+          address: BP_OFFSET_BYTE( BC )
+          name = "argv",  type = 85
+        0316: NEAR_RTN_386
+          start off = 00000AEA, code size = 000000A1, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  86
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Name = "Dialog_BeginConnect"
+        0343: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "header",  type = 9
+        034E: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "body",  type = 9
+        0357: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "argv",  type = 87
+        0360: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "saveWindow",  type = 72
+        036F: NEAR_RTN_386
+          start off = 00000B8B, code size = 0000005C, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  88
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Name = "Dialog_EndConnect"
+        0399: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "savedWindow",  type = 72
+        03A9: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "msg",  type = 9
+        03B1: NEAR_RTN_386
+          start off = 00000BE7, code size = 00000345, parent off = 0000
+          prologue size = 11,  epilogue size = 8
+          return address offset (from bp) = 0000000C
+          return type:  89
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Parm 3: MULTI_REG(1): ECX
+          Name = "Dialog_EnterNameForRecord"
+        03E8: LOCAL
+          address: BP_OFFSET_BYTE( D0 )
+          name = "startString",  type = 13
+        03F8: LOCAL
+          address: BP_OFFSET_BYTE( C4 )
+          name = "TitleString",  type = 13
+        0408: LOCAL
+          address: BP_OFFSET_BYTE( D4 )
+          name = "maxLength",  type = 7
+        0416: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "isName",  type = 7
+        0421: LOCAL
+          address: BP_OFFSET_BYTE( 10 )
+          name = "player",  type = 4
+        042C: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "update",  type = 7
+        0437: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "debounced",  type = 7
+        0445: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "keyWillErase",  type = 7
+        0456: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "timer",  type = 7
+        0460: LOCAL
+          address: BP_OFFSET_BYTE( DC )
+          name = "blink",  type = 7
+        046A: LOCAL
+          address: BP_OFFSET_BYTE( E0 )
+          name = "c",  type = 7
+        0470: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "y",  type = 7
+        0476: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "letter",  type = 7
+        0481: LOCAL
+          address: BP_OFFSET_BYTE( D8 )
+          name = "exit",  type = 7
+        048A: LOCAL
+          address: BP_OFFSET_BYTE( 88 )
+          name = "string",  type = 90
+        0495: LOCAL
+          address: BP_OFFSET_WORD( 0054 )
+          name = "tempString",  type = 91
+        04A5: LOCAL
+          address: BP_OFFSET_BYTE( C8 )
+          name = "saveWindow",  type = 72
+        04B4: LOCAL
+          address: BP_OFFSET_BYTE( BC )
+          name = "argv",  type = 92
+        04BD: NEAR_RTN_386
+          start off = 00000F2C, code size = 000004FD, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  93
+          return value: MULTI_REG(1): EAX
+          Name = "Dialog_YesNo"
+        04DF: LOCAL
+          address: BP_OFFSET_BYTE( 1C )
+          name = "argc",  type = 9
+        04E8: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "update",  type = 7
+        04F3: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "debounced",  type = 7
+        0501: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "c",  type = 7
+        0507: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "sel",  type = 7
+        050F: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "noexit",  type = 7
+        051A: LOCAL
+          address: BP_OFFSET_BYTE( C4 )
+          name = "yesKeyUC",  type = 94
+        0527: LOCAL
+          address: BP_OFFSET_BYTE( BC )
+          name = "yesKeyLC",  type = 95
+        0534: LOCAL
+          address: BP_OFFSET_BYTE( E0 )
+          name = "saveWindow",  type = 72
+        0543: LOCAL
+          address: BP_OFFSET_BYTE( DC )
+          name = "yesWidth",  type = 9
+        0550: LOCAL
+          address: BP_OFFSET_BYTE( CC )
+          name = "noWidth",  type = 9
+        055C: LOCAL
+          address: BP_OFFSET_BYTE( D0 )
+          name = "argList",  type = 20
+        0568: LOCAL
+          address: BP_OFFSET_BYTE( D4 )
+          name = "argv",  type = 96
+        0571: LOCAL
+          address: BP_OFFSET_BYTE( D8 )
+          name = "i",  type = 9
+        0577: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "y",  type = 9
+        057D: BLOCK_386
+          start off = 00001A0B, code size = 0000003C, parent off = 0594
+        0589: LOCAL
+          address: BP_OFFSET_BYTE( A0 )
+          name = "tmpSel",  type = 7
+        0594: NEAR_RTN_386
+          start off = 00001429, code size = 00000A01, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  97
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Name = "Dialog_SelectList"
+        05BF: LOCAL
+          address: BP_OFFSET_BYTE( A8 )
+          name = "list",  type = 62
+        05C8: LOCAL
+          address: BP_OFFSET_BYTE( D8 )
+          name = "whichType",  type = 7
+        05D6: LOCAL
+          address: BP_OFFSET_BYTE( DC )
+          name = "i",  type = 7
+        05DC: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "x",  type = 7
+        05E2: LOCAL
+          address: BP_OFFSET_BYTE( D0 )
+          name = "y",  type = 7
+        05E8: LOCAL
+          address: BP_OFFSET_BYTE( D4 )
+          name = "sel",  type = 7
+        05F0: LOCAL
+          address: BP_OFFSET_BYTE( CC )
+          name = "offset",  type = 7
+        05FB: LOCAL
+          address: BP_OFFSET_BYTE( C4 )
+          name = "updateScreen",  type = 7
+        060C: LOCAL
+          address: BP_OFFSET_BYTE( C8 )
+          name = "exitFlag",  type = 7
+        0619: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "keyVal",  type = 7
+        0624: LOCAL
+          address: BP_OFFSET_BYTE( B8 )
+          name = "ticksDebounce",  type = 16
+        0636: LOCAL
+          address: BP_OFFSET_BYTE( BC )
+          name = "ticksTotal",  type = 16
+        0645: LOCAL
+          address: BP_OFFSET_BYTE( AC )
+          name = "saveWindow",  type = 72
+        0654: LOCAL
+          address: BP_OFFSET_BYTE( B0 )
+          name = "slider",  type = 67
+        065F: LOCAL
+          address: BP_OFFSET_BYTE( E0 )
+          name = "xSlider",  type = 7
+        066B: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "wSlider",  type = 7
+        0677: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "mouseInput",  type = 7
+        0686: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "lastElem",  type = 7
+        0693: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "mouseScroll",  type = 7
+        06A3: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "saveSel",  type = 7
+        06AF: LOCAL
+          address: BP_OFFSET_BYTE( B4 )
+          name = "shapeName",  type = 13
+        06BD: NEAR_RTN_386
+          start off = 00001E2A, code size = 00000022, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  75
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "SetMessageTimeOut"
+        06E5: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "timeOut",  type = 9
+        06F1: NEAR_RTN_386
+          start off = 00001E4C, code size = 0000001F, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  23
+          return value: <none>
+          Name = "ResetMessageTimeOut"
+

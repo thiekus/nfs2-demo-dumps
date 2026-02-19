@@ -1,0 +1,4 @@
+  Name:  _iSNDfxreverb
+    address      = 0001:000BFB14
+    module index = 482
+    kind:          (code)

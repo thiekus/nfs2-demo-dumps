@@ -1,0 +1,8 @@
+  Name:  lintmapuv16_
+    address      = 0001:000B2FF9
+    module index = 371
+    kind:          (code)
+  Name:  lintmapuv8_
+    address      = 0001:000B2DE4
+    module index = 371
+    kind:          (code)

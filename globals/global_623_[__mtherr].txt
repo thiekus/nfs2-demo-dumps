@@ -1,0 +1,4 @@
+  Name:  __matherr
+    address      = 0001:000CAFBA
+    module index = 623
+    kind:          (code)

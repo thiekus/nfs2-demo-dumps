@@ -1,0 +1,16 @@
+  Name:  _Full_at_exit_rtn_
+    address      = 0001:000A8A50
+    module index = 319
+    kind:          (code)
+  Name:  atexit_
+    address      = 0001:000A8A8B
+    module index = 319
+    kind:          (code)
+  Name:  __ExitList
+    address      = 0002:000554E0
+    module index = 319
+    kind:          (data)
+  Name:  __ExitCount
+    address      = 0002:00055560
+    module index = 319
+    kind:          (data)

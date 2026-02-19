@@ -1,0 +1,4 @@
+  Name:  SNDfxlevel_
+    address      = 0001:000A1CA0
+    module index = 284
+    kind:          (code)

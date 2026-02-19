@@ -1,0 +1,756 @@
+  Name:  _DeleteFileA
+    address      = 0001:000CB4D8
+    module index = 627
+    kind:          (code)
+  Name:  _joyGetNumDevs@0
+    address      = 0001:000CB4D2
+    module index = 627
+    kind:         
+  Name:  _joyGetPosEx@8
+    address      = 0001:000CB4CC
+    module index = 627
+    kind:         
+  Name:  _recvfrom@24
+    address      = 0001:000CB4C6
+    module index = 627
+    kind:         
+  Name:  _WSAStartup@8
+    address      = 0001:000CB4C0
+    module index = 627
+    kind:         
+  Name:  _WSACleanup@0
+    address      = 0001:000CB4BA
+    module index = 627
+    kind:         
+  Name:  _socket@12
+    address      = 0001:000CB4B4
+    module index = 627
+    kind:         
+  Name:  _setsockopt@20
+    address      = 0001:000CB4AE
+    module index = 627
+    kind:         
+  Name:  _ioctlsocket@12
+    address      = 0001:000CB4A8
+    module index = 627
+    kind:         
+  Name:  _htons@4
+    address      = 0001:000CB4A2
+    module index = 627
+    kind:         
+  Name:  _bind@12
+    address      = 0001:000CB49C
+    module index = 627
+    kind:         
+  Name:  _getsockname@12
+    address      = 0001:000CB496
+    module index = 627
+    kind:         
+  Name:  _closesocket@4
+    address      = 0001:000CB490
+    module index = 627
+    kind:         
+  Name:  _WSAGetLastError@0
+    address      = 0001:000CB48A
+    module index = 627
+    kind:         
+  Name:  _sendto@24
+    address      = 0001:000CB484
+    module index = 627
+    kind:         
+  Name:  _GetCurrentDirectoryA
+    address      = 0001:000CB47E
+    module index = 627
+    kind:          (data)
+  Name:  _GetDiskFreeSpaceA
+    address      = 0001:000CB478
+    module index = 627
+    kind:          (code)
+  Name:  _SetCurrentDirectoryA
+    address      = 0001:000CB472
+    module index = 627
+    kind:          (data)
+  Name:  _timeSetEvent@20
+    address      = 0001:000CB46C
+    module index = 627
+    kind:         
+  Name:  _timeEndPeriod@4
+    address      = 0001:000CB466
+    module index = 627
+    kind:         
+  Name:  _timeKillEvent@4
+    address      = 0001:000CB460
+    module index = 627
+    kind:         
+  Name:  _timeGetDevCaps@8
+    address      = 0001:000CB45A
+    module index = 627
+    kind:         
+  Name:  _timeBeginPeriod@4
+    address      = 0001:000CB454
+    module index = 627
+    kind:         
+  Name:  _ExitProcess
+    address      = 0001:000CB44E
+    module index = 627
+    kind:          (data)
+  Name:  _GetEnvironmentStrings
+    address      = 0001:000CB448
+    module index = 627
+    kind:          (data)
+  Name:  _GetModuleFileNameA
+    address      = 0001:000CB442
+    module index = 627
+    kind:          (data)
+  Name:  _GetCommandLineA
+    address      = 0001:000CB43C
+    module index = 627
+    kind:          (code)
+  Name:  _GetVersion
+    address      = 0001:000CB436
+    module index = 627
+    kind:          (data)
+  Name:  _GetModuleHandleA
+    address      = 0001:000CB430
+    module index = 627
+    kind:          (code)
+  Name:  _DirectDrawEnumerateA@8
+    address      = 0001:000CB42A
+    module index = 627
+    kind:          (code)
+  Name:  _DirectDrawCreate@12
+    address      = 0001:000CB424
+    module index = 627
+    kind:          (data)
+  Name:  _VirtualAlloc
+    address      = 0001:000CB41E
+    module index = 627
+    kind:         
+  Name:  _DirectSoundCreate@12
+    address      = 0001:000CB418
+    module index = 627
+    kind:          (data)
+  Name:  _GetLastError
+    address      = 0001:000CB412
+    module index = 627
+    kind:          (data)
+  Name:  _CreateFileA
+    address      = 0001:000CB40C
+    module index = 627
+    kind:          (data)
+  Name:  _SetFilePointer
+    address      = 0001:000CB406
+    module index = 627
+    kind:          (code)
+  Name:  _WriteFile
+    address      = 0001:000CB400
+    module index = 627
+    kind:          (code)
+  Name:  _GetCurrentProcessId
+    address      = 0001:000CB3FA
+    module index = 627
+    kind:          (data)
+  Name:  _CloseHandle
+    address      = 0001:000CB3F4
+    module index = 627
+    kind:          (data)
+  Name:  _joyGetDevCapsA@12
+    address      = 0001:000CB3EE
+    module index = 627
+    kind:         
+  Name:  _select@20
+    address      = 0001:000CB3E8
+    module index = 627
+    kind:         
+  Name:  _GetLocalTime
+    address      = 0001:000CB3E2
+    module index = 627
+    kind:          (code)
+  Name:  _SetConsoleCtrlHandler
+    address      = 0001:000CB3DC
+    module index = 627
+    kind:          (code)
+  Name:  _wsprintfA
+    address      = 0001:000CB3D6
+    module index = 627
+    kind:          (code)
+  Name:  _GetActiveWindow
+    address      = 0001:000CB3D0
+    module index = 627
+    kind:          (data)
+  Name:  _LoadLibraryA
+    address      = 0001:000CB3CA
+    module index = 627
+    kind:          (code)
+  Name:  _GetProcAddress
+    address      = 0001:000CB3C4
+    module index = 627
+    kind:          (data)
+  Name:  _SetStdHandle
+    address      = 0001:000CB3BE
+    module index = 627
+    kind:          (code)
+  Name:  _GetStdHandle
+    address      = 0001:000CB3B8
+    module index = 627
+    kind:          (code)
+  Name:  _GetCurrentThreadId
+    address      = 0001:000CB3B2
+    module index = 627
+    kind:          (data)
+  Name:  _CreateMutexA
+    address      = 0001:000CB3AC
+    module index = 627
+    kind:         
+  Name:  _WaitForSingleObject
+    address      = 0001:000CB3A6
+    module index = 627
+    kind:          (code)
+  Name:  _ReleaseMutex
+    address      = 0001:000CB3A0
+    module index = 627
+    kind:          (code)
+  Name:  _TlsGetValue
+    address      = 0001:000CB39A
+    module index = 627
+    kind:          (code)
+  Name:  _TlsAlloc
+    address      = 0001:000CB394
+    module index = 627
+    kind:         
+  Name:  _TlsSetValue
+    address      = 0001:000CB38E
+    module index = 627
+    kind:         
+  Name:  _TlsFree
+    address      = 0001:000CB388
+    module index = 627
+    kind:         
+  Name:  _VirtualFree
+    address      = 0001:000CB382
+    module index = 627
+    kind:         
+  Name:  _waveOutGetNumDevs@0
+    address      = 0001:000CB37C
+    module index = 627
+    kind:         
+  Name:  _waveOutGetDevCapsA@12
+    address      = 0001:000CB376
+    module index = 627
+    kind:         
+  Name:  _waveOutOpen@24
+    address      = 0001:000CB370
+    module index = 627
+    kind:         
+  Name:  _waveOutPrepareHeader@12
+    address      = 0001:000CB36A
+    module index = 627
+    kind:         
+  Name:  _waveOutWrite@12
+    address      = 0001:000CB364
+    module index = 627
+    kind:         
+  Name:  _waveOutGetPosition@12
+    address      = 0001:000CB35E
+    module index = 627
+    kind:         
+  Name:  _waveOutReset@4
+    address      = 0001:000CB358
+    module index = 627
+    kind:         
+  Name:  _waveOutClose@4
+    address      = 0001:000CB352
+    module index = 627
+    kind:         
+  Name:  _GetFileType
+    address      = 0001:000CB34C
+    module index = 627
+    kind:          (code)
+  Name:  _ReadFile
+    address      = 0001:000CB346
+    module index = 627
+    kind:          (data)
+  Name:  _GetTimeZoneInformation
+    address      = 0001:000CB340
+    module index = 627
+    kind:          (code)
+  Name:  _ReadConsoleInputA
+    address      = 0001:000CB33A
+    module index = 627
+    kind:          (code)
+  Name:  _GetConsoleMode
+    address      = 0001:000CB334
+    module index = 627
+    kind:          (code)
+  Name:  _SetConsoleMode
+    address      = 0001:000CB32E
+    module index = 627
+    kind:          (data)
+  Name:  _WriteConsoleA
+    address      = 0001:000CB328
+    module index = 627
+    kind:          (data)
+  Name:  _SetEvent
+    address      = 0001:000CB322
+    module index = 627
+    kind:          (code)
+  Name:  _GetCurrentThread
+    address      = 0001:000CB31C
+    module index = 627
+    kind:          (data)
+  Name:  _CreateEventA
+    address      = 0001:000CB316
+    module index = 627
+    kind:          (code)
+  Name:  _CreateThread
+    address      = 0001:000CB310
+    module index = 627
+    kind:          (data)
+  Name:  _ExitThread
+    address      = 0001:000CB30A
+    module index = 627
+    kind:          (data)
+  Name:  _SetFileAttributesA@8
+    address      = 0001:000CB304
+    module index = 627
+    kind:         
+  Name:  _GetFileSize@8
+    address      = 0001:000CB2FE
+    module index = 627
+    kind:         
+  Name:  _SetFilePointer@16
+    address      = 0001:000CB2F8
+    module index = 627
+    kind:         
+  Name:  _ReadFile@20
+    address      = 0001:000CB2F2
+    module index = 627
+    kind:         
+  Name:  _GetFullPathNameA@16
+    address      = 0001:000CB2EC
+    module index = 627
+    kind:         
+  Name:  _GetVolumeInformationA@32
+    address      = 0001:000CB2E6
+    module index = 627
+    kind:         
+  Name:  _GetLastError@0
+    address      = 0001:000CB2E0
+    module index = 627
+    kind:         
+  Name:  _CharUpperA@4
+    address      = 0001:000CB2DA
+    module index = 627
+    kind:         
+  Name:  _FindFirstFileA@8
+    address      = 0001:000CB2D4
+    module index = 627
+    kind:         
+  Name:  _FindClose@4
+    address      = 0001:000CB2CE
+    module index = 627
+    kind:         
+  Name:  _GetLogicalDrives@0
+    address      = 0001:000CB2C8
+    module index = 627
+    kind:         
+  Name:  _GetLogicalDriveStringsA@8
+    address      = 0001:000CB2C2
+    module index = 627
+    kind:         
+  Name:  _SetCurrentDirectoryA@4
+    address      = 0001:000CB2BC
+    module index = 627
+    kind:         
+  Name:  _GetCurrentDirectoryA@8
+    address      = 0001:000CB2B6
+    module index = 627
+    kind:         
+  Name:  _GetDiskFreeSpaceA@20
+    address      = 0001:000CB2B0
+    module index = 627
+    kind:         
+  Name:  _CreateFileA@28
+    address      = 0001:000CB2AA
+    module index = 627
+    kind:         
+  Name:  _CreateFileMappingA@24
+    address      = 0001:000CB2A4
+    module index = 627
+    kind:         
+  Name:  _MapViewOfFile@20
+    address      = 0001:000CB29E
+    module index = 627
+    kind:         
+  Name:  _VirtualAlloc@16
+    address      = 0001:000CB298
+    module index = 627
+    kind:         
+  Name:  _VirtualFree@12
+    address      = 0001:000CB292
+    module index = 627
+    kind:         
+  Name:  _WriteFile@20
+    address      = 0001:000CB28C
+    module index = 627
+    kind:         
+  Name:  _UnmapViewOfFile@4
+    address      = 0001:000CB286
+    module index = 627
+    kind:         
+  Name:  _CloseHandle@4
+    address      = 0001:000CB280
+    module index = 627
+    kind:         
+  Name:  _SetEndOfFile@4
+    address      = 0001:000CB27A
+    module index = 627
+    kind:         
+  Name:  _RegOpenKeyExA@20
+    address      = 0001:000CB274
+    module index = 627
+    kind:         
+  Name:  _RegCloseKey@4
+    address      = 0001:000CB26E
+    module index = 627
+    kind:         
+  Name:  _RegQueryInfoKeyA@48
+    address      = 0001:000CB268
+    module index = 627
+    kind:         
+  Name:  _RegEnumKeyExA@32
+    address      = 0001:000CB262
+    module index = 627
+    kind:         
+  Name:  _RegQueryValueExA@24
+    address      = 0001:000CB25C
+    module index = 627
+    kind:         
+  Name:  _GetPrivateProfileStringA@24
+    address      = 0001:000CB256
+    module index = 627
+    kind:         
+  Name:  _Sleep@4
+    address      = 0001:000CB250
+    module index = 627
+    kind:         
+  Name:  _LoadLibraryA@4
+    address      = 0001:000CB24A
+    module index = 627
+    kind:         
+  Name:  _GetProcAddress@8
+    address      = 0001:000CB244
+    module index = 627
+    kind:         
+  Name:  _FreeLibrary@4
+    address      = 0001:000CB23E
+    module index = 627
+    kind:         
+  Name:  _OutputDebugStringA@4
+    address      = 0001:000CB238
+    module index = 627
+    kind:         
+  Name:  _DebugBreak@0
+    address      = 0001:000CB232
+    module index = 627
+    kind:         
+  Name:  _ShowWindow@8
+    address      = 0001:000CB22C
+    module index = 627
+    kind:         
+  Name:  _ShowCursor@4
+    address      = 0001:000CB226
+    module index = 627
+    kind:         
+  Name:  _MessageBoxA@16
+    address      = 0001:000CB220
+    module index = 627
+    kind:         
+  Name:  _ExitProcess@4
+    address      = 0001:000CB21A
+    module index = 627
+    kind:         
+  Name:  _GetTickCount@0
+    address      = 0001:000CB214
+    module index = 627
+    kind:         
+  Name:  _WaitForMultipleObjectsEx@20
+    address      = 0001:000CB20E
+    module index = 627
+    kind:         
+  Name:  _GetCurrentThreadId@0
+    address      = 0001:000CB208
+    module index = 627
+    kind:         
+  Name:  _GetCurrentProcess@0
+    address      = 0001:000CB202
+    module index = 627
+    kind:         
+  Name:  _GetCurrentThread@0
+    address      = 0001:000CB1FC
+    module index = 627
+    kind:         
+  Name:  _DuplicateHandle@28
+    address      = 0001:000CB1F6
+    module index = 627
+    kind:         
+  Name:  _CreateThread@24
+    address      = 0001:000CB1F0
+    module index = 627
+    kind:         
+  Name:  _ResumeThread@4
+    address      = 0001:000CB1EA
+    module index = 627
+    kind:         
+  Name:  _SleepEx@8
+    address      = 0001:000CB1E4
+    module index = 627
+    kind:         
+  Name:  _TerminateThread@8
+    address      = 0001:000CB1DE
+    module index = 627
+    kind:         
+  Name:  _GetThreadPriority@4
+    address      = 0001:000CB1D8
+    module index = 627
+    kind:         
+  Name:  _SetThreadPriority@8
+    address      = 0001:000CB1D2
+    module index = 627
+    kind:         
+  Name:  _ExitThread@4
+    address      = 0001:000CB1CC
+    module index = 627
+    kind:         
+  Name:  _CreateEventA@16
+    address      = 0001:000CB1C6
+    module index = 627
+    kind:         
+  Name:  _SetEvent@4
+    address      = 0001:000CB1C0
+    module index = 627
+    kind:         
+  Name:  _InitializeCriticalSection@4
+    address      = 0001:000CB1BA
+    module index = 627
+    kind:         
+  Name:  _EnterCriticalSection@4
+    address      = 0001:000CB1B4
+    module index = 627
+    kind:         
+  Name:  _LeaveCriticalSection@4
+    address      = 0001:000CB1AE
+    module index = 627
+    kind:         
+  Name:  _DeleteCriticalSection@4
+    address      = 0001:000CB1A8
+    module index = 627
+    kind:         
+  Name:  _PostThreadMessageA@16
+    address      = 0001:000CB1A2
+    module index = 627
+    kind:         
+  Name:  _SendNotifyMessageA@16
+    address      = 0001:000CB19C
+    module index = 627
+    kind:         
+  Name:  _PostMessageA@16
+    address      = 0001:000CB196
+    module index = 627
+    kind:         
+  Name:  _ClientToScreen@8
+    address      = 0001:000CB190
+    module index = 627
+    kind:         
+  Name:  _SetCursorPos@8
+    address      = 0001:000CB18A
+    module index = 627
+    kind:         
+  Name:  _SetCursor@4
+    address      = 0001:000CB184
+    module index = 627
+    kind:         
+  Name:  _PostQuitMessage@4
+    address      = 0001:000CB17E
+    module index = 627
+    kind:         
+  Name:  _SystemParametersInfoA@16
+    address      = 0001:000CB178
+    module index = 627
+    kind:         
+  Name:  _GetClientRect@8
+    address      = 0001:000CB172
+    module index = 627
+    kind:         
+  Name:  _BeginPaint@8
+    address      = 0001:000CB16C
+    module index = 627
+    kind:         
+  Name:  _EndPaint@8
+    address      = 0001:000CB166
+    module index = 627
+    kind:         
+  Name:  _DefWindowProcA@16
+    address      = 0001:000CB160
+    module index = 627
+    kind:         
+  Name:  _GetAsyncKeyState@4
+    address      = 0001:000CB15A
+    module index = 627
+    kind:         
+  Name:  _CallNextHookEx@16
+    address      = 0001:000CB154
+    module index = 627
+    kind:         
+  Name:  _GetSystemMetrics@4
+    address      = 0001:000CB14E
+    module index = 627
+    kind:         
+  Name:  _AdjustWindowRect@12
+    address      = 0001:000CB148
+    module index = 627
+    kind:         
+  Name:  _CreateWindowExA@48
+    address      = 0001:000CB142
+    module index = 627
+    kind:         
+  Name:  _SetForegroundWindow@4
+    address      = 0001:000CB13C
+    module index = 627
+    kind:         
+  Name:  _GetMessageA@16
+    address      = 0001:000CB136
+    module index = 627
+    kind:         
+  Name:  _TranslateMessage@4
+    address      = 0001:000CB130
+    module index = 627
+    kind:         
+  Name:  _DispatchMessageA@4
+    address      = 0001:000CB12A
+    module index = 627
+    kind:         
+  Name:  _DestroyWindow@4
+    address      = 0001:000CB124
+    module index = 627
+    kind:         
+  Name:  _GetModuleHandleA@4
+    address      = 0001:000CB11E
+    module index = 627
+    kind:         
+  Name:  _LoadIconA@8
+    address      = 0001:000CB118
+    module index = 627
+    kind:         
+  Name:  _LoadCursorA@8
+    address      = 0001:000CB112
+    module index = 627
+    kind:         
+  Name:  _GetStockObject@4
+    address      = 0001:000CB10C
+    module index = 627
+    kind:         
+  Name:  _RegisterClassA@4
+    address      = 0001:000CB106
+    module index = 627
+    kind:         
+  Name:  _SetWindowsHookExA@16
+    address      = 0001:000CB100
+    module index = 627
+    kind:         
+  Name:  _UnhookWindowsHookEx@4
+    address      = 0001:000CB0FA
+    module index = 627
+    kind:         
+  Name:  _CreateMutexA@12
+    address      = 0001:000CB0F4
+    module index = 627
+    kind:         
+  Name:  _FindWindowA@8
+    address      = 0001:000CB0EE
+    module index = 627
+    kind:         
+  Name:  _GetSystemInfo@4
+    address      = 0001:000CB0E8
+    module index = 627
+    kind:         
+  Name:  _FindNextFileA@8
+    address      = 0001:000CB0E2
+    module index = 627
+    kind:         
+  Name:  _GetFileAttributesA@4
+    address      = 0001:000CB0DC
+    module index = 627
+    kind:         
+  Name:  _GetWindowLongA@8
+    address      = 0001:000CB0D6
+    module index = 627
+    kind:         
+  Name:  _SetWindowPos@28
+    address      = 0001:000CB0D0
+    module index = 627
+    kind:         
+  Name:  _GetKeyState@4
+    address      = 0001:000CB0CA
+    module index = 627
+    kind:         
+  Name:  _keybd_event@16
+    address      = 0001:000CB0C4
+    module index = 627
+    kind:         
+  Name:  _GetOverlappedResult@16
+    address      = 0001:000CB0BE
+    module index = 627
+    kind:         
+  Name:  _PurgeComm@8
+    address      = 0001:000CB0B8
+    module index = 627
+    kind:         
+  Name:  _EscapeCommFunction@8
+    address      = 0001:000CB0B2
+    module index = 627
+    kind:         
+  Name:  _GetCommModemStatus@8
+    address      = 0001:000CB0AC
+    module index = 627
+    kind:         
+  Name:  _SetCommTimeouts@8
+    address      = 0001:000CB0A6
+    module index = 627
+    kind:         
+  Name:  _GetCommState@8
+    address      = 0001:000CB0A0
+    module index = 627
+    kind:         
+  Name:  _SetCommState@8
+    address      = 0001:000CB09A
+    module index = 627
+    kind:         
+  Name:  _GlobalAlloc@8
+    address      = 0001:000CB094
+    module index = 627
+    kind:         
+  Name:  _GlobalLock@4
+    address      = 0001:000CB08E
+    module index = 627
+    kind:         
+  Name:  _GlobalUnlock@4
+    address      = 0001:000CB088
+    module index = 627
+    kind:         
+  Name:  _GlobalFree@4
+    address      = 0001:000CB082
+    module index = 627
+    kind:         
+  Name:  _GetDriveTypeA@4
+    address      = 0001:000CB07C
+    module index = 627
+    kind:         
+  Name:  _GlobalMemoryStatus@4
+    address      = 0001:000CB076
+    module index = 627
+    kind:         
+  Name:  _GetKeyboardType@4
+    address      = 0001:000CB070
+    module index = 627
+    kind:         

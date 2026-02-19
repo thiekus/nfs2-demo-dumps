@@ -1,0 +1,4 @@
+  Name:  _copym16smmx
+    address      = 0001:000BE854
+    module index = 469
+    kind:          (code)

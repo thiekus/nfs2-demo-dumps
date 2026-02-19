@@ -1,0 +1,12 @@
+  Name:  _upm16fframe
+    address      = 0001:000C32A0
+    module index = 546
+    kind:          (code)
+  Name:  _upm16f
+    address      = 0001:000C32A8
+    module index = 546
+    kind:          (code)
+  Name:  _upm16fsetstate
+    address      = 0001:000C3320
+    module index = 546
+    kind:          (code)

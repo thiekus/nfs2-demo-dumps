@@ -1,0 +1,52 @@
+  Name:  Editor_Open_
+    address      = 0001:0004A847
+    module index = 57
+    kind:          (code)
+  Name:  Editor_Close_
+    address      = 0001:0004A9EC
+    module index = 57
+    kind:          (code)
+  Name:  Editor_ClearAllWindows_
+    address      = 0001:0004AA4D
+    module index = 57
+    kind:          (code)
+  Name:  Editor_ClearWindow_
+    address      = 0001:0004AAA7
+    module index = 57
+    kind:          (code)
+  Name:  Editor_ClearLine_
+    address      = 0001:0004AB46
+    module index = 57
+    kind:          (code)
+  Name:  Editor_InsertString_
+    address      = 0001:0004ABBB
+    module index = 57
+    kind:          (code)
+  Name:  Editor_InsertChar_
+    address      = 0001:0004AC1E
+    module index = 57
+    kind:          (code)
+  Name:  Editor_DeleteChar_
+    address      = 0001:0004ADF7
+    module index = 57
+    kind:          (code)
+  Name:  Editor_GetWindowText_
+    address      = 0001:0004AEF2
+    module index = 57
+    kind:          (code)
+  Name:  Editor_CheckForWordWrap_
+    address      = 0001:0004B042
+    module index = 57
+    kind:          (static pubdef) (code)
+  Name:  _Editor
+    address      = 0002:0000EF7C
+    module index = 57
+    kind:          (static pubdef) (data)
+  Name:  _EditorText
+    address      = 0002:0000EF80
+    module index = 57
+    kind:          (static pubdef) (data)
+  Name:  _AcceptInput
+    address      = 0002:0000EF84
+    module index = 57
+    kind:          (static pubdef) (data)

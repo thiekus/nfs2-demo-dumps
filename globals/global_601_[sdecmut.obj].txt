@@ -1,0 +1,48 @@
+  Name:  getbits_
+    address      = 0001:000C89C0
+    module index = 601
+    kind:          (static pubdef) (code)
+  Name:  discardbits_
+    address      = 0001:000C8A14
+    module index = 601
+    kind:          (static pubdef) (code)
+  Name:  readsamples_
+    address      = 0001:000C8A6C
+    module index = 601
+    kind:          (static pubdef) (code)
+  Name:  interpolate_
+    address      = 0001:000C8D14
+    module index = 601
+    kind:          (static pubdef) (code)
+  Name:  reftolpc_
+    address      = 0001:000C8D60
+    module index = 601
+    kind:          (static pubdef) (code)
+  Name:  filter_
+    address      = 0001:000C8E20
+    module index = 601
+    kind:          (static pubdef) (code)
+  Name:  utalkinit_
+    address      = 0001:000C95D8
+    module index = 601
+    kind:          (code)
+  Name:  utalkdecode_
+    address      = 0001:000C9768
+    module index = 601
+    kind:          (code)
+  Name:  _bitmask
+    address      = 0002:000188BC
+    module index = 601
+    kind:          (static pubdef) (data)
+  Name:  _coeff_table
+    address      = 0002:000188E0
+    module index = 601
+    kind:          (static pubdef) (data)
+  Name:  _index_table
+    address      = 0002:000189E0
+    module index = 601
+    kind:          (static pubdef) (data)
+  Name:  _decode_table
+    address      = 0002:00018BE0
+    module index = 601
+    kind:          (static pubdef) (data)

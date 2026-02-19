@@ -1,0 +1,351 @@
+ 86) Name:   C:\nfs2\frontend\common\Menusys.c
+     Language is C
+     Locals: num = 1, offset = 0000016AH
+     Types:  num = 1, offset = 00000306H
+     Lines:  num = 1, offset = 0000048AH
+
+   *** Locals ***
+   ==============
+      Data 0:  offset 00021644
+        0000: MODULE_386
+          "swatchColors" addr = 0002:00011C30,  type = 60
+        0015: MODULE_386
+          "shpPre" addr = 0002:00011BBC,  type = 61
+        0024: MODULE_386
+          "menuDrivers" addr = 0002:00011BDC,  type = 76
+        0038: MODULE_386
+          "playerTwo" addr = 0002:0004FE7C,  type = 9
+        004A: MODULE_386
+          "networkService" addr = 0002:00011BD8,  type = 13
+        0061: MODULE_386
+          "previousFileName" addr = 0002:0004FE80,  type = 77
+        007A: MODULE_386
+          "shapeFile" addr = 0002:00011BD4,  type = 13
+        008C: MODULE_386
+          "frontEndSave2" addr = 0002:0004FE94,  type = 133
+        00A3: MODULE_386
+          "frontEndSave1" addr = 0002:0005012D,  type = 133
+        00BA: SET_BASE_386
+          base = 0001:0006618C
+        00C2: NEAR_RTN_386
+          start off = 00000000, code size = 000001AC, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  134
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "MenuSys_Initialize"
+        00EC: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "menu",  type = 72
+        00F5: LOCAL
+          address: BP_OFFSET_BYTE( AC )
+          name = "string",  type = 135
+        0101: NEAR_RTN_386
+          start off = 000001AC, code size = 0000008D, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  136
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Name = "leaveTournCheck"
+        0129: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "c",  type = 69
+        012F: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "result",  type = 9
+        013A: BLOCK_386
+          start off = 0000071E, code size = 000000BF, parent off = 016C
+        0146: LOCAL
+          address: BP_OFFSET_WORD( 0068 )
+          name = "argv",  type = 137
+        0151: BLOCK_386
+          start off = 00000946, code size = 0000005E, parent off = 016C
+        015D: LOCAL
+          address: BP_OFFSET_WORD( 0038 )
+          name = "settings",  type = 141
+        016C: BLOCK_386
+          start off = 0000026E, code size = 00000A64, parent off = 017F
+        0178: LOCAL
+          address: BP_OFFSET_WORD( 007C )
+          name = "c",  type = 69
+        017F: NEAR_RTN_386
+          start off = 00000239, code size = 00000AAA, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  142
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Name = "MenuSys_ProcessInput"
+        01AE: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "menu",  type = 72
+        01B7: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "keyVal",  type = 7
+        01C2: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "result",  type = 9
+        01CD: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "lastitem",  type = 9
+        01DA: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "i",  type = 9
+        01E0: LOCAL
+          address: BP_OFFSET_BYTE( 80 )
+          name = "nameList",  type = 143
+        01EE: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "gameList",  type = 157
+        01FC: LOCAL
+          address: BP_OFFSET_BYTE( D0 )
+          name = "gameID",  type = 149
+        0208: NEAR_RTN_386
+          start off = 00000CE3, code size = 000000B5, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  158
+          return value: <none>
+          Name = "ShowSensitivity"
+        022D: NEAR_RTN_386
+          start off = 00000D98, code size = 00000196, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  73
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Name = "MenuSys_Generic"
+        0254: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "menu",  type = 72
+        025D: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "result",  type = 9
+        0268: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "update",  type = 7
+        0273: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "keyVal",  type = 7
+        027E: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "ticksDebounce",  type = 16
+        0290: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "ticksTotal",  type = 16
+        029F: BLOCK_386
+          start off = 00000FF9, code size = 00000062, parent off = 02B7
+        02AB: LOCAL
+          address: BP_OFFSET_BYTE( B0 )
+          name = "source",  type = 159
+        02B7: NEAR_RTN_386
+          start off = 00000F2E, code size = 00000137, parent off = 0000
+          prologue size = 11,  epilogue size = 8
+          return address offset (from bp) = 0000000C
+          return type:  160
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Parm 3: MULTI_REG(1): ECX
+          Name = "Slider_RGBColorChangePal"
+        02ED: LOCAL
+          address: BP_OFFSET_BYTE( E0 )
+          name = "h",  type = 9
+        02F3: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "s",  type = 9
+        02F9: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "v",  type = 9
+        02FF: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "t",  type = 9
+        0305: LOCAL
+          address: BP_OFFSET_BYTE( 10 )
+          name = "pal",  type = 13
+        030D: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "i",  type = 9
+        0313: LOCAL
+          address: BP_OFFSET_BYTE( D4 )
+          name = "highlight",  type = 161
+        0322: LOCAL
+          address: BP_OFFSET_BYTE( C8 )
+          name = "diffuse",  type = 162
+        032F: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "r",  type = 9
+        0335: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "g",  type = 9
+        033B: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "b",  type = 9
+        0341: NEAR_RTN_386
+          start off = 00001065, code size = 000000B8, parent off = 0000
+          prologue size = 12,  epilogue size = 7
+          return address offset (from bp) = 00000010
+          return type:  163
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Name = "ShowSwatch"
+        0367: LOCAL
+          address: BP_OFFSET_BYTE( D4 )
+          name = "cur",  type = 69
+        036F: LOCAL
+          address: BP_OFFSET_BYTE( D8 )
+          name = "x",  type = 9
+        0375: LOCAL
+          address: BP_OFFSET_BYTE( DC )
+          name = "y",  type = 9
+        037B: LOCAL
+          address: BP_OFFSET_BYTE( E0 )
+          name = "swatch",  type = 167
+        0387: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "pshp",  type = 167
+        0391: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "shapepal",  type = 13
+        039E: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "playerColor",  type = 9
+        03AE: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "h",  type = 9
+        03B4: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "s",  type = 9
+        03BA: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "v",  type = 9
+        03C0: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "t",  type = 9
+        03C6: BLOCK_386
+          start off = 00001311, code size = 0000006B, parent off = 03EF
+        03D2: LOCAL
+          address: BP_OFFSET_WORD( 0070 )
+          name = "c",  type = 172
+        03DA: BLOCK_386
+          start off = 00001388, code size = 00000382, parent off = 03EF
+        03E6: LOCAL
+          address: BP_OFFSET_WORD( 006C )
+          name = "cur",  type = 69
+        03EF: NEAR_RTN_386
+          start off = 0000111D, code size = 000005FB, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  134
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "MenuSys_Display"
+        0416: LOCAL
+          address: BP_OFFSET_BYTE( CC )
+          name = "menu",  type = 72
+        041F: LOCAL
+          address: BP_OFFSET_BYTE( D4 )
+          name = "c",  type = 7
+        0425: LOCAL
+          address: BP_OFFSET_BYTE( E0 )
+          name = "textind",  type = 7
+        0431: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "highlight",  type = 7
+        043F: LOCAL
+          address: BP_OFFSET_BYTE( D8 )
+          name = "x",  type = 7
+        0445: LOCAL
+          address: BP_OFFSET_BYTE( DC )
+          name = "y",  type = 7
+        044B: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "flags",  type = 7
+        0455: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "color",  type = 7
+        045F: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "c2",  type = 7
+        0466: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "nYArrow",  type = 7
+        0472: LOCAL
+          address: BP_OFFSET_WORD( 007C )
+          name = "string",  type = 173
+        047F: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "offsetCenter",  type = 7
+        0490: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "offsetRight",  type = 7
+        04A0: LOCAL
+          address: BP_OFFSET_BYTE( D0 )
+          name = "current",  type = 69
+        04AC: NEAR_RTN_386
+          start off = 00001718, code size = 000005B1, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  73
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Name = "MenuSys_Menu"
+        04D0: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "menu",  type = 72
+        04D9: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "result",  type = 9
+        04E4: LOCAL
+          address: BP_OFFSET_BYTE( C0 )
+          name = "backList",  type = 174
+        04F2: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "backDepth",  type = 7
+        0500: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "needToSave",  type = 7
+        050F: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "loop",  type = 7
+        0518: NEAR_RTN_386
+          start off = 00001CC9, code size = 000000D3, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  134
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "MenuSys_FindFreeSelection"
+        0549: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "menu",  type = 72
+        0552: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "original",  type = 9
+        055F: NEAR_RTN_386
+          start off = 00001D9C, code size = 0000041E, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  158
+          return value: <none>
+          Name = "MenuSys_CopyFromMenu"
+        0589: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "c",  type = 69
+        058F: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "lapconv",  type = 175
+        059C: NEAR_RTN_386
+          start off = 000021BA, code size = 00000015, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  158
+          return value: <none>
+          Name = "MenuSys_CopyToMenu"
+

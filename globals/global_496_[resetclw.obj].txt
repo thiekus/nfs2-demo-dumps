@@ -1,0 +1,4 @@
+  Name:  _resetclipwindow
+    address      = 0001:000C0870
+    module index = 496
+    kind:          (code)

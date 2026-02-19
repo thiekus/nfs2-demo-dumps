@@ -1,0 +1,140 @@
+  Name:  _serialports
+    address      = 0002:000555A0
+    module index = 326
+    kind:          (static pubdef) (data)
+  Name:  closeallserial_
+    address      = 0001:000A95B0
+    module index = 326
+    kind:          (static pubdef) (code)
+  Name:  _signalserialactivity
+    address      = 0001:000A95D8
+    module index = 326
+    kind:          (static pubdef) (code)
+  Name:  startserialIO_
+    address      = 0001:000A9624
+    module index = 326
+    kind:          (static pubdef) (code)
+  Name:  completeserialIO_
+    address      = 0001:000A97CC
+    module index = 326
+    kind:          (static pubdef) (code)
+  Name:  detectserialsignal_
+    address      = 0001:000A98DC
+    module index = 326
+    kind:          (static pubdef) (code)
+  Name:  _serialthreadfunc
+    address      = 0001:000A9940
+    module index = 326
+    kind:          (static pubdef) (code)
+  Name:  _serialportvalid
+    address      = 0001:000A9A7C
+    module index = 326
+    kind:          (code)
+  Name:  _setdtr
+    address      = 0001:000A9AA8
+    module index = 326
+    kind:          (code)
+  Name:  _cleardtr
+    address      = 0001:000A9B28
+    module index = 326
+    kind:          (code)
+  Name:  _carrierdetect
+    address      = 0001:000A9BA8
+    module index = 326
+    kind:          (code)
+  Name:  _purgeserialin
+    address      = 0001:000A9C44
+    module index = 326
+    kind:          (code)
+  Name:  _purgeserialout
+    address      = 0001:000A9C80
+    module index = 326
+    kind:          (code)
+  Name:  _serialclose
+    address      = 0001:000A9CBC
+    module index = 326
+    kind:          (code)
+  Name:  _serialopen
+    address      = 0001:000A9DA0
+    module index = 326
+    kind:          (code)
+  Name:  _testserialout
+    address      = 0001:000A9F68
+    module index = 326
+    kind:          (code)
+  Name:  _waitserialout
+    address      = 0001:000A9FF4
+    module index = 326
+    kind:          (code)
+  Name:  _serialout
+    address      = 0001:000AA07C
+    module index = 326
+    kind:          (code)
+  Name:  _serialset
+    address      = 0001:000AA1A8
+    module index = 326
+    kind:          (code)
+  Name:  _serialoutstatus
+    address      = 0001:000AA2E4
+    module index = 326
+    kind:          (code)
+  Name:  _serialinstatus
+    address      = 0001:000AA358
+    module index = 326
+    kind:          (code)
+  Name:  _serialoutspace
+    address      = 0001:000AA3C8
+    module index = 326
+    kind:          (code)
+  Name:  _setportirq
+    address      = 0001:000AA444
+    module index = 326
+    kind:          (code)
+  Name:  _getportirq
+    address      = 0001:000AA448
+    module index = 326
+    kind:          (code)
+  Name:  _checkserialin
+    address      = 0001:000AA44C
+    module index = 326
+    kind:          (code)
+  Name:  _getserialin
+    address      = 0001:000AA53C
+    module index = 326
+    kind:          (code)
+  Name:  _serialin
+    address      = 0001:000AA5B8
+    module index = 326
+    kind:          (code)
+  Name:  _testserialin
+    address      = 0001:000AA658
+    module index = 326
+    kind:          (code)
+  Name:  _waitserialin
+    address      = 0001:000AA6E4
+    module index = 326
+    kind:          (code)
+  Name:  _serialnoise
+    address      = 0001:000AA78C
+    module index = 326
+    kind:          (code)
+  Name:  _serialbufferstatus
+    address      = 0001:000AA874
+    module index = 326
+    kind:          (code)
+  Name:  _serialhandlercount
+    address      = 0002:000147C0
+    module index = 326
+    kind:          (static pubdef) (data)
+  Name:  _serialhandlersignal
+    address      = 0002:000147C4
+    module index = 326
+    kind:          (static pubdef) (data)
+  Name:  _serialhandlermutex
+    address      = 0002:000147C8
+    module index = 326
+    kind:          (static pubdef) (data)
+  Name:  _serialthread
+    address      = 0002:000555E0
+    module index = 326
+    kind:          (data)

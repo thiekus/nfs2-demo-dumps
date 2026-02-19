@@ -1,0 +1,8 @@
+  Name:  ____Argc
+    address      = 0002:0006AA00
+    module index = 441
+    kind:          (data)
+  Name:  ____Argv
+    address      = 0002:0006AA04
+    module index = 441
+    kind:          (data)

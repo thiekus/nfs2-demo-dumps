@@ -1,0 +1,16 @@
+  Name:  SaveNumber_
+    address      = 0001:0007F0BE
+    module index = 101
+    kind:          (code)
+  Name:  LoadNumber_
+    address      = 0001:0007F106
+    module index = 101
+    kind:          (code)
+  Name:  Modem_EnterNumber_
+    address      = 0001:0007F14F
+    module index = 101
+    kind:          (code)
+  Name:  Modem_DeleteNumber_
+    address      = 0001:0007F301
+    module index = 101
+    kind:          (code)

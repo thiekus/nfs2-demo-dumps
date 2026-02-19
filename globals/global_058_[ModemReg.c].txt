@@ -1,0 +1,40 @@
+  Name:  ModemReg_FindNext_
+    address      = 0001:0004B07C
+    module index = 58
+    kind:          (code)
+  Name:  ModemReg_FindFirst_
+    address      = 0001:0004B0E1
+    module index = 58
+    kind:          (static pubdef) (code)
+  Name:  ModemReg_OpenRootKey_
+    address      = 0001:0004B1D2
+    module index = 58
+    kind:          (static pubdef) (code)
+  Name:  ModemReg_CloseRootKey_
+    address      = 0001:0004B224
+    module index = 58
+    kind:          (static pubdef) (code)
+  Name:  ModemReg_FindModems_
+    address      = 0001:0004B24B
+    module index = 58
+    kind:          (static pubdef) (code)
+  Name:  ModemReg_AddModemToList_
+    address      = 0001:0004B37D
+    module index = 58
+    kind:          (static pubdef) (code)
+  Name:  ModemReg_ReadString_
+    address      = 0001:0004B83E
+    module index = 58
+    kind:          (static pubdef) (code)
+  Name:  ModemReg_IsDialTypeTone_
+    address      = 0001:0004B8D3
+    module index = 58
+    kind:          (static pubdef) (code)
+  Name:  _modemList
+    address      = 0002:0000EF88
+    module index = 58
+    kind:          (static pubdef) (data)
+  Name:  _regInfo
+    address      = 0002:0000EF8C
+    module index = 58
+    kind:          (static pubdef) (data)

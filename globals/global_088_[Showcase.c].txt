@@ -1,0 +1,56 @@
+  Name:  SetHistoryFile_
+    address      = 0001:00068D76
+    module index = 88
+    kind:          (code)
+  Name:  SetShowCaseFile_
+    address      = 0001:00068DAF
+    module index = 88
+    kind:          (code)
+  Name:  SetSlideShowFile_
+    address      = 0001:00068DE8
+    module index = 88
+    kind:          (code)
+  Name:  SetShowCaseText_
+    address      = 0001:00068E56
+    module index = 88
+    kind:          (code)
+  Name:  SpinBigShowCaseIcon_
+    address      = 0001:0006916E
+    module index = 88
+    kind:          (code)
+  Name:  ShowCase_ShowCase_
+    address      = 0001:00069202
+    module index = 88
+    kind:          (code)
+  Name:  ShowCase_SlideShow_
+    address      = 0001:0006974E
+    module index = 88
+    kind:          (code)
+  Name:  s_removelastword_
+    address      = 0001:00069A50
+    module index = 88
+    kind:          (code)
+  Name:  s_insertlastword_
+    address      = 0001:00069AFD
+    module index = 88
+    kind:          (code)
+  Name:  ShowCase_History_
+    address      = 0001:00069B65
+    module index = 88
+    kind:          (code)
+  Name:  _textHistory
+    address      = 0002:00011C70
+    module index = 88
+    kind:          (data)
+  Name:  _returningFromSlideshow
+    address      = 0002:00011C88
+    module index = 88
+    kind:          (data)
+  Name:  _sldname
+    address      = 0002:000503D8
+    module index = 88
+    kind:          (data)
+  Name:  _gMaxCar
+    address      = 0002:000503E2
+    module index = 88
+    kind:          (data)

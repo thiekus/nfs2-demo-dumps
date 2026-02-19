@@ -1,0 +1,4 @@
+  Name:  __Nan_Inf_
+    address      = 0001:000C9C01
+    module index = 602
+    kind:          (code)

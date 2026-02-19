@@ -1,0 +1,61 @@
+ 31) Name:   C:\nfs2\game\common\paths.c
+     Language is C
+     Locals: num = 1, offset = 0000008EH
+     Types:  num = 1, offset = 0000022AH
+     Lines:  num = 1, offset = 000003BAH
+
+   *** Locals ***
+   ==============
+      Data 0:  offset 0000ECFD
+        0000: MODULE_386
+          "Paths_Paths" addr = 0002:000243C4,  type = 39
+        0014: MODULE_386
+          "Paths_File" addr = 0002:00024464,  type = 13
+        0027: SET_BASE_386
+          base = 0001:00030275
+        002F: NEAR_RTN_386
+          start off = 00000000, code size = 00000037, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  41
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Paths_ReadTillEOL"
+        0057: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "a",  type = 40
+        005D: NEAR_RTN_386
+          start off = 00000037, code size = 00000035, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  41
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Paths_ReadTillNotEOL"
+        0088: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "a",  type = 40
+        008E: NEAR_RTN_386
+          start off = 0000006C, code size = 000000CA, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  23
+          return value: <none>
+          Name = "Paths_StartUp"
+        00B0: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "scan",  type = 13
+        00B9: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "end",  type = 13
+        00C1: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "dirCounter",  type = 9
+        00D0: NEAR_RTN_386
+          start off = 00000136, code size = 0000002C, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  23
+          return value: <none>
+          Name = "Paths_CleanUp"
+

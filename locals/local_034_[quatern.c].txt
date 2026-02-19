@@ -1,0 +1,101 @@
+ 34) Name:   C:\nfs2\game\common\quatern.c
+     Language is C
+     Locals: num = 1, offset = 0000009AH
+     Types:  num = 1, offset = 00000236H
+     Lines:  num = 1, offset = 000003C6H
+
+   *** Locals ***
+   ==============
+      Data 0:  offset 000100C7
+        0000: SET_BASE_386
+          base = 0001:0003A5D1
+        0008: NEAR_RTN_386
+          start off = 00000000, code size = 0000018C, parent off = 0000
+          prologue size = 11,  epilogue size = 8
+          return address offset (from bp) = 0000000C
+          return type:  47
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Parm 3: MULTI_REG(1): ECX
+          Name = "Quatern_Interpolate"
+        0038: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "q0",  type = 42
+        003F: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "q1",  type = 42
+        0046: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "cp0",  type = 46
+        004E: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "cp1",  type = 46
+        0056: LOCAL
+          address: BP_OFFSET_BYTE( 10 )
+          name = "weight",  type = 9
+        0061: LOCAL
+          address: BP_OFFSET_BYTE( 14 )
+          name = "q",  type = 42
+        0067: LOCAL
+          address: BP_OFFSET_BYTE( 18 )
+          name = "cp",  type = 46
+        006E: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "one_weight",  type = 9
+        007D: NEAR_RTN_386
+          start off = 0000018C, code size = 0000016E, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  53
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Name = "Quatern_QuatToMat"
+        00A7: LOCAL
+          address: BP_OFFSET_BYTE( C4 )
+          name = "q",  type = 42
+        00AD: LOCAL
+          address: BP_OFFSET_BYTE( C8 )
+          name = "matrix",  type = 52
+        00B8: LOCAL
+          address: BP_OFFSET_BYTE( CC )
+          name = "one",  type = 9
+        00C0: LOCAL
+          address: BP_OFFSET_BYTE( D0 )
+          name = "x",  type = 9
+        00C6: LOCAL
+          address: BP_OFFSET_BYTE( D4 )
+          name = "y",  type = 9
+        00CC: LOCAL
+          address: BP_OFFSET_BYTE( D8 )
+          name = "z",  type = 9
+        00D2: LOCAL
+          address: BP_OFFSET_BYTE( DC )
+          name = "wx",  type = 9
+        00D9: LOCAL
+          address: BP_OFFSET_BYTE( E0 )
+          name = "wy",  type = 9
+        00E0: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "wz",  type = 9
+        00E7: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "xx",  type = 9
+        00EE: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "xy",  type = 9
+        00F5: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "xz",  type = 9
+        00FC: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "yy",  type = 9
+        0103: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "yz",  type = 9
+        010A: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "zz",  type = 9
+

@@ -1,0 +1,24 @@
+  Name:  _biostickset
+    address      = 0002:00017090
+    module index = 497
+    kind:          (data)
+  Name:  _waitbios
+    address      = 0001:000C08C0
+    module index = 497
+    kind:          (code)
+  Name:  _getbiostick
+    address      = 0001:000C088C
+    module index = 497
+    kind:          (code)
+  Name:  _waitbiosticks
+    address      = 0001:000C08A2
+    module index = 497
+    kind:          (code)
+  Name:  _testbiosticks
+    address      = 0001:000C08B0
+    module index = 497
+    kind:          (code)
+  Name:  _setbiosticks
+    address      = 0001:000C0892
+    module index = 497
+    kind:          (code)

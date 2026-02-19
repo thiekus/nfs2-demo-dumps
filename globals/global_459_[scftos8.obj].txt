@@ -1,0 +1,4 @@
+  Name:  _copyftos8u
+    address      = 0001:000BE220
+    module index = 459
+    kind:          (code)

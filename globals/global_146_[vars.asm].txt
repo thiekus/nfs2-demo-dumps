@@ -1,0 +1,248 @@
+  Name:  _ismmx
+    address      = 0002:0001322C
+    module index = 146
+    kind:          (data)
+  Name:  _originx
+    address      = 0002:00013278
+    module index = 146
+    kind:          (data)
+  Name:  _externunpack
+    address      = 0002:000132C0
+    module index = 146
+    kind:          (data)
+  Name:  _originy
+    address      = 0002:0001327C
+    module index = 146
+    kind:          (data)
+  Name:  _mouseshown
+    address      = 0002:000131F0
+    module index = 146
+    kind:          (data)
+  Name:  _isrdts
+    address      = 0002:00013230
+    module index = 146
+    kind:          (data)
+  Name:  _externunpacklen
+    address      = 0002:000132BC
+    module index = 146
+    kind:          (data)
+  Name:  _yscale
+    address      = 0002:0001328C
+    module index = 146
+    kind:          (data)
+  Name:  _screenmodeindex
+    address      = 0002:00013210
+    module index = 146
+    kind:          (data)
+  Name:  _loadfilesize
+    address      = 0002:0001326C
+    module index = 146
+    kind:          (data)
+  Name:  _mouseratio
+    address      = 0002:000131F4
+    module index = 146
+    kind:          (data)
+  Name:  _screenvisiblew
+    address      = 0002:0001321C
+    module index = 146
+    kind:          (data)
+  Name:  _zclipvalue
+    address      = 0002:00013244
+    module index = 146
+    kind:          (data)
+  Name:  _clobbermouse
+    address      = 0002:000132A0
+    module index = 146
+    kind:          (data)
+  Name:  _screenvisibleh
+    address      = 0002:00013220
+    module index = 146
+    kind:          (data)
+  Name:  _screenvisiblex
+    address      = 0002:00013214
+    module index = 146
+    kind:          (data)
+  Name:  _screenbpp
+    address      = 0002:00013204
+    module index = 146
+    kind:          (data)
+  Name:  _screenmode
+    address      = 0002:00013208
+    module index = 146
+    kind:          (data)
+  Name:  _screenvisibley
+    address      = 0002:00013218
+    module index = 146
+    kind:          (data)
+  Name:  _setdialmouse
+    address      = 0002:000132B4
+    module index = 146
+    kind:          (data)
+  Name:  _grmode
+    address      = 0002:000131DC
+    module index = 146
+    kind:          (data)
+  Name:  _mouseflag
+    address      = 0002:000131E0
+    module index = 146
+    kind:          (data)
+  Name:  _splitline
+    address      = 0002:00013248
+    module index = 146
+    kind:          (data)
+  Name:  _joycalib
+    address      = 0002:000131F8
+    module index = 146
+    kind:          (data)
+  Name:  _chainccb
+    address      = 0002:000131CC
+    module index = 146
+    kind:          (data)
+  Name:  _iscmov
+    address      = 0002:00013234
+    module index = 146
+    kind:          (data)
+  Name:  _screenpages
+    address      = 0002:0001320C
+    module index = 146
+    kind:          (data)
+  Name:  _centerx
+    address      = 0002:00013280
+    module index = 146
+    kind:          (data)
+  Name:  _mx
+    address      = 0002:000131E4
+    module index = 146
+    kind:          (data)
+  Name:  _centery
+    address      = 0002:00013284
+    module index = 146
+    kind:          (data)
+  Name:  _vboard
+    address      = 0002:000131D4
+    module index = 146
+    kind:          (data)
+  Name:  _dactype
+    address      = 0002:00013268
+    module index = 146
+    kind:          (data)
+  Name:  _showmouse
+    address      = 0002:000132A8
+    module index = 146
+    kind:          (data)
+  Name:  _isamd
+    address      = 0002:00013240
+    module index = 146
+    kind:          (data)
+  Name:  _my
+    address      = 0002:000131E8
+    module index = 146
+    kind:          (data)
+  Name:  _screenheight
+    address      = 0002:00013200
+    module index = 146
+    kind:          (data)
+  Name:  _kanjiwidth
+    address      = 0002:000131D0
+    module index = 146
+    kind:          (data)
+  Name:  _resetdialmouse
+    address      = 0002:000132B8
+    module index = 146
+    kind:          (data)
+  Name:  _isp5
+    address      = 0002:00013224
+    module index = 146
+    kind:          (data)
+  Name:  _palseq
+    address      = 0002:00013258
+    module index = 146
+    kind:          (data)
+  Name:  _iscyrix
+    address      = 0002:0001323C
+    module index = 146
+    kind:          (data)
+  Name:  _cenypix
+    address      = 0002:00013274
+    module index = 146
+    kind:          (data)
+  Name:  _cenxpix
+    address      = 0002:00013270
+    module index = 146
+    kind:          (data)
+  Name:  _readmouse
+    address      = 0002:000132AC
+    module index = 146
+    kind:          (data)
+  Name:  _hidemouse
+    address      = 0002:000132A4
+    module index = 146
+    kind:          (data)
+  Name:  _xscale
+    address      = 0002:00013288
+    module index = 146
+    kind:          (data)
+  Name:  _timerperiod
+    address      = 0002:00013250
+    module index = 146
+    kind:          (data)
+  Name:  _isp6
+    address      = 0002:00013228
+    module index = 146
+    kind:          (data)
+  Name:  _mb_default
+    address      = 0002:00013264
+    module index = 146
+    kind:          (data)
+  Name:  _screenwidth
+    address      = 0002:000131FC
+    module index = 146
+    kind:          (data)
+  Name:  _mouseclick
+    address      = 0002:000132B0
+    module index = 146
+    kind:          (data)
+  Name:  _surfacelost
+    address      = 0002:0001325C
+    module index = 146
+    kind:          (data)
+  Name:  _ybangle
+    address      = 0002:00013298
+    module index = 146
+    kind:          (data)
+  Name:  _xbangle
+    address      = 0002:00013294
+    module index = 146
+    kind:          (data)
+  Name:  _timerhz
+    address      = 0002:0001324C
+    module index = 146
+    kind:          (data)
+  Name:  _aspectratio
+    address      = 0002:0001329C
+    module index = 146
+    kind:          (data)
+  Name:  _lockthreshhold
+    address      = 0002:00013260
+    module index = 146
+    kind:          (data)
+  Name:  _zclipflag
+    address      = 0002:00013290
+    module index = 146
+    kind:          (data)
+  Name:  _isintel
+    address      = 0002:00013238
+    module index = 146
+    kind:          (data)
+  Name:  _mbuttons
+    address      = 0002:000131EC
+    module index = 146
+    kind:          (data)
+  Name:  _isvesa
+    address      = 0002:000131D8
+    module index = 146
+    kind:          (data)
+  Name:  _hiddenpage
+    address      = 0002:00013254
+    module index = 146
+    kind:          (data)

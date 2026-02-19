@@ -1,0 +1,32 @@
+  Name:  fpumove4_
+    address      = 0001:00095640
+    module index = 221
+    kind:          (static pubdef) (code)
+  Name:  fpumove16_
+    address      = 0001:00095648
+    module index = 221
+    kind:          (static pubdef) (code)
+  Name:  fpumove24_
+    address      = 0001:00095650
+    module index = 221
+    kind:          (static pubdef) (code)
+  Name:  fpumove32_
+    address      = 0001:00095668
+    module index = 221
+    kind:          (static pubdef) (code)
+  Name:  _fpumovfxya
+    address      = 0001:00095670
+    module index = 221
+    kind:          (code)
+  Name:  _fpumovf
+    address      = 0001:0009568C
+    module index = 221
+    kind:          (code)
+  Name:  _fpumovfxy
+    address      = 0001:000956AC
+    module index = 221
+    kind:          (code)
+  Name:  _fpumovfdfl
+    address      = 0002:00013880
+    module index = 221
+    kind:          (static pubdef) (data)

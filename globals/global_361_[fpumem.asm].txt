@@ -1,0 +1,8 @@
+  Name:  fpublockmove_
+    address      = 0001:000B0B74
+    module index = 361
+    kind:          (code)
+  Name:  fpumemcpy_
+    address      = 0001:000B0B75
+    module index = 361
+    kind:          (code)

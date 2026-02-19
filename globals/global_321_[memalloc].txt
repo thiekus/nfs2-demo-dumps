@@ -1,0 +1,8 @@
+  Name:  __MemAllocator
+    address      = 0001:000A8B2E
+    module index = 321
+    kind:          (code)
+  Name:  __MemFree
+    address      = 0001:000A8BD6
+    module index = 321
+    kind:          (code)

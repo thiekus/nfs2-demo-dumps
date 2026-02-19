@@ -1,0 +1,16 @@
+  Name:  _shaperowtbl
+    address      = 0002:00067020
+    module index = 379
+    kind:          (data)
+  Name:  initshaperowtbl_
+    address      = 0001:000B3C80
+    module index = 379
+    kind:          (code)
+  Name:  _shaperowtblheight
+    address      = 0002:00067BF0
+    module index = 379
+    kind:          (static pubdef) (data)
+  Name:  _shaperowtblwidth
+    address      = 0002:00067BF4
+    module index = 379
+    kind:          (static pubdef) (data)

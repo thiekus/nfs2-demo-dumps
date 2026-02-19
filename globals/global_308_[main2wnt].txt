@@ -1,0 +1,4 @@
+  Name:  __NTMain
+    address      = 0001:000A7D01
+    module index = 308
+    kind:          (code)

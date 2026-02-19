@@ -1,0 +1,12 @@
+  Name:  _ups16frame
+    address      = 0001:000C3030
+    module index = 543
+    kind:          (code)
+  Name:  _ups16
+    address      = 0001:000C3038
+    module index = 543
+    kind:          (code)
+  Name:  _ups16setstate
+    address      = 0001:000C30E4
+    module index = 543
+    kind:          (code)

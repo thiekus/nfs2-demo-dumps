@@ -1,0 +1,84 @@
+  Name:  _wbpp
+    address      = 0002:00013BF0
+    module index = 249
+    kind:          (data)
+  Name:  _wminy
+    address      = 0002:00013BE4
+    module index = 249
+    kind:          (data)
+  Name:  _wram
+    address      = 0002:00013BF2
+    module index = 249
+    kind:          (data)
+  Name:  _wshape
+    address      = 0002:00013BF4
+    module index = 249
+    kind:          (data)
+  Name:  _screenwindow
+    address      = 0002:00013C0C
+    module index = 249
+    kind:          (data)
+  Name:  _screenbankseltbl
+    address      = 0002:00013C7C
+    module index = 249
+    kind:          (data)
+  Name:  _wbytes
+    address      = 0002:00013BFC
+    module index = 249
+    kind:          (data)
+  Name:  _currentwindow
+    address      = 0002:00013BD4
+    module index = 249
+    kind:          (data)
+  Name:  _rowtbl
+    address      = 0002:00013C00
+    module index = 249
+    kind:          (data)
+  Name:  _wwidth
+    address      = 0002:00013BD8
+    module index = 249
+    kind:          (data)
+  Name:  _wrowtbl
+    address      = 0002:00013C00
+    module index = 249
+    kind:          (data)
+  Name:  _wbpptbl
+    address      = 0002:00013C04
+    module index = 249
+    kind:          (data)
+  Name:  _maxx
+    address      = 0002:00013BE8
+    module index = 249
+    kind:          (data)
+  Name:  _maxy
+    address      = 0002:00013BEC
+    module index = 249
+    kind:          (data)
+  Name:  _minx
+    address      = 0002:00013BE0
+    module index = 249
+    kind:          (data)
+  Name:  _miny
+    address      = 0002:00013BE4
+    module index = 249
+    kind:          (data)
+  Name:  _wheight
+    address      = 0002:00013BDC
+    module index = 249
+    kind:          (data)
+  Name:  _wmaxx
+    address      = 0002:00013BE8
+    module index = 249
+    kind:          (data)
+  Name:  _screenwindowsec
+    address      = 0002:00013C44
+    module index = 249
+    kind:          (data)
+  Name:  _wmaxy
+    address      = 0002:00013BEC
+    module index = 249
+    kind:          (data)
+  Name:  _wminx
+    address      = 0002:00013BE0
+    module index = 249
+    kind:          (data)

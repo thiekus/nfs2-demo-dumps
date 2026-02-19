@@ -1,0 +1,112 @@
+  Name:  _tmrsub
+    address      = 0002:000510C0
+    module index = 116
+    kind:          (static pubdef) (data)
+  Name:  _timerresolution
+    address      = 0002:000510E0
+    module index = 116
+    kind:          (static pubdef) (data)
+  Name:  _timerinterval
+    address      = 0002:000510E4
+    module index = 116
+    kind:          (static pubdef) (data)
+  Name:  _timertargettick
+    address      = 0002:000510E8
+    module index = 116
+    kind:          (static pubdef) (data)
+  Name:  _audiotimer
+    address      = 0002:000510EC
+    module index = 116
+    kind:          (static pubdef) (data)
+  Name:  _timersignal
+    address      = 0002:000510F0
+    module index = 116
+    kind:          (static pubdef) (data)
+  Name:  _timerthread
+    address      = 0002:000510F4
+    module index = 116
+    kind:          (data)
+  Name:  _timerident
+    address      = 0002:00051108
+    module index = 116
+    kind:          (static pubdef) (data)
+  Name:  _timererror
+    address      = 0002:0005110C
+    module index = 116
+    kind:          (static pubdef) (data)
+  Name:  _timerrate
+    address      = 0002:00051110
+    module index = 116
+    kind:          (static pubdef) (data)
+  Name:  _timerdisabled
+    address      = 0002:00012EAC
+    module index = 116
+    kind:          (static pubdef) (data)
+  Name:  _timerthreadfunc
+    address      = 0001:00081C40
+    module index = 116
+    kind:          (static pubdef) (code)
+  Name:  _setaudiotimer
+    address      = 0001:00081D44
+    module index = 116
+    kind:          (code)
+  Name:  _cleartimerlist
+    address      = 0001:00081D50
+    module index = 116
+    kind:          (code)
+  Name:  _mmtimer_callback@20
+    address      = 0001:00081D64
+    module index = 116
+    kind:          (code)
+  Name:  _addtimer
+    address      = 0001:00081E58
+    module index = 116
+    kind:          (code)
+  Name:  _deltimer
+    address      = 0001:00081ED8
+    module index = 116
+    kind:          (code)
+  Name:  _timercount
+    address      = 0001:00081F3C
+    module index = 116
+    kind:          (code)
+  Name:  _disabletimer
+    address      = 0001:00081F64
+    module index = 116
+    kind:          (code)
+  Name:  _enabletimer
+    address      = 0001:00081F6C
+    module index = 116
+    kind:          (code)
+  Name:  restoretimer_
+    address      = 0001:00081F80
+    module index = 116
+    kind:          (code)
+  Name:  _inittimer
+    address      = 0001:00082014
+    module index = 116
+    kind:          (code)
+  Name:  _elapsedtimercycles
+    address      = 0002:00012EB0
+    module index = 116
+    kind:          (data)
+  Name:  _enabletimercycles
+    address      = 0002:00012EB4
+    module index = 116
+    kind:          (data)
+  Name:  _timerrecalibrations
+    address      = 0002:00012EB8
+    module index = 116
+    kind:          (data)
+  Name:  _biosticks
+    address      = 0002:00051114
+    module index = 116
+    kind:          (data)
+  Name:  _libticks
+    address      = 0002:00051118
+    module index = 116
+    kind:          (data)
+  Name:  _ticks
+    address      = 0002:0005111C
+    module index = 116
+    kind:          (data)

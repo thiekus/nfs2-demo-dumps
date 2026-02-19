@@ -1,0 +1,256 @@
+  Name:  _getstreamstatus
+    address      = 0001:0008B810
+    module index = 191
+    kind:          (code)
+  Name:  _setstreamqueuesize
+    address      = 0001:0008B814
+    module index = 191
+    kind:          (code)
+  Name:  _initstreamstructa
+    address      = 0001:0008B84C
+    module index = 191
+    kind:          (code)
+  Name:  _initstreamstructz
+    address      = 0001:0008BA00
+    module index = 191
+    kind:          (code)
+  Name:  _initstreamstruct
+    address      = 0001:0008BA1C
+    module index = 191
+    kind:          (code)
+  Name:  _initstreama
+    address      = 0001:0008BA38
+    module index = 191
+    kind:          (code)
+  Name:  _initstreamz
+    address      = 0001:0008BB00
+    module index = 191
+    kind:          (code)
+  Name:  _initstream
+    address      = 0001:0008BB1C
+    module index = 191
+    kind:          (code)
+  Name:  _setstreamspeed
+    address      = 0001:0008BB38
+    module index = 191
+    kind:          (code)
+  Name:  _defaultstreamspeed
+    address      = 0001:0008BD74
+    module index = 191
+    kind:          (code)
+  Name:  _delstreamstruct
+    address      = 0001:0008BD90
+    module index = 191
+    kind:          (code)
+  Name:  _delstream
+    address      = 0001:0008BE40
+    module index = 191
+    kind:          (code)
+  Name:  _streamcommanda
+    address      = 0001:0008BEF4
+    module index = 191
+    kind:          (code)
+  Name:  _purgestreamcommanda
+    address      = 0001:0008BFF0
+    module index = 191
+    kind:          (code)
+  Name:  _startstream
+    address      = 0001:0008C104
+    module index = 191
+    kind:          (code)
+  Name:  _startstreamz
+    address      = 0001:0008C120
+    module index = 191
+    kind:          (code)
+  Name:  _queuestartstream
+    address      = 0001:0008C13C
+    module index = 191
+    kind:          (code)
+  Name:  _queuestartstreamz
+    address      = 0001:0008C15C
+    module index = 191
+    kind:          (code)
+  Name:  _purgestartstream
+    address      = 0001:0008C17C
+    module index = 191
+    kind:          (code)
+  Name:  _purgestartstreamz
+    address      = 0001:0008C198
+    module index = 191
+    kind:          (code)
+  Name:  _startstreamidle
+    address      = 0001:0008C1B4
+    module index = 191
+    kind:          (code)
+  Name:  _startstreamidlez
+    address      = 0001:0008C1D0
+    module index = 191
+    kind:          (code)
+  Name:  _queuestartstreamidle
+    address      = 0001:0008C1EC
+    module index = 191
+    kind:          (code)
+  Name:  _queuestartstreamidlez
+    address      = 0001:0008C20C
+    module index = 191
+    kind:          (code)
+  Name:  _purgestartstreamidle
+    address      = 0001:0008C22C
+    module index = 191
+    kind:          (code)
+  Name:  _purgestartstreamidlez
+    address      = 0001:0008C248
+    module index = 191
+    kind:          (code)
+  Name:  _seekstream
+    address      = 0001:0008C264
+    module index = 191
+    kind:          (code)
+  Name:  _seekstreamz
+    address      = 0001:0008C284
+    module index = 191
+    kind:          (code)
+  Name:  _queueseekstream
+    address      = 0001:0008C2A4
+    module index = 191
+    kind:          (code)
+  Name:  _queueseekstreamz
+    address      = 0001:0008C2C4
+    module index = 191
+    kind:          (code)
+  Name:  _purgeseekstream
+    address      = 0001:0008C2E4
+    module index = 191
+    kind:          (code)
+  Name:  _purgeseekstreamz
+    address      = 0001:0008C304
+    module index = 191
+    kind:          (code)
+  Name:  _purgestreamqueue
+    address      = 0001:0008C324
+    module index = 191
+    kind:          (code)
+  Name:  _secondarystreamstruct
+    address      = 0001:0008C380
+    module index = 191
+    kind:          (code)
+  Name:  _secondarystream
+    address      = 0001:0008C46C
+    module index = 191
+    kind:          (code)
+  Name:  _streamreader
+    address      = 0001:0008C4CC
+    module index = 191
+    kind:          (code)
+  Name:  _streamreaderthread
+    address      = 0001:0008C520
+    module index = 191
+    kind:          (code)
+  Name:  releasechunks_
+    address      = 0001:0008D66C
+    module index = 191
+    kind:          (code)
+  Name:  streamspace_
+    address      = 0001:0008D6DC
+    module index = 191
+    kind:          (code)
+  Name:  streamendspace_
+    address      = 0001:0008D714
+    module index = 191
+    kind:          (code)
+  Name:  streamstartspace_
+    address      = 0001:0008D724
+    module index = 191
+    kind:          (code)
+  Name:  _getstreamchunk
+    address      = 0001:0008D740
+    module index = 191
+    kind:          (code)
+  Name:  _releasestreamchunk
+    address      = 0001:0008D850
+    module index = 191
+    kind:          (code)
+  Name:  _streamgetstatus
+    address      = 0001:0008D878
+    module index = 191
+    kind:          (code)
+  Name:  _streamreleasestatus
+    address      = 0001:0008D8CC
+    module index = 191
+    kind:          (code)
+  Name:  _streamidle
+    address      = 0001:0008D920
+    module index = 191
+    kind:          (code)
+  Name:  _streamfull
+    address      = 0001:0008D93C
+    module index = 191
+    kind:          (code)
+  Name:  _isendofstream
+    address      = 0001:0008D948
+    module index = 191
+    kind:          (code)
+  Name:  _setstreamcrc
+    address      = 0001:0008D97C
+    module index = 191
+    kind:          (code)
+  Name:  _clearstreamcrc
+    address      = 0001:0008D98C
+    module index = 191
+    kind:          (code)
+  Name:  _initstreamblocks
+    address      = 0001:0008D99C
+    module index = 191
+    kind:          (code)
+  Name:  _putstreamblock
+    address      = 0001:0008D9D4
+    module index = 191
+    kind:          (code)
+  Name:  _checkstreamblocksfree
+    address      = 0001:0008D9EC
+    module index = 191
+    kind:          (code)
+  Name:  _streamblocksfree
+    address      = 0001:0008DA40
+    module index = 191
+    kind:          (code)
+  Name:  _getstreamblocka
+    address      = 0001:0008DA88
+    module index = 191
+    kind:          (code)
+  Name:  _maxstreamblocks
+    address      = 0002:00013630
+    module index = 191
+    kind:          (data)
+  Name:  _cdspeed
+    address      = 0002:00013634
+    module index = 191
+    kind:          (data)
+  Name:  _seekticks
+    address      = 0002:00013638
+    module index = 191
+    kind:          (data)
+  Name:  _streamtime
+    address      = 0002:0001363C
+    module index = 191
+    kind:          (data)
+  Name:  _streambytes
+    address      = 0002:00013640
+    module index = 191
+    kind:          (data)
+  Name:  _cdms
+    address      = 0002:00013644
+    module index = 191
+    kind:          (data)
+  Name:  _cdrs
+    address      = 0002:00013648
+    module index = 191
+    kind:          (data)
+  Name:  _acdspeed
+    address      = 0002:00051960
+    module index = 191
+    kind:          (data)
+  Name:  _cdrate
+    address      = 0002:00051964
+    module index = 191
+    kind:          (data)

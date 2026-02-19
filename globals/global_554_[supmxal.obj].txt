@@ -1,0 +1,16 @@
+  Name:  upmxaresidual_
+    address      = 0001:000C39D0
+    module index = 554
+    kind:          (code)
+  Name:  _upmxaloopsection
+    address      = 0001:000C3A38
+    module index = 554
+    kind:          (static pubdef) (code)
+  Name:  _upmxal
+    address      = 0001:000C3C3C
+    module index = 554
+    kind:          (static pubdef) (code)
+  Name:  _upmxalsetstate
+    address      = 0001:000C3DE0
+    module index = 554
+    kind:          (code)

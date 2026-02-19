@@ -1,0 +1,4 @@
+  Name:  _fixedrange
+    address      = 0001:000C07F0
+    module index = 494
+    kind:          (code)

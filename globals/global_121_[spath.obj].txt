@@ -1,0 +1,80 @@
+  Name:  _gpathevent
+    address      = 0002:00051120
+    module index = 121
+    kind:          (static pubdef) (data)
+  Name:  _gpnode
+    address      = 0002:00051128
+    module index = 121
+    kind:          (static pubdef) (data)
+  Name:  _offsets
+    address      = 0002:0005112C
+    module index = 121
+    kind:          (static pubdef) (data)
+  Name:  _gpathstream
+    address      = 0002:00051130
+    module index = 121
+    kind:          (static pubdef) (data)
+  Name:  _gpathstreamsqueued
+    address      = 0002:00051134
+    module index = 121
+    kind:          (static pubdef) (data)
+  Name:  _gpeventlists
+    address      = 0002:00051138
+    module index = 121
+    kind:          (static pubdef) (data)
+  Name:  _gcurlatency
+    address      = 0002:0005113C
+    module index = 121
+    kind:          (static pubdef) (data)
+  Name:  _glatency
+    address      = 0002:0005113E
+    module index = 121
+    kind:          (static pubdef) (data)
+  Name:  _gcurrentnode
+    address      = 0002:00051140
+    module index = 121
+    kind:          (static pubdef) (data)
+  Name:  _gpathcontrol
+    address      = 0002:00051142
+    module index = 121
+    kind:          (static pubdef) (data)
+  Name:  iSNDpathserver_
+    address      = 0001:00082650
+    module index = 121
+    kind:          (code)
+  Name:  iSNDpathseeknextnode_
+    address      = 0001:00082678
+    module index = 121
+    kind:          (code)
+  Name:  iSNDpathbuftimesignal_
+    address      = 0001:00082800
+    module index = 121
+    kind:          (code)
+  Name:  SNDpathinit_
+    address      = 0001:00082814
+    module index = 121
+    kind:          (code)
+  Name:  SNDpathstartstream_
+    address      = 0001:000828DC
+    module index = 121
+    kind:          (code)
+  Name:  SNDpathcontrol_
+    address      = 0001:000829A0
+    module index = 121
+    kind:          (code)
+  Name:  SNDpathevent_
+    address      = 0001:000829E4
+    module index = 121
+    kind:          (code)
+  Name:  SNDpathrestore_
+    address      = 0001:00082A94
+    module index = 121
+    kind:          (code)
+  Name:  _gphdr
+    address      = 0002:00012EBC
+    module index = 121
+    kind:          (static pubdef) (data)
+  Name:  _padpath
+    address      = 0002:00051143
+    module index = 121
+    kind:          (data)

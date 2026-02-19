@@ -1,0 +1,12 @@
+  Name:  _upmxafframe
+    address      = 0001:000C4A30
+    module index = 559
+    kind:          (code)
+  Name:  _upmxaf
+    address      = 0001:000C4A38
+    module index = 559
+    kind:          (code)
+  Name:  _upmxafsetstate
+    address      = 0001:000C4B98
+    module index = 559
+    kind:          (code)

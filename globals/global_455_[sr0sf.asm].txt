@@ -1,0 +1,16 @@
+  Name:  _rs0sfgetframes
+    address      = 0001:000BD9CD
+    module index = 455
+    kind:          (code)
+  Name:  _rs0sfsetstate
+    address      = 0001:000BD978
+    module index = 455
+    kind:          (code)
+  Name:  _rs0sf
+    address      = 0001:000BDA13
+    module index = 455
+    kind:          (code)
+  Name:  _rs0sfsetpitch
+    address      = 0001:000BD9B8
+    module index = 455
+    kind:          (code)

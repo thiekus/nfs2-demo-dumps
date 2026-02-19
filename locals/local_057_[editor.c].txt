@@ -1,0 +1,187 @@
+ 57) Name:   C:\nfs2\frontend\pc\editor.c
+     Language is C
+     Locals: num = 1, offset = 000000F6H
+     Types:  num = 1, offset = 00000292H
+     Lines:  num = 1, offset = 0000041EH
+
+   *** Locals ***
+   ==============
+      Data 0:  offset 00016051
+        0000: MODULE_386
+          "Editor" addr = 0002:0000EF7C,  type = 50
+        000F: MODULE_386
+          "EditorText" addr = 0002:0000EF80,  type = 55
+        0022: MODULE_386
+          "AcceptInput" addr = 0002:0000EF84,  type = 9
+        0036: SET_BASE_386
+          base = 0001:0004A847
+        003E: NEAR_RTN_386
+          start off = 00000000, code size = 000001A5, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  58
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Editor_Open"
+        0060: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "info",  type = 57
+        0069: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "linesPerWin",  type = 9
+        0079: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "charsPerLine",  type = 9
+        008A: NEAR_RTN_386
+          start off = 000001A5, code size = 00000061, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  23
+          return value: <none>
+          Name = "Editor_Close"
+        00AB: NEAR_RTN_386
+          start off = 00000206, code size = 0000005A, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  23
+          return value: <none>
+          Name = "Editor_ClearAllWindows"
+        00D6: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "i",  type = 9
+        00DC: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "tmpAcceptInput",  type = 9
+        00EF: NEAR_RTN_386
+          start off = 00000260, code size = 0000009F, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  59
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Editor_ClearWindow"
+        0118: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "winNum",  type = 9
+        0123: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "i",  type = 9
+        0129: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "tmpAcceptInput",  type = 9
+        013C: NEAR_RTN_386
+          start off = 000002FF, code size = 00000075, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  60
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Name = "Editor_ClearLine"
+        0165: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "winNum",  type = 9
+        0170: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "lineNum",  type = 9
+        017C: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "line",  type = 61
+        0185: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "tmpAcceptInput",  type = 9
+        0198: NEAR_RTN_386
+          start off = 00000374, code size = 00000063, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  63
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Name = "Editor_InsertString"
+        01C5: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "winNum",  type = 9
+        01D0: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "c",  type = 62
+        01D6: NEAR_RTN_386
+          start off = 000003D7, code size = 000001D9, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  64
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Name = "Editor_InsertChar"
+        0201: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "winNum",  type = 9
+        020C: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "c",  type = 4
+        0212: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "curLine",  type = 61
+        021E: NEAR_RTN_386
+          start off = 000005B0, code size = 000000FB, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  65
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Editor_DeleteChar"
+        0247: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "winNum",  type = 9
+        0252: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "curLineIndex",  type = 9
+        0263: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "curLine",  type = 61
+        026F: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "curWin",  type = 66
+        027A: BLOCK_386
+          start off = 000006CA, code size = 000000A2, parent off = 02C1
+        0286: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "visHead",  type = 9
+        0292: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "length",  type = 9
+        029D: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "amt2Cpy",  type = 9
+        02A9: BLOCK_386
+          start off = 00000771, code size = 00000076, parent off = 02C1
+        02B5: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "visHead",  type = 9
+        02C1: NEAR_RTN_386
+          start off = 000006AB, code size = 00000150, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  67
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Editor_GetWindowText"
+        02ED: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "winNum",  type = 9
+        02F8: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "i",  type = 9
+        02FE: NEAR_RTN_386
+          start off = 000007FB, code size = 0000002E, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  59
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Editor_CheckForWordWrap"
+        032C: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "winNum",  type = 9
+

@@ -1,0 +1,36 @@
+  Name:  log_
+    address      = 0001:000C9CDF
+    module index = 603
+    kind:          (code)
+  Name:  log2_
+    address      = 0001:000C9CF7
+    module index = 603
+    kind:          (code)
+  Name:  log10_
+    address      = 0001:000C9CEB
+    module index = 603
+    kind:          (code)
+  Name:  IF@LOG
+    address      = 0001:000C9C94
+    module index = 603
+    kind:          (code)
+  Name:  IF@DLOG
+    address      = 0001:000C9C94
+    module index = 603
+    kind:          (code)
+  Name:  IF@LOG2
+    address      = 0001:000C9CD7
+    module index = 603
+    kind:          (code)
+  Name:  IF@DLOG2
+    address      = 0001:000C9CD7
+    module index = 603
+    kind:          (code)
+  Name:  IF@LOG10
+    address      = 0001:000C9CDB
+    module index = 603
+    kind:          (code)
+  Name:  IF@DLOG10
+    address      = 0001:000C9CDB
+    module index = 603
+    kind:          (code)

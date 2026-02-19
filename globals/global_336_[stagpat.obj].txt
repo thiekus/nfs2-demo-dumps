@@ -1,0 +1,32 @@
+  Name:  iSNDgetdata_
+    address      = 0001:000AF340
+    module index = 336
+    kind:          (code)
+  Name:  iSNDresetpatch_
+    address      = 0001:000AF3A0
+    module index = 336
+    kind:          (code)
+  Name:  iSNDresettimbre_
+    address      = 0001:000AF3A8
+    module index = 336
+    kind:          (code)
+  Name:  iSNDresolveheader_
+    address      = 0001:000AF464
+    module index = 336
+    kind:          (code)
+  Name:  iSNDplaytaggedpatch_
+    address      = 0001:000AF4B0
+    module index = 336
+    kind:          (code)
+  Name:  iSNDresolvetaggedpatch_
+    address      = 0001:000AFB68
+    module index = 336
+    kind:          (code)
+  Name:  iSNDremovetaggedpatch_
+    address      = 0001:000AFC44
+    module index = 336
+    kind:          (code)
+  Name:  _defaultenvelope
+    address      = 0002:00015774
+    module index = 336
+    kind:          (static pubdef) (data)

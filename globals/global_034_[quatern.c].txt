@@ -1,0 +1,8 @@
+  Name:  Quatern_Interpolate_
+    address      = 0001:0003A5D1
+    module index = 34
+    kind:          (code)
+  Name:  Quatern_QuatToMat_
+    address      = 0001:0003A75D
+    module index = 34
+    kind:          (code)

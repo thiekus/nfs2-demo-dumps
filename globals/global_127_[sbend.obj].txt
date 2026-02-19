@@ -1,0 +1,4 @@
+  Name:  SNDpitchbend_
+    address      = 0001:00082D00
+    module index = 127
+    kind:          (code)

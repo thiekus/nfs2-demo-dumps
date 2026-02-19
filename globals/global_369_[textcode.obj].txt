@@ -1,0 +1,16 @@
+  Name:  decodeansi_
+    address      = 0001:000B2B80
+    module index = 369
+    kind:          (code)
+  Name:  remapshiftjiscode_
+    address      = 0001:000B2B94
+    module index = 369
+    kind:          (code)
+  Name:  decodeshiftjis_
+    address      = 0001:000B2BAC
+    module index = 369
+    kind:          (code)
+  Name:  _RemapTable
+    address      = 0002:000161BC
+    module index = 369
+    kind:          (static pubdef) (data)

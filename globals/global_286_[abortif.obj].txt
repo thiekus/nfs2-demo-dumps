@@ -1,0 +1,4 @@
+  Name:  assertiflocked_
+    address      = 0001:000A1E90
+    module index = 286
+    kind:          (code)

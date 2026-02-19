@@ -1,0 +1,12 @@
+  Name:  _nexpand_
+    address      = 0001:000C79FB
+    module index = 587
+    kind:          (code)
+  Name:  _expand_
+    address      = 0001:000C79FB
+    module index = 587
+    kind:          (code)
+  Name:  __HeapManager_expand_
+    address      = 0001:000C7A35
+    module index = 587
+    kind:          (code)

@@ -1,0 +1,124 @@
+  Name:  _crinc
+    address      = 0002:00051160
+    module index = 162
+    kind:          (static pubdef) (data)
+  Name:  _cbinc
+    address      = 0002:00051164
+    module index = 162
+    kind:          (static pubdef) (data)
+  Name:  _cginc
+    address      = 0002:00051168
+    module index = 162
+    kind:          (static pubdef) (data)
+  Name:  _rdp
+    address      = 0002:0005116C
+    module index = 162
+    kind:          (static pubdef) (data)
+  Name:  _cdp
+    address      = 0002:00051170
+    module index = 162
+    kind:          (static pubdef) (data)
+  Name:  _cindex
+    address      = 0002:00051174
+    module index = 162
+    kind:          (static pubdef) (data)
+  Name:  _crgbp
+    address      = 0002:00051178
+    module index = 162
+    kind:          (static pubdef) (data)
+  Name:  _gcenter
+    address      = 0002:0005117C
+    module index = 162
+    kind:          (static pubdef) (data)
+  Name:  _x
+    address      = 0002:00051180
+    module index = 162
+    kind:          (static pubdef) (data)
+  Name:  _bcenter
+    address      = 0002:00051184
+    module index = 162
+    kind:          (static pubdef) (data)
+  Name:  _colormax
+    address      = 0002:00051188
+    module index = 162
+    kind:          (static pubdef) (data)
+  Name:  _xsqr
+    address      = 0002:0005118C
+    module index = 162
+    kind:          (static pubdef) (data)
+  Name:  _gdp
+    address      = 0002:00051190
+    module index = 162
+    kind:          (static pubdef) (data)
+  Name:  _cdist
+    address      = 0002:00051194
+    module index = 162
+    kind:          (static pubdef) (data)
+  Name:  _rcenter
+    address      = 0002:00051198
+    module index = 162
+    kind:          (static pubdef) (data)
+  Name:  _rdist
+    address      = 0002:0005119C
+    module index = 162
+    kind:          (static pubdef) (data)
+  Name:  inv_cmap_
+    address      = 0001:00085750
+    module index = 162
+    kind:          (static pubdef) (code)
+  Name:  redloop_
+    address      = 0001:00085968
+    module index = 162
+    kind:          (static pubdef) (code)
+  Name:  greenloop_
+    address      = 0001:00085AEC
+    module index = 162
+    kind:          (static pubdef) (code)
+  Name:  blueloop_
+    address      = 0001:00085D90
+    module index = 162
+    kind:          (static pubdef) (code)
+  Name:  maxfill_
+    address      = 0001:00085F04
+    module index = 162
+    kind:          (static pubdef) (code)
+  Name:  restoreinversetable_
+    address      = 0001:00085F28
+    module index = 162
+    kind:          (code)
+  Name:  _tgainversetable
+    address      = 0001:00085F48
+    module index = 162
+    kind:          (code)
+  Name:  _vgainversetable
+    address      = 0001:00085FE4
+    module index = 162
+    kind:          (code)
+  Name:  _palinversetable
+    address      = 0001:00086014
+    module index = 162
+    kind:          (code)
+  Name:  _initinversetable
+    address      = 0001:00086044
+    module index = 162
+    kind:          (code)
+  Name:  _rrgbp
+    address      = 0002:000511A0
+    module index = 162
+    kind:          (static pubdef) (data)
+  Name:  _grgbp
+    address      = 0002:000511A4
+    module index = 162
+    kind:          (static pubdef) (data)
+  Name:  _gdist
+    address      = 0002:000511A8
+    module index = 162
+    kind:          (static pubdef) (data)
+  Name:  _gstride
+    address      = 0002:000511AC
+    module index = 162
+    kind:          (static pubdef) (data)
+  Name:  _rstride
+    address      = 0002:000511B0
+    module index = 162
+    kind:          (static pubdef) (data)

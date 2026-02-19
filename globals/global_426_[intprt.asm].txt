@@ -1,0 +1,16 @@
+  Name:  _interpretclear
+    address      = 0001:000BB93B
+    module index = 426
+    kind:          (code)
+  Name:  _interpretsub
+    address      = 0001:000BB8E9
+    module index = 426
+    kind:          (code)
+  Name:  _interpretkey
+    address      = 0001:000BB890
+    module index = 426
+    kind:          (code)
+  Name:  _normkeysubs
+    address      = 0002:00016CD8
+    module index = 426
+    kind:          (data)

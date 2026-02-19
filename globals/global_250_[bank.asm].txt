@@ -1,0 +1,36 @@
+  Name:  vesasetdisplaybanksel_
+    address      = 0001:0009D11A
+    module index = 250
+    kind:          (code)
+  Name:  _currentbanksel
+    address      = 0002:00013C84
+    module index = 250
+    kind:          (data)
+  Name:  _modeset
+    address      = 0001:0009D0DA
+    module index = 250
+    kind:          (code)
+  Name:  _bankselgranshift
+    address      = 0002:00013C80
+    module index = 250
+    kind:          (data)
+  Name:  _modeset7
+    address      = 0001:0009D0ED
+    module index = 250
+    kind:          (code)
+  Name:  banksel_
+    address      = 0001:0009D064
+    module index = 250
+    kind:          (code)
+  Name:  _banksel
+    address      = 0001:0009D060
+    module index = 250
+    kind:          (code)
+  Name:  _videoboardtype
+    address      = 0002:00013C7C
+    module index = 250
+    kind:          (data)
+  Name:  vesasetdisplaystart_
+    address      = 0001:0009D101
+    module index = 250
+    kind:          (code)

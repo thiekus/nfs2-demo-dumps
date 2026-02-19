@@ -1,0 +1,12 @@
+  Name:  _centerftext
+    address      = 0001:000B93C0
+    module index = 395
+    kind:          (code)
+  Name:  _centertext
+    address      = 0001:000B9480
+    module index = 395
+    kind:          (code)
+  Name:  _centerfortext
+    address      = 0001:000B94D8
+    module index = 395
+    kind:          (code)

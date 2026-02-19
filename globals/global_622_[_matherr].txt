@@ -1,0 +1,20 @@
+  Name:  _set_matherr_
+    address      = 0001:000CAF3D
+    module index = 622
+    kind:          (code)
+  Name:  __rterrmsg_
+    address      = 0001:000CAF43
+    module index = 622
+    kind:          (code)
+  Name:  _matherr_
+    address      = 0001:000CAF8B
+    module index = 622
+    kind:          (code)
+  Name:  _Msgs
+    address      = 0002:0000BC98
+    module index = 622
+    kind:          (static pubdef) (data)
+  Name:  __RWD_matherr
+    address      = 0002:00018DA4
+    module index = 622
+    kind:          (data)

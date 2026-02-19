@@ -1,0 +1,40 @@
+  Name:  _idctPrescale
+    address      = 0002:00013CBC
+    module index = 260
+    kind:          (static pubdef) (data)
+  Name:  MakeTableEntry_
+    address      = 0001:0009DD70
+    module index = 260
+    kind:          (static pubdef) (code)
+  Name:  _uvinitvideodecoder
+    address      = 0001:0009E038
+    module index = 260
+    kind:          (code)
+  Name:  _uvsetqualityindex
+    address      = 0001:0009E184
+    module index = 260
+    kind:          (code)
+  Name:  _uvdecodedcblock
+    address      = 0001:0009E2A0
+    module index = 260
+    kind:          (code)
+  Name:  _uvflag
+    address      = 0002:00013DBC
+    module index = 260
+    kind:          (data)
+  Name:  _uvQuant
+    address      = 0002:00053C20
+    module index = 260
+    kind:          (data)
+  Name:  _uvTableY
+    address      = 0002:00053D20
+    module index = 260
+    kind:          (data)
+  Name:  _uvTableCb
+    address      = 0002:00053F20
+    module index = 260
+    kind:          (data)
+  Name:  _uvTableCr
+    address      = 0002:00054120
+    module index = 260
+    kind:          (data)

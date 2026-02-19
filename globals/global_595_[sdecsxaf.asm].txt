@@ -1,0 +1,4 @@
+  Name:  _decodesxaf
+    address      = 0001:000C82B0
+    module index = 595
+    kind:          (code)

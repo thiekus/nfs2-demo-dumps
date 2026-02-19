@@ -1,0 +1,12 @@
+  Name:  _nfree_
+    address      = 0001:0008955D
+    module index = 182
+    kind:          (code)
+  Name:  free_
+    address      = 0001:0008955D
+    module index = 182
+    kind:          (code)
+  Name:  ___MiniHeapFreeRover
+    address      = 0002:00051800
+    module index = 182
+    kind:          (data)

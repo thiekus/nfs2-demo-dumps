@@ -1,0 +1,4 @@
+  Name:  _crc16
+    address      = 0001:000B9CB0
+    module index = 400
+    kind:          (code)

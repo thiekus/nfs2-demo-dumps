@@ -1,0 +1,28 @@
+  Name:  _addsystemtask
+    address      = 0001:000864B0
+    module index = 167
+    kind:          (code)
+  Name:  _delsystemtask
+    address      = 0001:00086554
+    module index = 167
+    kind:          (code)
+  Name:  _systemtask
+    address      = 0001:00086590
+    module index = 167
+    kind:          (code)
+  Name:  _abortablewait
+    address      = 0001:000866A0
+    module index = 167
+    kind:          (code)
+  Name:  _elapsedtaskcycles
+    address      = 0002:0001354C
+    module index = 167
+    kind:          (data)
+  Name:  _enabletaskcycles
+    address      = 0002:00013550
+    module index = 167
+    kind:          (data)
+  Name:  _systemtasksubs
+    address      = 0002:000511E8
+    module index = 167
+    kind:          (static pubdef) (data)

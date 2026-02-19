@@ -1,0 +1,586 @@
+ 62) Name:   C:\nfs2\game\pc\dash.c
+     Language is C
+     Locals: num = 1, offset = 0000010AH
+     Types:  num = 1, offset = 000002A6H
+     Lines:  num = 1, offset = 0000042EH
+
+   *** Locals ***
+   ==============
+      Data 0:  offset 00016F4B
+        0000: MODULE_386
+          "Dash_gMirror" addr = 0002:000468D0,  type = 62
+        0015: MODULE_386
+          "gIndiGear" addr = 0002:000468D8,  type = 62
+        0027: MODULE_386
+          "Dash_gSideMirror" addr = 0002:000468E0,  type = 62
+        0040: MODULE_386
+          "gIndiSpeed" addr = 0002:000468E8,  type = 62
+        0053: MODULE_386
+          "gIndiTemp" addr = 0002:000468F0,  type = 62
+        0065: MODULE_386
+          "gIndiTach1" addr = 0002:000468F8,  type = 62
+        0078: MODULE_386
+          "gIndiTach0" addr = 0002:00046900,  type = 62
+        008B: MODULE_386
+          "gCFacet" addr = 0002:00046908,  type = 70
+        009B: MODULE_386
+          "gPixMap" addr = 0002:00046938,  type = 78
+        00AB: MODULE_386
+          "gFacet" addr = 0002:00046AA0,  type = 83
+        00BA: MODULE_386
+          "gShapeFileHd" addr = 0002:000475E0,  type = 13
+        00CF: MODULE_386
+          "gShapeFile" addr = 0002:000475E4,  type = 13
+        00E2: MODULE_386
+          "gPreviousDash" addr = 0002:000475E8,  type = 9
+        00F8: MODULE_386
+          "gPreviousSteerAngle" addr = 0002:000475EC,  type = 9
+        0114: MODULE_386
+          "gIndex" addr = 0002:0000F064,  type = 9
+        0123: MODULE_386
+          "gPreviousHud" addr = 0002:000475F0,  type = 9
+        0138: MODULE_386
+          "gDrawWheel" addr = 0002:000475F4,  type = 9
+        014B: MODULE_386
+          "gLFacet" addr = 0002:000475F8,  type = 87
+        015B: MODULE_386
+          "gTach" addr = 0002:000476A2,  type = 92
+        0169: MODULE_386
+          "gSpdo" addr = 0002:00047718,  type = 92
+        0177: MODULE_386
+          "gSetWin" addr = 0002:0004778E,  type = 95
+        0187: MODULE_386
+          "gCurrentWin" addr = 0002:00047797,  type = 4
+        019B: SET_BASE_386
+          base = 0001:0004CF16
+        01A3: NEAR_RTN_386
+          start off = 00000000, code size = 00000164, parent off = 0000
+          prologue size = 11,  epilogue size = 6
+          return address offset (from bp) = 0000000C
+          return type:  99
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Parm 3: MULTI_REG(1): ECX
+          Name = "Dash_SetGauge"
+        01CD: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "g",  type = 96
+        01D3: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "h",  type = 97
+        01D9: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "numangles",  type = 9
+        01E7: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "p",  type = 98
+        01ED: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "x",  type = 9
+        01F3: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "y",  type = 9
+        01F9: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "a",  type = 100
+        01FF: NEAR_RTN_386
+          start off = 00000164, code size = 0000011A, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  21
+          return value: <none>
+          Name = "Dash_InitGauges"
+        0223: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "s",  type = 74
+        0229: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "h",  type = 97
+        022F: LOCAL
+          address: CONST_ADDR386( 0002:0000F068 )
+          name = "colors",  type = 102
+        023F: BLOCK_386
+          start off = 00000299, code size = 000000C6, parent off = 025D
+        024B: LOCAL
+          address: BP_OFFSET_WORD( 00FC )
+          name = "name",  type = 103
+        0255: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "car",  type = 9
+        025D: NEAR_RTN_386
+          start off = 0000027E, code size = 000000EA, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  21
+          return value: <none>
+          Name = "Dash_ModuleRegister"
+        0285: NEAR_RTN_386
+          start off = 00000368, code size = 0000026D, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  104
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Dash_InitTextures"
+        02AD: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "car",  type = 9
+        02B5: LOCAL
+          address: BP_OFFSET_BYTE( 9C )
+          name = "wheel",  type = 106
+        02BF: LOCAL
+          address: BP_OFFSET_WORD( 009C )
+          name = "name",  type = 107
+        02C9: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "i",  type = 9
+        02CF: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "j",  type = 9
+        02D5: NEAR_RTN_386
+          start off = 000005D5, code size = 0000003A, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  21
+          return value: <none>
+          Name = "Dash_KillTextures"
+        02FB: NEAR_RTN_386
+          start off = 0000060F, code size = 0000001F, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  21
+          return value: <none>
+          Name = "Dash_ResetDash"
+        031E: NEAR_RTN_386
+          start off = 0000062E, code size = 00000015, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  21
+          return value: <none>
+          Name = "Dash_Calculations"
+        0344: NEAR_RTN_386
+          start off = 00000643, code size = 00000075, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  108
+          return value: MULTI_REG(1): EAX
+          Name = "Dash_HasChanged"
+        0369: LOCAL
+          address: CONST_ADDR386( 0002:00047798 )
+          name = "prev",  type = 9
+        0377: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "car",  type = 230
+        0380: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "dash",  type = 9
+        0389: NEAR_RTN_386
+          start off = 000006B8, code size = 00000037, parent off = 0000
+          prologue size = 12,  epilogue size = 7
+          return address offset (from bp) = 00000010
+          return type:  231
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Name = "Dash_GetRVOffset"
+        03B5: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "xo",  type = 100
+        03BC: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "yo",  type = 100
+        03C3: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "xdo",  type = 100
+        03CB: NEAR_RTN_386
+          start off = 000006EF, code size = 0000002C, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  236
+          return value: MULTI_REG(1): EAX
+          Name = "Dash_GetEnviro"
+        03F0: LOCAL
+          address: CONST_ADDR386( 0002:0000F09E )
+          name = "enviro",  type = 237
+        0401: NEAR_RTN_386
+          start off = 0000071B, code size = 00000057, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  108
+          return value: MULTI_REG(1): EAX
+          Name = "Dash_GetHeight"
+        0425: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "car",  type = 230
+        042E: LOCAL
+          address: CONST_ADDR386( 0002:0000F0E6 )
+          name = "height",  type = 238
+        043F: NEAR_RTN_386
+          start off = 00000772, code size = 00000073, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  239
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Dash_GetWheelTexture"
+        046C: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "angle",  type = 9
+        0476: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "texture",  type = 9
+        0482: NEAR_RTN_386
+          start off = 000007E5, code size = 000000CD, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  240
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Name = "Dash_MoveDash"
+        04A9: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "shape",  type = 74
+        04B3: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "mask",  type = 13
+        04BC: NEAR_RTN_386
+          start off = 000008B2, code size = 0000014B, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  241
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Dash_ClipGauge"
+        04E2: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "g",  type = 96
+        04E8: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "clip",  type = 242
+        04F2: NEAR_RTN_386
+          start off = 000009FD, code size = 00000129, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  21
+          return value: <none>
+          Name = "Dash_CalcTach"
+        0514: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "g",  type = 96
+        051A: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "rpm",  type = 9
+        0522: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "angle",  type = 9
+        052C: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "index",  type = 9
+        0536: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "s",  type = 9
+        053C: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "c",  type = 9
+        0542: NEAR_RTN_386
+          start off = 00000B26, code size = 00000136, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  21
+          return value: <none>
+          Name = "Dash_CalcSpdo"
+        0564: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "g",  type = 96
+        056A: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "speed",  type = 9
+        0574: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "angle",  type = 9
+        057E: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "index",  type = 9
+        0588: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "s",  type = 9
+        058E: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "c",  type = 9
+        0594: NEAR_RTN_386
+          start off = 00000C5C, code size = 00000079, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  247
+          return value: IND_REG_CALLOC_NEAR( ESI )
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Dash_BuildSetWin"
+        05BD: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "win",  type = 4
+        05C5: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "lf",  type = 246
+        05CD: NEAR_RTN_386
+          start off = 00000CD5, code size = 00000137, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  248
+          return value: IND_REG_CALLOC_NEAR( ESI )
+          Name = "Dash_BuildTach"
+        05F2: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "lf",  type = 246
+        05FA: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "i",  type = 9
+        0600: LOCAL
+          address: BP_OFFSET_BYTE( C0 )
+          name = "offset",  type = 249
+        060C: NEAR_RTN_386
+          start off = 00000E0C, code size = 00000137, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  248
+          return value: IND_REG_CALLOC_NEAR( ESI )
+          Name = "Dash_BuildSpdo"
+        0631: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "lf",  type = 246
+        0639: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "i",  type = 9
+        063F: LOCAL
+          address: BP_OFFSET_BYTE( C0 )
+          name = "offset",  type = 250
+        064B: NEAR_RTN_386
+          start off = 00000F43, code size = 00000077, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  248
+          return value: IND_REG_CALLOC_NEAR( ESI )
+          Name = "Dash_BuildNeedles"
+        0673: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "f1",  type = 246
+        067B: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "f2",  type = 246
+        0683: NEAR_RTN_386
+          start off = 00000FBA, code size = 00000086, parent off = 0000
+          prologue size = 12,  epilogue size = 7
+          return address offset (from bp) = 00000010
+          return type:  252
+          return value: IND_REG_CALLOC_NEAR( ESI )
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Name = "Dash_BuildGaugeClip"
+        06B1: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "g",  type = 96
+        06B7: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "f",  type = 251
+        06BE: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "lf",  type = 246
+        06C6: NEAR_RTN_386
+          start off = 00001040, code size = 000000A5, parent off = 0000
+          prologue size = 12,  epilogue size = 7
+          return address offset (from bp) = 00000010
+          return type:  253
+          return value: IND_REG_CALLOC_NEAR( ESI )
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Name = "Dash_BuildClip"
+        06EF: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "shp",  type = 74
+        06F7: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "f",  type = 251
+        06FE: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "lf",  type = 246
+        0706: NEAR_RTN_386
+          start off = 000010E5, code size = 0000025E, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  254
+          return value: IND_REG_CALLOC_NEAR( ESI )
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Dash_BuildCockpit"
+        0730: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "type",  type = 9
+        0739: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "lf",  type = 246
+        0741: NEAR_RTN_386
+          start off = 00001343, code size = 00000276, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  248
+          return value: IND_REG_CALLOC_NEAR( ESI )
+          Name = "Dash_BuildClippedNeedles"
+        0770: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "f1",  type = 246
+        0778: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "f2",  type = 246
+        0780: NEAR_RTN_386
+          start off = 000015B9, code size = 000001EB, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  248
+          return value: IND_REG_CALLOC_NEAR( ESI )
+          Name = "Dash_BuildMirror"
+        07A7: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "lf",  type = 246
+        07AF: NEAR_RTN_386
+          start off = 000017A4, code size = 000001C2, parent off = 0000
+          prologue size = 11,  epilogue size = 6
+          return address offset (from bp) = 0000000C
+          return type:  255
+          return value: IND_REG_CALLOC_NEAR( ESI )
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Name = "Dash_BuildNumber"
+        07DC: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "string",  type = 13
+        07E7: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "x",  type = 9
+        07ED: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "y",  type = 9
+        07F3: LOCAL
+          address: BP_OFFSET_BYTE( D8 )
+          name = "lf",  type = 246
+        07FB: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "shape",  type = 79
+        0805: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "i",  type = 9
+        080B: NEAR_RTN_386
+          start off = 00001966, code size = 0000011B, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  248
+          return value: IND_REG_CALLOC_NEAR( ESI )
+          Name = "Dash_BuildIndiTach"
+        0834: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "facet",  type = 262
+        083F: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "tach",  type = 9
+        0848: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "max",  type = 9
+        0850: NEAR_RTN_386
+          start off = 00001A81, code size = 00000250, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  248
+          return value: IND_REG_CALLOC_NEAR( ESI )
+          Name = "Dash_BuildIndiGauges"
+        087B: LOCAL
+          address: BP_OFFSET_BYTE( E0 )
+          name = "f1",  type = 246
+        0883: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "f2",  type = 246
+        088B: LOCAL
+          address: BP_OFFSET_WORD( 00E0 )
+          name = "string",  type = 263
+        0898: LOCAL
+          address: CONST_ADDR386( 0002:0000F10A )
+          name = "gear",  type = 264
+        08A7: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "car",  type = 230
+        08B0: NEAR_RTN_386
+          start off = 00001CD1, code size = 00000141, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  248
+          return value: IND_REG_CALLOC_NEAR( ESI )
+          Name = "Dash_BuildClippedIndiGauges"
+        08E2: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "f1",  type = 246
+        08EA: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "f2",  type = 246
+        08F2: NEAR_RTN_386
+          start off = 00001E12, code size = 0000031B, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  248
+          return value: IND_REG_CALLOC_NEAR( ESI )
+          Name = "Dash_BuildWholeDash"
+        091C: LOCAL
+          address: BP_OFFSET_BYTE( E0 )
+          name = "f1",  type = 246
+        0924: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "f2",  type = 246
+        092C: LOCAL
+          address: BP_OFFSET_BYTE( D8 )
+          name = "f3",  type = 246
+        0934: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "hudmode",  type = 9
+        0940: NEAR_RTN_386
+          start off = 0000212D, code size = 000000C9, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  248
+          return value: IND_REG_CALLOC_NEAR( ESI )
+          Name = "Dash_BuildCockpitUnderWheel"
+        0972: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "f1",  type = 246
+        097A: LOCAL
+          address: BP_OFFSET_BYTE( DC )
+          name = "f2",  type = 246
+        0982: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "f3",  type = 246
+        098A: NEAR_RTN_386
+          start off = 000021F6, code size = 0000026C, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  248
+          return value: IND_REG_CALLOC_NEAR( ESI )
+          Name = "Dash_BuildWheel"
+        09B0: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "lf",  type = 246
+        09B8: NEAR_RTN_386
+          start off = 00002462, code size = 00000183, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  248
+          return value: IND_REG_CALLOC_NEAR( ESI )
+          Name = "Dash_BuildMapBackGround"
+        09E6: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "lf",  type = 246
+        09EE: LOCAL
+          address: BP_OFFSET_BYTE( DC )
+          name = "cf",  type = 246
+        09F6: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "rf",  type = 246
+

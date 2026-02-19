@@ -1,0 +1,4 @@
+  Name:  strtod_
+    address      = 0001:000C756E
+    module index = 581
+    kind:          (code)

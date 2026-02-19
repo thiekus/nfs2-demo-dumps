@@ -1,0 +1,24 @@
+  Name:  _AI_trackInfo
+    address      = 0002:0000BF80
+    module index = 3
+    kind:          (data)
+  Name:  _AI_speedSpreadForce
+    address      = 0002:0000C020
+    module index = 3
+    kind:          (data)
+  Name:  _AI_accSpreadForce
+    address      = 0002:0000C090
+    module index = 3
+    kind:          (data)
+  Name:  _top_speed_scale
+    address      = 0002:0000C100
+    module index = 3
+    kind:          (data)
+  Name:  _acceleration_scale
+    address      = 0002:0000C178
+    module index = 3
+    kind:          (data)
+  Name:  _glueIntroduction
+    address      = 0002:0000C1E4
+    module index = 3
+    kind:          (data)

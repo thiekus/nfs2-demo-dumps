@@ -1,0 +1,28 @@
+  Name:  chase_
+    address      = 0001:000A3CF0
+    module index = 296
+    kind:          (static pubdef) (code)
+  Name:  _unbtree
+    address      = 0001:000A3D34
+    module index = 296
+    kind:          (code)
+  Name:  _SQVd
+    address      = 0002:00055084
+    module index = 296
+    kind:          (static pubdef) (data)
+  Name:  _SQVleft
+    address      = 0002:00055088
+    module index = 296
+    kind:          (static pubdef) (data)
+  Name:  _SQVs
+    address      = 0002:0005508C
+    module index = 296
+    kind:          (static pubdef) (data)
+  Name:  _SQVright
+    address      = 0002:00055090
+    module index = 296
+    kind:          (static pubdef) (data)
+  Name:  _SQVclue
+    address      = 0002:00055094
+    module index = 296
+    kind:          (static pubdef) (data)

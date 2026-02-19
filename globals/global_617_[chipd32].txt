@@ -1,0 +1,36 @@
+  Name:  __fdiv_fpr
+    address      = 0001:000CA6D7
+    module index = 617
+    kind:          (code)
+  Name:  __fdiv_chk
+    address      = 0001:000CAB99
+    module index = 617
+    kind:          (code)
+  Name:  __fdiv_m32
+    address      = 0001:000CABAC
+    module index = 617
+    kind:          (code)
+  Name:  __fdiv_m64
+    address      = 0001:000CABF8
+    module index = 617
+    kind:          (code)
+  Name:  __fdiv_m32r
+    address      = 0001:000CAC44
+    module index = 617
+    kind:          (code)
+  Name:  __fdiv_m64r
+    address      = 0001:000CAC90
+    module index = 617
+    kind:          (code)
+  Name:  fdiv_main_routine
+    address      = 0001:000CA5C0
+    module index = 617
+    kind:          (static pubdef) (code)
+  Name:  __fdivp_sti_st
+    address      = 0001:000CAB73
+    module index = 617
+    kind:          (static pubdef) (code)
+  Name:  __fdivrp_sti_st
+    address      = 0001:000CAB86
+    module index = 617
+    kind:          (static pubdef) (code)

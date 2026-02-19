@@ -1,0 +1,4 @@
+  Name:  _IID_IDirectSound3DBuffer
+    address      = 0002:0001AF50
+    module index = 450
+    kind:          (data)

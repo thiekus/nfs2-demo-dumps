@@ -1,0 +1,16 @@
+  Name:  _fontheight
+    address      = 0001:0009D6B0
+    module index = 254
+    kind:          (code)
+  Name:  _textposition
+    address      = 0001:0009D6B8
+    module index = 254
+    kind:          (code)
+  Name:  _settextmode
+    address      = 0001:0009D6CC
+    module index = 254
+    kind:          (code)
+  Name:  _gettextmode
+    address      = 0001:0009D6DC
+    module index = 254
+    kind:          (code)

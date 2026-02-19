@@ -1,0 +1,124 @@
+  Name:  _sideShow
+    address      = 0002:00010528
+    module index = 83
+    kind:          (data)
+  Name:  _sideReady
+    address      = 0002:0001052A
+    module index = 83
+    kind:          (data)
+  Name:  _sideBuffer
+    address      = 0002:0001052C
+    module index = 83
+    kind:          (data)
+  Name:  _buildBuffer
+    address      = 0002:00010534
+    module index = 83
+    kind:          (data)
+  Name:  _gDemoMovieNumber
+    address      = 0002:00010538
+    module index = 83
+    kind:          (data)
+  Name:  _firstTime
+    address      = 0002:0001053C
+    module index = 83
+    kind:          (data)
+  Name:  _statAccel
+    address      = 0002:0001053E
+    module index = 83
+    kind:          (data)
+  Name:  _statTopSpeed
+    address      = 0002:00010547
+    module index = 83
+    kind:          (data)
+  Name:  _statHandling
+    address      = 0002:00010550
+    module index = 83
+    kind:          (data)
+  Name:  _statBraking
+    address      = 0002:00010559
+    module index = 83
+    kind:          (data)
+  Name:  _backScreenFadeValue
+    address      = 0002:00010562
+    module index = 83
+    kind:          (data)
+  Name:  Mainmenu_checkTournamentTrack_
+    address      = 0001:00061C35
+    module index = 83
+    kind:          (code)
+  Name:  MainMenu_MainMenu_
+    address      = 0001:00061CCC
+    module index = 83
+    kind:          (code)
+  Name:  CrossFadeSlider_
+    address      = 0001:00062489
+    module index = 83
+    kind:          (code)
+  Name:  MainMenu_trackRaced_
+    address      = 0001:00062578
+    module index = 83
+    kind:          (code)
+  Name:  DrawSlider_
+    address      = 0001:00062686
+    module index = 83
+    kind:          (code)
+  Name:  MainMenu_SubMenu_
+    address      = 0001:00062939
+    module index = 83
+    kind:          (code)
+  Name:  DemoMessage_
+    address      = 0001:00063273
+    module index = 83
+    kind:          (code)
+  Name:  showTheCurrentlyHighlightedOptionFromTheMainMenuWhenTheSubMenuIsBeingDisplayed_
+    address      = 0001:000632CA
+    module index = 83
+    kind:          (code)
+  Name:  MainMenu_BackgroundMotion_
+    address      = 0001:00063324
+    module index = 83
+    kind:          (code)
+  Name:  SpinIcons_
+    address      = 0001:000638BC
+    module index = 83
+    kind:          (code)
+  Name:  SpinInfoIcon_
+    address      = 0001:00063CF9
+    module index = 83
+    kind:          (code)
+  Name:  MainMenu_ForceFeedback_
+    address      = 0001:00063D81
+    module index = 83
+    kind:          (code)
+  Name:  MainMenu_Audio_
+    address      = 0001:0006426C
+    module index = 83
+    kind:          (code)
+  Name:  MainMenu_Credits_
+    address      = 0001:00065090
+    module index = 83
+    kind:          (code)
+  Name:  _iconDeltaY
+    address      = 0002:000105C8
+    module index = 83
+    kind:          (data)
+  Name:  _gSFXlevelHandle
+    address      = 0002:0004FD70
+    module index = 83
+    kind:          (data)
+  Name:  _overRide
+    address      = 0002:0004FD74
+    module index = 83
+    kind:          (data)
+  Name:  _iconsOn
+    address      = 0002:0004FD78
+    module index = 83
+    kind:          (data)
+  Name:  _valueShowing
+    address      = 0002:0004FD7A
+    module index = 83
+    kind:          (data)
+  Name:  _prevKey
+    address      = 0002:0004FD7C
+    module index = 83
+    kind:          (data)

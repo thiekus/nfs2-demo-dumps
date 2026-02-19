@@ -1,0 +1,8 @@
+  Name:  mem_putc_
+    address      = 0001:000A0305
+    module index = 267
+    kind:          (static pubdef) (code)
+  Name:  vsprintf_
+    address      = 0001:000A0318
+    module index = 267
+    kind:          (code)

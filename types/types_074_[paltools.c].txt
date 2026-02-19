@@ -1,0 +1,234 @@
+ 74) Name:   C:\nfs2\game\pc\paltools.c
+     Language is C
+     Locals: num = 1, offset = 0000013AH
+     Types:  num = 1, offset = 000002D6H
+     Lines:  num = 1, offset = 0000045EH
+
+    *** Types ***
+    =============
+      Data 0:  offset 00079325
+        0000: cue table offset=0000030E
+        0006: SCOPE(1)
+          "struct"
+        000E: SCOPE(2)
+          "union"
+        0015: SCOPE(3)
+          "enum"
+        001B: SCALAR(4)
+          "char"  scalar type = 10, unsigned
+        0022: SCALAR(5)
+          "signed char"  scalar type = 00, integer
+        0030: SCALAR(6)
+          "unsigned char"  scalar type = 10, unsigned
+        0040: SCALAR(7)
+          "short"  scalar type = 01, integer
+        0048: SCALAR(8)
+          "unsigned short"  scalar type = 11, unsigned
+        0059: SCALAR(9)
+          "int"  scalar type = 03, integer
+        005F: SCALAR(10)
+          "unsigned int"  scalar type = 13, unsigned
+        006E: NAME(11)
+          "wchar_t"  type idx = 8  scope idx = 0
+        0079: NAME(12)
+          "size_t"  type idx = 10  scope idx = 0
+        0083: NEAR386 PTR(13)
+          base type idx = 4
+        0086: BYTE_INDEX ARRAY(14)
+          high bound = 00   base type idx = 13
+        008A: NAME(15)
+          "__va_list"  type idx = 14  scope idx = 0
+        0097: SCALAR(16)
+          "long"  scalar type = 03, integer
+        009E: NAME(17)
+          "fpos_t"  type idx = 16  scope idx = 0
+        00A8: NAME(18)
+          "fpos_t"  type idx = 16  scope idx = 0
+        00B2: NAME(19)
+          "MEMBLOCK"  type idx = 13  scope idx = 0
+        00BE: SCALAR(20)
+          "void"  scalar type = 30, void
+        00C5: NEAR386 PROC(21)
+          return type = 20
+            param 1:  type idx = 20
+        00CA: NEAR386 PTR(22)
+          base type idx = 21
+        00CD: NAME(23)
+          "VOIDFN"  type idx = 22  scope idx = 0
+        00D7: BYTE_INDEX ARRAY(24)
+          high bound = 00   base type idx = 13
+        00DB: NAME(25)
+          "va_list"  type idx = 24  scope idx = 0
+        00E6: NEAR386 PROC(26)
+          return type = 9
+            param 1:  type idx = 20
+        00EB: NAME(27)
+          "INTFN"  type idx = 26  scope idx = 0
+        00F4: NAME(28)
+          "MVI"  type idx = 20  scope idx = 0
+        00FB: NEAR386 PROC(29)
+          return type = 9
+            param 1:  type idx = 9
+            param 2:  type idx = 9
+        0101: NAME(30)
+          "EACHOOKCALLBACKFUNC"  type idx = 29  scope idx = 0
+        0118: NAME(31)
+          "arg_t"  type idx = 9  scope idx = 0
+        0121: NEAR386 PROC(32)
+          return type = 20
+            param 1:  type idx = 20
+        0126: NAME(33)
+          "THREADPROC"  type idx = 32  scope idx = 0
+        0134: NAME(34)
+          "SYSTEMTASK"  type idx = 29  scope idx = 0
+        0142: NAME(35)
+          "boolean"  type idx = 9  scope idx = 0
+        014D: NAME(36)
+          "fixed88"  type idx = 9  scope idx = 0
+        0158: NAME(37)
+          "fixed824"  type idx = 9  scope idx = 0
+        0164: NAME(38)
+          "fixed248"  type idx = 9  scope idx = 0
+        0170: NAME(39)
+          "Draw_tContext"  type idx = 7  scope idx = 0
+        0181: BYTE_INDEX ARRAY(40)
+          high bound = 3F   base type idx = 9
+        0185: BYTE_INDEX ARRAY(41)
+          high bound = 3F   base type idx = 9
+        0189: BYTE_INDEX ARRAY(42)
+          high bound = 3F   base type idx = 9
+        018D: BYTE_INDEX ARRAY(43)
+          high bound = 3F   base type idx = 9
+        0191: BYTE_INDEX ARRAY(44)
+          high bound = 3F   base type idx = 9
+        0195: BYTE_INDEX ARRAY(45)
+          high bound = 3F   base type idx = 9
+        0199: BYTE_INDEX ARRAY(46)
+          high bound = 3F   base type idx = 9
+        019D: BYTE_INDEX ARRAY(47)
+          high bound = 3F   base type idx = 9
+        01A1: BYTE_INDEX ARRAY(48)
+          high bound = 3F   base type idx = 9
+        01A5: NEAR386 PROC(49)
+          return type = 20
+            param 1:  type idx = 13
+            param 2:  type idx = 13
+        01AB: NEAR386 PTR(50)
+          base type idx = 6
+        01AE: FIELD_LIST(51)
+          number of fields = 0008   size = 0000001A
+        01B6: FIELD_BYTE
+          "_tmpfchar"  offset = 19  type idx = 6
+        01C3: FIELD_BYTE
+          "_ungotten"  offset = 18  type idx = 6
+        01D0: FIELD_BYTE
+          "_bufsize"  offset = 14  type idx = 10
+        01DC: FIELD_BYTE
+          "_handle"  offset = 10  type idx = 9
+        01E7: FIELD_BYTE
+          "_flag"  offset = 0C  type idx = 10
+        01F0: FIELD_BYTE
+          "_base"  offset = 08  type idx = 50
+        01F9: FIELD_BYTE
+          "_cnt"  offset = 04  type idx = 9
+        0201: FIELD_BYTE
+          "_ptr"  offset = 00  type idx = 50
+        0209: NAME(52)
+          "__iobuf"  type idx = 51  scope idx = 1
+        0214: NAME(53)
+          "FILE"  type idx = 52  scope idx = 0
+        021C: NEAR386 PTR(54)
+          base type idx = 53
+        021F: FIELD_LIST(55)
+          number of fields = 0004   size = 00000004
+        0227: FIELD_BYTE
+          "a"  offset = 03  type idx = 6
+        022C: FIELD_BYTE
+          "r"  offset = 02  type idx = 6
+        0231: FIELD_BYTE
+          "g"  offset = 01  type idx = 6
+        0236: FIELD_BYTE
+          "b"  offset = 00  type idx = 6
+        023B: NAME(56)
+          "ARGB"  type idx = 55  scope idx = 0
+        0243: NEAR386 PTR(57)
+          base type idx = 56
+        0246: NEAR386 PROC(58)
+          return type = 20
+            param 1:  type idx = 13
+            param 2:  type idx = 57
+        024C: NEAR386 PROC(59)
+          return type = 9
+            param 1:  type idx = 9
+            param 2:  type idx = 9
+            param 3:  type idx = 9
+        0253: FIELD_LIST(60)
+          number of fields = 0009   size = 00000011
+        025B: FIELD_BYTE
+          "data"  offset = 10  type idx = 4
+        0263: FIELD_BYTE
+          "shapey"  offset = 0E  type idx = 7
+        026D: FIELD_BYTE
+          "shapex"  offset = 0C  type idx = 7
+        0277: FIELD_BYTE
+          "centery"  offset = 0A  type idx = 7
+        0282: FIELD_BYTE
+          "centerx"  offset = 08  type idx = 7
+        028D: FIELD_BYTE
+          "height"  offset = 06  type idx = 7
+        0297: FIELD_BYTE
+          "width"  offset = 04  type idx = 7
+        02A0: BIT_BYTE
+          "next"  offset = 00  type idx = 9
+        start bit = 08  bit size = 18
+        02AA: BIT_BYTE
+          "type"  offset = 00  type idx = 10
+        start bit = 00  bit size = 08
+        02B4: NAME(61)
+          "shapetbl"  type idx = 60  scope idx = 1
+        02C0: NAME(62)
+          "SHAPE"  type idx = 61  scope idx = 0
+        02C9: NEAR386 PTR(63)
+          base type idx = 62
+        02CC: NEAR386 PROC(64)
+          return type = 13
+            param 1:  type idx = 13
+        02D1: NEAR386 PROC(65)
+          return type = 9
+            param 1:  type idx = 13
+            param 2:  type idx = 13
+        02D7: NEAR386 PROC(66)
+          return type = 20
+            param 1:  type idx = 57
+            param 2:  type idx = 13
+            param 3:  type idx = 9
+        02DE: NEAR386 PROC(67)
+          return type = 20
+            param 1:  type idx = 13
+            param 2:  type idx = 57
+            param 3:  type idx = 9
+        02E5: NEAR386 PTR(68)
+          base type idx = 9
+        02E8: NEAR386 PROC(69)
+          return type = 20
+            param 1:  type idx = 68
+            param 2:  type idx = 63
+        02EE: NEAR386 PROC(70)
+          return type = 20
+            param 1:  type idx = 63
+            param 2:  type idx = 13
+        02F4: NEAR386 PROC(71)
+          return type = 20
+            param 1:  type idx = 13
+            param 2:  type idx = 13
+            param 3:  type idx = 13
+        02FB: WORD_INDEX ARRAY(72)
+          high bound = 00FF   base type idx = 4
+        0300: NEAR386 PROC(73)
+          return type = 20
+            param 1:  type idx = 13
+            param 2:  type idx = 13
+            param 3:  type idx = 9
+        0307: WORD_INDEX ARRAY(74)
+          high bound = 00FF   base type idx = 4
+        030C: 

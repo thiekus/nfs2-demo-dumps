@@ -1,0 +1,16 @@
+  Name:  myfixeddiv_
+    address      = 0001:000B0C50
+    module index = 362
+    kind:          (static pubdef) (code)
+  Name:  _fixedmaptri
+    address      = 0001:000B0C68
+    module index = 362
+    kind:          (code)
+  Name:  _maptri
+    address      = 0001:000B168C
+    module index = 362
+    kind:          (code)
+  Name:  _aiOffset
+    address      = 0002:0006471C
+    module index = 362
+    kind:          (data)

@@ -1,0 +1,84 @@
+  Name:  Mem_Init_
+    address      = 0001:000104D4
+    module index = 7
+    kind:          (code)
+  Name:  Mem_DeInit_
+    address      = 0001:000105E1
+    module index = 7
+    kind:          (code)
+  Name:  Mem_Alloc_
+    address      = 0001:00010604
+    module index = 7
+    kind:          (code)
+  Name:  UnlinkBlock_
+    address      = 0001:0001070C
+    module index = 7
+    kind:          (code)
+  Name:  InsertBlockBefore_
+    address      = 0001:00010756
+    module index = 7
+    kind:          (code)
+  Name:  InsertBlockAfter_
+    address      = 0001:000107B0
+    module index = 7
+    kind:          (code)
+  Name:  InsertBlockSorted_
+    address      = 0001:0001080A
+    module index = 7
+    kind:          (code)
+  Name:  Mem_Free_
+    address      = 0001:00010867
+    module index = 7
+    kind:          (code)
+  Name:  Mem_FindBlock_
+    address      = 0001:00010904
+    module index = 7
+    kind:          (code)
+  Name:  DumpList_
+    address      = 0001:0001095A
+    module index = 7
+    kind:          (code)
+  Name:  DumpAllBlocks_
+    address      = 0001:00010992
+    module index = 7
+    kind:          (code)
+  Name:  DumpFreeList_
+    address      = 0001:00010A00
+    module index = 7
+    kind:          (code)
+  Name:  DumpUsedList_
+    address      = 0001:00010A1F
+    module index = 7
+    kind:          (code)
+  Name:  Mem_MergeBlocks_
+    address      = 0001:00010A3E
+    module index = 7
+    kind:          (code)
+  Name:  Mem_MergeBlocksX_
+    address      = 0001:00010AE7
+    module index = 7
+    kind:          (code)
+  Name:  Mem_TrackFreeMem_
+    address      = 0001:00010B14
+    module index = 7
+    kind:          (code)
+  Name:  Mem_CheckListIntegrity_
+    address      = 0001:00010B7F
+    module index = 7
+    kind:          (code)
+  Name:  Mem_CompactBlock_
+    address      = 0001:00010C3A
+    module index = 7
+    kind:          (code)
+  Name:  Mem_CompactMem_
+    address      = 0001:00010DB0
+    module index = 7
+    kind:          (code)
+  Name:  Mem_CompactMemPartial_
+    address      = 0001:00010DE4
+    module index = 7
+    kind:          (code)
+  Name:  _Mem_data
+    address      = 0002:0001C9FC
+    module index = 7
+    kind:          (data)

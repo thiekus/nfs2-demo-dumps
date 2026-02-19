@@ -1,0 +1,8 @@
+  Name:  _EFG_Format_
+    address      = 0001:000C0BDD
+    module index = 500
+    kind:          (code)
+  Name:  forcedecpt_
+    address      = 0001:000C0CC7
+    module index = 500
+    kind:          (static pubdef) (code)

@@ -1,0 +1,4 @@
+  Name:  _emmstate
+    address      = 0001:000BF7C0
+    module index = 476
+    kind:          (code)

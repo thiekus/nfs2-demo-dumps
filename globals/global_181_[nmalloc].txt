@@ -1,0 +1,20 @@
+  Name:  _nmalloc_
+    address      = 0001:0008946E
+    module index = 181
+    kind:          (code)
+  Name:  malloc_
+    address      = 0001:0008946E
+    module index = 181
+    kind:          (code)
+  Name:  ___nheapbeg
+    address      = 0002:000135C8
+    module index = 181
+    kind:          (data)
+  Name:  ___MiniHeapRover
+    address      = 0002:000135CC
+    module index = 181
+    kind:          (data)
+  Name:  ___LargestSizeB4MiniHeapRover
+    address      = 0002:000135D0
+    module index = 181
+    kind:          (data)

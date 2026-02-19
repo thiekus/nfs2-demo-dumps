@@ -1,0 +1,12 @@
+  Name:  _begin_thread_helper
+    address      = 0001:000CA1F9
+    module index = 611
+    kind:          (static pubdef) (code)
+  Name:  __CBeginThread_
+    address      = 0001:000CA2A5
+    module index = 611
+    kind:          (code)
+  Name:  __CEndThread_
+    address      = 0001:000CA379
+    module index = 611
+    kind:          (code)

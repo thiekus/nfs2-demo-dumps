@@ -1,0 +1,105 @@
+ 51) Name:   C:\nfs2\game\common\smack.c
+     Language is C
+     Locals: num = 1, offset = 000000DEH
+     Types:  num = 1, offset = 0000027AH
+     Lines:  num = 1, offset = 0000040AH
+
+   *** Locals ***
+   ==============
+      Data 0:  offset 00014BBD
+        0000: MODULE_386
+          "Smack_gInitInfo" addr = 0002:0004626C,  type = 70
+        0018: SET_BASE_386
+          base = 0001:000468EB
+        0020: NEAR_RTN_386
+          start off = 00000000, code size = 000000D6, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  186
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Smack_ResetObj"
+        0046: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "smackObj",  type = 185
+        0054: NEAR_RTN_386
+          start off = 000000D6, code size = 00000153, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  186
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Smack_GeneralPhysics"
+        0080: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "smackObj",  type = 185
+        008E: NEAR_RTN_386
+          start off = 00000229, code size = 0000029D, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  186
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Smack_DoPostCollisionStuff"
+        00C0: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "smackObj",  type = 185
+        00CE: NEAR_RTN_386
+          start off = 000004C6, code size = 00000015, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  23
+          return value: <none>
+          Name = "Smack_Restart"
+        00F0: NEAR_RTN_386
+          start off = 000004DB, code size = 00000048, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  187
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Smack_MakeSmackDataPathName"
+        0124: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "ext",  type = 13
+        012C: LOCAL
+          address: CONST_ADDR386( 0002:00046401 )
+          name = "strspc",  type = 188
+        013D: NEAR_RTN_386
+          start off = 00000523, code size = 000000A1, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  186
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Smack_SetSmackInitPosition"
+        016F: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "smackObj",  type = 185
+        017D: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "index",  type = 9
+        0187: NEAR_RTN_386
+          start off = 000005C4, code size = 00000120, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  23
+          return value: <none>
+          Name = "Smack_StartUp"
+        01A9: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "handle",  type = 196
+        01B5: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "i",  type = 9
+        01BB: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "numSmacks",  type = 9
+        01C9: NEAR_RTN_386
+          start off = 000006E4, code size = 00000015, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  23
+          return value: <none>
+          Name = "Smack_CleanUp"
+

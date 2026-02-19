@@ -1,0 +1,157 @@
+ 61) Name:   C:\nfs2\game\pc\CarIO.c
+     Language is C
+     Locals: num = 1, offset = 00000106H
+     Types:  num = 1, offset = 000002A2H
+     Lines:  num = 1, offset = 0000042AH
+
+   *** Locals ***
+   ==============
+      Data 0:  offset 00016CA1
+        0000: MODULE_386
+          "CarIO_carPixMapCount" addr = 0002:0000F060,  type = 9
+        001D: MODULE_386
+          "CarIO_carPixMap" addr = 0002:0000F05C,  type = 67
+        0035: SET_BASE_386
+          base = 0001:0004C62F
+        003D: NEAR_RTN_386
+          start off = 00000000, code size = 0000024E, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  94
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Name = "CarIO_WriteCarBinaryGeom"
+        006E: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "carScene",  type = 93
+        007B: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "filename",  type = 13
+        0088: LOCAL
+          address: BP_OFFSET_BYTE( 84 )
+          name = "outfilename",  type = 95
+        0098: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "len",  type = 9
+        00A0: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "fp",  type = 100
+        00A7: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "i",  type = 9
+        00AD: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "e",  type = 9
+        00B3: NEAR_RTN_386
+          start off = 0000024E, code size = 00000025, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  101
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Name = "CarIO_ReadCarAsciiGeom"
+        00E3: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "filename",  type = 13
+        00F0: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "loadHighDetail",  type = 9
+        0103: NEAR_RTN_386
+          start off = 00000273, code size = 000001DB, parent off = 0000
+          prologue size = 11,  epilogue size = 6
+          return address offset (from bp) = 0000000C
+          return type:  203
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Parm 3: MULTI_REG(1): ECX
+          Name = "CarIO_RemapTextureColor"
+        0138: LOCAL
+          address: BP_OFFSET_BYTE( E0 )
+          name = "carObj",  type = 202
+        0144: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "scene",  type = 93
+        014E: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "otherColorStartIndex",  type = 9
+        0167: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "colorIndex",  type = 9
+        0176: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "i",  type = 9
+        017C: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "j",  type = 9
+        0182: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "k",  type = 9
+        0188: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "numLoop",  type = 9
+        0194: BLOCK_386
+          start off = 000006ED, code size = 00000051, parent off = 01B1
+        01A0: LOCAL
+          address: BP_OFFSET_WORD( 005C )
+          name = "tempPixMap1",  type = 66
+        01B1: BLOCK_386
+          start off = 000005B3, code size = 000001EA, parent off = 01CF
+        01BD: LOCAL
+          address: BP_OFFSET_WORD( 0068 )
+          name = "textureName",  type = 204
+        01CF: NEAR_RTN_386
+          start off = 0000044E, code size = 00000365, parent off = 0000
+          prologue size = 12,  epilogue size = 7
+          return address offset (from bp) = 00000010
+          return type:  205
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Name = "CarIO_ReadInCarTextureData"
+        0205: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "filename",  type = 13
+        0212: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "scene",  type = 93
+        021C: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "carObj",  type = 202
+        0228: LOCAL
+          address: BP_OFFSET_WORD( 0074 )
+          name = "infilename",  type = 206
+        0239: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "i",  type = 9
+        023F: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "j",  type = 9
+        0245: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "k",  type = 9
+        024B: LOCAL
+          address: BP_OFFSET_BYTE( D8 )
+          name = "tempPixMap",  type = 66
+        025A: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "numLoop",  type = 9
+        0266: NEAR_RTN_386
+          start off = 000007B3, code size = 00000056, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  23
+          return value: <none>
+          Name = "CarIO_StartUp"
+        0288: NEAR_RTN_386
+          start off = 00000809, code size = 00000036, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  23
+          return value: <none>
+          Name = "CarIO_CleanUp"
+

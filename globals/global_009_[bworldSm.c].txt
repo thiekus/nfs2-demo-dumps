@@ -1,0 +1,136 @@
+  Name:  closeXZDistSquared_
+    address      = 0001:0001503F
+    module index = 9
+    kind:          (code)
+  Name:  BWorldSm_Init_
+    address      = 0001:000150A6
+    module index = 9
+    kind:          (code)
+  Name:  BWorldSm_DeInit_
+    address      = 0001:000150FA
+    module index = 9
+    kind:          (code)
+  Name:  FindAbsClosestSliceCrude_
+    address      = 0001:0001510F
+    module index = 9
+    kind:          (code)
+  Name:  BWorldSm_FindClosestSlice_
+    address      = 0001:0001518C
+    module index = 9
+    kind:          (code)
+  Name:  RawFindClosestSlice_
+    address      = 0001:00015266
+    module index = 9
+    kind:          (code)
+  Name:  SetSimSlice_
+    address      = 0001:0001548F
+    module index = 9
+    kind:          (code)
+  Name:  GetStmQuad_
+    address      = 0001:00015519
+    module index = 9
+    kind:          (code)
+  Name:  GetStmQuadPts_
+    address      = 0001:00015569
+    module index = 9
+    kind:          (code)
+  Name:  GetFirstStmQuadPts_
+    address      = 0001:000157B6
+    module index = 9
+    kind:          (code)
+  Name:  GetNextStmQuadPts_
+    address      = 0001:000158C2
+    module index = 9
+    kind:          (code)
+  Name:  GetNextLeftStmQuadPts_
+    address      = 0001:00015978
+    module index = 9
+    kind:          (code)
+  Name:  PTDIR16XXX_
+    address      = 0001:00015A32
+    module index = 9
+    kind:          (code)
+  Name:  EnsureChunkLoaded_
+    address      = 0001:00015AE4
+    module index = 9
+    kind:          (code)
+  Name:  ScreamIfChunkNotLoaded_
+    address      = 0001:00015B78
+    module index = 9
+    kind:          (code)
+  Name:  FindClosestQuad_
+    address      = 0001:00015BEB
+    module index = 9
+    kind:          (code)
+  Name:  BWorldSm_FindClosestQuadRez_
+    address      = 0001:00015E58
+    module index = 9
+    kind:          (code)
+  Name:  BWorldSm_SetSlice_
+    address      = 0001:00015F13
+    module index = 9
+    kind:          (code)
+  Name:  RawFindClosestQuad_
+    address      = 0001:00015F85
+    module index = 9
+    kind:          (code)
+  Name:  BWorldSm_NumSimObjects_
+    address      = 0001:00016AAF
+    module index = 9
+    kind:          (code)
+  Name:  BWorldSm_GetSimObjectData_
+    address      = 0001:00016B35
+    module index = 9
+    kind:          (code)
+  Name:  BWorldSm_SetTVCameraParms_
+    address      = 0001:00016C2D
+    module index = 9
+    kind:          (code)
+  Name:  BWorldSm_GetClosestTVCameraPoint_
+    address      = 0001:00016C58
+    module index = 9
+    kind:          (code)
+  Name:  BWorldSm_GetClosestTVCameraPointSide_
+    address      = 0001:00016C89
+    module index = 9
+    kind:          (code)
+  Name:  BWorldSm_SurfaceType_
+    address      = 0001:000170E3
+    module index = 9
+    kind:          (code)
+  Name:  BWorldSm_IsTunnelInRearView_
+    address      = 0001:0001714B
+    module index = 9
+    kind:          (code)
+  Name:  BWorldSm_CarMusicState_
+    address      = 0001:00017255
+    module index = 9
+    kind:          (code)
+  Name:  _gTVCamSpacing
+    address      = 0002:00022DF4
+    module index = 9
+    kind:          (data)
+  Name:  _gTVCamHeight
+    address      = 0002:00022DF8
+    module index = 9
+    kind:          (data)
+  Name:  _sim_ItemPtr
+    address      = 0002:00022DFC
+    module index = 9
+    kind:          (data)
+  Name:  _sim_File
+    address      = 0002:00022E00
+    module index = 9
+    kind:          (data)
+  Name:  _gNumSlices
+    address      = 0002:00022E04
+    module index = 9
+    kind:          (data)
+  Name:  _BWorldSm_slices
+    address      = 0002:00022E08
+    module index = 9
+    kind:          (data)
+  Name:  _sim_Handle
+    address      = 0002:00022E0C
+    module index = 9
+    kind:          (data)

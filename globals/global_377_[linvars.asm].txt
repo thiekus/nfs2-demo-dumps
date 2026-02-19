@@ -1,0 +1,44 @@
+  Name:  linmapcount1
+    address      = 0002:00018E94
+    module index = 377
+    kind:          (data)
+  Name:  linmapdest
+    address      = 0002:00018E90
+    module index = 377
+    kind:          (data)
+  Name:  _linmapbase
+    address      = 0002:00018EC4
+    module index = 377
+    kind:          (data)
+  Name:  linmapcount2
+    address      = 0002:00018E98
+    module index = 377
+    kind:          (data)
+  Name:  _linmapdu
+    address      = 0002:00018EB0
+    module index = 377
+    kind:          (data)
+  Name:  linmapcount3
+    address      = 0002:00018E9C
+    module index = 377
+    kind:          (data)
+  Name:  _linmapdv
+    address      = 0002:00018EB8
+    module index = 377
+    kind:          (data)
+  Name:  _linmaprowtbl
+    address      = 0002:00018EC8
+    module index = 377
+    kind:          (data)
+  Name:  _linmapsource
+    address      = 0002:00018EC0
+    module index = 377
+    kind:          (data)
+  Name:  linmapbuffer
+    address      = 0002:00018EA8
+    module index = 377
+    kind:          (data)
+  Name:  linmapslope
+    address      = 0002:00018EA0
+    module index = 377
+    kind:          (data)

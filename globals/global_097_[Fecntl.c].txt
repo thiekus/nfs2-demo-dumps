@@ -1,0 +1,60 @@
+  Name:  FeCntl_BuildControl_
+    address      = 0001:000786B9
+    module index = 97
+    kind:          (code)
+  Name:  FeCntl_GetDevice_
+    address      = 0001:000786EB
+    module index = 97
+    kind:          (code)
+  Name:  FeCntl_GetParameter_
+    address      = 0001:00078713
+    module index = 97
+    kind:          (code)
+  Name:  ConvertToString_
+    address      = 0001:00078739
+    module index = 97
+    kind:          (code)
+  Name:  FeCntl_ShowControl_
+    address      = 0001:0007889A
+    module index = 97
+    kind:          (code)
+  Name:  ResolveConflict_
+    address      = 0001:00078D6C
+    module index = 97
+    kind:          (code)
+  Name:  AllControlsDefined_
+    address      = 0001:00079093
+    module index = 97
+    kind:          (code)
+  Name:  FeCntl_EnterControl_Joystick_
+    address      = 0001:00079125
+    module index = 97
+    kind:          (code)
+  Name:  FeCntl_EnterControl_
+    address      = 0001:000793E5
+    module index = 97
+    kind:          (code)
+  Name:  FeCntl_Calibrate_
+    address      = 0001:000797FF
+    module index = 97
+    kind:          (code)
+  Name:  FeCntl_SetRamp_
+    address      = 0001:00079D57
+    module index = 97
+    kind:          (code)
+  Name:  FeCntl_ControlRemap2_
+    address      = 0001:00079EAD
+    module index = 97
+    kind:          (code)
+  Name:  _keyListSplit
+    address      = 0002:00012834
+    module index = 97
+    kind:          (data)
+  Name:  _keyList
+    address      = 0002:00012884
+    module index = 97
+    kind:          (data)
+  Name:  _gAxisBeginingState
+    address      = 0002:00050B7C
+    module index = 97
+    kind:          (data)

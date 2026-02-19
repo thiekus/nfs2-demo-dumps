@@ -1,0 +1,149 @@
+ 46) Name:   C:\nfs2\game\common\souffle.c
+     Language is C
+     Locals: num = 1, offset = 000000CAH
+     Types:  num = 1, offset = 00000266H
+     Lines:  num = 1, offset = 000003F6H
+
+   *** Locals ***
+   ==============
+      Data 0:  offset 00013BB1
+        0000: MODULE_386
+          "gWindDir" addr = 0002:000449E0,  type = 9
+        0011: MODULE_386
+          "gCISouffle" addr = 0002:000449E4,  type = 9
+        0024: MODULE_386
+          "gISouffle" addr = 0002:000449E8,  type = 61
+        0036: MODULE_386
+          "gTMoveSouffle" addr = 0002:00045B7C,  type = 9
+        004C: SET_BASE_386
+          base = 0001:000449C6
+        0054: NEAR_RTN_386
+          start off = 00000000, code size = 00000058, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  63
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "GetGustWind"
+        0076: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "is",  type = 62
+        007D: NEAR_RTN_386
+          start off = 00000058, code size = 0000003A, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  63
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "GetAngleWind"
+        00A0: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "is",  type = 62
+        00A7: NEAR_RTN_386
+          start off = 00000092, code size = 00000046, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  63
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "MoveAngleWind"
+        00CB: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "is",  type = 62
+        00D2: BLOCK_386
+          start off = 000000FD, code size = 0000004D, parent off = 010B
+        00DE: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "i",  type = 9
+        00E4: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "maxc",  type = 9
+        00ED: BLOCK_386
+          start off = 0000015A, code size = 000000FA, parent off = 010B
+        00F9: LOCAL
+          address: BP_OFFSET_BYTE( D4 )
+          name = "vempty",  type = 46
+        0104: LOCAL
+          address: BP_OFFSET_BYTE( E0 )
+          name = "is",  type = 62
+        010B: NEAR_RTN_386
+          start off = 000000D8, code size = 00000186, parent off = 0000
+          prologue size = 12,  epilogue size = 7
+          return address offset (from bp) = 00000010
+          return type:  65
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Name = "Souffle_Add"
+        0132: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "soufflept",  type = 64
+        0140: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "type",  type = 9
+        0149: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "vec",  type = 64
+        0151: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "inserti",  type = 9
+        015D: BLOCK_386
+          start off = 00000336, code size = 00000087, parent off = 0170
+        0169: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "is",  type = 62
+        0170: NEAR_RTN_386
+          start off = 0000025E, code size = 000001C8, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  21
+          return value: <none>
+          Name = "Souffle_DoSouffle"
+        0196: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "w",  type = 46
+        019C: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "i",  type = 9
+        01A2: BLOCK_386
+          start off = 00000462, code size = 0000005E, parent off = 01B5
+        01AE: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "is",  type = 62
+        01B5: NEAR_RTN_386
+          start off = 00000426, code size = 000000A5, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  77
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Souffle_InsertFacet"
+        01DF: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "Vi",  type = 76
+        01E6: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "i",  type = 9
+        01EC: NEAR_RTN_386
+          start off = 000004CB, code size = 00000033, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  21
+          return value: <none>
+          Name = "Souffle_InitTrackSouffle"
+        0219: NEAR_RTN_386
+          start off = 000004FE, code size = 0000001F, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  21
+          return value: <none>
+          Name = "Souffle_RestartTrackSouffle"
+        0249: NEAR_RTN_386
+          start off = 0000051D, code size = 00000015, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  21
+          return value: <none>
+          Name = "Souffle_KillTrackSouffle"
+

@@ -1,0 +1,4 @@
+  Name:  __ioalloc_
+    address      = 0001:000B07A0
+    module index = 350
+    kind:          (code)

@@ -1,0 +1,36 @@
+  Name:  SaveGame_
+    address      = 0001:00077BD0
+    module index = 96
+    kind:          (code)
+  Name:  LSCopyFrontEndData_
+    address      = 0001:00077C45
+    module index = 96
+    kind:          (code)
+  Name:  LoadGame_
+    address      = 0001:00077CCE
+    module index = 96
+    kind:          (code)
+  Name:  SaveReplay_
+    address      = 0001:00077E2E
+    module index = 96
+    kind:          (code)
+  Name:  LoadReplay_
+    address      = 0001:00077EB5
+    module index = 96
+    kind:          (code)
+  Name:  BuildList_
+    address      = 0001:00077F5D
+    module index = 96
+    kind:          (code)
+  Name:  LoadSave_SaveReplay_
+    address      = 0001:000780C5
+    module index = 96
+    kind:          (code)
+  Name:  LoadSave_LoadSave_
+    address      = 0001:00078172
+    module index = 96
+    kind:          (code)
+  Name:  _list
+    address      = 0002:00050794
+    module index = 96
+    kind:          (data)

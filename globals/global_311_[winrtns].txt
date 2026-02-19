@@ -1,0 +1,68 @@
+  Name:  __WindowsIsWindowedHandle
+    address      = 0002:0001466C
+    module index = 311
+    kind:          (data)
+  Name:  __WindowsRemoveWindowedHandle
+    address      = 0002:00014670
+    module index = 311
+    kind:          (data)
+  Name:  __WindowsNewWindow
+    address      = 0002:00014674
+    module index = 311
+    kind:          (data)
+  Name:  __WindowsCloseWindow
+    address      = 0002:00014678
+    module index = 311
+    kind:          (data)
+  Name:  __WindowsSetAbout
+    address      = 0002:0001467C
+    module index = 311
+    kind:          (data)
+  Name:  __WindowsSetAppTitle
+    address      = 0002:00014680
+    module index = 311
+    kind:          (data)
+  Name:  __WindowsSetConTitle
+    address      = 0002:00014684
+    module index = 311
+    kind:          (data)
+  Name:  __WindowsDestroyOnClose
+    address      = 0002:00014688
+    module index = 311
+    kind:          (data)
+  Name:  __WindowsYieldControl
+    address      = 0002:0001468C
+    module index = 311
+    kind:          (data)
+  Name:  __WindowsShutDown
+    address      = 0002:00014690
+    module index = 311
+    kind:          (data)
+  Name:  __WindowsStdin
+    address      = 0002:00014694
+    module index = 311
+    kind:          (data)
+  Name:  __WindowsStdout
+    address      = 0002:00014698
+    module index = 311
+    kind:          (data)
+  Name:  __WindowsKbhit
+    address      = 0002:0001469C
+    module index = 311
+    kind:          (data)
+  Name:  __WindowsGetch
+    address      = 0002:000146A0
+    module index = 311
+    kind:          (data)
+  Name:  __WindowsGetche
+    address      = 0002:000146A4
+    module index = 311
+    kind:          (data)
+  Name:  __WindowsPutch
+    address      = 0002:000146A8
+    module index = 311
+    kind:          (data)
+  Name:  __WindowExitRtn
+    address      = 0002:000146AC
+    module index = 311
+    kind:          (data)

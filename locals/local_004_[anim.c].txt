@@ -1,0 +1,344 @@
+  4) Name:   C:\nfs2\game\common\anim.c
+     Language is C
+     Locals: num = 1, offset = 00000022H
+     Types:  num = 1, offset = 000001BEH
+     Lines:  num = 1, offset = 00000356H
+
+   *** Locals ***
+   ==============
+      Data 0:  offset 0000394B
+        0000: MODULE_386
+          "anims" addr = 0002:0001C3D4,  type = 60
+        000E: MODULE_386
+          "animScripts" addr = 0002:0001C6D4,  type = 61
+        0022: SET_BASE_386
+          base = 0001:0000A423
+        002A: NEAR_RTN_386
+          start off = 00000000, code size = 0000005A, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  23
+          return value: <none>
+          Name = "Anim_Restart"
+        004B: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "i",  type = 9
+        0051: NEAR_RTN_386
+          start off = 0000005A, code size = 000000C6, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  62
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Anim_Init"
+        0072: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "trackName",  type = 13
+        0080: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "i",  type = 9
+        0086: LOCAL
+          address: BP_OFFSET_BYTE( A4 )
+          name = "fname",  type = 63
+        0090: NEAR_RTN_386
+          start off = 00000120, code size = 00000053, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  23
+          return value: <none>
+          Name = "Anim_DeInit"
+        00B0: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "i",  type = 9
+        00B6: NEAR_RTN_386
+          start off = 00000173, code size = 00000059, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  64
+          return value: MULTI_REG(1): EAX
+          Name = "GetFreeAnimIndex"
+        00DC: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "handle",  type = 9
+        00E7: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "i",  type = 9
+        00ED: NEAR_RTN_386
+          start off = 000001CC, code size = 000000B2, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  65
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Anim_InitAnimNum"
+        0115: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "num",  type = 9
+        011D: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "handle",  type = 9
+        0128: NEAR_RTN_386
+          start off = 0000027E, code size = 00000044, parent off = 0000
+          prologue size = 11,  epilogue size = 6
+          return address offset (from bp) = 0000000C
+          return type:  66
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Parm 3: MULTI_REG(1): ECX
+          Name = "Anim_SetAnimAttrib"
+        0157: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "handle",  type = 9
+        0162: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "type",  type = 9
+        016B: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "flags",  type = 9
+        0175: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "yawAngle",  type = 9
+        0182: NEAR_RTN_386
+          start off = 000002C2, code size = 00000064, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  65
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Anim_FreeHandle"
+        01A9: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "handle",  type = 9
+        01B4: NEAR_RTN_386
+          start off = 00000326, code size = 0000012F, parent off = 0000
+          prologue size = 11,  epilogue size = 8
+          return address offset (from bp) = 0000000C
+          return type:  76
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Parm 3: MULTI_REG(1): ECX
+          Name = "Anim_GetRotPos"
+        01E0: LOCAL
+          address: BP_OFFSET_BYTE( D8 )
+          name = "animInst",  type = 57
+        01ED: LOCAL
+          address: BP_OFFSET_BYTE( DC )
+          name = "flags",  type = 9
+        01F7: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "ticks",  type = 9
+        0201: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "pt",  type = 70
+        0208: LOCAL
+          address: BP_OFFSET_BYTE( 10 )
+          name = "mat",  type = 75
+        0210: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "animFrames",  type = 80
+        021F: LOCAL
+          address: BP_OFFSET_BYTE( E0 )
+          name = "animInd0",  type = 9
+        022C: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "animInd1",  type = 9
+        0239: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "weight",  type = 9
+        0244: LOCAL
+          address: BP_OFFSET_BYTE( A8 )
+          name = "objcp0",  type = 69
+        024F: LOCAL
+          address: BP_OFFSET_BYTE( B4 )
+          name = "objcp1",  type = 69
+        025A: LOCAL
+          address: BP_OFFSET_BYTE( D0 )
+          name = "q",  type = 83
+        0260: LOCAL
+          address: BP_OFFSET_BYTE( C0 )
+          name = "q0",  type = 83
+        0267: LOCAL
+          address: BP_OFFSET_BYTE( C8 )
+          name = "q1",  type = 83
+        026E: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "interval",  type = 9
+        027B: NEAR_RTN_386
+          start off = 00000455, code size = 000000B3, parent off = 0000
+          prologue size = 12,  epilogue size = 7
+          return address offset (from bp) = 00000010
+          return type:  85
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Name = "Anim_GetAnimFrameInfo"
+        02AB: LOCAL
+          address: BP_OFFSET_BYTE( E0 )
+          name = "handle",  type = 9
+        02B6: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "frame",  type = 84
+        02C0: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "numFrames",  type = 84
+        02CE: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "animFrames",  type = 80
+        02DD: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "animInst",  type = 57
+        02EA: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "animInd",  type = 9
+        02F6: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "interval",  type = 9
+        0303: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "ticks",  type = 9
+        030D: NEAR_RTN_386
+          start off = 00000508, code size = 0000005F, parent off = 0000
+          prologue size = 11,  epilogue size = 8
+          return address offset (from bp) = 0000000C
+          return type:  86
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Parm 3: MULTI_REG(1): ECX
+          Name = "Anim_GetLastRotPos"
+        033C: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "animInst",  type = 57
+        0349: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "flags",  type = 9
+        0353: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "ticks",  type = 9
+        035D: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "pt",  type = 70
+        0364: LOCAL
+          address: BP_OFFSET_BYTE( 10 )
+          name = "mat",  type = 75
+        036C: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "animFrames",  type = 80
+        037B: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "animInd",  type = 9
+        0387: LOCAL
+          address: BP_OFFSET_BYTE( E0 )
+          name = "q",  type = 83
+        038D: BLOCK_386
+          start off = 000005A8, code size = 0000006C, parent off = 03A1
+        0399: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "tmp",  type = 9
+        03A1: NEAR_RTN_386
+          start off = 00000567, code size = 000000BF, parent off = 0000
+          prologue size = 11,  epilogue size = 8
+          return address offset (from bp) = 0000000C
+          return type:  87
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Parm 3: MULTI_REG(1): ECX
+          Name = "Anim_GetLastAnimPosRot"
+        03D5: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "animNum",  type = 9
+        03E1: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "type",  type = 9
+        03EA: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "flags",  type = 9
+        03F4: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "pt",  type = 70
+        03FB: LOCAL
+          address: BP_OFFSET_BYTE( 10 )
+          name = "mat",  type = 75
+        0403: BLOCK_386
+          start off = 000006C2, code size = 0000006C, parent off = 0417
+        040F: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "tmp",  type = 9
+        0417: NEAR_RTN_386
+          start off = 00000626, code size = 00000119, parent off = 0000
+          prologue size = 12,  epilogue size = 7
+          return address offset (from bp) = 00000010
+          return type:  88
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Name = "Anim_GetTimedAnimPosRot"
+        044A: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "handle",  type = 9
+        0455: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "pt",  type = 70
+        045C: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "mat",  type = 75
+        0464: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "ticks",  type = 9
+        046E: BLOCK_386
+          start off = 000007CD, code size = 0000006C, parent off = 0482
+        047A: LOCAL
+          address: BP_OFFSET_BYTE( D0 )
+          name = "tmp",  type = 9
+        0482: NEAR_RTN_386
+          start off = 0000073F, code size = 0000010B, parent off = 0000
+          prologue size = 12,  epilogue size = 7
+          return address offset (from bp) = 00000010
+          return type:  88
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Name = "Anim_GetNextAnimPosRot"
+        04B4: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "handle",  type = 9
+        04BF: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "pt",  type = 70
+        04C6: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "mat",  type = 75
+        04CE: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "animFrames",  type = 80
+        04DD: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "animInd",  type = 9
+        04E9: LOCAL
+          address: BP_OFFSET_BYTE( D4 )
+          name = "objcp",  type = 69
+        04F3: LOCAL
+          address: BP_OFFSET_BYTE( E0 )
+          name = "q",  type = 83
+        04F9: NEAR_RTN_386
+          start off = 0000084A, code size = 0000003A, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  65
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Anim_GetStatus"
+        051F: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "handle",  type = 9
+

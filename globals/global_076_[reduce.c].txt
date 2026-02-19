@@ -1,0 +1,72 @@
+  Name:  Reduce_InitSquares_
+    address      = 0001:0005D962
+    module index = 76
+    kind:          (code)
+  Name:  Reduce_DeInitSquares_
+    address      = 0001:0005D9D7
+    module index = 76
+    kind:          (code)
+  Name:  Reduce_ColorCountHist_
+    address      = 0001:0005D9FA
+    module index = 76
+    kind:          (static pubdef) (code)
+  Name:  M3d_
+    address      = 0001:0005DB47
+    module index = 76
+    kind:          (static pubdef) (code)
+  Name:  Vol_
+    address      = 0001:0005DDEE
+    module index = 76
+    kind:          (static pubdef) (code)
+  Name:  Bottom_
+    address      = 0001:0005DF49
+    module index = 76
+    kind:          (static pubdef) (code)
+  Name:  Top_
+    address      = 0001:0005E186
+    module index = 76
+    kind:          (static pubdef) (code)
+  Name:  Var_
+    address      = 0001:0005E3A8
+    module index = 76
+    kind:          (static pubdef) (code)
+  Name:  Maximize_
+    address      = 0001:0005E590
+    module index = 76
+    kind:          (static pubdef) (code)
+  Name:  Cut_
+    address      = 0001:0005E751
+    module index = 76
+    kind:          (static pubdef) (code)
+  Name:  AllocWuData_
+    address      = 0001:0005E9DD
+    module index = 76
+    kind:          (static pubdef) (code)
+  Name:  Reduce_InitWu_
+    address      = 0001:0005EB71
+    module index = 76
+    kind:          (code)
+  Name:  Reduce_AddColorCountWu_
+    address      = 0001:0005EB98
+    module index = 76
+    kind:          (code)
+  Name:  Reduce_ProcessWu_
+    address      = 0001:0005EBFC
+    module index = 76
+    kind:          (code)
+  Name:  Reduce_CalcDelta_
+    address      = 0001:0005EF63
+    module index = 76
+    kind:          (code)
+  Name:  Reduce_SearchColor_
+    address      = 0001:0005F0B6
+    module index = 76
+    kind:          (code)
+  Name:  _gWu
+    address      = 0002:0004EF3C
+    module index = 76
+    kind:          (data)
+  Name:  _gSquare
+    address      = 0002:0004EF40
+    module index = 76
+    kind:          (data)

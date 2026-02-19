@@ -1,0 +1,12 @@
+  Name:  __GetNTCreateAttr_
+    address      = 0001:000C01DD
+    module index = 485
+    kind:          (code)
+  Name:  __GetNTAccessAttr_
+    address      = 0001:000C020A
+    module index = 485
+    kind:          (code)
+  Name:  __GetNTShareAttr_
+    address      = 0001:000C0236
+    module index = 485
+    kind:          (code)

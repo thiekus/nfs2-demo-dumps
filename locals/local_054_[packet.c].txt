@@ -1,0 +1,288 @@
+ 54) Name:   C:\nfs2\game\common\packet.c
+     Language is C
+     Locals: num = 1, offset = 000000EAH
+     Types:  num = 1, offset = 00000286H
+     Lines:  num = 1, offset = 00000412H
+
+   *** Locals ***
+   ==============
+      Data 0:  offset 0001577B
+        0000: MODULE_386
+          "PacketCallBacks" addr = 0002:0000EF54,  type = 64
+        0018: MODULE_386
+          "gIndexedPktConns" addr = 0002:000464DC,  type = 65
+        0031: MODULE_386
+          "RemoteConn" addr = 0002:000464FC,  type = 109
+        0044: MODULE_386
+          "gotgPlayers" addr = 0002:0004681C,  type = 9
+        0058: MODULE_386
+          "packet_chkpnt_mutex" addr = 0002:0000EF50,  type = 9
+        0074: MODULE_386
+          "gSendPktFailed" addr = 0002:00046820,  type = 9
+        008B: MODULE_386
+          "menucom_playerdata_mutex" addr = 0002:0000EF4C,  type = 9
+        00AC: MODULE_386
+          "gComState" addr = 0002:00046824,  type = 116
+        00BE: MODULE_386
+          "gPlayers" addr = 0002:0004685F,  type = 121
+        00CF: SET_BASE_386
+          base = 0001:00048F56
+        00D7: BLOCK_386
+          start off = 00000065, code size = 000000A0, parent off = 0136
+        00E3: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "retry",  type = 9
+        00ED: BLOCK_386
+          start off = 0000014C, code size = 0000008A, parent off = 0136
+        00F9: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "retry",  type = 9
+        0103: BLOCK_386
+          start off = 00000236, code size = 000000B4, parent off = 0124
+        010F: LOCAL
+          address: BP_OFFSET_BYTE( E0 )
+          name = "retry",  type = 9
+        0119: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "sentOK",  type = 9
+        0124: BLOCK_386
+          start off = 000001E0, code size = 0000010F, parent off = 0136
+        0130: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "i",  type = 7
+        0136: NEAR_RTN_386
+          start off = 00000000, code size = 000002F6, parent off = 0000
+          prologue size = 12,  epilogue size = 7
+          return address offset (from bp) = 00000010
+          return type:  122
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Name = "PACKET_Send"
+        015C: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "pc",  type = 61
+        0163: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "data",  type = 49
+        016C: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "len",  type = 10
+        0174: NEAR_RTN_386
+          start off = 000002F6, code size = 0000004B, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  123
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "PACKET_InitGlobals"
+        019D: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "initAll",  type = 9
+        01A9: NEAR_RTN_386
+          start off = 00000341, code size = 00000042, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  124
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "PACKET_InitCallBacks"
+        01D4: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "pc",  type = 61
+        01DB: NEAR_RTN_386
+          start off = 00000383, code size = 00000089, parent off = 0000
+          prologue size = 12,  epilogue size = 7
+          return address offset (from bp) = 00000010
+          return type:  125
+          return value: MULTI_REG(1): EAX
+          Name = "PACKET_Receive_CALLBACK"
+        0208: LOCAL
+          address: BP_OFFSET_BYTE( 14 )
+          name = "pc",  type = 61
+        020F: LOCAL
+          address: BP_OFFSET_BYTE( 18 )
+          name = "data",  type = 55
+        0218: LOCAL
+          address: BP_OFFSET_BYTE( 1C )
+          name = "length",  type = 10
+        0223: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "pktIndex",  type = 4
+        0230: BLOCK_386
+          start off = 00000448, code size = 00000014, parent off = 0246
+        023C: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "index",  type = 9
+        0246: NEAR_RTN_386
+          start off = 0000040C, code size = 00000061, parent off = 0000
+          prologue size = 12,  epilogue size = 7
+          return address offset (from bp) = 00000010
+          return type:  126
+          return value: MULTI_REG(1): EAX
+          Name = "PACKET_ConnClosed_CALLBACK"
+        0276: LOCAL
+          address: BP_OFFSET_BYTE( 14 )
+          name = "pc",  type = 61
+        027D: NEAR_RTN_386
+          start off = 0000046D, code size = 0000005A, parent off = 0000
+          prologue size = 12,  epilogue size = 7
+          return address offset (from bp) = 00000010
+          return type:  126
+          return value: MULTI_REG(1): EAX
+          Name = "PACKET_UserAbort_CALLBACK"
+        02AC: LOCAL
+          address: BP_OFFSET_BYTE( 14 )
+          name = "pc",  type = 61
+        02B3: NEAR_RTN_386
+          start off = 000004C7, code size = 000000B3, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  27
+          return value: <none>
+          Name = "PACKET_Initialize"
+        02D9: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "i",  type = 9
+        02DF: NEAR_RTN_386
+          start off = 0000057A, code size = 00000046, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  127
+          return value: MULTI_REG(1): EAX
+          Name = "PACKET_UserAbortConnection"
+        030F: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "userAborted",  type = 9
+        031F: NEAR_RTN_386
+          start off = 000005C0, code size = 00000044, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  27
+          return value: <none>
+          Name = "PACKET_Disconnect"
+        0345: NEAR_RTN_386
+          start off = 00000604, code size = 0000005D, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  128
+          return value: REG: AX
+          Parm 0: MULTI_REG(1): EAX
+          Name = "PACKET_GetCompressedIndex"
+        0376: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "PktConn",  type = 61
+        0382: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "i",  type = 9
+        0388: NEAR_RTN_386
+          start off = 00000661, code size = 00000057, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  129
+          return value: REG: AX
+          Parm 0: MULTI_REG(1): EAX
+          Name = "PACKET_GetStaticIndex"
+        03B5: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "localindex",  type = 7
+        03C4: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "i",  type = 9
+        03CA: BLOCK_386
+          start off = 00000755, code size = 000000C6, parent off = 03E5
+        03D6: LOCAL
+          address: BP_OFFSET_BYTE( 9C )
+          name = "tmpPlayers",  type = 121
+        03E5: NEAR_RTN_386
+          start off = 000006B8, code size = 0000016C, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  27
+          return value: <none>
+          Name = "PACKET_SetIndexes"
+        040B: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "i",  type = 9
+        0411: NEAR_RTN_386
+          start off = 00000824, code size = 0000009C, parent off = 0000
+          prologue size = 12,  epilogue size = 7
+          return address offset (from bp) = 00000010
+          return type:  62
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Name = "PACKET_UpdatePlayers_CALLBACK"
+        0449: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "pktConn",  type = 61
+        0455: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "data",  type = 55
+        045E: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "length",  type = 10
+        0469: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "i",  type = 9
+        046F: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "pkt",  type = 130
+        0478: NEAR_RTN_386
+          start off = 000008C0, code size = 00000059, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  127
+          return value: MULTI_REG(1): EAX
+          Name = "PACKET_GetPlayers"
+        049F: NEAR_RTN_386
+          start off = 00000919, code size = 00000261, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  133
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Name = "PACKET_CheckPoint"
+        04CA: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "timeout",  type = 21
+        04D6: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "num",  type = 132
+        04DF: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "i",  type = 9
+        04E5: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "pkt",  type = 135
+        04EE: BLOCK_386
+          start off = 00000B9F, code size = 0000003B, parent off = 0504
+        04FA: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "index",  type = 9
+        0504: NEAR_RTN_386
+          start off = 00000B7A, code size = 000000BA, parent off = 0000
+          prologue size = 12,  epilogue size = 7
+          return address offset (from bp) = 00000010
+          return type:  62
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Name = "PACKET_Checkpoint_CALLBACK"
+        0539: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "pktConn",  type = 61
+        0545: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "data",  type = 55
+        054E: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "length",  type = 10
+        0559: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "pkt",  type = 136
+

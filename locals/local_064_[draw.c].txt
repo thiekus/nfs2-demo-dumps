@@ -1,0 +1,1279 @@
+ 64) Name:   C:\nfs2\game\pc\draw.c
+     Language is C
+     Locals: num = 1, offset = 00000112H
+     Types:  num = 1, offset = 000002AEH
+     Lines:  num = 1, offset = 00000436H
+
+   *** Locals ***
+   ==============
+      Data 0:  offset 00017EC7
+        0000: MODULE_386
+          "gListCBRenderFacet" addr = 0002:00047BFC,  type = 68
+        001B: MODULE_386
+          "gEnv" addr = 0002:00047C64,  type = 73
+        0028: MODULE_386
+          "gEnvScreenSizeData" addr = 0002:0000F650,  type = 77
+        0043: MODULE_386
+          "gSubDivVertex" addr = 0002:00047CA4,  type = 83
+        0059: MODULE_386
+          "gDCy" addr = 0002:000486C4,  type = 84
+        0066: MODULE_386
+          "mapWindow" addr = 0002:000486D4,  type = 94
+        0078: MODULE_386
+          "gDCx" addr = 0002:000486DC,  type = 95
+        0085: MODULE_386
+          "gDc" addr = 0002:000486EC,  type = 96
+        0091: MODULE_386
+          "gZi" addr = 0002:000486FC,  type = 97
+        009D: MODULE_386
+          "gEnvDetail" addr = 0002:0004873C,  type = 9
+        00B0: MODULE_386
+          "gEnvChange" addr = 0002:00048740,  type = 9
+        00C3: MODULE_386
+          "gEnvScreenSizeMode" addr = 0002:00048744,  type = 9
+        00DE: MODULE_386
+          "uvdefs" addr = 0002:0000F164,  type = 99
+        00ED: MODULE_386
+          "gSubDivFacet" addr = 0002:00048748,  type = 111
+        0102: MODULE_386
+          "gPrevLight" addr = 0002:0000F160,  type = 9
+        0115: MODULE_386
+          "gPrevTable" addr = 0002:0000F15C,  type = 13
+        0128: MODULE_386
+          "Draw_gCullIsDone" addr = 0002:0004874C,  type = 9
+        0141: MODULE_386
+          "drawWindow" addr = 0002:00048750,  type = 93
+        0154: MODULE_386
+          "rearWindow" addr = 0002:00048754,  type = 93
+        0167: MODULE_386
+          "Draw_gDashHeight" addr = 0002:00048758,  type = 9
+        0180: MODULE_386
+          "Draw_gLinmapType" addr = 0002:0004875C,  type = 9
+        0199: MODULE_386
+          "gDraw_LightLvl" addr = 0002:00048760,  type = 9
+        01B0: MODULE_386
+          "gLoop" addr = 0002:00048764,  type = 9
+        01BE: MODULE_386
+          "gClipx0" addr = 0002:00048768,  type = 9
+        01CE: MODULE_386
+          "gClipx1" addr = 0002:0004876C,  type = 9
+        01DE: MODULE_386
+          "gNdc" addr = 0002:00048770,  type = 9
+        01EB: MODULE_386
+          "gClipy0" addr = 0002:00048774,  type = 9
+        01FB: MODULE_386
+          "gClipy1" addr = 0002:00048778,  type = 9
+        020B: MODULE_386
+          "gEnvDetailScales" addr = 0002:0000F668,  type = 113
+        0224: MODULE_386
+          "gxscale" addr = 0002:0004877C,  type = 6
+        0234: MODULE_386
+          "gyscale" addr = 0002:0004877D,  type = 6
+        0244: SET_BASE_386
+          base = 0001:000502D8
+        024C: NEAR_RTN_386
+          start off = 00000000, code size = 0000001A, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  115
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Draw_CalculFContext"
+        0276: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "ctx",  type = 114
+        027E: NEAR_RTN_386
+          start off = 0000001A, code size = 0000001B, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  116
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Name = "Draw_CountFacet"
+        02A6: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "n",  type = 9
+        02AC: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "type",  type = 9
+        02B5: NEAR_RTN_386
+          start off = 00000035, code size = 0000002A, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  116
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Name = "Draw_ReadDepthCueDistVals"
+        02E7: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "i",  type = 9
+        02ED: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "val",  type = 9
+        02F5: NEAR_RTN_386
+          start off = 0000005F, code size = 0000002A, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  116
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Name = "Draw_ReadDepthCueLightVals"
+        0328: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "i",  type = 9
+        032E: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "val",  type = 9
+        0336: BLOCK_386
+          start off = 000000AB, code size = 000000B0, parent off = 0342
+        0342: NEAR_RTN_386
+          start off = 00000089, code size = 000001A4, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  23
+          return value: <none>
+          Name = "Draw_InitLightColorTable"
+        036F: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "z",  type = 9
+        0375: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "p",  type = 9
+        037B: LOCAL
+          address: BP_OFFSET_WORD( 0098 )
+          name = "dc",  type = 117
+        0383: NEAR_RTN_386
+          start off = 0000022D, code size = 00000015, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  118
+          return value: <none>
+          Name = "Draw_Alert"
+        03A2: LOCAL
+          address: BP_OFFSET_BYTE( 1C )
+          name = "fmt",  type = 13
+        03AA: NEAR_RTN_386
+          start off = 00000242, code size = 00000015, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  23
+          return value: <none>
+          Name = "Draw_StartBenchmark"
+        03D2: NEAR_RTN_386
+          start off = 00000257, code size = 00000015, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  23
+          return value: <none>
+          Name = "Draw_SpecialBenchmark"
+        03FC: NEAR_RTN_386
+          start off = 0000026C, code size = 00000015, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  23
+          return value: <none>
+          Name = "Draw_DebugRendering"
+        0424: BLOCK_386
+          start off = 000002A5, code size = 0000002D, parent off = 0438
+        0430: LOCAL
+          address: BP_OFFSET_WORD( 00FC )
+          name = "ap",  type = 20
+        0438: NEAR_RTN_386
+          start off = 00000281, code size = 0000007F, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  118
+          return value: <none>
+          Name = "Draw_JungleDrawMessage"
+        0463: LOCAL
+          address: BP_OFFSET_BYTE( 1C )
+          name = "fmt",  type = 13
+        046B: LOCAL
+          address: BP_OFFSET_WORD( 0000 )
+          name = "Msg",  type = 119
+        0474: BLOCK_386
+          start off = 0000033E, code size = 0000007D, parent off = 0530
+        0480: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "pt",  type = 122
+        0487: BLOCK_386
+          start off = 0000065B, code size = 000001BA, parent off = 04A3
+        0493: LOCAL
+          address: BP_OFFSET_WORD( 0070 )
+          name = "dx",  type = 9
+        049B: LOCAL
+          address: BP_OFFSET_WORD( 0074 )
+          name = "dy",  type = 9
+        04A3: BLOCK_386
+          start off = 000004AB, code size = 0000036F, parent off = 04B7
+        04AF: LOCAL
+          address: BP_OFFSET_WORD( 0078 )
+          name = "pt",  type = 9
+        04B7: BLOCK_386
+          start off = 000003C0, code size = 000006C5, parent off = 0530
+        04C3: LOCAL
+          address: BP_OFFSET_BYTE( D8 )
+          name = "x",  type = 9
+        04C9: LOCAL
+          address: BP_OFFSET_BYTE( DC )
+          name = "y",  type = 9
+        04CF: LOCAL
+          address: BP_OFFSET_BYTE( BC )
+          name = "width",  type = 9
+        04D9: LOCAL
+          address: BP_OFFSET_BYTE( C0 )
+          name = "height",  type = 9
+        04E4: LOCAL
+          address: BP_OFFSET_BYTE( C4 )
+          name = "i",  type = 9
+        04EA: LOCAL
+          address: BP_OFFSET_BYTE( C8 )
+          name = "j",  type = 9
+        04F0: LOCAL
+          address: BP_OFFSET_BYTE( CC )
+          name = "numpoints",  type = 9
+        04FE: LOCAL
+          address: BP_OFFSET_BYTE( D0 )
+          name = "dir",  type = 9
+        0506: LOCAL
+          address: BP_OFFSET_BYTE( D4 )
+          name = "div",  type = 9
+        050E: LOCAL
+          address: BP_OFFSET_WORD( 007C )
+          name = "spoints",  type = 123
+        051B: LOCAL
+          address: BP_OFFSET_WORD( 0030 )
+          name = "dpoints",  type = 124
+        0528: LOCAL
+          address: BP_OFFSET_BYTE( E0 )
+          name = "pmx",  type = 104
+        0530: NEAR_RTN_386
+          start off = 00000300, code size = 0000078C, parent off = 0000
+          prologue size = 12,  epilogue size = 7
+          return address offset (from bp) = 00000010
+          return type:  126
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Name = "Draw_LinmapPoly"
+        055A: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "baseptr",  type = 125
+        0566: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "uv",  type = 9
+        056D: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "enlarge",  type = 9
+        0579: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "i",  type = 9
+        057F: BLOCK_386
+          start off = 00000C01, code size = 0000011B, parent off = 06C6
+        058B: LOCAL
+          address: BP_OFFSET_BYTE( 90 )
+          name = "dindex",  type = 9
+        0596: LOCAL
+          address: BP_OFFSET_BYTE( 8C )
+          name = "dptr",  type = 127
+        059F: LOCAL
+          address: BP_OFFSET_BYTE( 84 )
+          name = "aptr",  type = 127
+        05A8: LOCAL
+          address: BP_OFFSET_BYTE( 88 )
+          name = "bptr",  type = 127
+        05B1: LOCAL
+          address: BP_OFFSET_WORD( 0078 )
+          name = "cpt",  type = 122
+        05BA: BLOCK_386
+          start off = 00000D1C, code size = 0000011E, parent off = 06C6
+        05C6: LOCAL
+          address: BP_OFFSET_BYTE( 94 )
+          name = "dindex",  type = 9
+        05D1: LOCAL
+          address: BP_OFFSET_BYTE( 98 )
+          name = "dptr",  type = 127
+        05DA: LOCAL
+          address: BP_OFFSET_BYTE( 9C )
+          name = "aptr",  type = 127
+        05E3: LOCAL
+          address: BP_OFFSET_BYTE( A0 )
+          name = "bptr",  type = 127
+        05EC: LOCAL
+          address: BP_OFFSET_WORD( 006C )
+          name = "cpt",  type = 122
+        05F5: BLOCK_386
+          start off = 00000E3A, code size = 00000120, parent off = 06C6
+        0601: LOCAL
+          address: BP_OFFSET_BYTE( A4 )
+          name = "dindex",  type = 9
+        060C: LOCAL
+          address: BP_OFFSET_BYTE( A8 )
+          name = "dptr",  type = 127
+        0615: LOCAL
+          address: BP_OFFSET_BYTE( AC )
+          name = "aptr",  type = 127
+        061E: LOCAL
+          address: BP_OFFSET_BYTE( B0 )
+          name = "bptr",  type = 127
+        0627: LOCAL
+          address: BP_OFFSET_WORD( 0060 )
+          name = "cpt",  type = 122
+        0630: BLOCK_386
+          start off = 00000F5A, code size = 0000011E, parent off = 06C6
+        063C: LOCAL
+          address: BP_OFFSET_BYTE( B4 )
+          name = "dindex",  type = 9
+        0647: LOCAL
+          address: BP_OFFSET_BYTE( B8 )
+          name = "dptr",  type = 127
+        0650: LOCAL
+          address: BP_OFFSET_BYTE( BC )
+          name = "aptr",  type = 127
+        0659: LOCAL
+          address: BP_OFFSET_BYTE( C0 )
+          name = "bptr",  type = 127
+        0662: LOCAL
+          address: BP_OFFSET_WORD( 0054 )
+          name = "cpt",  type = 122
+        066B: BLOCK_386
+          start off = 00001078, code size = 0000011E, parent off = 06C6
+        0677: LOCAL
+          address: BP_OFFSET_BYTE( C4 )
+          name = "dindex",  type = 9
+        0682: LOCAL
+          address: BP_OFFSET_BYTE( C8 )
+          name = "dptr",  type = 127
+        068B: LOCAL
+          address: BP_OFFSET_BYTE( CC )
+          name = "aptr",  type = 127
+        0694: LOCAL
+          address: BP_OFFSET_BYTE( D0 )
+          name = "bptr",  type = 127
+        069D: LOCAL
+          address: BP_OFFSET_WORD( 0048 )
+          name = "cpt",  type = 122
+        06A6: BLOCK_386
+          start off = 00001196, code size = 000000D2, parent off = 06C6
+        06B2: LOCAL
+          address: BP_OFFSET_BYTE( D4 )
+          name = "pmx",  type = 104
+        06BA: LOCAL
+          address: BP_OFFSET_BYTE( D8 )
+          name = "dlevel",  type = 128
+        06C6: NEAR_RTN_386
+          start off = 00000A8C, code size = 000007E3, parent off = 0000
+          prologue size = 12,  epilogue size = 7
+          return address offset (from bp) = 00000010
+          return type:  130
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Name = "Draw_QuadSubDivide"
+        06F4: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "vtx",  type = 129
+        06FD: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "level",  type = 9
+        0707: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "uv",  type = 9
+        070E: LOCAL
+          address: CONST_ADDR386( 0002:0000F560 )
+          name = "uvlevels",  type = 131
+        0721: LOCAL
+          address: CONST_ADDR386( 0002:0000F570 )
+          name = "ddefs",  type = 133
+        0731: LOCAL
+          address: CONST_ADDR386( 0002:0000F5D0 )
+          name = "defs",  type = 135
+        0740: LOCAL
+          address: CONST_ADDR386( 0002:0000F610 )
+          name = "dists",  type = 137
+        0750: LOCAL
+          address: BP_OFFSET_BYTE( E0 )
+          name = "curpts",  type = 138
+        075C: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "zcenter",  type = 9
+        0768: NEAR_RTN_386
+          start off = 0000126F, code size = 0000008A, parent off = 0000
+          prologue size = 11,  epilogue size = 6
+          return address offset (from bp) = 0000000C
+          return type:  140
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Parm 3: MULTI_REG(1): ECX
+          Name = "Draw_FastBackCull"
+        0798: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "p1",  type = 139
+        07A0: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "p2",  type = 139
+        07A8: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "p3",  type = 139
+        07B0: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "p4",  type = 139
+        07B8: NEAR_RTN_386
+          start off = 000012F9, code size = 0000010C, parent off = 0000
+          prologue size = 11,  epilogue size = 6
+          return address offset (from bp) = 0000000C
+          return type:  141
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Parm 3: MULTI_REG(1): ECX
+          Name = "Draw_BackCull"
+        07E4: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "p1",  type = 100
+        07EB: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "p2",  type = 100
+        07F2: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "p3",  type = 100
+        07F9: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "p4",  type = 100
+        0800: NEAR_RTN_386
+          start off = 00001405, code size = 000000CE, parent off = 0000
+          prologue size = 11,  epilogue size = 6
+          return address offset (from bp) = 0000000C
+          return type:  141
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Parm 3: MULTI_REG(1): ECX
+          Name = "Draw_SubDivBackCull"
+        0832: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "p1",  type = 100
+        0839: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "p2",  type = 100
+        0840: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "p3",  type = 100
+        0847: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "p4",  type = 100
+        084E: NEAR_RTN_386
+          start off = 000014D3, code size = 0000013B, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  142
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Draw_HighQuality3DFacet"
+        087D: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "f3d",  type = 111
+        0885: BLOCK_386
+          start off = 0000174D, code size = 00000185, parent off = 08BA
+        0891: LOCAL
+          address: BP_OFFSET_BYTE( C8 )
+          name = "pmx",  type = 104
+        0899: LOCAL
+          address: BP_OFFSET_BYTE( BC )
+          name = "shp",  type = 88
+        08A1: LOCAL
+          address: BP_OFFSET_BYTE( C0 )
+          name = "h",  type = 9
+        08A7: LOCAL
+          address: BP_OFFSET_BYTE( C4 )
+          name = "w",  type = 9
+        08AD: LOCAL
+          address: BP_OFFSET_BYTE( 94 )
+          name = "spoints",  type = 143
+        08BA: NEAR_RTN_386
+          start off = 0000160E, code size = 000002CD, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  142
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Draw_MedQuality3DFacet"
+        08E8: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "f3d",  type = 111
+        08F0: LOCAL
+          address: BP_OFFSET_BYTE( D0 )
+          name = "dpoints",  type = 144
+        08FD: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "f",  type = 9
+        0903: BLOCK_386
+          start off = 00001A04, code size = 0000012A, parent off = 0938
+        090F: LOCAL
+          address: BP_OFFSET_BYTE( 9C )
+          name = "spoints",  type = 145
+        091C: LOCAL
+          address: BP_OFFSET_BYTE( C8 )
+          name = "pmx",  type = 104
+        0924: LOCAL
+          address: BP_OFFSET_BYTE( C4 )
+          name = "shp",  type = 88
+        092C: LOCAL
+          address: BP_OFFSET_BYTE( CC )
+          name = "h",  type = 9
+        0932: LOCAL
+          address: BP_OFFSET_BYTE( D0 )
+          name = "w",  type = 9
+        0938: NEAR_RTN_386
+          start off = 000018DB, code size = 0000025C, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  153
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Draw_General2DFacet"
+        0963: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "f2d",  type = 152
+        096C: LOCAL
+          address: BP_OFFSET_BYTE( D4 )
+          name = "dpoints",  type = 154
+        0979: BLOCK_386
+          start off = 00001BE0, code size = 00000129, parent off = 09A6
+        0985: LOCAL
+          address: BP_OFFSET_BYTE( B4 )
+          name = "spoints",  type = 155
+        0992: LOCAL
+          address: BP_OFFSET_BYTE( D4 )
+          name = "pmx",  type = 104
+        099A: LOCAL
+          address: BP_OFFSET_BYTE( D8 )
+          name = "h",  type = 9
+        09A0: LOCAL
+          address: BP_OFFSET_BYTE( DC )
+          name = "w",  type = 9
+        09A6: NEAR_RTN_386
+          start off = 00001B37, code size = 000001DB, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  65
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Draw_GeneralTriangle"
+        09D1: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "fScane",  type = 64
+        09DC: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "f3d",  type = 111
+        09E4: LOCAL
+          address: BP_OFFSET_BYTE( E0 )
+          name = "dpoints",  type = 156
+        09F1: NEAR_RTN_386
+          start off = 00001D12, code size = 00000052, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  142
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Draw_High_k3DFacet"
+        0A1B: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "fScane",  type = 111
+        0A26: NEAR_RTN_386
+          start off = 00001D64, code size = 00000052, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  142
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Draw_High_k3DTransparentFacet"
+        0A5B: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "fScane",  type = 111
+        0A66: NEAR_RTN_386
+          start off = 00001DB6, code size = 0000002C, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  142
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Draw_High_k3DAdditiveFacet"
+        0A98: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "fScane",  type = 111
+        0AA3: NEAR_RTN_386
+          start off = 00001DE2, code size = 0000002C, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  142
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Draw_High_k3DTranslucentFacet"
+        0AD8: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "fScane",  type = 111
+        0AE3: NEAR_RTN_386
+          start off = 00001E0E, code size = 00000052, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  142
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Draw_Med_k3DFacet"
+        0B0C: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "fScane",  type = 111
+        0B17: NEAR_RTN_386
+          start off = 00001E60, code size = 00000052, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  142
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Draw_Med_k3DTransparentFacet"
+        0B4B: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "fScane",  type = 111
+        0B56: NEAR_RTN_386
+          start off = 00001EB2, code size = 0000002C, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  142
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Draw_Med_k3DAdditiveFacet"
+        0B87: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "fScane",  type = 111
+        0B92: NEAR_RTN_386
+          start off = 00001EDE, code size = 0000002C, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  142
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Draw_Med_k3DTranslucentFacet"
+        0BC6: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "fScane",  type = 111
+        0BD1: NEAR_RTN_386
+          start off = 00001F0A, code size = 0000002C, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  65
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Draw_k3DTFacet"
+        0BF6: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "f3dt",  type = 64
+        0BFF: NEAR_RTN_386
+          start off = 00001F36, code size = 0000002C, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  65
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Draw_k3DTTransparentFacet"
+        0C2F: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "f3dt",  type = 64
+        0C38: NEAR_RTN_386
+          start off = 00001F62, code size = 0000002C, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  153
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Draw_k2DFacet"
+        0C5D: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "fScane",  type = 152
+        0C69: NEAR_RTN_386
+          start off = 00001F8E, code size = 0000002C, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  153
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Draw_k2DTransparentFacet"
+        0C99: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "fScane",  type = 152
+        0CA5: NEAR_RTN_386
+          start off = 00001FBA, code size = 0000002C, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  153
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Draw_k2DTranslucentFacet"
+        0CD5: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "fScane",  type = 152
+        0CE1: NEAR_RTN_386
+          start off = 00001FE6, code size = 00000062, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  153
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Draw_k2DTranslatedFacet"
+        0D10: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "f2d",  type = 152
+        0D19: LOCAL
+          address: BP_OFFSET_BYTE( D4 )
+          name = "pts",  type = 157
+        0D22: NEAR_RTN_386
+          start off = 00002048, code size = 00000036, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  162
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Draw_k2DTileFacet"
+        0D4B: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "f2d",  type = 161
+        0D54: NEAR_RTN_386
+          start off = 0000207E, code size = 00000036, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  162
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Draw_k2DTransparentTileFacet"
+        0D88: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "f2d",  type = 161
+        0D91: NEAR_RTN_386
+          start off = 000020B4, code size = 00000072, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  168
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Draw_k2DFlatFacet"
+        0DBA: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "f2d",  type = 167
+        0DC3: BLOCK_386
+          start off = 00002179, code size = 0000004E, parent off = 0DE9
+        0DCF: LOCAL
+          address: BP_OFFSET_BYTE( D8 )
+          name = "v",  type = 169
+        0DD6: BLOCK_386
+          start off = 000021C9, code size = 00000042, parent off = 0DE9
+        0DE2: LOCAL
+          address: BP_OFFSET_BYTE( B8 )
+          name = "v",  type = 170
+        0DE9: NEAR_RTN_386
+          start off = 00002126, code size = 000000EE, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  178
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Draw_kDebugFacet"
+        0E11: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "fdebug",  type = 177
+        0E1D: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "col",  type = 9
+        0E25: NEAR_RTN_386
+          start off = 00002214, code size = 00000056, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  183
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Draw_kFlatLineFacet"
+        0E50: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "fline",  type = 182
+        0E5B: NEAR_RTN_386
+          start off = 0000226A, code size = 00000076, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  188
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Draw_kSetClipFacet"
+        0E85: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "clip",  type = 187
+        0E8F: NEAR_RTN_386
+          start off = 000022E0, code size = 0000002A, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  193
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Draw_kCtrlDepthCeuing"
+        0EBC: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "fdc",  type = 192
+        0EC5: NEAR_RTN_386
+          start off = 0000230A, code size = 0000001F, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  193
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Draw_kCtrlCallBack"
+        0EEF: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "f",  type = 192
+        0EF6: NEAR_RTN_386
+          start off = 00002329, code size = 0000002F, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  198
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Draw_kSetWin"
+        0F1A: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "fsw",  type = 197
+        0F23: BLOCK_386
+          start off = 00002382, code size = 0000003E, parent off = 0F54
+        0F2F: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "fdc",  type = 192
+        0F38: BLOCK_386
+          start off = 000023C2, code size = 0000004A, parent off = 0F54
+        0F44: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "f",  type = 192
+        0F4B: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "dist",  type = 9
+        0F54: NEAR_RTN_386
+          start off = 00002358, code size = 000000BD, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  210
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Draw_InsertControlFacet"
+        0F83: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "Vi",  type = 209
+        0F8B: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "i",  type = 9
+        0F91: NEAR_RTN_386
+          start off = 00002415, code size = 0000001A, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  65
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Draw_DrawFacetNotImplemented"
+        0FC4: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "fScane",  type = 64
+        0FCF: NEAR_RTN_386
+          start off = 0000242F, code size = 0000010F, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  23
+          return value: <none>
+          Name = "Draw_InitRenderingLoop"
+        0FFA: NEAR_RTN_386
+          start off = 0000253E, code size = 0000003D, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  23
+          return value: <none>
+          Name = "Draw_InstallHighQualityCallBack"
+        102E: NEAR_RTN_386
+          start off = 0000257B, code size = 0000003D, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  23
+          return value: <none>
+          Name = "Draw_InstallMediumQualityCallBack"
+        1064: NEAR_RTN_386
+          start off = 000025B8, code size = 00000041, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  65
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Draw_RenderingLoop"
+        108D: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "fScane",  type = 64
+        1098: NEAR_RTN_386
+          start off = 000025F9, code size = 00000038, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  23
+          return value: <none>
+          Name = "Draw_ToggleDetailLevel"
+        10C3: NEAR_RTN_386
+          start off = 00002631, code size = 0000006F, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  23
+          return value: <none>
+          Name = "Draw_ToggleScreenSize"
+        10ED: NEAR_RTN_386
+          start off = 000026A0, code size = 00000039, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  211
+          return value: MULTI_REG(1): EAX
+          Name = "Draw_IsFullScreenMode"
+        1119: NEAR_RTN_386
+          start off = 000026D9, code size = 000000EF, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  23
+          return value: <none>
+          Name = "Draw_SetClipProjEnviro"
+        1144: NEAR_RTN_386
+          start off = 000027C8, code size = 00000063, parent off = 0000
+          prologue size = 11,  epilogue size = 8
+          return address offset (from bp) = 0000000C
+          return type:  212
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Parm 3: MULTI_REG(1): ECX
+          Name = "Draw_GetClipProjEnviro"
+        1178: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "player",  type = 9
+        1183: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "cx",  type = 128
+        118B: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "cy",  type = 128
+        1193: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "w",  type = 128
+        119A: LOCAL
+          address: BP_OFFSET_BYTE( 10 )
+          name = "h",  type = 128
+        11A1: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "ep",  type = 213
+        11A9: NEAR_RTN_386
+          start off = 0000282B, code size = 0000009F, parent off = 0000
+          prologue size = 11,  epilogue size = 8
+          return address offset (from bp) = 0000000C
+          return type:  214
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Parm 3: MULTI_REG(1): ECX
+          Name = "Draw_CreateEnviro"
+        11D8: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "id",  type = 9
+        11DF: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "x0",  type = 9
+        11E6: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "y0",  type = 9
+        11ED: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "x1",  type = 9
+        11F4: LOCAL
+          address: BP_OFFSET_BYTE( 10 )
+          name = "y1",  type = 9
+        11FB: LOCAL
+          address: BP_OFFSET_BYTE( 14 )
+          name = "w",  type = 9
+        1201: LOCAL
+          address: BP_OFFSET_BYTE( 18 )
+          name = "h",  type = 9
+        1207: NEAR_RTN_386
+          start off = 000028CA, code size = 000000EE, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  23
+          return value: <none>
+          Name = "Draw_CreateAllEnviro"
+        1230: NEAR_RTN_386
+          start off = 000029B8, code size = 000001B0, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  210
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Draw_SetEnviro"
+        1256: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "Vi",  type = 209
+        125E: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "ep",  type = 213
+        1266: NEAR_RTN_386
+          start off = 00002B68, code size = 00000030, parent off = 0000
+          prologue size = 13,  epilogue size = 10
+          return address offset (from bp) = 00000014
+          return type:  218
+          return value: IND_REG_CALLOC_NEAR( ESI )
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Draw_ProcessListFacet"
+        1294: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "Vi",  type = 209
+        129C: LOCAL
+          address: BP_OFFSET_BYTE( 18 )
+          name = "lf",  type = 217
+        12A4: NEAR_RTN_386
+          start off = 00002B98, code size = 0000002B, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  23
+          return value: <none>
+          Name = "Draw_DebugFrameRender"
+        12CE: NEAR_RTN_386
+          start off = 00002BC3, code size = 0000001A, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  210
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Draw_StartRenderingView"
+        12FD: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "Vi",  type = 209
+        1305: NEAR_RTN_386
+          start off = 00002BDD, code size = 00000073, parent off = 0000
+          prologue size = 14,  epilogue size = 11
+          return address offset (from bp) = 00000018
+          return type:  219
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Draw_StopRenderingView"
+        1333: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "Vi",  type = 209
+        133B: LOCAL
+          address: BP_OFFSET_BYTE( 1C )
+          name = "lf",  type = 217
+        1343: NEAR_RTN_386
+          start off = 00002C50, code size = 0000014D, parent off = 0000
+          prologue size = 11,  epilogue size = 8
+          return address offset (from bp) = 0000000C
+          return type:  220
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Parm 3: MULTI_REG(1): ECX
+          Name = "Draw_UVTexture"
+        136F: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "shp",  type = 88
+        1377: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "x",  type = 9
+        137D: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "y",  type = 9
+        1383: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "hrzf",  type = 9
+        138C: LOCAL
+          address: BP_OFFSET_BYTE( 10 )
+          name = "vrtf",  type = 9
+        1395: LOCAL
+          address: BP_OFFSET_BYTE( 90 )
+          name = "src",  type = 221
+        139E: LOCAL
+          address: BP_OFFSET_BYTE( B8 )
+          name = "pts",  type = 222
+        13A7: LOCAL
+          address: BP_OFFSET_BYTE( E0 )
+          name = "temp",  type = 76
+        13B0: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "w",  type = 9
+        13B6: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "h",  type = 9
+        13BC: BLOCK_386
+          start off = 00002DB9, code size = 00000064, parent off = 13C8
+        13C8: NEAR_RTN_386
+          start off = 00002D9D, code size = 000000E2, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  23
+          return value: <none>
+          Name = "Draw_DetailLevelBackground"
+        13F7: NEAR_RTN_386
+          start off = 00002E7F, code size = 00000040, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  23
+          return value: <none>
+          Name = "Draw_StartFrameRender"
+        1421: BLOCK_386
+          start off = 00002F01, code size = 0000014F, parent off = 1435
+        142D: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "ys",  type = 223
+        1435: NEAR_RTN_386
+          start off = 00002EBF, code size = 0000030F, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  23
+          return value: <none>
+          Name = "Draw_StopFrameRender"
+        145E: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "rearmask",  type = 13
+        146B: NEAR_RTN_386
+          start off = 000031CE, code size = 000000BA, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  23
+          return value: <none>
+          Name = "Draw_InitTrackRender"
+        1494: NEAR_RTN_386
+          start off = 00003288, code size = 000000F0, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  23
+          return value: <none>
+          Name = "Draw_InitGameGraphicSystem"
+        14C3: LOCAL
+          address: BP_OFFSET_WORD( 0000 )
+          name = "clearpal",  type = 224
+        14D2: NEAR_RTN_386
+          start off = 00003378, code size = 00000015, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  23
+          return value: <none>
+          Name = "Draw_InitTrackRenderPostSim"
+        1502: NEAR_RTN_386
+          start off = 0000338D, code size = 00000015, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  23
+          return value: <none>
+          Name = "Draw_RestartTrackRender"
+        152E: NEAR_RTN_386
+          start off = 000033A2, code size = 00000056, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  23
+          return value: <none>
+          Name = "Draw_KillTrackRender"
+        1557: NEAR_RTN_386
+          start off = 000033F8, code size = 0000001F, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  23
+          return value: <none>
+          Name = "Draw_InitLibRender"
+        157E: NEAR_RTN_386
+          start off = 00003417, code size = 00000015, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  23
+          return value: <none>
+          Name = "Draw_KillLibRender"
+        15A5: NEAR_RTN_386
+          start off = 0000342C, code size = 0000008E, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  23
+          return value: <none>
+          Name = "Pause_Background"
+        15CA: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "shp",  type = 88
+        15D2: NEAR_RTN_386
+          start off = 000034BA, code size = 000000FC, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  23
+          return value: <none>
+          Name = "Pause_FullBackground"
+        15FB: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "sld",  type = 88
+        1603: BLOCK_386
+          start off = 000036EB, code size = 00000160, parent off = 1641
+        160F: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "name",  type = 225
+        1619: BLOCK_386
+          start off = 0000387B, code size = 00000056, parent off = 1641
+        1625: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "shp",  type = 88
+        162D: BLOCK_386
+          start off = 000038D3, code size = 00000051, parent off = 1641
+        1639: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "shp",  type = 88
+        1641: NEAR_RTN_386
+          start off = 000035B6, code size = 00000381, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  23
+          return value: <none>
+          Name = "Draw_RenderPauseMenu"
+        166A: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "i",  type = 9
+        1670: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "sv1",  type = 9
+        1678: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "sv2",  type = 9
+        1680: NEAR_RTN_386
+          start off = 00003937, code size = 00000015, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  23
+          return value: <none>
+          Name = "Draw_StartPauseMenu"
+        16A8: NEAR_RTN_386
+          start off = 0000394C, code size = 0000001F, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  23
+          return value: <none>
+          Name = "Draw_StopPauseMenu"
+        16CF: NEAR_RTN_386
+          start off = 0000396B, code size = 00000023, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  23
+          return value: <none>
+          Name = "Draw_StartRenderPauseMenu"
+        16FD: NEAR_RTN_386
+          start off = 0000398E, code size = 0000002F, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  23
+          return value: <none>
+          Name = "Draw_StopRenderPauseMenu"
+

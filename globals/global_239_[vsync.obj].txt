@@ -1,0 +1,20 @@
+  Name:  _waitdraw
+    address      = 0001:0009BA60
+    module index = 239
+    kind:          (code)
+  Name:  _vertsyncstart
+    address      = 0001:0009BA88
+    module index = 239
+    kind:          (code)
+  Name:  _vertsync
+    address      = 0001:0009BA88
+    module index = 239
+    kind:          (code)
+  Name:  _vsyncstate
+    address      = 0001:0009BA98
+    module index = 239
+    kind:          (code)
+  Name:  _vertsyncend
+    address      = 0001:0009BAA8
+    module index = 239
+    kind:          (code)

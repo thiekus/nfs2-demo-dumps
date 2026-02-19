@@ -1,0 +1,320 @@
+  Name:  _Cars_gPalRemapIDs
+    address      = 0002:00022E30
+    module index = 11
+    kind:          (data)
+  Name:  _Cars_gPalShapefiles
+    address      = 0002:00022EF0
+    module index = 11
+    kind:          (data)
+  Name:  _Cars_gCopCarList
+    address      = 0002:00022F30
+    module index = 11
+    kind:          (data)
+  Name:  _Cars_gList
+    address      = 0002:00022F70
+    module index = 11
+    kind:          (data)
+  Name:  _Cars_gAICarList
+    address      = 0002:00022FB0
+    module index = 11
+    kind:          (data)
+  Name:  _Cars_gTrafficCarList
+    address      = 0002:00022FF0
+    module index = 11
+    kind:          (data)
+  Name:  _Cars_gAIRaceCarList
+    address      = 0002:00023030
+    module index = 11
+    kind:          (data)
+  Name:  _Cars_gSmackableCarList
+    address      = 0002:00023070
+    module index = 11
+    kind:          (data)
+  Name:  _Cars_gRaceCarList
+    address      = 0002:000230B0
+    module index = 11
+    kind:          (data)
+  Name:  _Cars_gTotalSortedList
+    address      = 0002:000230F0
+    module index = 11
+    kind:          (data)
+  Name:  _Cars_gSortedList
+    address      = 0002:00023130
+    module index = 11
+    kind:          (data)
+  Name:  _Cars_gHumanRaceCarList
+    address      = 0002:00023170
+    module index = 11
+    kind:          (data)
+  Name:  _Cars_TuneSimArcade
+    address      = 0002:000231B0
+    module index = 11
+    kind:          (data)
+  Name:  _Cars_LoadedShapefile
+    address      = 0002:00023298
+    module index = 11
+    kind:          (data)
+  Name:  _Cars_gNumAIRaceCars
+    address      = 0002:00023364
+    module index = 11
+    kind:          (data)
+  Name:  _Cars_gNumAICars
+    address      = 0002:00023368
+    module index = 11
+    kind:          (data)
+  Name:  _Cars_kGravityDirectionTest
+    address      = 0002:0000C74C
+    module index = 11
+    kind:          (static pubdef) (data)
+  Name:  _Cars_gCarStatsList
+    address      = 0002:0000C750
+    module index = 11
+    kind:          (data)
+  Name:  _Cars_ExtraTuning
+    address      = 0002:0000C754
+    module index = 11
+    kind:          (data)
+  Name:  _Cars_topSpeedCap
+    address      = 0002:0000C7B4
+    module index = 11
+    kind:          (data)
+  Name:  _Cars_kSmokingSurface
+    address      = 0002:0000C7DC
+    module index = 11
+    kind:          (static pubdef) (data)
+  Name:  _Cars_kSkidMarkSurface
+    address      = 0002:0000C81C
+    module index = 11
+    kind:          (static pubdef) (data)
+  Name:  _Cars_kGravitySurface
+    address      = 0002:0000C85C
+    module index = 11
+    kind:          (static pubdef) (data)
+  Name:  _Cars_kBumpySurfaceFactor
+    address      = 0002:0000C89C
+    module index = 11
+    kind:          (static pubdef) (data)
+  Name:  _Cars_kConvertFromRoadToSfxType
+    address      = 0002:0000C8DC
+    module index = 11
+    kind:          (static pubdef) (data)
+  Name:  _Cars_kAudioRoadSurfaceInterface
+    address      = 0002:0000C91C
+    module index = 11
+    kind:          (static pubdef) (data)
+  Name:  _Cars_kSFXWallSurfaceInterface
+    address      = 0002:0000C95C
+    module index = 11
+    kind:          (static pubdef) (data)
+  Name:  Cars_NullRoutine_
+    address      = 0001:0001BF50
+    module index = 11
+    kind:          (code)
+  Name:  Cars_SineBounce_
+    address      = 0001:0001BF6A
+    module index = 11
+    kind:          (code)
+  Name:  Cars_ReturnStats_
+    address      = 0001:0001BFAA
+    module index = 11
+    kind:          (code)
+  Name:  Cars_DoGravityEffectsOnAcc_
+    address      = 0001:0001BFE4
+    module index = 11
+    kind:          (code)
+  Name:  Cars_GetDashData_
+    address      = 0001:0001C119
+    module index = 11
+    kind:          (code)
+  Name:  Cars_CheckForHills_
+    address      = 0001:0001C21D
+    module index = 11
+    kind:          (code)
+  Name:  Cars_QDUpdateVelGlue_
+    address      = 0001:0001C87B
+    module index = 11
+    kind:          (code)
+  Name:  Cars_QDUpdateRot64HzGlue_
+    address      = 0001:0001C94B
+    module index = 11
+    kind:          (code)
+  Name:  Cars_InitDashData_
+    address      = 0001:0001CA43
+    module index = 11
+    kind:          (code)
+  Name:  Cars_SetAudioCalls_
+    address      = 0001:0001CA87
+    module index = 11
+    kind:          (code)
+  Name:  Cars_ResetCarCounters_
+    address      = 0001:0001CB33
+    module index = 11
+    kind:          (code)
+  Name:  Cars_InitStats_
+    address      = 0001:0001CB98
+    module index = 11
+    kind:          (code)
+  Name:  Cars_InitializeCarTablesFlagsAndCounters_
+    address      = 0001:0001CC4F
+    module index = 11
+    kind:          (code)
+  Name:  Cars_ResetVariablesAfterACollision_
+    address      = 0001:0001CE8F
+    module index = 11
+    kind:          (code)
+  Name:  Cars_ResetCollidedCars_
+    address      = 0001:0001CF9D
+    module index = 11
+    kind:          (code)
+  Name:  Cars_DoSparkSFX_
+    address      = 0001:0001D771
+    module index = 11
+    kind:          (code)
+  Name:  Cars_InitiateCollisionBodyRock_
+    address      = 0001:0001D8E3
+    module index = 11
+    kind:          (code)
+  Name:  Cars_SetCarUpForLowRezSim_
+    address      = 0001:0001D9B8
+    module index = 11
+    kind:          (code)
+  Name:  Cars_SetCarUpForHiRezSim_
+    address      = 0001:0001DA06
+    module index = 11
+    kind:          (code)
+  Name:  Cars_DoExtraCarCollisionProcessing_
+    address      = 0001:0001DA3A
+    module index = 11
+    kind:          (code)
+  Name:  Cars_AddCarSfx_
+    address      = 0001:0001E34C
+    module index = 11
+    kind:          (code)
+  Name:  Car_TireSkiddingStuff_
+    address      = 0001:0001E67B
+    module index = 11
+    kind:          (code)
+  Name:  Cars_FindTotalSlice_
+    address      = 0001:0001EE64
+    module index = 11
+    kind:          (code)
+  Name:  Car_DoSkiddingStuff_
+    address      = 0001:0001EEB9
+    module index = 11
+    kind:          (code)
+  Name:  Cars_CalcRoadBumpyness_
+    address      = 0001:0001F01D
+    module index = 11
+    kind:          (code)
+  Name:  Cars_FirstFlightPitchRollMod_
+    address      = 0001:0001F1C2
+    module index = 11
+    kind:          (code)
+  Name:  Cars_SteepHillGravityEffect_
+    address      = 0001:0001F502
+    module index = 11
+    kind:          (code)
+  Name:  Car_DoPostCollisionStuff_
+    address      = 0001:0001F590
+    module index = 11
+    kind:          (code)
+  Name:  Cars_CalculateStartingGridOffset_
+    address      = 0001:0001F8CC
+    module index = 11
+    kind:          (code)
+  Name:  Cars_IniCarObjects_
+    address      = 0001:0001FAAC
+    module index = 11
+    kind:          (code)
+  Name:  Cars_InitCar_
+    address      = 0001:0001FF74
+    module index = 11
+    kind:          (code)
+  Name:  Cars_DeInitCar_
+    address      = 0001:000203C5
+    module index = 11
+    kind:          (code)
+  Name:  Cars_Restart_
+    address      = 0001:00020412
+    module index = 11
+    kind:          (code)
+  Name:  Cars_LoadSimArcadeTuning_
+    address      = 0001:000204B9
+    module index = 11
+    kind:          (code)
+  Name:  Cars_ModuleRegister_
+    address      = 0001:0002070F
+    module index = 11
+    kind:          (code)
+  Name:  Cars_Initialize_
+    address      = 0001:000209BA
+    module index = 11
+    kind:          (code)
+  Name:  Cars_StartUp_
+    address      = 0001:000209FC
+    module index = 11
+    kind:          (code)
+  Name:  Cars_CleanUp_
+    address      = 0001:00020C61
+    module index = 11
+    kind:          (code)
+  Name:  Cars_FindCurrentLap_
+    address      = 0001:00020EB0
+    module index = 11
+    kind:          (code)
+  Name:  Cars_CalculateRoadSpan_
+    address      = 0001:00020F51
+    module index = 11
+    kind:          (code)
+  Name:  Cars_CalculateRoadPosition_
+    address      = 0001:0002112D
+    module index = 11
+    kind:          (code)
+  Name:  Cars_CalcVelDownRoad_
+    address      = 0001:00021155
+    module index = 11
+    kind:          (code)
+  Name:  Cars_ManageBureaucracy_
+    address      = 0001:000211D5
+    module index = 11
+    kind:          (code)
+  Name:  Cars_SortCars_
+    address      = 0001:000212B7
+    module index = 11
+    kind:          (code)
+  Name:  _Cars_kAudioWallSurfaceInterface
+    address      = 0002:0000C97C
+    module index = 11
+    kind:          (static pubdef) (data)
+  Name:  _Cars_kAudioCollisoinTypeInterface
+    address      = 0002:0000C99C
+    module index = 11
+    kind:          (static pubdef) (data)
+  Name:  _Cars_kTableSineBounce
+    address      = 0002:0000C9B8
+    module index = 11
+    kind:          (static pubdef) (data)
+  Name:  _Cars_gNumCopCars
+    address      = 0002:0002336C
+    module index = 11
+    kind:          (data)
+  Name:  _Cars_gNumCars
+    address      = 0002:00023370
+    module index = 11
+    kind:          (data)
+  Name:  _Cars_gNumHumanRaceCars
+    address      = 0002:00023374
+    module index = 11
+    kind:          (data)
+  Name:  _Cars_gNumRaceCars
+    address      = 0002:00023378
+    module index = 11
+    kind:          (data)
+  Name:  _Cars_gNumTrafficCars
+    address      = 0002:0002337C
+    module index = 11
+    kind:          (data)
+  Name:  _Cars_gNumSmackableCars
+    address      = 0002:00023380
+    module index = 11
+    kind:          (data)

@@ -1,0 +1,12 @@
+  Name:  _windowdefadra
+    address      = 0001:0009B980
+    module index = 237
+    kind:          (code)
+  Name:  _windowdefadrz
+    address      = 0001:0009B9B0
+    module index = 237
+    kind:          (code)
+  Name:  _windowdefadr
+    address      = 0001:0009B9DC
+    module index = 237
+    kind:          (code)

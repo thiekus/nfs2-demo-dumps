@@ -1,0 +1,8 @@
+  Name:  __Init_Argv_
+    address      = 0001:000A7D47
+    module index = 310
+    kind:          (code)
+  Name:  _SplitParms_
+    address      = 0001:000A7E08
+    module index = 310
+    kind:          (static pubdef) (code)

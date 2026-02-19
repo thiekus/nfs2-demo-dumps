@@ -1,0 +1,202 @@
+ 82) Name:   C:\nfs2\game\pc\TrsProj.c
+     Language is C
+     Locals: num = 1, offset = 0000015AH
+     Types:  num = 1, offset = 000002F6H
+     Lines:  num = 1, offset = 0000047EH
+
+   *** Locals ***
+   ==============
+      Data 0:  offset 0001EBF7
+        0000: MODULE_386
+          "TrsProj_precision" addr = 0002:00010524,  type = 9
+        001A: SET_BASE_386
+          base = 0001:0006164A
+        0022: NEAR_RTN_386
+          start off = 00000000, code size = 00000024, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  51
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "TrsProj_SetTransPrecision"
+        0052: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "val",  type = 9
+        005A: NEAR_RTN_386
+          start off = 00000024, code size = 00000022, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  52
+          return value: MULTI_REG(1): EAX
+          Name = "TrsProj_GetTransPrecision"
+        0089: NEAR_RTN_386
+          start off = 00000046, code size = 0000001F, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  21
+          return value: <none>
+          Name = "TrsProj_ResetTransPrecision"
+        00B9: NEAR_RTN_386
+          start off = 00000065, code size = 00000071, parent off = 0000
+          prologue size = 11,  epilogue size = 8
+          return address offset (from bp) = 0000000C
+          return type:  53
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Parm 3: MULTI_REG(1): ECX
+          Name = "TrsProj_SetProjection"
+        00EB: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "cx",  type = 9
+        00F2: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "cy",  type = 9
+        00F9: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "w",  type = 9
+        00FF: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "h",  type = 9
+        0105: LOCAL
+          address: BP_OFFSET_BYTE( 10 )
+          name = "angle",  type = 9
+        010F: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "xAngle",  type = 9
+        011A: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "yAngle",  type = 9
+        0125: BLOCK_386
+          start off = 00000155, code size = 00000036, parent off = 016D
+        0131: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "x",  type = 9
+        0137: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "y",  type = 9
+        013D: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "w",  type = 9
+        0143: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "h",  type = 9
+        0149: BLOCK_386
+          start off = 0000019D, code size = 00000049, parent off = 016D
+        0155: LOCAL
+          address: BP_OFFSET_BYTE( DC )
+          name = "x",  type = 9
+        015B: LOCAL
+          address: BP_OFFSET_BYTE( E0 )
+          name = "y",  type = 9
+        0161: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "w",  type = 9
+        0167: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "h",  type = 9
+        016D: NEAR_RTN_386
+          start off = 000000D6, code size = 00000119, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  68
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "TrsProj_SetViewTrsProjEnviro"
+        01A0: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "Vi",  type = 67
+        01A7: NEAR_RTN_386
+          start off = 000001EF, code size = 00000030, parent off = 0000
+          prologue size = 12,  epilogue size = 7
+          return address offset (from bp) = 00000010
+          return type:  71
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Name = "TrsProj_Transform"
+        01D3: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "s",  type = 69
+        01D9: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "m",  type = 70
+        01DF: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "d",  type = 69
+        01E5: NEAR_RTN_386
+          start off = 0000021F, code size = 00000124, parent off = 0000
+          prologue size = 11,  epilogue size = 8
+          return address offset (from bp) = 0000000C
+          return type:  81
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Parm 3: MULTI_REG(1): ECX
+          Name = "TrsProj_TransformProjectVertex"
+        0220: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "m",  type = 70
+        0226: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "t",  type = 69
+        022C: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "n",  type = 9
+        0232: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "s",  type = 69
+        0238: LOCAL
+          address: BP_OFFSET_BYTE( 10 )
+          name = "v",  type = 80
+        023E: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "i",  type = 9
+        0244: LOCAL
+          address: BP_OFFSET_BYTE( E0 )
+          name = "tmp",  type = 56
+        024C: LOCAL
+          address: BP_OFFSET_BYTE( D4 )
+          name = "ppt",  type = 56
+        0254: NEAR_RTN_386
+          start off = 00000343, code size = 0000014C, parent off = 0000
+          prologue size = 11,  epilogue size = 8
+          return address offset (from bp) = 0000000C
+          return type:  86
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Parm 3: MULTI_REG(1): ECX
+          Name = "TrsProj_TransformProjectVertex16"
+        0291: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "m",  type = 70
+        0297: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "t",  type = 69
+        029D: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "n",  type = 9
+        02A3: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "s",  type = 85
+        02A9: LOCAL
+          address: BP_OFFSET_BYTE( 10 )
+          name = "v",  type = 80
+        02AF: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "i",  type = 9
+        02B5: LOCAL
+          address: BP_OFFSET_BYTE( E0 )
+          name = "tmp",  type = 56
+        02BD: LOCAL
+          address: BP_OFFSET_BYTE( C8 )
+          name = "out",  type = 56
+        02C5: LOCAL
+          address: BP_OFFSET_BYTE( D4 )
+          name = "ppt",  type = 56
+

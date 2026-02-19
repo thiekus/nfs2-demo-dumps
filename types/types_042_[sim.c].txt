@@ -1,0 +1,216 @@
+ 42) Name:   C:\nfs2\game\common\sim.c
+     Language is C
+     Locals: num = 1, offset = 000000BAH
+     Types:  num = 1, offset = 00000256H
+     Lines:  num = 1, offset = 000003E6H
+
+    *** Types ***
+    =============
+      Data 0:  offset 00058435
+        0000: cue table offset=00000448
+        0006: SCOPE(1)
+          "struct"
+        000E: SCOPE(2)
+          "union"
+        0015: SCOPE(3)
+          "enum"
+        001B: SCALAR(4)
+          "char"  scalar type = 10, unsigned
+        0022: SCALAR(5)
+          "signed char"  scalar type = 00, integer
+        0030: SCALAR(6)
+          "unsigned char"  scalar type = 10, unsigned
+        0040: SCALAR(7)
+          "short"  scalar type = 01, integer
+        0048: SCALAR(8)
+          "unsigned short"  scalar type = 11, unsigned
+        0059: SCALAR(9)
+          "int"  scalar type = 03, integer
+        005F: SCALAR(10)
+          "unsigned int"  scalar type = 13, unsigned
+        006E: NAME(11)
+          "wchar_t"  type idx = 8  scope idx = 0
+        0079: NAME(12)
+          "size_t"  type idx = 10  scope idx = 0
+        0083: NEAR386 PTR(13)
+          base type idx = 4
+        0086: BYTE_INDEX ARRAY(14)
+          high bound = 00   base type idx = 13
+        008A: NAME(15)
+          "__va_list"  type idx = 14  scope idx = 0
+        0097: SCALAR(16)
+          "long"  scalar type = 03, integer
+        009E: NAME(17)
+          "fpos_t"  type idx = 16  scope idx = 0
+        00A8: NAME(18)
+          "fpos_t"  type idx = 16  scope idx = 0
+        00B2: BYTE_INDEX ARRAY(19)
+          high bound = 00   base type idx = 13
+        00B6: NAME(20)
+          "va_list"  type idx = 19  scope idx = 0
+        00C1: NAME(21)
+          "MEMBLOCK"  type idx = 13  scope idx = 0
+        00CD: SCALAR(22)
+          "void"  scalar type = 30, void
+        00D4: NEAR386 PROC(23)
+          return type = 22
+            param 1:  type idx = 22
+        00D9: NEAR386 PTR(24)
+          base type idx = 23
+        00DC: NAME(25)
+          "VOIDFN"  type idx = 24  scope idx = 0
+        00E6: NEAR386 PROC(26)
+          return type = 9
+            param 1:  type idx = 22
+        00EB: NAME(27)
+          "INTFN"  type idx = 26  scope idx = 0
+        00F4: NAME(28)
+          "MVI"  type idx = 22  scope idx = 0
+        00FB: NEAR386 PROC(29)
+          return type = 9
+            param 1:  type idx = 9
+            param 2:  type idx = 9
+        0101: NAME(30)
+          "EACHOOKCALLBACKFUNC"  type idx = 29  scope idx = 0
+        0118: NAME(31)
+          "arg_t"  type idx = 9  scope idx = 0
+        0121: NEAR386 PROC(32)
+          return type = 22
+            param 1:  type idx = 22
+        0126: NAME(33)
+          "THREADPROC"  type idx = 32  scope idx = 0
+        0134: NAME(34)
+          "SYSTEMTASK"  type idx = 29  scope idx = 0
+        0142: NAME(35)
+          "boolean"  type idx = 9  scope idx = 0
+        014D: NAME(36)
+          "fixed88"  type idx = 9  scope idx = 0
+        0158: NAME(37)
+          "fixed824"  type idx = 9  scope idx = 0
+        0164: NAME(38)
+          "fixed248"  type idx = 9  scope idx = 0
+        0170: NEAR386 PTR(39)
+          base type idx = 22
+        0173: NEAR386 PROC(40)
+          return type = 22
+            param 1:  type idx = 39
+        0178: NEAR386 PTR(41)
+          base type idx = 40
+        017B: NAME(42)
+          "Sched_tFunctionPt"  type idx = 41  scope idx = 0
+        0190: NAME(43)
+          "SDWORD"  type idx = 16  scope idx = 0
+        019A: SCALAR(44)
+          "unsigned long"  scalar type = 13, unsigned
+        01AA: NAME(45)
+          "DWORD"  type idx = 44  scope idx = 0
+        01B3: NAME(46)
+          "WORD"  type idx = 8  scope idx = 0
+        01BB: NAME(47)
+          "SWORD"  type idx = 7  scope idx = 0
+        01C4: NAME(48)
+          "SBYTE"  type idx = 5  scope idx = 0
+        01CD: NAME(49)
+          "UBYTE"  type idx = 6  scope idx = 0
+        01D6: NAME(50)
+          "BOOL"  type idx = 9  scope idx = 0
+        01DE: NAME(51)
+          "Stm_Chunk"  type idx = 22  scope idx = 0
+        01EB: NEAR386 PTR(52)
+          base type idx = 51
+        01EE: NAME(53)
+          "lpStm_Chunk"  type idx = 52  scope idx = 0
+        01FD: NAME(54)
+          "Draw_tContext"  type idx = 7  scope idx = 0
+        020E: NEAR386 PROC(55)
+          return type = 22
+            param 1:  type idx = 39
+            param 2:  type idx = 39
+        0214: NEAR386 PTR(56)
+          base type idx = 55
+        0217: NAME(57)
+          "Transformer_AnimCallbackFunc"  type idx = 56  scope idx = 0
+        0237: BYTE_INDEX ARRAY(58)
+          high bound = 6F   base type idx = 7
+        023B: NAME(59)
+          "tAccTable"  type idx = 58  scope idx = 0
+        0248: NEAR386 PROC(60)
+          return type = 9
+            param 1:  type idx = 44
+        024D: NAME(61)
+          "Input_tDeviceCall"  type idx = 60  scope idx = 0
+        0262: FIELD_LIST(62)
+          number of fields = 0006   size = 00000018
+        026A: FIELD_BYTE
+          "currentClockTicks"  offset = 14  type idx = 9
+        027F: FIELD_BYTE
+          "goalClockTicks"  offset = 10  type idx = 9
+        0291: FIELD_BYTE
+          "quickPauseSim"  offset = 0C  type idx = 9
+        02A2: FIELD_BYTE
+          "pauseSim"  offset = 08  type idx = 9
+        02AE: FIELD_BYTE
+          "endSimGame"  offset = 04  type idx = 9
+        02BC: FIELD_BYTE
+          "restartGame"  offset = 00  type idx = 9
+        02CB: NAME(63)
+          "Sim_tSimSystemVar"  type idx = 62  scope idx = 1
+        02E0: NAME(64)
+          "Sim_tSimSystemVar"  type idx = 63  scope idx = 0
+        02F5: NEAR386 PTR(65)
+          base type idx = 40
+        02F8: FIELD_LIST(66)
+          number of fields = 0004   size = 00000010
+        0300: FIELD_BYTE
+          "var2"  offset = 0C  type idx = 39
+        0308: FIELD_BYTE
+          "var1"  offset = 08  type idx = 39
+        0310: FIELD_BYTE
+          "function"  offset = 04  type idx = 65
+        031C: FIELD_BYTE
+          "priority"  offset = 00  type idx = 9
+        0328: NAME(67)
+          "Sched_tFunctionSchedule"  type idx = 66  scope idx = 1
+        0343: NAME(68)
+          "Sched_tFunctionSchedule"  type idx = 67  scope idx = 0
+        035E: BYTE_INDEX ARRAY(69)
+          high bound = 00   base type idx = 68
+        0362: FIELD_LIST(70)
+          number of fields = 0003   size = 00000018
+        036A: FIELD_BYTE
+          "func"  offset = 08  type idx = 69
+        0372: FIELD_BYTE
+          "numFunctions"  offset = 04  type idx = 9
+        0382: FIELD_BYTE
+          "maxNumFunctions"  offset = 00  type idx = 9
+        0395: NAME(71)
+          "Sched_tSchedule"  type idx = 70  scope idx = 1
+        03A8: NAME(72)
+          "Sched_tSchedule"  type idx = 71  scope idx = 0
+        03BB: NEAR386 PTR(73)
+          base type idx = 72
+        03BE: FIELD_LIST(74)
+          number of fields = 0005   size = 00000014
+        03C6: FIELD_BYTE
+          "schedule32Hz"  offset = 10  type idx = 73
+        03D6: FIELD_BYTE
+          "schedule64Hz"  offset = 0C  type idx = 73
+        03E6: FIELD_BYTE
+          "time32Hz"  offset = 08  type idx = 9
+        03F2: FIELD_BYTE
+          "gameTicks"  offset = 04  type idx = 9
+        03FF: FIELD_BYTE
+          "gameStarted"  offset = 00  type idx = 9
+        040E: NAME(75)
+          "Sim_tSimGlobalVar"  type idx = 74  scope idx = 1
+        0423: NAME(76)
+          "Sim_tSimGlobalVar"  type idx = 75  scope idx = 0
+        0438: BYTE_INDEX ARRAY(77)
+          high bound = 4F   base type idx = 4
+        043C: NEAR386 PROC(78)
+          return type = 22
+            param 1:  type idx = 9
+        0441: NEAR386 PROC(79)
+          return type = 9
+            param 1:  type idx = 9
+        0446: 

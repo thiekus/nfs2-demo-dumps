@@ -1,0 +1,8 @@
+  Name:  _upsxas
+    address      = 0001:000C47F0
+    module index = 558
+    kind:          (static pubdef) (code)
+  Name:  _upsxassetstate
+    address      = 0001:000C49D0
+    module index = 558
+    kind:          (code)

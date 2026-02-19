@@ -1,0 +1,96 @@
+  Name:  SimQueue_StartUp_
+    address      = 0001:00043C16
+    module index = 44
+    kind:          (code)
+  Name:  SimQueue_Reset_
+    address      = 0001:00043C52
+    module index = 44
+    kind:          (code)
+  Name:  SimQueue_CleanUp_
+    address      = 0001:00043DA5
+    module index = 44
+    kind:          (code)
+  Name:  SimQueue_Put_
+    address      = 0001:00043DDC
+    module index = 44
+    kind:          (code)
+  Name:  SimQueue_HostPutClient_
+    address      = 0001:00043F53
+    module index = 44
+    kind:          (code)
+  Name:  SimQueue_SetCurrentInput_
+    address      = 0001:00044087
+    module index = 44
+    kind:          (code)
+  Name:  SimQueue_GetCurrentInput_
+    address      = 0001:00044135
+    module index = 44
+    kind:          (code)
+  Name:  SimQueue_ServerPeek_
+    address      = 0001:0004416A
+    module index = 44
+    kind:          (code)
+  Name:  SimQueue_CalcPauseTime_
+    address      = 0001:00044262
+    module index = 44
+    kind:          (code)
+  Name:  SimQueue_GetHeadTime_
+    address      = 0001:0004429D
+    module index = 44
+    kind:          (code)
+  Name:  SimQueue_GetHostTailTime_
+    address      = 0001:000442BF
+    module index = 44
+    kind:          (code)
+  Name:  SimQueue_GetRemoteTicksAhead_
+    address      = 0001:000442E1
+    module index = 44
+    kind:          (code)
+  Name:  SimQueue_SetLocalTicksAhead_
+    address      = 0001:0004434B
+    module index = 44
+    kind:          (code)
+  Name:  SimQueue_SetLag_
+    address      = 0001:0004438B
+    module index = 44
+    kind:          (static pubdef) (code)
+  Name:  SimQueue_IsBlocking_
+    address      = 0001:00044438
+    module index = 44
+    kind:          (static pubdef) (code)
+  Name:  _gSimQueue_Ticker
+    address      = 0002:0000EF0C
+    module index = 44
+    kind:          (data)
+  Name:  _gSimQueue_BlockSelf
+    address      = 0002:0000EF10
+    module index = 44
+    kind:          (data)
+  Name:  _gSimQueue_BlockOther
+    address      = 0002:0000EF14
+    module index = 44
+    kind:          (data)
+  Name:  _output
+    address      = 0002:00043570
+    module index = 44
+    kind:          (static pubdef) (data)
+  Name:  _maxBuildupTolerance
+    address      = 0002:00043590
+    module index = 44
+    kind:          (static pubdef) (data)
+  Name:  _inputQueue
+    address      = 0002:00043594
+    module index = 44
+    kind:          (static pubdef) (data)
+  Name:  _maxLineLatency
+    address      = 0002:000449B8
+    module index = 44
+    kind:          (static pubdef) (data)
+  Name:  _maxTicksPerFrame
+    address      = 0002:000449BC
+    module index = 44
+    kind:          (static pubdef) (data)
+  Name:  _ticksAheadOfRemoteOnRemote
+    address      = 0002:000449C0
+    module index = 44
+    kind:          (static pubdef) (data)

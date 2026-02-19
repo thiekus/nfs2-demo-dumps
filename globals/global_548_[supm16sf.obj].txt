@@ -1,0 +1,8 @@
+  Name:  _upm16sf
+    address      = 0001:000C3400
+    module index = 548
+    kind:          (static pubdef) (code)
+  Name:  _upm16sfsetstate
+    address      = 0001:000C34DC
+    module index = 548
+    kind:          (code)

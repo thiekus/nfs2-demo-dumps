@@ -1,0 +1,8 @@
+  Name:  Control_AI_
+    address      = 0001:00027B18
+    module index = 17
+    kind:          (code)
+  Name:  Control_Human_
+    address      = 0001:00027B42
+    module index = 17
+    kind:          (code)

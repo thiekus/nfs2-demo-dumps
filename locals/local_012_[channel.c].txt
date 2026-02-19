@@ -1,0 +1,274 @@
+ 12) Name:   C:\nfs2\game\common\channel.c
+     Language is C
+     Locals: num = 1, offset = 00000042H
+     Types:  num = 1, offset = 000001DEH
+     Lines:  num = 1, offset = 00000376H
+
+   *** Locals ***
+   ==============
+      Data 0:  offset 0000A73A
+        0000: SET_BASE_386
+          base = 0001:00021461
+        0008: NEAR_RTN_386
+          start off = 00000000, code size = 00000015, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  23
+          return value: <none>
+          Name = "Channel_StartChannel"
+        0031: NEAR_RTN_386
+          start off = 00000015, code size = 00000015, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  23
+          return value: <none>
+          Name = "Channel_StopChannel"
+        0059: NEAR_RTN_386
+          start off = 0000002A, code size = 0000001A, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  43
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Channel_SetUserTo"
+        0081: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "user",  type = 9
+        008A: NEAR_RTN_386
+          start off = 00000044, code size = 0000001C, parent off = 0000
+          prologue size = 12,  epilogue size = 7
+          return address offset (from bp) = 00000010
+          return type:  44
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Name = "Channel_BindChannelToDevice"
+        00C0: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "user",  type = 9
+        00C9: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "channel",  type = 9
+        00D5: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "vdeviceID",  type = 9
+        00E3: NEAR_RTN_386
+          start off = 00000060, code size = 0000001C, parent off = 0000
+          prologue size = 12,  epilogue size = 7
+          return address offset (from bp) = 00000010
+          return type:  44
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Name = "Channel_UnbindChannelToDevice"
+        011B: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "user",  type = 9
+        0124: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "channel",  type = 9
+        0130: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "vdeviceID",  type = 9
+        013E: NEAR_RTN_386
+          start off = 0000007C, code size = 0000001B, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  45
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Name = "Channel_UnbindChannel"
+        016C: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "user",  type = 9
+        0175: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "channel",  type = 9
+        0181: NEAR_RTN_386
+          start off = 00000097, code size = 0000001D, parent off = 0000
+          prologue size = 11,  epilogue size = 6
+          return address offset (from bp) = 0000000C
+          return type:  46
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Parm 3: MULTI_REG(1): ECX
+          Name = "Channel_BinaryOut"
+        01AF: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "user",  type = 9
+        01B8: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "channel",  type = 9
+        01C4: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "data",  type = 39
+        01CD: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "size",  type = 9
+        01D6: NEAR_RTN_386
+          start off = 000000B4, code size = 0000001C, parent off = 0000
+          prologue size = 12,  epilogue size = 7
+          return address offset (from bp) = 00000010
+          return type:  47
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Name = "Channel_Manager"
+        0200: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "user",  type = 9
+        0209: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "channel",  type = 9
+        0215: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "data",  type = 13
+        021E: NEAR_RTN_386
+          start off = 000000D0, code size = 00000015, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  23
+          return value: <none>
+          Name = "Virtual_StartVirtual"
+        0247: NEAR_RTN_386
+          start off = 000000E5, code size = 00000015, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  23
+          return value: <none>
+          Name = "Virtual_StopVirtual"
+        026F: NEAR_RTN_386
+          start off = 000000FA, code size = 00000029, parent off = 0000
+          prologue size = 11,  epilogue size = 8
+          return address offset (from bp) = 0000000C
+          return type:  48
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Parm 3: MULTI_REG(1): ECX
+          Name = "Virtual_CreateScrollingSubDevice"
+        02AD: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "devicetype",  type = 9
+        02BC: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "name",  type = 13
+        02C5: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "width",  type = 9
+        02CF: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "height",  type = 9
+        02DA: LOCAL
+          address: BP_OFFSET_BYTE( 10 )
+          name = "posx",  type = 9
+        02E3: LOCAL
+          address: BP_OFFSET_BYTE( 14 )
+          name = "posy",  type = 9
+        02EC: NEAR_RTN_386
+          start off = 00000123, code size = 00000029, parent off = 0000
+          prologue size = 11,  epilogue size = 8
+          return address offset (from bp) = 0000000C
+          return type:  48
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Parm 3: MULTI_REG(1): ECX
+          Name = "Virtual_CreateWindowSubDevice"
+        0327: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "devicetype",  type = 9
+        0336: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "name",  type = 13
+        033F: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "width",  type = 9
+        0349: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "height",  type = 9
+        0354: LOCAL
+          address: BP_OFFSET_BYTE( 10 )
+          name = "posx",  type = 9
+        035D: LOCAL
+          address: BP_OFFSET_BYTE( 14 )
+          name = "posy",  type = 9
+        0366: NEAR_RTN_386
+          start off = 0000014C, code size = 00000029, parent off = 0000
+          prologue size = 11,  epilogue size = 8
+          return address offset (from bp) = 0000000C
+          return type:  48
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Parm 3: MULTI_REG(1): ECX
+          Name = "Virtual_CreateBinarySubDevice"
+        03A1: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "devicetype",  type = 9
+        03B0: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "name",  type = 13
+        03B9: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "width",  type = 9
+        03C3: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "height",  type = 9
+        03CE: LOCAL
+          address: BP_OFFSET_BYTE( 10 )
+          name = "posx",  type = 9
+        03D7: LOCAL
+          address: BP_OFFSET_BYTE( 14 )
+          name = "posy",  type = 9
+        03E0: NEAR_RTN_386
+          start off = 00000175, code size = 0000001B, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  49
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Name = "Virtual_Output"
+        0407: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "vdeviceID",  type = 9
+        0415: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "data",  type = 13
+        041E: NEAR_RTN_386
+          start off = 00000190, code size = 00000015, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  50
+          return value: <none>
+          Name = "SyncMark"
+        043B: LOCAL
+          address: BP_OFFSET_BYTE( 1C )
+          name = "user",  type = 9
+        0444: LOCAL
+          address: BP_OFFSET_BYTE( 20 )
+          name = "format",  type = 13
+        044F: NEAR_RTN_386
+          start off = 000001A5, code size = 00000015, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  50
+          return value: <none>
+          Name = "SyncRecord"
+        046E: LOCAL
+          address: BP_OFFSET_BYTE( 1C )
+          name = "user",  type = 9
+        0477: LOCAL
+          address: BP_OFFSET_BYTE( 20 )
+          name = "format",  type = 13
+

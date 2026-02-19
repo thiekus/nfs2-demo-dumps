@@ -1,0 +1,12 @@
+  Name:  _shapecount
+    address      = 0001:000837C0
+    module index = 137
+    kind:          (code)
+  Name:  _shapepointer
+    address      = 0001:000837C8
+    module index = 137
+    kind:          (code)
+  Name:  _shapename
+    address      = 0001:000837DF
+    module index = 137
+    kind:          (code)

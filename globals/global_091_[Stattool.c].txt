@@ -1,0 +1,156 @@
+  Name:  _AllRecords
+    address      = 0002:00011D38
+    module index = 91
+    kind:          (data)
+  Name:  _trackNames
+    address      = 0002:0001256C
+    module index = 91
+    kind:          (static pubdef) (data)
+  Name:  _minChar
+    address      = 0002:000125A4
+    module index = 91
+    kind:          (data)
+  Name:  _secChar
+    address      = 0002:000125AA
+    module index = 91
+    kind:          (data)
+  Name:  Stattool_CreateIndex_
+    address      = 0001:00070DA4
+    module index = 91
+    kind:          (code)
+  Name:  Stattool_nCreateIndex_
+    address      = 0001:00070F60
+    module index = 91
+    kind:          (code)
+  Name:  Stattool_GetFileName_
+    address      = 0001:00071122
+    module index = 91
+    kind:          (code)
+  Name:  Stattool_GetTrackRecordArtFile_
+    address      = 0001:000711D5
+    module index = 91
+    kind:          (code)
+  Name:  Stattool_GetTrackInfoArtFile_
+    address      = 0001:00071218
+    module index = 91
+    kind:          (code)
+  Name:  Stattool_ParseTime_
+    address      = 0001:0007125B
+    module index = 91
+    kind:          (code)
+  Name:  Stattool_SamNelsonsUpperLowerStringConverterForRecords_
+    address      = 0001:00071311
+    module index = 91
+    kind:          (code)
+  Name:  Stattool_GetAllDefaultRecords_
+    address      = 0001:00071379
+    module index = 91
+    kind:          (code)
+  Name:  Stattool_GetRecords_
+    address      = 0001:000715AE
+    module index = 91
+    kind:          (code)
+  Name:  Stattool_GetRecordLapTime_
+    address      = 0001:000716CE
+    module index = 91
+    kind:          (code)
+  Name:  Stattool_ReturnRecordLapTime_
+    address      = 0001:000717ED
+    module index = 91
+    kind:          (code)
+  Name:  Stattool_GetRecordTotalTime_
+    address      = 0001:0007186B
+    module index = 91
+    kind:          (code)
+  Name:  Stattool_InitializeDataFile_
+    address      = 0001:000719DC
+    module index = 91
+    kind:          (code)
+  Name:  Stattool_GetSimulationData_
+    address      = 0001:00071E5D
+    module index = 91
+    kind:          (code)
+  Name:  Stattool_UpdateTournamentPositions_
+    address      = 0001:000722E8
+    module index = 91
+    kind:          (code)
+  Name:  Stattool_PutSimulationData_
+    address      = 0001:00072350
+    module index = 91
+    kind:          (code)
+  Name:  Stattool_StatDisplayOptions_
+    address      = 0001:0007240A
+    module index = 91
+    kind:          (code)
+  Name:  Stattool_InitTournamentData_
+    address      = 0001:0007258F
+    module index = 91
+    kind:          (code)
+  Name:  Stattool_InitKnockoutData_
+    address      = 0001:0007269F
+    module index = 91
+    kind:          (code)
+  Name:  Stattool_GetCarNameFEText_
+    address      = 0001:000726F2
+    module index = 91
+    kind:          (code)
+  Name:  Stattool_GetCarNameSimText_
+    address      = 0001:00072741
+    module index = 91
+    kind:          (code)
+  Name:  Stattool_ConvertSimCarToFECarNum_
+    address      = 0001:000727BC
+    module index = 91
+    kind:          (code)
+  Name:  Stattool_ConvertSimTrackToFE_
+    address      = 0001:00072803
+    module index = 91
+    kind:          (code)
+  Name:  CreateTournament_
+    address      = 0001:0007284F
+    module index = 91
+    kind:          (code)
+  Name:  DeleteTournament_
+    address      = 0001:000728AF
+    module index = 91
+    kind:          (code)
+  Name:  CreateKnockout_
+    address      = 0001:000728E1
+    module index = 91
+    kind:          (code)
+  Name:  DeleteKnockout_
+    address      = 0001:00072919
+    module index = 91
+    kind:          (code)
+  Name:  Stattool_TwoPlayerKnockoutPlayer1Gone_
+    address      = 0001:0007299F
+    module index = 91
+    kind:          (code)
+  Name:  Stattool_CheckForHumanCar_
+    address      = 0001:00072A00
+    module index = 91
+    kind:          (code)
+  Name:  Stattool_SetVerticalOffset_
+    address      = 0001:00072A8C
+    module index = 91
+    kind:          (code)
+  Name:  Stattool_ClearPlayerNamesFromKnockout_
+    address      = 0001:00072AF7
+    module index = 91
+    kind:          (code)
+  Name:  Stattool_GetAIName_
+    address      = 0001:00072B83
+    module index = 91
+    kind:          (code)
+  Name:  Stattool_FindBestLapTime_
+    address      = 0001:00072BD9
+    module index = 91
+    kind:          (code)
+  Name:  _citeronText
+    address      = 0002:000125B0
+    module index = 91
+    kind:          (static pubdef) (data)
+  Name:  _AInames
+    address      = 0002:000125B8
+    module index = 91
+    kind:          (static pubdef) (data)

@@ -1,0 +1,32 @@
+  Name:  _rs50mfgetframesup
+    address      = 0001:000BDAF0
+    module index = 456
+    kind:          (code)
+  Name:  _rs50mfgetframesunity
+    address      = 0001:000BDB38
+    module index = 456
+    kind:          (code)
+  Name:  _rs50mfgetframesdown
+    address      = 0001:000BDB40
+    module index = 456
+    kind:          (code)
+  Name:  _rs50mfup
+    address      = 0001:000BDB6C
+    module index = 456
+    kind:          (code)
+  Name:  _rs50mfunity
+    address      = 0001:000BDC38
+    module index = 456
+    kind:          (code)
+  Name:  _rs50mfdown
+    address      = 0001:000BDC44
+    module index = 456
+    kind:          (code)
+  Name:  _rs50mfsetpitch
+    address      = 0001:000BDD38
+    module index = 456
+    kind:          (code)
+  Name:  _rs50mfsetstate
+    address      = 0001:000BDDDC
+    module index = 456
+    kind:          (code)

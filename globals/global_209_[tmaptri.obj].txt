@@ -1,0 +1,12 @@
+  Name:  myfixeddiv_
+    address      = 0001:00091E70
+    module index = 209
+    kind:          (static pubdef) (code)
+  Name:  _fixedtmaptri
+    address      = 0001:00091E88
+    module index = 209
+    kind:          (code)
+  Name:  _tmaptri
+    address      = 0001:00092888
+    module index = 209
+    kind:          (code)

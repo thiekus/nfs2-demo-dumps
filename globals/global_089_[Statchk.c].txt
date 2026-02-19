@@ -1,0 +1,24 @@
+  Name:  Statchk_RecordLapTime_
+    address      = 0001:0006A10E
+    module index = 89
+    kind:          (code)
+  Name:  Statchk_SaveRecordLapTime_
+    address      = 0001:0006A542
+    module index = 89
+    kind:          (code)
+  Name:  Statchk_SaveTopTenTime_
+    address      = 0001:0006A7BC
+    module index = 89
+    kind:          (code)
+  Name:  GetPlayerName_
+    address      = 0001:0006AECB
+    module index = 89
+    kind:          (code)
+  Name:  Statchk_UpdateTournamentInfo_
+    address      = 0001:0006B199
+    module index = 89
+    kind:          (code)
+  Name:  Statchk_UpdateKnockoutInfo_
+    address      = 0001:0006B495
+    module index = 89
+    kind:          (code)

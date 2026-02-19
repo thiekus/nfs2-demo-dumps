@@ -1,0 +1,8 @@
+  Name:  _Scale_
+    address      = 0001:000C9D3F
+    module index = 605
+    kind:          (code)
+  Name:  _Scale10V_
+    address      = 0001:000C9D80
+    module index = 605
+    kind:          (code)

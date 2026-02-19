@@ -1,0 +1,28 @@
+  Name:  _identitymatrix
+    address      = 0002:000132C4
+    module index = 149
+    kind:          (data)
+  Name:  _addmatrix
+    address      = 0001:00084250
+    module index = 149
+    kind:          (code)
+  Name:  _submatrix
+    address      = 0001:00084284
+    module index = 149
+    kind:          (code)
+  Name:  _scalematrix
+    address      = 0001:000842B8
+    module index = 149
+    kind:          (code)
+  Name:  _reorthogonalize
+    address      = 0001:000842F4
+    module index = 149
+    kind:          (code)
+  Name:  _rotateaboutaxis
+    address      = 0001:0008443C
+    module index = 149
+    kind:          (code)
+  Name:  _coef
+    address      = 0002:000132E8
+    module index = 149
+    kind:          (static pubdef) (data)

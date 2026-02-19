@@ -1,0 +1,4 @@
+  Name:  _textcolour
+    address      = 0001:00090410
+    module index = 205
+    kind:          (code)

@@ -1,0 +1,574 @@
+ 53) Name:   C:\nfs2\game\common\eacfile.c
+     Language is C
+     Locals: num = 1, offset = 000000E6H
+     Types:  num = 1, offset = 00000282H
+     Lines:  num = 1, offset = 0000040EH
+
+   *** Locals ***
+   ==============
+      Data 0:  offset 00014DA8
+        0000: MODULE_386
+          "drivemutex" addr = 0002:00046444,  type = 343
+        0014: MODULE_386
+          "mirrorbaseptr" addr = 0002:0000EF44,  type = 13
+        002A: MODULE_386
+          "maxwinfiles" addr = 0002:0000EF2C,  type = 9
+        003E: MODULE_386
+          "mirrorblockflags" addr = 0002:0000EF48,  type = 48
+        0057: MODULE_386
+          "mirrorsize" addr = 0002:0000EF40,  type = 9
+        006A: MODULE_386
+          "mirrorcount" addr = 0002:0000EF3C,  type = 9
+        007E: MODULE_386
+          "mirrorthread" addr = 0002:000464C4,  type = 346
+        0094: MODULE_386
+          "filemutex" addr = 0002:0000EF28,  type = 9
+        00A6: MODULE_386
+          "mirrorhandle" addr = 0002:0000EF34,  type = 9
+        00BB: MODULE_386
+          "mirrorsignal" addr = 0002:000464D8,  type = 9
+        00D0: MODULE_386
+          "winfiles" addr = 0002:0000EF30,  type = 349
+        00E2: MODULE_386
+          "mirrorreadahead" addr = 0002:0000EF38,  type = 9
+        00FA: MODULE_386
+          "filedebugflag" addr = 0002:0000EF24,  type = 9
+        0110: SET_BASE_386
+          base = 0001:00046FE4
+        0118: BLOCK_386
+          start off = 000000CA, code size = 0000008B, parent off = 0164
+        0124: LOCAL
+          address: BP_OFFSET_BYTE( E0 )
+          name = "success",  type = 27
+        0130: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "bytesread",  type = 27
+        013E: BLOCK_386
+          start off = 000001C4, code size = 0000007E, parent off = 0164
+        014A: LOCAL
+          address: BP_OFFSET_BYTE( D4 )
+          name = "success",  type = 27
+        0156: LOCAL
+          address: BP_OFFSET_BYTE( D8 )
+          name = "bytesread",  type = 27
+        0164: NEAR_RTN_386
+          start off = 00000000, code size = 000002A3, parent off = 0000
+          prologue size = 12,  epilogue size = 7
+          return address offset (from bp) = 00000010
+          return type:  340
+          return value: <none>
+          Name = "mirrorthreadfunc"
+        018A: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "byteoffset",  type = 9
+        0199: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "blockmask",  type = 9
+        01A7: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "blockindex",  type = 9
+        01B6: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "s",  type = 9
+        01BC: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "filesize",  type = 9
+        01C9: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "file",  type = 349
+        01D3: NEAR_RTN_386
+          start off = 000002A3, code size = 0000003F, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  350
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Name = "IsDirSep"
+        01F4: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "ch",  type = 4
+        01FB: NEAR_RTN_386
+          start off = 000002E2, code size = 0000010A, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  351
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Name = "wingetroot"
+        021F: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "path",  type = 13
+        0228: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "root",  type = 13
+        0231: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "p",  type = 13
+        0237: BLOCK_386
+          start off = 000004B1, code size = 0000003D, parent off = 0255
+        0243: LOCAL
+          address: BP_OFFSET_WORD( 009C )
+          name = "data",  type = 360
+        024E: LOCAL
+          address: BP_OFFSET_WORD( 00DC )
+          name = "h",  type = 108
+        0255: NEAR_RTN_386
+          start off = 000003EC, code size = 00000113, parent off = 0000
+          prologue size = 12,  epilogue size = 7
+          return address offset (from bp) = 00000010
+          return type:  361
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Name = "winfullpath"
+        027D: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "filein",  type = 13
+        0288: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "pathout",  type = 13
+        0294: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "maxlen",  type = 9
+        029F: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "filepart",  type = 13
+        02AC: LOCAL
+          address: BP_OFFSET_WORD( 00E0 )
+          name = "root",  type = 362
+        02B7: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "dwFlags",  type = 27
+        02C3: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "dwDummy",  type = 27
+        02CF: NEAR_RTN_386
+          start off = 000004FF, code size = 00000020, parent off = 0000
+          prologue size = 12,  epilogue size = 7
+          return address offset (from bp) = 00000010
+          return type:  334
+          return value: MULTI_REG(1): EAX
+          Name = "getdrivemap"
+        02F1: NEAR_RTN_386
+          start off = 0000051F, code size = 00000113, parent off = 0000
+          prologue size = 12,  epilogue size = 7
+          return address offset (from bp) = 00000010
+          return type:  363
+          return value: MULTI_REG(1): EAX
+          Name = "getdrivename"
+        0314: LOCAL
+          address: BP_OFFSET_BYTE( 14 )
+          name = "name",  type = 13
+        031D: LOCAL
+          address: BP_OFFSET_BYTE( 18 )
+          name = "drivename",  type = 13
+        032B: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "temp",  type = 13
+        0334: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "p",  type = 13
+        033A: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "map",  type = 9
+        0342: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "len",  type = 9
+        034A: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "di",  type = 9
+        0351: NEAR_RTN_386
+          start off = 00000632, code size = 00000046, parent off = 0000
+          prologue size = 12,  epilogue size = 5
+          return address offset (from bp) = 00000010
+          return type:  364
+          return value: <none>
+          Name = "setdirectory"
+        0373: LOCAL
+          address: BP_OFFSET_BYTE( 14 )
+          name = "path",  type = 13
+        037C: NEAR_RTN_386
+          start off = 00000678, code size = 0000005B, parent off = 0000
+          prologue size = 12,  epilogue size = 7
+          return address offset (from bp) = 00000010
+          return type:  364
+          return value: <none>
+          Name = "getdirectory"
+        039E: LOCAL
+          address: BP_OFFSET_BYTE( 14 )
+          name = "path",  type = 13
+        03A7: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "len",  type = 27
+        03AF: NEAR_RTN_386
+          start off = 000006D3, code size = 00000035, parent off = 0000
+          prologue size = 12,  epilogue size = 7
+          return address offset (from bp) = 00000010
+          return type:  334
+          return value: MULTI_REG(1): EAX
+          Name = "iswinfilesinited"
+        03D6: NEAR_RTN_386
+          start off = 00000708, code size = 000000A5, parent off = 0000
+          prologue size = 12,  epilogue size = 5
+          return address offset (from bp) = 00000010
+          return type:  365
+          return value: <none>
+          Name = "initwinfiles"
+        03F8: LOCAL
+          address: BP_OFFSET_BYTE( 14 )
+          name = "maxfiles",  type = 9
+        0405: BLOCK_386
+          start off = 000007C6, code size = 000000CB, parent off = 0417
+        0411: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "i",  type = 9
+        0417: NEAR_RTN_386
+          start off = 000007AD, code size = 000000EB, parent off = 0000
+          prologue size = 12,  epilogue size = 7
+          return address offset (from bp) = 00000010
+          return type:  340
+          return value: <none>
+          Name = "restorewinfiles"
+        043C: BLOCK_386
+          start off = 00000BF5, code size = 0000012B, parent off = 0469
+        0448: LOCAL
+          address: BP_OFFSET_WORD( 00BC )
+          name = "protectflags",  type = 9
+        045A: LOCAL
+          address: BP_OFFSET_WORD( 00C0 )
+          name = "viewflags",  type = 9
+        0469: NEAR_RTN_386
+          start off = 00000898, code size = 000006D8, parent off = 0000
+          prologue size = 12,  epilogue size = 7
+          return address offset (from bp) = 00000010
+          return type:  366
+          return value: MULTI_REG(1): EAX
+          Name = "openwinfile"
+        048B: LOCAL
+          address: BP_OFFSET_BYTE( 14 )
+          name = "name",  type = 13
+        0494: LOCAL
+          address: BP_OFFSET_BYTE( 18 )
+          name = "modeflags",  type = 9
+        04A2: LOCAL
+          address: BP_OFFSET_BYTE( 1C )
+          name = "reqblocksize",  type = 9
+        04B3: LOCAL
+          address: BP_OFFSET_BYTE( 20 )
+          name = "handle",  type = 41
+        04BE: LOCAL
+          address: BP_OFFSET_BYTE( D0 )
+          name = "h",  type = 9
+        04C4: LOCAL
+          address: BP_OFFSET_BYTE( D4 )
+          name = "drive",  type = 9
+        04CE: LOCAL
+          address: BP_OFFSET_BYTE( D8 )
+          name = "success",  type = 9
+        04DA: LOCAL
+          address: BP_OFFSET_WORD( 00CC )
+          name = "drivename",  type = 367
+        04EA: LOCAL
+          address: BP_OFFSET_BYTE( DC )
+          name = "accessmode",  type = 27
+        04F9: LOCAL
+          address: BP_OFFSET_BYTE( E0 )
+          name = "sharemode",  type = 27
+        0507: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "createmode",  type = 27
+        0516: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "attributes",  type = 27
+        0525: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "sectors",  type = 27
+        0531: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "bytes",  type = 27
+        053B: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "freeblocks",  type = 27
+        054A: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "totalblocks",  type = 27
+        055A: BLOCK_386
+          start off = 00001049, code size = 0000006C, parent off = 0575
+        0566: LOCAL
+          address: BP_OFFSET_BYTE( DC )
+          name = "drivename",  type = 368
+        0575: NEAR_RTN_386
+          start off = 00000F70, code size = 00000169, parent off = 0000
+          prologue size = 12,  epilogue size = 7
+          return address offset (from bp) = 00000010
+          return type:  369
+          return value: MULTI_REG(1): EAX
+          Name = "infowinfile"
+        0597: LOCAL
+          address: BP_OFFSET_BYTE( 14 )
+          name = "handle",  type = 9
+        05A2: LOCAL
+          address: BP_OFFSET_BYTE( 18 )
+          name = "modeflags",  type = 41
+        05B0: LOCAL
+          address: BP_OFFSET_BYTE( 1C )
+          name = "blocksize",  type = 41
+        05BE: LOCAL
+          address: BP_OFFSET_BYTE( 20 )
+          name = "filesize",  type = 41
+        05CB: LOCAL
+          address: BP_OFFSET_BYTE( 24 )
+          name = "freespace",  type = 41
+        05D9: LOCAL
+          address: BP_OFFSET_BYTE( E0 )
+          name = "sectors",  type = 27
+        05E5: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "bytes",  type = 27
+        05EF: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "freeblocks",  type = 27
+        05FE: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "totalblocks",  type = 27
+        060E: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "drive",  type = 9
+        0618: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "h",  type = 9
+        061E: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "success",  type = 9
+        062A: BLOCK_386
+          start off = 000012CA, code size = 000001A2, parent off = 0667
+        0636: LOCAL
+          address: BP_OFFSET_BYTE( D0 )
+          name = "blockmask",  type = 9
+        0644: LOCAL
+          address: BP_OFFSET_BYTE( D4 )
+          name = "blockindex",  type = 9
+        0653: BLOCK_386
+          start off = 0000151A, code size = 0000004C, parent off = 0667
+        065F: LOCAL
+          address: BP_OFFSET_BYTE( CC )
+          name = "err",  type = 9
+        0667: BLOCK_386
+          start off = 000012AB, code size = 000002D3, parent off = 0680
+        0673: LOCAL
+          address: BP_OFFSET_BYTE( D8 )
+          name = "havedata",  type = 9
+        0680: BLOCK_386
+          start off = 00001243, code size = 00000340, parent off = 0699
+        068C: LOCAL
+          address: BP_OFFSET_BYTE( DC )
+          name = "mirrored",  type = 9
+        0699: NEAR_RTN_386
+          start off = 000010D9, code size = 000004CE, parent off = 0000
+          prologue size = 12,  epilogue size = 7
+          return address offset (from bp) = 00000010
+          return type:  370
+          return value: MULTI_REG(1): EAX
+          Name = "readwinfile"
+        06BB: LOCAL
+          address: BP_OFFSET_BYTE( 14 )
+          name = "handle",  type = 9
+        06C6: LOCAL
+          address: BP_OFFSET_BYTE( 18 )
+          name = "buffer",  type = 13
+        06D1: LOCAL
+          address: BP_OFFSET_BYTE( 1C )
+          name = "amount",  type = 9
+        06DC: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "bytesread",  type = 27
+        06EA: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "blksize",  type = 27
+        06F6: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "totalbytes",  type = 27
+        0705: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "filesize",  type = 27
+        0712: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "drive",  type = 9
+        071C: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "h",  type = 9
+        0722: BLOCK_386
+          start off = 000017E8, code size = 0000004C, parent off = 0736
+        072E: LOCAL
+          address: BP_OFFSET_BYTE( E0 )
+          name = "err",  type = 9
+        0736: NEAR_RTN_386
+          start off = 000015A7, code size = 000002CE, parent off = 0000
+          prologue size = 12,  epilogue size = 7
+          return address offset (from bp) = 00000010
+          return type:  370
+          return value: MULTI_REG(1): EAX
+          Name = "writewinfile"
+        0759: LOCAL
+          address: BP_OFFSET_BYTE( 14 )
+          name = "handle",  type = 9
+        0764: LOCAL
+          address: BP_OFFSET_BYTE( 18 )
+          name = "buffer",  type = 13
+        076F: LOCAL
+          address: BP_OFFSET_BYTE( 1C )
+          name = "amount",  type = 9
+        077A: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "byteswritten",  type = 27
+        078B: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "blksize",  type = 27
+        0797: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "totalbytes",  type = 27
+        07A6: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "filesize",  type = 27
+        07B3: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "drive",  type = 9
+        07BD: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "h",  type = 9
+        07C3: NEAR_RTN_386
+          start off = 00001875, code size = 000001A9, parent off = 0000
+          prologue size = 12,  epilogue size = 7
+          return address offset (from bp) = 00000010
+          return type:  337
+          return value: MULTI_REG(1): EAX
+          Name = "seekwinfile"
+        07E5: LOCAL
+          address: BP_OFFSET_BYTE( 14 )
+          name = "handle",  type = 9
+        07F0: LOCAL
+          address: BP_OFFSET_BYTE( 18 )
+          name = "offset",  type = 9
+        07FB: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "drive",  type = 9
+        0805: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "h",  type = 9
+        080B: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "success",  type = 9
+        0817: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "filesize",  type = 9
+        0824: NEAR_RTN_386
+          start off = 00001A1E, code size = 000000F0, parent off = 0000
+          prologue size = 12,  epilogue size = 7
+          return address offset (from bp) = 00000010
+          return type:  371
+          return value: MULTI_REG(1): EAX
+          Name = "tellwinfile"
+        0846: LOCAL
+          address: BP_OFFSET_BYTE( 14 )
+          name = "handle",  type = 9
+        0851: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "h",  type = 9
+        0857: NEAR_RTN_386
+          start off = 00001B0E, code size = 000001A6, parent off = 0000
+          prologue size = 12,  epilogue size = 7
+          return address offset (from bp) = 00000010
+          return type:  371
+          return value: MULTI_REG(1): EAX
+          Name = "closewinfile"
+        087A: LOCAL
+          address: BP_OFFSET_BYTE( 14 )
+          name = "handle",  type = 9
+        0885: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "drive",  type = 9
+        088F: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "h",  type = 9
+        0895: NEAR_RTN_386
+          start off = 00001CB4, code size = 00000079, parent off = 0000
+          prologue size = 12,  epilogue size = 7
+          return address offset (from bp) = 00000010
+          return type:  371
+          return value: MULTI_REG(1): EAX
+          Name = "lockwinfile"
+        08B7: LOCAL
+          address: BP_OFFSET_BYTE( 14 )
+          name = "handle",  type = 9
+        08C2: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "h",  type = 9
+        08C8: NEAR_RTN_386
+          start off = 00001D2D, code size = 0000007E, parent off = 0000
+          prologue size = 12,  epilogue size = 7
+          return address offset (from bp) = 00000010
+          return type:  371
+          return value: MULTI_REG(1): EAX
+          Name = "unlockwinfile"
+        08EC: LOCAL
+          address: BP_OFFSET_BYTE( 14 )
+          name = "handle",  type = 9
+        08F7: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "h",  type = 9
+        08FD: NEAR_RTN_386
+          start off = 00001DAB, code size = 00000084, parent off = 0000
+          prologue size = 12,  epilogue size = 7
+          return address offset (from bp) = 00000010
+          return type:  372
+          return value: MULTI_REG(1): EAX
+          Name = "addresswinfile"
+        0922: LOCAL
+          address: BP_OFFSET_BYTE( 14 )
+          name = "handle",  type = 9
+        092D: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "h",  type = 9
+        0933: BLOCK_386
+          start off = 00001E45, code size = 0000003D, parent off = 0948
+        093F: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "prev",  type = 9
+        0948: NEAR_RTN_386
+          start off = 00001E2F, code size = 00000064, parent off = 0000
+          prologue size = 12,  epilogue size = 7
+          return address offset (from bp) = 00000010
+          return type:  337
+          return value: MULTI_REG(1): EAX
+          Name = "mirrorwinfile"
+        096C: LOCAL
+          address: BP_OFFSET_BYTE( 14 )
+          name = "handle",  type = 9
+        0977: LOCAL
+          address: BP_OFFSET_BYTE( 18 )
+          name = "active",  type = 9
+        0982: NEAR_RTN_386
+          start off = 00001E93, code size = 000000DF, parent off = 0000
+          prologue size = 12,  epilogue size = 7
+          return address offset (from bp) = 00000010
+          return type:  337
+          return value: MULTI_REG(1): EAX
+          Name = "setendoffile"
+        09A5: LOCAL
+          address: BP_OFFSET_BYTE( 14 )
+          name = "handle",  type = 9
+        09B0: LOCAL
+          address: BP_OFFSET_BYTE( 18 )
+          name = "length",  type = 9
+        09BB: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "ret",  type = 9
+        09C3: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "drive",  type = 9
+        09CD: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "h",  type = 9
+

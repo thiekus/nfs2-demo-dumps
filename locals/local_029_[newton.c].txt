@@ -1,0 +1,809 @@
+ 29) Name:   C:\nfs2\game\common\newton.c
+     Language is C
+     Locals: num = 1, offset = 00000086H
+     Types:  num = 1, offset = 00000222H
+     Lines:  num = 1, offset = 000003B2H
+
+   *** Locals ***
+   ==============
+      Data 0:  offset 0000DA58
+        0000: SET_BASE_386
+          base = 0001:0002BDF5
+        0008: NEAR_RTN_386
+          start off = 00000000, code size = 00000041, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  102
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Newton_FindClosestQuad"
+        0035: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "n",  type = 101
+        003B: NEAR_RTN_386
+          start off = 00000041, code size = 000000B3, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  103
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Newton_CalculateSliceYaw"
+        006B: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "slice",  type = 9
+        0075: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "x",  type = 9
+        007B: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "z",  type = 9
+        0081: BLOCK_386
+          start off = 00000458, code size = 00000114, parent off = 0097
+        008D: LOCAL
+          address: BP_OFFSET_BYTE( C4 )
+          name = "slice",  type = 9
+        0097: NEAR_RTN_386
+          start off = 000000F4, code size = 00000497, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  102
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Newton_UpdateRoadGeometry"
+        00C7: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "n",  type = 101
+        00CD: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "slice",  type = 9
+        00D7: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "nextSlice",  type = 9
+        00E5: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "hiRez",  type = 9
+        00EF: NEAR_RTN_386
+          start off = 0000058B, code size = 00000073, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  104
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Name = "Newton_CalculateSliceDifference"
+        0128: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "slice1",  type = 9
+        0133: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "slice2",  type = 9
+        013E: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "diff1",  type = 9
+        0148: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "diff2",  type = 9
+        0152: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "totalSlices",  type = 9
+        0162: NEAR_RTN_386
+          start off = 000005FE, code size = 000000B2, parent off = 0000
+          prologue size = 12,  epilogue size = 7
+          return address offset (from bp) = 00000010
+          return type:  106
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Name = "Newton_FindGroundElevationGeneral"
+        019F: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "point",  type = 105
+        01A9: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "normal",  type = 105
+        01B4: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "pointOnQuad",  type = 105
+        01C4: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "value",  type = 9
+        01CE: NEAR_RTN_386
+          start off = 000006B0, code size = 00000081, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  107
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Name = "Newton_FindGroundElevationAndNormal"
+        020B: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "newtonObj",  type = 101
+        0219: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "normal",  type = 105
+        0224: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "elevation",  type = 9
+        0232: NEAR_RTN_386
+          start off = 00000731, code size = 00000050, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  102
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Newton_LimitCarsToDrivableDist"
+        0267: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "newtonObj",  type = 101
+        0275: NEAR_RTN_386
+          start off = 00000781, code size = 00000230, parent off = 0000
+          prologue size = 12,  epilogue size = 7
+          return address offset (from bp) = 00000010
+          return type:  108
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Name = "Newton_CalcPerpenHeightOfLowestPointFromGround"
+        02BF: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "newtonObj",  type = 101
+        02CD: LOCAL
+          address: BP_OFFSET_BYTE( E0 )
+          name = "normal",  type = 105
+        02D8: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "samplePoint",  type = 105
+        02E8: LOCAL
+          address: BP_OFFSET_BYTE( C8 )
+          name = "basisDots",  type = 62
+        02F6: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "xDir",  type = 9
+        02FF: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "yDir",  type = 9
+        0308: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "zDir",  type = 9
+        0311: LOCAL
+          address: BP_OFFSET_BYTE( D4 )
+          name = "relativePos",  type = 62
+        0321: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "relativeDot",  type = 9
+        0331: NEAR_RTN_386
+          start off = 000009B1, code size = 000000A4, parent off = 0000
+          prologue size = 12,  epilogue size = 7
+          return address offset (from bp) = 00000010
+          return type:  108
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Name = "Newton_CalcPerpenHeightOfCenterPointFromGround"
+        037B: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "newtonObj",  type = 101
+        0389: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "normal",  type = 105
+        0394: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "samplePoint",  type = 105
+        03A4: LOCAL
+          address: BP_OFFSET_BYTE( E0 )
+          name = "relativePos",  type = 62
+        03B4: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "relativeDot",  type = 9
+        03C4: BLOCK_386
+          start off = 00000BA9, code size = 00000197, parent off = 03F5
+        03D0: LOCAL
+          address: BP_OFFSET_BYTE( C8 )
+          name = "sliceDiff2",  type = 9
+        03DF: BLOCK_386
+          start off = 00000DE7, code size = 000000E5, parent off = 03F5
+        03EB: LOCAL
+          address: BP_OFFSET_BYTE( B8 )
+          name = "dummy",  type = 62
+        03F5: NEAR_RTN_386
+          start off = 00000A55, code size = 000004A3, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  102
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Newton_CalcDistToClosestPlayerCar"
+        042D: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "n",  type = 101
+        0433: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "dist",  type = 9
+        043C: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "x",  type = 9
+        0442: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "z",  type = 9
+        0448: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "sliceDiff",  type = 9
+        0456: NEAR_RTN_386
+          start off = 00000EF8, code size = 000000D6, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  102
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Newton_UpdateRoadInfo"
+        0482: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "n",  type = 101
+        0488: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "oldQuad",  type = 67
+        0494: BLOCK_386
+          start off = 00001005, code size = 00000091, parent off = 04B1
+        04A0: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "ori",  type = 109
+        04A8: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "road",  type = 109
+        04B1: NEAR_RTN_386
+          start off = 00000FCE, code size = 000000D0, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  110
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Name = "Newton_CopyRoadMatrixToOrientMat"
+        04EA: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "n",  type = 101
+        04F0: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "backwards",  type = 9
+        04FE: BLOCK_386
+          start off = 000010D5, code size = 00000091, parent off = 051C
+        050A: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "shad",  type = 109
+        0513: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "road",  type = 109
+        051C: NEAR_RTN_386
+          start off = 0000109E, code size = 000000D0, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  110
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Name = "Newton_CopyRoadMatrixToShadowMat"
+        0555: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "n",  type = 101
+        055B: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "backwards",  type = 9
+        0569: NEAR_RTN_386
+          start off = 0000116E, code size = 0000035B, parent off = 0000
+          prologue size = 11,  epilogue size = 6
+          return address offset (from bp) = 0000000C
+          return type:  111
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Parm 3: MULTI_REG(1): ECX
+          Name = "Newton_SetInitialSlicePositionOrientationEtc"
+        05B2: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "n",  type = 101
+        05B8: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "slice",  type = 9
+        05C2: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "offset",  type = 105
+        05CD: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "backwards",  type = 9
+        05DB: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "rOffset",  type = 62
+        05E7: LOCAL
+          address: BP_OFFSET_BYTE( C0 )
+          name = "transposeMat",  type = 92
+        05F8: NEAR_RTN_386
+          start off = 000014C9, code size = 0000033F, parent off = 0000
+          prologue size = 11,  epilogue size = 8
+          return address offset (from bp) = 0000000C
+          return type:  112
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Parm 3: MULTI_REG(1): ECX
+          Name = "Newton_InitBaseNewtonObj"
+        062D: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "newtonObj",  type = 101
+        063B: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "index",  type = 9
+        0645: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "mass",  type = 9
+        064E: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "moInertia",  type = 9
+        065C: LOCAL
+          address: BP_OFFSET_BYTE( 10 )
+          name = "dimX",  type = 9
+        0665: LOCAL
+          address: BP_OFFSET_BYTE( 14 )
+          name = "dimY",  type = 9
+        066E: LOCAL
+          address: BP_OFFSET_BYTE( 18 )
+          name = "dimZ",  type = 9
+        0677: NEAR_RTN_386
+          start off = 00001808, code size = 0000009E, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  102
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Newton_QDUpdateVel"
+        06A0: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "newtonObj",  type = 101
+        06AE: NEAR_RTN_386
+          start off = 000018A6, code size = 00000188, parent off = 0000
+          prologue size = 11,  epilogue size = 8
+          return address offset (from bp) = 0000000C
+          return type:  114
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Parm 3: MULTI_REG(1): ECX
+          Name = "Newton_OptzRotxform"
+        06DF: LOCAL
+          address: BP_OFFSET_BYTE( DC )
+          name = "m",  type = 109
+        06E5: LOCAL
+          address: BP_OFFSET_BYTE( E0 )
+          name = "ax",  type = 9
+        06EC: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "ay",  type = 9
+        06F3: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "az",  type = 9
+        06FA: LOCAL
+          address: BP_OFFSET_BYTE( 10 )
+          name = "reOrthoNeeded",  type = 113
+        070C: LOCAL
+          address: BP_OFFSET_BYTE( 14 )
+          name = "reOrthoLimit",  type = 9
+        071D: LOCAL
+          address: BP_OFFSET_BYTE( 18 )
+          name = "cumulatedRot",  type = 113
+        072E: LOCAL
+          address: BP_OFFSET_WORD( 0070 )
+          name = "mx",  type = 92
+        0736: LOCAL
+          address: BP_OFFSET_WORD( 004C )
+          name = "my",  type = 92
+        073E: LOCAL
+          address: BP_OFFSET_BYTE( B8 )
+          name = "mz",  type = 92
+        0745: LOCAL
+          address: BP_OFFSET_BYTE( 94 )
+          name = "mt",  type = 92
+        074C: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "changed",  type = 9
+        0758: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "absx",  type = 9
+        0761: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "absy",  type = 9
+        076A: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "absz",  type = 9
+        0773: NEAR_RTN_386
+          start off = 00001A2E, code size = 00000108, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  102
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Newton_QDUpdateRot64Hz"
+        07A0: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "newtonObj",  type = 101
+        07AE: LOCAL
+          address: BP_OFFSET_BYTE( D4 )
+          name = "m",  type = 92
+        07B4: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "reOrthoNeeded",  type = 9
+        07C6: NEAR_RTN_386
+          start off = 00001B36, code size = 00000108, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  102
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Newton_QDUpdateRot32Hz"
+        07F3: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "newtonObj",  type = 101
+        0801: LOCAL
+          address: BP_OFFSET_BYTE( D4 )
+          name = "m",  type = 92
+        0807: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "reOrthoNeeded",  type = 9
+        0819: NEAR_RTN_386
+          start off = 00001C3E, code size = 00000534, parent off = 0000
+          prologue size = 12,  epilogue size = 7
+          return address offset (from bp) = 00000010
+          return type:  115
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Name = "Newton_CalculateGroundShadowMatrix"
+        0856: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "newtonObj",  type = 101
+        0864: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "normal",  type = 105
+        086F: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "orientToGround",  type = 9
+        0882: NEAR_RTN_386
+          start off = 00002172, code size = 0000033B, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  102
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Newton_CalcGroundShadowCoordinates"
+        08BB: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "newtonObj",  type = 101
+        08C9: LOCAL
+          address: BP_OFFSET_BYTE( CC )
+          name = "lengthVector",  type = 62
+        08DA: LOCAL
+          address: BP_OFFSET_BYTE( D8 )
+          name = "widthVector",  type = 62
+        08EA: LOCAL
+          address: BP_OFFSET_BYTE( C0 )
+          name = "carGroundCoord",  type = 62
+        08FD: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "temp",  type = 62
+        0906: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "vecOffset",  type = 62
+        0914: BLOCK_386
+          start off = 000024BE, code size = 000000E2, parent off = 0983
+        0920: LOCAL
+          address: BP_OFFSET_BYTE( D8 )
+          name = "slice",  type = 9
+        092A: LOCAL
+          address: BP_OFFSET_BYTE( DC )
+          name = "dot",  type = 9
+        0932: BLOCK_386
+          start off = 000025A0, code size = 00000218, parent off = 0983
+        093E: LOCAL
+          address: BP_OFFSET_BYTE( CC )
+          name = "impactVel",  type = 9
+        094C: LOCAL
+          address: BP_OFFSET_BYTE( C8 )
+          name = "carObj",  type = 196
+        0958: LOCAL
+          address: BP_OFFSET_BYTE( B8 )
+          name = "distRetreat",  type = 9
+        0968: LOCAL
+          address: BP_OFFSET_BYTE( BC )
+          name = "upVec",  type = 62
+        0972: LOCAL
+          address: BP_OFFSET_BYTE( 94 )
+          name = "islandMatrix",  type = 92
+        0983: NEAR_RTN_386
+          start off = 000024AD, code size = 00000316, parent off = 0000
+          prologue size = 14,  epilogue size = 11
+          return address offset (from bp) = 00000018
+          return type:  197
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Newton_DoPostBarrierCollisionHandling"
+        09C0: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "newtonObj",  type = 101
+        09CE: LOCAL
+          address: BP_OFFSET_BYTE( 1C )
+          name = "normal",  type = 62
+        09D9: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "right",  type = 62
+        09E3: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "barrierVec",  type = 62
+        09F2: NEAR_RTN_386
+          start off = 000027C3, code size = 0000016E, parent off = 0000
+          prologue size = 14,  epilogue size = 11
+          return address offset (from bp) = 00000018
+          return type:  198
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Newton_PointInsideQuad"
+        0A21: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "newtonObj",  type = 101
+        0A2F: LOCAL
+          address: BP_OFFSET_BYTE( 1C )
+          name = "point",  type = 62
+        0A39: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "i",  type = 9
+        0A3F: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "index",  type = 9
+        0A49: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "inside",  type = 9
+        0A54: LOCAL
+          address: BP_OFFSET_BYTE( BC )
+          name = "A",  type = 62
+        0A5A: LOCAL
+          address: BP_OFFSET_BYTE( E0 )
+          name = "B",  type = 62
+        0A60: LOCAL
+          address: BP_OFFSET_BYTE( C8 )
+          name = "C",  type = 62
+        0A66: LOCAL
+          address: BP_OFFSET_BYTE( D4 )
+          name = "D",  type = 62
+        0A6C: BLOCK_386
+          start off = 00002AB5, code size = 000000F0, parent off = 0A9A
+        0A78: LOCAL
+          address: BP_OFFSET_WORD( 0030 )
+          name = "undrivableCenter",  type = 62
+        0A8E: LOCAL
+          address: BP_OFFSET_WORD( 0024 )
+          name = "normal",  type = 62
+        0A9A: BLOCK_386
+          start off = 00002A50, code size = 00000155, parent off = 0AB5
+        0AA6: LOCAL
+          address: BP_OFFSET_WORD( 0048 )
+          name = "testPoint",  type = 62
+        0AB5: NEAR_RTN_386
+          start off = 00002931, code size = 00000282, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  102
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Newton_TestForUndrivableSurfaces"
+        0AEC: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "newtonObj",  type = 101
+        0AFA: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "i",  type = 9
+        0B00: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "value",  type = 9
+        0B0A: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "start",  type = 9
+        0B14: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "end",  type = 9
+        0B1C: LOCAL
+          address: BP_OFFSET_WORD( 0054 )
+          name = "testSimRoadInfo",  type = 88
+        0B31: LOCAL
+          address: BP_OFFSET_BYTE( E0 )
+          name = "cautionaryCenter",  type = 62
+        0B46: LOCAL
+          address: BP_OFFSET_BYTE( D4 )
+          name = "speedVec",  type = 62
+        0B53: NEAR_RTN_386
+          start off = 00002BB3, code size = 00000413, parent off = 0000
+          prologue size = 12,  epilogue size = 7
+          return address offset (from bp) = 00000010
+          return type:  199
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Name = "Newton_PlaceObjOnAndParallelToGroundCheckAxis"
+        0B9C: LOCAL
+          address: BP_OFFSET_BYTE( C8 )
+          name = "newtonObj",  type = 101
+        0BAA: LOCAL
+          address: BP_OFFSET_BYTE( C4 )
+          name = "normal",  type = 105
+        0BB5: LOCAL
+          address: BP_OFFSET_BYTE( DC )
+          name = "samplePoint",  type = 105
+        0BC5: LOCAL
+          address: BP_OFFSET_BYTE( CC )
+          name = "diffx",  type = 9
+        0BCF: LOCAL
+          address: BP_OFFSET_BYTE( D0 )
+          name = "diffz",  type = 9
+        0BD9: LOCAL
+          address: BP_OFFSET_BYTE( D4 )
+          name = "yDir",  type = 9
+        0BE2: LOCAL
+          address: BP_OFFSET_BYTE( D8 )
+          name = "levelingConditionMet",  type = 9
+        0BFB: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "threshold",  type = 9
+        0C09: LOCAL
+          address: BP_OFFSET_BYTE( E0 )
+          name = "dominentAxisY",  type = 9
+        0C1B: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "x",  type = 9
+        0C21: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "y",  type = 9
+        0C27: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "z",  type = 9
+        0C2D: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "ax",  type = 9
+        0C34: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "ay",  type = 9
+        0C3B: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "az",  type = 9
+        0C42: LOCAL
+          address: BP_OFFSET_BYTE( B8 )
+          name = "norm",  type = 62
+        0C4B: NEAR_RTN_386
+          start off = 00002FC6, code size = 000003C8, parent off = 0000
+          prologue size = 12,  epilogue size = 7
+          return address offset (from bp) = 00000010
+          return type:  199
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Name = "Newton_PlaceObjOnAndParallelToGround"
+        0C8B: LOCAL
+          address: BP_OFFSET_BYTE( E0 )
+          name = "newtonObj",  type = 101
+        0C99: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "normal",  type = 105
+        0CA4: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "samplePoint",  type = 105
+        0CB4: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "diffx",  type = 9
+        0CBE: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "diffz",  type = 9
+        0CC8: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "yDir",  type = 9
+        0CD1: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "levelingConditionMet",  type = 9
+        0CEA: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "threshold",  type = 9
+        0CF8: NEAR_RTN_386
+          start off = 0000338E, code size = 000000C8, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  102
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Newton_LimitAngularVelocity"
+        0D2A: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "newtonObj",  type = 101
+        0D38: BLOCK_386
+          start off = 00003740, code size = 00000090, parent off = 0D84
+        0D44: LOCAL
+          address: BP_OFFSET_BYTE( C0 )
+          name = "x",  type = 9
+        0D4A: LOCAL
+          address: BP_OFFSET_BYTE( B8 )
+          name = "z",  type = 9
+        0D50: BLOCK_386
+          start off = 00003A50, code size = 000000FD, parent off = 0D84
+        0D5C: LOCAL
+          address: BP_OFFSET_BYTE( A8 )
+          name = "bounceVel",  type = 9
+        0D6A: BLOCK_386
+          start off = 00003E39, code size = 000000A3, parent off = 0D84
+        0D76: LOCAL
+          address: BP_OFFSET_BYTE( 8C )
+          name = "vecOffset",  type = 62
+        0D84: NEAR_RTN_386
+          start off = 00003456, code size = 00000AF5, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  102
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Newton_ApplyTheLawOfGravity"
+        0DB6: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "newtonObj",  type = 101
+        0DC4: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "elevationOfGround",  type = 9
+        0DDA: LOCAL
+          address: BP_OFFSET_BYTE( E0 )
+          name = "objAltitude",  type = 9
+        0DEA: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "groundVel",  type = 9
+        0DF8: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "relativeClosingVelocity",  type = 9
+        0E14: LOCAL
+          address: BP_OFFSET_BYTE( C8 )
+          name = "normal",  type = 62
+        0E1F: LOCAL
+          address: BP_OFFSET_BYTE( D4 )
+          name = "shadowNormal",  type = 62
+        0E30: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "timeCount",  type = 9
+        0E3E: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "elapsedTime",  type = 9
+        0E4E: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "iTimeCount",  type = 9
+        0E5D: NEAR_RTN_386
+          start off = 00003F4B, code size = 000000AD, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  200
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Newton_CalculateRoadPosition"
+        0E92: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "newtonObj",  type = 101
+        0EA0: LOCAL
+          address: BP_OFFSET_BYTE( DC )
+          name = "centerBack",  type = 62
+        0EAF: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "carRelative",  type = 62
+        0EBF: LOCAL
+          address: BP_OFFSET_BYTE( D0 )
+          name = "carPos",  type = 62
+        0ECA: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "roadPosition",  type = 9
+

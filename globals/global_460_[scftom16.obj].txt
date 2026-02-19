@@ -1,0 +1,4 @@
+  Name:  _copyftom16s
+    address      = 0001:000BE280
+    module index = 460
+    kind:          (code)

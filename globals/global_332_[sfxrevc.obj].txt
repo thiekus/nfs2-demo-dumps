@@ -1,0 +1,52 @@
+  Name:  findprime_
+    address      = 0001:000AF160
+    module index = 332
+    kind:          (code)
+  Name:  _iSNDfxinitreverb
+    address      = 0001:000AF1BC
+    module index = 332
+    kind:          (code)
+  Name:  _lowpassacc
+    address      = 0002:00015734
+    module index = 332
+    kind:          (data)
+  Name:  _lplevels1
+    address      = 0002:00015744
+    module index = 332
+    kind:          (data)
+  Name:  _lplevels2
+    address      = 0002:00015754
+    module index = 332
+    kind:          (data)
+  Name:  _fblevels
+    address      = 0002:00015764
+    module index = 332
+    kind:          (data)
+  Name:  _plastsaved
+    address      = 0002:0005ED94
+    module index = 332
+    kind:          (data)
+  Name:  _reverbmem
+    address      = 0002:0005EDA4
+    module index = 332
+    kind:          (data)
+  Name:  _plasttaken
+    address      = 0002:000646B4
+    module index = 332
+    kind:          (data)
+  Name:  _prevblockmem
+    address      = 0002:000646C4
+    module index = 332
+    kind:          (data)
+  Name:  _preverbmem
+    address      = 0002:000646D4
+    module index = 332
+    kind:          (data)
+  Name:  _gainedfeedback
+    address      = 0002:000646E4
+    module index = 332
+    kind:          (data)
+  Name:  _pbufend
+    address      = 0002:000646F4
+    module index = 332
+    kind:          (data)

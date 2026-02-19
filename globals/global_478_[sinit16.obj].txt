@@ -1,0 +1,4 @@
+  Name:  SNDinitcodec16bit_
+    address      = 0001:000BF880
+    module index = 478
+    kind:          (code)

@@ -1,0 +1,8 @@
+  Name:  _ups8lf
+    address      = 0001:000C2BD0
+    module index = 538
+    kind:          (static pubdef) (code)
+  Name:  _ups8lfsetstate
+    address      = 0001:000C2C3C
+    module index = 538
+    kind:          (code)

@@ -1,0 +1,16 @@
+  Name:  _movevideowindow
+    address      = 0001:0009C8B0
+    module index = 245
+    kind:          (code)
+  Name:  _readvideowindow
+    address      = 0001:0009C9AC
+    module index = 245
+    kind:          (code)
+  Name:  _fillvideowindow
+    address      = 0001:0009CA94
+    module index = 245
+    kind:          (code)
+  Name:  _copyvideowindow
+    address      = 0001:0009CB40
+    module index = 245
+    kind:          (code)

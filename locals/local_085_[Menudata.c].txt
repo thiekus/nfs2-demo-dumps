@@ -1,0 +1,594 @@
+ 85) Name:   C:\nfs2\frontend\common\Menudata.c
+     Language is C
+     Locals: num = 1, offset = 00000166H
+     Types:  num = 1, offset = 00000302H
+     Lines:  num = 0, offset = 00000000H
+
+   *** Locals ***
+   ==============
+      Data 0:  offset 0001FDF4
+        0000: MODULE_386
+          "menuMemory" addr = 0002:00011645,  type = 52
+        0013: MODULE_386
+          "IBFar" addr = 0002:0001152E,  type = 53
+        0021: MODULE_386
+          "IBFull" addr = 0002:000114F8,  type = 54
+        0030: MODULE_386
+          "menuAudio" addr = 0002:000110AB,  type = 57
+        0042: MODULE_386
+          "IBTime" addr = 0002:00010F75,  type = 58
+        0051: MODULE_386
+          "menuHistory" addr = 0002:00010BC2,  type = 61
+        0065: MODULE_386
+          "IBNormal" addr = 0002:0001090F,  type = 62
+        0076: MODULE_386
+          "IBStock" addr = 0002:000109AD,  type = 63
+        0086: MODULE_386
+          "IBShort" addr = 0002:000109F0,  type = 64
+        0096: MODULE_386
+          "IBFront" addr = 0002:000109D7,  type = 65
+        00A6: MODULE_386
+          "menuTrackRecords" addr = 0002:000108C0,  type = 68
+        00BF: MODULE_386
+          "IBLow1" addr = 0002:00010994,  type = 69
+        00CE: MODULE_386
+          "IBTrackBonus" addr = 0002:000108EE,  type = 70
+        00E3: MODULE_386
+          "IBRace" addr = 0002:000107AB,  type = 71
+        00F2: MODULE_386
+          "menuSensitivity" addr = 0002:000113A5,  type = 74
+        010A: MODULE_386
+          "menuSerialLinkSetup" addr = 0002:00010652,  type = 77
+        0126: MODULE_386
+          "menuControlRemap1" addr = 0002:000111D1,  type = 80
+        0140: MODULE_386
+          "menuControlRemap2" addr = 0002:000112F6,  type = 83
+        015A: MODULE_386
+          "menuNetwork" addr = 0002:00011B84,  type = 86
+        016E: MODULE_386
+          "menuKnockoutStandings" addr = 0002:000117C2,  type = 89
+        018C: MODULE_386
+          "menuTrackInfo" addr = 0002:00010864,  type = 92
+        01A2: MODULE_386
+          "menuGameSetup" addr = 0002:0001081A,  type = 95
+        01B8: MODULE_386
+          "menuLocation" addr = 0002:0001096C,  type = 98
+        01CD: MODULE_386
+          "menuOpponents" addr = 0002:00010FC7,  type = 101
+        01E3: MODULE_386
+          "menuLapTimes" addr = 0002:0001190D,  type = 104
+        01F8: MODULE_386
+          "menuNetworkStandings" addr = 0002:000119E9,  type = 107
+        0215: MODULE_386
+          "menuDisplay" addr = 0002:00011591,  type = 110
+        0229: MODULE_386
+          "menuOptions" addr = 0002:000116F2,  type = 113
+        023D: MODULE_386
+          "IBHigh1" addr = 0002:00011511,  type = 114
+        024D: MODULE_386
+          "menuControllers" addr = 0002:000114CC,  type = 117
+        0265: MODULE_386
+          "menuFeedback" addr = 0002:0001141A,  type = 120
+        027A: MODULE_386
+          "IBOCar" addr = 0002:00010F2B,  type = 121
+        0289: MODULE_386
+          "menuShowcase" addr = 0002:00010D3F,  type = 124
+        029E: MODULE_386
+          "IBCarBonus" addr = 0002:00010DB5,  type = 125
+        02B1: MODULE_386
+          "IBBlanks" addr = 0002:00010F3F,  type = 126
+        02C2: MODULE_386
+          "menuSlideShow" addr = 0002:00010B70,  type = 129
+        02D9: MODULE_386
+          "credits" addr = 0002:00010B8C,  type = 132
+        02EA: MODULE_386
+          "IBOne" addr = 0002:0001078E,  type = 133
+        02F9: MODULE_386
+          "nullIB" addr = 0002:00010600,  type = 134
+        0309: MODULE_386
+          "menuPlayerCar2" addr = 0002:00010EF7,  type = 137
+        0321: MODULE_386
+          "menuPlayerCar1" addr = 0002:00010E6E,  type = 140
+        0339: MODULE_386
+          "menuNetworkSetup" addr = 0002:0001076A,  type = 143
+        0353: MODULE_386
+          "menuSettings2" addr = 0002:00010B09,  type = 146
+        036A: MODULE_386
+          "menuSettings1" addr = 0002:00010A5E,  type = 149
+        0381: MODULE_386
+          "menuTournamentStandings" addr = 0002:00011886,  type = 152
+        03A2: MODULE_386
+          "menuKnockoutSummary" addr = 0002:00011762,  type = 155
+        03BF: MODULE_386
+          "menuTournamentSummary" addr = 0002:00011826,  type = 158
+        03DE: MODULE_386
+          "menuModemSetup" addr = 0002:000106E9,  type = 161
+        03F6: MODULE_386
+          "menuMain" addr = 0002:00011A7C,  type = 164
+        0408: MODULE_386
+          "menuVictoryScreen" addr = 0002:000119A2,  type = 167
+        0423: MODULE_386
+          "menuRaceSummary" addr = 0002:0001197E,  type = 170
+        043C: MODULE_386
+          "IBNBlanks" addr = 0002:00011B13,  type = 171
+        044F: MODULE_386
+          "IBNOCar" addr = 0002:00011AFD,  type = 172
+        0460: MODULE_386
+          "IBNo" addr = 0002:00011B5C,  type = 173
+        046E: MODULE_386
+          "IBDisplay" addr = 0002:00011675,  type = 174
+        0481: MODULE_386
+          "IBNoH" addr = 0002:00011547,  type = 175
+        0490: MODULE_386
+          "IBAnalogDigital" addr = 0002:00011460,  type = 176
+        04A9: MODULE_386
+          "IBSens" addr = 0002:00011357,  type = 177
+        04B9: MODULE_386
+          "IBStandard" addr = 0002:00011022,  type = 178
+        04CD: MODULE_386
+          "IBBegin" addr = 0002:00010F8E,  type = 179
+        04DE: MODULE_386
+          "IBStero" addr = 0002:00011061,  type = 180
+        04EF: MODULE_386
+          "IBQuality" addr = 0002:0001104A,  type = 181
+        0502: MODULE_386
+          "IBCar" addr = 0002:00010DA3,  type = 182
+        0511: MODULE_386
+          "IBNo2" addr = 0002:00010E02,  type = 183
+        0520: MODULE_386
+          "IBAuto" addr = 0002:00010DDA,  type = 184
+        0530: MODULE_386
+          "IBTrack" addr = 0002:000108E0,  type = 185
+        0541: MODULE_386
+          "IBOff" addr = 0002:000107E1,  type = 186
+        0550: MODULE_386
+          "IBOn" addr = 0002:000107DB,  type = 187
+        055E: MODULE_386
+          "IBSim" addr = 0002:000107C4,  type = 188
+        056D: MODULE_386
+          "IBCom" addr = 0002:00010604,  type = 189
+        057C: MODULE_386
+          "itemNTraffic" addr = 0002:00011ADB,  type = 41
+        0591: MODULE_386
+          "itemNQuit" addr = 0002:00011B73,  type = 41
+        05A3: MODULE_386
+          "itemNRace" addr = 0002:00011B62,  type = 41
+        05B5: MODULE_386
+          "itemNCar" addr = 0002:00011B3A,  type = 41
+        05C6: MODULE_386
+          "itemNTransmission" addr = 0002:00011B4B,  type = 41
+        05E0: MODULE_386
+          "itemNOpponentCar" addr = 0002:00011B29,  type = 41
+        05F9: MODULE_386
+          "itemNStyle" addr = 0002:00011AEC,  type = 41
+        060C: MODULE_386
+          "itemOptions" addr = 0002:00011A5A,  type = 41
+        0620: MODULE_386
+          "itemNLocation" addr = 0002:00011AB9,  type = 41
+        0636: MODULE_386
+          "itemNext1" addr = 0002:00011935,  type = 41
+        0648: MODULE_386
+          "itemQuit" addr = 0002:000119D8,  type = 41
+        0659: MODULE_386
+          "itemPlayerCar" addr = 0002:00011A27,  type = 41
+        066F: MODULE_386
+          "itemRace" addr = 0002:00011A49,  type = 41
+        0680: MODULE_386
+          "itemOpponents" addr = 0002:00011A38,  type = 41
+        0696: MODULE_386
+          "itemRSBackArrow" addr = 0002:00011968,  type = 193
+        06AF: MODULE_386
+          "itemRSFwdArrow" addr = 0002:00011973,  type = 193
+        06C7: MODULE_386
+          "itemNLaps" addr = 0002:00011ACA,  type = 41
+        06D9: MODULE_386
+          "itemLocation" addr = 0002:00011A16,  type = 41
+        06EE: MODULE_386
+          "itemExit" addr = 0002:00011A6B,  type = 41
+        06FF: MODULE_386
+          "itemRestart1" addr = 0002:00011946,  type = 41
+        0714: MODULE_386
+          "itemContinue2" addr = 0002:000119B6,  type = 41
+        072A: MODULE_386
+          "itemNRaceType" addr = 0002:00011AA8,  type = 41
+        0740: MODULE_386
+          "itemReplay1" addr = 0002:00011957,  type = 41
+        0754: MODULE_386
+          "itemReplay2" addr = 0002:000119C7,  type = 41
+        0768: MODULE_386
+          "itemGameSetup" addr = 0002:00011A05,  type = 41
+        077E: MODULE_386
+          "itemLTFwdArrow" addr = 0002:000118F1,  type = 193
+        0796: MODULE_386
+          "itemLTNext" addr = 0002:000118A2,  type = 41
+        07A9: MODULE_386
+          "itemLTQuit" addr = 0002:000118FC,  type = 41
+        07BC: MODULE_386
+          "itemTSTBack" addr = 0002:00011853,  type = 41
+        07D0: MODULE_386
+          "itemTSUBack" addr = 0002:000117F3,  type = 41
+        07E4: MODULE_386
+          "itemLTReplay" addr = 0002:000118D5,  type = 41
+        07F9: MODULE_386
+          "itemTSUReplay" addr = 0002:00011804,  type = 41
+        080F: MODULE_386
+          "itemTSTReplay" addr = 0002:00011864,  type = 41
+        0825: MODULE_386
+          "itemKOSTBack" addr = 0002:0001178F,  type = 41
+        083A: MODULE_386
+          "itemKOSTReplay" addr = 0002:000117A0,  type = 41
+        0851: MODULE_386
+          "itemLTBackArrow" addr = 0002:000118E6,  type = 193
+        086A: MODULE_386
+          "itemTSUQuit" addr = 0002:00011815,  type = 41
+        087E: MODULE_386
+          "itemLTRestart" addr = 0002:000118C4,  type = 41
+        0894: MODULE_386
+          "itemLTBack" addr = 0002:000118B3,  type = 41
+        08A7: MODULE_386
+          "itemTSUNext" addr = 0002:000117E2,  type = 41
+        08BB: MODULE_386
+          "itemTSTNext" addr = 0002:00011842,  type = 41
+        08CF: MODULE_386
+          "itemTSTQuit" addr = 0002:00011875,  type = 41
+        08E3: MODULE_386
+          "itemKOSTQuit" addr = 0002:000117B1,  type = 41
+        08F8: MODULE_386
+          "itemKOSTNext" addr = 0002:0001177E,  type = 41
+        090D: MODULE_386
+          "itemKOSUQuit" addr = 0002:00011751,  type = 41
+        0922: MODULE_386
+          "itemCredits" addr = 0002:000116D0,  type = 41
+        0936: MODULE_386
+          "itemMemory" addr = 0002:000116BF,  type = 41
+        0949: MODULE_386
+          "itemDisplay" addr = 0002:0001167B,  type = 41
+        095D: MODULE_386
+          "itemDeleteReplay" addr = 0002:00011612,  type = 41
+        0976: MODULE_386
+          "itemSaveTournament" addr = 0002:000115BD,  type = 41
+        0991: MODULE_386
+          "itemViewReplay" addr = 0002:00011601,  type = 41
+        09A8: MODULE_386
+          "itemDone8" addr = 0002:00011623,  type = 41
+        09BA: MODULE_386
+          "itemDone4" addr = 0002:000116E1,  type = 41
+        09CC: MODULE_386
+          "itemTitleMemory" addr = 0002:00011634,  type = 41
+        09E4: MODULE_386
+          "itemDone7" addr = 0002:0001155E,  type = 41
+        09F6: MODULE_386
+          "itemLoadTournament" addr = 0002:000115CE,  type = 41
+        0A11: MODULE_386
+          "itemDeleteTournament" addr = 0002:000115DF,  type = 41
+        0A2E: MODULE_386
+          "itemKOSUReplay" addr = 0002:00011740,  type = 41
+        0A45: MODULE_386
+          "itemGraphics" addr = 0002:000116AE,  type = 41
+        0A5A: MODULE_386
+          "itemKOSUBack" addr = 0002:0001172F,  type = 41
+        0A6F: MODULE_386
+          "itemSaveReplay" addr = 0002:000115F0,  type = 41
+        0A86: MODULE_386
+          "itemControllers" addr = 0002:0001169D,  type = 41
+        0A9E: MODULE_386
+          "itemTitleDisplay" addr = 0002:00011580,  type = 41
+        0AB7: MODULE_386
+          "itemAudio" addr = 0002:0001168C,  type = 41
+        0AC9: MODULE_386
+          "itemCancel7" addr = 0002:0001156F,  type = 41
+        0ADD: MODULE_386
+          "itemKOSUNext" addr = 0002:0001171E,  type = 41
+        0AF2: MODULE_386
+          "itemCancel16" addr = 0002:000113E7,  type = 41
+        0B07: MODULE_386
+          "itemWindowSize" addr = 0002:00011500,  type = 41
+        0B1E: MODULE_386
+          "itemEffects" addr = 0002:000113C5,  type = 41
+        0B32: MODULE_386
+          "itemDone16" addr = 0002:000113D6,  type = 41
+        0B45: MODULE_386
+          "itemForceFeedback" addr = 0002:00011499,  type = 41
+        0B5F: MODULE_386
+          "itemDone6" addr = 0002:000114AA,  type = 41
+        0B71: MODULE_386
+          "itemTitleControllers" addr = 0002:0001143E,  type = 41
+        0B8E: MODULE_386
+          "itemViewDistance" addr = 0002:00011536,  type = 41
+        0BA7: MODULE_386
+          "itemTitleFeedback1" addr = 0002:000113F8,  type = 41
+        0BC2: MODULE_386
+          "itemTitleFeedback2" addr = 0002:00011409,  type = 41
+        0BDD: MODULE_386
+          "itemHorizon" addr = 0002:0001154D,  type = 41
+        0BF1: MODULE_386
+          "itemSetup" addr = 0002:0001144F,  type = 41
+        0C03: MODULE_386
+          "itemSensitivity" addr = 0002:00011488,  type = 41
+        0C1B: MODULE_386
+          "itemTitleSensitivity" addr = 0002:00011394,  type = 41
+        0C38: MODULE_386
+          "itemImageQuality" addr = 0002:0001151D,  type = 41
+        0C51: MODULE_386
+          "itemPlayerTwoCont" addr = 0002:00011477,  type = 41
+        0C6B: MODULE_386
+          "itemPlayerOneCont" addr = 0002:00011466,  type = 41
+        0C85: MODULE_386
+          "itemCancel6" addr = 0002:000114BB,  type = 41
+        0C99: MODULE_386
+          "itemKeyShiftDown" addr = 0002:0001117C,  type = 41
+        0CB2: MODULE_386
+          "itemTitleCalibrate" addr = 0002:00011346,  type = 41
+        0CCD: MODULE_386
+          "itemKeyHorn1" addr = 0002:00011290,  type = 41
+        0CE2: MODULE_386
+          "itemKeyBrake1" addr = 0002:0001124C,  type = 41
+        0CF8: MODULE_386
+          "itemCancel14" addr = 0002:000111AF,  type = 41
+        0D0D: MODULE_386
+          "itemCancel15" addr = 0002:00011383,  type = 41
+        0D22: MODULE_386
+          "itemKeyLeft1" addr = 0002:00011219,  type = 41
+        0D37: MODULE_386
+          "itemDone14" addr = 0002:0001119E,  type = 41
+        0D4A: MODULE_386
+          "itemDone15" addr = 0002:00011372,  type = 41
+        0D5D: MODULE_386
+          "itemKeyHandBrake1" addr = 0002:0001127F,  type = 41
+        0D77: MODULE_386
+          "itemKeyRight1" addr = 0002:0001122A,  type = 41
+        0D8D: MODULE_386
+          "itemKeyHorn" addr = 0002:0001115A,  type = 41
+        0DA1: MODULE_386
+          "itemTitleControlRemap2" addr = 0002:000112C3,  type = 41
+        0DC0: MODULE_386
+          "itemKeyShiftDown1" addr = 0002:000112B2,  type = 41
+        0DDA: MODULE_386
+          "itemResetDefault" addr = 0002:0001118D,  type = 41
+        0DF3: MODULE_386
+          "itemTitleControlRemap1" addr = 0002:000111C0,  type = 41
+        0E12: MODULE_386
+          "itemTitlePlayer1" addr = 0002:000112D4,  type = 41
+        0E2B: MODULE_386
+          "itemTitlePlayer2" addr = 0002:000112E5,  type = 41
+        0E44: MODULE_386
+          "itemKeyShiftUp" addr = 0002:0001116B,  type = 41
+        0E5B: MODULE_386
+          "itemKeyGas1" addr = 0002:0001123B,  type = 41
+        0E6F: MODULE_386
+          "itemKeyCamera1" addr = 0002:0001126E,  type = 41
+        0E86: MODULE_386
+          "itemKeyLookBehind1" addr = 0002:0001125D,  type = 41
+        0EA1: MODULE_386
+          "itemKeyShiftUp1" addr = 0002:000112A1,  type = 41
+        0EB9: MODULE_386
+          "itemSensitivity2" addr = 0002:00011361,  type = 41
+        0ED2: MODULE_386
+          "itemAudioQuality" addr = 0002:00011050,  type = 41
+        0EEB: MODULE_386
+          "itemKeyRight" addr = 0002:000110F4,  type = 41
+        0F00: MODULE_386
+          "itemInteractive" addr = 0002:00011039,  type = 41
+        0F18: MODULE_386
+          "itemEngineSounds" addr = 0002:00011028,  type = 41
+        0F31: MODULE_386
+          "itemRacingMusic" addr = 0002:00011000,  type = 41
+        0F49: MODULE_386
+          "itemCancel" addr = 0002:00010FB6,  type = 41
+        0F5C: MODULE_386
+          "itemKeyBrake" addr = 0002:00011116,  type = 41
+        0F71: MODULE_386
+          "itemDone5" addr = 0002:00011078,  type = 41
+        0F83: MODULE_386
+          "itemKeyLookBehind" addr = 0002:00011127,  type = 41
+        0F9D: MODULE_386
+          "itemSkillLevel" addr = 0002:00010F94,  type = 41
+        0FB4: MODULE_386
+          "itemKeyHandBrake" addr = 0002:00011149,  type = 41
+        0FCD: MODULE_386
+          "itemKeyCamera" addr = 0002:00011138,  type = 41
+        0FE3: MODULE_386
+          "itemMenuMusic" addr = 0002:00010FEF,  type = 41
+        0FF9: MODULE_386
+          "itemTitleAudio" addr = 0002:0001109A,  type = 41
+        1010: MODULE_386
+          "itemCancel5" addr = 0002:00011089,  type = 41
+        1024: MODULE_386
+          "itemKeyLeft" addr = 0002:000110E3,  type = 41
+        1038: MODULE_386
+          "itemDone" addr = 0002:00010FA5,  type = 41
+        1049: MODULE_386
+          "itemKeyGas" addr = 0002:00011105,  type = 41
+        105C: MODULE_386
+          "itemAudioMode" addr = 0002:00011067,  type = 41
+        1072: MODULE_386
+          "itemSoundEffects" addr = 0002:00011011,  type = 41
+        108B: MODULE_386
+          "itemTransmission" addr = 0002:00010DE0,  type = 41
+        10A4: MODULE_386
+          "itemNumber" addr = 0002:00010F7D,  type = 41
+        10B7: MODULE_386
+          "itemTitlePlayerCar1" addr = 0002:00010E5D,  type = 41
+        10D3: MODULE_386
+          "itemTitlePlayerCar2" addr = 0002:00010EE6,  type = 41
+        10EF: MODULE_386
+          "itemAdvancedSettings2" addr = 0002:00010ED5,  type = 41
+        110D: MODULE_386
+          "itemTraffic" addr = 0002:00010F64,  type = 41
+        1121: MODULE_386
+          "itemCar2" addr = 0002:00010EA2,  type = 41
+        1132: MODULE_386
+          "itemGraph" addr = 0002:00010E08,  type = 41
+        1144: MODULE_386
+          "itemCar1" addr = 0002:00010DC9,  type = 41
+        1155: MODULE_386
+          "itemTransmission2" addr = 0002:00010EC4,  type = 41
+        116F: MODULE_386
+          "itemDone3" addr = 0002:00010E3B,  type = 41
+        1181: MODULE_386
+          "itemAdvancedSettings" addr = 0002:00010E19,  type = 41
+        119E: MODULE_386
+          "itemColor2a" addr = 0002:00010EB3,  type = 41
+        11B2: MODULE_386
+          "itemColor" addr = 0002:00010DF1,  type = 41
+        11C4: MODULE_386
+          "itemCancel3" addr = 0002:00010E4C,  type = 41
+        11D8: MODULE_386
+          "itemCarOpp" addr = 0002:00010F53,  type = 41
+        11EB: MODULE_386
+          "itemShowcase" addr = 0002:00010E2A,  type = 41
+        1200: MODULE_386
+          "itemMoreStats" addr = 0002:00010BEB,  type = 41
+        1216: MODULE_386
+          "itemHNextCar" addr = 0002:00010BA0,  type = 41
+        122B: MODULE_386
+          "itemBrakeBias2" addr = 0002:00010AD6,  type = 41
+        1242: MODULE_386
+          "itemDownForceFront2" addr = 0002:00010AB4,  type = 41
+        125E: MODULE_386
+          "itemSteeringSens2" addr = 0002:00010AA3,  type = 41
+        1278: MODULE_386
+          "itemDone13" addr = 0002:00010B5F,  type = 41
+        128B: MODULE_386
+          "itemDone10" addr = 0002:00010C2F,  type = 41
+        129E: MODULE_386
+          "itemNextSlide" addr = 0002:00010B4E,  type = 41
+        12B4: MODULE_386
+          "itemDownForceRear2" addr = 0002:00010AC5,  type = 41
+        12CF: MODULE_386
+          "itemDone17" addr = 0002:00010BB1,  type = 41
+        12E2: MODULE_386
+          "itemNextCar" addr = 0002:00010BDA,  type = 41
+        12F6: MODULE_386
+          "itemSlideShow" addr = 0002:00010C0D,  type = 41
+        130C: MODULE_386
+          "itemColor2" addr = 0002:00010A92,  type = 41
+        131F: MODULE_386
+          "itemTitleSettings" addr = 0002:00010A3C,  type = 41
+        1339: MODULE_386
+          "itemVideo" addr = 0002:00010C1E,  type = 41
+        134B: MODULE_386
+          "itemTitleSettings2" addr = 0002:00010AF8,  type = 41
+        1366: MODULE_386
+          "itemTitleSettings3" addr = 0002:00010A4D,  type = 41
+        1381: MODULE_386
+          "itemGearRatios2" addr = 0002:00010AE7,  type = 41
+        1399: MODULE_386
+          "itemNextCar2" addr = 0002:00010B3D,  type = 41
+        13AE: MODULE_386
+          "itemHistory" addr = 0002:00010BFC,  type = 41
+        13C2: MODULE_386
+          "itemDownForceFront" addr = 0002:000109B5,  type = 41
+        13DD: MODULE_386
+          "itemDone12" addr = 0002:000108AF,  type = 41
+        13F0: MODULE_386
+          "itemTrack" addr = 0002:000108FE,  type = 41
+        1402: MODULE_386
+          "itemDone9" addr = 0002:00010A1A,  type = 41
+        1414: MODULE_386
+          "itemDone2" addr = 0002:0001094A,  type = 41
+        1426: MODULE_386
+          "itemSteeringSens" addr = 0002:0001099C,  type = 41
+        143F: MODULE_386
+          "itemLaps" addr = 0002:00010917,  type = 41
+        1450: MODULE_386
+          "itemGearRatios" addr = 0002:000109F8,  type = 41
+        1467: MODULE_386
+          "itemTrackRecords" addr = 0002:00010939,  type = 41
+        1480: MODULE_386
+          "itemClearRecords" addr = 0002:0001089E,  type = 41
+        1499: MODULE_386
+          "itemTrackInfo" addr = 0002:00010928,  type = 41
+        14AF: MODULE_386
+          "itemDownForceRear" addr = 0002:000109C6,  type = 41
+        14C9: MODULE_386
+          "itemDefault" addr = 0002:00010A09,  type = 41
+        14DD: MODULE_386
+          "itemLaps1" addr = 0002:0001088D,  type = 41
+        14EF: MODULE_386
+          "itemCancel2" addr = 0002:0001095B,  type = 41
+        1503: MODULE_386
+          "itemCancel9" addr = 0002:00010A2B,  type = 41
+        1517: MODULE_386
+          "itemBrakeBias" addr = 0002:000109DF,  type = 41
+        152D: MODULE_386
+          "itemNextTrack0" addr = 0002:00010842,  type = 41
+        1544: MODULE_386
+          "itemAnswer2" addr = 0002:000106B6,  type = 41
+        1558: MODULE_386
+          "itemNetwork2" addr = 0002:00010715,  type = 41
+        156D: MODULE_386
+          "itemNumber2" addr = 0002:00010694,  type = 41
+        1581: MODULE_386
+          "itemTitleModem" addr = 0002:000106D8,  type = 41
+        1598: MODULE_386
+          "itemTitleNetwork" addr = 0002:00010759,  type = 41
+        15B1: MODULE_386
+          "itemDone11" addr = 0002:00010853,  type = 41
+        15C4: MODULE_386
+          "itemDial2" addr = 0002:000106A5,  type = 41
+        15D6: MODULE_386
+          "itemGameMode" addr = 0002:0001079A,  type = 41
+        15EB: MODULE_386
+          "itemDone1" addr = 0002:000107F8,  type = 41
+        15FD: MODULE_386
+          "itemCreateGame" addr = 0002:00010726,  type = 41
+        1614: MODULE_386
+          "itemCancel6a" addr = 0002:00010748,  type = 41
+        1629: MODULE_386
+          "itemCancel5a" addr = 0002:000106C7,  type = 41
+        163E: MODULE_386
+          "itemDeleteNumber" addr = 0002:00010683,  type = 41
+        1657: MODULE_386
+          "itemJoinGame" addr = 0002:00010737,  type = 41
+        166C: MODULE_386
+          "itemCancel1" addr = 0002:00010809,  type = 41
+        1680: MODULE_386
+          "itemCatchup" addr = 0002:000107E7,  type = 41
+        1694: MODULE_386
+          "itemRaceType" addr = 0002:000107B3,  type = 41
+        16A9: MODULE_386
+          "itemNextTrack1" addr = 0002:0001087C,  type = 41
+        16C0: MODULE_386
+          "itemDial" addr = 0002:0001061F,  type = 41
+        16D1: MODULE_386
+          "itemComPort" addr = 0002:0001060E,  type = 41
+        16E5: MODULE_386
+          "itemShow5" addr = 0002:00010C95,  type = 41
+        16F7: MODULE_386
+          "itemShow6" addr = 0002:00010CA6,  type = 41
+        1709: MODULE_386
+          "itemShow7" addr = 0002:00010CB7,  type = 41
+        171B: MODULE_386
+          "itemShow14" addr = 0002:00010D2E,  type = 41
+        172E: MODULE_386
+          "itemShow10" addr = 0002:00010CEA,  type = 41
+        1741: MODULE_386
+          "itemShow11" addr = 0002:00010CFB,  type = 41
+        1754: MODULE_386
+          "itemShow12" addr = 0002:00010D0C,  type = 41
+        1767: MODULE_386
+          "itemShow13" addr = 0002:00010D1D,  type = 41
+        177A: MODULE_386
+          "itemTitleSerialLink" addr = 0002:00010641,  type = 41
+        1796: MODULE_386
+          "itemModemType" addr = 0002:00010672,  type = 41
+        17AC: MODULE_386
+          "itemCancel4" addr = 0002:00010630,  type = 41
+        17C0: MODULE_386
+          "itemShow8" addr = 0002:00010CC8,  type = 41
+        17D2: MODULE_386
+          "itemShow9" addr = 0002:00010CD9,  type = 41
+        17E4: MODULE_386
+          "itemShow0" addr = 0002:00010C40,  type = 41
+        17F6: MODULE_386
+          "itemShow1" addr = 0002:00010C51,  type = 41
+        1808: MODULE_386
+          "itemShow2" addr = 0002:00010C62,  type = 41
+        181A: MODULE_386
+          "itemShow3" addr = 0002:00010C73,  type = 41
+        182C: MODULE_386
+          "itemShow4" addr = 0002:00010C84,  type = 41
+        183E: MODULE_386
+          "itemStyle" addr = 0002:000107CA,  type = 41
+

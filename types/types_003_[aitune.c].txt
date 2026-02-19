@@ -1,0 +1,136 @@
+  3) Name:   C:\nfs2\game\common\aitune.c
+     Language is C
+     Locals: num = 1, offset = 0000001EH
+     Types:  num = 1, offset = 000001BAH
+     Lines:  num = 0, offset = 00000000H
+
+    *** Types ***
+    =============
+      Data 0:  offset 0002ED3C
+        0000: cue table offset=00000245
+        0006: SCOPE(1)
+          "struct"
+        000E: SCOPE(2)
+          "union"
+        0015: SCOPE(3)
+          "enum"
+        001B: SCALAR(4)
+          "char"  scalar type = 10, unsigned
+        0022: SCALAR(5)
+          "signed char"  scalar type = 00, integer
+        0030: SCALAR(6)
+          "unsigned char"  scalar type = 10, unsigned
+        0040: SCALAR(7)
+          "short"  scalar type = 01, integer
+        0048: SCALAR(8)
+          "unsigned short"  scalar type = 11, unsigned
+        0059: SCALAR(9)
+          "int"  scalar type = 03, integer
+        005F: SCALAR(10)
+          "unsigned int"  scalar type = 13, unsigned
+        006E: NAME(11)
+          "wchar_t"  type idx = 8  scope idx = 0
+        0079: NAME(12)
+          "size_t"  type idx = 10  scope idx = 0
+        0083: NEAR386 PTR(13)
+          base type idx = 4
+        0086: BYTE_INDEX ARRAY(14)
+          high bound = 00   base type idx = 13
+        008A: NAME(15)
+          "__va_list"  type idx = 14  scope idx = 0
+        0097: SCALAR(16)
+          "long"  scalar type = 03, integer
+        009E: NAME(17)
+          "fpos_t"  type idx = 16  scope idx = 0
+        00A8: NAME(18)
+          "fpos_t"  type idx = 16  scope idx = 0
+        00B2: BYTE_INDEX ARRAY(19)
+          high bound = 00   base type idx = 13
+        00B6: NAME(20)
+          "va_list"  type idx = 19  scope idx = 0
+        00C1: NAME(21)
+          "MEMBLOCK"  type idx = 13  scope idx = 0
+        00CD: SCALAR(22)
+          "void"  scalar type = 30, void
+        00D4: NEAR386 PROC(23)
+          return type = 22
+            param 1:  type idx = 22
+        00D9: NEAR386 PTR(24)
+          base type idx = 23
+        00DC: NAME(25)
+          "VOIDFN"  type idx = 24  scope idx = 0
+        00E6: NEAR386 PROC(26)
+          return type = 9
+            param 1:  type idx = 22
+        00EB: NAME(27)
+          "INTFN"  type idx = 26  scope idx = 0
+        00F4: NAME(28)
+          "MVI"  type idx = 22  scope idx = 0
+        00FB: NEAR386 PROC(29)
+          return type = 9
+            param 1:  type idx = 9
+            param 2:  type idx = 9
+        0101: NAME(30)
+          "EACHOOKCALLBACKFUNC"  type idx = 29  scope idx = 0
+        0118: NAME(31)
+          "arg_t"  type idx = 9  scope idx = 0
+        0121: NEAR386 PROC(32)
+          return type = 22
+            param 1:  type idx = 22
+        0126: NAME(33)
+          "THREADPROC"  type idx = 32  scope idx = 0
+        0134: NAME(34)
+          "SYSTEMTASK"  type idx = 29  scope idx = 0
+        0142: NAME(35)
+          "boolean"  type idx = 9  scope idx = 0
+        014D: NAME(36)
+          "fixed88"  type idx = 9  scope idx = 0
+        0158: NAME(37)
+          "fixed824"  type idx = 9  scope idx = 0
+        0164: NAME(38)
+          "fixed248"  type idx = 9  scope idx = 0
+        0170: FIELD_LIST(39)
+          number of fields = 0004   size = 00000010
+        0178: FIELD_BYTE
+          "driveSide"  offset = 0C  type idx = 9
+        0185: FIELD_BYTE
+          "oneWay"  offset = 08  type idx = 9
+        018F: FIELD_BYTE
+          "lifeTimerValue"  offset = 04  type idx = 9
+        01A1: FIELD_BYTE
+          "maxTrafficOnTrack"  offset = 00  type idx = 9
+        01B6: NAME(40)
+          "AI_tTrackInfo"  type idx = 39  scope idx = 1
+        01C7: NAME(41)
+          "AI_tTrackInfo"  type idx = 40  scope idx = 0
+        01D8: BYTE_INDEX ARRAY(42)
+          high bound = 09   base type idx = 41
+        01DC: BYTE_INDEX ARRAY(43)
+          high bound = 03   base type idx = 9
+        01E0: BYTE_INDEX ARRAY(44)
+          high bound = 02   base type idx = 43
+        01E4: FIELD_LIST(45)
+          number of fields = 0003   size = 0000000C
+        01EC: FIELD_BYTE
+          "startSlice"  offset = 08  type idx = 9
+        01FA: FIELD_BYTE
+          "arcade"  offset = 04  type idx = 9
+        0204: FIELD_BYTE
+          "sim"  offset = 00  type idx = 9
+        020B: NAME(46)
+          "speedscale_t"  type idx = 45  scope idx = 1
+        021B: NAME(47)
+          "speedscale_t"  type idx = 46  scope idx = 0
+        022B: BYTE_INDEX ARRAY(48)
+          high bound = 09   base type idx = 47
+        022F: BYTE_INDEX ARRAY(49)
+          high bound = 01   base type idx = 9
+        0233: BYTE_INDEX ARRAY(50)
+          high bound = 0D   base type idx = 49
+        0237: BYTE_INDEX ARRAY(51)
+          high bound = 01   base type idx = 9
+        023B: BYTE_INDEX ARRAY(52)
+          high bound = 0D   base type idx = 51
+        023F: BYTE_INDEX ARRAY(53)
+          high bound = 08   base type idx = 47
+        0243: 

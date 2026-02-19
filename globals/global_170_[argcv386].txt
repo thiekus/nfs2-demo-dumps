@@ -1,0 +1,16 @@
+  Name:  __argc
+    address      = 0002:0001355C
+    module index = 170
+    kind:          (data)
+  Name:  ___argc
+    address      = 0002:0001355C
+    module index = 170
+    kind:          (data)
+  Name:  __argv
+    address      = 0002:00013560
+    module index = 170
+    kind:          (data)
+  Name:  ___argv
+    address      = 0002:00013560
+    module index = 170
+    kind:          (data)

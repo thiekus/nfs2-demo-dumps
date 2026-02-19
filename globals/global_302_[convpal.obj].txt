@@ -1,0 +1,24 @@
+  Name:  _vgatopal
+    address      = 0001:000A43C0
+    module index = 302
+    kind:          (code)
+  Name:  _vgatotga
+    address      = 0001:000A4434
+    module index = 302
+    kind:          (code)
+  Name:  _paltovga
+    address      = 0001:000A44C0
+    module index = 302
+    kind:          (code)
+  Name:  _paltotga
+    address      = 0001:000A4534
+    module index = 302
+    kind:          (code)
+  Name:  _tgatovga
+    address      = 0001:000A458C
+    module index = 302
+    kind:          (code)
+  Name:  _tgatopal
+    address      = 0001:000A4600
+    module index = 302
+    kind:          (code)

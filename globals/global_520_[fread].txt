@@ -1,0 +1,4 @@
+  Name:  fread_
+    address      = 0001:000C1E39
+    module index = 520
+    kind:          (code)

@@ -1,0 +1,4 @@
+  Name:  _fixedatan
+    address      = 0001:00083A30
+    module index = 139
+    kind:          (code)

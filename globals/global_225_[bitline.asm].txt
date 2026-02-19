@@ -1,0 +1,60 @@
+  Name:  _shadxbitline
+    address      = 0001:00095FA3
+    module index = 225
+    kind:          (code)
+  Name:  _shadbitline
+    address      = 0001:00095F5B
+    module index = 225
+    kind:          (code)
+  Name:  _lutbitline
+    address      = 0001:00095FF1
+    module index = 225
+    kind:          (code)
+  Name:  _bitline
+    address      = 0001:00096069
+    module index = 225
+    kind:          (code)
+  Name:  _xbitline
+    address      = 0001:00095F1B
+    module index = 225
+    kind:          (code)
+  Name:  _transbitline
+    address      = 0001:00095DA2
+    module index = 225
+    kind:          (code)
+  Name:  _setbitlinelut
+    address      = 0001:00095D95
+    module index = 225
+    kind:          (code)
+  Name:  _transxbitline
+    address      = 0001:00095E79
+    module index = 225
+    kind:          (code)
+  Name:  _setbitline
+    address      = 0001:00095D80
+    module index = 225
+    kind:          (code)
+  Name:  _luttbl
+    address      = 0002:00013AA4
+    module index = 225
+    kind:          (data)
+  Name:  _bitline8to16
+    address      = 0001:000961F5
+    module index = 225
+    kind:          (code)
+  Name:  _sbitline8to16
+    address      = 0001:00096293
+    module index = 225
+    kind:          (code)
+  Name:  _tbitline8to16
+    address      = 0001:00096243
+    module index = 225
+    kind:          (code)
+  Name:  _bit2line
+    address      = 0001:00096337
+    module index = 225
+    kind:          (code)
+  Name:  _bit3line
+    address      = 0001:00096611
+    module index = 225
+    kind:          (code)

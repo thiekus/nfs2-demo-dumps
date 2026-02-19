@@ -1,0 +1,133 @@
+ 56) Name:   C:\nfs2\frontend\pc\chat.c
+     Language is C
+     Locals: num = 1, offset = 000000F2H
+     Types:  num = 1, offset = 0000028EH
+     Lines:  num = 1, offset = 0000041AH
+
+   *** Locals ***
+   ==============
+      Data 0:  offset 00015E2F
+        0000: MODULE_386
+          "kYCoords_8P_Sim" addr = 0001:0004A185,  type = 39
+        0018: MODULE_386
+          "kYCoords_8P" addr = 0001:0004A165,  type = 40
+        002C: SET_BASE_386
+          base = 0001:0004A1A5
+        0034: BLOCK_386
+          start off = 00000030, code size = 00000052, parent off = 0046
+        0040: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "i",  type = 9
+        0046: NEAR_RTN_386
+          start off = 00000000, code size = 000000AA, parent off = 0000
+          prologue size = 12,  epilogue size = 7
+          return address offset (from bp) = 00000010
+          return type:  61
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Name = "Chat_ReceiveMessage_CALLBACK"
+        007D: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "PktConn",  type = 60
+        0089: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "data",  type = 18
+        0092: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "len",  type = 10
+        009A: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "pkt",  type = 65
+        00A2: NEAR_RTN_386
+          start off = 000000AA, code size = 0000009A, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  27
+          return value: <none>
+          Name = "Chat_OpenHailingFrequency"
+        00D0: LOCAL
+          address: BP_OFFSET_BYTE( E0 )
+          name = "info",  type = 67
+        00D9: NEAR_RTN_386
+          start off = 00000144, code size = 0000001A, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  27
+          return value: <none>
+          Name = "Chat_CloseHailingFrequency"
+        0108: BLOCK_386
+          start off = 000001A4, code size = 0000020A, parent off = 0123
+        0114: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "j",  type = 9
+        011A: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "text",  type = 72
+        0123: NEAR_RTN_386
+          start off = 0000015E, code size = 0000025E, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  73
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Chat_Display"
+        0146: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "inSim",  type = 9
+        0150: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "i",  type = 9
+        0156: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "numWins",  type = 9
+        0162: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "z",  type = 9
+        0168: BLOCK_386
+          start off = 000005E0, code size = 00000020, parent off = 017C
+        0174: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "pkt",  type = 64
+        017C: NEAR_RTN_386
+          start off = 000003BC, code size = 00000256, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  74
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Name = "Chat_AcceptInput"
+        01A6: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "c",  type = 9
+        01AC: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "inSim",  type = 9
+        01B6: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "staticIndex",  type = 7
+        01C6: NEAR_RTN_386
+          start off = 00000612, code size = 0000001A, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  27
+          return value: <none>
+          Name = "Chat_Clear"
+        01E5: NEAR_RTN_386
+          start off = 0000062C, code size = 00000076, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  74
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Name = "Chat_UpdateBuffers"
+        0211: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "pIndex",  type = 9
+        021C: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "c",  type = 9
+

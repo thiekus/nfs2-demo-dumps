@@ -1,0 +1,4 @@
+  Name:  _uvdecodeblock
+    address      = 0001:0009EB16
+    module index = 261
+    kind:          (code)

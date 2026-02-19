@@ -1,0 +1,4 @@
+  Name:  _copyftom8u
+    address      = 0001:000BE1C0
+    module index = 458
+    kind:          (code)

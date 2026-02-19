@@ -1,0 +1,88 @@
+  Name:  _gPixmap
+    address      = 0002:0004FC34
+    module index = 80
+    kind:          (static pubdef) (data)
+  Name:  Texture_LoadPmx_
+    address      = 0001:00060B37
+    module index = 80
+    kind:          (code)
+  Name:  Texture_CloneRemapPmx_
+    address      = 0001:00060BA7
+    module index = 80
+    kind:          (code)
+  Name:  Texture_CloneUVPmx_
+    address      = 0001:00060BDC
+    module index = 80
+    kind:          (code)
+  Name:  Texture_CarCloneUVPmx_
+    address      = 0001:00060DAF
+    module index = 80
+    kind:          (code)
+  Name:  Texture_RegisterModule_
+    address      = 0001:00060F00
+    module index = 80
+    kind:          (code)
+  Name:  Texture_LoadDebugTextures_
+    address      = 0001:00060F62
+    module index = 80
+    kind:          (code)
+  Name:  Texture_KillDebugTextures_
+    address      = 0001:0006112C
+    module index = 80
+    kind:          (code)
+  Name:  Texture_RegisterShapeFile_
+    address      = 0001:0006114F
+    module index = 80
+    kind:          (code)
+  Name:  Texture_RegisterColoredShapeFile_
+    address      = 0001:0006117F
+    module index = 80
+    kind:          (code)
+  Name:  Texture_ProcessPalette_
+    address      = 0001:000611B3
+    module index = 80
+    kind:          (code)
+  Name:  Texture_InitTrackTexture_
+    address      = 0001:000611EB
+    module index = 80
+    kind:          (code)
+  Name:  Texture_InitTrackTexturePostSim_
+    address      = 0001:0006120A
+    module index = 80
+    kind:          (code)
+  Name:  Texture_KillTrackTexture_
+    address      = 0001:00061233
+    module index = 80
+    kind:          (code)
+  Name:  _gDLPixmap
+    address      = 0002:0004FD0C
+    module index = 80
+    kind:          (data)
+  Name:  _gSkidmarkPixmap
+    address      = 0002:0004FD2C
+    module index = 80
+    kind:          (data)
+  Name:  _Texture_gRemapID
+    address      = 0002:0004FD3C
+    module index = 80
+    kind:          (data)
+  Name:  _Texture_gBackgroundShape
+    address      = 0002:0004FD40
+    module index = 80
+    kind:          (data)
+  Name:  _gDebugShapeFile
+    address      = 0002:0004FD44
+    module index = 80
+    kind:          (data)
+  Name:  _gShadowPixmap
+    address      = 0002:0004FD48
+    module index = 80
+    kind:          (data)
+  Name:  _gDPixmap
+    address      = 0002:0004FD4C
+    module index = 80
+    kind:          (data)
+  Name:  _gStartUpPixmap
+    address      = 0002:0004FD50
+    module index = 80
+    kind:          (data)

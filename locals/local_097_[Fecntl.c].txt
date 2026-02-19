@@ -1,0 +1,348 @@
+ 97) Name:   C:\nfs2\frontend\common\Fecntl.c
+     Language is C
+     Locals: num = 1, offset = 00000196H
+     Types:  num = 1, offset = 00000332H
+     Lines:  num = 1, offset = 000004B6H
+
+   *** Locals ***
+   ==============
+      Data 0:  offset 000263AC
+        0000: MODULE_386
+          "keyList" addr = 0002:00012884,  type = 63
+        0010: MODULE_386
+          "keyListSplit" addr = 0002:00012834,  type = 64
+        0025: MODULE_386
+          "gAxisBeginingState" addr = 0002:00050B7C,  type = 66
+        0040: SET_BASE_386
+          base = 0001:000786B9
+        0048: NEAR_RTN_386
+          start off = 00000000, code size = 00000032, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  69
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Name = "FeCntl_BuildControl"
+        0075: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "device",  type = 67
+        0080: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "value",  type = 9
+        008A: NEAR_RTN_386
+          start off = 00000032, code size = 00000028, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  70
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Name = "FeCntl_GetDevice"
+        00B2: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "control",  type = 9
+        00BE: NEAR_RTN_386
+          start off = 0000005A, code size = 00000026, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  70
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Name = "FeCntl_GetParameter"
+        00E9: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "param",  type = 9
+        00F3: NEAR_RTN_386
+          start off = 00000080, code size = 00000161, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  71
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Name = "ConvertToString"
+        011B: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "code",  type = 9
+        0124: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "string",  type = 13
+        012F: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "i",  type = 9
+        0135: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "scan",  type = 9
+        013E: NEAR_RTN_386
+          start off = 000001E1, code size = 000004D2, parent off = 0000
+          prologue size = 11,  epilogue size = 6
+          return address offset (from bp) = 0000000C
+          return type:  83
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Parm 3: MULTI_REG(1): ECX
+          Name = "FeCntl_ShowControl"
+        016D: LOCAL
+          address: BP_OFFSET_BYTE( C8 )
+          name = "cur",  type = 82
+        0175: LOCAL
+          address: BP_OFFSET_BYTE( D8 )
+          name = "x",  type = 9
+        017B: LOCAL
+          address: BP_OFFSET_BYTE( DC )
+          name = "y",  type = 9
+        0181: LOCAL
+          address: BP_OFFSET_BYTE( CC )
+          name = "highlight",  type = 9
+        018F: LOCAL
+          address: BP_OFFSET_BYTE( D0 )
+          name = "control",  type = 9
+        019B: LOCAL
+          address: BP_OFFSET_BYTE( D4 )
+          name = "color",  type = 9
+        01A5: LOCAL
+          address: BP_OFFSET_BYTE( C0 )
+          name = "colors",  type = 84
+        01B0: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "size",  type = 9
+        01B9: LOCAL
+          address: BP_OFFSET_BYTE( E0 )
+          name = "param",  type = 9
+        01C3: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "x2",  type = 9
+        01CA: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "c",  type = 9
+        01D0: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "i",  type = 9
+        01D6: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "xstart",  type = 9
+        01E1: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "pix80",  type = 9
+        01EB: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "pix10",  type = 9
+        01F5: LOCAL
+          address: BP_OFFSET_WORD( 0070 )
+          name = "string",  type = 85
+        0201: NEAR_RTN_386
+          start off = 000006B3, code size = 00000327, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  86
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Name = "ResolveConflict"
+        0229: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "c",  type = 9
+        022F: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "menu",  type = 79
+        0238: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "i",  type = 9
+        023E: NEAR_RTN_386
+          start off = 000009DA, code size = 00000092, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  87
+          return value: MULTI_REG(1): EAX
+          Name = "AllControlsDefined"
+        0266: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "i",  type = 9
+        026C: BLOCK_386
+          start off = 00000BE4, code size = 0000002C, parent off = 02B0
+        0278: LOCAL
+          address: BP_OFFSET_BYTE( D4 )
+          name = "loDead",  type = 9
+        0283: LOCAL
+          address: BP_OFFSET_BYTE( D8 )
+          name = "hiDead",  type = 9
+        028E: BLOCK_386
+          start off = 00000C8C, code size = 0000002C, parent off = 02B0
+        029A: LOCAL
+          address: BP_OFFSET_BYTE( CC )
+          name = "loDead",  type = 9
+        02A5: LOCAL
+          address: BP_OFFSET_BYTE( D0 )
+          name = "hiDead",  type = 9
+        02B0: BLOCK_386
+          start off = 00000B75, code size = 0000019B, parent off = 02C9
+        02BC: LOCAL
+          address: BP_OFFSET_BYTE( DC )
+          name = "movement",  type = 9
+        02C9: NEAR_RTN_386
+          start off = 00000A6C, code size = 000002C0, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  88
+          return value: MULTI_REG(1): EAX
+          Name = "FeCntl_EnterControl_Joystick"
+        02FB: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "newControl",  type = 9
+        030A: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "mask",  type = 9
+        0313: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "a",  type = 9
+        0319: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "c",  type = 9
+        031F: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "i",  type = 9
+        0325: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "j",  type = 9
+        032B: BLOCK_386
+          start off = 00000E08, code size = 00000133, parent off = 0340
+        0337: LOCAL
+          address: BP_OFFSET_BYTE( B0 )
+          name = "axis",  type = 89
+        0340: NEAR_RTN_386
+          start off = 00000D2C, code size = 0000041A, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  90
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Name = "FeCntl_EnterControl"
+        036D: LOCAL
+          address: BP_OFFSET_BYTE( C8 )
+          name = "menu",  type = 79
+        0376: LOCAL
+          address: BP_OFFSET_BYTE( CC )
+          name = "cur",  type = 82
+        037E: LOCAL
+          address: BP_OFFSET_BYTE( D0 )
+          name = "control",  type = 9
+        038A: LOCAL
+          address: BP_OFFSET_BYTE( D4 )
+          name = "retval",  type = 9
+        0395: LOCAL
+          address: BP_OFFSET_BYTE( D8 )
+          name = "newControl",  type = 9
+        03A4: LOCAL
+          address: BP_OFFSET_BYTE( DC )
+          name = "x",  type = 9
+        03AA: LOCAL
+          address: BP_OFFSET_BYTE( E0 )
+          name = "c",  type = 9
+        03B0: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "scan",  type = 9
+        03B9: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "i",  type = 9
+        03BF: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "j",  type = 9
+        03C5: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "noexit",  type = 9
+        03D0: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "player",  type = 9
+        03DB: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "mask",  type = 9
+        03E4: NEAR_RTN_386
+          start off = 00001146, code size = 00000558, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  91
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Name = "FeCntl_Calibrate"
+        040C: LOCAL
+          address: BP_OFFSET_BYTE( D4 )
+          name = "menu",  type = 79
+        0415: LOCAL
+          address: BP_OFFSET_BYTE( D8 )
+          name = "axisNum",  type = 9
+        0421: LOCAL
+          address: BP_OFFSET_BYTE( CC )
+          name = "j",  type = 9
+        0427: LOCAL
+          address: BP_OFFSET_BYTE( D0 )
+          name = "a",  type = 9
+        042D: LOCAL
+          address: BP_OFFSET_WORD( 006C )
+          name = "joystick",  type = 92
+        043B: LOCAL
+          address: BP_OFFSET_BYTE( 9C )
+          name = "axis",  type = 93
+        0444: LOCAL
+          address: BP_OFFSET_BYTE( DC )
+          name = "param",  type = 9
+        044E: LOCAL
+          address: BP_OFFSET_BYTE( E0 )
+          name = "joyVal",  type = 9
+        0459: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "i",  type = 9
+        045F: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "newControl",  type = 9
+        046E: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "result",  type = 9
+        0479: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "update",  type = 7
+        0484: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "keyVal",  type = 7
+        048F: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "ticksTotal",  type = 16
+        049E: NEAR_RTN_386
+          start off = 0000169E, code size = 00000156, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  94
+          return value: <none>
+          Name = "FeCntl_SetRamp"
+        04C1: NEAR_RTN_386
+          start off = 000017F4, code size = 0000021A, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  91
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Name = "FeCntl_ControlRemap2"
+        04ED: LOCAL
+          address: BP_OFFSET_BYTE( E0 )
+          name = "menu",  type = 79
+        04F6: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "result",  type = 9
+        0501: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "update",  type = 7
+        050C: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "keyVal",  type = 7
+        0517: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "ticksDebounce",  type = 16
+        0529: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "ticksTotal",  type = 16
+        0538: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "prevPlayer",  type = 16
+

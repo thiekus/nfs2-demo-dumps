@@ -1,0 +1,40 @@
+  Name:  serial_connect_
+    address      = 0001:00089A70
+    module index = 184
+    kind:          (static pubdef) (code)
+  Name:  serial_disconnect_
+    address      = 0001:00089B08
+    module index = 184
+    kind:          (static pubdef) (code)
+  Name:  serial_verify_
+    address      = 0001:00089B18
+    module index = 184
+    kind:          (static pubdef) (code)
+  Name:  serial_capacity_
+    address      = 0001:00089B44
+    module index = 184
+    kind:          (static pubdef) (code)
+  Name:  serial_available_
+    address      = 0001:00089B58
+    module index = 184
+    kind:          (static pubdef) (code)
+  Name:  serial_read_
+    address      = 0001:00089B6C
+    module index = 184
+    kind:          (static pubdef) (code)
+  Name:  serial_write_
+    address      = 0001:00089B88
+    module index = 184
+    kind:          (static pubdef) (code)
+  Name:  _openserialconnection
+    address      = 0001:00089B9C
+    module index = 184
+    kind:          (code)
+  Name:  _serfunctbl
+    address      = 0002:000135FC
+    module index = 184
+    kind:          (static pubdef) (data)
+  Name:  _serial_recvnotify
+    address      = 0002:00051808
+    module index = 184
+    kind:          (static pubdef) (data)

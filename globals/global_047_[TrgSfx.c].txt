@@ -1,0 +1,52 @@
+  Name:  TrgSfx_AddCarSfx_
+    address      = 0001:00044EF8
+    module index = 47
+    kind:          (code)
+  Name:  TrgSfx_CrashCar_
+    address      = 0001:00044FBD
+    module index = 47
+    kind:          (code)
+  Name:  TrgSfx_SubdividSkidmark_
+    address      = 0001:00045032
+    module index = 47
+    kind:          (code)
+  Name:  TrgSfx_AddSkidmark_
+    address      = 0001:000450FD
+    module index = 47
+    kind:          (code)
+  Name:  TrgSfx_InitTrgSfx_
+    address      = 0001:0004528B
+    module index = 47
+    kind:          (code)
+  Name:  TrgSfx_RestartTrgSfx_
+    address      = 0001:00045332
+    module index = 47
+    kind:          (code)
+  Name:  TrgSfx_KillTrgSfx_
+    address      = 0001:00045351
+    module index = 47
+    kind:          (code)
+  Name:  _gPrevPosSm
+    address      = 0002:00045B80
+    module index = 47
+    kind:          (data)
+  Name:  _gTAddSm
+    address      = 0002:00045E80
+    module index = 47
+    kind:          (data)
+  Name:  _gTAddCarSfx
+    address      = 0002:00045F80
+    module index = 47
+    kind:          (data)
+  Name:  _gStatusSm
+    address      = 0002:00046080
+    module index = 47
+    kind:          (data)
+  Name:  _gTAddCSmoke
+    address      = 0002:00046180
+    module index = 47
+    kind:          (data)
+  Name:  _gTAddTSmoke
+    address      = 0002:00046184
+    module index = 47
+    kind:          (data)

@@ -1,0 +1,4 @@
+  Name:  randrange_
+    address      = 0001:000BB830
+    module index = 424
+    kind:          (code)

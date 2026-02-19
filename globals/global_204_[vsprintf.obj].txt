@@ -1,0 +1,8 @@
+  Name:  _vsprintfb
+    address      = 0001:0008FB80
+    module index = 204
+    kind:          (code)
+  Name:  _sprintfb
+    address      = 0001:000903DC
+    module index = 204
+    kind:          (code)

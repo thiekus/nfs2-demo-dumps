@@ -1,0 +1,200 @@
+  Name:  _JAtt
+    address      = 0002:00053430
+    module index = 228
+    kind:          (static pubdef) (data)
+  Name:  _gMemName
+    address      = 0002:00053434
+    module index = 228
+    kind:          (data)
+  Name:  _JSeg
+    address      = 0002:00053438
+    module index = 228
+    kind:          (static pubdef) (data)
+  Name:  _pagestart
+    address      = 0002:0005343C
+    module index = 228
+    kind:          (data)
+  Name:  _pMemMan
+    address      = 0002:00053440
+    module index = 228
+    kind:          (data)
+  Name:  _JLineColour
+    address      = 0002:00053444
+    module index = 228
+    kind:          (static pubdef) (data)
+  Name:  _iCurrent
+    address      = 0002:00053448
+    module index = 228
+    kind:          (data)
+  Name:  _mDumpFile
+    address      = 0002:0005344C
+    module index = 228
+    kind:          (data)
+  Name:  _JSegSeq
+    address      = 0002:00053450
+    module index = 228
+    kind:          (static pubdef) (data)
+  Name:  _JSegFlags
+    address      = 0002:00053454
+    module index = 228
+    kind:          (static pubdef) (data)
+  Name:  _gMemBlock
+    address      = 0002:00053458
+    module index = 228
+    kind:          (data)
+  Name:  _MONO_LINES
+    address      = 0002:00013B28
+    module index = 228
+    kind:          (data)
+  Name:  _STARS
+    address      = 0002:00013B2C
+    module index = 228
+    kind:          (static pubdef) (data)
+  Name:  memdspflushwindow_
+    address      = 0001:00097790
+    module index = 228
+    kind:          (static pubdef) (code)
+  Name:  memdsptestkey_
+    address      = 0001:000977B8
+    module index = 228
+    kind:          (static pubdef) (code)
+  Name:  memdspinkey_
+    address      = 0001:000977F8
+    module index = 228
+    kind:          (static pubdef) (code)
+  Name:  memdspclearwindow_
+    address      = 0001:0009783C
+    module index = 228
+    kind:          (static pubdef) (code)
+  Name:  GetFirstBlock_
+    address      = 0001:0009786C
+    module index = 228
+    kind:          (static pubdef) (code)
+  Name:  MemDspShapeCheck_
+    address      = 0001:00097888
+    module index = 228
+    kind:          (static pubdef) (code)
+  Name:  GetShapeFileHeaderInfo_
+    address      = 0001:00097B58
+    module index = 228
+    kind:          (static pubdef) (code)
+  Name:  MemDspShapeDump_
+    address      = 0001:00097B88
+    module index = 228
+    kind:          (static pubdef) (code)
+  Name:  MemDspShape_
+    address      = 0001:00097E70
+    module index = 228
+    kind:          (static pubdef) (code)
+  Name:  getnummemblocks_
+    address      = 0001:00098348
+    module index = 228
+    kind:          (static pubdef) (code)
+  Name:  CalcMemFigures_
+    address      = 0001:00098378
+    module index = 228
+    kind:          (static pubdef) (code)
+  Name:  GetModData_
+    address      = 0001:000983E0
+    module index = 228
+    kind:          (static pubdef) (code)
+  Name:  MemDspFmt_
+    address      = 0001:000984B4
+    module index = 228
+    kind:          (static pubdef) (code)
+  Name:  MemDspFlagInterpret_
+    address      = 0001:000984C4
+    module index = 228
+    kind:          (static pubdef) (code)
+  Name:  MemDspHexDisplay_
+    address      = 0001:00098A2C
+    module index = 228
+    kind:          (static pubdef) (code)
+  Name:  MemDspHexMap_
+    address      = 0001:00098DFC
+    module index = 228
+    kind:          (static pubdef) (code)
+  Name:  _memsizedump
+    address      = 0001:00098F7C
+    module index = 228
+    kind:          (code)
+  Name:  MemDspDump_
+    address      = 0001:00099074
+    module index = 228
+    kind:          (static pubdef) (code)
+  Name:  MemDspPalette_
+    address      = 0001:00099114
+    module index = 228
+    kind:          (static pubdef) (code)
+  Name:  MemPalHeadings_
+    address      = 0001:000997CC
+    module index = 228
+    kind:          (static pubdef) (code)
+  Name:  MemDspWindow_
+    address      = 0001:00099858
+    module index = 228
+    kind:          (static pubdef) (code)
+  Name:  MemDspHelp_
+    address      = 0001:00099954
+    module index = 228
+    kind:          (static pubdef) (code)
+  Name:  MemDspTimeStamp_
+    address      = 0001:00099EAC
+    module index = 228
+    kind:          (static pubdef) (code)
+  Name:  MemDspWildCardFile_
+    address      = 0001:00099EB0
+    module index = 228
+    kind:          (static pubdef) (code)
+  Name:  JChk_
+    address      = 0001:00099F2C
+    module index = 228
+    kind:          (static pubdef) (code)
+  Name:  FormatFlags_
+    address      = 0001:00099FBC
+    module index = 228
+    kind:          (code)
+  Name:  DrawMemMap_
+    address      = 0001:0009A064
+    module index = 228
+    kind:          (static pubdef) (code)
+  Name:  SetHeight_
+    address      = 0001:0009A7F4
+    module index = 228
+    kind:          (static pubdef) (code)
+  Name:  NextClass_
+    address      = 0001:0009A820
+    module index = 228
+    kind:          (static pubdef) (code)
+  Name:  _memsizedisplay
+    address      = 0001:0009AC9C
+    module index = 228
+    kind:          (code)
+  Name:  _monomemsizedisplay
+    address      = 0001:0009ACA4
+    module index = 228
+    kind:          (code)
+  Name:  MemSizeDisplayX_
+    address      = 0001:0009ACB4
+    module index = 228
+    kind:          (static pubdef) (code)
+  Name:  _hexmemdsp
+    address      = 0002:00013B30
+    module index = 228
+    kind:          (data)
+  Name:  _monomemdsp
+    address      = 0002:00013B34
+    module index = 228
+    kind:          (data)
+  Name:  _classdsp
+    address      = 0002:00013B38
+    module index = 228
+    kind:          (data)
+  Name:  _CurXOR
+    address      = 0002:00013B3C
+    module index = 228
+    kind:          (data)
+  Name:  _JSegSize
+    address      = 0002:0005345C
+    module index = 228
+    kind:          (static pubdef) (data)

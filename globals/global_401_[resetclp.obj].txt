@@ -1,0 +1,4 @@
+  Name:  _resetclip
+    address      = 0001:000B9D40
+    module index = 401
+    kind:          (code)

@@ -1,0 +1,24 @@
+  Name:  savescreen_
+    address      = 0001:000B9530
+    module index = 396
+    kind:          (static pubdef) (code)
+  Name:  restorescreen_
+    address      = 0001:000B9550
+    module index = 396
+    kind:          (static pubdef) (code)
+  Name:  okay_
+    address      = 0001:000B9574
+    module index = 396
+    kind:          (static pubdef) (code)
+  Name:  _dosexit
+    address      = 0001:000B981C
+    module index = 396
+    kind:          (code)
+  Name:  _timedmessage
+    address      = 0001:000B989C
+    module index = 396
+    kind:          (code)
+  Name:  _systempause
+    address      = 0001:000B9A3C
+    module index = 396
+    kind:          (code)

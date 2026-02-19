@@ -1,0 +1,8 @@
+  Name:  _upsdvisf
+    address      = 0001:000C6A60
+    module index = 576
+    kind:          (code)
+  Name:  _upsdvisfsetstate
+    address      = 0001:000C6C58
+    module index = 576
+    kind:          (code)

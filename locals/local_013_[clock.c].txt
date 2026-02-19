@@ -1,0 +1,48 @@
+ 13) Name:   C:\nfs2\game\common\clock.c
+     Language is C
+     Locals: num = 1, offset = 00000046H
+     Types:  num = 1, offset = 000001E2H
+     Lines:  num = 1, offset = 0000037AH
+
+   *** Locals ***
+   ==============
+      Data 0:  offset 0000ABBC
+        0000: MODULE_386
+          "Input_ThreadSignal" addr = 0002:00023384,  type = 9
+        001B: MODULE_386
+          "clock_InterruptStarted" addr = 0002:0000CA4C,  type = 9
+        003A: MODULE_386
+          "clock_realTime" addr = 0002:00023388,  type = 64
+        0051: MODULE_386
+          "generic128HzClock" addr = 0002:00023394,  type = 9
+        006B: SET_BASE_386
+          base = 0001:0002161B
+        0073: NEAR_RTN_386
+          start off = 00000000, code size = 00000030, parent off = 0000
+          prologue size = 12,  epilogue size = 0
+          return address offset (from bp) = 00000010
+          return type:  32
+          return value: <none>
+          Name = "Clock_InputThread"
+        0099: NEAR_RTN_386
+          start off = 00000030, code size = 00000058, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  23
+          return value: <none>
+          Name = "Clock_MasterInterruptHandler"
+        00CA: NEAR_RTN_386
+          start off = 00000088, code size = 00000068, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  23
+          return value: <none>
+          Name = "Clock_SystemStartUp"
+        00F2: NEAR_RTN_386
+          start off = 000000F0, code size = 00000036, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  65
+          return value: <none>
+          Name = "Clock_SystemCleanUp"
+

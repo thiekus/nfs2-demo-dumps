@@ -1,0 +1,116 @@
+  Name:  Newton_FindClosestQuad_
+    address      = 0001:0002BDF5
+    module index = 29
+    kind:          (code)
+  Name:  Newton_CalculateSliceYaw_
+    address      = 0001:0002BE36
+    module index = 29
+    kind:          (code)
+  Name:  Newton_UpdateRoadGeometry_
+    address      = 0001:0002BEE9
+    module index = 29
+    kind:          (code)
+  Name:  Newton_CalculateSliceDifference_
+    address      = 0001:0002C380
+    module index = 29
+    kind:          (code)
+  Name:  Newton_FindGroundElevationGeneral_
+    address      = 0001:0002C3F3
+    module index = 29
+    kind:          (code)
+  Name:  Newton_FindGroundElevationAndNormal_
+    address      = 0001:0002C4A5
+    module index = 29
+    kind:          (code)
+  Name:  Newton_LimitCarsToDrivableDist_
+    address      = 0001:0002C526
+    module index = 29
+    kind:          (code)
+  Name:  Newton_CalcPerpenHeightOfLowestPointFromGround_
+    address      = 0001:0002C576
+    module index = 29
+    kind:          (code)
+  Name:  Newton_CalcPerpenHeightOfCenterPointFromGround_
+    address      = 0001:0002C7A6
+    module index = 29
+    kind:          (code)
+  Name:  Newton_CalcDistToClosestPlayerCar_
+    address      = 0001:0002C84A
+    module index = 29
+    kind:          (code)
+  Name:  Newton_UpdateRoadInfo_
+    address      = 0001:0002CCED
+    module index = 29
+    kind:          (code)
+  Name:  Newton_CopyRoadMatrixToOrientMat_
+    address      = 0001:0002CDC3
+    module index = 29
+    kind:          (code)
+  Name:  Newton_CopyRoadMatrixToShadowMat_
+    address      = 0001:0002CE93
+    module index = 29
+    kind:          (code)
+  Name:  Newton_SetInitialSlicePositionOrientationEtc_
+    address      = 0001:0002CF63
+    module index = 29
+    kind:          (code)
+  Name:  Newton_InitBaseNewtonObj_
+    address      = 0001:0002D2BE
+    module index = 29
+    kind:          (code)
+  Name:  Newton_QDUpdateVel_
+    address      = 0001:0002D5FD
+    module index = 29
+    kind:          (code)
+  Name:  Newton_OptzRotxform_
+    address      = 0001:0002D69B
+    module index = 29
+    kind:          (code)
+  Name:  Newton_QDUpdateRot64Hz_
+    address      = 0001:0002D823
+    module index = 29
+    kind:          (code)
+  Name:  Newton_QDUpdateRot32Hz_
+    address      = 0001:0002D92B
+    module index = 29
+    kind:          (code)
+  Name:  Newton_CalculateGroundShadowMatrix_
+    address      = 0001:0002DA33
+    module index = 29
+    kind:          (code)
+  Name:  Newton_CalcGroundShadowCoordinates_
+    address      = 0001:0002DF67
+    module index = 29
+    kind:          (code)
+  Name:  Newton_DoPostBarrierCollisionHandling_
+    address      = 0001:0002E2A2
+    module index = 29
+    kind:          (code)
+  Name:  Newton_PointInsideQuad_
+    address      = 0001:0002E5B8
+    module index = 29
+    kind:          (code)
+  Name:  Newton_TestForUndrivableSurfaces_
+    address      = 0001:0002E726
+    module index = 29
+    kind:          (code)
+  Name:  Newton_PlaceObjOnAndParallelToGroundCheckAxis_
+    address      = 0001:0002E9A8
+    module index = 29
+    kind:          (code)
+  Name:  Newton_PlaceObjOnAndParallelToGround_
+    address      = 0001:0002EDBB
+    module index = 29
+    kind:          (code)
+  Name:  Newton_LimitAngularVelocity_
+    address      = 0001:0002F183
+    module index = 29
+    kind:          (code)
+  Name:  Newton_ApplyTheLawOfGravity_
+    address      = 0001:0002F24B
+    module index = 29
+    kind:          (code)
+  Name:  Newton_CalculateRoadPosition_
+    address      = 0001:0002FD40
+    module index = 29
+    kind:          (code)

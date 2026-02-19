@@ -1,0 +1,8 @@
+  Name:  __EnterWVIDEO_
+    address      = 0001:000C1DD9
+    module index = 517
+    kind:          (code)
+  Name:  ___WD_Present
+    address      = 0002:00017190
+    module index = 517
+    kind:          (data)

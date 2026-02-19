@@ -1,0 +1,68 @@
+  Name:  Input_StartUp_
+    address      = 0001:00029E61
+    module index = 25
+    kind:          (code)
+  Name:  Input_Update_
+    address      = 0001:00029F10
+    module index = 25
+    kind:          (code)
+  Name:  Input_Store_
+    address      = 0001:0002A171
+    module index = 25
+    kind:          (code)
+  Name:  Input_Fetch_
+    address      = 0001:0002A202
+    module index = 25
+    kind:          (code)
+  Name:  Input_Gear_
+    address      = 0001:0002A256
+    module index = 25
+    kind:          (code)
+  Name:  Input_Debug_
+    address      = 0001:0002A2BB
+    module index = 25
+    kind:          (code)
+  Name:  Input_Interface_
+    address      = 0001:0002A34A
+    module index = 25
+    kind:          (code)
+  Name:  Input_TimedInterface_
+    address      = 0001:0002A3D9
+    module index = 25
+    kind:          (code)
+  Name:  Input_MainExitKey_
+    address      = 0001:0002A47A
+    module index = 25
+    kind:          (code)
+  Name:  _Input_gDBFlags
+    address      = 0002:00023BB4
+    module index = 25
+    kind:          (data)
+  Name:  _Input_gDebugResults
+    address      = 0002:00023BBC
+    module index = 25
+    kind:          (data)
+  Name:  _Input_gInterfaceResults
+    address      = 0002:00023C3C
+    module index = 25
+    kind:          (data)
+  Name:  _Input_gLookBehind
+    address      = 0002:00023CBC
+    module index = 25
+    kind:          (data)
+  Name:  _Input_gResults
+    address      = 0002:00023CC4
+    module index = 25
+    kind:          (data)
+  Name:  _Input_gHandler
+    address      = 0002:00023CCC
+    module index = 25
+    kind:          (data)
+  Name:  _Input_gSim
+    address      = 0002:00023E2C
+    module index = 25
+    kind:          (data)
+  Name:  _Input_gTime
+    address      = 0002:00023E30
+    module index = 25
+    kind:          (data)

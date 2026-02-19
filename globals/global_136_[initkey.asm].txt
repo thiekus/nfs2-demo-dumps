@@ -1,0 +1,36 @@
+  Name:  _caplockflag
+    address      = 0002:00012F70
+    module index = 136
+    kind:          (data)
+  Name:  _debugexit
+    address      = 0002:00012F6C
+    module index = 136
+    kind:          (data)
+  Name:  _kstate
+    address      = 0002:00012F74
+    module index = 136
+    kind:          (data)
+  Name:  _capcode
+    address      = 0002:000130AA
+    module index = 136
+    kind:          (data)
+  Name:  _keystate
+    address      = 0001:000837B0
+    module index = 136
+    kind:          (code)
+  Name:  _normcode
+    address      = 0002:00012FF4
+    module index = 136
+    kind:          (data)
+  Name:  _cntrlcode
+    address      = 0002:00013105
+    module index = 136
+    kind:          (data)
+  Name:  _altcode
+    address      = 0002:00013160
+    module index = 136
+    kind:          (data)
+  Name:  _shiftcode
+    address      = 0002:0001304F
+    module index = 136
+    kind:          (data)

@@ -1,0 +1,452 @@
+ 39) Name:   C:\nfs2\game\common\risk.c
+     Language is C
+     Locals: num = 1, offset = 000000AEH
+     Types:  num = 1, offset = 0000024AH
+     Lines:  num = 1, offset = 000003DAH
+
+   *** Locals ***
+   ==============
+      Data 0:  offset 00011F24
+        0000: MODULE_386
+          "gE2" addr = 0002:00043370,  type = 40
+        000C: MODULE_386
+          "gE3" addr = 0002:000433C0,  type = 41
+        0018: MODULE_386
+          "gE0" addr = 0002:00043410,  type = 42
+        0024: MODULE_386
+          "gE1" addr = 0002:00043460,  type = 43
+        0030: MODULE_386
+          "gHeadFacet" addr = 0002:000434B0,  type = 50
+        0043: MODULE_386
+          "gTailFacet" addr = 0002:000434B4,  type = 50
+        0056: SET_BASE_386
+          base = 0001:0003F301
+        005E: NEAR_RTN_386
+          start off = 00000000, code size = 00000028, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  23
+          return value: <none>
+          Name = "Risk_InitSortFacets"
+        0086: NEAR_RTN_386
+          start off = 00000028, code size = 0000002B, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  51
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Risk_Z2Index"
+        00AA: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "NumBase",  type = 9
+        00B6: NEAR_RTN_386
+          start off = 00000053, code size = 00000085, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  52
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Name = "Risk_InsertIndexFacet"
+        00E4: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "i",  type = 9
+        00EA: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "f",  type = 48
+        00F0: BLOCK_386
+          start off = 000001DB, code size = 000000DA, parent off = 0103
+        00FC: LOCAL
+          address: BP_OFFSET_BYTE( D4 )
+          name = "zi",  type = 9
+        0103: BLOCK_386
+          start off = 000000FD, code size = 000001BE, parent off = 0136
+        010F: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "nScane",  type = 76
+        011A: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "v0",  type = 61
+        0121: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "v1",  type = 61
+        0128: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "v2",  type = 61
+        012F: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "v3",  type = 61
+        0136: NEAR_RTN_386
+          start off = 000000D8, code size = 000001F3, parent off = 0000
+          prologue size = 14,  epilogue size = 11
+          return address offset (from bp) = 00000018
+          return type:  80
+          return value: <none>
+          Name = "Risk_InsertFacetByList"
+        0161: LOCAL
+          address: BP_OFFSET_BYTE( 1C )
+          name = "lf",  type = 79
+        0168: LOCAL
+          address: BP_OFFSET_BYTE( 24 )
+          name = "oNumBase",  type = 9
+        0175: LOCAL
+          address: BP_OFFSET_BYTE( 28 )
+          name = "clip3d",  type = 9
+        0180: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "fScane",  type = 76
+        018B: BLOCK_386
+          start off = 00000391, code size = 000000DA, parent off = 019E
+        0197: LOCAL
+          address: BP_OFFSET_BYTE( D8 )
+          name = "zi",  type = 9
+        019E: NEAR_RTN_386
+          start off = 000002CB, code size = 000001BB, parent off = 0000
+          prologue size = 11,  epilogue size = 8
+          return address offset (from bp) = 0000000C
+          return type:  81
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Parm 3: MULTI_REG(1): ECX
+          Name = "Risk_InsertFacet"
+        01CC: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "v0",  type = 61
+        01D3: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "v1",  type = 61
+        01DA: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "v2",  type = 61
+        01E1: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "v3",  type = 61
+        01E8: LOCAL
+          address: BP_OFFSET_BYTE( 10 )
+          name = "oNumBase",  type = 9
+        01F5: LOCAL
+          address: BP_OFFSET_BYTE( 14 )
+          name = "f",  type = 48
+        01FB: BLOCK_386
+          start off = 00000556, code size = 000000D1, parent off = 020E
+        0207: LOCAL
+          address: BP_OFFSET_BYTE( D8 )
+          name = "zi",  type = 9
+        020E: NEAR_RTN_386
+          start off = 00000486, code size = 000001BC, parent off = 0000
+          prologue size = 11,  epilogue size = 8
+          return address offset (from bp) = 0000000C
+          return type:  82
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Parm 3: MULTI_REG(1): ECX
+          Name = "Risk_InsertListFacets"
+        0241: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "v0",  type = 61
+        0248: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "v1",  type = 61
+        024F: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "v2",  type = 61
+        0256: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "v3",  type = 61
+        025D: LOCAL
+          address: BP_OFFSET_BYTE( 10 )
+          name = "oNumBase",  type = 9
+        026A: LOCAL
+          address: BP_OFFSET_BYTE( 14 )
+          name = "lf",  type = 79
+        0271: LOCAL
+          address: BP_OFFSET_BYTE( 1C )
+          name = "clip3d",  type = 9
+        027C: BLOCK_386
+          start off = 000006D0, code size = 00000014, parent off = 028F
+        0288: LOCAL
+          address: BP_OFFSET_BYTE( E0 )
+          name = "lf",  type = 79
+        028F: NEAR_RTN_386
+          start off = 00000642, code size = 000000B5, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  83
+          return value: IND_REG_CALLOC_NEAR( ESI )
+          Name = "Risk_CollectClipFacet"
+        02BA: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "i",  type = 9
+        02C0: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "head",  type = 48
+        02C9: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "tail",  type = 48
+        02D2: NEAR_RTN_386
+          start off = 000006F7, code size = 00000071, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  23
+          return value: <none>
+          Name = "Risk_InitTrackRisk"
+        02F9: NEAR_RTN_386
+          start off = 00000768, code size = 00000031, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  23
+          return value: <none>
+          Name = "Risk_KillTrackRisk"
+        0320: NEAR_RTN_386
+          start off = 00000799, code size = 0000004D, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  84
+          return value: REG: AL
+          Parm 0: MULTI_REG(1): EAX
+          Name = "IsNumChar"
+        0340: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "c",  type = 4
+        0346: NEAR_RTN_386
+          start off = 000007E6, code size = 000000AB, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  86
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Risk_ReadNextValue"
+        0370: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "aScript",  type = 85
+        037C: LOCAL
+          address: BP_OFFSET_WORD( 00EC )
+          name = "s",  type = 87
+        0383: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "r",  type = 9
+        0389: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "n",  type = 9
+        038F: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "Script",  type = 13
+        039A: BLOCK_386
+          start off = 00000912, code size = 0000003D, parent off = 03AF
+        03A6: LOCAL
+          address: BP_OFFSET_BYTE( E0 )
+          name = "dist",  type = 9
+        03AF: NEAR_RTN_386
+          start off = 00000891, code size = 000000CF, parent off = 0000
+          prologue size = 12,  epilogue size = 7
+          return address offset (from bp) = 00000010
+          return type:  92
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Name = "Risk_CircleClip"
+        03DA: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "pt1",  type = 91
+        03E2: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "pt2",  type = 91
+        03EA: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "r",  type = 9
+        03F0: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "dx",  type = 9
+        03F7: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "dz",  type = 9
+        03FE: NEAR_RTN_386
+          start off = 00000960, code size = 00000159, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  23
+          return value: <none>
+          Name = "Risk_InitBSpline"
+        0423: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "it",  type = 9
+        042A: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "tt",  type = 9
+        0431: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "ttt",  type = 9
+        0439: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "t",  type = 9
+        043F: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "c1d6",  type = 9
+        0448: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "c2d3",  type = 9
+        0451: NEAR_RTN_386
+          start off = 00000AB9, code size = 000002C4, parent off = 0000
+          prologue size = 11,  epilogue size = 8
+          return address offset (from bp) = 0000000C
+          return type:  94
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Parm 3: MULTI_REG(1): ECX
+          Name = "Risk_CalcBSpline"
+        047E: LOCAL
+          address: BP_OFFSET_BYTE( C8 )
+          name = "x1",  type = 93
+        0485: LOCAL
+          address: BP_OFFSET_BYTE( CC )
+          name = "y1",  type = 93
+        048C: LOCAL
+          address: BP_OFFSET_BYTE( D0 )
+          name = "nb1",  type = 9
+        0494: LOCAL
+          address: BP_OFFSET_BYTE( D4 )
+          name = "x2",  type = 93
+        049B: LOCAL
+          address: BP_OFFSET_BYTE( 10 )
+          name = "y2",  type = 93
+        04A2: LOCAL
+          address: BP_OFFSET_BYTE( 14 )
+          name = "nb2",  type = 93
+        04AA: LOCAL
+          address: BP_OFFSET_BYTE( D8 )
+          name = "lpx",  type = 9
+        04B2: LOCAL
+          address: BP_OFFSET_BYTE( DC )
+          name = "x",  type = 9
+        04B8: LOCAL
+          address: BP_OFFSET_BYTE( E0 )
+          name = "y",  type = 9
+        04BE: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "i",  type = 9
+        04C4: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "it",  type = 9
+        04CB: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "lnb2",  type = 9
+        04D4: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "Sx",  type = 9
+        04DB: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "Ex",  type = 9
+        04E2: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "Sy",  type = 9
+        04E9: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "Ey",  type = 9
+        04F0: NEAR_RTN_386
+          start off = 00000D7D, code size = 00000120, parent off = 0000
+          prologue size = 11,  epilogue size = 8
+          return address offset (from bp) = 0000000C
+          return type:  95
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Parm 3: MULTI_REG(1): ECX
+          Name = "Risk_BSpline"
+        0519: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "t",  type = 93
+        051F: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "x0",  type = 9
+        0526: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "y0",  type = 9
+        052D: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "x1",  type = 9
+        0534: LOCAL
+          address: BP_OFFSET_BYTE( 10 )
+          name = "y1",  type = 9
+        053B: LOCAL
+          address: BP_OFFSET_BYTE( 14 )
+          name = "x2",  type = 9
+        0542: LOCAL
+          address: BP_OFFSET_BYTE( 18 )
+          name = "y2",  type = 9
+        0549: LOCAL
+          address: BP_OFFSET_BYTE( 1C )
+          name = "x3",  type = 9
+        0550: LOCAL
+          address: BP_OFFSET_BYTE( 20 )
+          name = "y3",  type = 9
+        0557: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "gnpo",  type = 9
+        0560: LOCAL
+          address: BP_OFFSET_BYTE( D4 )
+          name = "gxi",  type = 96
+        0568: LOCAL
+          address: BP_OFFSET_BYTE( C4 )
+          name = "gyi",  type = 97
+        0570: LOCAL
+          address: BP_OFFSET_WORD( 0084 )
+          name = "gxo",  type = 98
+        0579: LOCAL
+          address: BP_OFFSET_WORD( 0044 )
+          name = "gyo",  type = 99
+        0582: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "x",  type = 9
+        0588: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "ps",  type = 9
+        058F: NEAR_RTN_386
+          start off = 00000E9D, code size = 00000100, parent off = 0000
+          prologue size = 11,  epilogue size = 8
+          return address offset (from bp) = 0000000C
+          return type:  95
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Parm 3: MULTI_REG(1): ECX
+          Name = "Risk_Linear"
+        05B7: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "t",  type = 93
+        05BD: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "x0",  type = 9
+        05C4: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "y0",  type = 9
+        05CB: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "x1",  type = 9
+        05D2: LOCAL
+          address: BP_OFFSET_BYTE( 10 )
+          name = "y1",  type = 9
+        05D9: LOCAL
+          address: BP_OFFSET_BYTE( 14 )
+          name = "x2",  type = 9
+        05E0: LOCAL
+          address: BP_OFFSET_BYTE( 18 )
+          name = "y2",  type = 9
+        05E7: LOCAL
+          address: BP_OFFSET_BYTE( 1C )
+          name = "x3",  type = 9
+        05EE: LOCAL
+          address: BP_OFFSET_BYTE( 20 )
+          name = "y3",  type = 9
+        05F5: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "x",  type = 9
+

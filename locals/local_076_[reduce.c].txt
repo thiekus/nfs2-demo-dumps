@@ -1,0 +1,524 @@
+ 76) Name:   C:\nfs2\game\pc\reduce.c
+     Language is C
+     Locals: num = 1, offset = 00000142H
+     Types:  num = 1, offset = 000002DEH
+     Lines:  num = 1, offset = 00000466H
+
+   *** Locals ***
+   ==============
+      Data 0:  offset 0001D6A3
+        0000: MODULE_386
+          "gWu" addr = 0002:0004EF3C,  type = 356
+        000D: MODULE_386
+          "gSquare" addr = 0002:0004EF40,  type = 40
+        001D: SET_BASE_386
+          base = 0001:0005D962
+        0025: NEAR_RTN_386
+          start off = 00000000, code size = 00000075, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  331
+          return value: <none>
+          Name = "Reduce_InitSquares"
+        004D: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "i",  type = 9
+        0053: NEAR_RTN_386
+          start off = 00000075, code size = 00000023, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  331
+          return value: <none>
+          Name = "Reduce_DeInitSquares"
+        007D: BLOCK_386
+          start off = 000000D2, code size = 00000106, parent off = 00C5
+        0089: LOCAL
+          address: BP_OFFSET_BYTE( C8 )
+          name = "r",  type = 9
+        008F: LOCAL
+          address: BP_OFFSET_BYTE( CC )
+          name = "g",  type = 9
+        0095: LOCAL
+          address: BP_OFFSET_BYTE( D0 )
+          name = "b",  type = 9
+        009B: LOCAL
+          address: BP_OFFSET_BYTE( D4 )
+          name = "inr",  type = 9
+        00A3: LOCAL
+          address: BP_OFFSET_BYTE( D8 )
+          name = "ing",  type = 9
+        00AB: LOCAL
+          address: BP_OFFSET_BYTE( DC )
+          name = "inb",  type = 9
+        00B3: LOCAL
+          address: BP_OFFSET_BYTE( E0 )
+          name = "ind",  type = 9
+        00BB: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "count",  type = 9
+        00C5: NEAR_RTN_386
+          start off = 00000098, code size = 0000014D, parent off = 0000
+          prologue size = 11,  epilogue size = 8
+          return address offset (from bp) = 0000000C
+          return type:  358
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Parm 3: MULTI_REG(1): ECX
+          Name = "Reduce_ColorCountHist"
+        00F8: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "wu",  type = 356
+        0100: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "vwt",  type = 47
+        0108: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "vmr",  type = 47
+        0110: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "vmg",  type = 47
+        0118: LOCAL
+          address: BP_OFFSET_BYTE( 10 )
+          name = "vmb",  type = 47
+        0120: LOCAL
+          address: BP_OFFSET_BYTE( 14 )
+          name = "m2",  type = 357
+        0128: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "i",  type = 9
+        012E: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "pal",  type = 12
+        0136: NEAR_RTN_386
+          start off = 000001E5, code size = 000002A7, parent off = 0000
+          prologue size = 11,  epilogue size = 8
+          return address offset (from bp) = 0000000C
+          return type:  359
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Parm 3: MULTI_REG(1): ECX
+          Name = "M3d"
+        0157: LOCAL
+          address: BP_OFFSET_BYTE( C8 )
+          name = "vwt",  type = 47
+        015F: LOCAL
+          address: BP_OFFSET_BYTE( CC )
+          name = "vmr",  type = 47
+        0167: LOCAL
+          address: BP_OFFSET_BYTE( D0 )
+          name = "vmg",  type = 47
+        016F: LOCAL
+          address: BP_OFFSET_BYTE( C4 )
+          name = "vmb",  type = 47
+        0177: LOCAL
+          address: BP_OFFSET_BYTE( 10 )
+          name = "m2",  type = 357
+        017F: LOCAL
+          address: BP_OFFSET_BYTE( D8 )
+          name = "ind1",  type = 15
+        0188: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "ind2",  type = 15
+        0191: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "i",  type = 6
+        0197: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "r",  type = 6
+        019D: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "g",  type = 6
+        01A3: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "b",  type = 6
+        01A9: LOCAL
+          address: BP_OFFSET_BYTE( DC )
+          name = "line",  type = 46
+        01B2: LOCAL
+          address: BP_OFFSET_BYTE( E0 )
+          name = "line_r",  type = 46
+        01BD: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "line_g",  type = 46
+        01C8: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "line_b",  type = 46
+        01D3: LOCAL
+          address: BP_OFFSET_WORD( 00BC )
+          name = "area",  type = 360
+        01DE: LOCAL
+          address: BP_OFFSET_WORD( 0030 )
+          name = "area_r",  type = 361
+        01EB: LOCAL
+          address: BP_OFFSET_WORD( 00B4 )
+          name = "area_g",  type = 362
+        01F8: LOCAL
+          address: BP_OFFSET_WORD( 0038 )
+          name = "area_b",  type = 363
+        0205: LOCAL
+          address: BP_OFFSET_BYTE( D4 )
+          name = "line2",  type = 30
+        020F: LOCAL
+          address: BP_OFFSET_WORD( 0040 )
+          name = "area2",  type = 364
+        021B: NEAR_RTN_386
+          start off = 0000048C, code size = 0000015B, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  372
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Name = "Vol"
+        0239: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "cube",  type = 367
+        0243: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "mmt",  type = 371
+        024C: NEAR_RTN_386
+          start off = 000005E7, code size = 0000023D, parent off = 0000
+          prologue size = 12,  epilogue size = 7
+          return address offset (from bp) = 00000010
+          return type:  377
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Name = "Bottom"
+        026F: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "cube",  type = 367
+        0279: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "dir",  type = 6
+        0281: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "mmt",  type = 376
+        028A: NEAR_RTN_386
+          start off = 00000824, code size = 00000222, parent off = 0000
+          prologue size = 11,  epilogue size = 6
+          return address offset (from bp) = 0000000C
+          return type:  382
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Parm 3: MULTI_REG(1): ECX
+          Name = "Top"
+        02AC: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "cube",  type = 367
+        02B6: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "dir",  type = 6
+        02BE: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "pos",  type = 9
+        02C6: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "mmt",  type = 381
+        02CF: NEAR_RTN_386
+          start off = 00000A46, code size = 000001E8, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  383
+          return value: MULTI_REG(1): ST0
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Name = "Var"
+        02ED: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "wu",  type = 356
+        02F5: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "cube",  type = 367
+        02FF: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "dr",  type = 30
+        0306: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "dg",  type = 30
+        030D: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "db",  type = 30
+        0314: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "xx",  type = 30
+        031B: NEAR_RTN_386
+          start off = 00000C2E, code size = 000001C1, parent off = 0000
+          prologue size = 11,  epilogue size = 8
+          return address offset (from bp) = 0000000C
+          return type:  384
+          return value: MULTI_REG(1): ST0
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Parm 3: MULTI_REG(1): ECX
+          Name = "Maximize"
+        0342: LOCAL
+          address: BP_OFFSET_BYTE( C0 )
+          name = "wu",  type = 356
+        034A: LOCAL
+          address: BP_OFFSET_BYTE( C4 )
+          name = "cube",  type = 367
+        0354: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "dir",  type = 6
+        035C: LOCAL
+          address: BP_OFFSET_BYTE( CC )
+          name = "first",  type = 9
+        0366: LOCAL
+          address: BP_OFFSET_BYTE( 10 )
+          name = "last",  type = 9
+        036F: LOCAL
+          address: BP_OFFSET_BYTE( 14 )
+          name = "cut",  type = 40
+        0377: LOCAL
+          address: BP_OFFSET_BYTE( 18 )
+          name = "whole_r",  type = 46
+        0383: LOCAL
+          address: BP_OFFSET_BYTE( 1C )
+          name = "whole_g",  type = 46
+        038F: LOCAL
+          address: BP_OFFSET_BYTE( 20 )
+          name = "whole_b",  type = 46
+        039B: LOCAL
+          address: BP_OFFSET_BYTE( 24 )
+          name = "whole_w",  type = 46
+        03A7: LOCAL
+          address: BP_OFFSET_BYTE( C8 )
+          name = "half_r",  type = 46
+        03B2: LOCAL
+          address: BP_OFFSET_BYTE( D4 )
+          name = "half_g",  type = 46
+        03BD: LOCAL
+          address: BP_OFFSET_BYTE( D8 )
+          name = "half_b",  type = 46
+        03C8: LOCAL
+          address: BP_OFFSET_BYTE( DC )
+          name = "half_w",  type = 46
+        03D3: LOCAL
+          address: BP_OFFSET_BYTE( E0 )
+          name = "base_r",  type = 46
+        03DE: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "base_g",  type = 46
+        03E9: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "base_b",  type = 46
+        03F4: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "base_w",  type = 46
+        03FF: LOCAL
+          address: BP_OFFSET_BYTE( D0 )
+          name = "i",  type = 9
+        0405: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "temp",  type = 30
+        040E: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "max",  type = 30
+        0416: NEAR_RTN_386
+          start off = 00000DEF, code size = 0000028C, parent off = 0000
+          prologue size = 12,  epilogue size = 7
+          return address offset (from bp) = 00000010
+          return type:  385
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Name = "Cut"
+        0436: LOCAL
+          address: BP_OFFSET_BYTE( C4 )
+          name = "wu",  type = 356
+        043E: LOCAL
+          address: BP_OFFSET_BYTE( C8 )
+          name = "set1",  type = 367
+        0448: LOCAL
+          address: BP_OFFSET_BYTE( CC )
+          name = "set2",  type = 367
+        0452: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "dir",  type = 6
+        045A: LOCAL
+          address: BP_OFFSET_BYTE( D4 )
+          name = "cutr",  type = 9
+        0463: LOCAL
+          address: BP_OFFSET_BYTE( D8 )
+          name = "cutg",  type = 9
+        046C: LOCAL
+          address: BP_OFFSET_BYTE( DC )
+          name = "cutb",  type = 9
+        0475: LOCAL
+          address: BP_OFFSET_BYTE( E0 )
+          name = "maxr",  type = 30
+        047E: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "maxg",  type = 30
+        0487: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "maxb",  type = 30
+        0490: LOCAL
+          address: BP_OFFSET_BYTE( D0 )
+          name = "whole_r",  type = 46
+        049C: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "whole_g",  type = 46
+        04A8: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "whole_b",  type = 46
+        04B4: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "whole_w",  type = 46
+        04C0: NEAR_RTN_386
+          start off = 0000107B, code size = 00000194, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  386
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Name = "AllocWuData"
+        04E4: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "numcolors",  type = 9
+        04F2: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "memsize",  type = 46
+        04FE: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "wu",  type = 356
+        0506: NEAR_RTN_386
+          start off = 0000120F, code size = 00000027, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  387
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Reduce_InitWu"
+        052B: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "numcolours",  type = 9
+        053A: NEAR_RTN_386
+          start off = 00001236, code size = 00000064, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  388
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Name = "Reduce_AddColorCountWu"
+        056A: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "pal",  type = 12
+        0572: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "count",  type = 40
+        057C: NEAR_RTN_386
+          start off = 0000129A, code size = 00000367, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  389
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Name = "Reduce_ProcessWu"
+        05A6: LOCAL
+          address: BP_OFFSET_BYTE( E0 )
+          name = "reducedto",  type = 40
+        05B4: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "colorpal",  type = 12
+        05C1: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "weight",  type = 46
+        05CC: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "next",  type = 9
+        05D5: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "i",  type = 9
+        05DB: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "k",  type = 9
+        05E1: LOCAL
+          address: BP_OFFSET_WORD( 00E0 )
+          name = "cube",  type = 390
+        05EC: LOCAL
+          address: BP_OFFSET_WORD( 00E0 )
+          name = "vv",  type = 391
+        05F5: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "temp",  type = 30
+        05FE: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "numcolours",  type = 9
+        060D: NEAR_RTN_386
+          start off = 00001601, code size = 00000153, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  392
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Name = "Reduce_CalcDelta"
+        0638: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "bColor",  type = 12
+        0643: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "nColor",  type = 12
+        064E: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "DeltaR",  type = 6
+        0659: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "DeltaG",  type = 6
+        0664: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "DeltaB",  type = 6
+        066F: BLOCK_386
+          start off = 000017A5, code size = 00000030, parent off = 0681
+        067B: LOCAL
+          address: BP_OFFSET_BYTE( D8 )
+          name = "m",  type = 9
+        0681: NEAR_RTN_386
+          start off = 00001754, code size = 00000092, parent off = 0000
+          prologue size = 11,  epilogue size = 6
+          return address offset (from bp) = 0000000C
+          return type:  393
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Parm 3: MULTI_REG(1): ECX
+          Name = "Reduce_SearchColor"
+        06B2: LOCAL
+          address: BP_OFFSET_BYTE( DC )
+          name = "mindelta",  type = 9
+        06BF: LOCAL
+          address: BP_OFFSET_BYTE( E0 )
+          name = "pal",  type = 12
+        06C7: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "numcolors",  type = 9
+        06D5: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "color",  type = 12
+        06DF: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "i",  type = 9
+        06E5: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "index",  type = 9
+        06EF: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "min",  type = 9
+        06F7: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "md",  type = 9
+

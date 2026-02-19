@@ -1,0 +1,4 @@
+  Name:  _shadowx
+    address      = 0002:000139A4
+    module index = 224
+    kind:          (data)

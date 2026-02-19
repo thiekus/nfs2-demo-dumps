@@ -1,0 +1,4 @@
+  Name:  _drawline
+    address      = 0001:00093600
+    module index = 214
+    kind:          (code)

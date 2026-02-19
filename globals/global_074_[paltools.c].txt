@@ -1,0 +1,104 @@
+  Name:  Pal_PrintColourTable_
+    address      = 0001:0005CF14
+    module index = 74
+    kind:          (code)
+  Name:  Pal_PrintPalette_
+    address      = 0001:0005CF83
+    module index = 74
+    kind:          (code)
+  Name:  Pal_PrintARGB_
+    address      = 0001:0005D01D
+    module index = 74
+    kind:          (code)
+  Name:  Pal_ClosestColour_
+    address      = 0001:0005D0B7
+    module index = 74
+    kind:          (code)
+  Name:  Pal_CalcTransTable_
+    address      = 0001:0005D101
+    module index = 74
+    kind:          (code)
+  Name:  Pal_GetShapeFile888Pal_
+    address      = 0001:0005D163
+    module index = 74
+    kind:          (code)
+  Name:  Pal_GetShapeFilePal_
+    address      = 0001:0005D1CE
+    module index = 74
+    kind:          (code)
+  Name:  Pal_ConvertARGBTo768_
+    address      = 0001:0005D36F
+    module index = 74
+    kind:          (code)
+  Name:  Pal_Convert768ToARGB_
+    address      = 0001:0005D3E9
+    module index = 74
+    kind:          (code)
+  Name:  Pal_CalcShapePixelCount_
+    address      = 0001:0005D463
+    module index = 74
+    kind:          (code)
+  Name:  Pal_RemapShape_
+    address      = 0001:0005D4BF
+    module index = 74
+    kind:          (code)
+  Name:  Pal_MakeRTFromRT_
+    address      = 0001:0005D503
+    module index = 74
+    kind:          (code)
+  Name:  Pal_MakeRTFromPal_
+    address      = 0001:0005D559
+    module index = 74
+    kind:          (code)
+  Name:  Pal_RemapShapeFile_
+    address      = 0001:0005D589
+    module index = 74
+    kind:          (code)
+  Name:  Pal_RemapShapeFileToSysPal_
+    address      = 0001:0005D5EB
+    module index = 74
+    kind:          (code)
+  Name:  Pal_RemapLutShapeFileToSysPal_
+    address      = 0001:0005D622
+    module index = 74
+    kind:          (code)
+  Name:  Paltools_LinearizeColor_
+    address      = 0001:0005D668
+    module index = 74
+    kind:          (code)
+  Name:  _r0
+    address      = 0002:0000FC14
+    module index = 74
+    kind:          (data)
+  Name:  _r1
+    address      = 0002:0000FD14
+    module index = 74
+    kind:          (data)
+  Name:  _r2
+    address      = 0002:0000FE14
+    module index = 74
+    kind:          (data)
+  Name:  _g0
+    address      = 0002:0000FF14
+    module index = 74
+    kind:          (data)
+  Name:  _g1
+    address      = 0002:00010014
+    module index = 74
+    kind:          (data)
+  Name:  _g2
+    address      = 0002:00010114
+    module index = 74
+    kind:          (data)
+  Name:  _b0
+    address      = 0002:00010214
+    module index = 74
+    kind:          (data)
+  Name:  _b1
+    address      = 0002:00010314
+    module index = 74
+    kind:          (data)
+  Name:  _b2
+    address      = 0002:00010414
+    module index = 74
+    kind:          (data)

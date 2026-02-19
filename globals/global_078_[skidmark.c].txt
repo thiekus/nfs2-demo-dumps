@@ -1,0 +1,36 @@
+  Name:  CalcSmQuad16_
+    address      = 0001:000600D2
+    module index = 78
+    kind:          (code)
+  Name:  Skidmark_Add_
+    address      = 0001:000602AB
+    module index = 78
+    kind:          (code)
+  Name:  Skidmark_InsertFacet_
+    address      = 0001:0006049D
+    module index = 78
+    kind:          (code)
+  Name:  Skidmark_InitSkidmark_
+    address      = 0001:0006068D
+    module index = 78
+    kind:          (code)
+  Name:  Skidmark_RestartSkidmark_
+    address      = 0001:000606F0
+    module index = 78
+    kind:          (code)
+  Name:  Skidmark_KillSkidmark_
+    address      = 0001:0006070F
+    module index = 78
+    kind:          (code)
+  Name:  _gUseSm
+    address      = 0002:0004FC20
+    module index = 78
+    kind:          (data)
+  Name:  _gSm
+    address      = 0002:0004FC24
+    module index = 78
+    kind:          (data)
+  Name:  _gCountSm
+    address      = 0002:0004FC28
+    module index = 78
+    kind:          (data)

@@ -1,0 +1,8 @@
+  Name:  _inits8toftable
+    address      = 0001:000C2850
+    module index = 533
+    kind:          (code)
+  Name:  _s8toftable
+    address      = 0002:0006AE34
+    module index = 533
+    kind:          (data)

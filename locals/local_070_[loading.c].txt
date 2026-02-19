@@ -1,0 +1,105 @@
+ 70) Name:   C:\nfs2\game\pc\loading.c
+     Language is C
+     Locals: num = 1, offset = 0000012AH
+     Types:  num = 1, offset = 000002C6H
+     Lines:  num = 1, offset = 0000044EH
+
+   *** Locals ***
+   ==============
+      Data 0:  offset 0001B773
+        0000: MODULE_386
+          "smallShapeFile" addr = 0002:0000FBE4,  type = 13
+        0017: MODULE_386
+          "totalAvailMem" addr = 0002:0000FBE8,  type = 9
+        002D: SET_BASE_386
+          base = 0001:0005A2AE
+        0035: NEAR_RTN_386
+          start off = 00000000, code size = 00000350, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  23
+          return value: <none>
+          Name = "Loading_DrawLoadingScreen"
+        0063: LOCAL
+          address: BP_OFFSET_WORD( 0054 )
+          name = "name",  type = 60
+        006D: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "f",  type = 13
+        0073: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "s",  type = 64
+        0079: LOCAL
+          address: BP_OFFSET_BYTE( B4 )
+          name = "languageNames",  type = 65
+        008B: LOCAL
+          address: BP_OFFSET_BYTE( CC )
+          name = "cacheNames",  type = 66
+        009A: LOCAL
+          address: BP_OFFSET_BYTE( 90 )
+          name = "carNames",  type = 67
+        00A7: LOCAL
+          address: BP_OFFSET_WORD( 0054 )
+          name = "gameModes",  type = 69
+        00B6: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "language",  type = 9
+        00C3: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "raceType",  type = 9
+        00D0: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "commMode",  type = 9
+        00DD: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "localCar",  type = 9
+        00EA: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "track",  type = 9
+        00F4: NEAR_RTN_386
+          start off = 00000350, code size = 000000FA, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  70
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Loading_UpdateLoadingScreen"
+        0126: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "checkpoint",  type = 9
+        0135: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "i",  type = 9
+        013B: LOCAL
+          address: BP_OFFSET_WORD( 00F8 )
+          name = "name",  type = 71
+        0145: NEAR_RTN_386
+          start off = 0000044A, code size = 000000BC, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  23
+          return value: <none>
+          Name = "Loading_DrawLoadingScreen2"
+        0174: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "s",  type = 64
+        017A: LOCAL
+          address: BP_OFFSET_WORD( 00DC )
+          name = "name",  type = 72
+        0184: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "f",  type = 13
+        018A: LOCAL
+          address: BP_OFFSET_BYTE( DC )
+          name = "languageNames",  type = 73
+        019C: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "language",  type = 9
+        01A9: NEAR_RTN_386
+          start off = 00000506, code size = 0000001F, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  23
+          return value: <none>
+          Name = "Loading_GetInitialMemory"
+

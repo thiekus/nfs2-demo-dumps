@@ -1,0 +1,12 @@
+  Name:  myfixeddiv_
+    address      = 0001:00091370
+    module index = 208
+    kind:          (static pubdef) (code)
+  Name:  _fixedlutmaptri
+    address      = 0001:00091388
+    module index = 208
+    kind:          (code)
+  Name:  _lutmaptri
+    address      = 0001:00091D88
+    module index = 208
+    kind:          (code)

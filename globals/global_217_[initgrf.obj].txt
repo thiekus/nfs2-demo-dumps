@@ -1,0 +1,84 @@
+  Name:  lib_initgraphics_
+    address      = 0001:00094280
+    module index = 217
+    kind:          (static pubdef) (code)
+  Name:  lib_setdisplaymode_
+    address      = 0001:0009431C
+    module index = 217
+    kind:          (static pubdef) (code)
+  Name:  sendddrawrequest_
+    address      = 0001:00094414
+    module index = 217
+    kind:          (static pubdef) (code)
+  Name:  selectddrawmode_
+    address      = 0001:000945B0
+    module index = 217
+    kind:          (static pubdef) (code)
+  Name:  preinitgraphics_
+    address      = 0001:00094820
+    module index = 217
+    kind:          (static pubdef) (code)
+  Name:  postinitgraphics_
+    address      = 0001:00094938
+    module index = 217
+    kind:          (static pubdef) (code)
+  Name:  initddrawgraphics_
+    address      = 0001:000949D8
+    module index = 217
+    kind:          (static pubdef) (code)
+  Name:  reinitddrawgraphics_
+    address      = 0001:00094B00
+    module index = 217
+    kind:          (code)
+  Name:  modeavail_
+    address      = 0001:00094B1C
+    module index = 217
+    kind:          (code)
+  Name:  restoregraphics_
+    address      = 0001:00094B24
+    module index = 217
+    kind:          (code)
+  Name:  _graphicsmodecount
+    address      = 0001:00094B7C
+    module index = 217
+    kind:          (code)
+  Name:  _graphicsmodeinfo
+    address      = 0001:00094B98
+    module index = 217
+    kind:          (code)
+  Name:  _initgraphicsmode
+    address      = 0001:00094F28
+    module index = 217
+    kind:          (code)
+  Name:  _initgraphics
+    address      = 0001:00095028
+    module index = 217
+    kind:          (code)
+  Name:  _getvideoinfo
+    address      = 0001:0009516C
+    module index = 217
+    kind:          (code)
+  Name:  _library
+    address      = 0002:00013864
+    module index = 217
+    kind:          (data)
+  Name:  _enablelinear
+    address      = 0002:00013868
+    module index = 217
+    kind:          (data)
+  Name:  _videopages
+    address      = 0002:0001386C
+    module index = 217
+    kind:          (data)
+  Name:  _bankswitched
+    address      = 0002:00013870
+    module index = 217
+    kind:          (data)
+  Name:  _grfop_pending
+    address      = 0002:00013874
+    module index = 217
+    kind:          (data)
+  Name:  _grfop_result
+    address      = 0002:00013878
+    module index = 217
+    kind:          (data)

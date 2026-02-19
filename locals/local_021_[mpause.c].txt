@@ -1,0 +1,77 @@
+ 21) Name:   C:\nfs2\game\common\mpause.c
+     Language is C
+     Locals: num = 1, offset = 00000066H
+     Types:  num = 1, offset = 00000202H
+     Lines:  num = 1, offset = 0000039AH
+
+   *** Locals ***
+   ==============
+      Data 0:  offset 0000C8E4
+        0000: MODULE_386
+          "gMPauseSliderVal" addr = 0002:00023608,  type = 62
+        0019: MODULE_386
+          "gMPauseButton" addr = 0002:00023610,  type = 9
+        002F: MODULE_386
+          "gMPauseFile" addr = 0002:00023614,  type = 13
+        0043: MODULE_386
+          "gMPauseMode" addr = 0002:00023618,  type = 9
+        0057: MODULE_386
+          "gMPauseRaceMusicGreyOut" addr = 0002:0002361C,  type = 9
+        0077: MODULE_386
+          "gMPauseRestartGreyOut" addr = 0002:00023620,  type = 9
+        0095: MODULE_386
+          "gMPauseUpdate" addr = 0002:00023624,  type = 9
+        00AB: MODULE_386
+          "gUpPressTbl" addr = 0002:0000CCC8,  type = 65
+        00BF: MODULE_386
+          "gDownPressTbl" addr = 0002:0000CCDC,  type = 68
+        00D5: SET_BASE_386
+          base = 0001:0002915E
+        00DD: BLOCK_386
+          start off = 00000184, code size = 000000C3, parent off = 0103
+        00E9: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "sv",  type = 9
+        00F0: BLOCK_386
+          start off = 00000276, code size = 000000C5, parent off = 0103
+        00FC: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "sv",  type = 9
+        0103: NEAR_RTN_386
+          start off = 00000000, code size = 0000043D, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  69
+          return value: MULTI_REG(1): EAX
+          Name = "MPause_Logic"
+        0125: NEAR_RTN_386
+          start off = 0000043D, code size = 0000001A, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  21
+          return value: <none>
+          Name = "MPause_Render"
+        0147: NEAR_RTN_386
+          start off = 00000457, code size = 00000142, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  21
+          return value: <none>
+          Name = "MPause_InitMPause"
+        016D: LOCAL
+          address: BP_OFFSET_WORD( 009C )
+          name = "name",  type = 70
+        0177: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "language",  type = 9
+        0184: LOCAL
+          address: BP_OFFSET_BYTE( 9C )
+          name = "langname",  type = 72
+        0191: NEAR_RTN_386
+          start off = 00000599, code size = 00000023, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  21
+          return value: <none>
+          Name = "MPause_KillMPause"
+

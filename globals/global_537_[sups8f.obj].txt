@@ -1,0 +1,12 @@
+  Name:  _ups8fframe
+    address      = 0001:000C2B00
+    module index = 537
+    kind:          (code)
+  Name:  _ups8f
+    address      = 0001:000C2B08
+    module index = 537
+    kind:          (code)
+  Name:  _ups8fsetstate
+    address      = 0001:000C2B94
+    module index = 537
+    kind:          (code)

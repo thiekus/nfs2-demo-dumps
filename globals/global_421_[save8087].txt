@@ -1,0 +1,12 @@
+  Name:  _do_nothing_
+    address      = 0001:000BB807
+    module index = 421
+    kind:          (static pubdef) (code)
+  Name:  ___Save8087
+    address      = 0002:00016CCC
+    module index = 421
+    kind:          (data)
+  Name:  ___Rest8087
+    address      = 0002:00016CD0
+    module index = 421
+    kind:          (data)

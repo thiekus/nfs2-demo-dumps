@@ -1,0 +1,76 @@
+  Name:  _printmutex
+    address      = 0002:0001342C
+    module index = 153
+    kind:          (static pubdef) (data)
+  Name:  _print
+    address      = 0001:00084D70
+    module index = 153
+    kind:          (code)
+  Name:  _printxy
+    address      = 0001:00084DF4
+    module index = 153
+    kind:          (code)
+  Name:  printstr_
+    address      = 0001:00084EC8
+    module index = 153
+    kind:          (code)
+  Name:  scroll_
+    address      = 0001:0008502C
+    module index = 153
+    kind:          (code)
+  Name:  _printclear
+    address      = 0001:000850B0
+    module index = 153
+    kind:          (code)
+  Name:  _printscroll
+    address      = 0001:0008510C
+    module index = 153
+    kind:          (code)
+  Name:  _printattribute
+    address      = 0001:0008515C
+    module index = 153
+    kind:          (code)
+  Name:  _printtab
+    address      = 0001:00085168
+    module index = 153
+    kind:          (code)
+  Name:  _printscreen
+    address      = 0001:00085178
+    module index = 153
+    kind:          (code)
+  Name:  getcurrenttimestamp_
+    address      = 0001:0008518C
+    module index = 153
+    kind:          (code)
+  Name:  _debugprint
+    address      = 0002:00013430
+    module index = 153
+    kind:          (data)
+  Name:  _dprintcheck
+    address      = 0002:00013434
+    module index = 153
+    kind:          (data)
+  Name:  _printaddr
+    address      = 0002:00013438
+    module index = 153
+    kind:          (data)
+  Name:  _printloc
+    address      = 0002:0001343C
+    module index = 153
+    kind:          (data)
+  Name:  _scrollline
+    address      = 0002:00013440
+    module index = 153
+    kind:          (data)
+  Name:  _printattrib
+    address      = 0002:00013441
+    module index = 153
+    kind:          (data)
+  Name:  _printtabpos
+    address      = 0002:00013442
+    module index = 153
+    kind:          (data)
+  Name:  _gDebugFile
+    address      = 0002:00013444
+    module index = 153
+    kind:          (data)

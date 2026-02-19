@@ -1,0 +1,8 @@
+  Name:  lseek_
+    address      = 0001:000B0AC5
+    module index = 356
+    kind:          (code)
+  Name:  _lseek_
+    address      = 0001:000B0AC5
+    module index = 356
+    kind:          (code)

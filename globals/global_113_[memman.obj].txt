@@ -1,0 +1,288 @@
+  Name:  _defaultmc
+    address      = 0002:00012E7C
+    module index = 113
+    kind:          (data)
+  Name:  _codeseg
+    address      = 0002:00012E80
+    module index = 113
+    kind:          (data)
+  Name:  _dataseg
+    address      = 0002:00012E82
+    module index = 113
+    kind:          (data)
+  Name:  _highmemadr
+    address      = 0002:00012E84
+    module index = 113
+    kind:          (data)
+  Name:  _lowmemadr
+    address      = 0002:00012E88
+    module index = 113
+    kind:          (data)
+  Name:  _dossize
+    address      = 0002:00012E8C
+    module index = 113
+    kind:          (data)
+  Name:  _sequence
+    address      = 0002:00012E90
+    module index = 113
+    kind:          (data)
+  Name:  _autocompact
+    address      = 0002:00012E94
+    module index = 113
+    kind:          (data)
+  Name:  _highwateractive
+    address      = 0002:00012E98
+    module index = 113
+    kind:          (data)
+  Name:  _membreak
+    address      = 0002:00012E9C
+    module index = 113
+    kind:          (data)
+  Name:  _reservememcallback
+    address      = 0002:00012EA0
+    module index = 113
+    kind:          (data)
+  Name:  _purgememcallback
+    address      = 0002:00012EA4
+    module index = 113
+    kind:          (data)
+  Name:  _initmemmanadr
+    address      = 0001:000803F0
+    module index = 113
+    kind:          (code)
+  Name:  _creatememclass
+    address      = 0001:000804B4
+    module index = 113
+    kind:          (code)
+  Name:  _createandlinkmemclass
+    address      = 0001:00080594
+    module index = 113
+    kind:          (code)
+  Name:  _linksubmemclass
+    address      = 0001:000805E4
+    module index = 113
+    kind:          (code)
+  Name:  _linkmemclass
+    address      = 0001:00080660
+    module index = 113
+    kind:          (code)
+  Name:  _unlinkmemclassarea
+    address      = 0001:00080700
+    module index = 113
+    kind:          (code)
+  Name:  _unlinkmemclasstop
+    address      = 0001:000807FC
+    module index = 113
+    kind:          (code)
+  Name:  _removememclass
+    address      = 0001:0008088C
+    module index = 113
+    kind:          (code)
+  Name:  _memclasstopalloc
+    address      = 0001:000808A4
+    module index = 113
+    kind:          (code)
+  Name:  _getfreememclass
+    address      = 0001:000808D8
+    module index = 113
+    kind:          (code)
+  Name:  _libmembreak
+    address      = 0001:00080908
+    module index = 113
+    kind:          (code)
+  Name:  _reservememblock
+    address      = 0001:0008094C
+    module index = 113
+    kind:          (code)
+  Name:  _reservememblockz
+    address      = 0001:0008099C
+    module index = 113
+    kind:          (code)
+  Name:  _reservememadr
+    address      = 0001:000809EC
+    module index = 113
+    kind:          (code)
+  Name:  _reservememadrz
+    address      = 0001:00080A48
+    module index = 113
+    kind:          (code)
+  Name:  _reservememadra
+    address      = 0001:00080AA0
+    module index = 113
+    kind:          (code)
+  Name:  _reservememblocka
+    address      = 0001:00080AFC
+    module index = 113
+    kind:          (code)
+  Name:  _reservememblockai
+    address      = 0001:00080B4C
+    module index = 113
+    kind:          (code)
+  Name:  _findmemblock
+    address      = 0001:0008116C
+    module index = 113
+    kind:          (code)
+  Name:  _purgememadr
+    address      = 0001:000811F0
+    module index = 113
+    kind:          (code)
+  Name:  _purgememblock
+    address      = 0001:0008122C
+    module index = 113
+    kind:          (code)
+  Name:  _purgememblocki
+    address      = 0001:0008125C
+    module index = 113
+    kind:          (code)
+  Name:  _purgememaboveadr
+    address      = 0001:00081344
+    module index = 113
+    kind:          (code)
+  Name:  _purgememaboveblock
+    address      = 0001:0008139C
+    module index = 113
+    kind:          (code)
+  Name:  _purgeone
+    address      = 0001:000813E4
+    module index = 113
+    kind:          (code)
+  Name:  _purgeonei
+    address      = 0001:00081418
+    module index = 113
+    kind:          (code)
+  Name:  _findnamedmemblockinclass
+    address      = 0001:000814B4
+    module index = 113
+    kind:          (code)
+  Name:  _findnamedmemblock
+    address      = 0001:00081518
+    module index = 113
+    kind:          (code)
+  Name:  updatehighwater_
+    address      = 0001:00081528
+    module index = 113
+    kind:          (code)
+  Name:  _largestunused
+    address      = 0001:0008155C
+    module index = 113
+    kind:          (code)
+  Name:  _largestunusedinclass
+    address      = 0001:0008158C
+    module index = 113
+    kind:          (code)
+  Name:  _largestunusedinclassi
+    address      = 0001:000815C0
+    module index = 113
+    kind:          (code)
+  Name:  _lockedmem
+    address      = 0001:00081630
+    module index = 113
+    kind:          (code)
+  Name:  _relocateablemem
+    address      = 0001:00081650
+    module index = 113
+    kind:          (code)
+  Name:  _purgeablemem
+    address      = 0001:00081670
+    module index = 113
+    kind:          (code)
+  Name:  _availablemem
+    address      = 0001:00081690
+    module index = 113
+    kind:          (code)
+  Name:  _largestreserveableinclass
+    address      = 0001:000816C4
+    module index = 113
+    kind:          (code)
+  Name:  _initmemblocks
+    address      = 0001:00081730
+    module index = 113
+    kind:          (code)
+  Name:  _putmemblock
+    address      = 0001:00081794
+    module index = 113
+    kind:          (code)
+  Name:  _getmemblock
+    address      = 0001:000817A8
+    module index = 113
+    kind:          (code)
+  Name:  _memsizeadr
+    address      = 0001:000817E8
+    module index = 113
+    kind:          (code)
+  Name:  _getblockoffset
+    address      = 0001:000817FC
+    module index = 113
+    kind:          (code)
+  Name:  _getblockadr
+    address      = 0001:000817FC
+    module index = 113
+    kind:          (code)
+  Name:  _getblocklen
+    address      = 0001:00081804
+    module index = 113
+    kind:          (code)
+  Name:  _getblockname
+    address      = 0001:0008180C
+    module index = 113
+    kind:          (code)
+  Name:  _getblocktype
+    address      = 0001:00081814
+    module index = 113
+    kind:          (code)
+  Name:  _lockmemblock
+    address      = 0001:0008181C
+    module index = 113
+    kind:          (code)
+  Name:  _unlockmemblock
+    address      = 0001:0008184C
+    module index = 113
+    kind:          (code)
+  Name:  _breakmemadr
+    address      = 0001:0008187C
+    module index = 113
+    kind:          (code)
+  Name:  _breakmemblock
+    address      = 0001:000818C0
+    module index = 113
+    kind:          (code)
+  Name:  _breakmemblocki
+    address      = 0001:000818F8
+    module index = 113
+    kind:          (code)
+  Name:  _findcontainingmemblocka
+    address      = 0001:000819C4
+    module index = 113
+    kind:          (code)
+  Name:  _findcontainingmemblock
+    address      = 0001:00081A48
+    module index = 113
+    kind:          (code)
+  Name:  _findcontainingmemblockz
+    address      = 0001:00081A58
+    module index = 113
+    kind:          (code)
+  Name:  _findmemcallback
+    address      = 0002:00012EA8
+    module index = 113
+    kind:          (data)
+  Name:  _memclass
+    address      = 0002:00050F30
+    module index = 113
+    kind:          (data)
+  Name:  __lv
+    address      = 0002:000510B0
+    module index = 113
+    kind:          (data)
+  Name:  _emptyblock
+    address      = 0002:000510B4
+    module index = 113
+    kind:          (data)
+  Name:  _doshighwater
+    address      = 0002:000510B8
+    module index = 113
+    kind:          (data)
+  Name:  _highwater
+    address      = 0002:000510BC
+    module index = 113
+    kind:          (data)

@@ -1,0 +1,4 @@
+  Name:  _IID_IDirectDraw2
+    address      = 0002:0001AF20
+    module index = 435
+    kind:          (data)

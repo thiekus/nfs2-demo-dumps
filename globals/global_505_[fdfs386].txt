@@ -1,0 +1,4 @@
+  Name:  __FDFS
+    address      = 0001:000C0E0A
+    module index = 505
+    kind:          (code)

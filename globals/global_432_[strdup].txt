@@ -1,0 +1,8 @@
+  Name:  strdup_
+    address      = 0001:000BC680
+    module index = 432
+    kind:          (code)
+  Name:  _strdup_
+    address      = 0001:000BC680
+    module index = 432
+    kind:          (code)

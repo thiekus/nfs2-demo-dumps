@@ -1,0 +1,8 @@
+  Name:  _movt
+    address      = 0001:000B9B20
+    module index = 398
+    kind:          (code)
+  Name:  _movtxy
+    address      = 0001:000B9BE8
+    module index = 398
+    kind:          (code)

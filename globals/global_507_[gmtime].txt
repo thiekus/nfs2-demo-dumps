@@ -1,0 +1,12 @@
+  Name:  __brktime_
+    address      = 0001:000C129D
+    module index = 507
+    kind:          (code)
+  Name:  _gmtime_
+    address      = 0001:000C13B2
+    module index = 507
+    kind:          (code)
+  Name:  gmtime_
+    address      = 0001:000C13D0
+    module index = 507
+    kind:          (code)

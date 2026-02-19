@@ -1,0 +1,36 @@
+  Name:  _streamtoppedupflag
+    address      = 0002:00013F0C
+    module index = 274
+    kind:          (data)
+  Name:  _setstreamtopup
+    address      = 0001:000A0960
+    module index = 274
+    kind:          (code)
+  Name:  _topupstream
+    address      = 0001:000A096C
+    module index = 274
+    kind:          (code)
+  Name:  _waittopupstream
+    address      = 0001:000A09C4
+    module index = 274
+    kind:          (code)
+  Name:  signalstreamtopup_
+    address      = 0001:000A0A28
+    module index = 274
+    kind:          (code)
+  Name:  streamtoppedup_
+    address      = 0001:000A0A50
+    module index = 274
+    kind:          (code)
+  Name:  waitstreamtoppedup_
+    address      = 0001:000A0A58
+    module index = 274
+    kind:          (code)
+  Name:  _stpsignal
+    address      = 0002:00013F10
+    module index = 274
+    kind:          (static pubdef) (data)
+  Name:  _streamtopupfunc
+    address      = 0002:00054B44
+    module index = 274
+    kind:          (data)

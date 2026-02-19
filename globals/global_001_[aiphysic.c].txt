@@ -1,0 +1,144 @@
+  Name:  AIPhysic_CleanUp_
+    address      = 0001:00006AEF
+    module index = 1
+    kind:          (code)
+  Name:  AIPhysic_StartUp_
+    address      = 0001:00006B04
+    module index = 1
+    kind:          (code)
+  Name:  AIPhysic_Reset_
+    address      = 0001:00006B19
+    module index = 1
+    kind:          (code)
+  Name:  AIPhysic_ResetCar_
+    address      = 0001:00006B2E
+    module index = 1
+    kind:          (code)
+  Name:  AIPhysic_ConfineTrafficCarToRoad_
+    address      = 0001:00006B48
+    module index = 1
+    kind:          (code)
+  Name:  AIPhysic_CalculateLaneChangeSpeed_
+    address      = 0001:00006D63
+    module index = 1
+    kind:          (code)
+  Name:  AIPhysic_GearTopSpeed_
+    address      = 0001:00006E31
+    module index = 1
+    kind:          (code)
+  Name:  AIPhysic_GearBottomSpeed_
+    address      = 0001:00006E61
+    module index = 1
+    kind:          (code)
+  Name:  AIPhysic_HandleShifting_
+    address      = 0001:00006EA0
+    module index = 1
+    kind:          (code)
+  Name:  AIPhysic_CalcDeceleration_
+    address      = 0001:00007097
+    module index = 1
+    kind:          (code)
+  Name:  AIPhysic_CalcAcceleration_
+    address      = 0001:00007106
+    module index = 1
+    kind:          (code)
+  Name:  AIPhysic_SimplePhysics_LongVel_
+    address      = 0001:000073A6
+    module index = 1
+    kind:          (code)
+  Name:  AIPhysic_SimplePhysics_LatVel_
+    address      = 0001:000075AD
+    module index = 1
+    kind:          (code)
+  Name:  AIPhysic_SimplePhysics_
+    address      = 0001:000075F2
+    module index = 1
+    kind:          (code)
+  Name:  AIPhysic_SetupReleaseFromPurgatory_
+    address      = 0001:000077DD
+    module index = 1
+    kind:          (code)
+  Name:  AIPhysic_PurgatoryPhysics_
+    address      = 0001:0000790B
+    module index = 1
+    kind:          (code)
+  Name:  AIPhysic_CalcFutureLateralVel_
+    address      = 0001:00007A1E
+    module index = 1
+    kind:          (code)
+  Name:  AIPhysic_GetPsychoDesiredVector_
+    address      = 0001:00007B83
+    module index = 1
+    kind:          (code)
+  Name:  AIPhysic_GetDesiredVector_
+    address      = 0001:00007CBF
+    module index = 1
+    kind:          (code)
+  Name:  AIPhysic_CalcRoadBend_
+    address      = 0001:00007EF4
+    module index = 1
+    kind:          (code)
+  Name:  AIPhysic_Preperation_
+    address      = 0001:00007FD2
+    module index = 1
+    kind:          (code)
+  Name:  AIPhysic_FinishUp_
+    address      = 0001:000083B9
+    module index = 1
+    kind:          (code)
+  Name:  AIPhysic_OutOfControl_
+    address      = 0001:00008875
+    module index = 1
+    kind:          (code)
+  Name:  AIPhysic_InControlPhysics_
+    address      = 0001:00008917
+    module index = 1
+    kind:          (code)
+  Name:  AIPhysic_OutOfControlPhysics_
+    address      = 0001:00008FDB
+    module index = 1
+    kind:          (code)
+  Name:  AIPhysic_ChangeDirection_
+    address      = 0001:00009850
+    module index = 1
+    kind:          (code)
+  Name:  AIPhysic_HandleDirection_
+    address      = 0001:0000996A
+    module index = 1
+    kind:          (code)
+  Name:  AIPhysic_HitWallCheck_
+    address      = 0001:00009A72
+    module index = 1
+    kind:          (code)
+  Name:  AIPhysic_CoolPhysics_
+    address      = 0001:00009BB0
+    module index = 1
+    kind:          (code)
+  Name:  AIPhysic_CalculateTargetLatPos_
+    address      = 0001:00009CFC
+    module index = 1
+    kind:          (code)
+  Name:  AIPhysic_AIPhysics_
+    address      = 0001:00009E20
+    module index = 1
+    kind:          (code)
+  Name:  _aiRoadSurfaceFrictionCoeff
+    address      = 0002:0000BF30
+    module index = 1
+    kind:          (data)
+  Name:  _aiRoadSurfaceIndex
+    address      = 0002:0000BF50
+    module index = 1
+    kind:          (data)
+  Name:  _AIPhysic_time
+    address      = 0002:0001C3C4
+    module index = 1
+    kind:          (data)
+  Name:  _AIPhysic_elapsedTime
+    address      = 0002:0001C3C8
+    module index = 1
+    kind:          (data)
+  Name:  _AIPhysic_iTime
+    address      = 0002:0001C3CC
+    module index = 1
+    kind:          (data)

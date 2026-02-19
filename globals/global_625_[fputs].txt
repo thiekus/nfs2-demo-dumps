@@ -1,0 +1,4 @@
+  Name:  fputs_
+    address      = 0001:000CAFDE
+    module index = 625
+    kind:          (code)

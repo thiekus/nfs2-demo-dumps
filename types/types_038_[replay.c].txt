@@ -1,0 +1,1259 @@
+ 38) Name:   C:\nfs2\game\common\replay.c
+     Language is C
+     Locals: num = 1, offset = 000000AAH
+     Types:  num = 1, offset = 00000246H
+     Lines:  num = 1, offset = 000003D6H
+
+    *** Types ***
+    =============
+      Data 0:  offset 0005495F
+        0000: cue table offset=00001FF0
+        0006: SCOPE(1)
+          "struct"
+        000E: SCOPE(2)
+          "union"
+        0015: SCOPE(3)
+          "enum"
+        001B: SCALAR(4)
+          "char"  scalar type = 10, unsigned
+        0022: SCALAR(5)
+          "signed char"  scalar type = 00, integer
+        0030: SCALAR(6)
+          "unsigned char"  scalar type = 10, unsigned
+        0040: SCALAR(7)
+          "short"  scalar type = 01, integer
+        0048: SCALAR(8)
+          "unsigned short"  scalar type = 11, unsigned
+        0059: SCALAR(9)
+          "int"  scalar type = 03, integer
+        005F: SCALAR(10)
+          "unsigned int"  scalar type = 13, unsigned
+        006E: NAME(11)
+          "wchar_t"  type idx = 8  scope idx = 0
+        0079: NAME(12)
+          "size_t"  type idx = 10  scope idx = 0
+        0083: NAME(13)
+          "wchar_t"  type idx = 8  scope idx = 0
+        008E: SCALAR(14)
+          "void"  scalar type = 30, void
+        0095: NEAR386 PROC(15)
+          return type = 14
+        0099: NEAR386 PTR(16)
+          base type idx = 15
+        009C: NAME(17)
+          "onexit_t"  type idx = 16  scope idx = 0
+        00A8: NEAR386 PTR(18)
+          base type idx = 4
+        00AB: BYTE_INDEX ARRAY(19)
+          high bound = 00   base type idx = 18
+        00AF: NAME(20)
+          "__va_list"  type idx = 19  scope idx = 0
+        00BC: SCALAR(21)
+          "long"  scalar type = 03, integer
+        00C3: NAME(22)
+          "fpos_t"  type idx = 21  scope idx = 0
+        00CD: NAME(23)
+          "fpos_t"  type idx = 21  scope idx = 0
+        00D7: BYTE_INDEX ARRAY(24)
+          high bound = 00   base type idx = 18
+        00DB: NAME(25)
+          "va_list"  type idx = 24  scope idx = 0
+        00E6: NAME(26)
+          "MEMBLOCK"  type idx = 18  scope idx = 0
+        00F2: NEAR386 PROC(27)
+          return type = 14
+            param 1:  type idx = 14
+        00F7: NEAR386 PTR(28)
+          base type idx = 27
+        00FA: NAME(29)
+          "VOIDFN"  type idx = 28  scope idx = 0
+        0104: NEAR386 PROC(30)
+          return type = 9
+            param 1:  type idx = 14
+        0109: NAME(31)
+          "INTFN"  type idx = 30  scope idx = 0
+        0112: NAME(32)
+          "MVI"  type idx = 14  scope idx = 0
+        0119: NEAR386 PROC(33)
+          return type = 9
+            param 1:  type idx = 9
+            param 2:  type idx = 9
+        011F: NAME(34)
+          "EACHOOKCALLBACKFUNC"  type idx = 33  scope idx = 0
+        0136: NAME(35)
+          "arg_t"  type idx = 9  scope idx = 0
+        013F: NEAR386 PROC(36)
+          return type = 14
+            param 1:  type idx = 14
+        0144: NAME(37)
+          "THREADPROC"  type idx = 36  scope idx = 0
+        0152: NAME(38)
+          "SYSTEMTASK"  type idx = 33  scope idx = 0
+        0160: NAME(39)
+          "boolean"  type idx = 9  scope idx = 0
+        016B: NAME(40)
+          "fixed88"  type idx = 9  scope idx = 0
+        0176: NAME(41)
+          "fixed824"  type idx = 9  scope idx = 0
+        0182: NAME(42)
+          "fixed248"  type idx = 9  scope idx = 0
+        018E: NEAR386 PTR(43)
+          base type idx = 14
+        0191: NEAR386 PROC(44)
+          return type = 14
+            param 1:  type idx = 43
+        0196: NEAR386 PTR(45)
+          base type idx = 44
+        0199: NAME(46)
+          "Sched_tFunctionPt"  type idx = 45  scope idx = 0
+        01AE: NAME(47)
+          "SDWORD"  type idx = 21  scope idx = 0
+        01B8: SCALAR(48)
+          "unsigned long"  scalar type = 13, unsigned
+        01C8: NAME(49)
+          "DWORD"  type idx = 48  scope idx = 0
+        01D1: NAME(50)
+          "WORD"  type idx = 8  scope idx = 0
+        01D9: NAME(51)
+          "SWORD"  type idx = 7  scope idx = 0
+        01E2: NAME(52)
+          "SBYTE"  type idx = 5  scope idx = 0
+        01EB: NAME(53)
+          "UBYTE"  type idx = 6  scope idx = 0
+        01F4: NAME(54)
+          "BOOL"  type idx = 9  scope idx = 0
+        01FC: NAME(55)
+          "Stm_Chunk"  type idx = 14  scope idx = 0
+        0209: NEAR386 PTR(56)
+          base type idx = 55
+        020C: NAME(57)
+          "lpStm_Chunk"  type idx = 56  scope idx = 0
+        021B: NAME(58)
+          "Draw_tContext"  type idx = 7  scope idx = 0
+        022C: NEAR386 PROC(59)
+          return type = 14
+            param 1:  type idx = 43
+            param 2:  type idx = 43
+        0232: NEAR386 PTR(60)
+          base type idx = 59
+        0235: NAME(61)
+          "Transformer_AnimCallbackFunc"  type idx = 60  scope idx = 0
+        0255: BYTE_INDEX ARRAY(62)
+          high bound = 6F   base type idx = 7
+        0259: NAME(63)
+          "tAccTable"  type idx = 62  scope idx = 0
+        0266: NEAR386 PROC(64)
+          return type = 9
+            param 1:  type idx = 48
+        026B: NAME(65)
+          "Input_tDeviceCall"  type idx = 64  scope idx = 0
+        0280: BYTE_INDEX ARRAY(66)
+          high bound = 1F   base type idx = 4
+        0284: BYTE_INDEX ARRAY(67)
+          high bound = 07   base type idx = 9
+        0288: FIELD_LIST(68)
+          number of fields = 000A   size = 00000028
+        0290: FIELD_BYTE
+          "interactive"  offset = 24  type idx = 9
+        029F: FIELD_BYTE
+          "sfxLevel"  offset = 20  type idx = 9
+        02AB: FIELD_BYTE
+          "musicLevel"  offset = 1C  type idx = 9
+        02B9: FIELD_BYTE
+          "horizonDisplay"  offset = 18  type idx = 9
+        02CB: FIELD_BYTE
+          "viewDistance"  offset = 14  type idx = 9
+        02DB: FIELD_BYTE
+          "graphicsDetail"  offset = 10  type idx = 9
+        02ED: FIELD_BYTE
+          "windowSize"  offset = 0C  type idx = 9
+        02FB: FIELD_BYTE
+          "bestlap"  offset = 08  type idx = 9
+        0306: FIELD_BYTE
+          "display"  offset = 04  type idx = 9
+        0311: FIELD_BYTE
+          "language"  offset = 00  type idx = 9
+        031D: NAME(69)
+          "GameSetup_tUserSetting"  type idx = 68  scope idx = 1
+        0337: NAME(70)
+          "GameSetup_tUserSetting"  type idx = 69  scope idx = 0
+        0351: BYTE_INDEX ARRAY(71)
+          high bound = 08   base type idx = 4
+        0355: FIELD_LIST(72)
+          number of fields = 000E   size = 0000003D
+        035D: FIELD_BYTE
+          "driver"  offset = 34  type idx = 71
+        0367: FIELD_BYTE
+          "carNameIndex"  offset = 30  type idx = 9
+        0377: FIELD_BYTE
+          "GearRatio"  offset = 2C  type idx = 9
+        0384: FIELD_BYTE
+          "BrakeBias"  offset = 28  type idx = 9
+        0391: FIELD_BYTE
+          "SteeringSensitivity"  offset = 24  type idx = 9
+        03A8: FIELD_BYTE
+          "RearDownForce"  offset = 20  type idx = 9
+        03B9: FIELD_BYTE
+          "FrontDownForce"  offset = 1C  type idx = 9
+        03CB: FIELD_BYTE
+          "RampBrake"  offset = 18  type idx = 9
+        03D8: FIELD_BYTE
+          "RampGas"  offset = 14  type idx = 9
+        03E3: FIELD_BYTE
+          "RampSteering"  offset = 10  type idx = 9
+        03F3: FIELD_BYTE
+          "Colour"  offset = 0C  type idx = 9
+        03FD: FIELD_BYTE
+          "Transmission"  offset = 08  type idx = 9
+        040D: FIELD_BYTE
+          "carClass"  offset = 04  type idx = 9
+        0419: FIELD_BYTE
+          "carType"  offset = 00  type idx = 9
+        0424: NAME(73)
+          "GameSetup_tCarData"  type idx = 72  scope idx = 1
+        043A: NAME(74)
+          "GameSetup_tCarData"  type idx = 73  scope idx = 0
+        0450: BYTE_INDEX ARRAY(75)
+          high bound = 0F   base type idx = 74
+        0454: BYTE_INDEX ARRAY(76)
+          high bound = 0F   base type idx = 9
+        0458: BYTE_INDEX ARRAY(77)
+          high bound = 0F   base type idx = 9
+        045C: BYTE_INDEX ARRAY(78)
+          high bound = 0B   base type idx = 7
+        0460: BYTE_INDEX ARRAY(79)
+          high bound = 07   base type idx = 7
+        0464: BYTE_INDEX ARRAY(80)
+          high bound = 08   base type idx = 7
+        0468: BYTE_INDEX ARRAY(81)
+          high bound = 07   base type idx = 80
+        046C: FIELD_LIST(82)
+          number of fields = 0018   size = 00000074
+        0474: FIELD_WORD
+          "NameList"  offset = 00E4  type idx = 81
+        0481: FIELD_WORD
+          "KnockoutAdvanceFlag"  offset = 00D4  type idx = 79
+        0499: FIELD_WORD
+          "PointTotals"  offset = 00BC  type idx = 78
+        04A9: FIELD_WORD
+          "numSmackables"  offset = 00B8  type idx = 9
+        04BB: FIELD_WORD
+          "personalityIndexes"  offset = 0078  type idx = 77
+        04D2: FIELD_WORD
+          "startingLineup"  offset = 0038  type idx = 76
+        04E5: FIELD_BYTE
+          "carInfo"  offset = 68  type idx = 75
+        04F0: FIELD_BYTE
+          "opponentCarType"  offset = 64  type idx = 9
+        0503: FIELD_BYTE
+          "numOpponentRaceCars"  offset = 60  type idx = 9
+        051A: FIELD_BYTE
+          "numPlayerRaceCars"  offset = 5C  type idx = 9
+        052F: FIELD_BYTE
+          "numCars"  offset = 58  type idx = 9
+        053A: FIELD_BYTE
+          "userSetting"  offset = 30  type idx = 70
+        0549: FIELD_BYTE
+          "randSeed"  offset = 2C  type idx = 9
+        0555: FIELD_BYTE
+          "WeatherNTime"  offset = 28  type idx = 9
+        0565: FIELD_BYTE
+          "track"  offset = 24  type idx = 9
+        056E: FIELD_BYTE
+          "sgge"  offset = 20  type idx = 9
+        0576: FIELD_BYTE
+          "replayMode"  offset = 1C  type idx = 9
+        0584: FIELD_BYTE
+          "catchupLogic"  offset = 18  type idx = 9
+        0594: FIELD_BYTE
+          "localCar"  offset = 14  type idx = 9
+        05A0: FIELD_BYTE
+          "commMode"  offset = 10  type idx = 9
+        05AC: FIELD_BYTE
+          "style"  offset = 0C  type idx = 9
+        05B5: FIELD_BYTE
+          "skill"  offset = 08  type idx = 9
+        05BE: FIELD_BYTE
+          "numLaps"  offset = 04  type idx = 9
+        05C9: FIELD_BYTE
+          "raceType"  offset = 00  type idx = 9
+        05D5: NAME(83)
+          "GameSetup_tData"  type idx = 82  scope idx = 1
+        05E8: NAME(84)
+          "GameSetup_tData"  type idx = 83  scope idx = 0
+        05FB: LONG_INDEX ARRAY(85)
+          high bound = 000000FF   base type idx = 4
+        0602: FIELD_LIST(86)
+          number of fields = 0003   size = 00000078
+        060A: FIELD_WORD
+          "buffer"  offset = 0078  type idx = 85
+        0615: FIELD_WORD
+          "size"  offset = 0074  type idx = 9
+        061E: FIELD_BYTE
+          "gameSetup"  offset = 00  type idx = 84
+        062B: NAME(87)
+          "tReplayBuffer"  type idx = 86  scope idx = 1
+        063C: NAME(88)
+          "tReplayBuffer"  type idx = 87  scope idx = 0
+        064D: BYTE_INDEX ARRAY(89)
+          high bound = 1F   base type idx = 5
+        0651: BYTE_INDEX ARRAY(90)
+          high bound = 1F   base type idx = 6
+        0655: BYTE_INDEX ARRAY(91)
+          high bound = 1F   base type idx = 6
+        0659: BYTE_INDEX ARRAY(92)
+          high bound = 1F   base type idx = 6
+        065D: FIELD_LIST(93)
+          number of fields = 0004   size = 00000080
+        0665: FIELD_BYTE
+          "states"  offset = 60  type idx = 92
+        066F: FIELD_BYTE
+          "brake"  offset = 40  type idx = 91
+        0678: FIELD_BYTE
+          "gas"  offset = 20  type idx = 90
+        067F: FIELD_BYTE
+          "steering"  offset = 00  type idx = 89
+        068B: NAME(94)
+          "tControllerData"  type idx = 93  scope idx = 1
+        069E: NAME(95)
+          "tControllerData"  type idx = 94  scope idx = 0
+        06B1: BYTE_INDEX ARRAY(96)
+          high bound = 07   base type idx = 95
+        06B5: BYTE_INDEX ARRAY(97)
+          high bound = 05   base type idx = 9
+        06B9: FIELD_LIST(98)
+          number of fields = 0005   size = 00000014
+        06C1: FIELD_BYTE
+          "cutToNextCamera"  offset = 10  type idx = 9
+        06D4: FIELD_BYTE
+          "cameraMode"  offset = 0C  type idx = 9
+        06E2: FIELD_BYTE
+          "lastEvent"  offset = 08  type idx = 9
+        06EF: FIELD_BYTE
+          "timeCounter"  offset = 04  type idx = 9
+        06FE: FIELD_BYTE
+          "defaultCamera"  offset = 00  type idx = 9
+        070F: NAME(99)
+          "tReplayCameraModes"  type idx = 98  scope idx = 1
+        0725: NAME(100)
+          "tReplayCameraModes"  type idx = 99  scope idx = 0
+        073B: BYTE_INDEX ARRAY(101)
+          high bound = 01   base type idx = 100
+        073F: BYTE_INDEX ARRAY(102)
+          high bound = 08   base type idx = 9
+        0743: FIELD_LIST(103)
+          number of fields = 0007   size = 0000001C
+        074B: FIELD_BYTE
+          "changeCamera"  offset = 18  type idx = 9
+        075B: FIELD_BYTE
+          "depressed"  offset = 14  type idx = 9
+        0768: FIELD_BYTE
+          "selection"  offset = 10  type idx = 9
+        0775: FIELD_BYTE
+          "camera"  offset = 0C  type idx = 9
+        077F: FIELD_BYTE
+          "end"  offset = 08  type idx = 9
+        0786: FIELD_BYTE
+          "speed"  offset = 04  type idx = 9
+        078F: FIELD_BYTE
+          "pause"  offset = 00  type idx = 9
+        0798: NAME(104)
+          "tReplayInterface"  type idx = 103  scope idx = 1
+        07AC: NAME(105)
+          "tReplayInterface"  type idx = 104  scope idx = 0
+        07C0: BYTE_INDEX ARRAY(106)
+          high bound = 20   base type idx = 4
+        07C4: NEAR386 PROC(107)
+          return type = 18
+            param 1:  type idx = 18
+        07C9: NEAR386 PROC(108)
+          return type = 14
+            param 1:  type idx = 95
+        07CE: BYTE_INDEX ARRAY(109)
+          high bound = 20   base type idx = 4
+        07D2: NEAR386 PROC(110)
+          return type = 95
+            param 1:  type idx = 14
+        07D7: BYTE_INDEX ARRAY(111)
+          high bound = 20   base type idx = 4
+        07DB: NEAR386 PROC(112)
+          return type = 14
+            param 1:  type idx = 9
+        07E0: BYTE_INDEX ARRAY(113)
+          high bound = 3B   base type idx = 4
+        07E4: BYTE_INDEX ARRAY(114)
+          high bound = 4F   base type idx = 4
+        07E8: FIELD_LIST(115)
+          number of fields = 0003   size = 0000000C
+        07F0: FIELD_BYTE
+          "z"  offset = 08  type idx = 9
+        07F5: FIELD_BYTE
+          "y"  offset = 04  type idx = 9
+        07FA: FIELD_BYTE
+          "x"  offset = 00  type idx = 9
+        07FF: NAME(116)
+          "coorddef"  type idx = 115  scope idx = 1
+        080B: NAME(117)
+          "LIBCOORD"  type idx = 116  scope idx = 0
+        0817: BYTE_INDEX ARRAY(118)
+          high bound = 03   base type idx = 53
+        081B: FIELD_LIST(119)
+          number of fields = 0003   size = 00000008
+        0823: FIELD_BYTE
+          "aPoints"  offset = 04  type idx = 118
+        082E: FIELD_BYTE
+          "light"  offset = 02  type idx = 50
+        0837: FIELD_BYTE
+          "material"  offset = 00  type idx = 50
+        0843: NAME(120)
+          "Stm_Quad"  type idx = 119  scope idx = 1
+        084F: NAME(121)
+          "Stm_Quad"  type idx = 120  scope idx = 0
+        085B: NEAR386 PTR(122)
+          base type idx = 121
+        085E: FIELD_LIST(123)
+          number of fields = 0002   size = 00000002
+        0866: FIELD_BYTE
+          "surface"  offset = 01  type idx = 53
+        0871: FIELD_BYTE
+          "rotationIndex"  offset = 00  type idx = 53
+        0882: NAME(124)
+          "Stm_SimQuad"  type idx = 123  scope idx = 1
+        0891: NAME(125)
+          "Stm_SimQuad"  type idx = 124  scope idx = 0
+        08A0: NEAR386 PTR(126)
+          base type idx = 125
+        08A3: BYTE_INDEX ARRAY(127)
+          high bound = 02   base type idx = 51
+        08A7: BYTE_INDEX ARRAY(128)
+          high bound = 02   base type idx = 51
+        08AB: FIELD_LIST(129)
+          number of fields = 0002   size = 0000000C
+        08B3: FIELD_BYTE
+          "forward"  offset = 06  type idx = 128
+        08BF: FIELD_BYTE
+          "normal"  offset = 00  type idx = 127
+        08C9: NAME(130)
+          "Stm_Rotation"  type idx = 129  scope idx = 1
+        08DA: NAME(131)
+          "Stm_Rotation"  type idx = 130  scope idx = 0
+        08EB: NEAR386 PTR(132)
+          base type idx = 131
+        08EF: FIELD_LIST(133)
+          number of fields = 0005   size = 00000008
+        08F7: FIELD_BYTE
+          "rightLinkSlice"  offset = 06  type idx = 51
+        0909: FIELD_BYTE
+          "leftLinkSlice"  offset = 04  type idx = 51
+        091A: FIELD_BYTE
+          "musicIndex"  offset = 03  type idx = 53
+        0928: FIELD_BYTE
+          "quadCount"  offset = 02  type idx = 53
+        0935: FIELD_BYTE
+          "quadIndex"  offset = 00  type idx = 50
+        0942: NAME(134)
+          "Stm_SimSlice"  type idx = 133  scope idx = 1
+        0953: NAME(135)
+          "Stm_SimSlice"  type idx = 134  scope idx = 0
+        0964: NEAR386 PTR(136)
+          base type idx = 135
+        0968: BYTE_INDEX ARRAY(137)
+          high bound = 03   base type idx = 117
+        096C: FIELD_LIST(138)
+          number of fields = 0003   size = 00000006
+        0974: FIELD_BYTE
+          "z"  offset = 04  type idx = 7
+        0979: FIELD_BYTE
+          "y"  offset = 02  type idx = 7
+        097E: FIELD_BYTE
+          "x"  offset = 00  type idx = 7
+        0983: NAME(139)
+          "COORD16"  type idx = 138  scope idx = 1
+        098F: NAME(140)
+          "COORD16"  type idx = 139  scope idx = 0
+        099B: BYTE_INDEX ARRAY(141)
+          high bound = 03   base type idx = 140
+        09A0: FIELD_LIST(142)
+          number of fields = 000F   size = 00000080
+        09A8: FIELD_BYTE
+          "lastRezRequested"  offset = 7C  type idx = 9
+        09BC: FIELD_BYTE
+          "slot"  offset = 78  type idx = 9
+        09C4: FIELD_BYTE
+          "chunk"  offset = 74  type idx = 9
+        09CD: FIELD_BYTE
+          "quad"  offset = 70  type idx = 9
+        09D5: FIELD_BYTE
+          "quadChanged"  offset = 6E  type idx = 7
+        09E4: FIELD_BYTE
+          "sliceChanged"  offset = 6C  type idx = 7
+        09F4: FIELD_BYTE
+          "rez"  offset = 68  type idx = 9
+        09FB: FIELD_BYTE
+          "quadPts16"  offset = 50  type idx = 141
+        0A09: FIELD_BYTE
+          "quadPts"  offset = 20  type idx = 137
+        0A15: FIELD_BYTE
+          "simSlice"  offset = 1C  type idx = 136
+        0A22: FIELD_BYTE
+          "simQRot"  offset = 18  type idx = 132
+        0A2E: FIELD_BYTE
+          "simQuad"  offset = 14  type idx = 126
+        0A39: FIELD_BYTE
+          "stmQuad"  offset = 10  type idx = 122
+        0A44: FIELD_BYTE
+          "slice"  offset = 0C  type idx = 9
+        0A4D: FIELD_BYTE
+          "pos"  offset = 00  type idx = 117
+        0A54: NAME(143)
+          "BWorldSm_Pos"  type idx = 142  scope idx = 0
+        0A65: BYTE_INDEX ARRAY(144)
+          high bound = 08   base type idx = 9
+        0A69: FIELD_LIST(145)
+          number of fields = 0001   size = 00000024
+        0A71: FIELD_BYTE
+          "m"  offset = 00  type idx = 144
+        0A77: NAME(146)
+          "matrixtdef"  type idx = 145  scope idx = 1
+        0A86: NAME(147)
+          "MATRIX3DT"  type idx = 146  scope idx = 0
+        0A94: NAME(148)
+          "BO_tNewtonObj"  type idx = 154  scope idx = 1
+        0AA6: NEAR386 PTR(149)
+          base type idx = 148
+        0AAA: FIELD_LIST(150)
+          number of fields = 0006   size = 00000020
+        0AB2: FIELD_BYTE
+          "objOverWall"  offset = 1C  type idx = 9
+        0AC1: FIELD_BYTE
+          "collisionPoint"  offset = 10  type idx = 117
+        0AD3: FIELD_BYTE
+          "disableCollisionTimer"  offset = 0C  type idx = 9
+        0AEC: FIELD_BYTE
+          "sfxType"  offset = 08  type idx = 9
+        0AF7: FIELD_BYTE
+          "otherObj"  offset = 04  type idx = 149
+        0B04: FIELD_BYTE
+          "impulse"  offset = 00  type idx = 9
+        0B0F: NAME(151)
+          "BO_tNewtonCollisionInfo"  type idx = 150  scope idx = 1
+        0B2B: NAME(152)
+          "BO_tNewtonCollisionInfo"  type idx = 151  scope idx = 0
+        0B47: BYTE_INDEX ARRAY(153)
+          high bound = 03   base type idx = 117
+        0B4B: FIELD_LIST(154)
+          number of fields = 0027   size = 000000D9
+        0B53: FIELD_WORD
+          "shadowCoord"  offset = 00A9  type idx = 153
+        0B64: FIELD_WORD
+          "shadowMat"  offset = 0085  type idx = 147
+        0B73: FIELD_WORD
+          "driveSurfaceType"  offset = 0081  type idx = 9
+        0B88: FIELD_WORD
+          "groundSurfaceType"  offset = 007D  type idx = 9
+        0B9E: FIELD_WORD
+          "collision"  offset = 005D  type idx = 152
+        0BAD: FIELD_WORD
+          "objAltitude"  offset = 0059  type idx = 9
+        0BBD: FIELD_WORD
+          "groundVel"  offset = 0055  type idx = 9
+        0BCB: FIELD_WORD
+          "groundElevation"  offset = 0051  type idx = 9
+        0BDF: FIELD_WORD
+          "flatSpinVel"  offset = 004D  type idx = 9
+        0BEF: FIELD_WORD
+          "deadTimer"  offset = 004B  type idx = 8
+        0BFD: FIELD_WORD
+          "flightTime"  offset = 0049  type idx = 8
+        0C0C: FIELD_WORD
+          "roadYaw"  offset = 0045  type idx = 9
+        0C18: FIELD_WORD
+          "roadCenterPoint"  offset = 0039  type idx = 117
+        0C2C: FIELD_WORD
+          "roadMatrix"  offset = 0015  type idx = 147
+        0C3C: FIELD_WORD
+          "dimensionRadius"  offset = 0011  type idx = 9
+        0C50: FIELD_WORD
+          "dimension"  offset = 0005  type idx = 117
+        0C5E: FIELD_BYTE
+          "orientationToGround"  offset = F9  type idx = 117
+        0C75: FIELD_BYTE
+          "moInertiaInv"  offset = F5  type idx = 9
+        0C85: FIELD_BYTE
+          "moInertia"  offset = F1  type idx = 9
+        0C92: FIELD_BYTE
+          "angularVel"  offset = E5  type idx = 117
+        0CA0: FIELD_BYTE
+          "orientMat"  offset = C1  type idx = 147
+        0CAE: FIELD_BYTE
+          "xRelRoadCenter"  offset = BD  type idx = 9
+        0CC0: FIELD_BYTE
+          "speedXZ"  offset = B9  type idx = 9
+        0CCB: FIELD_BYTE
+          "massInv"  offset = B5  type idx = 9
+        0CD6: FIELD_BYTE
+          "mass"  offset = B1  type idx = 9
+        0CDE: FIELD_BYTE
+          "linearVel"  offset = A5  type idx = 117
+        0CEB: FIELD_BYTE
+          "position"  offset = 99  type idx = 117
+        0CF7: FIELD_BYTE
+          "cumulatedRot"  offset = 95  type idx = 9
+        0D07: FIELD_BYTE
+          "gravityMult"  offset = 91  type idx = 9
+        0D16: FIELD_BYTE
+          "bounce"  offset = 90  type idx = 6
+        0D20: FIELD_BYTE
+          "reOrthoCounter"  offset = 8F  type idx = 6
+        0D32: FIELD_BYTE
+          "firstFlight"  offset = 8E  type idx = 6
+        0D41: FIELD_BYTE
+          "active"  offset = 8D  type idx = 6
+        0D4B: FIELD_BYTE
+          "simOptz"  offset = 8C  type idx = 6
+        0D56: FIELD_BYTE
+          "distToPlayer"  offset = 88  type idx = 9
+        0D66: FIELD_BYTE
+          "simRoadInfo"  offset = 08  type idx = 143
+        0D76: FIELD_BYTE
+          "totalSlice"  offset = 06  type idx = 8
+        0D84: FIELD_BYTE
+          "oldSlice"  offset = 04  type idx = 8
+        0D90: FIELD_BYTE
+          "objID"  offset = 00  type idx = 9
+        0D99: NAME(155)
+          "BO_tNewtonObj"  type idx = 148  scope idx = 0
+        0DAB: BYTE_INDEX ARRAY(156)
+          high bound = 08   base type idx = 4
+        0DAF: NEAR386 PTR(157)
+          base type idx = 74
+        0DB2: BYTE_INDEX ARRAY(158)
+          high bound = 07   base type idx = 9
+        0DB6: BYTE_INDEX ARRAY(159)
+          high bound = 07   base type idx = 9
+        0DBA: FIELD_LIST(160)
+          number of fields = 000B   size = 00000064
+        0DC2: FIELD_BYTE
+          "finishType"  offset = 60  type idx = 9
+        0DD0: FIELD_BYTE
+          "fatalCrashes"  offset = 5C  type idx = 9
+        0DE0: FIELD_BYTE
+          "position"  offset = 58  type idx = 9
+        0DEC: FIELD_BYTE
+          "topSpeed"  offset = 38  type idx = 159
+        0DF9: FIELD_BYTE
+          "time"  offset = 18  type idx = 158
+        0E02: FIELD_BYTE
+          "lapTime"  offset = 14  type idx = 9
+        0E0D: FIELD_BYTE
+          "lap"  offset = 10  type idx = 9
+        0E14: FIELD_BYTE
+          "lastSlice"  offset = 0C  type idx = 9
+        0E21: FIELD_BYTE
+          "slice"  offset = 08  type idx = 9
+        0E2A: FIELD_BYTE
+          "sliceTime"  offset = 04  type idx = 9
+        0E37: FIELD_BYTE
+          "sliceTotal"  offset = 00  type idx = 9
+        0E45: NAME(161)
+          "Car_tStats"  type idx = 160  scope idx = 1
+        0E54: NAME(162)
+          "Car_tStats"  type idx = 161  scope idx = 0
+        0E63: FIELD_LIST(163)
+          number of fields = 000D   size = 00000013
+        0E6B: FIELD_BYTE
+          "steering"  offset = 0F  type idx = 9
+        0E77: FIELD_BYTE
+          "desiredSteering"  offset = 0B  type idx = 9
+        0E8A: FIELD_BYTE
+          "lookBehind"  offset = 0A  type idx = 4
+        0E98: FIELD_BYTE
+          "horn"  offset = 09  type idx = 4
+        0EA0: FIELD_BYTE
+          "handBrake"  offset = 08  type idx = 4
+        0EAD: FIELD_BYTE
+          "gearShiftTimer"  offset = 07  type idx = 4
+        0EBF: FIELD_BYTE
+          "gear"  offset = 06  type idx = 4
+        0EC7: FIELD_BYTE
+          "lastGear"  offset = 05  type idx = 4
+        0ED3: FIELD_BYTE
+          "brakeLevel"  offset = 04  type idx = 4
+        0EE1: FIELD_BYTE
+          "gasLevel"  offset = 03  type idx = 4
+        0EED: FIELD_BYTE
+          "desiredGear"  offset = 02  type idx = 4
+        0EFC: FIELD_BYTE
+          "desiredBrakeLevel"  offset = 01  type idx = 4
+        0F11: FIELD_BYTE
+          "desiredGasLevel"  offset = 00  type idx = 4
+        0F24: NAME(164)
+          "Car_tControl"  type idx = 163  scope idx = 1
+        0F35: NAME(165)
+          "Car_tControl"  type idx = 164  scope idx = 0
+        0F46: BYTE_INDEX ARRAY(166)
+          high bound = 07   base type idx = 9
+        0F4A: BYTE_INDEX ARRAY(167)
+          high bound = 07   base type idx = 9
+        0F4E: BYTE_INDEX ARRAY(168)
+          high bound = 28   base type idx = 9
+        0F52: BYTE_INDEX ARRAY(169)
+          high bound = 07   base type idx = 4
+        0F56: BYTE_INDEX ARRAY(170)
+          high bound = 07   base type idx = 4
+        0F5A: BYTE_INDEX ARRAY(171)
+          high bound = 07   base type idx = 4
+        0F5E: BYTE_INDEX ARRAY(172)
+          high bound = 07   base type idx = 4
+        0F62: BYTE_INDEX ARRAY(173)
+          high bound = 07   base type idx = 9
+        0F66: BYTE_INDEX ARRAY(174)
+          high bound = 07   base type idx = 9
+        0F6A: BYTE_INDEX ARRAY(175)
+          high bound = 07   base type idx = 9
+        0F6E: FIELD_LIST(176)
+          number of fields = 0028   size = 000000DC
+        0F76: FIELD_WORD
+          "maxTorque"  offset = 00D8  type idx = 9
+        0F84: FIELD_WORD
+          "lateralGripMultInv"  offset = 00D4  type idx = 9
+        0F9B: FIELD_WORD
+          "accToAlphaRotInertia"  offset = 00D0  type idx = 9
+        0FB4: FIELD_WORD
+          "alphaToAccRotInertia"  offset = 00CC  type idx = 9
+        0FCD: FIELD_WORD
+          "dragCoeff"  offset = 00C8  type idx = 9
+        0FDB: FIELD_WORD
+          "gearAccCoeff"  offset = 00A8  type idx = 175
+        0FED: FIELD_WORD
+          "velToRpmRatioInv"  offset = 0088  type idx = 174
+        1003: FIELD_WORD
+          "gearVelInv"  offset = 0068  type idx = 173
+        1013: FIELD_WORD
+          "redlineInv"  offset = 0064  type idx = 9
+        1022: FIELD_WORD
+          "highTurnFactor"  offset = 0060  type idx = 9
+        1035: FIELD_WORD
+          "lowTurnFactor"  offset = 005C  type idx = 9
+        1047: FIELD_WORD
+          "pushFactor"  offset = 0058  type idx = 9
+        1056: FIELD_WORD
+          "slideAssistFactor"  offset = 0054  type idx = 9
+        106C: FIELD_WORD
+          "slideVelCap"  offset = 0050  type idx = 9
+        107C: FIELD_WORD
+          "spinVelCap"  offset = 004C  type idx = 9
+        108B: FIELD_WORD
+          "slideMultiplier"  offset = 0048  type idx = 9
+        109F: FIELD_WORD
+          "gasOffFactor"  offset = 0044  type idx = 9
+        10B0: FIELD_WORD
+          "gTransferFactor"  offset = 0040  type idx = 9
+        10C4: FIELD_WORD
+          "aeroDownForce"  offset = 003C  type idx = 9
+        10D6: FIELD_WORD
+          "lateralGripMult"  offset = 0038  type idx = 9
+        10EA: FIELD_WORD
+          "turnOutRamp"  offset = 0034  type idx = 9
+        10FA: FIELD_WORD
+          "turnInRamp"  offset = 0030  type idx = 9
+        1109: FIELD_WORD
+          "maxSteeringAcc"  offset = 002C  type idx = 9
+        111C: FIELD_WORD
+          "frontGripBias"  offset = 0028  type idx = 9
+        112E: FIELD_WORD
+          "wheelBase"  offset = 0024  type idx = 9
+        113C: FIELD_WORD
+          "brakeDecCurve"  offset = 001C  type idx = 172
+        114F: FIELD_WORD
+          "brakeIncCurve"  offset = 0014  type idx = 171
+        1162: FIELD_WORD
+          "gasDecCurve"  offset = 000C  type idx = 170
+        1173: FIELD_WORD
+          "gasIncCurve"  offset = 0004  type idx = 169
+        1184: FIELD_WORD
+          "frontBrakeRatio"  offset = 0000  type idx = 9
+        1198: FIELD_BYTE
+          "maxBrakeAcc"  offset = FC  type idx = 9
+        11A7: FIELD_BYTE
+          "frontDriveRatio"  offset = F8  type idx = 9
+        11BA: FIELD_BYTE
+          "maxSpeed"  offset = F4  type idx = 9
+        11C6: FIELD_BYTE
+          "redline"  offset = F0  type idx = 9
+        11D1: FIELD_BYTE
+          "torqueCurve"  offset = 4C  type idx = 168
+        11E1: FIELD_BYTE
+          "gearEfficiency"  offset = 2C  type idx = 167
+        11F4: FIELD_BYTE
+          "velToRpmRatio"  offset = 0C  type idx = 166
+        1206: FIELD_BYTE
+          "gearShiftDelay"  offset = 08  type idx = 9
+        1218: FIELD_BYTE
+          "numGears"  offset = 04  type idx = 9
+        1224: FIELD_BYTE
+          "mass"  offset = 00  type idx = 9
+        122C: NAME(177)
+          "Car_tSpecs"  type idx = 176  scope idx = 1
+        123B: NAME(178)
+          "Car_tSpecs"  type idx = 177  scope idx = 0
+        124A: NEAR386 PTR(179)
+          base type idx = 178
+        124E: BYTE_INDEX ARRAY(180)
+          high bound = 03   base type idx = 117
+        1252: NAME(181)
+          "Car_tObj"  type idx = 230  scope idx = 1
+        125F: NEAR386 PTR(182)
+          base type idx = 181
+        1263: BYTE_INDEX ARRAY(183)
+          high bound = 06   base type idx = 9
+        1267: BYTE_INDEX ARRAY(184)
+          high bound = 06   base type idx = 9
+        126B: NAME(185)
+          "Transformer_tNodeInfo"  type idx = 213  scope idx = 1
+        1285: NEAR386 PTR(186)
+          base type idx = 185
+        1289: BYTE_INDEX ARRAY(187)
+          high bound = 04   base type idx = 186
+        128E: FIELD_LIST(188)
+          number of fields = 0005   size = 0000006C
+        1296: FIELD_BYTE
+          "translationalOffSet"  offset = 60  type idx = 117
+        12AD: FIELD_BYTE
+          "cumulatedTranslation"  offset = 54  type idx = 117
+        12C5: FIELD_BYTE
+          "cumulatedOrientMat"  offset = 30  type idx = 147
+        12DC: FIELD_BYTE
+          "translationRelParent"  offset = 24  type idx = 117
+        12F4: FIELD_BYTE
+          "orientMatRelParent"  offset = 00  type idx = 147
+        130B: NAME(189)
+          "Transformer_tTransformNode"  type idx = 188  scope idx = 1
+        132A: NAME(190)
+          "Transformer_tTransformNode"  type idx = 189  scope idx = 0
+        1349: NAME(191)
+          "Transformer_tVertex"  type idx = 140  scope idx = 0
+        1361: NEAR386 PTR(192)
+          base type idx = 191
+        1365: BYTE_INDEX ARRAY(193)
+          high bound = 03   base type idx = 6
+        1369: BYTE_INDEX ARRAY(194)
+          high bound = 03   base type idx = 4
+        136D: FIELD_LIST(195)
+          number of fields = 0005   size = 0000000C
+        1375: FIELD_BYTE
+          "textureName"  offset = 08  type idx = 194
+        1385: FIELD_BYTE
+          "vertexId"  offset = 04  type idx = 193
+        1392: FIELD_BYTE
+          "textureIndex"  offset = 02  type idx = 8
+        13A2: FIELD_BYTE
+          "animOffset"  offset = 01  type idx = 6
+        13B0: FIELD_BYTE
+          "type"  offset = 00  type idx = 6
+        13B8: NAME(196)
+          "Transformer_tFacet"  type idx = 195  scope idx = 1
+        13CF: NAME(197)
+          "Transformer_tFacet"  type idx = 196  scope idx = 0
+        13E6: NEAR386 PTR(198)
+          base type idx = 197
+        13EA: FIELD_LIST(199)
+          number of fields = 0006   size = 00000018
+        13F2: FIELD_BYTE
+          "maxPitchInvisibility"  offset = 14  type idx = 9
+        140A: FIELD_BYTE
+          "minPitchInvisibility"  offset = 10  type idx = 9
+        1422: FIELD_BYTE
+          "maxYawInvisibility"  offset = 0C  type idx = 9
+        1438: FIELD_BYTE
+          "minYawInvisibility"  offset = 08  type idx = 9
+        144E: FIELD_BYTE
+          "partLinkPriority"  offset = 04  type idx = 9
+        1462: FIELD_BYTE
+          "zSortNeeded"  offset = 00  type idx = 9
+        1471: NAME(200)
+          "Transformer_tDrawControlInfo"  type idx = 199  scope idx = 1
+        1492: NAME(201)
+          "Transformer_tDrawControlInfo"  type idx = 200  scope idx = 0
+        14B3: FIELD_LIST(202)
+          number of fields = 0006   size = 00000034
+        14BB: FIELD_BYTE
+          "drawControl"  offset = 1C  type idx = 201
+        14CB: FIELD_BYTE
+          "facet"  offset = 18  type idx = 198
+        14D5: FIELD_BYTE
+          "vertex"  offset = 14  type idx = 192
+        14E0: FIELD_BYTE
+          "translation"  offset = 08  type idx = 117
+        14EF: FIELD_BYTE
+          "numFacet"  offset = 04  type idx = 9
+        14FB: FIELD_BYTE
+          "numVertex"  offset = 00  type idx = 9
+        1508: NAME(203)
+          "Transformer_tObj"  type idx = 202  scope idx = 1
+        151D: NAME(204)
+          "Transformer_tObj"  type idx = 203  scope idx = 0
+        1532: NEAR386 PTR(205)
+          base type idx = 204
+        1536: BYTE_INDEX ARRAY(206)
+          high bound = 0A   base type idx = 205
+        153B: FIELD_LIST(207)
+          number of fields = 0002   size = 00000030
+        1543: FIELD_BYTE
+          "obj"  offset = 04  type idx = 206
+        154B: FIELD_BYTE
+          "numSubObj"  offset = 00  type idx = 9
+        1558: NAME(208)
+          "Transformer_tGeometryNode"  type idx = 207  scope idx = 1
+        1576: NAME(209)
+          "Transformer_tGeometryNode"  type idx = 208  scope idx = 0
+        1594: FIELD_LIST(210)
+          number of fields = 0003   size = 0000000C
+        159C: FIELD_BYTE
+          "parameter2"  offset = 08  type idx = 43
+        15AA: FIELD_BYTE
+          "parameter1"  offset = 04  type idx = 43
+        15B8: FIELD_BYTE
+          "func"  offset = 00  type idx = 61
+        15C0: NAME(211)
+          "Transformer_tAnimInfo"  type idx = 210  scope idx = 1
+        15DA: NAME(212)
+          "Transformer_tAnimInfo"  type idx = 211  scope idx = 0
+        15F4: FIELD_LIST(213)
+          number of fields = 0007   size = 000000C8
+        15FC: FIELD_BYTE
+          "anim"  offset = BC  type idx = 212
+        1605: FIELD_BYTE
+          "geom"  offset = 8C  type idx = 209
+        160E: FIELD_BYTE
+          "trans"  offset = 20  type idx = 190
+        1618: FIELD_BYTE
+          "childPtr"  offset = 0C  type idx = 187
+        1625: FIELD_BYTE
+          "numChild"  offset = 08  type idx = 9
+        1631: FIELD_BYTE
+          "parentPtr"  offset = 04  type idx = 186
+        163F: FIELD_BYTE
+          "type"  offset = 00  type idx = 9
+        1647: NAME(214)
+          "Transformer_tNodeInfo"  type idx = 185  scope idx = 0
+        1661: NEAR386 PTR(215)
+          base type idx = 214
+        1665: BYTE_INDEX ARRAY(216)
+          high bound = 03   base type idx = 215
+        166A: FIELD_LIST(217)
+          number of fields = 0006   size = 00000018
+        1672: FIELD_BYTE
+          "smoking"  offset = 14  type idx = 9
+        167D: FIELD_BYTE
+          "bounceRollTimer"  offset = 10  type idx = 9
+        1690: FIELD_BYTE
+          "bounceRollAmplitude"  offset = 0C  type idx = 9
+        16A7: FIELD_BYTE
+          "bouncePitchTimer"  offset = 08  type idx = 9
+        16BB: FIELD_BYTE
+          "bouncePitchAmplitude"  offset = 04  type idx = 9
+        16D3: FIELD_BYTE
+          "resetTimer"  offset = 00  type idx = 9
+        16E1: NAME(218)
+          "Cars_tCollisionInfo"  type idx = 217  scope idx = 1
+        16F9: NAME(219)
+          "Cars_tCollisionInfo"  type idx = 218  scope idx = 0
+        1711: FIELD_LIST(220)
+          number of fields = 0006   size = 00000018
+        1719: FIELD_BYTE
+          "panangle"  offset = 14  type idx = 9
+        1725: FIELD_BYTE
+          "force"  offset = 10  type idx = 9
+        172E: FIELD_BYTE
+          "surface2"  offset = 0C  type idx = 9
+        173A: FIELD_BYTE
+          "surface1"  offset = 08  type idx = 9
+        1746: FIELD_BYTE
+          "channel"  offset = 04  type idx = 9
+        1751: FIELD_BYTE
+          "type"  offset = 00  type idx = 9
+        1759: NAME(221)
+          "Cars_tAudio"  type idx = 220  scope idx = 1
+        1769: NAME(222)
+          "Cars_tAudio"  type idx = 221  scope idx = 0
+        1779: BYTE_INDEX ARRAY(223)
+          high bound = 04   base type idx = 222
+        177E: BYTE_INDEX ARRAY(224)
+          high bound = 02   base type idx = 9
+        1782: BYTE_INDEX ARRAY(225)
+          high bound = 03   base type idx = 198
+        1787: BYTE_INDEX ARRAY(226)
+          high bound = 03   base type idx = 198
+        178C: FIELD_LIST(227)
+          number of fields = 0016   size = 00000078
+        1794: FIELD_BYTE
+          "scalarSpeed"  offset = 74  type idx = 9
+        17A3: FIELD_BYTE
+          "bumpyNess"  offset = 70  type idx = 9
+        17B0: FIELD_BYTE
+          "gravelFactor"  offset = 6C  type idx = 9
+        17C0: FIELD_BYTE
+          "pitchRollFactor"  offset = 68  type idx = 9
+        17D3: FIELD_BYTE
+          "currentRoll"  offset = 64  type idx = 9
+        17E2: FIELD_BYTE
+          "currentPitch"  offset = 60  type idx = 9
+        17F2: FIELD_BYTE
+          "bodyRoll"  offset = 5C  type idx = 9
+        17FE: FIELD_BYTE
+          "bodyPitch"  offset = 58  type idx = 9
+        180B: FIELD_BYTE
+          "spoilerAngle"  offset = 54  type idx = 9
+        181B: FIELD_BYTE
+          "numBrakeLight"  offset = 50  type idx = 9
+        182C: FIELD_BYTE
+          "brakeLightFacet"  offset = 40  type idx = 226
+        1840: FIELD_BYTE
+          "wheelSwapCount"  offset = 3C  type idx = 9
+        1852: FIELD_BYTE
+          "wheelAnimFacet"  offset = 2C  type idx = 225
+        1865: FIELD_BYTE
+          "lastTrafficColorIndex"  offset = 28  type idx = 9
+        187E: FIELD_BYTE
+          "lastFlashCounterGameTick"  offset = 24  type idx = 9
+        189A: FIELD_BYTE
+          "flashingCounter"  offset = 20  type idx = 9
+        18AD: FIELD_BYTE
+          "subDivideLevel"  offset = 1C  type idx = 9
+        18BF: FIELD_BYTE
+          "otherTextureStartIndex"  offset = 10  type idx = 224
+        18DA: FIELD_BYTE
+          "textureStartIndex"  offset = 0C  type idx = 9
+        18EF: FIELD_BYTE
+          "carRemapID"  offset = 08  type idx = 9
+        18FD: FIELD_BYTE
+          "carTextureFile"  offset = 04  type idx = 18
+        190F: FIELD_BYTE
+          "colorIndex"  offset = 00  type idx = 9
+        191D: NAME(228)
+          "Cars_tRenderInfo"  type idx = 227  scope idx = 1
+        1932: NAME(229)
+          "Cars_tRenderInfo"  type idx = 228  scope idx = 0
+        1947: FIELD_LIST(230)
+          number of fields = 006A   size = 00000071
+        194F: FIELD_WORD
+          "render"  offset = 00F9  type idx = 229
+        195B: FIELD_WORD
+          "audio"  offset = 0081  type idx = 223
+        1966: FIELD_WORD
+          "audioCount"  offset = 007D  type idx = 9
+        1975: FIELD_WORD
+          "collision"  offset = 0065  type idx = 219
+        1984: FIELD_WORD
+          "renderDetail"  offset = 0055  type idx = 216
+        1996: FIELD_WORD
+          "slackProb"  offset = 0051  type idx = 9
+        19A4: FIELD_WORD
+          "tSpeedFactor"  offset = 004D  type idx = 9
+        19B5: FIELD_WORD
+          "drag"  offset = 0049  type idx = 9
+        19BE: FIELD_WORD
+          "aiGlue"  offset = 0045  type idx = 9
+        19C9: FIELD_WORD
+          "max_aa"  offset = 0041  type idx = 9
+        19D4: FIELD_WORD
+          "max_clacc"  offset = 003D  type idx = 9
+        19E2: FIELD_WORD
+          "timeOffRoad"  offset = 0039  type idx = 9
+        19F2: FIELD_WORD
+          "targetLatPos"  offset = 0035  type idx = 9
+        1A03: FIELD_WORD
+          "target"  offset = 0031  type idx = 182
+        1A0F: FIELD_WORD
+          "hitCount"  offset = 002D  type idx = 9
+        1A1C: FIELD_WORD
+          "psychoMode"  offset = 0029  type idx = 9
+        1A2B: FIELD_WORD
+          "lateralVelocity"  offset = 0025  type idx = 9
+        1A3F: FIELD_WORD
+          "aCarWRTRoad"  offset = 0021  type idx = 9
+        1A4F: FIELD_WORD
+          "aDesired"  offset = 001D  type idx = 9
+        1A5C: FIELD_WORD
+          "aCar"  offset = 0019  type idx = 9
+        1A65: FIELD_WORD
+          "driveDirectionTimer"  offset = 0015  type idx = 9
+        1A7D: FIELD_WORD
+          "driveDirection"  offset = 0011  type idx = 9
+        1A90: FIELD_WORD
+          "driveDirectionReverseTime"  offset = 000D  type idx = 9
+        1AAE: FIELD_WORD
+          "angularAcc_ch"  offset = 0001  type idx = 117
+        1AC0: FIELD_WORD
+          "aCarWRTDesired"  offset = 00FD  type idx = 9
+        1AD3: FIELD_WORD
+          "desiredVector"  offset = 00F1  type idx = 117
+        1AE5: FIELD_WORD
+          "laneIndex"  offset = 00ED  type idx = 9
+        1AF3: FIELD_WORD
+          "barrierThinkHarder"  offset = 00E9  type idx = 9
+        1B0A: FIELD_WORD
+          "handlingMult"  offset = 00E5  type idx = 9
+        1B1B: FIELD_WORD
+          "lowHandling"  offset = 00E1  type idx = 9
+        1B2B: FIELD_WORD
+          "highHandling"  offset = 00DD  type idx = 9
+        1B3C: FIELD_WORD
+          "lifeCounter"  offset = 00D9  type idx = 9
+        1B4C: FIELD_WORD
+          "speedFactor"  offset = 00D5  type idx = 9
+        1B5C: FIELD_WORD
+          "accTable"  offset = 00F5  type idx = 63
+        1B69: FIELD_WORD
+          "invTopSpeeds"  offset = 00D9  type idx = 184
+        1B7B: FIELD_WORD
+          "topSpeeds"  offset = 00BD  type idx = 183
+        1B8A: FIELD_WORD
+          "laneChangeSpeed"  offset = 00B9  type idx = 9
+        1B9E: FIELD_WORD
+          "safeSpeedAdjust"  offset = 00B5  type idx = 9
+        1BB2: FIELD_WORD
+          "physicsModelTimer"  offset = 00B1  type idx = 9
+        1BC8: FIELD_WORD
+          "tailgateTimer"  offset = 00AD  type idx = 9
+        1BDA: FIELD_WORD
+          "redLine"  offset = 00A9  type idx = 9
+        1BE6: FIELD_WORD
+          "aiShiftTimer"  offset = 00A5  type idx = 9
+        1BF7: FIELD_WORD
+          "aiShiftDuration"  offset = 00A1  type idx = 9
+        1C0B: FIELD_WORD
+          "basisCar"  offset = 009D  type idx = 182
+        1C19: FIELD_WORD
+          "roadPosition"  offset = 0099  type idx = 9
+        1C2A: FIELD_WORD
+          "AIFlags"  offset = 0095  type idx = 9
+        1C36: FIELD_WORD
+          "laneSlack"  offset = 0091  type idx = 9
+        1C44: FIELD_WORD
+          "speed"  offset = 008D  type idx = 9
+        1C4E: FIELD_WORD
+          "currentSpeed"  offset = 0089  type idx = 9
+        1C5F: FIELD_WORD
+          "desiredSpeed"  offset = 0085  type idx = 9
+        1C70: FIELD_WORD
+          "desiredPosition"  offset = 0081  type idx = 9
+        1C84: FIELD_WORD
+          "funcDoPostCollisionStuff"  offset = 007D  type idx = 46
+        1CA1: FIELD_WORD
+          "funcTestMeForCollisions"  offset = 0079  type idx = 46
+        1CBD: FIELD_WORD
+          "funcQDPhysicsUpdateRot"  offset = 0075  type idx = 46
+        1CD8: FIELD_WORD
+          "funcQDPhysicsUpdateVel"  offset = 0071  type idx = 46
+        1CF3: FIELD_WORD
+          "funcGravityPhysics"  offset = 006D  type idx = 46
+        1D0A: FIELD_WORD
+          "funcHandlingPhysics"  offset = 0069  type idx = 46
+        1D22: FIELD_WORD
+          "funcStats"  offset = 0065  type idx = 46
+        1D30: FIELD_WORD
+          "funcControl"  offset = 0061  type idx = 46
+        1D40: FIELD_WORD
+          "funcReplay"  offset = 005D  type idx = 46
+        1D4F: FIELD_WORD
+          "funcUpdateRoadInfo"  offset = 0059  type idx = 46
+        1D66: FIELD_WORD
+          "ffbAcc"  offset = 0055  type idx = 9
+        1D71: FIELD_WORD
+          "ffbMax"  offset = 0051  type idx = 9
+        1D7C: FIELD_WORD
+          "oldAudioSkidState"  offset = 004D  type idx = 9
+        1D92: FIELD_WORD
+          "oldSkidPoint"  offset = 001D  type idx = 180
+        1DA4: FIELD_WORD
+          "oldSkidState"  offset = 0019  type idx = 9
+        1DB5: FIELD_WORD
+          "rearSkid"  offset = 0015  type idx = 9
+        1DC2: FIELD_WORD
+          "frontSkid"  offset = 0011  type idx = 9
+        1DD0: FIELD_WORD
+          "gTransferFront"  offset = 000D  type idx = 9
+        1DE3: FIELD_WORD
+          "extraRenderingYaw"  offset = 0009  type idx = 9
+        1DF9: FIELD_WORD
+          "slide"  offset = 0005  type idx = 9
+        1E03: FIELD_WORD
+          "angularVel"  offset = 0001  type idx = 9
+        1E12: FIELD_WORD
+          "maxTurnAngle"  offset = 00FD  type idx = 9
+        1E23: FIELD_WORD
+          "velocity"  offset = 00F9  type idx = 9
+        1E30: FIELD_WORD
+          "timer"  offset = 00F5  type idx = 9
+        1E3A: FIELD_WORD
+          "wheelLock"  offset = 00F1  type idx = 9
+        1E48: FIELD_WORD
+          "frontWheelSpin"  offset = 00ED  type idx = 9
+        1E5B: FIELD_WORD
+          "wheelSpin"  offset = 00E9  type idx = 9
+        1E69: FIELD_WORD
+          "flywheelRpm"  offset = 00E5  type idx = 9
+        1E79: FIELD_WORD
+          "specs"  offset = 00E1  type idx = 179
+        1E84: FIELD_WORD
+          "control"  offset = 00CE  type idx = 165
+        1E91: FIELD_WORD
+          "linearAcc_rh"  offset = 00C2  type idx = 117
+        1EA2: FIELD_WORD
+          "angularVel_ch"  offset = 00B6  type idx = 117
+        1EB4: FIELD_WORD
+          "linearVel_ch"  offset = 00AA  type idx = 117
+        1EC5: FIELD_WORD
+          "linearAcc_ch"  offset = 009E  type idx = 117
+        1ED6: FIELD_WORD
+          "angularAcc"  offset = 0092  type idx = 117
+        1EE5: FIELD_WORD
+          "linearAcc"  offset = 0086  type idx = 117
+        1EF3: FIELD_WORD
+          "wrongway"  offset = 0082  type idx = 9
+        1F00: FIELD_WORD
+          "crash"  offset = 007E  type idx = 9
+        1F0A: FIELD_WORD
+          "stats"  offset = 001A  type idx = 162
+        1F15: FIELD_WORD
+          "carInfo"  offset = 0016  type idx = 157
+        1F22: FIELD_WORD
+          "glue"  offset = 0012  type idx = 9
+        1F2B: FIELD_WORD
+          "roadSpan"  offset = 000E  type idx = 9
+        1F38: FIELD_WORD
+          "rampBrake"  offset = 000A  type idx = 9
+        1F46: FIELD_WORD
+          "rampGas"  offset = 0006  type idx = 9
+        1F52: FIELD_WORD
+          "rampSteering"  offset = 0002  type idx = 9
+        1F63: FIELD_WORD
+          "yaw"  offset = 00FE  type idx = 9
+        1F6B: FIELD_WORD
+          "roadSurface"  offset = 00FA  type idx = 9
+        1F7B: FIELD_WORD
+          "unlap"  offset = 00F6  type idx = 9
+        1F85: FIELD_WORD
+          "lap"  offset = 00F2  type idx = 9
+        1F8D: FIELD_WORD
+          "carFlags"  offset = 00EE  type idx = 9
+        1F9A: FIELD_WORD
+          "sortIndex"  offset = 00EA  type idx = 9
+        1FA8: FIELD_WORD
+          "humanIndex"  offset = 00E6  type idx = 9
+        1FB7: FIELD_WORD
+          "carIndex"  offset = 00E2  type idx = 9
+        1FC4: FIELD_WORD
+          "carName"  offset = 00D9  type idx = 156
+        1FD1: FIELD_BYTE
+          "N"  offset = 00  type idx = 155
+        1FD7: NAME(231)
+          "Car_tObj"  type idx = 181  scope idx = 0
+        1FE4: NEAR386 PTR(232)
+          base type idx = 231
+        1FE8: NEAR386 PROC(233)
+          return type = 14
+            param 1:  type idx = 232
+        1FEE: 

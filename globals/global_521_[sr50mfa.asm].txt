@@ -1,0 +1,4 @@
+  Name:  _rs50mf
+    address      = 0001:000C2038
+    module index = 521
+    kind:          (code)

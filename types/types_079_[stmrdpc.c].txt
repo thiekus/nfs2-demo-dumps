@@ -1,0 +1,126 @@
+ 79) Name:   C:\nfs2\game\pc\stmrdpc.c
+     Language is C
+     Locals: num = 1, offset = 0000014EH
+     Types:  num = 1, offset = 000002EAH
+     Lines:  num = 1, offset = 00000472H
+
+    *** Types ***
+    =============
+      Data 0:  offset 0007D88F
+        0000: cue table offset=000001C0
+        0006: SCOPE(1)
+          "struct"
+        000E: SCOPE(2)
+          "union"
+        0015: SCOPE(3)
+          "enum"
+        001B: SCALAR(4)
+          "char"  scalar type = 10, unsigned
+        0022: SCALAR(5)
+          "signed char"  scalar type = 00, integer
+        0030: SCALAR(6)
+          "unsigned char"  scalar type = 10, unsigned
+        0040: SCALAR(7)
+          "short"  scalar type = 01, integer
+        0048: SCALAR(8)
+          "unsigned short"  scalar type = 11, unsigned
+        0059: SCALAR(9)
+          "int"  scalar type = 03, integer
+        005F: SCALAR(10)
+          "unsigned int"  scalar type = 13, unsigned
+        006E: NAME(11)
+          "wchar_t"  type idx = 8  scope idx = 0
+        0079: NAME(12)
+          "size_t"  type idx = 10  scope idx = 0
+        0083: NEAR386 PTR(13)
+          base type idx = 4
+        0086: BYTE_INDEX ARRAY(14)
+          high bound = 00   base type idx = 13
+        008A: NAME(15)
+          "__va_list"  type idx = 14  scope idx = 0
+        0097: SCALAR(16)
+          "long"  scalar type = 03, integer
+        009E: NAME(17)
+          "fpos_t"  type idx = 16  scope idx = 0
+        00A8: NAME(18)
+          "fpos_t"  type idx = 16  scope idx = 0
+        00B2: NAME(19)
+          "MEMBLOCK"  type idx = 13  scope idx = 0
+        00BE: SCALAR(20)
+          "void"  scalar type = 30, void
+        00C5: NEAR386 PROC(21)
+          return type = 20
+            param 1:  type idx = 20
+        00CA: NEAR386 PTR(22)
+          base type idx = 21
+        00CD: NAME(23)
+          "VOIDFN"  type idx = 22  scope idx = 0
+        00D7: NEAR386 PROC(24)
+          return type = 20
+            param 1:  type idx = 20
+        00DC: NAME(25)
+          "THREADPROC"  type idx = 24  scope idx = 0
+        00EA: NEAR386 PROC(26)
+          return type = 9
+            param 1:  type idx = 9
+            param 2:  type idx = 9
+        00F0: NAME(27)
+          "SYSTEMTASK"  type idx = 26  scope idx = 0
+        00FE: NAME(28)
+          "SDWORD"  type idx = 16  scope idx = 0
+        0108: SCALAR(29)
+          "unsigned long"  scalar type = 13, unsigned
+        0118: NAME(30)
+          "DWORD"  type idx = 29  scope idx = 0
+        0121: NAME(31)
+          "WORD"  type idx = 8  scope idx = 0
+        0129: NAME(32)
+          "SWORD"  type idx = 7  scope idx = 0
+        0132: NAME(33)
+          "SBYTE"  type idx = 5  scope idx = 0
+        013B: NAME(34)
+          "UBYTE"  type idx = 6  scope idx = 0
+        0144: NAME(35)
+          "BOOL"  type idx = 9  scope idx = 0
+        014C: NAME(36)
+          "Stm_Chunk"  type idx = 20  scope idx = 0
+        0159: NEAR386 PTR(37)
+          base type idx = 36
+        015C: NAME(38)
+          "lpStm_Chunk"  type idx = 37  scope idx = 0
+        016B: NEAR386 PTR(39)
+          base type idx = 20
+        016E: NEAR386 PROC(40)
+          return type = 9
+            param 1:  type idx = 9
+            param 2:  type idx = 39
+            param 3:  type idx = 9
+        0175: NEAR386 PROC(41)
+          return type = 9
+            param 1:  type idx = 13
+        017A: NEAR386 PROC(42)
+          return type = 20
+            param 1:  type idx = 9
+        017F: ENUM_LIST(43)
+          number of consts = 0002   scalar type = 10, unsigned
+        0184: CONST_BYTE
+          "Backward"   value = 01
+        018F: CONST_BYTE
+          "Forward"   value = 00
+        0199: NAME(44)
+          "Stm_Direction"  type idx = 43  scope idx = 3
+        01AA: NEAR386 PROC(45)
+          return type = 35
+            param 1:  type idx = 9
+            param 2:  type idx = 9
+            param 3:  type idx = 39
+            param 4:  type idx = 43
+        01B2: NEAR386 PROC(46)
+          return type = 13
+            param 1:  type idx = 9
+            param 2:  type idx = 9
+            param 3:  type idx = 39
+            param 4:  type idx = 43
+        01BA: NEAR386 PROC(47)
+          return type = 35
+        01BE: 

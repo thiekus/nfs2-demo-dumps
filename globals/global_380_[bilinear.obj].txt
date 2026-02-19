@@ -1,0 +1,12 @@
+  Name:  blend4_
+    address      = 0001:000B3DA0
+    module index = 380
+    kind:          (static pubdef) (code)
+  Name:  _bilinearslopemapuv
+    address      = 0001:000B4180
+    module index = 380
+    kind:          (code)
+  Name:  _bilinearscalefxya
+    address      = 0001:000B43EC
+    module index = 380
+    kind:          (code)

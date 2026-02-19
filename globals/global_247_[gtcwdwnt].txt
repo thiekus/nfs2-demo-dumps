@@ -1,0 +1,4 @@
+  Name:  getcwd_
+    address      = 0001:0009CF77
+    module index = 247
+    kind:          (code)

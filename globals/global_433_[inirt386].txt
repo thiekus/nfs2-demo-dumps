@@ -1,0 +1,8 @@
+  Name:  __InitRtns
+    address      = 0001:000BC6C6
+    module index = 433
+    kind:          (code)
+  Name:  __FiniRtns
+    address      = 0001:000BC711
+    module index = 433
+    kind:          (code)

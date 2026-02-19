@@ -1,0 +1,4 @@
+  Name:  _copyftos16s
+    address      = 0001:000BE2DC
+    module index = 461
+    kind:          (code)

@@ -1,0 +1,24 @@
+  Name:  _setfastprojecttable
+    address      = 0001:000BA490
+    module index = 409
+    kind:          (code)
+  Name:  _initfastproject
+    address      = 0001:000BA4A4
+    module index = 409
+    kind:          (code)
+  Name:  _fastprojectp
+    address      = 0001:000BA554
+    module index = 409
+    kind:          (code)
+  Name:  _ztbl
+    address      = 0002:00016CC0
+    module index = 409
+    kind:          (data)
+  Name:  _libztbl
+    address      = 0002:00069890
+    module index = 409
+    kind:          (data)
+  Name:  _yratio
+    address      = 0002:0006A890
+    module index = 409
+    kind:          (data)

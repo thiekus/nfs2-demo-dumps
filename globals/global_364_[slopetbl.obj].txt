@@ -1,0 +1,4 @@
+  Name:  _buildslopetable
+    address      = 0001:000B1800
+    module index = 364
+    kind:          (code)

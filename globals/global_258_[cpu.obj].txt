@@ -1,0 +1,20 @@
+  Name:  _detectcpu
+    address      = 0001:0009D8C0
+    module index = 258
+    kind:          (code)
+  Name:  _cpuvender
+    address      = 0002:00013C98
+    module index = 258
+    kind:          (data)
+  Name:  _cpufamily
+    address      = 0002:00013CA8
+    module index = 258
+    kind:          (data)
+  Name:  _cpumodel
+    address      = 0002:00013CAC
+    module index = 258
+    kind:          (data)
+  Name:  _cpustepping
+    address      = 0002:00013CB0
+    module index = 258
+    kind:          (data)

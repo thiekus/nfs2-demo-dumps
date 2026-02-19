@@ -1,0 +1,12 @@
+  Name:  _mixs8setstatemmx
+    address      = 0001:000BE4CC
+    module index = 464
+    kind:          (code)
+  Name:  _mixs8setvolmmx
+    address      = 0001:000BE4F0
+    module index = 464
+    kind:          (code)
+  Name:  _mixs8mmx
+    address      = 0001:000BE513
+    module index = 464
+    kind:          (code)

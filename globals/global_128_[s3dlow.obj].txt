@@ -1,0 +1,4 @@
+  Name:  SND3dpos_
+    address      = 0001:00082D80
+    module index = 128
+    kind:          (code)

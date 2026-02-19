@@ -1,0 +1,8 @@
+  Name:  _standfont
+    address      = 0002:0001594C
+    module index = 366
+    kind:          (data)
+  Name:  _currentfont
+    address      = 0002:00065F64
+    module index = 366
+    kind:          (data)

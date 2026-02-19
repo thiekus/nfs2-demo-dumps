@@ -1,0 +1,755 @@
+ 14) Name:   C:\nfs2\game\common\collide.c
+     Language is C
+     Locals: num = 1, offset = 0000004AH
+     Types:  num = 1, offset = 000001E6H
+     Lines:  num = 1, offset = 0000037EH
+
+   *** Locals ***
+   ==============
+      Data 0:  offset 0000ACD6
+        0000: MODULE_386
+          "Collide_gRegistry" addr = 0002:00023398,  type = 102
+        001A: MODULE_386
+          "GamePlayParam_LaunchRollFactor" addr = 0002:0000CA8C,  type = 103
+        0041: MODULE_386
+          "basisDotRelative" addr = 0002:000233E8,  type = 104
+        005A: MODULE_386
+          "GamePlayParam_LaunchPitchFactor" addr = 0002:0000CA84,  type = 105
+        0082: MODULE_386
+          "GamePlayParam_LaunchYFactor" addr = 0002:0000CA94,  type = 106
+        00A6: MODULE_386
+          "GamePlayParam_LaunchInitialDamper" addr = 0002:0000CA7C,  type = 107
+        00D0: MODULE_386
+          "Collide_gNumRegistered" addr = 0002:0000CAB0,  type = 9
+        00EF: MODULE_386
+          "scaledBasisDots" addr = 0002:00023400,  type = 108
+        0107: MODULE_386
+          "pNormal" addr = 0002:00023424,  type = 109
+        0117: MODULE_386
+          "velBackOff_MinDot" addr = 0002:0000CAA8,  type = 9
+        0131: MODULE_386
+          "scaledBasisDotsOther" addr = 0002:00023428,  type = 110
+        014E: MODULE_386
+          "velBackOff_MinSpeed" addr = 0002:0000CA9C,  type = 9
+        016A: MODULE_386
+          "velBackOff_MinDot2" addr = 0002:0000CAAC,  type = 9
+        0185: MODULE_386
+          "basisDots" addr = 0002:0002344C,  type = 111
+        0197: MODULE_386
+          "obj1" addr = 0002:00023470,  type = 101
+        01A4: MODULE_386
+          "obj0" addr = 0002:00023474,  type = 101
+        01B1: MODULE_386
+          "velBackOff_MaxRelPos2" addr = 0002:0000CAA4,  type = 9
+        01CF: MODULE_386
+          "pP" addr = 0002:00023478,  type = 109
+        01DA: MODULE_386
+          "forceVelocityBackoff" addr = 0002:0000CA78,  type = 9
+        01F7: MODULE_386
+          "yRange" addr = 0002:0002347C,  type = 9
+        0206: MODULE_386
+          "velBackOff_MaxRelPos" addr = 0002:0000CAA0,  type = 9
+        0223: MODULE_386
+          "zRange" addr = 0002:00023480,  type = 9
+        0232: MODULE_386
+          "xRange" addr = 0002:00023484,  type = 9
+        0241: MODULE_386
+          "Collide_gLastObjectFixedObjectHeight" addr = 0002:0000CA58,  type = 9
+        026E: MODULE_386
+          "Collide_gLastObjectFixedObjectCollisionImpulse" addr = 0002:0000CA54,  type = 9
+        02A5: MODULE_386
+          "findClosestSideDave" addr = 0002:00023488,  type = 9
+        02C1: MODULE_386
+          "considerfindClosestSideDave" addr = 0002:0000CA68,  type = 9
+        02E5: MODULE_386
+          "doNewVelBackoffDetect" addr = 0002:0000CA74,  type = 9
+        0303: MODULE_386
+          "Collide_gLastObjectFixedObjectCollisionVertexVelocity" addr = 0002:0002348C,  type = 62
+        0341: MODULE_386
+          "Collide_gRaiseUp" addr = 0002:0000CA50,  type = 9
+        035A: MODULE_386
+          "stopVelocityBackoff1" addr = 0002:0000CA6C,  type = 9
+        0377: MODULE_386
+          "stopVelocityBackoff2" addr = 0002:0000CA70,  type = 9
+        0394: MODULE_386
+          "Collide_gLastObjectObjectCollisionImpulse" addr = 0002:0000CA5C,  type = 9
+        03C6: MODULE_386
+          "oldOrdering" addr = 0002:0000CA60,  type = 9
+        03DA: MODULE_386
+          "dofindClosestSideDave" addr = 0002:0000CA64,  type = 9
+        03F8: SET_BASE_386
+          base = 0001:00021741
+        0400: NEAR_RTN_386
+          start off = 00000000, code size = 00000384, parent off = 0000
+          prologue size = 12,  epilogue size = 7
+          return address offset (from bp) = 00000010
+          return type:  112
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Name = "CHECK_CENTER_VERTEX_WITH_DIRS"
+        0439: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "X_DIR",  type = 9
+        0443: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "Y_DIR",  type = 9
+        044D: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "Z_DIR",  type = 9
+        0457: NEAR_RTN_386
+          start off = 00000384, code size = 00000392, parent off = 0000
+          prologue size = 12,  epilogue size = 7
+          return address offset (from bp) = 00000010
+          return type:  112
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Name = "CHECK_CENTER_VERTEX_WITH_DIRS_OTHER"
+        0496: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "X_DIR",  type = 9
+        04A0: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "Y_DIR",  type = 9
+        04AA: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "Z_DIR",  type = 9
+        04B4: NEAR_RTN_386
+          start off = 00000716, code size = 000002D5, parent off = 0000
+          prologue size = 12,  epilogue size = 7
+          return address offset (from bp) = 00000010
+          return type:  112
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Name = "CHECK_VERTEX_WITH_DIRS"
+        04E6: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "X_DIR",  type = 9
+        04F0: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "Y_DIR",  type = 9
+        04FA: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "Z_DIR",  type = 9
+        0504: NEAR_RTN_386
+          start off = 000009EB, code size = 000002D5, parent off = 0000
+          prologue size = 12,  epilogue size = 7
+          return address offset (from bp) = 00000010
+          return type:  112
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Name = "CHECK_VERTEX_WITH_DIRS_OTHER"
+        053C: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "X_DIR",  type = 9
+        0546: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "Y_DIR",  type = 9
+        0550: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "Z_DIR",  type = 9
+        055A: BLOCK_386
+          start off = 00000F5D, code size = 0000019D, parent off = 0584
+        0566: LOCAL
+          address: BP_OFFSET_WORD( 0078 )
+          name = "scale",  type = 9
+        0571: LOCAL
+          address: BP_OFFSET_WORD( 007C )
+          name = "lengthInverse",  type = 9
+        0584: BLOCK_386
+          start off = 00000F45, code size = 000004ED, parent off = 060B
+        0590: LOCAL
+          address: BP_OFFSET_WORD( 0074 )
+          name = "frictionalImpulse",  type = 9
+        05A7: LOCAL
+          address: BP_OFFSET_WORD( 0068 )
+          name = "deltaVFromFriction",  type = 62
+        05BF: LOCAL
+          address: BP_OFFSET_WORD( 005C )
+          name = "temp",  type = 62
+        05C9: LOCAL
+          address: BP_OFFSET_BYTE( 80 )
+          name = "frictionalImpulseOverMoment",  type = 9
+        05E9: LOCAL
+          address: BP_OFFSET_BYTE( 84 )
+          name = "deltaSpeedInFrictionDirection",  type = 9
+        060B: NEAR_RTN_386
+          start off = 00000CC0, code size = 000009D9, parent off = 0000
+          prologue size = 11,  epilogue size = 6
+          return address offset (from bp) = 0000000C
+          return type:  113
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Parm 3: MULTI_REG(1): ECX
+          Name = "Collide_DoObjectFixedObjectCollision"
+        064C: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "o",  type = 101
+        0652: LOCAL
+          address: BP_OFFSET_BYTE( D8 )
+          name = "p",  type = 109
+        0658: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "v",  type = 109
+        065E: LOCAL
+          address: BP_OFFSET_BYTE( DC )
+          name = "n",  type = 109
+        0664: LOCAL
+          address: BP_OFFSET_BYTE( C0 )
+          name = "normal",  type = 62
+        066F: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "impulse",  type = 9
+        067B: LOCAL
+          address: BP_OFFSET_BYTE( 9C )
+          name = "deltaV",  type = 62
+        0686: LOCAL
+          address: BP_OFFSET_BYTE( A8 )
+          name = "impulseV",  type = 62
+        0693: LOCAL
+          address: BP_OFFSET_BYTE( E0 )
+          name = "temp0",  type = 9
+        069D: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "temp1",  type = 9
+        06A7: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "temp2",  type = 9
+        06B1: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "temp3",  type = 9
+        06BB: LOCAL
+          address: BP_OFFSET_BYTE( CC )
+          name = "r",  type = 62
+        06C1: LOCAL
+          address: BP_OFFSET_BYTE( 90 )
+          name = "RCrossN",  type = 62
+        06CD: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "velocityLength",  type = 9
+        06E0: LOCAL
+          address: BP_OFFSET_BYTE( B4 )
+          name = "velocity",  type = 62
+        06ED: NEAR_RTN_386
+          start off = 00001699, code size = 00000164, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  114
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Collide_LimitAngularVel"
+        071B: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "o",  type = 101
+        0721: BLOCK_386
+          start off = 00001F02, code size = 000000AA, parent off = 0743
+        072D: LOCAL
+          address: BP_OFFSET_BYTE( 8C )
+          name = "correction",  type = 9
+        073C: LOCAL
+          address: BP_OFFSET_BYTE( 90 )
+          name = "v2",  type = 9
+        0743: BLOCK_386
+          start off = 00001AD7, code size = 000004D5, parent off = 077B
+        074F: LOCAL
+          address: BP_OFFSET_BYTE( AC )
+          name = "Raise",  type = 62
+        0759: LOCAL
+          address: BP_OFFSET_BYTE( 94 )
+          name = "vertexVelocity",  type = 62
+        076C: LOCAL
+          address: BP_OFFSET_BYTE( A0 )
+          name = "r",  type = 62
+        0772: LOCAL
+          address: BP_OFFSET_BYTE( B8 )
+          name = "spot",  type = 62
+        077B: BLOCK_386
+          start off = 00001AA4, code size = 00000508, parent off = 0792
+        0787: LOCAL
+          address: BP_OFFSET_BYTE( C4 )
+          name = "height",  type = 9
+        0792: NEAR_RTN_386
+          start off = 000017FD, code size = 00000827, parent off = 0000
+          prologue size = 12,  epilogue size = 7
+          return address offset (from bp) = 00000010
+          return type:  115
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Name = "Collide_TestWithPlane"
+        07C2: LOCAL
+          address: BP_OFFSET_BYTE( E0 )
+          name = "o",  type = 101
+        07C8: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "normal",  type = 109
+        07D3: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "samplePoint",  type = 109
+        07E3: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "raiseUp",  type = 9
+        07EF: LOCAL
+          address: BP_OFFSET_BYTE( D4 )
+          name = "basisDots",  type = 116
+        07FD: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "relativeDot",  type = 9
+        080D: LOCAL
+          address: BP_OFFSET_BYTE( C8 )
+          name = "relativePos",  type = 62
+        081D: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "xDir",  type = 9
+        0826: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "Y_DIR",  type = 9
+        0830: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "zDir",  type = 9
+        0839: NEAR_RTN_386
+          start off = 00002024, code size = 00000981, parent off = 0000
+          prologue size = 11,  epilogue size = 6
+          return address offset (from bp) = 0000000C
+          return type:  117
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Parm 3: MULTI_REG(1): ECX
+          Name = "Collide_DoObjectObjectCollision"
+        0876: LOCAL
+          address: BP_OFFSET_BYTE( E0 )
+          name = "o0",  type = 101
+        087D: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "o1",  type = 101
+        0884: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "p",  type = 109
+        088A: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "normal",  type = 109
+        0895: LOCAL
+          address: BP_OFFSET_BYTE( DC )
+          name = "impulse",  type = 9
+        08A1: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "impulseWST",  type = 9
+        08B0: LOCAL
+          address: BP_OFFSET_BYTE( C4 )
+          name = "impulseV",  type = 62
+        08BD: LOCAL
+          address: BP_OFFSET_BYTE( 94 )
+          name = "R0CrossN",  type = 62
+        08CA: LOCAL
+          address: BP_OFFSET_BYTE( A0 )
+          name = "R1CrossN",  type = 62
+        08D7: LOCAL
+          address: BP_OFFSET_BYTE( AC )
+          name = "R0",  type = 62
+        08DE: LOCAL
+          address: BP_OFFSET_BYTE( B8 )
+          name = "R1",  type = 62
+        08E5: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "numerator",  type = 9
+        08F3: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "denominator",  type = 9
+        0903: LOCAL
+          address: BP_OFFSET_BYTE( D0 )
+          name = "deltaV",  type = 62
+        090E: BLOCK_386
+          start off = 00002D3F, code size = 00000116, parent off = 0A6B
+        091A: LOCAL
+          address: BP_OFFSET_BYTE( D0 )
+          name = "maxv",  type = 9
+        0923: LOCAL
+          address: BP_OFFSET_BYTE( D4 )
+          name = "vx",  type = 9
+        092A: LOCAL
+          address: BP_OFFSET_BYTE( D8 )
+          name = "vy",  type = 9
+        0931: LOCAL
+          address: BP_OFFSET_BYTE( DC )
+          name = "vz",  type = 9
+        0938: BLOCK_386
+          start off = 00002E62, code size = 000001D1, parent off = 0A6B
+        0944: LOCAL
+          address: BP_OFFSET_BYTE( AC )
+          name = "normalx",  type = 62
+        0950: LOCAL
+          address: BP_OFFSET_BYTE( A0 )
+          name = "normaly",  type = 62
+        095C: LOCAL
+          address: BP_OFFSET_BYTE( 94 )
+          name = "normalz",  type = 62
+        0968: LOCAL
+          address: BP_OFFSET_BYTE( CC )
+          name = "dotx",  type = 9
+        0971: LOCAL
+          address: BP_OFFSET_BYTE( C4 )
+          name = "doty",  type = 9
+        097A: LOCAL
+          address: BP_OFFSET_BYTE( C8 )
+          name = "dotz",  type = 9
+        0983: LOCAL
+          address: BP_OFFSET_BYTE( B8 )
+          name = "vel",  type = 62
+        098B: BLOCK_386
+          start off = 00003038, code size = 00000171, parent off = 0A6B
+        0997: LOCAL
+          address: BP_OFFSET_WORD( 007C )
+          name = "xDiff",  type = 9
+        09A2: LOCAL
+          address: BP_OFFSET_BYTE( 80 )
+          name = "yDiff",  type = 9
+        09AC: LOCAL
+          address: BP_OFFSET_BYTE( 84 )
+          name = "zDiff",  type = 9
+        09B6: BLOCK_386
+          start off = 000031E4, code size = 00000164, parent off = 0A6B
+        09C2: LOCAL
+          address: BP_OFFSET_WORD( 0060 )
+          name = "maxv",  type = 9
+        09CC: LOCAL
+          address: BP_OFFSET_WORD( 0064 )
+          name = "vx",  type = 9
+        09D4: LOCAL
+          address: BP_OFFSET_WORD( 0068 )
+          name = "vy",  type = 9
+        09DC: LOCAL
+          address: BP_OFFSET_WORD( 006C )
+          name = "vz",  type = 9
+        09E4: BLOCK_386
+          start off = 00003355, code size = 000002B5, parent off = 0A6B
+        09F0: LOCAL
+          address: BP_OFFSET_WORD( 003C )
+          name = "normalx",  type = 62
+        09FD: LOCAL
+          address: BP_OFFSET_WORD( 0030 )
+          name = "normaly",  type = 62
+        0A0A: LOCAL
+          address: BP_OFFSET_WORD( 0024 )
+          name = "normalz",  type = 62
+        0A17: LOCAL
+          address: BP_OFFSET_WORD( 005C )
+          name = "dotx",  type = 9
+        0A21: LOCAL
+          address: BP_OFFSET_WORD( 0054 )
+          name = "doty",  type = 9
+        0A2B: LOCAL
+          address: BP_OFFSET_WORD( 0058 )
+          name = "dotz",  type = 9
+        0A35: LOCAL
+          address: BP_OFFSET_WORD( 0048 )
+          name = "vel",  type = 62
+        0A3E: BLOCK_386
+          start off = 0000360F, code size = 00000189, parent off = 0A6B
+        0A4A: LOCAL
+          address: BP_OFFSET_WORD( 000C )
+          name = "xDiff",  type = 9
+        0A55: LOCAL
+          address: BP_OFFSET_WORD( 0010 )
+          name = "yDiff",  type = 9
+        0A60: LOCAL
+          address: BP_OFFSET_WORD( 0014 )
+          name = "zDiff",  type = 9
+        0A6B: NEAR_RTN_386
+          start off = 000029A5, code size = 00000E05, parent off = 0000
+          prologue size = 11,  epilogue size = 8
+          return address offset (from bp) = 0000000C
+          return type:  119
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Parm 3: MULTI_REG(1): ECX
+          Name = "Collide_DoActualObjectCollisionCheck"
+        0AAD: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "o0",  type = 101
+        0AB4: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "o1",  type = 101
+        0ABB: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "p",  type = 109
+        0AC1: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "normal",  type = 109
+        0ACC: LOCAL
+          address: BP_OFFSET_BYTE( 10 )
+          name = "scaledBasisDots",  type = 118
+        0AE0: LOCAL
+          address: BP_OFFSET_BYTE( 14 )
+          name = "scaledBasisDotsOther",  type = 118
+        0AF9: LOCAL
+          address: BP_OFFSET_BYTE( 18 )
+          name = "basisDotRelative",  type = 118
+        0B0E: BLOCK_386
+          start off = 0000423E, code size = 00000055, parent off = 0BB4
+        0B1A: LOCAL
+          address: BP_OFFSET_WORD( 0054 )
+          name = "temp",  type = 9
+        0B24: BLOCK_386
+          start off = 0000432D, code size = 00000055, parent off = 0B50
+        0B30: LOCAL
+          address: BP_OFFSET_WORD( 0034 )
+          name = "temp",  type = 9
+        0B3A: BLOCK_386
+          start off = 000043AD, code size = 00000055, parent off = 0B50
+        0B46: LOCAL
+          address: BP_OFFSET_WORD( 0030 )
+          name = "temp",  type = 9
+        0B50: BLOCK_386
+          start off = 00004298, code size = 0000016A, parent off = 0BB4
+        0B5C: LOCAL
+          address: BP_OFFSET_WORD( 0038 )
+          name = "dot",  type = 9
+        0B65: LOCAL
+          address: BP_OFFSET_WORD( 0048 )
+          name = "velocityUnit",  type = 62
+        0B77: LOCAL
+          address: BP_OFFSET_WORD( 003C )
+          name = "positionUnit",  type = 62
+        0B89: BLOCK_386
+          start off = 00004546, code size = 000001BB, parent off = 0BB4
+        0B95: LOCAL
+          address: BP_OFFSET_WORD( 0024 )
+          name = "totalMass",  type = 9
+        0BA4: LOCAL
+          address: BP_OFFSET_WORD( 0028 )
+          name = "r0",  type = 9
+        0BAC: LOCAL
+          address: BP_OFFSET_WORD( 002C )
+          name = "r1",  type = 9
+        0BB4: BLOCK_386
+          start off = 00003FAB, code size = 0000075D, parent off = 0C3A
+        0BC0: LOCAL
+          address: BP_OFFSET_BYTE( 80 )
+          name = "relativeVelocity",  type = 62
+        0BD5: LOCAL
+          address: BP_OFFSET_BYTE( 8C )
+          name = "useVelocity",  type = 9
+        0BE5: LOCAL
+          address: BP_OFFSET_WORD( 0018 )
+          name = "relativeUnit",  type = 62
+        0BF7: LOCAL
+          address: BP_OFFSET_BYTE( 90 )
+          name = "maxrv",  type = 9
+        0C01: LOCAL
+          address: BP_OFFSET_BYTE( 94 )
+          name = "maxrp",  type = 9
+        0C0B: LOCAL
+          address: BP_OFFSET_BYTE( 98 )
+          name = "minrp_xz",  type = 9
+        0C18: LOCAL
+          address: BP_OFFSET_BYTE( 9C )
+          name = "inverseRelativeVelocityLength",  type = 9
+        0C3A: BLOCK_386
+          start off = 00003D59, code size = 000009F7, parent off = 0C5B
+        0C46: LOCAL
+          address: BP_OFFSET_BYTE( BC )
+          name = "relativePosition",  type = 62
+        0C5B: NEAR_RTN_386
+          start off = 000037AA, code size = 00000FBA, parent off = 0000
+          prologue size = 11,  epilogue size = 6
+          return address offset (from bp) = 0000000C
+          return type:  117
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Parm 3: MULTI_REG(1): ECX
+          Name = "Collide_TestObjectVertices"
+        0C93: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "o0",  type = 101
+        0C9A: LOCAL
+          address: BP_OFFSET_BYTE( E0 )
+          name = "o1",  type = 101
+        0CA1: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "p",  type = 109
+        0CA7: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "normal",  type = 109
+        0CB2: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "collisionHappened",  type = 9
+        0CC8: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "ctr",  type = 9
+        0CD0: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "numbackoffsteps",  type = 9
+        0CE4: LOCAL
+          address: BP_OFFSET_BYTE( D4 )
+          name = "backoff0",  type = 62
+        0CF1: LOCAL
+          address: BP_OFFSET_BYTE( C8 )
+          name = "backoff1",  type = 62
+        0CFE: NEAR_RTN_386
+          start off = 00004764, code size = 00000454, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  114
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Collide_TelePoleLaunchCar"
+        0D2E: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "newtonObj",  type = 101
+        0D3C: LOCAL
+          address: BP_OFFSET_BYTE( E0 )
+          name = "velocityChange",  type = 62
+        0D4F: LOCAL
+          address: BP_OFFSET_BYTE( D4 )
+          name = "angChange",  type = 62
+        0D5D: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "yFactor",  type = 9
+        0D69: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "dir1",  type = 9
+        0D72: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "dir2",  type = 9
+        0D7B: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "tuningSet",  type = 9
+        0D89: BLOCK_386
+          start off = 00004C27, code size = 00000083, parent off = 0DBB
+        0D95: LOCAL
+          address: BP_OFFSET_BYTE( D8 )
+          name = "count",  type = 9
+        0D9F: BLOCK_386
+          start off = 00004CAA, code size = 000000A4, parent off = 0DBB
+        0DAB: LOCAL
+          address: BP_OFFSET_BYTE( D0 )
+          name = "c0",  type = 200
+        0DB3: LOCAL
+          address: BP_OFFSET_BYTE( D4 )
+          name = "c1",  type = 200
+        0DBB: NEAR_RTN_386
+          start off = 00004BB8, code size = 000001A8, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  201
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Name = "Collide_CheckForCollisionBetween"
+        0DF6: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "o0",  type = 101
+        0DFD: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "o1",  type = 101
+        0E04: LOCAL
+          address: BP_OFFSET_BYTE( DC )
+          name = "p",  type = 62
+        0E0A: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "normal",  type = 62
+        0E15: NEAR_RTN_386
+          start off = 00004D60, code size = 0000001F, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  23
+          return value: <none>
+          Name = "Collide_ClearCollisionRegistry"
+        0E48: NEAR_RTN_386
+          start off = 00004D7F, code size = 0000027B, parent off = 0000
+          prologue size = 12,  epilogue size = 7
+          return address offset (from bp) = 00000010
+          return type:  202
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Name = "Collide_CheckAccuratePointRadiusCollision"
+        0E8E: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "newObj",  type = 101
+        0E99: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "point",  type = 109
+        0EA3: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "radius",  type = 9
+        0EAE: LOCAL
+          address: BP_OFFSET_BYTE( E0 )
+          name = "d",  type = 62
+        0EB4: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "temp",  type = 9
+        0EBD: BLOCK_386
+          start off = 0000513E, code size = 00000112, parent off = 0EE4
+        0EC9: LOCAL
+          address: BP_OFFSET_BYTE( BC )
+          name = "normal",  type = 62
+        0ED4: LOCAL
+          address: BP_OFFSET_BYTE( B0 )
+          name = "samplePoint",  type = 62
+        0EE4: BLOCK_386
+          start off = 00005126, code size = 0000016E, parent off = 0EFD
+        0EF0: LOCAL
+          address: BP_OFFSET_BYTE( C8 )
+          name = "signCase",  type = 9
+        0EFD: BLOCK_386
+          start off = 00005076, code size = 00000223, parent off = 0F4F
+        0F09: LOCAL
+          address: BP_OFFSET_BYTE( D8 )
+          name = "i",  type = 9
+        0F0F: LOCAL
+          address: BP_OFFSET_BYTE( DC )
+          name = "numObjs",  type = 9
+        0F1B: LOCAL
+          address: BP_OFFSET_BYTE( CC )
+          name = "pos",  type = 62
+        0F23: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "radius",  type = 7
+        0F2E: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "fixedRadius",  type = 9
+        0F3E: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "dist",  type = 9
+        0F47: LOCAL
+          address: BP_OFFSET_BYTE( E0 )
+          name = "hit",  type = 9
+        0F4F: NEAR_RTN_386
+          start off = 00004FFA, code size = 000005F0, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  114
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Collide_CheckMeForCollisions"
+        0F82: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "newObj",  type = 101
+        0F8D: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "i",  type = 9
+        0F93: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "doCollisionTest",  type = 9
+        0FA7: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "otherObj",  type = 101
+

@@ -1,0 +1,24 @@
+  Name:  Paths_ReadTillEOL_
+    address      = 0001:00030275
+    module index = 31
+    kind:          (code)
+  Name:  Paths_ReadTillNotEOL_
+    address      = 0001:000302AC
+    module index = 31
+    kind:          (code)
+  Name:  Paths_StartUp_
+    address      = 0001:000302E1
+    module index = 31
+    kind:          (code)
+  Name:  Paths_CleanUp_
+    address      = 0001:000303AB
+    module index = 31
+    kind:          (code)
+  Name:  _Paths_Paths
+    address      = 0002:000243C4
+    module index = 31
+    kind:          (data)
+  Name:  _Paths_File
+    address      = 0002:00024464
+    module index = 31
+    kind:          (data)

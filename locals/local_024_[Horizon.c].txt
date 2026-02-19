@@ -1,0 +1,181 @@
+ 24) Name:   C:\nfs2\game\common\Horizon.c
+     Language is C
+     Locals: num = 1, offset = 00000072H
+     Types:  num = 1, offset = 0000020EH
+     Lines:  num = 1, offset = 000003A2H
+
+   *** Locals ***
+   ==============
+      Data 0:  offset 0000CB88
+        0000: MODULE_386
+          "gHrz_CRgt" addr = 0002:00023B9C,  type = 9
+        0012: MODULE_386
+          "gRngCoordTop" addr = 0002:00023BA0,  type = 43
+        0027: MODULE_386
+          "gHrz_CLft" addr = 0002:00023BA4,  type = 9
+        0039: MODULE_386
+          "gHrz_CTop" addr = 0002:00023BA8,  type = 9
+        004B: MODULE_386
+          "gRngCoordBottom" addr = 0002:00023BAC,  type = 43
+        0063: MODULE_386
+          "gHrz_CBot" addr = 0002:00023BB0,  type = 9
+        0075: SET_BASE_386
+          base = 0001:000299E1
+        007D: NEAR_RTN_386
+          start off = 00000000, code size = 0000007E, parent off = 0000
+          prologue size = 11,  epilogue size = 8
+          return address offset (from bp) = 0000000C
+          return type:  49
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Parm 3: MULTI_REG(1): ECX
+          Name = "Horizon_TransformVertex"
+        00B1: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "m",  type = 48
+        00B7: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "t",  type = 43
+        00BD: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "n",  type = 9
+        00C3: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "s",  type = 43
+        00C9: LOCAL
+          address: BP_OFFSET_BYTE( 10 )
+          name = "v",  type = 43
+        00CF: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "i",  type = 9
+        00D5: NEAR_RTN_386
+          start off = 0000007E, code size = 00000062, parent off = 0000
+          prologue size = 11,  epilogue size = 6
+          return address offset (from bp) = 0000000C
+          return type:  57
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Parm 3: MULTI_REG(1): ECX
+          Name = "Horizon_TransformHorizon"
+        010A: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "Vi",  type = 56
+        0111: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "n",  type = 9
+        0117: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "s",  type = 43
+        011D: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "v",  type = 43
+        0123: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "translation",  type = 42
+        0133: LOCAL
+          address: BP_OFFSET_BYTE( D8 )
+          name = "tmp",  type = 42
+        013B: NEAR_RTN_386
+          start off = 000000E0, code size = 000000A3, parent off = 0000
+          prologue size = 11,  epilogue size = 6
+          return address offset (from bp) = 0000000C
+          return type:  62
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Parm 3: MULTI_REG(1): ECX
+          Name = "Horizon_ProjectVertex"
+        016D: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "n",  type = 9
+        0173: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "v",  type = 43
+        0179: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "sp",  type = 61
+        0180: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "tran",  type = 61
+        0189: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "i",  type = 9
+        018F: NEAR_RTN_386
+          start off = 00000183, code size = 00000144, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  63
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Horizon_QuadInView"
+        01B9: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "mpts",  type = 61
+        01C2: NEAR_RTN_386
+          start off = 000002C7, code size = 0000001A, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  23
+          return value: <none>
+          Name = "Horizon_InitHorizon"
+        01EA: NEAR_RTN_386
+          start off = 000002E1, code size = 0000001A, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  23
+          return value: <none>
+          Name = "Horizon_KillHorizon"
+        0212: BLOCK_386
+          start off = 000003B5, code size = 0000008A, parent off = 0224
+        021E: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "p",  type = 9
+        0224: NEAR_RTN_386
+          start off = 000002FB, code size = 0000014C, parent off = 0000
+          prologue size = 11,  epilogue size = 8
+          return address offset (from bp) = 0000000C
+          return type:  65
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Parm 3: MULTI_REG(1): ECX
+          Name = "Horizon_InterpolateLineSCoords"
+        025F: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "sc",  type = 61
+        0266: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "s0",  type = 61
+        026D: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "s1",  type = 61
+        0274: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "percentage",  type = 64
+        0283: LOCAL
+          address: BP_OFFSET_BYTE( 10 )
+          name = "n",  type = 9
+        0289: LOCAL
+          address: BP_OFFSET_BYTE( 14 )
+          name = "bPercentageArray",  type = 9
+        029E: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "i",  type = 9
+        02A4: NEAR_RTN_386
+          start off = 00000447, code size = 00000039, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  74
+          return value: IND_REG_CALLOC_NEAR( ESI )
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Horizon_BuildHorizon"
+        02D0: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "Vi",  type = 56
+

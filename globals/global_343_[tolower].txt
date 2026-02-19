@@ -1,0 +1,8 @@
+  Name:  tolower_
+    address      = 0001:000B0309
+    module index = 343
+    kind:          (code)
+  Name:  _tolower_
+    address      = 0001:000B0309
+    module index = 343
+    kind:          (code)

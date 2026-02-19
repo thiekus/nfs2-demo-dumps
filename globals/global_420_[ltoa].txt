@@ -1,0 +1,16 @@
+  Name:  _Alphabet
+    address      = 0001:000BB77D
+    module index = 420
+    kind:          (static pubdef) (code)
+  Name:  ultoa_
+    address      = 0001:000BB7A2
+    module index = 420
+    kind:          (code)
+  Name:  ltoa_
+    address      = 0001:000BB7EC
+    module index = 420
+    kind:          (code)
+  Name:  _ltoa_
+    address      = 0001:000BB7EC
+    module index = 420
+    kind:          (code)

@@ -1,0 +1,939 @@
+ 33) Name:   C:\nfs2\game\common\physics.c
+     Language is C
+     Locals: num = 1, offset = 00000096H
+     Types:  num = 1, offset = 00000232H
+     Lines:  num = 1, offset = 000003C2H
+
+   *** Locals ***
+   ==============
+      Data 0:  offset 0000EFD0
+        0000: MODULE_386
+          "roadSurfaceFrictionCoeff" addr = 0002:0000E5CC,  type = 62
+        0021: MODULE_386
+          "ReverseRoadSurfaceFrictionCoeff" addr = 0002:0000E5F4,  type = 63
+        0049: MODULE_386
+          "barrierEgg" addr = 0002:0000E65C,  type = 9
+        005C: MODULE_386
+          "gSteerRatio" addr = 0002:0000E654,  type = 9
+        0070: MODULE_386
+          "roadMult" addr = 0002:00024470,  type = 9
+        0081: MODULE_386
+          "currentWallType" addr = 0002:0000E658,  type = 9
+        0099: MODULE_386
+          "gGasRatio" addr = 0002:0000E650,  type = 9
+        00AB: MODULE_386
+          "rearMult" addr = 0002:00024474,  type = 9
+        00BC: MODULE_386
+          "frontMult" addr = 0002:00024478,  type = 9
+        00CE: MODULE_386
+          "roadSurfaceIndexSGGE" addr = 0002:0000E630,  type = 64
+        00EB: MODULE_386
+          "MaxTurnAngle" addr = 0002:0000E644,  type = 9
+        0100: MODULE_386
+          "gBrakeRatio" addr = 0002:0000E64C,  type = 9
+        0114: MODULE_386
+          "gravity_ch" addr = 0002:0002447C,  type = 67
+        0127: MODULE_386
+          "roadSurfaceIndex" addr = 0002:0000E61C,  type = 68
+        0140: MODULE_386
+          "YawAssist" addr = 0002:0000E648,  type = 9
+        0152: SET_BASE_386
+          base = 0001:00030546
+        015A: NEAR_RTN_386
+          start off = 00000000, code size = 000003CE, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  196
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Name = "Physics_InitCarSpecs"
+        0188: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "carObj",  type = 187
+        0194: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "handle",  type = 195
+        01A0: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "i",  type = 9
+        01A6: NEAR_RTN_386
+          start off = 000003CE, code size = 000005FD, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  197
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Physics_CalculateDerivedCarSpecs"
+        01DE: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "carObj",  type = 187
+        01EA: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "i",  type = 9
+        01F0: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "rpmAtMaxSpeedInHighestGear",  type = 9
+        020F: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "accAtMaxSpeedInHighestGear",  type = 9
+        022E: BLOCK_386
+          start off = 000009DC, code size = 0000006C, parent off = 0264
+        023A: LOCAL
+          address: BP_OFFSET_BYTE( BC )
+          name = "r1",  type = 9
+        0241: LOCAL
+          address: BP_OFFSET_BYTE( C0 )
+          name = "r2",  type = 9
+        0248: LOCAL
+          address: BP_OFFSET_BYTE( C4 )
+          name = "r3",  type = 9
+        024F: LOCAL
+          address: BP_OFFSET_BYTE( C8 )
+          name = "r4",  type = 9
+        0256: LOCAL
+          address: BP_OFFSET_BYTE( CC )
+          name = "r5",  type = 9
+        025D: LOCAL
+          address: BP_OFFSET_BYTE( D0 )
+          name = "r6",  type = 9
+        0264: NEAR_RTN_386
+          start off = 000009CB, code size = 00000277, parent off = 0000
+          prologue size = 14,  epilogue size = 11
+          return address offset (from bp) = 00000018
+          return type:  198
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Physics_CalculateBarrierCollisionWidthOfCar"
+        02A8: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "carObj",  type = 187
+        02B4: LOCAL
+          address: BP_OFFSET_BYTE( 1C )
+          name = "rightVec",  type = 67
+        02C1: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "width",  type = 9
+        02CB: LOCAL
+          address: BP_OFFSET_BYTE( DC )
+          name = "Vec1",  type = 67
+        02D4: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "Vec2",  type = 67
+        02DD: BLOCK_386
+          start off = 000010AD, code size = 00000090, parent off = 02F5
+        02E9: LOCAL
+          address: BP_OFFSET_BYTE( 98 )
+          name = "x",  type = 9
+        02EF: LOCAL
+          address: BP_OFFSET_BYTE( 9C )
+          name = "z",  type = 9
+        02F5: NEAR_RTN_386
+          start off = 00000C42, code size = 0000050B, parent off = 0000
+          prologue size = 12,  epilogue size = 7
+          return address offset (from bp) = 00000010
+          return type:  200
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Name = "Physics_AttenuateVelocity"
+        032B: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "carObj",  type = 187
+        0337: LOCAL
+          address: BP_OFFSET_BYTE( E0 )
+          name = "force",  type = 9
+        0341: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "roadMat",  type = 199
+        034E: LOCAL
+          address: BP_OFFSET_BYTE( D4 )
+          name = "vel_b",  type = 67
+        0358: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "vx",  type = 9
+        035F: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "vy",  type = 9
+        0366: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "vz",  type = 9
+        036D: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "absvelbx",  type = 9
+        037A: LOCAL
+          address: BP_OFFSET_BYTE( B0 )
+          name = "transposeMat",  type = 98
+        038B: NEAR_RTN_386
+          start off = 0000114D, code size = 00000022, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  201
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Physics_SetCurrentWallType"
+        03BD: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "wallType",  type = 9
+        03CA: NEAR_RTN_386
+          start off = 0000116F, code size = 0000007A, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  202
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Name = "Physics_GetTorque"
+        03F6: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "carObj",  type = 187
+        0402: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "index",  type = 9
+        040C: BLOCK_386
+          start off = 000012ED, code size = 00000143, parent off = 0436
+        0418: LOCAL
+          address: BP_OFFSET_BYTE( E0 )
+          name = "turn",  type = 9
+        0421: BLOCK_386
+          start off = 00001435, code size = 000000E5, parent off = 0436
+        042D: LOCAL
+          address: BP_OFFSET_BYTE( CC )
+          name = "turn",  type = 9
+        0436: NEAR_RTN_386
+          start off = 000011E9, code size = 00000432, parent off = 0000
+          prologue size = 13,  epilogue size = 10
+          return address offset (from bp) = 00000014
+          return type:  203
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Name = "Physics_CorrectPostCollisionYaw"
+        046F: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "carObj",  type = 187
+        047B: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "impactVel",  type = 9
+        0489: LOCAL
+          address: BP_OFFSET_BYTE( 18 )
+          name = "barrierVec",  type = 67
+        0498: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "diff",  type = 9
+        04A1: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "newVec",  type = 67
+        04AC: BLOCK_386
+          start off = 00001651, code size = 00000127, parent off = 0598
+        04B8: LOCAL
+          address: BP_OFFSET_WORD( 0074 )
+          name = "r1",  type = 9
+        04C0: LOCAL
+          address: BP_OFFSET_WORD( 0078 )
+          name = "r2",  type = 9
+        04C8: LOCAL
+          address: BP_OFFSET_WORD( 007C )
+          name = "r3",  type = 9
+        04D0: LOCAL
+          address: BP_OFFSET_BYTE( 80 )
+          name = "r4",  type = 9
+        04D7: LOCAL
+          address: BP_OFFSET_BYTE( 84 )
+          name = "r5",  type = 9
+        04DE: LOCAL
+          address: BP_OFFSET_BYTE( 88 )
+          name = "r6",  type = 9
+        04E5: BLOCK_386
+          start off = 000017BD, code size = 0000006C, parent off = 0598
+        04F1: LOCAL
+          address: BP_OFFSET_BYTE( 8C )
+          name = "r1",  type = 9
+        04F8: LOCAL
+          address: BP_OFFSET_BYTE( 90 )
+          name = "r2",  type = 9
+        04FF: LOCAL
+          address: BP_OFFSET_BYTE( 94 )
+          name = "r3",  type = 9
+        0506: LOCAL
+          address: BP_OFFSET_BYTE( 98 )
+          name = "r4",  type = 9
+        050D: LOCAL
+          address: BP_OFFSET_BYTE( 9C )
+          name = "r5",  type = 9
+        0514: LOCAL
+          address: BP_OFFSET_BYTE( A0 )
+          name = "r6",  type = 9
+        051B: BLOCK_386
+          start off = 00001B6D, code size = 0000013A, parent off = 0598
+        0527: LOCAL
+          address: BP_OFFSET_WORD( 0068 )
+          name = "widthVector",  type = 67
+        0538: BLOCK_386
+          start off = 00001CE0, code size = 00000080, parent off = 0598
+        0544: LOCAL
+          address: BP_OFFSET_WORD( 0064 )
+          name = "slice",  type = 9
+        054F: BLOCK_386
+          start off = 00001DD6, code size = 00000193, parent off = 0598
+        055B: LOCAL
+          address: BP_OFFSET_WORD( 005C )
+          name = "vel",  type = 9
+        0564: BLOCK_386
+          start off = 00001F9A, code size = 0000009E, parent off = 0598
+        0570: LOCAL
+          address: BP_OFFSET_WORD( 0050 )
+          name = "normal",  type = 67
+        057C: BLOCK_386
+          start off = 00002088, code size = 0000007C, parent off = 0598
+        0588: LOCAL
+          address: BP_OFFSET_WORD( 003C )
+          name = "barrierVec",  type = 67
+        0598: NEAR_RTN_386
+          start off = 0000161B, code size = 00000AFB, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  204
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Physics_DoBarrierCheck"
+        05C7: LOCAL
+          address: BP_OFFSET_BYTE( DC )
+          name = "carObj",  type = 187
+        05D3: LOCAL
+          address: BP_OFFSET_BYTE( B8 )
+          name = "Vec1",  type = 67
+        05DC: LOCAL
+          address: BP_OFFSET_BYTE( C4 )
+          name = "Vec2",  type = 67
+        05E5: LOCAL
+          address: BP_OFFSET_BYTE( D0 )
+          name = "vel_b",  type = 67
+        05EF: LOCAL
+          address: BP_OFFSET_BYTE( AC )
+          name = "right",  type = 67
+        05F9: LOCAL
+          address: BP_OFFSET_BYTE( E0 )
+          name = "diff",  type = 9
+        0602: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "impactVel",  type = 9
+        0610: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "carCollisionWidth",  type = 9
+        0626: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "x_relRoad",  type = 9
+        0634: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "wallType",  type = 9
+        0641: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "collide",  type = 9
+        064D: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "slice",  type = 9
+        0657: NEAR_RTN_386
+          start off = 00002116, code size = 0000059F, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  197
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Physics_AutoShift"
+        0680: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "carObj",  type = 187
+        068C: LOCAL
+          address: BP_OFFSET_BYTE( E0 )
+          name = "wheelRpm",  type = 9
+        0699: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "nextRpm",  type = 9
+        06A5: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "previousRpm",  type = 9
+        06B5: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "previous2Rpm",  type = 9
+        06C6: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "previousGear",  type = 9
+        06D7: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "previous2Gear",  type = 9
+        06E9: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "nextGear",  type = 9
+        06F6: LOCAL
+          address: BP_OFFSET_BYTE( D8 )
+          name = "pan",  type = 207
+        06FF: BLOCK_386
+          start off = 0000272D, code size = 000000B4, parent off = 0742
+        070B: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "inc",  type = 4
+        0713: BLOCK_386
+          start off = 00002C6D, code size = 00000080, parent off = 0742
+        071F: LOCAL
+          address: BP_OFFSET_BYTE( C0 )
+          name = "rampOut",  type = 9
+        072B: BLOCK_386
+          start off = 00002CF2, code size = 00000086, parent off = 0742
+        0737: LOCAL
+          address: BP_OFFSET_BYTE( AC )
+          name = "rampIn",  type = 9
+        0742: NEAR_RTN_386
+          start off = 000026B5, code size = 000007F8, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  197
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Physics_RampCarControlValues"
+        0776: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "carObj",  type = 187
+        0782: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "i",  type = 9
+        0788: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "diff",  type = 9
+        0791: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "gear",  type = 9
+        079A: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "pan",  type = 207
+        07A3: NEAR_RTN_386
+          start off = 00002EAD, code size = 00000359, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  197
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Physics_FixEngineRpm"
+        07CF: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "carObj",  type = 187
+        07DB: NEAR_RTN_386
+          start off = 00003206, code size = 0000011F, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  197
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Physics_FakeEngineRpm"
+        0808: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "carObj",  type = 187
+        0814: NEAR_RTN_386
+          start off = 00003325, code size = 00000134, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  197
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Physics_ResetCar"
+        083C: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "carObj",  type = 187
+        0848: NEAR_RTN_386
+          start off = 00003459, code size = 000000B5, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  197
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Physics_StopCar"
+        086F: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "carObj",  type = 187
+        087B: NEAR_RTN_386
+          start off = 0000350E, code size = 0000005E, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  197
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Physics_TestForBarrierCollision"
+        08B2: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "carObj",  type = 187
+        08BE: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "hit",  type = 9
+        08C6: BLOCK_386
+          start off = 0000357D, code size = 00000139, parent off = 095B
+        08D2: LOCAL
+          address: BP_OFFSET_BYTE( 84 )
+          name = "slice",  type = 9
+        08DC: LOCAL
+          address: BP_OFFSET_BYTE( 88 )
+          name = "slice2",  type = 9
+        08E7: LOCAL
+          address: BP_OFFSET_BYTE( 8C )
+          name = "r1",  type = 9
+        08EE: LOCAL
+          address: BP_OFFSET_BYTE( 90 )
+          name = "r2",  type = 9
+        08F5: LOCAL
+          address: BP_OFFSET_BYTE( 94 )
+          name = "r3",  type = 9
+        08FC: LOCAL
+          address: BP_OFFSET_BYTE( 98 )
+          name = "r4",  type = 9
+        0903: LOCAL
+          address: BP_OFFSET_BYTE( 9C )
+          name = "r5",  type = 9
+        090A: LOCAL
+          address: BP_OFFSET_BYTE( A0 )
+          name = "r6",  type = 9
+        0911: LOCAL
+          address: BP_OFFSET_BYTE( A4 )
+          name = "r7",  type = 9
+        0918: LOCAL
+          address: BP_OFFSET_BYTE( A8 )
+          name = "r8",  type = 9
+        091F: LOCAL
+          address: BP_OFFSET_BYTE( AC )
+          name = "r9",  type = 9
+        0926: BLOCK_386
+          start off = 00003728, code size = 000000EF, parent off = 095B
+        0932: LOCAL
+          address: BP_OFFSET_BYTE( B4 )
+          name = "pitch",  type = 9
+        093C: LOCAL
+          address: BP_OFFSET_BYTE( B8 )
+          name = "diff",  type = 9
+        0945: BLOCK_386
+          start off = 0000383E, code size = 00000121, parent off = 095B
+        0951: LOCAL
+          address: BP_OFFSET_BYTE( 80 )
+          name = "ratio",  type = 9
+        095B: NEAR_RTN_386
+          start off = 0000356C, code size = 000003FC, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  197
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Physics_CalculateRoadGripModifiers"
+        0995: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "carObj",  type = 187
+        09A1: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "y",  type = 9
+        09A7: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "z",  type = 9
+        09AD: LOCAL
+          address: BP_OFFSET_BYTE( D0 )
+          name = "vec1",  type = 67
+        09B6: LOCAL
+          address: BP_OFFSET_BYTE( DC )
+          name = "vec2",  type = 67
+        09BF: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "vec3",  type = 67
+        09C8: BLOCK_386
+          start off = 00003E52, code size = 000000D7, parent off = 09F8
+        09D4: LOCAL
+          address: BP_OFFSET_BYTE( B4 )
+          name = "rpmDrop",  type = 9
+        09E0: BLOCK_386
+          start off = 00003F38, code size = 00000110, parent off = 09F8
+        09EC: LOCAL
+          address: BP_OFFSET_BYTE( A4 )
+          name = "rpmRise",  type = 9
+        09F8: NEAR_RTN_386
+          start off = 00003968, code size = 00000875, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  204
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Physics_CalculateCarAcceleration"
+        0A31: LOCAL
+          address: BP_OFFSET_BYTE( D0 )
+          name = "carObj",  type = 187
+        0A3D: LOCAL
+          address: BP_OFFSET_BYTE( D4 )
+          name = "diffDesiredRpm",  type = 9
+        0A50: LOCAL
+          address: BP_OFFSET_BYTE( D8 )
+          name = "diffFlywheelRpm",  type = 9
+        0A64: LOCAL
+          address: BP_OFFSET_BYTE( DC )
+          name = "desiredRpm",  type = 9
+        0A73: LOCAL
+          address: BP_OFFSET_BYTE( E0 )
+          name = "exceedRedline",  type = 9
+        0A85: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "wheelRpm",  type = 9
+        0A92: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "driveAcc",  type = 9
+        0A9F: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "drag",  type = 9
+        0AA8: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "ratio",  type = 9
+        0AB2: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "temp",  type = 9
+        0ABB: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "specs",  type = 134
+        0AC6: NEAR_RTN_386
+          start off = 000041DD, code size = 00000199, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  212
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Name = "Physics_CalcWheelLockAcc"
+        0AF8: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "carObj",  type = 187
+        0B04: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "wheel",  type = 211
+        0B0F: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "totalAcc",  type = 9
+        0B1C: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "optVar1",  type = 9
+        0B28: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "optVar2",  type = 9
+        0B34: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "roadGrip",  type = 9
+        0B41: NEAR_RTN_386
+          start off = 00004376, code size = 00000420, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  212
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Name = "Physics_CalcTractionCircleAcc"
+        0B78: LOCAL
+          address: BP_OFFSET_BYTE( DC )
+          name = "carObj",  type = 187
+        0B84: LOCAL
+          address: BP_OFFSET_BYTE( E0 )
+          name = "wheel",  type = 211
+        0B8F: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "totalAcc",  type = 9
+        0B9C: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "capAcc",  type = 9
+        0BA7: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "ratio",  type = 9
+        0BB1: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "limitedGrip",  type = 9
+        0BC1: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "gripLoss",  type = 9
+        0BCE: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "roadGrip",  type = 9
+        0BDB: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "noCap",  type = 9
+        0BE5: NEAR_RTN_386
+          start off = 00004796, code size = 000009D7, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  212
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Name = "Physics_CalculateTireForces"
+        0C1A: LOCAL
+          address: BP_OFFSET_BYTE( E0 )
+          name = "carObj",  type = 187
+        0C26: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "wheel",  type = 211
+        0C31: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "latAcc",  type = 9
+        0C3C: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "brakingSituation",  type = 9
+        0C51: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "slipAngle",  type = 9
+        0C5F: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "ratio",  type = 9
+        0C69: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "roadGrip",  type = 9
+        0C76: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "totalGravity",  type = 9
+        0C87: BLOCK_386
+          start off = 00006739, code size = 00000167, parent off = 0C9D
+        0C93: LOCAL
+          address: BP_OFFSET_WORD( 00B0 )
+          name = "damp",  type = 9
+        0C9D: NEAR_RTN_386
+          start off = 0000516D, code size = 00001784, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  197
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Physics_Real"
+        0CC1: LOCAL
+          address: BP_OFFSET_BYTE( DC )
+          name = "carObj",  type = 187
+        0CCD: LOCAL
+          address: BP_OFFSET_BYTE( E0 )
+          name = "driveAcc",  type = 9
+        0CDA: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "brakeAcc",  type = 9
+        0CE7: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "frontBrake",  type = 9
+        0CF6: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "ratio",  type = 9
+        0D00: LOCAL
+          address: BP_OFFSET_BYTE( D0 )
+          name = "tempSteer",  type = 9
+        0D0E: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "MaxTurnVel",  type = 9
+        0D1D: LOCAL
+          address: BP_OFFSET_BYTE( D4 )
+          name = "roadGrip",  type = 9
+        0D2A: LOCAL
+          address: BP_OFFSET_BYTE( D8 )
+          name = "frontGrip",  type = 9
+        0D38: LOCAL
+          address: BP_OFFSET_WORD( 0028 )
+          name = "frontWheel",  type = 210
+        0D49: LOCAL
+          address: BP_OFFSET_WORD( 0058 )
+          name = "rearWheel",  type = 210
+        0D59: LOCAL
+          address: BP_OFFSET_BYTE( B8 )
+          name = "temp",  type = 67
+        0D62: LOCAL
+          address: BP_OFFSET_BYTE( AC )
+          name = "finalAngularAcc_ch",  type = 67
+        0D79: LOCAL
+          address: BP_OFFSET_BYTE( C4 )
+          name = "carAccCap_ch",  type = 67
+        0D8A: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "rotationalAccCap",  type = 9
+        0D9F: LOCAL
+          address: BP_OFFSET_BYTE( 88 )
+          name = "transposeMat",  type = 98
+        0DB0: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "specs",  type = 134
+        0DBB: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "temp2",  type = 9
+        0DC5: NEAR_RTN_386
+          start off = 000068F1, code size = 000000C0, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  197
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Physics_SimCar"
+        0DEB: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "carObj",  type = 187
+        0DF7: NEAR_RTN_386
+          start off = 000069B1, code size = 0000014E, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  197
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Physics_Assist"
+        0E1D: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "carObj",  type = 187
+        0E29: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "yaw",  type = 9
+        0E31: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "yaw2",  type = 9
+        0E3A: NEAR_RTN_386
+          start off = 00006AFF, code size = 00001381, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  197
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Physics_FakeCarAcceleration"
+        0E6D: LOCAL
+          address: BP_OFFSET_BYTE( C8 )
+          name = "carObj",  type = 187
+        0E79: LOCAL
+          address: BP_OFFSET_BYTE( CC )
+          name = "RpmRise",  type = 9
+        0E85: LOCAL
+          address: BP_OFFSET_BYTE( D0 )
+          name = "orgRpm",  type = 9
+        0E90: LOCAL
+          address: BP_OFFSET_BYTE( D4 )
+          name = "Acc",  type = 9
+        0E98: LOCAL
+          address: BP_OFFSET_BYTE( D8 )
+          name = "carVel",  type = 9
+        0EA3: LOCAL
+          address: BP_OFFSET_BYTE( DC )
+          name = "desiredRpm",  type = 9
+        0EB2: LOCAL
+          address: BP_OFFSET_BYTE( E0 )
+          name = "wheelRpm",  type = 9
+        0EBF: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "diffRpm",  type = 9
+        0ECB: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "ratio",  type = 9
+        0ED5: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "underrev",  type = 9
+        0EE2: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "BrakeCurve",  type = 9
+        0EF1: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "MaxSteering",  type = 9
+        0F01: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "totalAcc",  type = 9
+        0F0E: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "MaxBrake",  type = 9
+        0F1B: NEAR_RTN_386
+          start off = 00007E80, code size = 00000BA1, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  197
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Physics_FakeSteering"
+        0F47: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "carObj",  type = 187
+        0F53: LOCAL
+          address: BP_OFFSET_BYTE( E0 )
+          name = "MaxSteering",  type = 9
+        0F63: LOCAL
+          address: BP_OFFSET_BYTE( D4 )
+          name = "tempSteer",  type = 9
+        0F71: LOCAL
+          address: BP_OFFSET_BYTE( D8 )
+          name = "steering",  type = 9
+        0F7E: LOCAL
+          address: BP_OFFSET_BYTE( DC )
+          name = "ratio",  type = 9
+        0F88: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "ratio2",  type = 9
+        0F93: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "ratio3",  type = 9
+        0F9E: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "ratio4",  type = 9
+        0FA9: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "desired_steer",  type = 9
+        0FBB: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "diff",  type = 9
+        0FC4: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "inc",  type = 9
+        0FCC: LOCAL
+          address: BP_OFFSET_BYTE( BC )
+          name = "TurnTable",  type = 213
+        0FDB: LOCAL
+          address: BP_OFFSET_BYTE( A4 )
+          name = "IncTable",  type = 214
+        0FE9: NEAR_RTN_386
+          start off = 00008A21, code size = 00000B92, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  197
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Physics_FakePowerOversteer"
+        101B: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "carObj",  type = 187
+        1027: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "ratio",  type = 9
+        1031: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "ratio2",  type = 9
+        103C: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "desired_slide",  type = 9
+        104E: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "diff",  type = 9
+        1057: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "lock",  type = 9
+        1060: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "slide_inc",  type = 9
+        106E: LOCAL
+          address: BP_OFFSET_BYTE( CC )
+          name = "SlideInc",  type = 215
+        107C: LOCAL
+          address: BP_OFFSET_BYTE( B4 )
+          name = "SlideTable",  type = 216
+        108C: NEAR_RTN_386
+          start off = 000095B3, code size = 00000AD8, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  197
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Physics_Fake"
+        10B0: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "carObj",  type = 187
+        10BC: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "temp",  type = 67
+        10C5: LOCAL
+          address: BP_OFFSET_BYTE( E0 )
+          name = "finalAngularAcc_ch",  type = 67
+        10DC: LOCAL
+          address: BP_OFFSET_BYTE( BC )
+          name = "transposeMat",  type = 98
+        10ED: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "temp2",  type = 9
+

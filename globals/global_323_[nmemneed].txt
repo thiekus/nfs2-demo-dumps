@@ -1,0 +1,4 @@
+  Name:  __nmemneed_
+    address      = 0001:000A8E40
+    module index = 323
+    kind:          (code)

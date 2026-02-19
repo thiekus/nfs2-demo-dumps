@@ -1,0 +1,4 @@
+  Name:  _blittext
+    address      = 0001:000C0430
+    module index = 492
+    kind:          (code)

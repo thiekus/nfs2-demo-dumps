@@ -1,0 +1,28 @@
+  Name:  NetMenu_EnterCommsMode_
+    address      = 0001:00068367
+    module index = 87
+    kind:          (code)
+  Name:  NetMenu_LeaveCommsMode_
+    address      = 0001:00068432
+    module index = 87
+    kind:          (code)
+  Name:  NetMenu_UpdateDisplay_
+    address      = 0001:0006848E
+    module index = 87
+    kind:          (code)
+  Name:  NetMenu_SaveTouryStateInfo_
+    address      = 0001:000684E2
+    module index = 87
+    kind:          (code)
+  Name:  NetMenu_UpdateTouryStateInfo_
+    address      = 0001:00068515
+    module index = 87
+    kind:          (code)
+  Name:  NetMenu_NetMenu_
+    address      = 0001:00068680
+    module index = 87
+    kind:          (code)
+  Name:  _gStaticIndex
+    address      = 0002:000503C8
+    module index = 87
+    kind:          (static pubdef) (data)

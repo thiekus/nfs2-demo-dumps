@@ -1,0 +1,8 @@
+  Name:  _upm16lf
+    address      = 0001:000C3360
+    module index = 547
+    kind:          (code)
+  Name:  _upm16lfsetstate
+    address      = 0001:000C33C4
+    module index = 547
+    kind:          (code)

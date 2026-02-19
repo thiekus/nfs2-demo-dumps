@@ -1,0 +1,4 @@
+  Name:  ungetc_
+    address      = 0001:000BA7BC
+    module index = 412
+    kind:          (code)

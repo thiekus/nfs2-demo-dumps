@@ -1,0 +1,44 @@
+  Name:  Sched_ExecuteCheck_
+    address      = 0001:0004220C
+    module index = 41
+    kind:          (code)
+  Name:  Sched_CreateNewSchedule_
+    address      = 0001:00042302
+    module index = 41
+    kind:          (code)
+  Name:  Sched_CleanUpSchedule_
+    address      = 0001:000423A4
+    module index = 41
+    kind:          (code)
+  Name:  Sched_AddFunction_
+    address      = 0001:000423D1
+    module index = 41
+    kind:          (code)
+  Name:  Sched_DeleteFunction_
+    address      = 0001:000424A9
+    module index = 41
+    kind:          (code)
+  Name:  Sched_Execute_
+    address      = 0001:00042587
+    module index = 41
+    kind:          (code)
+  Name:  _Sched_ExecuteTimes
+    address      = 0002:0000EE38
+    module index = 41
+    kind:          (data)
+  Name:  _Sched_ExecuteElapsedTimes
+    address      = 0002:0000EE54
+    module index = 41
+    kind:          (data)
+  Name:  _Sched_ExecuteiTimes
+    address      = 0002:0000EE70
+    module index = 41
+    kind:          (data)
+  Name:  _Sched_ExecuteMasks
+    address      = 0002:0000EE8C
+    module index = 41
+    kind:          (data)
+  Name:  _Sched_gExecuteInfo
+    address      = 0002:0000EEA8
+    module index = 41
+    kind:          (data)

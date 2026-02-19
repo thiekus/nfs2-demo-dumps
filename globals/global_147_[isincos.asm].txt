@@ -1,0 +1,8 @@
+  Name:  _fastintsincos
+    address      = 0001:0008419C
+    module index = 147
+    kind:          (code)
+  Name:  _intsincos
+    address      = 0001:0008419C
+    module index = 147
+    kind:          (code)

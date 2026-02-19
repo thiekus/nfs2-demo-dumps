@@ -1,0 +1,413 @@
+ 40) Name:   C:\nfs2\game\common\Line.c
+     Language is C
+     Locals: num = 1, offset = 000000B2H
+     Types:  num = 1, offset = 0000024EH
+     Lines:  num = 1, offset = 000003DEH
+
+   *** Locals ***
+   ==============
+      Data 0:  offset 0001251F
+        0000: MODULE_386
+          "gLineChunk" addr = 0002:000434B8,  type = 59
+        0013: MODULE_386
+          "RandLineTable" addr = 0002:0000EE10,  type = 60
+        0029: MODULE_386
+          "gLastFacet" addr = 0002:00043508,  type = 84
+        003C: MODULE_386
+          "gNLineChunk" addr = 0002:0004350C,  type = 9
+        0050: MODULE_386
+          "gFirstFacet" addr = 0002:00043510,  type = 84
+        0064: SET_BASE_386
+          base = 0001:0004029E
+        006C: BLOCK_386
+          start off = 0000028C, code size = 0000008B, parent off = 00BC
+        0078: LOCAL
+          address: BP_OFFSET_BYTE( D8 )
+          name = "ppt",  type = 87
+        0080: BLOCK_386
+          start off = 00000317, code size = 0000008C, parent off = 00BC
+        008C: LOCAL
+          address: BP_OFFSET_BYTE( CC )
+          name = "ppt",  type = 87
+        0094: BLOCK_386
+          start off = 000003A3, code size = 0000008C, parent off = 00BC
+        00A0: LOCAL
+          address: BP_OFFSET_BYTE( C0 )
+          name = "ppt",  type = 87
+        00A8: BLOCK_386
+          start off = 0000042F, code size = 0000008C, parent off = 00BC
+        00B4: LOCAL
+          address: BP_OFFSET_BYTE( B4 )
+          name = "ppt",  type = 87
+        00BC: NEAR_RTN_386
+          start off = 00000000, code size = 000004C3, parent off = 0000
+          prologue size = 11,  epilogue size = 8
+          return address offset (from bp) = 0000000C
+          return type:  93
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Parm 3: MULTI_REG(1): ECX
+          Name = "Line_SingleLine"
+        00E8: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "cl",  type = 91
+        00EF: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "white",  type = 9
+        00F9: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "v0",  type = 92
+        0100: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "v1",  type = 92
+        0107: LOCAL
+          address: BP_OFFSET_BYTE( 10 )
+          name = "v2",  type = 92
+        010E: LOCAL
+          address: BP_OFFSET_BYTE( 14 )
+          name = "v3",  type = 92
+        0115: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "pFacet1",  type = 84
+        0121: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "pNew",  type = 69
+        012A: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "temp",  type = 9
+        0133: BLOCK_386
+          start off = 0000077F, code size = 0000008B, parent off = 0183
+        013F: LOCAL
+          address: BP_OFFSET_BYTE( D4 )
+          name = "ppt",  type = 87
+        0147: BLOCK_386
+          start off = 0000080A, code size = 0000008C, parent off = 0183
+        0153: LOCAL
+          address: BP_OFFSET_BYTE( C8 )
+          name = "ppt",  type = 87
+        015B: BLOCK_386
+          start off = 00000896, code size = 0000008C, parent off = 0183
+        0167: LOCAL
+          address: BP_OFFSET_BYTE( BC )
+          name = "ppt",  type = 87
+        016F: BLOCK_386
+          start off = 00000922, code size = 0000008B, parent off = 0183
+        017B: LOCAL
+          address: BP_OFFSET_BYTE( B0 )
+          name = "ppt",  type = 87
+        0183: NEAR_RTN_386
+          start off = 000004C3, code size = 000004F2, parent off = 0000
+          prologue size = 11,  epilogue size = 8
+          return address offset (from bp) = 0000000C
+          return type:  93
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Parm 3: MULTI_REG(1): ECX
+          Name = "Line_DashLine"
+        01AD: LOCAL
+          address: BP_OFFSET_BYTE( E0 )
+          name = "cl",  type = 91
+        01B4: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "white",  type = 9
+        01BE: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "v0",  type = 92
+        01C5: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "v1",  type = 92
+        01CC: LOCAL
+          address: BP_OFFSET_BYTE( 10 )
+          name = "v2",  type = 92
+        01D3: LOCAL
+          address: BP_OFFSET_BYTE( 14 )
+          name = "v3",  type = 92
+        01DA: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "pFacet1",  type = 84
+        01E6: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "pNew",  type = 69
+        01EF: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "temp1",  type = 9
+        01F9: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "temp2",  type = 9
+        0203: BLOCK_386
+          start off = 00000CFB, code size = 0000008B, parent off = 0253
+        020F: LOCAL
+          address: BP_OFFSET_BYTE( D4 )
+          name = "ppt",  type = 87
+        0217: BLOCK_386
+          start off = 00000D86, code size = 0000008C, parent off = 0253
+        0223: LOCAL
+          address: BP_OFFSET_BYTE( C8 )
+          name = "ppt",  type = 87
+        022B: BLOCK_386
+          start off = 00000E12, code size = 0000008C, parent off = 0253
+        0237: LOCAL
+          address: BP_OFFSET_BYTE( BC )
+          name = "ppt",  type = 87
+        023F: BLOCK_386
+          start off = 00000E9E, code size = 0000008C, parent off = 0253
+        024B: LOCAL
+          address: BP_OFFSET_BYTE( B0 )
+          name = "ppt",  type = 87
+        0253: NEAR_RTN_386
+          start off = 000009B5, code size = 0000057D, parent off = 0000
+          prologue size = 11,  epilogue size = 8
+          return address offset (from bp) = 0000000C
+          return type:  93
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Parm 3: MULTI_REG(1): ECX
+          Name = "Line_DoubleLine"
+        027F: LOCAL
+          address: BP_OFFSET_BYTE( E0 )
+          name = "cl",  type = 91
+        0286: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "white",  type = 9
+        0290: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "v0",  type = 92
+        0297: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "v1",  type = 92
+        029E: LOCAL
+          address: BP_OFFSET_BYTE( 10 )
+          name = "v2",  type = 92
+        02A5: LOCAL
+          address: BP_OFFSET_BYTE( 14 )
+          name = "v3",  type = 92
+        02AC: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "pFacet1",  type = 84
+        02B8: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "pFacet2",  type = 84
+        02C4: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "pNew",  type = 69
+        02CD: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "temp",  type = 9
+        02D6: BLOCK_386
+          start off = 000012E9, code size = 0000008B, parent off = 033A
+        02E2: LOCAL
+          address: BP_OFFSET_BYTE( D4 )
+          name = "ppt",  type = 87
+        02EA: BLOCK_386
+          start off = 00001374, code size = 0000008C, parent off = 033A
+        02F6: LOCAL
+          address: BP_OFFSET_BYTE( C8 )
+          name = "ppt",  type = 87
+        02FE: BLOCK_386
+          start off = 00001400, code size = 0000008C, parent off = 033A
+        030A: LOCAL
+          address: BP_OFFSET_BYTE( BC )
+          name = "ppt",  type = 87
+        0312: BLOCK_386
+          start off = 0000148C, code size = 0000008B, parent off = 033A
+        031E: LOCAL
+          address: BP_OFFSET_BYTE( B0 )
+          name = "ppt",  type = 87
+        0326: BLOCK_386
+          start off = 00001517, code size = 0000009B, parent off = 033A
+        0332: LOCAL
+          address: BP_OFFSET_BYTE( A4 )
+          name = "ppt",  type = 87
+        033A: NEAR_RTN_386
+          start off = 00000F32, code size = 00000688, parent off = 0000
+          prologue size = 11,  epilogue size = 8
+          return address offset (from bp) = 0000000C
+          return type:  93
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Parm 3: MULTI_REG(1): ECX
+          Name = "Line_SolidDashLine"
+        0369: LOCAL
+          address: BP_OFFSET_BYTE( E0 )
+          name = "cl",  type = 91
+        0370: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "white",  type = 9
+        037A: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "v0",  type = 92
+        0381: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "v1",  type = 92
+        0388: LOCAL
+          address: BP_OFFSET_BYTE( 10 )
+          name = "v2",  type = 92
+        038F: LOCAL
+          address: BP_OFFSET_BYTE( 14 )
+          name = "v3",  type = 92
+        0396: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "pFacet1",  type = 84
+        03A2: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "pFacet2",  type = 84
+        03AE: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "pNew",  type = 69
+        03B7: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "temp",  type = 9
+        03C0: BLOCK_386
+          start off = 00001971, code size = 0000008B, parent off = 0424
+        03CC: LOCAL
+          address: BP_OFFSET_BYTE( D4 )
+          name = "ppt",  type = 87
+        03D4: BLOCK_386
+          start off = 000019FC, code size = 0000008C, parent off = 0424
+        03E0: LOCAL
+          address: BP_OFFSET_BYTE( C8 )
+          name = "ppt",  type = 87
+        03E8: BLOCK_386
+          start off = 00001A88, code size = 0000008C, parent off = 0424
+        03F4: LOCAL
+          address: BP_OFFSET_BYTE( BC )
+          name = "ppt",  type = 87
+        03FC: BLOCK_386
+          start off = 00001B14, code size = 0000008B, parent off = 0424
+        0408: LOCAL
+          address: BP_OFFSET_BYTE( B0 )
+          name = "ppt",  type = 87
+        0410: BLOCK_386
+          start off = 00001B9F, code size = 0000009B, parent off = 0424
+        041C: LOCAL
+          address: BP_OFFSET_BYTE( A4 )
+          name = "ppt",  type = 87
+        0424: NEAR_RTN_386
+          start off = 000015BA, code size = 00000688, parent off = 0000
+          prologue size = 11,  epilogue size = 8
+          return address offset (from bp) = 0000000C
+          return type:  93
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Parm 3: MULTI_REG(1): ECX
+          Name = "Line_DashSolidLine"
+        0453: LOCAL
+          address: BP_OFFSET_BYTE( E0 )
+          name = "cl",  type = 91
+        045A: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "white",  type = 9
+        0464: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "v0",  type = 92
+        046B: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "v1",  type = 92
+        0472: LOCAL
+          address: BP_OFFSET_BYTE( 10 )
+          name = "v2",  type = 92
+        0479: LOCAL
+          address: BP_OFFSET_BYTE( 14 )
+          name = "v3",  type = 92
+        0480: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "pFacet1",  type = 84
+        048C: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "pFacet2",  type = 84
+        0498: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "pNew",  type = 69
+        04A1: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "temp",  type = 9
+        04AA: NEAR_RTN_386
+          start off = 00001C42, code size = 0000001F, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  23
+          return value: <none>
+          Name = "Line_StartInsertFacet"
+        04D4: BLOCK_386
+          start off = 00001C74, code size = 00000015, parent off = 053D
+        04E0: LOCAL
+          address: BP_OFFSET_BYTE( E0 )
+          name = "p",  type = 13
+        04E6: BLOCK_386
+          start off = 00001CF5, code size = 00000128, parent off = 052A
+        04F2: LOCAL
+          address: BP_OFFSET_BYTE( D8 )
+          name = "pFacet1",  type = 84
+        04FE: BLOCK_386
+          start off = 00001E22, code size = 0000007F, parent off = 052A
+        050A: LOCAL
+          address: BP_OFFSET_BYTE( C8 )
+          name = "sv0",  type = 62
+        0512: LOCAL
+          address: BP_OFFSET_BYTE( B8 )
+          name = "sv1",  type = 62
+        051A: LOCAL
+          address: BP_OFFSET_BYTE( A8 )
+          name = "sv2",  type = 62
+        0522: LOCAL
+          address: BP_OFFSET_BYTE( 98 )
+          name = "sv3",  type = 62
+        052A: BLOCK_386
+          start off = 00001CCD, code size = 000001D4, parent off = 053D
+        0536: LOCAL
+          address: BP_OFFSET_BYTE( DC )
+          name = "cl",  type = 91
+        053D: NEAR_RTN_386
+          start off = 00001C61, code size = 00000298, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  94
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Name = "Line_BuildChunkLine"
+        0569: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "NumLine",  type = 9
+        0575: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "ListLine",  type = 91
+        0582: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "cbline",  type = 97
+        058D: NEAR_RTN_386
+          start off = 00001EF9, code size = 0000004B, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  109
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Line_InsertFacet"
+        05B4: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "Vi",  type = 108
+        05BB: NEAR_RTN_386
+          start off = 00001F44, code size = 00000015, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  23
+          return value: <none>
+          Name = "Line_InitTrackLine"
+        05E2: NEAR_RTN_386
+          start off = 00001F59, code size = 00000015, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  23
+          return value: <none>
+          Name = "Line_KillTrackLine"
+

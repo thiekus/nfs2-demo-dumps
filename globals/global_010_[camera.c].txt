@@ -1,0 +1,196 @@
+  Name:  Camera_InitDebugCamera_
+    address      = 0001:0001754D
+    module index = 10
+    kind:          (code)
+  Name:  Camera_Debug_
+    address      = 0001:00017562
+    module index = 10
+    kind:          (code)
+  Name:  Camera_SetMainCamera_
+    address      = 0001:00017577
+    module index = 10
+    kind:          (code)
+  Name:  Camera_SetHorizonCamera_
+    address      = 0001:000175AF
+    module index = 10
+    kind:          (code)
+  Name:  Camera_RestoreCamera_
+    address      = 0001:0001762E
+    module index = 10
+    kind:          (code)
+  Name:  Camera_SetCamera_
+    address      = 0001:0001768B
+    module index = 10
+    kind:          (code)
+  Name:  Camera_RestartTrackRender_
+    address      = 0001:000176DC
+    module index = 10
+    kind:          (code)
+  Name:  Camera_LookBack_
+    address      = 0001:000176F1
+    module index = 10
+    kind:          (code)
+  Name:  Camera_UpdateCollisionCam_
+    address      = 0001:0001779C
+    module index = 10
+    kind:          (code)
+  Name:  Camera_UpdateInCar_
+    address      = 0001:00017A17
+    module index = 10
+    kind:          (code)
+  Name:  Camera_UpdateBumperCam_
+    address      = 0001:00017B9E
+    module index = 10
+    kind:          (code)
+  Name:  Camera_UpdateRoofCam_
+    address      = 0001:00017D25
+    module index = 10
+    kind:          (code)
+  Name:  Camera_UpdateHeliCam2_
+    address      = 0001:000180D3
+    module index = 10
+    kind:          (code)
+  Name:  Camera_UpdateCircleCam_
+    address      = 0001:000185A0
+    module index = 10
+    kind:          (code)
+  Name:  Camera_IslandProfile_
+    address      = 0001:000188A8
+    module index = 10
+    kind:          (code)
+  Name:  Camera_UpdateTVCam_
+    address      = 0001:00018920
+    module index = 10
+    kind:          (code)
+  Name:  Camera_UpdateAnimCam_
+    address      = 0001:00018BC7
+    module index = 10
+    kind:          (code)
+  Name:  Camera_UpdateFinishCam_
+    address      = 0001:00018DA1
+    module index = 10
+    kind:          (code)
+  Name:  Camera_UpdateSideCam_
+    address      = 0001:0001910A
+    module index = 10
+    kind:          (code)
+  Name:  Camera_UpdateBlimpCam_
+    address      = 0001:00019352
+    module index = 10
+    kind:          (code)
+  Name:  Camera_SetSplineCam_
+    address      = 0001:00019435
+    module index = 10
+    kind:          (code)
+  Name:  Camera_UpdateSplineCam_
+    address      = 0001:000195FF
+    module index = 10
+    kind:          (code)
+  Name:  Camera_UpdateCliffCam_
+    address      = 0001:0001A098
+    module index = 10
+    kind:          (code)
+  Name:  Camera_Update_
+    address      = 0001:0001A2DA
+    module index = 10
+    kind:          (code)
+  Name:  Camera_Init_
+    address      = 0001:0001A4B3
+    module index = 10
+    kind:          (code)
+  Name:  Camera_PitchAndRoll_
+    address      = 0001:0001A841
+    module index = 10
+    kind:          (code)
+  Name:  Camera_CheckWallCollisions_
+    address      = 0001:0001A920
+    module index = 10
+    kind:          (code)
+  Name:  Camera_SetAboveGround_
+    address      = 0001:0001B1B1
+    module index = 10
+    kind:          (code)
+  Name:  Camera_AquireTarget_
+    address      = 0001:0001B39C
+    module index = 10
+    kind:          (code)
+  Name:  Camera_GetViewInfo_
+    address      = 0001:0001B80F
+    module index = 10
+    kind:          (code)
+  Name:  Camera_GetAudioViewInfo_
+    address      = 0001:0001B973
+    module index = 10
+    kind:          (code)
+  Name:  Camera_GetMode_
+    address      = 0001:0001BABF
+    module index = 10
+    kind:          (code)
+  Name:  Camera_SetMode_
+    address      = 0001:0001BB4A
+    module index = 10
+    kind:          (code)
+  Name:  Camera_NextMode_
+    address      = 0001:0001BC1B
+    module index = 10
+    kind:          (code)
+  Name:  Camera_GetAnchorObj_
+    address      = 0001:0001BE28
+    module index = 10
+    kind:          (code)
+  Name:  Camera_GetTargetObj_
+    address      = 0001:0001BE62
+    module index = 10
+    kind:          (code)
+  Name:  Camera_SetAnchorObj_
+    address      = 0001:0001BE9C
+    module index = 10
+    kind:          (code)
+  Name:  Camera_SetTargetObj_
+    address      = 0001:0001BED4
+    module index = 10
+    kind:          (code)
+  Name:  Camera_SetTwist_
+    address      = 0001:0001BF0C
+    module index = 10
+    kind:          (code)
+  Name:  _Camera_gInfo
+    address      = 0002:0000C4F0
+    module index = 10
+    kind:          (data)
+  Name:  _gSplineCamStepCounter
+    address      = 0002:0000C70A
+    module index = 10
+    kind:          (data)
+  Name:  _gSplineCamSliceCounter
+    address      = 0002:0000C712
+    module index = 10
+    kind:          (data)
+  Name:  _gSplineCamStep
+    address      = 0002:0000C71A
+    module index = 10
+    kind:          (data)
+  Name:  _Camera_kRoofCamArm
+    address      = 0002:0000C722
+    module index = 10
+    kind:          (data)
+  Name:  _zoomxscale
+    address      = 0002:00022E10
+    module index = 10
+    kind:          (data)
+  Name:  _zoomyscale
+    address      = 0002:00022E14
+    module index = 10
+    kind:          (data)
+  Name:  _zoomcentery
+    address      = 0002:00022E18
+    module index = 10
+    kind:          (data)
+  Name:  _zoomcenterx
+    address      = 0002:00022E1C
+    module index = 10
+    kind:          (data)
+  Name:  _gNextModeList
+    address      = 0002:00022E20
+    module index = 10
+    kind:          (data)

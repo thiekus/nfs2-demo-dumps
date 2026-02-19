@@ -1,0 +1,4 @@
+  Name:  _shaperowbytes
+    address      = 0001:000B1770
+    module index = 363
+    kind:          (code)

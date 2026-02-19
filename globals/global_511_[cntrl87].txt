@@ -1,0 +1,4 @@
+  Name:  _control87_
+    address      = 0001:000C1B39
+    module index = 511
+    kind:          (code)

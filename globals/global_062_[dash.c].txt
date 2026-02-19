@@ -1,0 +1,220 @@
+  Name:  _Dash_gMirror
+    address      = 0002:000468D0
+    module index = 62
+    kind:          (data)
+  Name:  _gIndiGear
+    address      = 0002:000468D8
+    module index = 62
+    kind:          (static pubdef) (data)
+  Name:  _Dash_gSideMirror
+    address      = 0002:000468E0
+    module index = 62
+    kind:          (data)
+  Name:  _gIndiSpeed
+    address      = 0002:000468E8
+    module index = 62
+    kind:          (static pubdef) (data)
+  Name:  _gIndiTemp
+    address      = 0002:000468F0
+    module index = 62
+    kind:          (static pubdef) (data)
+  Name:  _gIndiTach1
+    address      = 0002:000468F8
+    module index = 62
+    kind:          (static pubdef) (data)
+  Name:  _gIndiTach0
+    address      = 0002:00046900
+    module index = 62
+    kind:          (static pubdef) (data)
+  Name:  _gCFacet
+    address      = 0002:00046908
+    module index = 62
+    kind:          (static pubdef) (data)
+  Name:  _gPixMap
+    address      = 0002:00046938
+    module index = 62
+    kind:          (static pubdef) (data)
+  Name:  _gFacet
+    address      = 0002:00046AA0
+    module index = 62
+    kind:          (static pubdef) (data)
+  Name:  _gShapeFileHd
+    address      = 0002:000475E0
+    module index = 62
+    kind:          (static pubdef) (data)
+  Name:  _gShapeFile
+    address      = 0002:000475E4
+    module index = 62
+    kind:          (static pubdef) (data)
+  Name:  _gPreviousDash
+    address      = 0002:000475E8
+    module index = 62
+    kind:          (static pubdef) (data)
+  Name:  _gPreviousSteerAngle
+    address      = 0002:000475EC
+    module index = 62
+    kind:          (static pubdef) (data)
+  Name:  Dash_SetGauge_
+    address      = 0001:0004CF16
+    module index = 62
+    kind:          (code)
+  Name:  Dash_InitGauges_
+    address      = 0001:0004D07A
+    module index = 62
+    kind:          (code)
+  Name:  Dash_ModuleRegister_
+    address      = 0001:0004D194
+    module index = 62
+    kind:          (code)
+  Name:  Dash_InitTextures_
+    address      = 0001:0004D27E
+    module index = 62
+    kind:          (code)
+  Name:  Dash_KillTextures_
+    address      = 0001:0004D4EB
+    module index = 62
+    kind:          (code)
+  Name:  Dash_ResetDash_
+    address      = 0001:0004D525
+    module index = 62
+    kind:          (code)
+  Name:  Dash_Calculations_
+    address      = 0001:0004D544
+    module index = 62
+    kind:          (code)
+  Name:  Dash_HasChanged_
+    address      = 0001:0004D559
+    module index = 62
+    kind:          (code)
+  Name:  Dash_GetRVOffset_
+    address      = 0001:0004D5CE
+    module index = 62
+    kind:          (code)
+  Name:  Dash_GetEnviro_
+    address      = 0001:0004D605
+    module index = 62
+    kind:          (code)
+  Name:  Dash_GetHeight_
+    address      = 0001:0004D631
+    module index = 62
+    kind:          (code)
+  Name:  Dash_GetWheelTexture_
+    address      = 0001:0004D688
+    module index = 62
+    kind:          (code)
+  Name:  Dash_MoveDash_
+    address      = 0001:0004D6FB
+    module index = 62
+    kind:          (code)
+  Name:  Dash_ClipGauge_
+    address      = 0001:0004D7C8
+    module index = 62
+    kind:          (code)
+  Name:  Dash_CalcTach_
+    address      = 0001:0004D913
+    module index = 62
+    kind:          (code)
+  Name:  Dash_CalcSpdo_
+    address      = 0001:0004DA3C
+    module index = 62
+    kind:          (code)
+  Name:  Dash_BuildSetWin_
+    address      = 0001:0004DB72
+    module index = 62
+    kind:          (code)
+  Name:  Dash_BuildTach_
+    address      = 0001:0004DBEB
+    module index = 62
+    kind:          (code)
+  Name:  Dash_BuildSpdo_
+    address      = 0001:0004DD22
+    module index = 62
+    kind:          (code)
+  Name:  Dash_BuildNeedles_
+    address      = 0001:0004DE59
+    module index = 62
+    kind:          (code)
+  Name:  Dash_BuildGaugeClip_
+    address      = 0001:0004DED0
+    module index = 62
+    kind:          (code)
+  Name:  Dash_BuildClip_
+    address      = 0001:0004DF56
+    module index = 62
+    kind:          (code)
+  Name:  Dash_BuildCockpit_
+    address      = 0001:0004DFFB
+    module index = 62
+    kind:          (code)
+  Name:  Dash_BuildClippedNeedles_
+    address      = 0001:0004E259
+    module index = 62
+    kind:          (code)
+  Name:  Dash_BuildMirror_
+    address      = 0001:0004E4CF
+    module index = 62
+    kind:          (code)
+  Name:  Dash_BuildNumber_
+    address      = 0001:0004E6BA
+    module index = 62
+    kind:          (code)
+  Name:  Dash_BuildIndiTach_
+    address      = 0001:0004E87C
+    module index = 62
+    kind:          (code)
+  Name:  Dash_BuildIndiGauges_
+    address      = 0001:0004E997
+    module index = 62
+    kind:          (code)
+  Name:  Dash_BuildClippedIndiGauges_
+    address      = 0001:0004EBE7
+    module index = 62
+    kind:          (code)
+  Name:  Dash_BuildWholeDash_
+    address      = 0001:0004ED28
+    module index = 62
+    kind:          (code)
+  Name:  Dash_BuildCockpitUnderWheel_
+    address      = 0001:0004F043
+    module index = 62
+    kind:          (code)
+  Name:  Dash_BuildWheel_
+    address      = 0001:0004F10C
+    module index = 62
+    kind:          (code)
+  Name:  Dash_BuildMapBackGround_
+    address      = 0001:0004F378
+    module index = 62
+    kind:          (code)
+  Name:  _gIndex
+    address      = 0002:0000F064
+    module index = 62
+    kind:          (static pubdef) (data)
+  Name:  _gPreviousHud
+    address      = 0002:000475F0
+    module index = 62
+    kind:          (static pubdef) (data)
+  Name:  _gDrawWheel
+    address      = 0002:000475F4
+    module index = 62
+    kind:          (static pubdef) (data)
+  Name:  _gLFacet
+    address      = 0002:000475F8
+    module index = 62
+    kind:          (static pubdef) (data)
+  Name:  _gTach
+    address      = 0002:000476A2
+    module index = 62
+    kind:          (static pubdef) (data)
+  Name:  _gSpdo
+    address      = 0002:00047718
+    module index = 62
+    kind:          (static pubdef) (data)
+  Name:  _gSetWin
+    address      = 0002:0004778E
+    module index = 62
+    kind:          (static pubdef) (data)
+  Name:  _gCurrentWin
+    address      = 0002:00047797
+    module index = 62
+    kind:          (static pubdef) (data)

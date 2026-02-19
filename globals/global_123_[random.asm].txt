@@ -1,0 +1,12 @@
+  Name:  _random
+    address      = 0001:00082AF8
+    module index = 123
+    kind:          (code)
+  Name:  _seed
+    address      = 0002:00012EC0
+    module index = 123
+    kind:          (data)
+  Name:  _seedrandom
+    address      = 0001:00082B5E
+    module index = 123
+    kind:          (code)

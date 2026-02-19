@@ -1,0 +1,974 @@
+ 60) Name:   C:\nfs2\game\pc\audio.c
+     Language is C
+     Locals: num = 1, offset = 00000102H
+     Types:  num = 1, offset = 0000029EH
+     Lines:  num = 1, offset = 00000426H
+
+    *** Types ***
+    =============
+      Data 0:  offset 00065FA8
+        0000: cue table offset=0000138A
+        0006: SCOPE(1)
+          "struct"
+        000E: SCOPE(2)
+          "union"
+        0015: SCOPE(3)
+          "enum"
+        001B: SCALAR(4)
+          "char"  scalar type = 10, unsigned
+        0022: SCALAR(5)
+          "signed char"  scalar type = 00, integer
+        0030: SCALAR(6)
+          "unsigned char"  scalar type = 10, unsigned
+        0040: SCALAR(7)
+          "short"  scalar type = 01, integer
+        0048: SCALAR(8)
+          "unsigned short"  scalar type = 11, unsigned
+        0059: SCALAR(9)
+          "int"  scalar type = 03, integer
+        005F: SCALAR(10)
+          "unsigned int"  scalar type = 13, unsigned
+        006E: NAME(11)
+          "wchar_t"  type idx = 8  scope idx = 0
+        0079: SCALAR(12)
+          "unsigned long"  scalar type = 13, unsigned
+        0089: NAME(13)
+          "time_t"  type idx = 12  scope idx = 0
+        0093: NAME(14)
+          "size_t"  type idx = 10  scope idx = 0
+        009D: NAME(15)
+          "ino_t"  type idx = 10  scope idx = 0
+        00A6: NAME(16)
+          "dev_t"  type idx = 9  scope idx = 0
+        00AF: SCALAR(17)
+          "long"  scalar type = 03, integer
+        00B6: NAME(18)
+          "off_t"  type idx = 17  scope idx = 0
+        00BF: NEAR386 PTR(19)
+          base type idx = 4
+        00C2: BYTE_INDEX ARRAY(20)
+          high bound = 00   base type idx = 19
+        00C6: NAME(21)
+          "va_list"  type idx = 20  scope idx = 0
+        00D1: NAME(22)
+          "ULONG"  type idx = 12  scope idx = 0
+        00DA: NEAR386 PTR(23)
+          base type idx = 22
+        00DD: NAME(24)
+          "PULONG"  type idx = 23  scope idx = 0
+        00E7: NAME(25)
+          "USHORT"  type idx = 8  scope idx = 0
+        00F1: NEAR386 PTR(26)
+          base type idx = 25
+        00F4: NAME(27)
+          "PUSHORT"  type idx = 26  scope idx = 0
+        00FF: NAME(28)
+          "UCHAR"  type idx = 6  scope idx = 0
+        0108: NEAR386 PTR(29)
+          base type idx = 28
+        010B: NAME(30)
+          "PUCHAR"  type idx = 29  scope idx = 0
+        0115: NAME(31)
+          "PSZ"  type idx = 19  scope idx = 0
+        011C: NAME(32)
+          "DWORD"  type idx = 12  scope idx = 0
+        0125: NAME(33)
+          "BOOL"  type idx = 9  scope idx = 0
+        012D: NAME(34)
+          "BYTE"  type idx = 6  scope idx = 0
+        0135: NAME(35)
+          "WORD"  type idx = 8  scope idx = 0
+        013D: SCALAR(36)
+          "float"  scalar type = 23, float
+        0145: NAME(37)
+          "FLOAT"  type idx = 36  scope idx = 0
+        014E: NEAR386 PTR(38)
+          base type idx = 37
+        0151: NAME(39)
+          "PFLOAT"  type idx = 38  scope idx = 0
+        015B: NEAR386 PTR(40)
+          base type idx = 33
+        015E: NAME(41)
+          "PBOOL"  type idx = 40  scope idx = 0
+        0167: NAME(42)
+          "LPBOOL"  type idx = 40  scope idx = 0
+        0171: NEAR386 PTR(43)
+          base type idx = 34
+        0174: NAME(44)
+          "PBYTE"  type idx = 43  scope idx = 0
+        017D: NAME(45)
+          "LPBYTE"  type idx = 43  scope idx = 0
+        0187: NEAR386 PTR(46)
+          base type idx = 9
+        018A: NAME(47)
+          "PINT"  type idx = 46  scope idx = 0
+        0192: NAME(48)
+          "LPINT"  type idx = 46  scope idx = 0
+        019B: NEAR386 PTR(49)
+          base type idx = 35
+        019E: NAME(50)
+          "PWORD"  type idx = 49  scope idx = 0
+        01A7: NAME(51)
+          "LPWORD"  type idx = 49  scope idx = 0
+        01B1: NEAR386 PTR(52)
+          base type idx = 17
+        01B4: NAME(53)
+          "LPLONG"  type idx = 52  scope idx = 0
+        01BE: NEAR386 PTR(54)
+          base type idx = 32
+        01C1: NAME(55)
+          "PDWORD"  type idx = 54  scope idx = 0
+        01CB: NAME(56)
+          "LPDWORD"  type idx = 54  scope idx = 0
+        01D6: SCALAR(57)
+          "void"  scalar type = 30, void
+        01DD: NEAR386 PTR(58)
+          base type idx = 57
+        01E0: NAME(59)
+          "LPVOID"  type idx = 58  scope idx = 0
+        01EA: SCALAR(60)
+          "void"  scalar type = 30, void
+        01F1: NEAR386 PTR(61)
+          base type idx = 60
+        01F4: NAME(62)
+          "LPCVOID"  type idx = 61  scope idx = 0
+        01FF: NAME(63)
+          "INT"  type idx = 9  scope idx = 0
+        0206: NAME(64)
+          "UINT"  type idx = 10  scope idx = 0
+        020E: NEAR386 PTR(65)
+          base type idx = 10
+        0211: NAME(66)
+          "PUINT"  type idx = 65  scope idx = 0
+        021A: NAME(67)
+          "PVOID"  type idx = 58  scope idx = 0
+        0223: NAME(68)
+          "CHAR"  type idx = 4  scope idx = 0
+        022B: NAME(69)
+          "SHORT"  type idx = 7  scope idx = 0
+        0234: NAME(70)
+          "LONG"  type idx = 17  scope idx = 0
+        023C: NAME(71)
+          "WCHAR"  type idx = 11  scope idx = 0
+        0245: NEAR386 PTR(72)
+          base type idx = 71
+        0248: NAME(73)
+          "PWCHAR"  type idx = 72  scope idx = 0
+        0252: NAME(74)
+          "LPWCH"  type idx = 72  scope idx = 0
+        025B: NAME(75)
+          "PWCH"  type idx = 72  scope idx = 0
+        0263: NAME(76)
+          "WCHAR"  type idx = 11  scope idx = 0
+        026C: NEAR386 PTR(77)
+          base type idx = 76
+        026F: NAME(78)
+          "LPCWCH"  type idx = 77  scope idx = 0
+        0279: NAME(79)
+          "PCWCH"  type idx = 77  scope idx = 0
+        0282: NAME(80)
+          "NWPSTR"  type idx = 72  scope idx = 0
+        028C: NAME(81)
+          "LPWSTR"  type idx = 72  scope idx = 0
+        0296: NAME(82)
+          "PWSTR"  type idx = 72  scope idx = 0
+        029F: NAME(83)
+          "LPCWSTR"  type idx = 77  scope idx = 0
+        02AA: NAME(84)
+          "PCWSTR"  type idx = 77  scope idx = 0
+        02B4: NEAR386 PTR(85)
+          base type idx = 68
+        02B7: NAME(86)
+          "PCHAR"  type idx = 85  scope idx = 0
+        02C0: NAME(87)
+          "LPCH"  type idx = 85  scope idx = 0
+        02C8: NAME(88)
+          "PCH"  type idx = 85  scope idx = 0
+        02CF: NAME(89)
+          "CHAR"  type idx = 4  scope idx = 0
+        02D7: NEAR386 PTR(90)
+          base type idx = 89
+        02DA: NAME(91)
+          "LPCCH"  type idx = 90  scope idx = 0
+        02E3: NAME(92)
+          "PCCH"  type idx = 90  scope idx = 0
+        02EB: NAME(93)
+          "NPSTR"  type idx = 85  scope idx = 0
+        02F4: NAME(94)
+          "LPSTR"  type idx = 85  scope idx = 0
+        02FD: NAME(95)
+          "PSTR"  type idx = 85  scope idx = 0
+        0305: NAME(96)
+          "LPCSTR"  type idx = 90  scope idx = 0
+        030F: NAME(97)
+          "PCSTR"  type idx = 90  scope idx = 0
+        0318: NAME(98)
+          "TCHAR"  type idx = 4  scope idx = 0
+        0321: NAME(99)
+          "PTCHAR"  type idx = 19  scope idx = 0
+        032B: NAME(100)
+          "TBYTE"  type idx = 6  scope idx = 0
+        0334: NEAR386 PTR(101)
+          base type idx = 6
+        0337: NAME(102)
+          "PTBYTE"  type idx = 101  scope idx = 0
+        0341: NAME(103)
+          "LPTCH"  type idx = 94  scope idx = 0
+        034A: NAME(104)
+          "PTCH"  type idx = 94  scope idx = 0
+        0352: NAME(105)
+          "PTSTR"  type idx = 94  scope idx = 0
+        035B: NAME(106)
+          "LPTSTR"  type idx = 94  scope idx = 0
+        0365: NAME(107)
+          "LPCTSTR"  type idx = 96  scope idx = 0
+        0370: NEAR386 PTR(108)
+          base type idx = 69
+        0373: NAME(109)
+          "PSHORT"  type idx = 108  scope idx = 0
+        037D: NEAR386 PTR(110)
+          base type idx = 70
+        0380: NAME(111)
+          "PLONG"  type idx = 110  scope idx = 0
+        0389: NAME(112)
+          "HANDLE"  type idx = 67  scope idx = 0
+        0393: NEAR386 PTR(113)
+          base type idx = 112
+        0396: NAME(114)
+          "PHANDLE"  type idx = 113  scope idx = 0
+        03A1: NAME(115)
+          "CCHAR"  type idx = 4  scope idx = 0
+        03AA: NAME(116)
+          "LCID"  type idx = 32  scope idx = 0
+        03B2: NAME(117)
+          "PLCID"  type idx = 55  scope idx = 0
+        03BB: NAME(118)
+          "LANGID"  type idx = 35  scope idx = 0
+        03C5: SCALAR(119)
+          "double"  scalar type = 27, float
+        03CE: NAME(120)
+          "LONGLONG"  type idx = 119  scope idx = 0
+        03DA: NAME(121)
+          "DWORDLONG"  type idx = 119  scope idx = 0
+        03E7: NEAR386 PTR(122)
+          base type idx = 120
+        03EA: NAME(123)
+          "PLONGLONG"  type idx = 122  scope idx = 0
+        03F7: NEAR386 PTR(124)
+          base type idx = 121
+        03FA: NAME(125)
+          "PDWORDLONG"  type idx = 124  scope idx = 0
+        0408: NAME(126)
+          "USN"  type idx = 120  scope idx = 0
+        040F: NAME(127)
+          "BOOLEAN"  type idx = 34  scope idx = 0
+        041A: NEAR386 PTR(128)
+          base type idx = 127
+        041D: NAME(129)
+          "PBOOLEAN"  type idx = 128  scope idx = 0
+        042A: NAME(130)
+          "KSPIN_LOCK"  type idx = 32  scope idx = 0
+        0438: NAME(131)
+          "PACCESS_TOKEN"  type idx = 67  scope idx = 0
+        0449: NAME(132)
+          "PSECURITY_DESCRIPTOR"  type idx = 67  scope idx = 0
+        0461: NAME(133)
+          "PSID"  type idx = 67  scope idx = 0
+        0469: NAME(134)
+          "ACCESS_MASK"  type idx = 32  scope idx = 0
+        0478: NEAR386 PTR(135)
+          base type idx = 134
+        047C: NAME(136)
+          "PACCESS_MASK"  type idx = 135  scope idx = 0
+        048D: NAME(137)
+          "SECURITY_DESCRIPTOR_CONTROL"  type idx = 35  scope idx = 0
+        04AC: NAME(138)
+          "PSECURITY_DESCRIPTOR_CONTROL"  type idx = 49  scope idx = 0
+        04CC: NAME(139)
+          "SECURITY_CONTEXT_TRACKING_MODE"  type idx = 127  scope idx = 0
+        04EE: NAME(140)
+          "PSECURITY_CONTEXT_TRACKING_MODE"  type idx = 128  scope idx = 0
+        0512: NAME(141)
+          "SECURITY_INFORMATION"  type idx = 32  scope idx = 0
+        052A: NAME(142)
+          "PSECURITY_INFORMATION"  type idx = 54  scope idx = 0
+        0543: NEAR386 PROC(143)
+          return type = 57
+            param 1:  type idx = 67
+            param 2:  type idx = 32
+            param 3:  type idx = 67
+        054A: NEAR386 PTR(144)
+          base type idx = 143
+        054E: NAME(145)
+          "PIMAGE_TLS_CALLBACK"  type idx = 144  scope idx = 0
+        0566: NAME(146)
+          "WPARAM"  type idx = 64  scope idx = 0
+        0570: NAME(147)
+          "LPARAM"  type idx = 70  scope idx = 0
+        057A: NAME(148)
+          "LRESULT"  type idx = 70  scope idx = 0
+        0585: NAME(149)
+          "HWND"  type idx = 112  scope idx = 0
+        058D: NAME(150)
+          "HHOOK"  type idx = 112  scope idx = 0
+        0596: NAME(151)
+          "ATOM"  type idx = 35  scope idx = 0
+        059E: NAME(152)
+          "SPHANDLE"  type idx = 113  scope idx = 0
+        05AA: NAME(153)
+          "LPHANDLE"  type idx = 113  scope idx = 0
+        05B6: NAME(154)
+          "HGLOBAL"  type idx = 112  scope idx = 0
+        05C1: NAME(155)
+          "HLOCAL"  type idx = 112  scope idx = 0
+        05CB: NAME(156)
+          "GLOBALHANDLE"  type idx = 112  scope idx = 0
+        05DB: NAME(157)
+          "LOCALHANDLE"  type idx = 112  scope idx = 0
+        05EA: NEAR386 PROC(158)
+          return type = 9
+        05EE: NEAR386 PTR(159)
+          base type idx = 158
+        05F2: NAME(160)
+          "FARPROC"  type idx = 159  scope idx = 0
+        05FE: NEAR386 PTR(161)
+          base type idx = 158
+        0602: NAME(162)
+          "NEARPROC"  type idx = 161  scope idx = 0
+        060F: NEAR386 PTR(163)
+          base type idx = 158
+        0613: NAME(164)
+          "PROC"  type idx = 163  scope idx = 0
+        061C: NAME(165)
+          "HGDIOBJ"  type idx = 112  scope idx = 0
+        0627: NAME(166)
+          "HACCEL"  type idx = 112  scope idx = 0
+        0631: NAME(167)
+          "HBITMAP"  type idx = 112  scope idx = 0
+        063C: NAME(168)
+          "HBRUSH"  type idx = 112  scope idx = 0
+        0646: NAME(169)
+          "HCOLORSPACE"  type idx = 112  scope idx = 0
+        0655: NAME(170)
+          "HDC"  type idx = 112  scope idx = 0
+        065C: NAME(171)
+          "HGLRC"  type idx = 112  scope idx = 0
+        0665: NAME(172)
+          "HDESK"  type idx = 112  scope idx = 0
+        066E: NAME(173)
+          "HENHMETAFILE"  type idx = 112  scope idx = 0
+        067E: NAME(174)
+          "HFONT"  type idx = 112  scope idx = 0
+        0687: NAME(175)
+          "HICON"  type idx = 112  scope idx = 0
+        0690: NAME(176)
+          "HMENU"  type idx = 112  scope idx = 0
+        0699: NAME(177)
+          "HMETAFILE"  type idx = 112  scope idx = 0
+        06A6: NAME(178)
+          "HINSTANCE"  type idx = 112  scope idx = 0
+        06B3: NAME(179)
+          "HMODULE"  type idx = 178  scope idx = 0
+        06BF: NAME(180)
+          "HPALETTE"  type idx = 112  scope idx = 0
+        06CB: NAME(181)
+          "HPEN"  type idx = 112  scope idx = 0
+        06D3: NAME(182)
+          "HRGN"  type idx = 112  scope idx = 0
+        06DB: NAME(183)
+          "HRSRC"  type idx = 112  scope idx = 0
+        06E4: NAME(184)
+          "HSTR"  type idx = 112  scope idx = 0
+        06EC: NAME(185)
+          "HTASK"  type idx = 112  scope idx = 0
+        06F5: NAME(186)
+          "HWINSTA"  type idx = 112  scope idx = 0
+        0700: NAME(187)
+          "HKL"  type idx = 112  scope idx = 0
+        0707: NAME(188)
+          "HFILE"  type idx = 9  scope idx = 0
+        0710: NAME(189)
+          "HCURSOR"  type idx = 175  scope idx = 0
+        071C: NAME(190)
+          "COLORREF"  type idx = 32  scope idx = 0
+        0728: NAME(191)
+          "LPCOLORREF"  type idx = 54  scope idx = 0
+        0736: NEAR386 PROC(192)
+          return type = 32
+            param 1:  type idx = 59
+        073B: NEAR386 PTR(193)
+          base type idx = 192
+        073F: NAME(194)
+          "PTHREAD_START_ROUTINE"  type idx = 193  scope idx = 0
+        0759: NAME(195)
+          "LPTHREAD_START_ROUTINE"  type idx = 194  scope idx = 0
+        0774: NAME(196)
+          "DWORD"  type idx = 12  scope idx = 0
+        077D: NAME(197)
+          "HANDLE"  type idx = 67  scope idx = 0
+        0787: NAME(198)
+          "LPVOID"  type idx = 58  scope idx = 0
+        0791: NAME(199)
+          "ENUMRESTYPEPROC"  type idx = 160  scope idx = 0
+        07A5: NAME(200)
+          "ENUMRESNAMEPROC"  type idx = 160  scope idx = 0
+        07B9: NAME(201)
+          "ENUMRESLANGPROC"  type idx = 160  scope idx = 0
+        07CD: NAME(202)
+          "LCSCSTYPE"  type idx = 70  scope idx = 0
+        07DA: NAME(203)
+          "LCSGAMUTMATCH"  type idx = 70  scope idx = 0
+        07EB: NAME(204)
+          "FXPT16DOT16"  type idx = 17  scope idx = 0
+        07FA: NAME(205)
+          "LPFXPT16DOT16"  type idx = 52  scope idx = 0
+        080B: NAME(206)
+          "FXPT2DOT30"  type idx = 17  scope idx = 0
+        0819: NAME(207)
+          "LPFXPT2DOT30"  type idx = 52  scope idx = 0
+        0829: NAME(208)
+          "BCHAR"  type idx = 34  scope idx = 0
+        0832: NAME(209)
+          "OLDFONTENUMPROC"  type idx = 160  scope idx = 0
+        0846: NAME(210)
+          "FONTENUMPROCA"  type idx = 160  scope idx = 0
+        0858: NAME(211)
+          "FONTENUMPROCW"  type idx = 160  scope idx = 0
+        086A: NAME(212)
+          "FONTENUMPROC"  type idx = 210  scope idx = 0
+        087B: NAME(213)
+          "GOBJENUMPROC"  type idx = 160  scope idx = 0
+        088C: NAME(214)
+          "LINEDDAPROC"  type idx = 160  scope idx = 0
+        089C: NAME(215)
+          "INT"  type idx = 9  scope idx = 0
+        08A3: NAME(216)
+          "BYTE"  type idx = 6  scope idx = 0
+        08AB: NAME(217)
+          "ABORTPROC"  type idx = 160  scope idx = 0
+        08B9: NEAR386 PROC(218)
+          return type = 9
+            param 1:  type idx = 94
+            param 2:  type idx = 147
+            param 3:  type idx = 4
+        08C0: NEAR386 PTR(219)
+          base type idx = 218
+        08C4: NAME(220)
+          "ICMENUMPROCA"  type idx = 219  scope idx = 0
+        08D5: NEAR386 PROC(221)
+          return type = 9
+            param 1:  type idx = 81
+            param 2:  type idx = 147
+            param 3:  type idx = 4
+        08DC: NEAR386 PTR(222)
+          base type idx = 221
+        08E0: NAME(223)
+          "ICMENUMPROCW"  type idx = 222  scope idx = 0
+        08F1: NAME(224)
+          "HDWP"  type idx = 112  scope idx = 0
+        08F9: NAME(225)
+          "MENUTEMPLATEA"  type idx = 57  scope idx = 0
+        090A: NAME(226)
+          "MENUTEMPLATEW"  type idx = 57  scope idx = 0
+        091B: NAME(227)
+          "MENUTEMPLATE"  type idx = 225  scope idx = 0
+        092C: NAME(228)
+          "LPMENUTEMPLATEA"  type idx = 67  scope idx = 0
+        093F: NAME(229)
+          "LPMENUTEMPLATEW"  type idx = 67  scope idx = 0
+        0952: NAME(230)
+          "LPMENUTEMPLATE"  type idx = 228  scope idx = 0
+        0965: NEAR386 PROC(231)
+          return type = 148
+            param 1:  type idx = 149
+            param 2:  type idx = 64
+            param 3:  type idx = 146
+        0971: NEAR386 PTR(232)
+          base type idx = 231
+        0975: NAME(233)
+          "WNDPROC"  type idx = 232  scope idx = 0
+        0981: NAME(234)
+          "DLGPROC"  type idx = 160  scope idx = 0
+        098D: NAME(235)
+          "TIMERPROC"  type idx = 160  scope idx = 0
+        099B: NAME(236)
+          "GRAYSTRINGPROC"  type idx = 160  scope idx = 0
+        09AE: NAME(237)
+          "WNDENUMPROC"  type idx = 160  scope idx = 0
+        09BE: NAME(238)
+          "HOOKPROC"  type idx = 160  scope idx = 0
+        09CB: NAME(239)
+          "SENDASYNCPROC"  type idx = 160  scope idx = 0
+        09DD: NAME(240)
+          "EDITWORDBREAKPROCA"  type idx = 160  scope idx = 0
+        09F4: NAME(241)
+          "EDITWORDBREAKPROCW"  type idx = 160  scope idx = 0
+        0A0B: NAME(242)
+          "PROPENUMPROCA"  type idx = 160  scope idx = 0
+        0A1D: NAME(243)
+          "PROPENUMPROCW"  type idx = 160  scope idx = 0
+        0A2F: NAME(244)
+          "PROPENUMPROCEXA"  type idx = 160  scope idx = 0
+        0A43: NAME(245)
+          "PROPENUMPROCEXW"  type idx = 160  scope idx = 0
+        0A57: NAME(246)
+          "DRAWSTATEPROC"  type idx = 160  scope idx = 0
+        0A69: NAME(247)
+          "PROPENUMPROC"  type idx = 242  scope idx = 0
+        0A7A: NAME(248)
+          "PROPENUMPROCEX"  type idx = 244  scope idx = 0
+        0A8D: NAME(249)
+          "EDITWORDBREAKPROC"  type idx = 240  scope idx = 0
+        0AA3: NAME(250)
+          "NAMEENUMPROCA"  type idx = 160  scope idx = 0
+        0AB5: NAME(251)
+          "NAMEENUMPROCW"  type idx = 160  scope idx = 0
+        0AC7: NAME(252)
+          "WINSTAENUMPROCA"  type idx = 160  scope idx = 0
+        0ADB: NAME(253)
+          "DESKTOPENUMPROCA"  type idx = 160  scope idx = 0
+        0AF0: NAME(254)
+          "WINSTAENUMPROCW"  type idx = 160  scope idx = 0
+        0B04: NAME(255)
+          "DESKTOPENUMPROCW"  type idx = 160  scope idx = 0
+        0B19: NAME(256)
+          "WINSTAENUMPROC"  type idx = 252  scope idx = 0
+        0B2C: NAME(257)
+          "DESKTOPENUMPROC"  type idx = 253  scope idx = 0
+        0B40: NAME(258)
+          "MENUTEMPLATEA"  type idx = 57  scope idx = 0
+        0B51: NAME(259)
+          "MENUTEMPLATEW"  type idx = 57  scope idx = 0
+        0B62: NAME(260)
+          "COLORREF"  type idx = 32  scope idx = 0
+        0B6E: NAME(261)
+          "HWND"  type idx = 112  scope idx = 0
+        0B76: NAME(262)
+          "HELPPOLY"  type idx = 32  scope idx = 0
+        0B82: NAME(263)
+          "LCTYPE"  type idx = 32  scope idx = 0
+        0B8C: NAME(264)
+          "CALTYPE"  type idx = 32  scope idx = 0
+        0B97: NAME(265)
+          "CALID"  type idx = 32  scope idx = 0
+        0BA0: NAME(266)
+          "LOCALE_ENUMPROCA"  type idx = 160  scope idx = 0
+        0BB5: NAME(267)
+          "CODEPAGE_ENUMPROCA"  type idx = 160  scope idx = 0
+        0BCC: NAME(268)
+          "DATEFMT_ENUMPROCA"  type idx = 160  scope idx = 0
+        0BE2: NAME(269)
+          "TIMEFMT_ENUMPROCA"  type idx = 160  scope idx = 0
+        0BF8: NAME(270)
+          "CALINFO_ENUMPROCA"  type idx = 160  scope idx = 0
+        0C0E: NAME(271)
+          "LOCALE_ENUMPROCW"  type idx = 160  scope idx = 0
+        0C23: NAME(272)
+          "CODEPAGE_ENUMPROCW"  type idx = 160  scope idx = 0
+        0C3A: NAME(273)
+          "DATEFMT_ENUMPROCW"  type idx = 160  scope idx = 0
+        0C50: NAME(274)
+          "TIMEFMT_ENUMPROCW"  type idx = 160  scope idx = 0
+        0C66: NAME(275)
+          "CALINFO_ENUMPROCW"  type idx = 160  scope idx = 0
+        0C7C: NEAR386 PROC(276)
+          return type = 33
+            param 1:  type idx = 32
+        0C81: NEAR386 PTR(277)
+          base type idx = 276
+        0C85: NAME(278)
+          "PHANDLER_ROUTINE"  type idx = 277  scope idx = 0
+        0C9A: NAME(279)
+          "WORD"  type idx = 8  scope idx = 0
+        0CA2: NAME(280)
+          "REGSAM"  type idx = 134  scope idx = 0
+        0CAD: NAME(281)
+          "HKEY"  type idx = 112  scope idx = 0
+        0CB5: NEAR386 PTR(282)
+          base type idx = 281
+        0CB9: NAME(283)
+          "PHKEY"  type idx = 282  scope idx = 0
+        0CC3: NEAR386 PROC(284)
+          return type = 64
+            param 1:  type idx = 96
+            param 2:  type idx = 94
+            param 3:  type idx = 64
+        0CCA: NEAR386 PTR(285)
+          base type idx = 284
+        0CCE: NAME(286)
+          "PFNGETPROFILEPATHA"  type idx = 285  scope idx = 0
+        0CE5: NEAR386 PROC(287)
+          return type = 64
+            param 1:  type idx = 83
+            param 2:  type idx = 81
+            param 3:  type idx = 64
+        0CEC: NEAR386 PTR(288)
+          base type idx = 287
+        0CF0: NAME(289)
+          "PFNGETPROFILEPATHW"  type idx = 288  scope idx = 0
+        0D07: NEAR386 PROC(290)
+          return type = 64
+            param 1:  type idx = 96
+            param 2:  type idx = 96
+            param 3:  type idx = 32
+        0D0E: NEAR386 PTR(291)
+          base type idx = 290
+        0D12: NAME(292)
+          "PFNRECONCILEPROFILEA"  type idx = 291  scope idx = 0
+        0D2B: NEAR386 PROC(293)
+          return type = 64
+            param 1:  type idx = 83
+            param 2:  type idx = 83
+            param 3:  type idx = 32
+        0D32: NEAR386 PTR(294)
+          base type idx = 293
+        0D36: NAME(295)
+          "PFNRECONCILEPROFILEW"  type idx = 294  scope idx = 0
+        0D4F: NEAR386 PROC(296)
+          return type = 33
+            param 1:  type idx = 149
+            param 2:  type idx = 96
+            param 3:  type idx = 96
+        0D59: NEAR386 PTR(297)
+          base type idx = 296
+        0D5D: NAME(298)
+          "PFNPROCESSPOLICIESA"  type idx = 297  scope idx = 0
+        0D75: NEAR386 PROC(299)
+          return type = 33
+            param 1:  type idx = 149
+            param 2:  type idx = 83
+            param 3:  type idx = 83
+        0D7F: NEAR386 PTR(300)
+          base type idx = 299
+        0D83: NAME(301)
+          "PFNPROCESSPOLICIESW"  type idx = 300  scope idx = 0
+        0D9B: NAME(302)
+          "SC_HANDLE"  type idx = 112  scope idx = 0
+        0DA8: NEAR386 PTR(303)
+          base type idx = 302
+        0DAC: NAME(304)
+          "LPSC_HANDLE"  type idx = 303  scope idx = 0
+        0DBC: NAME(305)
+          "SERVICE_STATUS_HANDLE"  type idx = 32  scope idx = 0
+        0DD5: NAME(306)
+          "SC_LOCK"  type idx = 59  scope idx = 0
+        0DE0: NEAR386 PTR(307)
+          base type idx = 81
+        0DE3: NEAR386 PROC(308)
+          return type = 57
+            param 1:  type idx = 32
+            param 2:  type idx = 307
+            param 3:  type idx = 4
+        0DEA: NEAR386 PTR(309)
+          base type idx = 308
+        0DEE: NAME(310)
+          "LPSERVICE_MAIN_FUNCTIONW"  type idx = 309  scope idx = 0
+        0E0B: NEAR386 PTR(311)
+          base type idx = 94
+        0E0E: NEAR386 PROC(312)
+          return type = 57
+            param 1:  type idx = 32
+            param 2:  type idx = 311
+            param 3:  type idx = 4
+        0E15: NEAR386 PTR(313)
+          base type idx = 312
+        0E19: NAME(314)
+          "LPSERVICE_MAIN_FUNCTIONA"  type idx = 313  scope idx = 0
+        0E36: NEAR386 PROC(315)
+          return type = 57
+            param 1:  type idx = 32
+        0E3B: NEAR386 PTR(316)
+          base type idx = 315
+        0E3F: NAME(317)
+          "LPHANDLER_FUNCTION"  type idx = 316  scope idx = 0
+        0E56: NAME(318)
+          "HIMC"  type idx = 32  scope idx = 0
+        0E5E: NAME(319)
+          "HIMCC"  type idx = 32  scope idx = 0
+        0E67: NEAR386 PTR(320)
+          base type idx = 187
+        0E6B: NAME(321)
+          "LPHKL"  type idx = 320  scope idx = 0
+        0E75: NEAR386 PTR(322)
+          base type idx = 64
+        0E78: NAME(323)
+          "LPUINT"  type idx = 322  scope idx = 0
+        0E83: NEAR386 PROC(324)
+          return type = 9
+            param 1:  type idx = 96
+            param 2:  type idx = 32
+            param 3:  type idx = 96
+            param 4:  type idx = 59
+        0E8B: NEAR386 PTR(325)
+          base type idx = 324
+        0E8F: NAME(326)
+          "REGISTERWORDENUMPROCA"  type idx = 325  scope idx = 0
+        0EA9: NEAR386 PROC(327)
+          return type = 9
+            param 1:  type idx = 83
+            param 2:  type idx = 32
+            param 3:  type idx = 83
+            param 4:  type idx = 59
+        0EB1: NEAR386 PTR(328)
+          base type idx = 327
+        0EB5: NAME(329)
+          "REGISTERWORDENUMPROCW"  type idx = 328  scope idx = 0
+        0ECF: BYTE_INDEX ARRAY(330)
+          high bound = 00   base type idx = 19
+        0ED3: NAME(331)
+          "__va_list"  type idx = 330  scope idx = 0
+        0EE1: NAME(332)
+          "fpos_t"  type idx = 17  scope idx = 0
+        0EEB: NAME(333)
+          "fpos_t"  type idx = 17  scope idx = 0
+        0EF5: NAME(334)
+          "MEMBLOCK"  type idx = 19  scope idx = 0
+        0F01: NEAR386 PROC(335)
+          return type = 57
+            param 1:  type idx = 57
+        0F06: NEAR386 PTR(336)
+          base type idx = 335
+        0F0A: NAME(337)
+          "VOIDFN"  type idx = 336  scope idx = 0
+        0F15: NEAR386 PROC(338)
+          return type = 9
+            param 1:  type idx = 57
+        0F1A: NAME(339)
+          "INTFN"  type idx = 338  scope idx = 0
+        0F24: NAME(340)
+          "MVI"  type idx = 57  scope idx = 0
+        0F2B: NEAR386 PROC(341)
+          return type = 9
+            param 1:  type idx = 9
+            param 2:  type idx = 9
+        0F31: NAME(342)
+          "EACHOOKCALLBACKFUNC"  type idx = 341  scope idx = 0
+        0F49: NAME(343)
+          "arg_t"  type idx = 9  scope idx = 0
+        0F52: NAME(344)
+          "SDWORD"  type idx = 17  scope idx = 0
+        0F5C: NAME(345)
+          "SWORD"  type idx = 7  scope idx = 0
+        0F65: NAME(346)
+          "SBYTE"  type idx = 5  scope idx = 0
+        0F6E: NAME(347)
+          "UBYTE"  type idx = 6  scope idx = 0
+        0F77: NAME(348)
+          "Stm_Chunk"  type idx = 57  scope idx = 0
+        0F84: NEAR386 PTR(349)
+          base type idx = 348
+        0F88: NAME(350)
+          "lpStm_Chunk"  type idx = 349  scope idx = 0
+        0F98: NEAR386 PROC(351)
+          return type = 57
+            param 1:  type idx = 57
+        0F9D: NAME(352)
+          "THREADPROC"  type idx = 351  scope idx = 0
+        0FAC: NAME(353)
+          "SYSTEMTASK"  type idx = 341  scope idx = 0
+        0FBB: NAME(354)
+          "boolean"  type idx = 9  scope idx = 0
+        0FC6: NAME(355)
+          "fixed88"  type idx = 9  scope idx = 0
+        0FD1: NAME(356)
+          "fixed824"  type idx = 9  scope idx = 0
+        0FDD: NAME(357)
+          "fixed248"  type idx = 9  scope idx = 0
+        0FE9: NEAR386 PROC(358)
+          return type = 57
+            param 1:  type idx = 58
+        0FEE: NEAR386 PTR(359)
+          base type idx = 358
+        0FF2: NAME(360)
+          "Sched_tFunctionPt"  type idx = 359  scope idx = 0
+        1008: NAME(361)
+          "Draw_tContext"  type idx = 7  scope idx = 0
+        1019: NEAR386 PROC(362)
+          return type = 57
+            param 1:  type idx = 58
+            param 2:  type idx = 58
+        101F: NEAR386 PTR(363)
+          base type idx = 362
+        1023: NAME(364)
+          "Transformer_AnimCallbackFunc"  type idx = 363  scope idx = 0
+        1044: BYTE_INDEX ARRAY(365)
+          high bound = 6F   base type idx = 7
+        1048: NAME(366)
+          "tAccTable"  type idx = 365  scope idx = 0
+        1056: BYTE_INDEX ARRAY(367)
+          high bound = 13   base type idx = 19
+        105A: BYTE_INDEX ARRAY(368)
+          high bound = 13   base type idx = 19
+        105E: NAME(369)
+          "cdstreamstruct"  type idx = 374  scope idx = 1
+        1071: NEAR386 PTR(370)
+          base type idx = 369
+        1075: FIELD_LIST(371)
+          number of fields = 0005   size = 00000014
+        107D: FIELD_BYTE
+          "id"  offset = 10  type idx = 9
+        1083: FIELD_BYTE
+          "processor"  offset = 0C  type idx = 9
+        1090: FIELD_BYTE
+          "priority"  offset = 08  type idx = 9
+        109C: FIELD_BYTE
+          "stacksize"  offset = 04  type idx = 9
+        10A9: FIELD_BYTE
+          "item"  offset = 00  type idx = 9
+        10B1: NAME(372)
+          "threadstruct"  type idx = 371  scope idx = 1
+        10C2: NAME(373)
+          "THREAD"  type idx = 372  scope idx = 0
+        10CD: FIELD_LIST(374)
+          number of fields = 0028   size = 000000B0
+        10D5: FIELD_BYTE
+          "streamfull"  offset = AC  type idx = 9
+        10E3: FIELD_BYTE
+          "filler"  offset = A8  type idx = 9
+        10ED: FIELD_BYTE
+          "mutex"  offset = A4  type idx = 9
+        10F6: FIELD_BYTE
+          "releasesignal"  offset = A0  type idx = 9
+        1107: FIELD_BYTE
+          "readsignal"  offset = 9C  type idx = 9
+        1115: FIELD_BYTE
+          "blockcount"  offset = 98  type idx = 9
+        1123: FIELD_BYTE
+          "thread"  offset = 84  type idx = 373
+        112E: FIELD_BYTE
+          "block"  offset = 80  type idx = 58
+        1137: FIELD_BYTE
+          "tail"  offset = 7C  type idx = 58
+        113F: FIELD_BYTE
+          "head"  offset = 78  type idx = 58
+        1147: FIELD_BYTE
+          "emptyblock"  offset = 74  type idx = 58
+        1155: FIELD_BYTE
+          "nextstream"  offset = 70  type idx = 370
+        1164: FIELD_BYTE
+          "idmask"  offset = 6C  type idx = 9
+        116E: FIELD_BYTE
+          "idtype"  offset = 68  type idx = 9
+        1178: FIELD_BYTE
+          "seekoffset"  offset = 64  type idx = 9
+        1186: FIELD_BYTE
+          "seekposition"  offset = 60  type idx = 9
+        1196: FIELD_BYTE
+          "dataoffset"  offset = 5C  type idx = 9
+        11A4: FIELD_BYTE
+          "filesize"  offset = 58  type idx = 17
+        11B0: FIELD_BYTE
+          "fileend"  offset = 54  type idx = 9
+        11BB: FIELD_BYTE
+          "fileoffset"  offset = 50  type idx = 17
+        11C9: FIELD_BYTE
+          "relocationsize"  offset = 4C  type idx = 9
+        11DB: FIELD_BYTE
+          "chunksize"  offset = 48  type idx = 9
+        11E8: FIELD_BYTE
+          "readsize"  offset = 44  type idx = 9
+        11F4: FIELD_BYTE
+          "blocksize"  offset = 40  type idx = 9
+        1201: FIELD_BYTE
+          "buffersize"  offset = 3C  type idx = 9
+        120F: FIELD_BYTE
+          "crcretries"  offset = 38  type idx = 9
+        121D: FIELD_BYTE
+          "crcerrors"  offset = 34  type idx = 9
+        122A: FIELD_BYTE
+          "datahascrc"  offset = 30  type idx = 9
+        1238: FIELD_BYTE
+          "abort"  offset = 2C  type idx = 9
+        1241: FIELD_BYTE
+          "status"  offset = 28  type idx = 9
+        124B: FIELD_BYTE
+          "control"  offset = 24  type idx = 9
+        1256: FIELD_BYTE
+          "state"  offset = 20  type idx = 9
+        125F: FIELD_BYTE
+          "handle"  offset = 1C  type idx = 9
+        1269: FIELD_BYTE
+          "release"  offset = 18  type idx = 19
+        1274: FIELD_BYTE
+          "get"  offset = 14  type idx = 19
+        127B: FIELD_BYTE
+          "header"  offset = 10  type idx = 19
+        1285: FIELD_BYTE
+          "write"  offset = 0C  type idx = 19
+        128E: FIELD_BYTE
+          "end"  offset = 08  type idx = 19
+        1295: FIELD_BYTE
+          "start"  offset = 04  type idx = 19
+        129E: FIELD_BYTE
+          "id"  offset = 00  type idx = 17
+        12A4: NAME(375)
+          "CDSTREAM"  type idx = 369  scope idx = 0
+        12B1: NEAR386 PTR(376)
+          base type idx = 375
+        12B5: NEAR386 PROC(377)
+          return type = 57
+            param 1:  type idx = 9
+            param 2:  type idx = 9
+        12BB: BYTE_INDEX ARRAY(378)
+          high bound = 7F   base type idx = 4
+        12BF: NEAR386 PROC(379)
+          return type = 9
+            param 1:  type idx = 57
+        12C4: BYTE_INDEX ARRAY(380)
+          high bound = 7F   base type idx = 4
+        12C8: NEAR386 PROC(381)
+          return type = 57
+            param 1:  type idx = 9
+        12CD: BYTE_INDEX ARRAY(382)
+          high bound = 01   base type idx = 9
+        12D1: BYTE_INDEX ARRAY(383)
+          high bound = 01   base type idx = 17
+        12D5: BYTE_INDEX ARRAY(384)
+          high bound = 01   base type idx = 17
+        12D9: BYTE_INDEX ARRAY(385)
+          high bound = 7F   base type idx = 4
+        12DD: BYTE_INDEX ARRAY(386)
+          high bound = 7F   base type idx = 4
+        12E1: BYTE_INDEX ARRAY(387)
+          high bound = 4F   base type idx = 4
+        12E5: BYTE_INDEX ARRAY(388)
+          high bound = 4F   base type idx = 4
+        12E9: BYTE_INDEX ARRAY(389)
+          high bound = 4F   base type idx = 4
+        12ED: BYTE_INDEX ARRAY(390)
+          high bound = 4F   base type idx = 4
+        12F1: BYTE_INDEX ARRAY(391)
+          high bound = 4F   base type idx = 4
+        12F5: FIELD_LIST(392)
+          number of fields = 000B   size = 00000010
+        12FD: FIELD_BYTE
+          "elevation"  offset = 0E  type idx = 7
+        130A: FIELD_BYTE
+          "azimuth"  offset = 0C  type idx = 8
+        1315: FIELD_BYTE
+          "use3dpos"  offset = 0B  type idx = 5
+        1321: FIELD_BYTE
+          "fxlevel0"  offset = 0A  type idx = 5
+        132D: FIELD_BYTE
+          "bend"  offset = 09  type idx = 5
+        1335: FIELD_BYTE
+          "vol"  offset = 08  type idx = 5
+        133C: FIELD_BYTE
+          "pan"  offset = 07  type idx = 5
+        1343: FIELD_BYTE
+          "velocity"  offset = 06  type idx = 5
+        134F: FIELD_BYTE
+          "keynum"  offset = 05  type idx = 5
+        1359: FIELD_BYTE
+          "bhandle"  offset = 04  type idx = 5
+        1364: FIELD_BYTE
+          "patnum"  offset = 00  type idx = 9
+        136E: NAME(393)
+          "SNDPLAYOPTS"  type idx = 392  scope idx = 0
+        137E: NEAR386 PROC(394)
+          return type = 57
+            param 1:  type idx = 19
+            param 2:  type idx = 9
+        1384: BYTE_INDEX ARRAY(395)
+          high bound = 4F   base type idx = 4
+        1388: 

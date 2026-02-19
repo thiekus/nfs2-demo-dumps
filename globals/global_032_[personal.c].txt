@@ -1,0 +1,44 @@
+  Name:  Personality_GetName_
+    address      = 0001:000303D7
+    module index = 32
+    kind:          (code)
+  Name:  Personality_HardLoad_
+    address      = 0001:0003040C
+    module index = 32
+    kind:          (code)
+  Name:  Personality_CleanUp_
+    address      = 0001:00030435
+    module index = 32
+    kind:          (code)
+  Name:  Personality_StartUp_
+    address      = 0001:0003044A
+    module index = 32
+    kind:          (code)
+  Name:  Personality_GetPersonalityIndex_
+    address      = 0001:00030464
+    module index = 32
+    kind:          (code)
+  Name:  Personality_ChoosePersonality_
+    address      = 0001:000304B7
+    module index = 32
+    kind:          (code)
+  Name:  _gridData
+    address      = 0002:0000D880
+    module index = 32
+    kind:          (data)
+  Name:  _perData
+    address      = 0002:0000D8B0
+    module index = 32
+    kind:          (data)
+  Name:  _Personality_Names
+    address      = 0002:0000E444
+    module index = 32
+    kind:          (data)
+  Name:  _personalityList
+    address      = 0002:00024468
+    module index = 32
+    kind:          (data)
+  Name:  _grid
+    address      = 0002:0002446C
+    module index = 32
+    kind:          (data)

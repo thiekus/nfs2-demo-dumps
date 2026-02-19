@@ -1,0 +1,4 @@
+  Name:  _shadfill
+    address      = 0001:000B6094
+    module index = 384
+    kind:          (code)

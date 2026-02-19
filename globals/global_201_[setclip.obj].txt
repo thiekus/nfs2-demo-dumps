@@ -1,0 +1,4 @@
+  Name:  _setclip
+    address      = 0001:0008F630
+    module index = 201
+    kind:          (code)

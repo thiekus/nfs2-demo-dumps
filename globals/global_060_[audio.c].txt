@@ -1,0 +1,108 @@
+  Name:  Audio_InitDriver_
+    address      = 0001:0004BA1D
+    module index = 60
+    kind:          (code)
+  Name:  Audio_ReInitDriver_
+    address      = 0001:0004BB86
+    module index = 60
+    kind:          (code)
+  Name:  Audio_DeInitDriver_
+    address      = 0001:0004BC8A
+    module index = 60
+    kind:          (code)
+  Name:  Audio_UnCacheMusic_
+    address      = 0001:0004BCB6
+    module index = 60
+    kind:          (code)
+  Name:  Audio_ReserveCache_
+    address      = 0001:0004BD0A
+    module index = 60
+    kind:          (code)
+  Name:  Audio_CacheMusic_
+    address      = 0001:0004BDBB
+    module index = 60
+    kind:          (code)
+  Name:  Audio_InitMusic_
+    address      = 0001:0004BF70
+    module index = 60
+    kind:          (code)
+  Name:  Audio_ReInitMusic_
+    address      = 0001:0004BFC4
+    module index = 60
+    kind:          (code)
+  Name:  Audio_StartMusic_
+    address      = 0001:0004C014
+    module index = 60
+    kind:          (code)
+  Name:  Audio_StartMusicSIM_
+    address      = 0001:0004C185
+    module index = 60
+    kind:          (code)
+  Name:  Audio_StartLinMusic_
+    address      = 0001:0004C2D9
+    module index = 60
+    kind:          (code)
+  Name:  Audio_StopMusic_
+    address      = 0001:0004C3E8
+    module index = 60
+    kind:          (code)
+  Name:  Audio_DeInitMusic_
+    address      = 0001:0004C482
+    module index = 60
+    kind:          (code)
+  Name:  Audio_CleanUp_
+    address      = 0001:0004C4B8
+    module index = 60
+    kind:          (code)
+  Name:  Audio_FECleanUp_
+    address      = 0001:0004C515
+    module index = 60
+    kind:          (code)
+  Name:  AudioCmn_LoadBank_
+    address      = 0001:0004C555
+    module index = 60
+    kind:          (code)
+  Name:  Audio_GetSFXFromStreamBuffer_
+    address      = 0001:0004C614
+    module index = 60
+    kind:          (code)
+  Name:  _gSwapbankdata
+    address      = 0002:0000EFA0
+    module index = 60
+    kind:          (data)
+  Name:  _gCurrentTrack
+    address      = 0002:0000EFA4
+    module index = 60
+    kind:          (data)
+  Name:  _gPlayingLinear
+    address      = 0002:0000EFA8
+    module index = 60
+    kind:          (data)
+  Name:  _gMusicName
+    address      = 0002:0000EFA9
+    module index = 60
+    kind:          (data)
+  Name:  _gMapName
+    address      = 0002:0000EFF9
+    module index = 60
+    kind:          (data)
+  Name:  _gStream
+    address      = 0002:0000F049
+    module index = 60
+    kind:          (data)
+  Name:  _gSHandle
+    address      = 0002:0000F04D
+    module index = 60
+    kind:          (data)
+  Name:  _Audio_direct3davail
+    address      = 0002:0000F051
+    module index = 60
+    kind:          (data)
+  Name:  _PC3dsoundCapable
+    address      = 0002:0000F055
+    module index = 60
+    kind:          (data)
+  Name:  _gMapFile
+    address      = 0002:000468CC
+    module index = 60
+    kind:          (data)

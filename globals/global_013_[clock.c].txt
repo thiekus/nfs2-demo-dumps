@@ -1,0 +1,32 @@
+  Name:  _Clock_InputThread
+    address      = 0001:0002161B
+    module index = 13
+    kind:          (code)
+  Name:  Clock_MasterInterruptHandler_
+    address      = 0001:0002164B
+    module index = 13
+    kind:          (code)
+  Name:  Clock_SystemStartUp_
+    address      = 0001:000216A3
+    module index = 13
+    kind:          (code)
+  Name:  Clock_SystemCleanUp_
+    address      = 0001:0002170B
+    module index = 13
+    kind:          (code)
+  Name:  _clock_InterruptStarted
+    address      = 0002:0000CA4C
+    module index = 13
+    kind:          (static pubdef) (data)
+  Name:  _Input_ThreadSignal
+    address      = 0002:00023384
+    module index = 13
+    kind:          (data)
+  Name:  _clock_realTime
+    address      = 0002:00023388
+    module index = 13
+    kind:          (data)
+  Name:  _generic128HzClock
+    address      = 0002:00023394
+    module index = 13
+    kind:          (data)

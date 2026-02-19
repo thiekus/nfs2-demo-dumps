@@ -1,0 +1,16 @@
+  Name:  _mousecosi
+    address      = 0001:000A1DBB
+    module index = 285
+    kind:          (code)
+  Name:  _joycos
+    address      = 0001:000A1D9C
+    module index = 285
+    kind:          (code)
+  Name:  _joycosi
+    address      = 0001:000A1DA7
+    module index = 285
+    kind:          (code)
+  Name:  _normkeyi
+    address      = 0001:000A1E6F
+    module index = 285
+    kind:          (code)

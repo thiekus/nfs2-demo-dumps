@@ -1,0 +1,4 @@
+  Name:  ___historical_splitparms
+    address      = 0002:0006AA08
+    module index = 442
+    kind:          (data)

@@ -1,0 +1,28 @@
+  Name:  swap555_
+    address      = 0001:000A82E0
+    module index = 314
+    kind:          (code)
+  Name:  bpp4to16_
+    address      = 0001:000A8351
+    module index = 314
+    kind:          (code)
+  Name:  bpp8to16_
+    address      = 0001:000A81EC
+    module index = 314
+    kind:          (code)
+  Name:  bpp8to32_
+    address      = 0001:000A81CA
+    module index = 314
+    kind:          (code)
+  Name:  bpp16to15_
+    address      = 0001:000A80D4
+    module index = 314
+    kind:          (code)
+  Name:  bppm24to32_
+    address      = 0001:000A8279
+    module index = 314
+    kind:          (code)
+  Name:  bpp15to16_
+    address      = 0001:000A814F
+    module index = 314
+    kind:          (code)

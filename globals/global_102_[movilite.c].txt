@@ -1,0 +1,84 @@
+  Name:  resettimeout_
+    address      = 0001:0007F3B3
+    module index = 102
+    kind:          (code)
+  Name:  istimeout_
+    address      = 0001:0007F3D2
+    module index = 102
+    kind:          (code)
+  Name:  initdecode_
+    address      = 0001:0007F41A
+    module index = 102
+    kind:          (code)
+  Name:  decodeuvchunk_
+    address      = 0001:0007F4FF
+    module index = 102
+    kind:          (code)
+  Name:  decoderestore_
+    address      = 0001:0007F81C
+    module index = 102
+    kind:          (code)
+  Name:  getchunk_
+    address      = 0001:0007F84D
+    module index = 102
+    kind:          (code)
+  Name:  getuvchunk_
+    address      = 0001:0007F8BA
+    module index = 102
+    kind:          (code)
+  Name:  PLAYclearscreen_
+    address      = 0001:0007F920
+    module index = 102
+    kind:          (static pubdef) (code)
+  Name:  CheckForAbort_
+    address      = 0001:0007F949
+    module index = 102
+    kind:          (code)
+  Name:  MoviLite_PlayMovie_
+    address      = 0001:0007F9C7
+    module index = 102
+    kind:          (code)
+  Name:  _sndstreaminitval
+    address      = 0002:00050EFC
+    module index = 102
+    kind:          (data)
+  Name:  _videoheight
+    address      = 0002:00050F00
+    module index = 102
+    kind:          (data)
+  Name:  _videoy
+    address      = 0002:00050F04
+    module index = 102
+    kind:          (data)
+  Name:  _videox
+    address      = 0002:00050F08
+    module index = 102
+    kind:          (data)
+  Name:  _timeoutstart
+    address      = 0002:00050F0C
+    module index = 102
+    kind:          (data)
+  Name:  _videowidth
+    address      = 0002:00050F10
+    module index = 102
+    kind:          (data)
+  Name:  _videodropped
+    address      = 0002:00050F14
+    module index = 102
+    kind:          (data)
+  Name:  _newframe
+    address      = 0002:00050F18
+    module index = 102
+    kind:          (data)
+  Name:  _videoframes
+    address      = 0002:00050F1C
+    module index = 102
+    kind:          (data)
+  Name:  _audioframes
+    address      = 0002:00050F20
+    module index = 102
+    kind:          (data)
+  Name:  _oldframe
+    address      = 0002:00050F24
+    module index = 102
+    kind:          (data)

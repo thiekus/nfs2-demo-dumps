@@ -1,0 +1,174 @@
+ 93) Name:   C:\nfs2\frontend\common\Trkstat.c
+     Language is C
+     Locals: num = 1, offset = 00000186H
+     Types:  num = 1, offset = 00000322H
+     Lines:  num = 1, offset = 000004A6H
+
+   *** Locals ***
+   ==============
+      Data 0:  offset 00024A80
+        0000: SET_BASE_386
+          base = 0001:0007307F
+        0008: NEAR_RTN_386
+          start off = 00000000, code size = 000008B1, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  75
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Trkstat_ShowTrackRecords"
+        0038: LOCAL
+          address: BP_OFFSET_BYTE( B0 )
+          name = "menu",  type = 74
+        0041: LOCAL
+          address: BP_OFFSET_BYTE( 98 )
+          name = "title",  type = 76
+        004B: LOCAL
+          address: BP_OFFSET_BYTE( B4 )
+          name = "nResult",  type = 9
+        0057: LOCAL
+          address: BP_OFFSET_BYTE( DC )
+          name = "bReloadArt",  type = 7
+        0066: LOCAL
+          address: BP_OFFSET_BYTE( E0 )
+          name = "enableClear",  type = 7
+        0076: LOCAL
+          address: BP_OFFSET_BYTE( D0 )
+          name = "bScreenUpdate",  type = 7
+        0088: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "bReadRecords",  type = 7
+        0099: LOCAL
+          address: BP_OFFSET_BYTE( D8 )
+          name = "bShowRecordLapTime",  type = 7
+        00B0: LOCAL
+          address: BP_OFFSET_BYTE( D4 )
+          name = "bEraseRecordsConfirmation",  type = 7
+        00CE: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "nIconSpin",  type = 7
+        00DC: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "nKeyValue",  type = 7
+        00EA: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "nMaxTracks",  type = 7
+        00F9: LOCAL
+          address: BP_OFFSET_BYTE( CC )
+          name = "nTicksDebounce",  type = 17
+        010C: LOCAL
+          address: BP_OFFSET_BYTE( C0 )
+          name = "nTicksTotal",  type = 17
+        011C: LOCAL
+          address: BP_OFFSET_WORD( 00F8 )
+          name = "sBuildOutput",  type = 77
+        012E: LOCAL
+          address: BP_OFFSET_WORD( 0048 )
+          name = "sRecordLapTime",  type = 78
+        0142: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "nLapCounter",  type = 7
+        0152: LOCAL
+          address: BP_OFFSET_BYTE( BC )
+          name = "nLapIndicator",  type = 9
+        0164: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "nShowTrack",  type = 7
+        0173: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "k",  type = 7
+        0179: LOCAL
+          address: BP_OFFSET_BYTE( C8 )
+          name = "uRecSz",  type = 10
+        0184: LOCAL
+          address: BP_OFFSET_BYTE( C4 )
+          name = "TrackRecords",  type = 82
+        0195: NEAR_RTN_386
+          start off = 000008B1, code size = 0000053A, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  75
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Trkstat_ShowTrackInfo"
+        01C2: LOCAL
+          address: BP_OFFSET_BYTE( C4 )
+          name = "menu",  type = 74
+        01CB: LOCAL
+          address: BP_OFFSET_WORD( 003C )
+          name = "title",  type = 84
+        01D6: LOCAL
+          address: BP_OFFSET_BYTE( B8 )
+          name = "filename",  type = 85
+        01E3: LOCAL
+          address: BP_OFFSET_WORD( 0034 )
+          name = "sTrackLength",  type = 86
+        01F5: LOCAL
+          address: BP_OFFSET_BYTE( 8C )
+          name = "lengthsKm",  type = 87
+        0203: LOCAL
+          address: BP_OFFSET_WORD( 0070 )
+          name = "lengthsMile",  type = 88
+        0214: LOCAL
+          address: BP_OFFSET_BYTE( A8 )
+          name = "diff",  type = 89
+        021D: LOCAL
+          address: BP_OFFSET_BYTE( D0 )
+          name = "nResult",  type = 9
+        0229: LOCAL
+          address: BP_OFFSET_BYTE( C8 )
+          name = "i",  type = 9
+        022F: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "bReloadArt",  type = 7
+        023E: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "bScreenUpdate",  type = 7
+        0250: LOCAL
+          address: BP_OFFSET_BYTE( E0 )
+          name = "bTriggerVoiceover",  type = 7
+        0266: LOCAL
+          address: BP_OFFSET_BYTE( DC )
+          name = "nIconSpin",  type = 7
+        0274: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "nKeyValue",  type = 7
+        0282: LOCAL
+          address: BP_OFFSET_BYTE( D4 )
+          name = "nTicksDebounce",  type = 17
+        0295: LOCAL
+          address: BP_OFFSET_BYTE( CC )
+          name = "nTicksTotal",  type = 17
+        02A5: LOCAL
+          address: BP_OFFSET_WORD( 00E4 )
+          name = "sBuildOutput",  type = 90
+        02B7: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "nShowTrack",  type = 7
+        02C6: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "dx",  type = 7
+        02CD: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "x",  type = 7
+        02D3: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "nMaxTracks",  type = 7
+        02E2: NEAR_RTN_386
+          start off = 00000DEB, code size = 0000009D, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  91
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "SpinBigIcon"
+        0304: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "spinCount",  type = 7
+        0312: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "string",  type = 92
+        031D: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "s",  type = 7
+

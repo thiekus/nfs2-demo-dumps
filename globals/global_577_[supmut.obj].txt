@@ -1,0 +1,16 @@
+  Name:  _upmutframe
+    address      = 0001:000C6CB0
+    module index = 577
+    kind:          (code)
+  Name:  _transfersamples
+    address      = 0001:000C6CBC
+    module index = 577
+    kind:          (code)
+  Name:  _upmut
+    address      = 0001:000C6D0C
+    module index = 577
+    kind:          (code)
+  Name:  _upmutsetstate
+    address      = 0001:000C6E40
+    module index = 577
+    kind:          (code)

@@ -1,0 +1,398 @@
+ 65) Name:   C:\nfs2\game\pc\Force.c
+     Language is C
+     Locals: num = 1, offset = 00000116H
+     Types:  num = 1, offset = 000002B2H
+     Lines:  num = 1, offset = 0000043AH
+
+   *** Locals ***
+   ==============
+      Data 0:  offset 000195F1
+        0000: MODULE_386
+          "Force_gCarIsFalling" addr = 0002:0000F68C,  type = 9
+        001C: MODULE_386
+          "gStickRec" addr = 0002:00048780,  type = 384
+        002F: MODULE_386
+          "Force_gCancelStiffness" addr = 0002:0000F69D,  type = 9
+        004E: MODULE_386
+          "Force_gRoadTextureVibOn" addr = 0002:0000F699,  type = 9
+        006E: MODULE_386
+          "yVibState" addr = 0002:0000F6AD,  type = 9
+        0080: MODULE_386
+          "Force_gTicks" addr = 0002:000487BC,  type = 9
+        0095: MODULE_386
+          "Force_gCarIsFlying" addr = 0002:0000F688,  type = 9
+        00B0: MODULE_386
+          "xVibState" addr = 0002:0000F6A9,  type = 9
+        00C2: MODULE_386
+          "Force_gCar" addr = 0002:0000F6A5,  type = 506
+        00D6: MODULE_386
+          "Force_gPowerSteering" addr = 0002:0000F690,  type = 9
+        00F3: MODULE_386
+          "Force_gRightHit" addr = 0002:0000F680,  type = 9
+        010B: MODULE_386
+          "Force_gFrontHit" addr = 0002:0000F67C,  type = 9
+        0123: MODULE_386
+          "Force_gPrevRoadSurface" addr = 0002:0000F6A1,  type = 9
+        0142: MODULE_386
+          "Force_gVibTimer" addr = 0002:0000F695,  type = 9
+        015A: MODULE_386
+          "Force_gCarCtrDim" addr = 0002:0000F684,  type = 9
+        0173: MODULE_386
+          "gI" addr = 0002:000487C0,  type = 9
+        017E: MODULE_386
+          "Force_gDllLoaded" addr = 0002:0000F674,  type = 9
+        0197: MODULE_386
+          "Force_gDevice" addr = 0002:0000F678,  type = 9
+        01AD: MODULE_386
+          "Force_gVolume" addr = 0002:000487C4,  type = 10
+        01C3: MODULE_386
+          "joyForceActive" addr = 0002:000487C8,  type = 510
+        01DB: MODULE_386
+          "Force_gLastGear" addr = 0002:0000F694,  type = 4
+        01F3: SET_BASE_386
+          base = 0001:00053C95
+        01FB: NEAR_RTN_386
+          start off = 00000000, code size = 00000024, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  331
+          return value: <none>
+          Name = "Force_Pause"
+        021C: NEAR_RTN_386
+          start off = 00000024, code size = 00000024, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  331
+          return value: <none>
+          Name = "Force_UnPause"
+        023F: NEAR_RTN_386
+          start off = 00000048, code size = 0000002A, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  331
+          return value: <none>
+          Name = "Force_Enable"
+        0261: NEAR_RTN_386
+          start off = 00000072, code size = 0000002A, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  331
+          return value: <none>
+          Name = "Force_Disable"
+        0284: NEAR_RTN_386
+          start off = 0000009C, code size = 0000002E, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  511
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Force_SampleJolt"
+        02AC: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "Magnitude",  type = 9
+        02BA: NEAR_RTN_386
+          start off = 000000CA, code size = 000000C2, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  512
+          return value: MULTI_REG(1): EAX
+          Name = "Force_DetectForceFeedback"
+        02EA: NEAR_RTN_386
+          start off = 0000018C, code size = 000000A0, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  512
+          return value: MULTI_REG(1): EAX
+          Name = "Force_AutoDetectIForce"
+        0317: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "COMPort",  type = 9
+        0323: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "IFResult",  type = 508
+        0331: NEAR_RTN_386
+          start off = 0000022C, code size = 000000B3, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  512
+          return value: MULTI_REG(1): EAX
+          Name = "Force_GetForceCar"
+        0359: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "retVal",  type = 9
+        0364: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "i",  type = 9
+        036A: NEAR_RTN_386
+          start off = 000002DF, code size = 000000FD, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  331
+          return value: <none>
+          Name = "Force_StartUp"
+        038D: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "myCar",  type = 506
+        0398: NEAR_RTN_386
+          start off = 000003DC, code size = 00000053, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  331
+          return value: <none>
+          Name = "Force_ClearAll"
+        03BC: NEAR_RTN_386
+          start off = 0000042F, code size = 000000B3, parent off = 0000
+          prologue size = 12,  epilogue size = 7
+          return address offset (from bp) = 00000010
+          return type:  513
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Name = "Force_HitSign"
+        03E5: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "carObj",  type = 506
+        03F1: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "x",  type = 9
+        03F7: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "z",  type = 9
+        03FD: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "Duration",  type = 10
+        040A: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "Magnitude",  type = 10
+        0418: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "Direction",  type = 9
+        0426: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "speed",  type = 9
+        0430: NEAR_RTN_386
+          start off = 000004E2, code size = 000001E1, parent off = 0000
+          prologue size = 13,  epilogue size = 10
+          return address offset (from bp) = 00000014
+          return type:  514
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Name = "Force_HitCar"
+        0456: LOCAL
+          address: BP_OFFSET_BYTE( D8 )
+          name = "pCar0",  type = 506
+        0461: LOCAL
+          address: BP_OFFSET_BYTE( D4 )
+          name = "pCar1",  type = 506
+        046C: LOCAL
+          address: BP_OFFSET_BYTE( 18 )
+          name = "vect",  type = 387
+        0476: LOCAL
+          address: BP_OFFSET_BYTE( 24 )
+          name = "impulse",  type = 9
+        0482: LOCAL
+          address: CONST_ADDR386( 0002:0000F6B1 )
+          name = "nextTime",  type = 46
+        0494: LOCAL
+          address: BP_OFFSET_BYTE( DC )
+          name = "Duration",  type = 10
+        04A1: LOCAL
+          address: BP_OFFSET_BYTE( E0 )
+          name = "Magnitude",  type = 10
+        04AF: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "Direction",  type = 9
+        04BD: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "frontHit",  type = 9
+        04CA: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "rightHit",  type = 9
+        04D7: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "headOn",  type = 9
+        04E2: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "carRightCenter",  type = 9
+        04F5: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "carLeftCenter",  type = 9
+        0507: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "myCar",  type = 506
+        0512: NEAR_RTN_386
+          start off = 000006C3, code size = 0000012C, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  515
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Name = "Force_HitWall"
+        0539: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "carObj",  type = 506
+        0545: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "side",  type = 9
+        054E: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "Duration",  type = 10
+        055B: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "Magnitude",  type = 10
+        0569: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "Direction",  type = 9
+        0577: NEAR_RTN_386
+          start off = 000007EF, code size = 00000076, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  516
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Force_HitSharpAngle"
+        05A2: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "carObj",  type = 506
+        05AE: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "Duration",  type = 10
+        05BB: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "Magnitude",  type = 10
+        05C9: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "Direction",  type = 9
+        05D7: NEAR_RTN_386
+          start off = 00000865, code size = 0000016F, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  516
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Force_Shift"
+        05FA: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "carObj",  type = 506
+        0606: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "Magnitude",  type = 10
+        0614: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "Direction",  type = 9
+        0622: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "saveLastGear",  type = 4
+        0633: NEAR_RTN_386
+          start off = 000009D4, code size = 00000259, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  516
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Force_GForce"
+        0657: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "carObj",  type = 506
+        0663: LOCAL
+          address: CONST_ADDR386( 0002:0000F6B5 )
+          name = "old_xmag",  type = 9
+        0675: LOCAL
+          address: CONST_ADDR386( 0002:0000F6B9 )
+          name = "old_ymag",  type = 9
+        0687: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "xmag",  type = 9
+        0690: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "ymag",  type = 9
+        0699: NEAR_RTN_386
+          start off = 00000C2D, code size = 0000049F, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  516
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Force_RoadTexture"
+        06C2: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "carObj",  type = 506
+        06CE: LOCAL
+          address: CONST_ADDR386( 0002:0000F6BD )
+          name = "lastfreq",  type = 10
+        06E0: LOCAL
+          address: CONST_ADDR386( 0002:0000F6C1 )
+          name = "lastmag",  type = 10
+        06F1: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "speed",  type = 9
+        06FB: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "freq",  type = 10
+        0704: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "mag",  type = 10
+        070C: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "saveMag",  type = 10
+        0718: NEAR_RTN_386
+          start off = 000010CC, code size = 0000006B, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  511
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Force_CarFlip"
+        073D: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "flipCar",  type = 9
+        0749: NEAR_RTN_386
+          start off = 00001137, code size = 00000059, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  517
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Force_IsForceOn"
+        0771: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "carObj",  type = 506
+        077D: NEAR_RTN_386
+          start off = 00001190, code size = 0000012E, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  516
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Force_Update"
+        07A1: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "carObj",  type = 506
+        07AD: NEAR_RTN_386
+          start off = 000012BE, code size = 00000046, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  331
+          return value: <none>
+          Name = "Force_CleanUp"
+        07D0: NEAR_RTN_386
+          start off = 00001304, code size = 0000008A, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  517
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Force_GetCurrentSpeed"
+        07FE: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "carObj",  type = 506
+        080A: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "Velocity",  type = 9
+        0817: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "speed",  type = 9
+

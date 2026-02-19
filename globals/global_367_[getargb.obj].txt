@@ -1,0 +1,4 @@
+  Name:  _getargb
+    address      = 0001:000B1EB0
+    module index = 367
+    kind:          (code)

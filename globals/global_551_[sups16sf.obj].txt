@@ -1,0 +1,8 @@
+  Name:  _ups16sf
+    address      = 0001:000C3690
+    module index = 551
+    kind:          (static pubdef) (code)
+  Name:  _ups16sfsetstate
+    address      = 0001:000C3784
+    module index = 551
+    kind:          (code)

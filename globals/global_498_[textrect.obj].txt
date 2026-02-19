@@ -1,0 +1,28 @@
+  Name:  textnrectblit_
+    address      = 0001:000C08E0
+    module index = 498
+    kind:          (static pubdef) (code)
+  Name:  _textnrect
+    address      = 0001:000C0940
+    module index = 498
+    kind:          (code)
+  Name:  _textrect
+    address      = 0001:000C0A6C
+    module index = 498
+    kind:          (code)
+  Name:  _textmaxx
+    address      = 0002:0006AE0C
+    module index = 498
+    kind:          (static pubdef) (data)
+  Name:  _textmaxy
+    address      = 0002:0006AE10
+    module index = 498
+    kind:          (static pubdef) (data)
+  Name:  _textminy
+    address      = 0002:0006AE14
+    module index = 498
+    kind:          (static pubdef) (data)
+  Name:  _textminx
+    address      = 0002:0006AE18
+    module index = 498
+    kind:          (static pubdef) (data)

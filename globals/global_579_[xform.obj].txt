@@ -1,0 +1,12 @@
+  Name:  _xformx
+    address      = 0001:000C7080
+    module index = 579
+    kind:          (code)
+  Name:  _xformy
+    address      = 0001:000C70E8
+    module index = 579
+    kind:          (code)
+  Name:  _xformz
+    address      = 0001:000C7150
+    module index = 579
+    kind:          (code)

@@ -1,0 +1,204 @@
+ 98) Name:   C:\nfs2\frontend\common\Feaudio.c
+     Language is C
+     Locals: num = 1, offset = 0000019AH
+     Types:  num = 1, offset = 00000336H
+     Lines:  num = 1, offset = 000004BAH
+
+   *** Locals ***
+   ==============
+      Data 0:  offset 000268F3
+        0000: MODULE_386
+          "allLanguages" addr = 0002:000128B0,  type = 60
+        0015: MODULE_386
+          "currentSpeechViv" addr = 0002:00050BAC,  type = 61
+        002E: MODULE_386
+          "speechfileHeader" addr = 0002:00050BD4,  type = 64
+        0047: MODULE_386
+          "commentaryActualLevel" addr = 0002:00050BD8,  type = 9
+        0065: MODULE_386
+          "gStopCommentaryNow" addr = 0002:000128AC,  type = 9
+        0080: MODULE_386
+          "ginfo" addr = 0002:00050BDC,  type = 67
+        008E: SET_BASE_386
+          base = 0001:0007A0C7
+        0096: NEAR_RTN_386
+          start off = 00000000, code size = 000000D1, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  69
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Name = "FEAudio_StartLoadPatch"
+        00C4: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "info",  type = 68
+        00CD: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "length",  type = 9
+        00D8: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "offset",  type = 9
+        00E3: NEAR_RTN_386
+          start off = 000000D1, code size = 0000012A, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  70
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "Feaudio_StartPatch"
+        010C: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "info",  type = 68
+        0115: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "error",  type = 9
+        011F: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "playopts",  type = 72
+        012C: BLOCK_386
+          start off = 0000025E, code size = 000000C1, parent off = 0142
+        0138: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "error",  type = 9
+        0142: NEAR_RTN_386
+          start off = 000001FB, code size = 00000247, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  73
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "FeAudio_systemtask"
+        016B: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "x",  type = 9
+        0171: BLOCK_386
+          start off = 0000053D, code size = 00000018, parent off = 0185
+        017D: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "key",  type = 9
+        0185: NEAR_RTN_386
+          start off = 00000442, code size = 00000128, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  74
+          return value: REG: AX
+          Parm 0: MULTI_REG(1): EAX
+          Name = "FeAudio_PlayCommentary"
+        01B2: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "name",  type = 13
+        01BB: NEAR_RTN_386
+          start off = 0000056A, code size = 000000C4, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  74
+          return value: REG: AX
+          Parm 0: MULTI_REG(1): EAX
+          Name = "FeAudio_AsyncPlayCommentary"
+        01ED: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "name",  type = 13
+        01F6: NEAR_RTN_386
+          start off = 0000062E, code size = 00000096, parent off = 0000
+          prologue size = 11,  epilogue size = 6
+          return address offset (from bp) = 0000000C
+          return type:  76
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Parm 3: MULTI_REG(1): ECX
+          Name = "FeAudio_StartBigfileRead"
+        022C: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "fname",  type = 13
+        0236: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "offset",  type = 9
+        0241: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "length",  type = 9
+        024C: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "vivHandle",  type = 75
+        025A: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "streamBuffer",  type = 13
+        026B: NEAR_RTN_386
+          start off = 000006C4, code size = 0000012B, parent off = 0000
+          prologue size = 11,  epilogue size = 6
+          return address offset (from bp) = 0000000C
+          return type:  77
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Parm 3: MULTI_REG(1): ECX
+          Name = "FeAudio_LocateBigfile"
+        029D: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "bigfileHeader",  type = 64
+        02AF: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "name",  type = 13
+        02B8: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "offset",  type = 75
+        02C3: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "length",  type = 75
+        02CE: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "i",  type = 9
+        02D4: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "info",  type = 81
+        02DD: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "tempChar",  type = 13
+        02EA: NEAR_RTN_386
+          start off = 000007EF, code size = 00000275, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  82
+          return value: MULTI_REG(1): EAX
+          Parm 0: MULTI_REG(1): EAX
+          Name = "FeAudio_InitViv"
+        0311: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "fname",  type = 13
+        031B: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "vivHandle",  type = 9
+        0329: LOCAL
+          address: BP_OFFSET_BYTE( DC )
+          name = "lumpHead",  type = 63
+        0336: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "bigfileHeader",  type = 64
+        0348: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "status",  type = 9
+        0353: NEAR_RTN_386
+          start off = 00000A64, code size = 000000C6, parent off = 0000
+          prologue size = 13,  epilogue size = 8
+          return address offset (from bp) = 00000014
+          return type:  83
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Name = "FeAudio_InitCommentary"
+        0382: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "language",  type = 9
+        038F: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "postGame",  type = 9
+        039C: NEAR_RTN_386
+          start off = 00000B2A, code size = 00000036, parent off = 0000
+          prologue size = 14,  epilogue size = 7
+          return address offset (from bp) = 00000018
+          return type:  21
+          return value: <none>
+          Name = "FeAudio_DeInitCommentary"
+

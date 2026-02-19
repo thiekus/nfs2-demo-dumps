@@ -1,0 +1,220 @@
+  Name:  _screendevice
+    address      = 0002:000550B0
+    module index = 303
+    kind:          (data)
+  Name:  _ddrawdebugflag
+    address      = 0002:00014618
+    module index = 303
+    kind:          (data)
+  Name:  _ddrawHALcaps
+    address      = 0002:0001461C
+    module index = 303
+    kind:          (data)
+  Name:  _allowmodex
+    address      = 0002:00014620
+    module index = 303
+    kind:          (data)
+  Name:  _lockduration
+    address      = 0002:00014624
+    module index = 303
+    kind:          (data)
+  Name:  _lockmaximum
+    address      = 0002:00014628
+    module index = 303
+    kind:          (data)
+  Name:  _locksuccess
+    address      = 0002:0001462C
+    module index = 303
+    kind:          (data)
+  Name:  ddraw_makeprimary_
+    address      = 0001:000A4660
+    module index = 303
+    kind:          (static pubdef) (code)
+  Name:  ddraw_surface_lock_
+    address      = 0001:000A47B0
+    module index = 303
+    kind:          (static pubdef) (code)
+  Name:  adjustsurfacecoords_
+    address      = 0001:000A4998
+    module index = 303
+    kind:          (code)
+  Name:  adjustsurfacerect_
+    address      = 0001:000A49B0
+    module index = 303
+    kind:          (code)
+  Name:  bitcount_
+    address      = 0001:000A49F4
+    module index = 303
+    kind:          (code)
+  Name:  record_displaymode_info_
+    address      = 0001:000A4A10
+    module index = 303
+    kind:          (static pubdef) (code)
+  Name:  _getwindowsize
+    address      = 0001:000A4BA8
+    module index = 303
+    kind:          (code)
+  Name:  _getwindowhandle
+    address      = 0001:000A4BE4
+    module index = 303
+    kind:          (code)
+  Name:  _setwinvisible
+    address      = 0001:000A4BEC
+    module index = 303
+    kind:          (code)
+  Name:  _searchwindisplaydevices
+    address      = 0001:000A4C10
+    module index = 303
+    kind:          (code)
+  Name:  _createwindisplay
+    address      = 0001:000A4C20
+    module index = 303
+    kind:          (code)
+  Name:  _getwindisplayinfo
+    address      = 0001:000A4EF8
+    module index = 303
+    kind:          (code)
+  Name:  _accesswindisplay
+    address      = 0001:000A5004
+    module index = 303
+    kind:          (code)
+  Name:  _deconfigwindisplay
+    address      = 0001:000A533C
+    module index = 303
+    kind:          (code)
+  Name:  _configwindisplay
+    address      = 0001:000A5440
+    module index = 303
+    kind:          (code)
+  Name:  _setwindisplaymode
+    address      = 0001:000A59E0
+    module index = 303
+    kind:          (code)
+  Name:  _disposewindisplay
+    address      = 0001:000A5E14
+    module index = 303
+    kind:          (code)
+  Name:  _selectwindisplay
+    address      = 0001:000A5ED0
+    module index = 303
+    kind:          (code)
+  Name:  _getwindisplayscanline
+    address      = 0001:000A5EEC
+    module index = 303
+    kind:          (code)
+  Name:  _flipwindisplay
+    address      = 0001:000A5F20
+    module index = 303
+    kind:          (code)
+  Name:  _iswindisplayvsync
+    address      = 0001:000A5F6C
+    module index = 303
+    kind:          (code)
+  Name:  _syncwindisplay
+    address      = 0001:000A5F90
+    module index = 303
+    kind:          (code)
+  Name:  _setwinpalette
+    address      = 0001:000A5FC0
+    module index = 303
+    kind:          (code)
+  Name:  _getwinpalette
+    address      = 0001:000A60B4
+    module index = 303
+    kind:          (code)
+  Name:  _locksurface
+    address      = 0001:000A6140
+    module index = 303
+    kind:          (code)
+  Name:  _unlocksurface
+    address      = 0001:000A62D8
+    module index = 303
+    kind:          (code)
+  Name:  _relocksurface
+    address      = 0001:000A6358
+    module index = 303
+    kind:          (code)
+  Name:  _testsurfacelock
+    address      = 0001:000A6468
+    module index = 303
+    kind:          (code)
+  Name:  _makesurface
+    address      = 0001:000A64A0
+    module index = 303
+    kind:          (code)
+  Name:  _removesurface
+    address      = 0001:000A6718
+    module index = 303
+    kind:          (code)
+  Name:  _issurfacelost
+    address      = 0001:000A6744
+    module index = 303
+    kind:          (code)
+  Name:  getbacksurface_
+    address      = 0001:000A6750
+    module index = 303
+    kind:          (code)
+  Name:  getalphasurface_
+    address      = 0001:000A6780
+    module index = 303
+    kind:          (code)
+  Name:  getzbuffersurface_
+    address      = 0001:000A67B0
+    module index = 303
+    kind:          (code)
+  Name:  _waitsurface
+    address      = 0001:000A67E0
+    module index = 303
+    kind:          (code)
+  Name:  _getsurfaceinfo
+    address      = 0001:000A67FC
+    module index = 303
+    kind:          (code)
+  Name:  _pagelocksurface
+    address      = 0001:000A6908
+    module index = 303
+    kind:          (code)
+  Name:  _pageunlocksurface
+    address      = 0001:000A6948
+    module index = 303
+    kind:          (code)
+  Name:  _fillsurface
+    address      = 0001:000A6988
+    module index = 303
+    kind:          (code)
+  Name:  _stretchsurface
+    address      = 0001:000A6A44
+    module index = 303
+    kind:          (code)
+  Name:  _deviceEnumCallback@16
+    address      = 0001:000A6C24
+    module index = 303
+    kind:          (static pubdef) (code)
+  Name:  _modeEnumCallback@8
+    address      = 0001:000A6C68
+    module index = 303
+    kind:          (static pubdef) (code)
+  Name:  _locktick
+    address      = 0002:00014630
+    module index = 303
+    kind:          (static pubdef) (data)
+  Name:  _defaultmodes
+    address      = 0002:00014634
+    module index = 303
+    kind:          (static pubdef) (data)
+  Name:  _enummodecount
+    address      = 0002:000550C0
+    module index = 303
+    kind:          (static pubdef) (data)
+  Name:  _gbppflags
+    address      = 0002:000550C4
+    module index = 303
+    kind:          (static pubdef) (data)
+  Name:  _foundmodes
+    address      = 0002:000550C8
+    module index = 303
+    kind:          (static pubdef) (data)
+  Name:  _original_mode
+    address      = 0002:000550CC
+    module index = 303
+    kind:          (static pubdef) (data)

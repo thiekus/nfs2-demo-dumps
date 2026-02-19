@@ -1,0 +1,4 @@
+  Name:  time_
+    address      = 0001:0009D888
+    module index = 257
+    kind:          (code)

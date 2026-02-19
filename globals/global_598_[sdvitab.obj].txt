@@ -1,0 +1,8 @@
+  Name:  _steptable
+    address      = 0002:00017274
+    module index = 598
+    kind:          (data)
+  Name:  _indexdeltas
+    address      = 0002:000188B4
+    module index = 598
+    kind:          (data)

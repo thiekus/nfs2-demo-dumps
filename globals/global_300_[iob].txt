@@ -1,0 +1,20 @@
+  Name:  ___iob
+    address      = 0002:00014400
+    module index = 300
+    kind:          (data)
+  Name:  ___tmpfnext
+    address      = 0002:00014608
+    module index = 300
+    kind:          (data)
+  Name:  __fmode
+    address      = 0002:00014609
+    module index = 300
+    kind:          (data)
+  Name:  _force
+    address      = 0002:0001460D
+    module index = 300
+    kind:          (static pubdef) (data)
+  Name:  ___ClosedStreams
+    address      = 0002:000550A0
+    module index = 300
+    kind:          (data)

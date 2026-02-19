@@ -1,0 +1,12 @@
+  Name:  _no_support_loaded_
+    address      = 0001:000BB76B
+    module index = 419
+    kind:          (static pubdef) (code)
+  Name:  ___EFG_printf
+    address      = 0002:00016CC4
+    module index = 419
+    kind:          (data)
+  Name:  ___EFG_scanf
+    address      = 0002:00016CC8
+    module index = 419
+    kind:          (data)

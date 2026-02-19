@@ -1,0 +1,44 @@
+  Name:  _touchmempages
+    address      = 0001:0009B0A0
+    module index = 232
+    kind:          (code)
+  Name:  _touchcodepages
+    address      = 0001:0009B148
+    module index = 232
+    kind:          (code)
+  Name:  _restorememman
+    address      = 0001:0009B164
+    module index = 232
+    kind:          (code)
+  Name:  _initmemmansize
+    address      = 0001:0009B180
+    module index = 232
+    kind:          (code)
+  Name:  _initmemman
+    address      = 0001:0009B2AC
+    module index = 232
+    kind:          (code)
+  Name:  _initmemmanmax
+    address      = 0001:0009B2E4
+    module index = 232
+    kind:          (code)
+  Name:  _initmemmansub
+    address      = 0001:0009B2FC
+    module index = 232
+    kind:          (code)
+  Name:  _memmanmaxsize
+    address      = 0002:00013B58
+    module index = 232
+    kind:          (data)
+  Name:  _memmanminsize
+    address      = 0002:00013B5C
+    module index = 232
+    kind:          (data)
+  Name:  _maximumtouchsize
+    address      = 0002:00013B60
+    module index = 232
+    kind:          (data)
+  Name:  _systempagesize
+    address      = 0002:00013B64
+    module index = 232
+    kind:          (data)

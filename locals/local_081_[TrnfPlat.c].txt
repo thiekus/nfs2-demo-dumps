@@ -1,0 +1,81 @@
+ 81) Name:   C:\nfs2\game\pc\TrnfPlat.c
+     Language is C
+     Locals: num = 1, offset = 00000156H
+     Types:  num = 1, offset = 000002F2H
+     Lines:  num = 1, offset = 0000047AH
+
+   *** Locals ***
+   ==============
+      Data 0:  offset 0001EABC
+        0000: MODULE_386
+          "gTempPixMap" addr = 0002:0004FD64,  type = 66
+        0014: SET_BASE_386
+          base = 0001:00061257
+        001C: NEAR_RTN_386
+          start off = 00000000, code size = 0000001A, parent off = 0000
+          prologue size = 14,  epilogue size = 9
+          return address offset (from bp) = 00000018
+          return type:  67
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Name = "TrnfPlat_SetLightContext"
+        004B: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "lightContext",  type = 7
+        005C: BLOCK_386
+          start off = 00000171, code size = 0000021E, parent off = 0070
+        0068: LOCAL
+          address: BP_OFFSET_BYTE( D0 )
+          name = "vid",  type = 68
+        0070: BLOCK_386
+          start off = 000000F3, code size = 0000029C, parent off = 0085
+        007C: LOCAL
+          address: BP_OFFSET_BYTE( D8 )
+          name = "type",  type = 9
+        0085: BLOCK_386
+          start off = 000000A6, code size = 000002E9, parent off = 0097
+        0091: LOCAL
+          address: BP_OFFSET_BYTE( D4 )
+          name = "f",  type = 89
+        0097: NEAR_RTN_386
+          start off = 0000001A, code size = 000003D9, parent off = 0000
+          prologue size = 11,  epilogue size = 8
+          return address offset (from bp) = 0000000C
+          return type:  117
+          return value: <none>
+          Parm 0: MULTI_REG(1): EAX
+          Parm 1: MULTI_REG(1): EDX
+          Parm 2: MULTI_REG(1): EBX
+          Parm 3: MULTI_REG(1): ECX
+          Name = "TrnfPlat_BuildFacetlist"
+        00CB: LOCAL
+          address: BP_OFFSET_BYTE( DC )
+          name = "obj",  type = 110
+        00D3: LOCAL
+          address: BP_OFFSET_BYTE( E0 )
+          name = "m",  type = 115
+        00D9: LOCAL
+          address: BP_OFFSET_BYTE( E4 )
+          name = "t",  type = 116
+        00DF: LOCAL
+          address: BP_OFFSET_BYTE( E8 )
+          name = "partLinkPriority",  type = 9
+        00F4: LOCAL
+          address: BP_OFFSET_BYTE( 10 )
+          name = "textureStartIndex",  type = 9
+        010A: LOCAL
+          address: BP_OFFSET_BYTE( EC )
+          name = "i",  type = 9
+        0110: LOCAL
+          address: BP_OFFSET_BYTE( F0 )
+          name = "vertice",  type = 81
+        011C: LOCAL
+          address: BP_OFFSET_BYTE( F4 )
+          name = "facets",  type = 89
+        0127: LOCAL
+          address: BP_OFFSET_BYTE( F8 )
+          name = "index",  type = 9
+        0131: LOCAL
+          address: BP_OFFSET_BYTE( FC )
+          name = "facet",  type = 103
+

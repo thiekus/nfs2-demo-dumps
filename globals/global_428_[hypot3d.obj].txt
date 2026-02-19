@@ -1,0 +1,4 @@
+  Name:  _int3dhypot
+    address      = 0001:000BB970
+    module index = 428
+    kind:          (code)

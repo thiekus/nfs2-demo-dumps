@@ -1,0 +1,12 @@
+  Name:  abort_
+    address      = 0001:000A43A0
+    module index = 301
+    kind:          (code)
+  Name:  __terminate_
+    address      = 0001:000A43A6
+    module index = 301
+    kind:          (code)
+  Name:  ___abort
+    address      = 0002:00014614
+    module index = 301
+    kind:          (data)
