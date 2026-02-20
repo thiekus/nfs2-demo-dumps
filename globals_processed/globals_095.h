@@ -1,22 +1,3 @@
- nfsw
-
- Preferred load address is 00400000
-
- Start         Length     Name                   Class
- 0001:00401000 000cb600h .text                   CODE
- 0002:004cd000 0001b200h .data                   DATA
- 0003:004e9000 0004f400h .bss                    BSS
-
-
-Detailed map of segments
-
- 0001:00000000 000cb600 C=CODE     S=BEGTEXT  G=(none)   M=nfsw   ACBP=A9
- 0002:00000000 0001b200 C=DATA     S=DGROUP   G=DGROUP   M=nfsw   ACBP=A9
- 0003:00000000 0004f400 C=BSS      S=.bss     G=DGROUP   M=nfsw   ACBP=A9
-
-
-  Address        Publics by Name
-
 // GLOBAL: 0001:00075de2 FeTools_CopyFrontToBackPage_ 00476de2 (code)
 // GLOBAL: 0001:00075df7 FeTools_IsDiskSpaceAvail_ 00476df7 (code)
 // GLOBAL: 0001:00075e71 FeTools_flipSync_ 00476e71 (code)
@@ -101,6 +82,3 @@ Detailed map of segments
 // GLOBAL: 0003:00034624 _save18 0051d624 (bss)
 // GLOBAL: 0003:000346d8 _save36 0051d6d8 (bss)
 // GLOBAL: 0003:0003478c _currentSize 0051d78c (bss)
-
-
-Program entry point at 0001:000872e6

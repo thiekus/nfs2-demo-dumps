@@ -1,22 +1,3 @@
- nfsw
-
- Preferred load address is 00400000
-
- Start         Length     Name                   Class
- 0001:00401000 000cb600h .text                   CODE
- 0002:004cd000 0001b200h .data                   DATA
- 0003:004e9000 0004f400h .bss                    BSS
-
-
-Detailed map of segments
-
- 0001:00000000 000cb600 C=CODE     S=BEGTEXT  G=(none)   M=nfsw   ACBP=A9
- 0002:00000000 0001b200 C=DATA     S=DGROUP   G=DGROUP   M=nfsw   ACBP=A9
- 0003:00000000 0004f400 C=BSS      S=.bss     G=DGROUP   M=nfsw   ACBP=A9
-
-
-  Address        Publics by Name
-
 // GLOBAL: 0001:00027c6a DashHUD_LoadWords_ 00428c6a (code)
 // GLOBAL: 0001:00027ce5 DashHUD_Word_ 00428ce5 (code)
 // GLOBAL: 0001:00027d2a DashHUD_UnloadWords_ 00428d2a (code)
@@ -40,6 +21,3 @@ Detailed map of segments
 // GLOBAL: 0002:0000cc4c _DashHUD_gWordFile 004d9c4c (data)
 // GLOBAL: 0003:000074c8 _DashHUD_gShpfile 004f04c8 (bss)
 // GLOBAL: 0003:000074cc _DashHUD_gInfo 004f04cc (bss)
-
-
-Program entry point at 0001:000872e6

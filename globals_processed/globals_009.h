@@ -1,22 +1,3 @@
- nfsw
-
- Preferred load address is 00400000
-
- Start         Length     Name                   Class
- 0001:00401000 000cb600h .text                   CODE
- 0002:004cd000 0001b200h .data                   DATA
- 0003:004e9000 0004f400h .bss                    BSS
-
-
-Detailed map of segments
-
- 0001:00000000 000cb600 C=CODE     S=BEGTEXT  G=(none)   M=nfsw   ACBP=A9
- 0002:00000000 0001b200 C=DATA     S=DGROUP   G=DGROUP   M=nfsw   ACBP=A9
- 0003:00000000 0004f400 C=BSS      S=.bss     G=DGROUP   M=nfsw   ACBP=A9
-
-
-  Address        Publics by Name
-
 // GLOBAL: 0001:0001503f closeXZDistSquared_ 0041603f (code)
 // GLOBAL: 0001:000150a6 BWorldSm_Init_ 004160a6 (code)
 // GLOBAL: 0001:000150fa BWorldSm_DeInit_ 004160fa (code)
@@ -51,6 +32,3 @@ Detailed map of segments
 // GLOBAL: 0003:00006e04 _gNumSlices 004efe04 (bss)
 // GLOBAL: 0003:00006e08 _BWorldSm_slices 004efe08 (bss)
 // GLOBAL: 0003:00006e0c _sim_Handle 004efe0c (bss)
-
-
-Program entry point at 0001:000872e6

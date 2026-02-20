@@ -18,16 +18,22 @@ To dump Globals to `nfs2_globals.txt`, which contains all off global functions, 
 wdump -q -Dg nfsw.exe > nfs2_globals.txt
 ```
 
-To dump locals variables (including global vars, function, etc per modules):
+To dump locals variables to `nfs2_locals.txt` (including global vars, function, etc per modules):
 
 ```sh
 wdump -q -Dml nfsw.exe > nfs2_locals.txt
 ```
 
-To dump types definitions per modules:
+To dump types definitions per modules to `nfs2_types.txt`:
 
 ```sh
 wdump -q -Dmt nfsw.exe > nfs2_types.txt
+```
+
+To dump line numbers per modules to `nfs2_lines.txt`:
+
+```sh
+wdump -q -Dmn nfsw.exe > nfs2_lines.txt
 ```
 
 For easier to peek, splitted globals and locals per file were included in this repo. The `globals` directory contains raw wdump output which has splitted per module, resulting `globals_processed`. Also similar for `locals` directory which resulting `types_processed`.
@@ -48,7 +54,7 @@ Then put `nfsw.pdb` on same directory as `nfsw.exe`. I tested some programs whic
 
 However it didn't works:
 
-* IDA Pro v9.x (perharps because IDA read `LOCAL` sections rather than `GLOBAL` section on PDB which map2pdb produced).
+* IDA Pro v9.x (might because IDA read `LOCAL` sections rather than `GLOBAL` section on PDB which map2pdb produced).
 
 ## TODO
 

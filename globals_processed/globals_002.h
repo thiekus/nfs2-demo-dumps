@@ -1,22 +1,3 @@
- nfsw
-
- Preferred load address is 00400000
-
- Start         Length     Name                   Class
- 0001:00401000 000cb600h .text                   CODE
- 0002:004cd000 0001b200h .data                   DATA
- 0003:004e9000 0004f400h .bss                    BSS
-
-
-Detailed map of segments
-
- 0001:00000000 000cb600 C=CODE     S=BEGTEXT  G=(none)   M=nfsw   ACBP=A9
- 0002:00000000 0001b200 C=DATA     S=DGROUP   G=DGROUP   M=nfsw   ACBP=A9
- 0003:00000000 0004f400 C=BSS      S=.bss     G=DGROUP   M=nfsw   ACBP=A9
-
-
-  Address        Publics by Name
-
 // GLOBAL: 0001:0000a0a9 AISpeeds_SetupSpeeds_ 0040b0a9 (code)
 // GLOBAL: 0001:0000a221 AISpeeds_ScaleSpeeds_ 0040b221 (code)
 // GLOBAL: 0001:0000a2a7 AISpeeds_StartUp_ 0040b2a7 (code)
@@ -29,6 +10,3 @@ Detailed map of segments
 // GLOBAL: 0002:0000bf6c _AISpeeds_SpeedExt 004d8f6c (data)
 // GLOBAL: 0002:0000bf76 _AISpeeds_LineExt 004d8f76 (data)
 // GLOBAL: 0003:000003d0 _AISpeeds_PhysicsMode 004e93d0 (bss)
-
-
-Program entry point at 0001:000872e6

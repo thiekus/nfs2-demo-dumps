@@ -1,22 +1,3 @@
- nfsw
-
- Preferred load address is 00400000
-
- Start         Length     Name                   Class
- 0001:00401000 000cb600h .text                   CODE
- 0002:004cd000 0001b200h .data                   DATA
- 0003:004e9000 0004f400h .bss                    BSS
-
-
-Detailed map of segments
-
- 0001:00000000 000cb600 C=CODE     S=BEGTEXT  G=(none)   M=nfsw   ACBP=A9
- 0002:00000000 0001b200 C=DATA     S=DGROUP   G=DGROUP   M=nfsw   ACBP=A9
- 0003:00000000 0004f400 C=BSS      S=.bss     G=DGROUP   M=nfsw   ACBP=A9
-
-
-  Address        Publics by Name
-
 // GLOBAL: 0001:00030546 Physics_InitCarSpecs_ 00431546 (code)
 // GLOBAL: 0001:00030914 Physics_CalculateDerivedCarSpecs_ 00431914 (code)
 // GLOBAL: 0001:00030f11 Physics_CalculateBarrierCollisionWidthOfCar_ 00431f11 (code)
@@ -59,6 +40,3 @@ Detailed map of segments
 // GLOBAL: 0003:00008474 _rearMult 004f1474 (bss)
 // GLOBAL: 0003:00008478 _frontMult 004f1478 (bss)
 // GLOBAL: 0003:0000847c _gravity_ch 004f147c (bss)
-
-
-Program entry point at 0001:000872e6

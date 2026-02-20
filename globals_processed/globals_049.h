@@ -1,22 +1,3 @@
- nfsw
-
- Preferred load address is 00400000
-
- Start         Length     Name                   Class
- 0001:00401000 000cb600h .text                   CODE
- 0002:004cd000 0001b200h .data                   DATA
- 0003:004e9000 0004f400h .bss                    BSS
-
-
-Detailed map of segments
-
- 0001:00000000 000cb600 C=CODE     S=BEGTEXT  G=(none)   M=nfsw   ACBP=A9
- 0002:00000000 0001b200 C=DATA     S=DGROUP   G=DGROUP   M=nfsw   ACBP=A9
- 0003:00000000 0004f400 C=BSS      S=.bss     G=DGROUP   M=nfsw   ACBP=A9
-
-
-  Address        Publics by Name
-
 // GLOBAL: 0001:00045f67 _kchGeomCollSizeOff 00446f67 (static pubdef) (code)
 // GLOBAL: 0001:00045f6b _kchItemCollCountOff 00446f6b (static pubdef) (code)
 // GLOBAL: 0001:00045f6f _kchSimSliceIndexOff 00446f6f (static pubdef) (code)
@@ -50,6 +31,3 @@ Detailed map of segments
 // GLOBAL: 0002:0000ef20 _sMetaChunkIndices 004dbf20 (data)
 // GLOBAL: 0003:0002a248 _sTrackStream 00513248 (bss)
 // GLOBAL: 0003:0002a268 _sTrackHandle 00513268 (bss)
-
-
-Program entry point at 0001:000872e6

@@ -1,22 +1,3 @@
- nfsw
-
- Preferred load address is 00400000
-
- Start         Length     Name                   Class
- 0001:00401000 000cb600h .text                   CODE
- 0002:004cd000 0001b200h .data                   DATA
- 0003:004e9000 0004f400h .bss                    BSS
-
-
-Detailed map of segments
-
- 0001:00000000 000cb600 C=CODE     S=BEGTEXT  G=(none)   M=nfsw   ACBP=A9
- 0002:00000000 0001b200 C=DATA     S=DGROUP   G=DGROUP   M=nfsw   ACBP=A9
- 0003:00000000 0004f400 C=BSS      S=.bss     G=DGROUP   M=nfsw   ACBP=A9
-
-
-  Address        Publics by Name
-
 // GLOBAL: 0001:00059b11 Lighting_LightFilter_ 0045ab11 (code)
 // GLOBAL: 0001:00059c61 Lighting_HSVLightFilter_ 0045ac61 (code)
 // GLOBAL: 0001:00059d78 Lighting_GetLightTable_ 0045ad78 (code)
@@ -36,6 +17,3 @@ Detailed map of segments
 // GLOBAL: 0003:00032208 _gL_cv 0051b208 (bss)
 // GLOBAL: 0003:0003220c _gL_sys 0051b20c (bss)
 // GLOBAL: 0003:00032210 _gLUTtbl 0051b210 (bss)
-
-
-Program entry point at 0001:000872e6

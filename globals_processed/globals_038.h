@@ -1,22 +1,3 @@
- nfsw
-
- Preferred load address is 00400000
-
- Start         Length     Name                   Class
- 0001:00401000 000cb600h .text                   CODE
- 0002:004cd000 0001b200h .data                   DATA
- 0003:004e9000 0004f400h .bss                    BSS
-
-
-Detailed map of segments
-
- 0001:00000000 000cb600 C=CODE     S=BEGTEXT  G=(none)   M=nfsw   ACBP=A9
- 0002:00000000 0001b200 C=DATA     S=DGROUP   G=DGROUP   M=nfsw   ACBP=A9
- 0003:00000000 0004f400 C=BSS      S=.bss     G=DGROUP   M=nfsw   ACBP=A9
-
-
-  Address        Publics by Name
-
 // GLOBAL: 0001:0003e3e8 Replay_Compress_ 0043f3e8 (code)
 // GLOBAL: 0001:0003e4e8 Replay_Decompress_ 0043f4e8 (code)
 // GLOBAL: 0001:0003e5b1 Replay_InitReplay_ 0043f5b1 (code)
@@ -46,6 +27,3 @@ Detailed map of segments
 // GLOBAL: 0003:0002732c _Replay_ReplayInterface 0051032c (bss)
 // GLOBAL: 0003:00027348 _Replay_ReplayMode 00510348 (bss)
 // GLOBAL: 0003:0002734c _compressed_data 0051034c (bss)
-
-
-Program entry point at 0001:000872e6

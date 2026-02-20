@@ -1,22 +1,3 @@
- nfsw
-
- Preferred load address is 00400000
-
- Start         Length     Name                   Class
- 0001:00401000 000cb600h .text                   CODE
- 0002:004cd000 0001b200h .data                   DATA
- 0003:004e9000 0004f400h .bss                    BSS
-
-
-Detailed map of segments
-
- 0001:00000000 000cb600 C=CODE     S=BEGTEXT  G=(none)   M=nfsw   ACBP=A9
- 0002:00000000 0001b200 C=DATA     S=DGROUP   G=DGROUP   M=nfsw   ACBP=A9
- 0003:00000000 0004f400 C=BSS      S=.bss     G=DGROUP   M=nfsw   ACBP=A9
-
-
-  Address        Publics by Name
-
 // GLOBAL: 0001:00056386 Hud_AddFacet_ 00457386 (code)
 // GLOBAL: 0001:00056439 Hud_SetPosition_ 00457439 (code)
 // GLOBAL: 0001:000565cf Hud_InitTables_ 004575cf (code)
@@ -75,6 +56,3 @@ Detailed map of segments
 // GLOBAL: 0003:0002eae4 _Hud_gPreviousReplay 00517ae4 (bss)
 // GLOBAL: 0003:0002eae8 _Hud_gPreviousNextCar 00517ae8 (bss)
 // GLOBAL: 0003:0002eaec _gLFacet 00517aec (static pubdef) (bss)
-
-
-Program entry point at 0001:000872e6

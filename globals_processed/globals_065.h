@@ -1,22 +1,3 @@
- nfsw
-
- Preferred load address is 00400000
-
- Start         Length     Name                   Class
- 0001:00401000 000cb600h .text                   CODE
- 0002:004cd000 0001b200h .data                   DATA
- 0003:004e9000 0004f400h .bss                    BSS
-
-
-Detailed map of segments
-
- 0001:00000000 000cb600 C=CODE     S=BEGTEXT  G=(none)   M=nfsw   ACBP=A9
- 0002:00000000 0001b200 C=DATA     S=DGROUP   G=DGROUP   M=nfsw   ACBP=A9
- 0003:00000000 0004f400 C=BSS      S=.bss     G=DGROUP   M=nfsw   ACBP=A9
-
-
-  Address        Publics by Name
-
 // GLOBAL: 0001:00053c95 Force_Pause_ 00454c95 (code)
 // GLOBAL: 0001:00053cb9 Force_UnPause_ 00454cb9 (code)
 // GLOBAL: 0001:00053cdd Force_Enable_ 00454cdd (code)
@@ -60,6 +41,3 @@ Detailed map of segments
 // GLOBAL: 0003:0002c7c0 _gI 005157c0 (bss)
 // GLOBAL: 0003:0002c7c4 _Force_gVolume 005157c4 (bss)
 // GLOBAL: 0003:0002c7c8 _joyForceActive 005157c8 (bss)
-
-
-Program entry point at 0001:000872e6

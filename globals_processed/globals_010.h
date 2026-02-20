@@ -1,22 +1,3 @@
- nfsw
-
- Preferred load address is 00400000
-
- Start         Length     Name                   Class
- 0001:00401000 000cb600h .text                   CODE
- 0002:004cd000 0001b200h .data                   DATA
- 0003:004e9000 0004f400h .bss                    BSS
-
-
-Detailed map of segments
-
- 0001:00000000 000cb600 C=CODE     S=BEGTEXT  G=(none)   M=nfsw   ACBP=A9
- 0002:00000000 0001b200 C=DATA     S=DGROUP   G=DGROUP   M=nfsw   ACBP=A9
- 0003:00000000 0004f400 C=BSS      S=.bss     G=DGROUP   M=nfsw   ACBP=A9
-
-
-  Address        Publics by Name
-
 // GLOBAL: 0001:0001754d Camera_InitDebugCamera_ 0041854d (code)
 // GLOBAL: 0001:00017562 Camera_Debug_ 00418562 (code)
 // GLOBAL: 0001:00017577 Camera_SetMainCamera_ 00418577 (code)
@@ -66,6 +47,3 @@ Detailed map of segments
 // GLOBAL: 0003:00006e18 _zoomcentery 004efe18 (bss)
 // GLOBAL: 0003:00006e1c _zoomcenterx 004efe1c (bss)
 // GLOBAL: 0003:00006e20 _gNextModeList 004efe20 (bss)
-
-
-Program entry point at 0001:000872e6

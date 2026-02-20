@@ -1,22 +1,3 @@
- nfsw
-
- Preferred load address is 00400000
-
- Start         Length     Name                   Class
- 0001:00401000 000cb600h .text                   CODE
- 0002:004cd000 0001b200h .data                   DATA
- 0003:004e9000 0004f400h .bss                    BSS
-
-
-Detailed map of segments
-
- 0001:00000000 000cb600 C=CODE     S=BEGTEXT  G=(none)   M=nfsw   ACBP=A9
- 0002:00000000 0001b200 C=DATA     S=DGROUP   G=DGROUP   M=nfsw   ACBP=A9
- 0003:00000000 0004f400 C=BSS      S=.bss     G=DGROUP   M=nfsw   ACBP=A9
-
-
-  Address        Publics by Name
-
 // GLOBAL: 0001:0002a4ab Math_Atan2F16_ 0042b4ab (code)
 // GLOBAL: 0001:0002a4df Math_DistXZ_ 0042b4df (code)
 // GLOBAL: 0001:0002a59b Math_Dist3D_ 0042b59b (code)
@@ -31,6 +12,3 @@ Detailed map of segments
 // GLOBAL: 0001:0002b05e Math_DumpFixed_ 0042c05e (code)
 // GLOBAL: 0001:0002b078 Math_DumpVector_ 0042c078 (code)
 // GLOBAL: 0001:0002b08f Math_MakeRotMatY_ 0042c08f (code)
-
-
-Program entry point at 0001:000872e6

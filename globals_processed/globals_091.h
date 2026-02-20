@@ -1,22 +1,3 @@
- nfsw
-
- Preferred load address is 00400000
-
- Start         Length     Name                   Class
- 0001:00401000 000cb600h .text                   CODE
- 0002:004cd000 0001b200h .data                   DATA
- 0003:004e9000 0004f400h .bss                    BSS
-
-
-Detailed map of segments
-
- 0001:00000000 000cb600 C=CODE     S=BEGTEXT  G=(none)   M=nfsw   ACBP=A9
- 0002:00000000 0001b200 C=DATA     S=DGROUP   G=DGROUP   M=nfsw   ACBP=A9
- 0003:00000000 0004f400 C=BSS      S=.bss     G=DGROUP   M=nfsw   ACBP=A9
-
-
-  Address        Publics by Name
-
 // GLOBAL: 0001:00070da4 Stattool_CreateIndex_ 00471da4 (code)
 // GLOBAL: 0001:00070f60 Stattool_nCreateIndex_ 00471f60 (code)
 // GLOBAL: 0001:00071122 Stattool_GetFileName_ 00472122 (code)
@@ -56,6 +37,3 @@ Detailed map of segments
 // GLOBAL: 0002:000125aa _secChar 004df5aa (data)
 // GLOBAL: 0002:000125b0 _citeronText 004df5b0 (static pubdef) (data)
 // GLOBAL: 0002:000125b8 _AInames 004df5b8 (static pubdef) (data)
-
-
-Program entry point at 0001:000872e6

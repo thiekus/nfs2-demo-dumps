@@ -1,22 +1,3 @@
- nfsw
-
- Preferred load address is 00400000
-
- Start         Length     Name                   Class
- 0001:00401000 000cb600h .text                   CODE
- 0002:004cd000 0001b200h .data                   DATA
- 0003:004e9000 0004f400h .bss                    BSS
-
-
-Detailed map of segments
-
- 0001:00000000 000cb600 C=CODE     S=BEGTEXT  G=(none)   M=nfsw   ACBP=A9
- 0002:00000000 0001b200 C=DATA     S=DGROUP   G=DGROUP   M=nfsw   ACBP=A9
- 0003:00000000 0004f400 C=BSS      S=.bss     G=DGROUP   M=nfsw   ACBP=A9
-
-
-  Address        Publics by Name
-
 // GLOBAL: 0001:00061c35 Mainmenu_checkTournamentTrack_ 00462c35 (code)
 // GLOBAL: 0001:00061ccc MainMenu_MainMenu_ 00462ccc (code)
 // GLOBAL: 0001:00062489 CrossFadeSlider_ 00463489 (code)
@@ -48,6 +29,3 @@ Detailed map of segments
 // GLOBAL: 0003:00033d78 _iconsOn 0051cd78 (bss)
 // GLOBAL: 0003:00033d7a _valueShowing 0051cd7a (bss)
 // GLOBAL: 0003:00033d7c _prevKey 0051cd7c (bss)
-
-
-Program entry point at 0001:000872e6

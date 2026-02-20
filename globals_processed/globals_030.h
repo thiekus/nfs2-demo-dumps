@@ -1,22 +1,3 @@
- nfsw
-
- Preferred load address is 00400000
-
- Start         Length     Name                   Class
- 0001:00401000 000cb600h .text                   CODE
- 0002:004cd000 0001b200h .data                   DATA
- 0003:004e9000 0004f400h .bss                    BSS
-
-
-Detailed map of segments
-
- 0001:00000000 000cb600 C=CODE     S=BEGTEXT  G=(none)   M=nfsw   ACBP=A9
- 0002:00000000 0001b200 C=DATA     S=DGROUP   G=DGROUP   M=nfsw   ACBP=A9
- 0003:00000000 0004f400 C=BSS      S=.bss     G=DGROUP   M=nfsw   ACBP=A9
-
-
-  Address        Publics by Name
-
 // GLOBAL: 0001:0002fded Nfs2_SystemNLibStartUp_ 00430ded (code)
 // GLOBAL: 0001:0002fe11 Nfs2_SystemNLibCleanUp_ 00430e11 (code)
 // GLOBAL: 0001:0002fe30 Nfs2_BefuddleCode_ 00430e30 (code)
@@ -45,6 +26,3 @@ Detailed map of segments
 // GLOBAL: 0003:00007e68 _befuddleTemp 004f0e68 (bss)
 // GLOBAL: 0003:00007e72 _frontEnd 004f0e72 (bss)
 // GLOBAL: 0003:0000810b _gSaveTournament_alloc 004f110b (bss)
-
-
-Program entry point at 0001:000872e6

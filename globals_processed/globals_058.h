@@ -1,22 +1,3 @@
- nfsw
-
- Preferred load address is 00400000
-
- Start         Length     Name                   Class
- 0001:00401000 000cb600h .text                   CODE
- 0002:004cd000 0001b200h .data                   DATA
- 0003:004e9000 0004f400h .bss                    BSS
-
-
-Detailed map of segments
-
- 0001:00000000 000cb600 C=CODE     S=BEGTEXT  G=(none)   M=nfsw   ACBP=A9
- 0002:00000000 0001b200 C=DATA     S=DGROUP   G=DGROUP   M=nfsw   ACBP=A9
- 0003:00000000 0004f400 C=BSS      S=.bss     G=DGROUP   M=nfsw   ACBP=A9
-
-
-  Address        Publics by Name
-
 // GLOBAL: 0001:0004b07c ModemReg_FindNext_ 0044c07c (code)
 // GLOBAL: 0001:0004b0e1 ModemReg_FindFirst_ 0044c0e1 (static pubdef) (code)
 // GLOBAL: 0001:0004b1d2 ModemReg_OpenRootKey_ 0044c1d2 (static pubdef) (code)
@@ -27,6 +8,3 @@ Detailed map of segments
 // GLOBAL: 0001:0004b8d3 ModemReg_IsDialTypeTone_ 0044c8d3 (static pubdef) (code)
 // GLOBAL: 0002:0000ef88 _modemList 004dbf88 (static pubdef) (data)
 // GLOBAL: 0002:0000ef8c _regInfo 004dbf8c (static pubdef) (data)
-
-
-Program entry point at 0001:000872e6

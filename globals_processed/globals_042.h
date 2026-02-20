@@ -1,22 +1,3 @@
- nfsw
-
- Preferred load address is 00400000
-
- Start         Length     Name                   Class
- 0001:00401000 000cb600h .text                   CODE
- 0002:004cd000 0001b200h .data                   DATA
- 0003:004e9000 0004f400h .bss                    BSS
-
-
-Detailed map of segments
-
- 0001:00000000 000cb600 C=CODE     S=BEGTEXT  G=(none)   M=nfsw   ACBP=A9
- 0002:00000000 0001b200 C=DATA     S=DGROUP   G=DGROUP   M=nfsw   ACBP=A9
- 0003:00000000 0004f400 C=BSS      S=.bss     G=DGROUP   M=nfsw   ACBP=A9
-
-
-  Address        Publics by Name
-
 // GLOBAL: 0001:000425e6 Sim_CaptureScreen_ 004435e6 (code)
 // GLOBAL: 0001:0004263a Sim_StartUp_ 0044363a (code)
 // GLOBAL: 0001:0004273e Sim_Restart_ 0044373e (code)
@@ -32,6 +13,3 @@ Detailed map of segments
 // GLOBAL: 0003:0002752c _skipRender 0051052c (bss)
 // GLOBAL: 0003:00027530 _unPauseDelay 00510530 (bss)
 // GLOBAL: 0003:00027534 _simGlobal 00510534 (bss)
-
-
-Program entry point at 0001:000872e6

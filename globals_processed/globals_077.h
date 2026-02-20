@@ -1,22 +1,3 @@
- nfsw
-
- Preferred load address is 00400000
-
- Start         Length     Name                   Class
- 0001:00401000 000cb600h .text                   CODE
- 0002:004cd000 0001b200h .data                   DATA
- 0003:004e9000 0004f400h .bss                    BSS
-
-
-Detailed map of segments
-
- 0001:00000000 000cb600 C=CODE     S=BEGTEXT  G=(none)   M=nfsw   ACBP=A9
- 0002:00000000 0001b200 C=DATA     S=DGROUP   G=DGROUP   M=nfsw   ACBP=A9
- 0003:00000000 0004f400 C=BSS      S=.bss     G=DGROUP   M=nfsw   ACBP=A9
-
-
-  Address        Publics by Name
-
 // GLOBAL: 0001:0005f148 Sfx_LoadSfxTexture_ 00460148 (code)
 // GLOBAL: 0001:0005f1ab Sfx_RegisterModule_ 004601ab (code)
 // GLOBAL: 0001:0005f24b Sfx_InitTexture_ 0046024b (code)
@@ -39,6 +20,3 @@ Detailed map of segments
 // GLOBAL: 0003:00033bf8 _gGravelPixMap 0051cbf8 (bss)
 // GLOBAL: 0003:00033c1c _Sfx_gYShift 0051cc1c (bss)
 // GLOBAL: 0003:00033c1d _Sfx_gXShift 0051cc1d (bss)
-
-
-Program entry point at 0001:000872e6

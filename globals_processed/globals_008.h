@@ -1,22 +1,3 @@
- nfsw
-
- Preferred load address is 00400000
-
- Start         Length     Name                   Class
- 0001:00401000 000cb600h .text                   CODE
- 0002:004cd000 0001b200h .data                   DATA
- 0003:004e9000 0004f400h .bss                    BSS
-
-
-Detailed map of segments
-
- 0001:00000000 000cb600 C=CODE     S=BEGTEXT  G=(none)   M=nfsw   ACBP=A9
- 0002:00000000 0001b200 C=DATA     S=DGROUP   G=DGROUP   M=nfsw   ACBP=A9
- 0003:00000000 0004f400 C=BSS      S=.bss     G=DGROUP   M=nfsw   ACBP=A9
-
-
-  Address        Publics by Name
-
 // GLOBAL: 0001:00010e12 VertexServer_GetBlockOfVertices_ 00411e12 (code)
 // GLOBAL: 0001:00010e4c GetRezIndex_ 00411e4c (code)
 // GLOBAL: 0001:00010ed0 BWorld_SetTrackNumber_ 00411ed0 (code)
@@ -117,6 +98,3 @@ Detailed map of segments
 // GLOBAL: 0003:00006d68 _gStmHandle 004efd68 (bss)
 // GLOBAL: 0003:00006d6c _gMaxChunkInd 004efd6c (bss)
 // GLOBAL: 0003:00006d70 _chunkList 004efd70 (bss)
-
-
-Program entry point at 0001:000872e6

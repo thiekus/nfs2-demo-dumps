@@ -1,22 +1,3 @@
- nfsw
-
- Preferred load address is 00400000
-
- Start         Length     Name                   Class
- 0001:00401000 000cb600h .text                   CODE
- 0002:004cd000 0001b200h .data                   DATA
- 0003:004e9000 0004f400h .bss                    BSS
-
-
-Detailed map of segments
-
- 0001:00000000 000cb600 C=CODE     S=BEGTEXT  G=(none)   M=nfsw   ACBP=A9
- 0002:00000000 0001b200 C=DATA     S=DGROUP   G=DGROUP   M=nfsw   ACBP=A9
- 0003:00000000 0004f400 C=BSS      S=.bss     G=DGROUP   M=nfsw   ACBP=A9
-
-
-  Address        Publics by Name
-
 // GLOBAL: 0001:0005a7d3 _NFSID 0045b7d3 (static pubdef) (code)
 // GLOBAL: 0001:0005a7f0 NET_FindNextService_ 0045b7f0 (code)
 // GLOBAL: 0001:0005a8a2 NET_GetGameList_ 0045b8a2 (code)
@@ -54,6 +35,3 @@ Detailed map of segments
 // GLOBAL: 0003:000323e8 _NumClients_WaitingOrConnected 0051b3e8 (static pubdef) (bss)
 // GLOBAL: 0003:000323ec _numServices 0051b3ec (static pubdef) (bss)
 // GLOBAL: 0003:000323f0 _GameListItems 0051b3f0 (static pubdef) (bss)
-
-
-Program entry point at 0001:000872e6

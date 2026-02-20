@@ -1,22 +1,3 @@
- nfsw
-
- Preferred load address is 00400000
-
- Start         Length     Name                   Class
- 0001:00401000 000cb600h .text                   CODE
- 0002:004cd000 0001b200h .data                   DATA
- 0003:004e9000 0004f400h .bss                    BSS
-
-
-Detailed map of segments
-
- 0001:00000000 000cb600 C=CODE     S=BEGTEXT  G=(none)   M=nfsw   ACBP=A9
- 0002:00000000 0001b200 C=DATA     S=DGROUP   G=DGROUP   M=nfsw   ACBP=A9
- 0003:00000000 0004f400 C=BSS      S=.bss     G=DGROUP   M=nfsw   ACBP=A9
-
-
-  Address        Publics by Name
-
 // GLOBAL: 0001:00021741 CHECK_CENTER_VERTEX_WITH_DIRS_ 00422741 (code)
 // GLOBAL: 0001:00021ac5 CHECK_CENTER_VERTEX_WITH_DIRS_OTHER_ 00422ac5 (code)
 // GLOBAL: 0001:00021e57 CHECK_VERTEX_WITH_DIRS_ 00422e57 (code)
@@ -67,6 +48,3 @@ Detailed map of segments
 // GLOBAL: 0003:00007484 _xRange 004f0484 (static pubdef) (bss)
 // GLOBAL: 0003:00007488 _findClosestSideDave 004f0488 (bss)
 // GLOBAL: 0003:0000748c _Collide_gLastObjectFixedObjectCollisionVertexVelocity 004f048c (bss)
-
-
-Program entry point at 0001:000872e6

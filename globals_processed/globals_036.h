@@ -1,22 +1,3 @@
- nfsw
-
- Preferred load address is 00400000
-
- Start         Length     Name                   Class
- 0001:00401000 000cb600h .text                   CODE
- 0002:004cd000 0001b200h .data                   DATA
- 0003:004e9000 0004f400h .bss                    BSS
-
-
-Detailed map of segments
-
- 0001:00000000 000cb600 C=CODE     S=BEGTEXT  G=(none)   M=nfsw   ACBP=A9
- 0002:00000000 0001b200 C=DATA     S=DGROUP   G=DGROUP   M=nfsw   ACBP=A9
- 0003:00000000 0004f400 C=BSS      S=.bss     G=DGROUP   M=nfsw   ACBP=A9
-
-
-  Address        Publics by Name
-
 // GLOBAL: 0001:0003b164 R3DCar_DoSpoilerActionNull_ 0043c164 (code)
 // GLOBAL: 0001:0003b190 R3DCar_DoSpoilerActionIsdera_ 0043c190 (code)
 // GLOBAL: 0001:0003b237 R3DCar_DoSpoilerActionMacF1_ 0043c237 (code)
@@ -54,6 +35,3 @@ Detailed map of segments
 // GLOBAL: 0003:00008610 _R3DCar_carVisibilityInfo 004f1610 (static pubdef) (bss)
 // GLOBAL: 0003:000087d0 _R3DCar_kLoadedScenePointer 004f17d0 (bss)
 // GLOBAL: 0003:0000889c _R3DCar_carDetailInfo 004f189c (static pubdef) (bss)
-
-
-Program entry point at 0001:000872e6

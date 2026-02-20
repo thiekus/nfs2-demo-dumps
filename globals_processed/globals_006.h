@@ -1,22 +1,3 @@
- nfsw
-
- Preferred load address is 00400000
-
- Start         Length     Name                   Class
- 0001:00401000 000cb600h .text                   CODE
- 0002:004cd000 0001b200h .data                   DATA
- 0003:004e9000 0004f400h .bss                    BSS
-
-
-Detailed map of segments
-
- 0001:00000000 000cb600 C=CODE     S=BEGTEXT  G=(none)   M=nfsw   ACBP=A9
- 0002:00000000 0001b200 C=DATA     S=DGROUP   G=DGROUP   M=nfsw   ACBP=A9
- 0003:00000000 0004f400 C=BSS      S=.bss     G=DGROUP   M=nfsw   ACBP=A9
-
-
-  Address        Publics by Name
-
 // GLOBAL: 0001:0000f021 AudioClc_SoundCars_ 00410021 (code)
 // GLOBAL: 0001:0000f152 AudioClc_InitSource_ 00410152 (code)
 // GLOBAL: 0001:0000f1bb AudioClc_StartUp_ 004101bb (code)
@@ -34,6 +15,3 @@ Detailed map of segments
 // GLOBAL: 0003:000009f0 _AudioClc_gHornCar 004e99f0 (bss)
 // GLOBAL: 0003:000009f4 _AudioClc_gHornOn 004e99f4 (bss)
 // GLOBAL: 0003:000009f8 _AudioClc_gHorn 004e99f8 (bss)
-
-
-Program entry point at 0001:000872e6
