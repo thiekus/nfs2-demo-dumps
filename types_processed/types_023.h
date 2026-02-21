@@ -226,7 +226,7 @@ struct GameSetup_tData
     /* offset = 0x01d4 [468] */
     short KnockoutAdvanceFlag[8];
     /* offset = 0x01e4 [484] */
-    short NameList[9][8];
+    short NameList[8][9];
 };
 #pragma pack(pop)
 

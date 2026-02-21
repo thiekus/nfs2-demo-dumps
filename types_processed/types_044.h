@@ -174,9 +174,9 @@ enum VALIDITY: unsigned char
 struct sim_queue
 {
     /* offset = 0x0000 [0] */
-    Input_tResults Buffer[128][8];
+    Input_tResults Buffer[8][128];
     /* offset = 0x0000 [0] */
-    VALIDITY Validity[128][8];
+    VALIDITY Validity[8][128];
     /* offset = 0x0000 [0] */
     int HeadTime;
     /* offset = 0x0004 [4] */

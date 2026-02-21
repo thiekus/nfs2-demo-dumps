@@ -138,4 +138,4 @@ typedef short tAccTable[112];
 
 /* NAME TYPE ADDR: 0250: NAME(62) */
 /* BASE TYPE ADDR: 024C: BYTE_INDEX ARRAY(61) */
-typedef int CarLogic_tObservations[3][18];
+typedef int CarLogic_tObservations[18][3];

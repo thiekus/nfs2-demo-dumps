@@ -338,7 +338,7 @@ struct tfrontEnd
     /* offset = 0x00d0 [208] */
     int keyShiftDowns[2];
     /* offset = 0x00d8 [216] */
-    char playerNameList[9][8];
+    char playerNameList[8][9];
     /* offset = 0x0120 [288] */
     char remote;
     /* offset = 0x0121 [289] */
@@ -358,13 +358,13 @@ struct tfrontEnd
     /* offset = 0x0128 [296] */
     char forceVolume;
     /* offset = 0x0129 [297] */
-    short joyLoMin[6][2];
+    short joyLoMin[2][6];
     /* offset = 0x0141 [321] */
-    short joyLoMax[6][2];
+    short joyLoMax[2][6];
     /* offset = 0x0159 [345] */
-    short joyHiMin[6][2];
+    short joyHiMin[2][6];
     /* offset = 0x0171 [369] */
-    short joyHiMax[6][2];
+    short joyHiMax[2][6];
     /* offset = 0x0189 [393] */
     short joyButtons[2];
     /* offset = 0x018d [397] */

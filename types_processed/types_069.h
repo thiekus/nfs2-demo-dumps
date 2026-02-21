@@ -92,7 +92,7 @@ typedef short Draw_tContext;
 struct Pal_Light
 {
     /* offset = 0x0000 [0] */
-    char lighttable[256][16];
+    char lighttable[16][256];
 };
 #pragma pack(pop)
 

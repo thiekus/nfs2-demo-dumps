@@ -83,7 +83,7 @@ typedef int fixed248;
 
 /* NAME TYPE ADDR: 0178: NAME(41) */
 /* BASE TYPE ADDR: 0174: BYTE_INDEX ARRAY(40) */
-typedef char grid_t[12][4];
+typedef char grid_t[4][12];
 
 /* NAME TYPE ADDR: 02E3: NAME(47) */
 /* BASE TYPE ADDR: 0192: FIELD_LIST(46) */

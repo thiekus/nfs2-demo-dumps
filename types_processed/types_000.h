@@ -138,11 +138,11 @@ typedef short tAccTable[112];
 
 /* NAME TYPE ADDR: 0250: NAME(62) */
 /* BASE TYPE ADDR: 024C: BYTE_INDEX ARRAY(61) */
-typedef int CarLogic_tObservations[3][18];
+typedef int CarLogic_tObservations[18][3];
 
 /* NAME TYPE ADDR: 0272: NAME(65) */
 /* BASE TYPE ADDR: 026E: BYTE_INDEX ARRAY(64) */
-typedef char grid_t[12][4];
+typedef char grid_t[4][12];
 
 /* NAME TYPE ADDR: 03D9: NAME(70) */
 /* BASE TYPE ADDR: 0288: FIELD_LIST(69) */
@@ -1324,7 +1324,7 @@ struct glueConfigStruct
     /* offset = 0x0000 [0] */
     int overall[2];
     /* offset = 0x0008 [8] */
-    int laps[2][3];
+    int laps[3][2];
     /* offset = 0x0020 [32] */
     int style[2][2];
     /* offset = 0x0030 [48] */

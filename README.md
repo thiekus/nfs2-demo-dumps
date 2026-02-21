@@ -49,7 +49,7 @@ map2pdb -v nfsw.map
 Then put `nfsw.pdb` on same directory as `nfsw.exe`. I tested some programs which is able to read symbols from fake pdb such as:
 
 * OllyDbg v2
-* Cheat Engine v7.6
+* Cheat Engine v7.6 (only works on Windows, not Wine)
 * Ghidra 12 (you must not make analysis first, load from menu file > load PDB. It will complain PDB is mismatch but just proceed anyway. Uncheck `Function ID` before start analysis).
 
 However it didn't works:

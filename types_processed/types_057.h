@@ -166,7 +166,7 @@ struct tEditorText
     /* offset = 0x0000 [0] */
     int numLines;
     /* offset = 0x0004 [4] */
-    char line[38][10];
+    char line[10][38];
 };
 #pragma pack(pop)
 

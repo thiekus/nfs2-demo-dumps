@@ -389,7 +389,7 @@ struct tREMOTECONN
     /* offset = 0x0000 [0] */
     tCONN player[7];
     /* offset = 0x00d8 [216] */
-    char playerName[9][8];
+    char playerName[8][9];
 };
 #pragma pack(pop)
 
@@ -435,7 +435,7 @@ struct tCOMPLAYERS
     /* offset = 0x0000 [0] */
     char PKTINDEX;
     /* offset = 0x0001 [1] */
-    char name[9][8];
+    char name[8][9];
     /* offset = 0x0049 [73] */
     short numPlayers;
     /* offset = 0x004b [75] */
