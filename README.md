@@ -51,10 +51,11 @@ Then put `nfsw.pdb` on same directory as `nfsw.exe`. I tested some programs whic
 * OllyDbg v2
 * Cheat Engine v7.6 (only works on Windows, not Wine)
 * Ghidra 12 (you must not make analysis first, load from menu file > load PDB. It will complain PDB is mismatch but just proceed anyway. Uncheck `Function ID` before start analysis).
+* IDA Free v5.0 (uncheck FLIRT on analysis options).
 
-However it didn't works:
+However it didn't works on:
 
-* IDA Pro v9.x (might because IDA read `LOCAL` sections rather than `GLOBAL` section on PDB which map2pdb produced).
+* IDA Pro v9.x (might because later IDA read `LOCAL` sections rather than `GLOBAL` section on PDB which map2pdb produced, workarounds with load `nfsw.exe` from IDA Free 5.0, load PDB from there, then convert IDA database from old 32-bit database to newer one).
 
 ## TODO
 
