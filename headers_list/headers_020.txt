@@ -1,0 +1,2 @@
+C:\nfs2\game\common\fastrand.c
+C:\nfs2\game\common\fastrand.h

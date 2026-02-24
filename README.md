@@ -38,6 +38,8 @@ wdump -q -Dmn nfsw.exe > nfs2_lines.txt
 
 For easier to peek, splitted globals and locals per file were included in this repo. The `globals` directory contains raw wdump output which has splitted per module, resulting `globals_processed`. Also similar for `locals` directory which resulting `types_processed`.
 
+In addition, headers list used by each modules is extracted manually without wdump by directly open `nfsw.exe` using notepad, find the full path module name, then replace null bytes with line breaks symbols. This may useful to find relations of between modules and library used.
+
 ## Making fake PDB
 
 Perhaps the most interesting for modders and reverse engineers is able to read debug information inside EXE. Since original debug information is using pretty uncommon Watcom debug format, we need convert them into fake PDB debug information using [map2pdb](https://github.com/andersmelander/map2pdb) (which originally designed for Delphi/Borland mapfiles format). To produce fake PDB:

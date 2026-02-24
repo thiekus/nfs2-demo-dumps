@@ -1,0 +1,10 @@
+C:\nfs2\game\common\simrdr.c
+C:\nfs2\eaclib\win\eac.h
+C:\WATCOM\H\stdio.h
+C:\nfs2\eaclib\win\eaccode.h
+C:\nfs2\eaclib\win\eacdebug.h
+C:\nfs2\eaclib\win\eacfile.h
+C:\nfs2\eaclib\win\eactask.h
+C:\WATCOM\H\string.h
+C:\nfs2\game\common\simrdr.h
+C:\WATCOM\H\assert.h

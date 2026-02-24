@@ -1,0 +1,11 @@
+C:\nfs2\game\pc\stmrdpc.c
+C:\nfs2\eaclib\win\eac.h
+C:\WATCOM\H\stdio.h
+C:\nfs2\eaclib\win\eaccode.h
+C:\nfs2\eaclib\win\eacdebug.h
+C:\nfs2\eaclib\win\eacfile.h
+C:\nfs2\eaclib\win\eactask.h
+C:\nfs2\game\common\trkstrm.h
+C:\nfs2\game\common\stmpriv.h
+C:\WATCOM\H\assert.h
+C:\WATCOM\H\string.h

@@ -1,0 +1,16 @@
+C:\nfs2\game\common\udff.c
+C:\nfs2\game\common\GenNfs2.h
+C:\WATCOM\H\stdio.h
+C:\WATCOM\H\string.h
+C:\WATCOM\H\stdarg.h
+C:\nfs2\eaclib\win\eac.h
+C:\nfs2\eaclib\win\eaccode.h
+C:\nfs2\eaclib\win\eacdebug.h
+C:\nfs2\eaclib\win\eacx.h
+C:\nfs2\eaclib\win\eacmath.h
+C:\nfs2\eaclib\win\eacfile.h
+C:\nfs2\eaclib\win\eactask.h
+C:\nfs2\game\common\paths.h
+C:\nfs2\game\common\Channel.h
+C:\nfs2\game\common\mathNFS.h
+C:\nfs2\game\common\udff.h
